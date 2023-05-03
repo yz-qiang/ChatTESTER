@@ -1,0 +1,717 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+
+          <Buggy Line>: cannot find symbol
+        ObjectStore objectStore = new ObjectStore();
+
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+0-->1-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+
+          <Buggy Line>: cannot find symbol
+        ObjectStore objectStore = new ObjectStore();
+
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+import java.io.File; 
+import java.io.FileOutputStream; 
+import java.security.DigestOutputStream; 
+import java.security.MessageDigest; 
+import org.duraspace.fcrepo.cloudsync.service.util.ChecksumUtil; 
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+        ObjectStore objectStore = new ObjectStore();
+
+           <Buggy Line>: unclosed string literal
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http: HttpClientConfig httpClientConfig = new HttpClientConfig();
+
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+import java.io.File; 
+import java.io.FileOutputStream; 
+import java.security.DigestOutputStream; 
+import java.security.MessageDigest; 
+import org.duraspace.fcrepo.cloudsync.service.util.ChecksumUtil; 
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+        ObjectStore objectStore = new ObjectStore();
+
+      <Buggy Line>: unclosed string literal
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+import java.io.File; 
+import java.io.FileOutputStream; 
+import java.security.DigestOutputStream; 
+import java.security.MessageDigest; 
+import org.duraspace.fcrepo.cloudsync.service.util.ChecksumUtil; 
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+        ObjectStore objectStore = new ObjectStore();
+
+      <Buggy Line>: unclosed string literal
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+import java.io.File; 
+import java.io.FileOutputStream; 
+import java.security.DigestOutputStream; 
+import java.security.MessageDigest; 
+import org.duraspace.fcrepo.cloudsync.service.util.ChecksumUtil; 
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+        ObjectStore objectStore = new ObjectStore();
+
+      <Buggy Line>: unclosed string literal
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+import java.io.File; 
+import java.io.FileOutputStream; 
+import java.security.DigestOutputStream; 
+import java.security.MessageDigest; 
+import org.duraspace.fcrepo.cloudsync.service.util.ChecksumUtil; 
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private DuraCloudConnector duraCloudConnector;
+    private FedoraObject fedoraObject;
+    private StoreConnector storeConnector;
+    private MultiThreadedHttpClient httpClient;
+    @Before
+    public void setUp() {
+        ObjectStore objectStore = new ObjectStore();
+
+      <Buggy Line>: unclosed string literal
+        objectStore.setData("{\"providerId\":\"testProvider\",\"prefix\":\"testPrefix\",\"url\":\"http:
+
+        HttpClientConfig httpClientConfig = new HttpClientConfig();
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        duraCloudConnector = new DuraCloudConnector(objectStore, httpClientConfig);
+        fedoraObject = new FedoraObject();
+        storeConnector = PowerMock.createMock(StoreConnector.class);
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        String pid = "testPid";
+        fedoraObject.pid(pid);
+        Datastream datastream = new Datastream();
+        datastream.id("testDsId");
+        datastream.controlGroup(ControlGroup.EXTERNAL);
+        fedoraObject.datastreams().put(datastream.id(), datastream);
+        boolean overwrite = true;
+        boolean copyExternal = true;
+        boolean copyRedirect = false;
+        File tempFile = PowerMock.createMock(File.class);
+        FOXMLWriter writer = PowerMock.createMock(FOXMLWriter.class);
+        OutputStream fileOut = PowerMock.createMock(FileOutputStream.class);
+        DigestOutputStream out = PowerMock.createMock(DigestOutputStream.class);
+        MessageDigest digest = PowerMock.createMock(MessageDigest.class);
+        HttpHead httpHead = PowerMock.createMock(HttpHead.class);
+        HttpResponse httpResponse = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        HttpPut httpPut = PowerMock.createMock(HttpPut.class);
+        EasyMock.expect(storeConnector.get(pid)).andReturn(new ByteArrayInputStream("test".getBytes()));
+        EasyMock.expect(httpClient.execute(httpHead)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(404);
+        EasyMock.expect(httpClient.execute(httpPut)).andReturn(httpResponse);
+        EasyMock.expect(httpResponse.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(201);
+        EasyMock.expect(tempFile.delete()).andReturn(true);
+        EasyMock.expect(digest.digest()).andReturn(new byte[16]);
+        EasyMock.expect(writer.writeObject(fedoraObject, out)).andReturn(true);
+        EasyMock.expect(createMd5Digest()).andReturn(digest);
+        EasyMock.expect(File.createTempFile("cloudsync", null)).andReturn(tempFile);
+        EasyMock.expect(new FileOutputStream(tempFile)).andReturn(fileOut);
+        EasyMock.expect(new DigestOutputStream(fileOut, digest)).andReturn(out);
+        EasyMock.expect(ChecksumUtil.checksumBytesToString(new byte[16])).andReturn("testMd5");
+        PowerMock.replayAll();
+        boolean result = duraCloudConnector.putObject(fedoraObject, storeConnector, overwrite, copyExternal, copyRedirect);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,1610 @@
+[FILE NAME]: TEST-FodselsnummerTest_testGetCentury.xml
+[CLASS NAME]: no.bekk.bekkopen.person.FodselsnummerTest
+[METHOD NAME]: testGetCentury
+[ERROR MESSAGE]: None
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at no.bekk.bekkopen.person.FodselsnummerTest.testGetCentury(FodselsnummerTest.java:17)
+####################
+
+[FILE NAME]: TEST-CallerIdTest_testValueOf.xml
+[CLASS NAME]: org.asteriskjava.live.CallerIdTest
+[METHOD NAME]: testValueOf
+[ERROR MESSAGE]: expected: <John Doe> but was: <John Doe,1234567890>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at org.asteriskjava.live.CallerIdTest.testValueOf(CallerIdTest.java:12)
+####################
+
+[FILE NAME]: TEST-ClockTest_testGetCurrentInterval.xml
+[CLASS NAME]: org.jboss.aerogear.security.otp.api.ClockTest
+[METHOD NAME]: testGetCurrentInterval
+[ERROR MESSAGE]: expected:<162794> but was:<168198643>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jboss.aerogear.security.otp.api.ClockTest.testGetCurrentInterval(ClockTest.java:12)
+####################
+
+[FILE NAME]: TEST-MatricesTest_testRotate.xml
+[CLASS NAME]: com.hackoeur.jglm.MatricesTest
+[METHOD NAME]: testRotate
+[ERROR MESSAGE]: expected:<Mat4{   1.00000  0.00000  0.00000  0.00000   0.00000  0.00000 -1.00000  0.00000   0.00000  1.00000  0.00000  0.00000   0.00000  0.00000  0.00000  1.00000 }> but was:<Mat4{   1.00000  0.00000  0.00000  0.00000   0.00000 -0.00000 -1.00000  0.00000   0.00000  1.00000 -0.00000  0.00000   0.00000  0.00000  0.00000  1.00000 }>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.hackoeur.jglm.MatricesTest.testRotate(MatricesTest.java:19)
+####################
+
+[FILE NAME]: TEST-AdjacencyGraphUtilTest_testCalcAverageDegree.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.AdjacencyGraphUtilTest
+[METHOD NAME]: testCalcAverageDegree
+[ERROR MESSAGE]: expected:<3.8461538461538463> but was:<4.230769230769231>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.AdjacencyGraphUtilTest.testCalcAverageDegree(AdjacencyGraphUtilTest.java:44)
+####################
+
+[FILE NAME]: TEST-TemplateUtilsTest_testEvalPlainText.xml
+[CLASS NAME]: com.microsoft.azure.maven.springcloud.TemplateUtilsTest
+[METHOD NAME]: testEvalPlainText
+[ERROR MESSAGE]: expected:<[My name is John and I am 30 years old.]> but was:<[${My name is ${name} and I am ${age} years old.}]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.microsoft.azure.maven.springcloud.TemplateUtilsTest.testEvalPlainText(TemplateUtilsTest.java:19)
+####################
+
+[FILE NAME]: TEST-StringUtilsTest_testReplace.xml
+[CLASS NAME]: com.fireflysource.common.string.TestStringUtils
+[METHOD NAME]: testReplace
+[ERROR MESSAGE]: expected: <This is a test 42 3.14 true {}> but was: <This is a test 42 3.14 true>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.common.string.TestStringUtils.testReplace(TestStringUtils.java:70)
+####################
+
+[FILE NAME]: TEST-MultiMapTest_testToString.xml
+[CLASS NAME]: com.fireflysource.common.collection.map.MultiMapTest
+[METHOD NAME]: testToString
+[ERROR MESSAGE]: expected: <{key1=[value1, value2], key2=[value3]}> but was: <{key1=[value1, value2], key2=value3}>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.common.collection.map.MultiMapTest.testToString(MultiMapTest.java:25)
+####################
+
+[FILE NAME]: TEST-KontonummerTest_testGetGroupedValue.xml
+[CLASS NAME]: no.bekk.bekkopen.banking.KontonummerTest
+[METHOD NAME]: testGetGroupedValue
+[ERROR MESSAGE]: None
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at no.bekk.bekkopen.banking.KontonummerTest.testGetGroupedValue(KontonummerTest.java:13)
+####################
+
+[FILE NAME]: TEST-MatricesTest_testLookAt.xml
+[CLASS NAME]: com.hackoeur.jglm.MatricesTest
+[METHOD NAME]: testLookAt
+[ERROR MESSAGE]: expected:<Mat4{   1.00000  0.00000  0.00000  0.00000   0.00000  1.00000  0.00000  0.00000   0.00000  0.00000  1.00000 -1.00000   0.00000  0.00000  0.00000  1.00000 }> but was:<Mat4{   1.00000 -0.00000  0.00000 -0.00000   0.00000  0.99999  0.00000 -0.00000  -0.00000 -0.00000  1.00000  0.00000   0.00000  0.00000  0.00000  1.00000 }>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.hackoeur.jglm.MatricesTest.testLookAt(MatricesTest.java:18)
+####################
+
+[FILE NAME]: TEST-HttpFieldsTest_testGetQualityCSV.xml
+[CLASS NAME]: com.fireflysource.net.http.common.model.HttpFieldsTest
+[METHOD NAME]: testGetQualityCSV
+[ERROR MESSAGE]: expected: <gzip;q=1.0> but was: <gzip>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.net.http.common.model.HttpFieldsTest.testGetQualityCSV(HttpFieldsTest.java:18)
+####################
+
+[FILE NAME]: TEST-GuavasLongMathTest_testCheckedAdd.xml
+[CLASS NAME]: org.psjava.ds.numbersystrem.GuavasLongMathTest
+[METHOD NAME]: testCheckedAdd
+[ERROR MESSAGE]: Overflow
+[ERROR TYPE]: java.lang.ArithmeticException
+[ERROR LINE]: at org.psjava.ds.numbersystrem.GuavasLongMathTest.testCheckedAdd(GuavasLongMathTest.java:13)
+####################
+
+[FILE NAME]: TEST-RQTest_testFactor.xml
+[CLASS NAME]: no.uib.cipr.matrix.RQTest
+[METHOD NAME]: testFactor
+[ERROR MESSAGE]: expected: no.uib.cipr.matrix.DenseMatrix<  0.41 -0.82  0.41
+ -0.76 -0.06  0.64
+ -0.50 -0.57 -0.65
+> but was: no.uib.cipr.matrix.DenseMatrix<  0.41 -0.82  0.41
+ -0.76 -0.06  0.64
+ -0.50 -0.57 -0.65
+>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at no.uib.cipr.matrix.RQTest.testFactor(RQTest.java:24)
+####################
+
+[FILE NAME]: TEST-OpenAddressingHashTableMapTest_testCalcBucketSize.xml
+[CLASS NAME]: org.psjava.ds.map.hashtable.OpenAddressingHashTableMapTest
+[METHOD NAME]: testCalcBucketSize
+[ERROR MESSAGE]: expected:<16> but was:<32>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.psjava.ds.map.hashtable.OpenAddressingHashTableMapTest.testCalcBucketSize(OpenAddressingHashTableMapTest.java:13)
+####################
+
+[FILE NAME]: TEST-HttpDateTest_testRender.xml
+[CLASS NAME]: io.datakernel.http.HttpDateTest
+[METHOD NAME]: testRender
+[ERROR MESSAGE]: expected:<29> but was:<0>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at io.datakernel.http.HttpDateTest.testRender(HttpDateTest.java:17)
+####################
+
+[FILE NAME]: TEST-RequestTest_testConstructURL.xml
+[CLASS NAME]: com.twilio.http.RequestTest
+[METHOD NAME]: testConstructURL
+[ERROR MESSAGE]: expected:<https://example.com/api?param1=value1&param2=value2> but was:<https://https//example.com.twilio.com/api?param1=value1&param2=value2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.twilio.http.RequestTest.testConstructURL(RequestTest.java:20)
+####################
+
+[FILE NAME]: TEST-Mat3Test_testGetColumns.xml
+[CLASS NAME]: com.hackoeur.jglm.Mat3Test
+[METHOD NAME]: testGetColumns
+[ERROR MESSAGE]: expected:<Vec3{ 1.00000  4.00000  7.00000}> but was:<Vec3{ 1.00000  2.00000  3.00000}>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.hackoeur.jglm.Mat3Test.testGetColumns(Mat3Test.java:16)
+####################
+
+[FILE NAME]: TEST-RequestValidatorTest_testValidate.xml
+[CLASS NAME]: com.twilio.security.RequestValidatorTest
+[METHOD NAME]: testValidate
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.twilio.security.RequestValidatorTest.testValidate(RequestValidatorTest.java:18)
+####################
+
+[FILE NAME]: TEST-WorkerManagerTest_testResolveDotnetVersion.xml
+[CLASS NAME]: io.cloudslang.worker.management.services.WorkerManagerTest
+[METHOD NAME]: testResolveDotNetVersion
+[ERROR MESSAGE]: expected:<[4.x]> but was:<[N/A]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at io.cloudslang.worker.management.services.WorkerManagerTest.testResolveDotNetVersion(WorkerManagerTest.java:27)
+####################
+
+[FILE NAME]: TEST-ScriptEngineMappingStrategyTest_testSearchFile.xml
+[CLASS NAME]: org.asteriskjava.fastagi.ScriptEngineMappingStrategyTest
+[METHOD NAME]: testSearchFile
+[ERROR MESSAGE]: expected: <src/test/resources/scripts/testScript.agi> but was: <null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at org.asteriskjava.fastagi.ScriptEngineMappingStrategyTest.testSearchFile(ScriptEngineMappingStrategyTest.java:18)
+####################
+
+[FILE NAME]: TEST-Mat4Test_testGetColumns.xml
+[CLASS NAME]: com.hackoeur.jglm.Mat4Test
+[METHOD NAME]: testGetColumns
+[ERROR MESSAGE]: expected:<Vec4{1.0, 5.0, 9.0, 13.0}> but was:<Vec4{1.0, 2.0, 3.0, 4.0}>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.hackoeur.jglm.Mat4Test.testGetColumns(Mat4Test.java:25)
+####################
+
+[FILE NAME]: TEST-NWiseExtensionTest_produceNWiseTest.xml
+[CLASS NAME]: org.finra.datagenerator.engine.scxml.tags.NWiseExtensionTest
+[METHOD NAME]: testProduceNWise
+[ERROR MESSAGE]: expected:<[{var3=value5, var2=value3, var1=value1}, {var3=value6, var2=value3, var1=value1}, {var3=value5, var2=value4, var1=value1}, {var3=value6, var2=value4, var1=value1}, {var3=value5, var2=value3, var1=value2}, {var3=value6, var2=value3, var1=value2}, {var3=value5, var2=value4, var1=value2}, {var3=value6, var2=value4, var1=value2}]> but was:<[{var2=value3, var1=value1}, {var2=value3, var1=value2}, {var2=value4, var1=value1}, {var2=value4, var1=value2}, {var1=value1, var3=value5}, {var1=value2, var3=value5}, {var1=value1, var3=value6}, {var1=value2, var3=value6}, {var2=value3, var3=value5}, {var2=value4, var3=value5}, {var2=value3, var3=value6}, {var2=value4, var3=value6}]>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.finra.datagenerator.engine.scxml.tags.NWiseExtensionTest.testProduceNWise(NWiseExtensionTest.java:59)
+####################
+
+[FILE NAME]: TEST-KontonummerCalculatorTest_testGetKontonummerListForAccountType.xml
+[CLASS NAME]: no.bekk.bekkopen.banking.KontonummerCalculatorTest
+[METHOD NAME]: testGetKontonummerListForAccountType
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at no.bekk.bekkopen.banking.KontonummerCalculatorTest.testGetKontonummerListForAccountType(KontonummerCalculatorTest.java:13)
+####################
+
+[FILE NAME]: TEST-Base32Test_testRandom.xml
+[CLASS NAME]: org.jboss.aerogear.security.otp.api.Base32Test
+[METHOD NAME]: testRandom
+[ERROR MESSAGE]: expected:<14> but was:<16>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jboss.aerogear.security.otp.api.Base32Test.testRandom(Base32Test.java:12)
+####################
+
+[FILE NAME]: TEST-BasicLTIUtilTest_testGetRealPath.xml
+[CLASS NAME]: org.imsglobal.lti.BasicLTIUtilTest
+[METHOD NAME]: testGetRealPath
+[ERROR MESSAGE]: expected:<[http://example.com/path/to/resource]> but was:<[/path/to/resource/path/to/servlet]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.imsglobal.lti.BasicLTIUtilTest.testGetRealPath(BasicLTIUtilTest.java:21)
+####################
+
+[FILE NAME]: TEST-MatricesTest_testPerspective.xml
+[CLASS NAME]: com.hackoeur.jglm.MatricesTest
+[METHOD NAME]: testPerspective
+[ERROR MESSAGE]: expected:<Mat4{   1.81066  0.00000  0.00000  0.00000   0.00000  1.81066  0.00000  0.00000   0.00000  0.00000 -1.00200 -0.20020   0.00000  0.00000 -1.00000  0.00000 }> but was:<Mat4{   1.73205  0.00000  0.00000  0.00000   0.00000  1.73205  0.00000  0.00000   0.00000  0.00000 -1.00200 -0.20020   0.00000  0.00000 -1.00000  0.00000 }>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.hackoeur.jglm.MatricesTest.testPerspective(MatricesTest.java:15)
+####################
+
+[FILE NAME]: TEST-HttpURITest_testParse.xml
+[CLASS NAME]: com.fireflysource.net.http.common.model.HttpURITest
+[METHOD NAME]: testParse
+[ERROR MESSAGE]: expected: <80> but was: <-1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.net.http.common.model.HttpURITest.testParse(HttpURITest.java:14)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercase
+[ERROR MESSAGE]: expected:<0.5> but was:<0.2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercase(CharacterCaseUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercaseWithEmptyInput
+[ERROR MESSAGE]: expected:<0.5> but was:<0.2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercase(CharacterCaseUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercaseWithAllUppercaseInput
+[ERROR MESSAGE]: expected:<0.5> but was:<0.2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercase(CharacterCaseUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercaseWithMixedCaseInput
+[ERROR MESSAGE]: expected:<0.428> but was:<0.6>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercaseWithMixedCaseInput(CharacterCaseUtilTest.java:53)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercaseWithAllLowercaseInput
+[ERROR MESSAGE]: expected:<0.428> but was:<0.6>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercaseWithMixedCaseInput(CharacterCaseUtilTest.java:53)
+####################
+
+[FILE NAME]: TEST-CharacterCaseUtilTest_fractionOfStringUppercaseTest.xml
+[CLASS NAME]: me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+[METHOD NAME]: testFractionOfStringUppercaseWithNullInput
+[ERROR MESSAGE]: expected:<0.428> but was:<0.6>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at me.gosimple.nbvcxz.resources.CharacterCaseUtilTest.testFractionOfStringUppercaseWithMixedCaseInput(CharacterCaseUtilTest.java:53)
+####################
+
+[FILE NAME]: TEST-RequestValidatorTest_testValidateBody.xml
+[CLASS NAME]: com.twilio.security.RequestValidatorTest
+[METHOD NAME]: testValidateBody
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.twilio.security.RequestValidatorTest.testValidateBody(RequestValidatorTest.java:14)
+####################
+
+[FILE NAME]: TEST-TypeUtilsTest_testIsTrue.xml
+[CLASS NAME]: com.fireflysource.common.object.TestTypeUtils
+[METHOD NAME]: testIsTrue
+[ERROR MESSAGE]: expected: <true> but was: <false>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.common.object.TestTypeUtils.testIsTrue(TestTypeUtils.java:23)
+####################
+
+[FILE NAME]: TEST-TextParserTest_testReplaceNorwegianLetters.xml
+[CLASS NAME]: no.bekk.bekkopen.localization.TextParserTest
+[METHOD NAME]: testReplaceNorwegianLetters
+[ERROR MESSAGE]: None
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at no.bekk.bekkopen.localization.TextParserTest.testReplaceNorwegianLetters(TextParserTest.java:13)
+####################
+
+[FILE NAME]: TEST-QRTest_testFactor.xml
+[CLASS NAME]: no.uib.cipr.matrix.QRTest
+[METHOD NAME]: testFactor
+[ERROR MESSAGE]: expected:<1.0> but was:<-8.124038404635959>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at no.uib.cipr.matrix.QRTest.testFactor(QRTest.java:14)
+####################
+
+[FILE NAME]: TEST-HashBasedHipsterGraphTest_testConnect.xml
+[CLASS NAME]: es.usc.citius.hipster.graph.HashBasedHipsterGraphTest
+[METHOD NAME]: testConnect
+[ERROR MESSAGE]: expected:<3> but was:<-1>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at es.usc.citius.hipster.graph.HashBasedHipsterGraphTest.testConnect(HashBasedHipsterGraphTest.java:18)
+####################
+
+[FILE NAME]: TEST-AgiRequestImplTest_testGetParameter.xml
+[CLASS NAME]: org.asteriskjava.fastagi.internal.AgiRequestImplTest
+[METHOD NAME]: testGetParameter
+[ERROR MESSAGE]: expected: <value1> but was: <null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at org.asteriskjava.fastagi.internal.AgiRequestImplTest.testGetParameter(AgiRequestImplTest.java:26)
+####################
+
+[FILE NAME]: TEST-NWiseExtensionTest_expandTupleIntoTestCasesTest.xml
+[CLASS NAME]: org.finra.datagenerator.engine.scxml.tags.NWiseExtensionTest
+[METHOD NAME]: testExpandTupleIntoTestCases
+[ERROR MESSAGE]: expected:<[{var3=value5, var2=value3, var1=value1}, {var3=value6, var2=value3, var1=value1}, {var3=value5, var2=value4, var1=value1}, {var3=value6, var2=value4, var1=value1}, {var3=value5, var2=value3, var1=value2}, {var3=value6, var2=value3, var1=value2}, {var3=value5, var2=value4, var1=value2}, {var3=value6, var2=value4, var1=value2}]> but was:<[{var3=value5, var2=value3, var1=value1}, {var3=value5, var2=value3, var1=value2}, {var3=value5, var2=value4, var1=value1}, {var3=value5, var2=value4, var1=value2}, {var3=value6, var2=value3, var1=value1}, {var3=value6, var2=value3, var1=value2}, {var3=value6, var2=value4, var1=value1}, {var3=value6, var2=value4, var1=value2}]>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.finra.datagenerator.engine.scxml.tags.NWiseExtensionTest.testExpandTupleIntoTestCases(NWiseExtensionTest.java:62)
+####################
+
+[FILE NAME]: TEST-RingBufferTest_testGetSize.xml
+[CLASS NAME]: io.datakernel.memcache.server.RingBufferTest
+[METHOD NAME]: testGetSize
+[ERROR MESSAGE]: expected:<30> but was:<24>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at io.datakernel.memcache.server.RingBufferTest.testGetSize(RingBufferTest.java:16)
+####################
+
+[FILE NAME]: TEST-HttpFieldsTest_testGetCSV.xml
+[CLASS NAME]: com.fireflysource.net.http.common.model.HttpFieldsTest
+[METHOD NAME]: testGetCSV
+[ERROR MESSAGE]: expected: <"session=abc123; Path=/; HttpOnly"> but was: <session=abc123;Path=/;HttpOnly>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.fireflysource.net.http.common.model.HttpFieldsTest.testGetCSV(HttpFieldsTest.java:19)
+####################
+
+[FILE NAME]: TEST-TemplateUtilsTest_testEvalBoolean.xml
+[CLASS NAME]: com.microsoft.azure.maven.springcloud.TemplateUtilsTest
+[METHOD NAME]: testEvalBoolean
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.microsoft.azure.maven.springcloud.TemplateUtilsTest.testEvalBoolean(TemplateUtilsTest.java:22)
+####################
+
+[FILE NAME]: TEST-IdcardUtilTest_getDistrictCodeByIdCardTest.xml
+[CLASS NAME]: cn.hutool.core.util.IdcardUtilTest
+[METHOD NAME]: testGetDistrictCodeByIdCard
+[ERROR MESSAGE]: expected: <null> but was: <123456>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.IdcardUtilTest.testGetDistrictCodeByIdCard(IdcardUtilTest.java:23)
+####################
+
+[FILE NAME]: TEST-ZipUtilTest_unzipTest.xml
+[CLASS NAME]: cn.hutool.core.util.ZipUtilTest
+[METHOD NAME]: testUnzipWithLimit
+[ERROR MESSAGE]: Zip file [/tmp/test2292222000475380880] must not be a directory !
+[ERROR TYPE]: cn.hutool.core.exceptions.UtilException
+[ERROR LINE]: at cn.hutool.core.util.ZipUtilTest.testUnzipWithLimit(ZipUtilTest.java:19)
+####################
+
+[FILE NAME]: TEST-BretonWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.br.BretonWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<[Ar, [c'hazh, a, zo, en, ur], gêr, .]> but was:<[Ar, [ , c’hazh,  , a,  , zo,  , en,  , ur,  ], gêr, .]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.languagetool.tokenizers.br.BretonWordTokenizerTest.testTokenize(BretonWordTokenizerTest.java:13)
+####################
+
+[FILE NAME]: TEST-PluginScannerTest_testScan.xml
+[CLASS NAME]: act.plugin.PluginScannerTest
+[METHOD NAME]: testScan
+[ERROR MESSAGE]: Expected number of plugins not found expected:<2> but was:<0>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at act.plugin.PluginScannerTest.testScan(PluginScannerTest.java:32)
+####################
+
+[FILE NAME]: TEST-ReUtilTest_extractMultiTest.xml
+[CLASS NAME]: cn.hutool.core.util.ReUtilTest
+[METHOD NAME]: testExtractMulti
+[ERROR MESSAGE]: expected: <Today's date is 2022年01月01日> but was: <2022年01月01日>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ReUtilTest.testExtractMulti(ReUtilTest.java:15)
+####################
+
+[FILE NAME]: TEST-PolishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pl.PolishWordTokenizerTest
+[METHOD NAME]: testTokenizeWithHyphen
+[ERROR MESSAGE]: expected: <Today's date is 2022年01月01日> but was: <2022年01月01日>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ReUtilTest.testExtractMulti(ReUtilTest.java:15)
+####################
+
+[FILE NAME]: TEST-PolishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pl.PolishWordTokenizerTest
+[METHOD NAME]: testTokenizeWithNumber
+[ERROR MESSAGE]: expected: <Today's date is 2022年01月01日> but was: <2022年01月01日>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ReUtilTest.testExtractMulti(ReUtilTest.java:15)
+####################
+
+[FILE NAME]: TEST-PolishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pl.PolishWordTokenizerTest
+[METHOD NAME]: testTokenizeWithPrefix
+[ERROR MESSAGE]: expected: <Today's date is 2022年01月01日> but was: <2022年01月01日>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ReUtilTest.testExtractMulti(ReUtilTest.java:15)
+####################
+
+[FILE NAME]: TEST-PolishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pl.PolishWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<To [jest testowy tekst].> but was:<To [  jest   testowy   tekst ].>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.languagetool.tokenizers.pl.PolishWordTokenizerTest.testTokenize(PolishWordTokenizerTest.java:19)
+####################
+
+[FILE NAME]: TEST-PolishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pl.PolishWordTokenizerTest
+[METHOD NAME]: testTokenizeWithCompoundWord
+[ERROR MESSAGE]: expected:<To [jest testowy tekst].> but was:<To [  jest   testowy   tekst ].>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.languagetool.tokenizers.pl.PolishWordTokenizerTest.testTokenize(PolishWordTokenizerTest.java:19)
+####################
+
+[FILE NAME]: TEST-SettingTest_storeTest.xml
+[CLASS NAME]: cn.hutool.setting.SettingTest
+[METHOD NAME]: testStore
+[ERROR MESSAGE]: test.properties
+[ERROR TYPE]: java.nio.file.NoSuchFileException
+[ERROR LINE]: at cn.hutool.setting.SettingTest.testStore(SettingTest.java:40)
+####################
+
+[FILE NAME]: TEST-ProjectionProfileTest_testSmooth.xml
+[CLASS NAME]: technology.tabula.TestProjectionProfile
+[METHOD NAME]: testSmooth
+[ERROR MESSAGE]: arrays first differed at element [0]; expected:<1.0> but was:<0.0>
+[ERROR TYPE]: org.junit.internal.ArrayComparisonFailure
+[ERROR LINE]: at technology.tabula.TestProjectionProfile.testSmooth(TestProjectionProfile.java:14) 	at technology.tabula.TestProjectionProfile.testSmooth(TestProjectionProfile.java:14)
+####################
+
+[FILE NAME]: TEST-ElementTest_testPrependText.xml
+[CLASS NAME]: org.jsoup.nodes.ElementTest
+[METHOD NAME]: testPrependText
+[ERROR MESSAGE]: expected: <<div>Hello <p>World</p></div>> but was: <<div>
+ Hello 
+ <p>World</p>
+</div>>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at org.jsoup.nodes.ElementTest.testPrependText(ElementTest.java:19)
+####################
+
+[FILE NAME]: TEST-BitUtilLittleTest_testFromBitString.xml
+[CLASS NAME]: com.graphhopper.util.BitUtilLittleTest
+[METHOD NAME]: testFromBitString
+[ERROR MESSAGE]: array contents differ at index [1], expected: <-86> but was: <85>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.BitUtilLittleTest.testFromBitString(BitUtilLittleTest.java:14)
+####################
+
+[FILE NAME]: TEST-HexUtilTest_isHexNumberTest.xml
+[CLASS NAME]: cn.hutool.core.util.HexUtilTest
+[METHOD NAME]: testIsHexNumber
+[ERROR MESSAGE]: expected: <false> but was: <true>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.HexUtilTest.testIsHexNumber(HexUtilTest.java:16)
+####################
+
+[FILE NAME]: TEST-ZMsgTest_testEquals.xml
+[CLASS NAME]: org.zeromq.ZMsgTest
+[METHOD NAME]: testEquals
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.zeromq.ZMsgTest.testEquals(ZMsgTest.java:37)
+####################
+
+[FILE NAME]: TEST-ReflectionTest_testGetAnnotations.xml
+[CLASS NAME]: org.jfaster.mango.util.reflect.ReflectionTest
+[METHOD NAME]: testGetAnnotations
+[ERROR MESSAGE]: expected:<2> but was:<0>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jfaster.mango.util.reflect.ReflectionTest.testGetAnnotations(ReflectionTest.java:15)
+####################
+
+[FILE NAME]: TEST-OSMReaderUtilityTest_testParseDuration.xml
+[CLASS NAME]: com.graphhopper.reader.osm.OSMReaderUtilityTest
+[METHOD NAME]: testParseDuration
+[ERROR MESSAGE]: expected: <5400> but was: <324000>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.osm.OSMReaderUtilityTest.testParseDuration(OSMReaderUtilityTest.java:26)
+####################
+
+[FILE NAME]: TEST-MimeParseTest_testBestMatch.xml
+[CLASS NAME]: spark.utils.MimeParseTest
+[METHOD NAME]: testBestMatchEmptyHeader
+[ERROR MESSAGE]: expected: <5400> but was: <324000>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.osm.OSMReaderUtilityTest.testParseDuration(OSMReaderUtilityTest.java:26)
+####################
+
+[FILE NAME]: TEST-MimeParseTest_testBestMatch.xml
+[CLASS NAME]: spark.utils.MimeParseTest
+[METHOD NAME]: testBestMatchEmptySupported
+[ERROR MESSAGE]: Index: -1, Size: 0
+[ERROR TYPE]: java.lang.IndexOutOfBoundsException
+[ERROR LINE]: at spark.utils.MimeParseTest.testBestMatchEmptySupported(MimeParseTest.java:35)
+####################
+
+[FILE NAME]: TEST-MimeParseTest_testBestMatch.xml
+[CLASS NAME]: spark.utils.MimeParseTest
+[METHOD NAME]: testBestMatchNoMatch
+[ERROR MESSAGE]: Index: -1, Size: 0
+[ERROR TYPE]: java.lang.IndexOutOfBoundsException
+[ERROR LINE]: at spark.utils.MimeParseTest.testBestMatchEmptySupported(MimeParseTest.java:35)
+####################
+
+[FILE NAME]: TEST-MimeParseTest_testBestMatch.xml
+[CLASS NAME]: spark.utils.MimeParseTest
+[METHOD NAME]: testBestMatch
+[ERROR MESSAGE]: Index: -1, Size: 0
+[ERROR TYPE]: java.lang.IndexOutOfBoundsException
+[ERROR LINE]: at spark.utils.MimeParseTest.testBestMatchEmptySupported(MimeParseTest.java:35)
+####################
+
+[FILE NAME]: TEST-CollUtilTest_foreachTest.xml
+[CLASS NAME]: cn.hutool.core.collection.CollUtilTest
+[METHOD NAME]: testForEach
+[ERROR MESSAGE]: expected: <apple:1;banana:2;orange:3;> but was: <banana:2;orange:3;apple:1;>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.collection.CollUtilTest.testForEach(CollUtilTest.java:21)
+####################
+
+[FILE NAME]: TEST-ImgUtilTest_convertTest.xml
+[CLASS NAME]: cn.hutool.core.img.ImgUtilTest
+[METHOD NAME]: testConvert
+[ERROR MESSAGE]: Image type of file [test8270562267639051324.jpg] is not supported!
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at cn.hutool.core.img.ImgUtilTest.testConvert(ImgUtilTest.java:18)
+####################
+
+[FILE NAME]: TEST-ByteBufferDataAccessTest_getUsingTest.xml
+[CLASS NAME]: net.openhft.chronicle.hash.serialization.impl.ByteBufferDataAccessTest
+[METHOD NAME]: testGetUsing
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.NullPointerException
+[ERROR LINE]: at net.openhft.chronicle.hash.serialization.impl.ByteBufferDataAccessTest.testGetUsing(ByteBufferDataAccessTest.java:23)
+####################
+
+[FILE NAME]: TEST-CharFinderTest_startTest.xml
+[CLASS NAME]: cn.hutool.core.text.finder.CharFinderTest
+[METHOD NAME]: testStart
+[ERROR MESSAGE]: expected: <14> but was: <6>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.text.finder.CharFinderTest.testStart(CharFinderTest.java:34)
+####################
+
+[FILE NAME]: TEST-NetUtilTest_getLocalhostStrTest.xml
+[CLASS NAME]: cn.hutool.core.net.NetUtilTest
+[METHOD NAME]: testGetLocalhostStr
+[ERROR MESSAGE]: expected: <127.0.1.1> but was: <172.17.0.1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.net.NetUtilTest.testGetLocalhostStr(NetUtilTest.java:21)
+####################
+
+[FILE NAME]: TEST-CharSequenceUtilTest_startWithTest.xml
+[CLASS NAME]: cn.hutool.core.text.CharSequenceUtilTest
+[METHOD NAME]: testStartWith
+[ERROR MESSAGE]: expected: <false> but was: <true>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.text.CharSequenceUtilTest.testStartWith(CharSequenceUtilTest.java:53)
+####################
+
+[FILE NAME]: TEST-SimpleIntDequeTest_testPush.xml
+[CLASS NAME]: com.graphhopper.util.SimpleIntDequeTest
+[METHOD NAME]: testPush
+[ERROR MESSAGE]: expected: <1 2 3 4 5> but was: <1, 2, 3, 4, 5>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.SimpleIntDequeTest.testPush(SimpleIntDequeTest.java:24)
+####################
+
+[FILE NAME]: TEST-ImgTest_scaleTest.xml
+[CLASS NAME]: cn.hutool.core.img.ImgTest
+[METHOD NAME]: testScaleWithFixedColor
+[ERROR MESSAGE]: Can't read input file!
+[ERROR TYPE]: javax.imageio.IIOException
+[ERROR LINE]: at cn.hutool.core.img.ImgTest.setUp(ImgTest.java:24)
+####################
+
+[FILE NAME]: TEST-SqlLineTest_testIsCharEscaped.xml
+[CLASS NAME]: sqlline.SqlLineTest
+[METHOD NAME]: testIsCharEscaped
+[ERROR MESSAGE]: None
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at sqlline.SqlLineTest.testIsCharEscaped(SqlLineTest.java:12)
+####################
+
+[FILE NAME]: TEST-DateUtilTest_formatChineseDateTest.xml
+[CLASS NAME]: cn.hutool.core.date.DateUtilTest
+[METHOD NAME]: testFormatChineseDate
+[ERROR MESSAGE]: expected: <2023年04月15日 10时47分28秒> but was: <二〇二三年四月十五日十时四十七分二十八秒>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.date.DateUtilTest.testFormatChineseDate(DateUtilTest.java:16)
+####################
+
+[FILE NAME]: TEST-DialectFactoryTest_identifyDriverTest.xml
+[CLASS NAME]: cn.hutool.db.dialect.DialectFactoryTest
+[METHOD NAME]: testIdentifyDriver
+[ERROR MESSAGE]: expected: <oracle.jdbc.driver.OracleDriver> but was: <oracle.jdbc.OracleDriver>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.db.dialect.DialectFactoryTest.testIdentifyDriver(DialectFactoryTest.java:14)
+####################
+
+[FILE NAME]: TEST-AngleCalcTest_testCalcAzimuth.xml
+[CLASS NAME]: com.graphhopper.util.AngleCalcTest
+[METHOD NAME]: testCalcAzimuth
+[ERROR MESSAGE]: expected: <287.1767> but was: <265.46853521796436>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.AngleCalcTest.testCalcAzimuth(AngleCalcTest.java:19)
+####################
+
+[FILE NAME]: TEST-PortugueseWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.pt.PortugueseWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<22> but was:<47>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.tokenizers.pt.PortugueseWordTokenizerTest.testTokenize(PortugueseWordTokenizerTest.java:14)
+####################
+
+[FILE NAME]: TEST-FileNameUtilTest_mainNameTest.xml
+[CLASS NAME]: cn.hutool.core.io.file.FileNameUtilTest
+[METHOD NAME]: testMainName
+[ERROR MESSAGE]: expected: <example> but was: <C:\Users\Documents\example>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.io.file.FileNameUtilTest.testMainName(FileNameUtilTest.java:21)
+####################
+
+[FILE NAME]: TEST-FileUtilTest_listFileNamesTest.xml
+[CLASS NAME]: cn.hutool.core.io.FileUtilTest
+[METHOD NAME]: testListFileNames
+[ERROR MESSAGE]: Can not read file path of [/home/fdse/zhiqiang/python/Promt2Testing/repo_get/re_clone_repo/Involved_repo/dromara_hutool/hutool-core/target/test-classes/src/test/resources/test.jar!/test]
+[ERROR TYPE]: cn.hutool.core.io.IORuntimeException
+[ERROR LINE]: at cn.hutool.core.io.FileUtilTest.testListFileNames(FileUtilTest.java:13) 	at cn.hutool.core.io.FileUtilTest.testListFileNames(FileUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-BitUtilBigTest_testFromBitString.xml
+[CLASS NAME]: com.graphhopper.util.BitUtilBigTest
+[METHOD NAME]: testFromBitString
+[ERROR MESSAGE]: array contents differ at index [1], expected: <-86> but was: <85>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.BitUtilBigTest.testFromBitString(BitUtilBigTest.java:14)
+####################
+
+[FILE NAME]: TEST-ManifestUtilTest_getManiFestTest.xml
+[CLASS NAME]: cn.hutool.core.io.ManifestUtilTest
+[METHOD NAME]: testGetManifestFromJarURLConnection
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.NullPointerException
+[ERROR LINE]: at cn.hutool.core.io.ManifestUtilTest.testGetManifestFromJarURLConnection(ManifestUtilTest.java:17)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCamelhumpToUnderline.xml
+[CLASS NAME]: tk.mybatis.mapper.util.StringUtilTest
+[METHOD NAME]: testCamelhumpToUnderlineWithNumbers
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.NullPointerException
+[ERROR LINE]: at cn.hutool.core.io.ManifestUtilTest.testGetManifestFromJarURLConnection(ManifestUtilTest.java:17)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCamelhumpToUnderline.xml
+[CLASS NAME]: tk.mybatis.mapper.util.StringUtilTest
+[METHOD NAME]: testCamelhumpToUnderlineWithLeadingUppercase
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.NullPointerException
+[ERROR LINE]: at cn.hutool.core.io.ManifestUtilTest.testGetManifestFromJarURLConnection(ManifestUtilTest.java:17)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCamelhumpToUnderline.xml
+[CLASS NAME]: tk.mybatis.mapper.util.StringUtilTest
+[METHOD NAME]: testCamelhumpToUnderlineWithUnderscores
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.NullPointerException
+[ERROR LINE]: at cn.hutool.core.io.ManifestUtilTest.testGetManifestFromJarURLConnection(ManifestUtilTest.java:17)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCamelhumpToUnderline.xml
+[CLASS NAME]: tk.mybatis.mapper.util.StringUtilTest
+[METHOD NAME]: testCamelhumpToUnderlineWithConsecutiveUppercase
+[ERROR MESSAGE]: expected:<camel_c[as]e_string> but was:<camel_c[_a_s_]e_string>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at tk.mybatis.mapper.util.StringUtilTest.testCamelhumpToUnderlineWithConsecutiveUppercase(StringUtilTest.java:29)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCamelhumpToUnderline.xml
+[CLASS NAME]: tk.mybatis.mapper.util.StringUtilTest
+[METHOD NAME]: testCamelhumpToUnderline
+[ERROR MESSAGE]: expected:<camel_c[as]e_string> but was:<camel_c[_a_s_]e_string>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at tk.mybatis.mapper.util.StringUtilTest.testCamelhumpToUnderlineWithConsecutiveUppercase(StringUtilTest.java:29)
+####################
+
+[FILE NAME]: TEST-UserAgentTest_testValueOf.xml
+[CLASS NAME]: UserAgentTest
+[METHOD NAME]: testValueOfInvalidString
+[ERROR MESSAGE]: expected:<camel_c[as]e_string> but was:<camel_c[_a_s_]e_string>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at tk.mybatis.mapper.util.StringUtilTest.testCamelhumpToUnderlineWithConsecutiveUppercase(StringUtilTest.java:29)
+####################
+
+[FILE NAME]: TEST-UserAgentTest_testValueOf.xml
+[CLASS NAME]: UserAgentTest
+[METHOD NAME]: testValueOf
+[ERROR MESSAGE]: No enum constant eu.bitwalker.useragentutils.OperatingSystem.Windows
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at eu.bitwalker.useragentutils.UserAgentTest.testValueOf(UserAgentTest.java:10)
+####################
+
+[FILE NAME]: TEST-UserAgentTest_testValueOf.xml
+[CLASS NAME]: UserAgentTest
+[METHOD NAME]: testValueOfNull
+[ERROR MESSAGE]: No enum constant eu.bitwalker.useragentutils.OperatingSystem.Windows
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at eu.bitwalker.useragentutils.UserAgentTest.testValueOf(UserAgentTest.java:10)
+####################
+
+[FILE NAME]: TEST-UtilsTest_testImplode.xml
+[CLASS NAME]: com.github.eirslett.maven.plugins.frontend.lib.UtilsTest
+[METHOD NAME]: com.github.eirslett.maven.plugins.frontend.lib.UtilsTest.testImplode
+[ERROR MESSAGE]: expected: <apple,banana,orange> but was: <apple banana orange>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.github.eirslett.maven.plugins.frontend.lib.UtilsTest.testImplode(UtilsTest.java:16)
+####################
+
+[FILE NAME]: TEST-NumberUtilTest_parseIntTest.xml
+[CLASS NAME]: cn.hutool.core.util.NumberUtilTest
+[METHOD NAME]: testParseInt
+[ERROR MESSAGE]: Expected java.lang.NumberFormatException to be thrown, but nothing was thrown.
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.NumberUtilTest.testParseInt(NumberUtilTest.java:22)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testPad.xml
+[CLASS NAME]: com.twelvemonkeys.lang.StringUtilTest
+[METHOD NAME]: testPad
+[ERROR MESSAGE]: expected:<--[]hello> but was:<--[---]hello>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.twelvemonkeys.lang.StringUtilTest.testPad(StringUtilTest.java:16)
+####################
+
+[FILE NAME]: TEST-DateCheckFilterTest_testGetDayOfWeek_1.xml
+[CLASS NAME]: org.languagetool.rules.en.DateCheckFilterTest
+[METHOD NAME]: testGetDayOfWeek
+[ERROR MESSAGE]: Could not find day of week for 'poniedziałek'
+[ERROR TYPE]: java.lang.RuntimeException
+[ERROR LINE]: at org.languagetool.rules.en.DateCheckFilterTest.testGetDayOfWeek(DateCheckFilterTest.java:12)
+####################
+
+[FILE NAME]: TEST-DateCheckFilterTest_testGetMonth.xml
+[CLASS NAME]: org.languagetool.rules.de.DateCheckFilterTest
+[METHOD NAME]: testGetMonth
+[ERROR MESSAGE]: Could not find month 'stycznia'
+[ERROR TYPE]: java.lang.RuntimeException
+[ERROR LINE]: at org.languagetool.rules.de.DateCheckFilterTest.testGetMonth(DateCheckFilterTest.java:11)
+####################
+
+[FILE NAME]: TEST-NumberChineseFormatterTest_formatThousandTest.xml
+[CLASS NAME]: cn.hutool.core.convert.NumberChineseFormatterTest
+[METHOD NAME]: testFormatThousand
+[ERROR MESSAGE]: expected: <负肆佰伍拾陆> but was: <>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.convert.NumberChineseFormatterTest.testFormatThousand(NumberChineseFormatterTest.java:20)
+####################
+
+[FILE NAME]: TEST-BluefloodTimerRollupTest_testMax.xml
+[CLASS NAME]: com.rackspacecloud.blueflood.types.BluefloodTimerRollupTest
+[METHOD NAME]: testMax
+[ERROR MESSAGE]: expected: java.lang.Integer<5> but was: java.lang.Long<5>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.rackspacecloud.blueflood.types.BluefloodTimerRollupTest.testMax(BluefloodTimerRollupTest.java:16)
+####################
+
+[FILE NAME]: TEST-UtilsTest_testGenerateParameterHash.xml
+[CLASS NAME]: org.hyperledger.fabric.sdk.helper.UtilsTest
+[METHOD NAME]: testGenerateParameterHash
+[ERROR MESSAGE]: expected:<[d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7d7]> but was:<[4bc4052df6402eb2e3811f682842ff5e1ff5f0f5f8e69c5f764adae83c858e83]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.hyperledger.fabric.sdk.helper.UtilsTest.testGenerateParameterHash(UtilsTest.java:19)
+####################
+
+[FILE NAME]: TEST-PathUtilTest_testRemoveWorkingDirectory.xml
+[CLASS NAME]: com.adobe.epubcheck.util.PathUtilTest
+[METHOD NAME]: testRemoveWorkingDirectory
+[ERROR MESSAGE]: expected:<[.]/file.txt> but was:<[/Users/username/project]/file.txt>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.adobe.epubcheck.util.PathUtilTest.testRemoveWorkingDirectory(PathUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-PathUtilTest_testRemoveWorkingDirectory.xml
+[CLASS NAME]: com.adobe.epubcheck.util.PathUtilTest
+[METHOD NAME]: testRemoveWorkingDirectoryWithRootWorkingDirectory
+[ERROR MESSAGE]: expected:<[.]/file.txt> but was:<[/Users/username/project]/file.txt>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.adobe.epubcheck.util.PathUtilTest.testRemoveWorkingDirectory(PathUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-PathUtilTest_testRemoveWorkingDirectory.xml
+[CLASS NAME]: com.adobe.epubcheck.util.PathUtilTest
+[METHOD NAME]: testRemoveWorkingDirectoryWithDifferentWorkingDirectory
+[ERROR MESSAGE]: expected:<[/Users/username]/project/file.txt> but was:<[.]/project/file.txt>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.adobe.epubcheck.util.PathUtilTest.testRemoveWorkingDirectoryWithDifferentWorkingDirectory(PathUtilTest.java:38)
+####################
+
+[FILE NAME]: TEST-PathUtilTest_testRemoveWorkingDirectory.xml
+[CLASS NAME]: com.adobe.epubcheck.util.PathUtilTest
+[METHOD NAME]: testRemoveWorkingDirectoryWithNull
+[ERROR MESSAGE]: expected:<[/Users/username]/project/file.txt> but was:<[.]/project/file.txt>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.adobe.epubcheck.util.PathUtilTest.testRemoveWorkingDirectoryWithDifferentWorkingDirectory(PathUtilTest.java:38)
+####################
+
+[FILE NAME]: TEST-PathUtilTest_testRemoveWorkingDirectory.xml
+[CLASS NAME]: com.adobe.epubcheck.util.PathUtilTest
+[METHOD NAME]: testRemoveWorkingDirectoryWithEmptyString
+[ERROR MESSAGE]: expected:<[/Users/username]/project/file.txt> but was:<[.]/project/file.txt>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.adobe.epubcheck.util.PathUtilTest.testRemoveWorkingDirectoryWithDifferentWorkingDirectory(PathUtilTest.java:38)
+####################
+
+[FILE NAME]: TEST-ServiceRegistryTest_testRegister.xml
+[CLASS NAME]: com.twelvemonkeys.util.service.ServiceRegistryTest
+[METHOD NAME]: testRegister
+[ERROR MESSAGE]: categories may not be null
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at com.twelvemonkeys.util.service.ServiceRegistryTest.testRegister(ServiceRegistryTest.java:10)
+####################
+
+[FILE NAME]: TEST-CharSequenceUtilTest_removePrefixIgnoreCaseTest.xml
+[CLASS NAME]: cn.hutool.core.text.CharSequenceUtilTest
+[METHOD NAME]: testRemovePrefixIgnoreCase
+[ERROR MESSAGE]: expected: <Hello> but was: <>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.text.CharSequenceUtilTest.testRemovePrefixIgnoreCase(CharSequenceUtilTest.java:38)
+####################
+
+[FILE NAME]: TEST-ColorProfilesTest_testIsOffendingColorProfile.xml
+[CLASS NAME]: com.twelvemonkeys.imageio.color.ColorProfilesTest
+[METHOD NAME]: testIsOffendingColorProfile
+[ERROR MESSAGE]: 64
+[ERROR TYPE]: java.lang.ArrayIndexOutOfBoundsException
+[ERROR LINE]: at com.twelvemonkeys.imageio.color.ColorProfilesTest.testIsOffendingColorProfile(ColorProfilesTest.java:14)
+####################
+
+[FILE NAME]: TEST-DesensitizedUtilTest_desensitizedTest.xml
+[CLASS NAME]: cn.hutool.core.util.DesensitizedUtilTest
+[METHOD NAME]: testDesensitized
+[ERROR MESSAGE]: expected: <J*** D**> but was: <J*******>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.DesensitizedUtilTest.testDesensitized(DesensitizedUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-FtpTest_downloadTest.xml
+[CLASS NAME]: cn.hutool.extra.ftp.FtpTest
+[METHOD NAME]: testDownload
+[ERROR MESSAGE]: UnknownHostException: ftp.example.com: Name or service not known
+[ERROR TYPE]: cn.hutool.core.io.IORuntimeException
+[ERROR LINE]: at cn.hutool.extra.ftp.FtpTest.setUp(FtpTest.java:23) 	at cn.hutool.extra.ftp.FtpTest.setUp(FtpTest.java:23)
+####################
+
+[FILE NAME]: TEST-CityHashTest_hash64Test.xml
+[CLASS NAME]: cn.hutool.core.lang.hash.CityHashTest
+[METHOD NAME]: testHash64
+[ERROR MESSAGE]: expected: <-1234567890> but was: <-4341159954715723068>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.lang.hash.CityHashTest.testHash64(CityHashTest.java:15)
+####################
+
+[FILE NAME]: TEST-SRTMGL1ProviderTest_testGetFileName.xml
+[CLASS NAME]: com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[METHOD NAME]: testGetFileName
+[ERROR MESSAGE]: expected: <n37w123.hgt> but was: <n37w123>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.SRTMGL1ProviderTest.testGetFileName(SRTMGL1ProviderTest.java:15)
+####################
+
+[FILE NAME]: TEST-IdcardUtilTest_getGenderByIdCardTest.xml
+[CLASS NAME]: cn.hutool.core.util.IdcardUtilTest
+[METHOD NAME]: testGetGenderByIdCard
+[ERROR MESSAGE]: expected: <0> but was: <1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.IdcardUtilTest.testGetGenderByIdCard(IdcardUtilTest.java:19)
+####################
+
+[FILE NAME]: TEST-DesensitizedUtilTest_idCardNumTest.xml
+[CLASS NAME]: cn.hutool.core.util.DesensitizedUtilTest
+[METHOD NAME]: testIdCardNum
+[ERROR MESSAGE]: expected: <123456****5678> but was: <123456********5678>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.DesensitizedUtilTest.testIdCardNum(DesensitizedUtilTest.java:15)
+####################
+
+[FILE NAME]: TEST-GMTEDProviderTest_testGetDownloadUrl.xml
+[CLASS NAME]: com.graphhopper.reader.dem.GMTEDProviderTest
+[METHOD NAME]: testGetDownloadURL
+[ERROR MESSAGE]: expected: <http://server/e074n040/e074n040_20101117_gmted_mea075.tif> but was: <https://edcintl.cr.usgs.gov/downloads/sciweb1/shared/topo/downloads/GMTED/Global_tiles_GMTED/075darcsec/mea//W090/30N090W_20101117_gmted_mea075.tif>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.GMTEDProviderTest.testGetDownloadURL(GMTEDProviderTest.java:15)
+####################
+
+[FILE NAME]: TEST-EnglishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.en.EnglishWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: array lengths differed, expected.length=17 actual.length=32; arrays first differed at element [1]; expected:<[is]> but was:<[ ]>
+[ERROR TYPE]: array lengths differed, expected.length=17 actual.length=32; arrays first differed at element [1]; expected
+[ERROR LINE]: at org.languagetool.tokenizers.en.EnglishWordTokenizerTest.testTokenize(EnglishWordTokenizerTest.java:13)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testGetRawVarInt32Bytes.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testGetRawVarInt32Bytes
+[ERROR MESSAGE]: arrays first differed at element [1]; expected:<-24> but was:<-102>
+[ERROR TYPE]: arrays first differed at element [1]; expected
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testGetRawVarInt32Bytes(ProtobufOutputTest.java:13)
+####################
+
+[FILE NAME]: TEST-AngleCalcTest_testAtan2.xml
+[CLASS NAME]: com.graphhopper.util.AngleCalcTest
+[METHOD NAME]: testAtan2
+[ERROR MESSAGE]: expected: <0.5880026035475675> but was: <0.5906285634204438>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.AngleCalcTest.testAtan2(AngleCalcTest.java:14)
+####################
+
+[FILE NAME]: TEST-FileUtilTest_equalsTest.xml
+[CLASS NAME]: cn.hutool.core.io.FileUtilTest
+[METHOD NAME]: testEquals
+[ERROR MESSAGE]: expected: <true> but was: <false>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.io.FileUtilTest.testEquals(FileUtilTest.java:26)
+####################
+
+[FILE NAME]: TEST-SkadiProviderTest_testGetDownloadUrl.xml
+[CLASS NAME]: com.graphhopper.reader.dem.SkadiProviderTest
+[METHOD NAME]: testGetDownloadURL
+[ERROR MESSAGE]: expected: <37/N37W122.hgt.gz> but was: <N37/N37W123.hgt.gz>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.SkadiProviderTest.testGetDownloadURL(SkadiProviderTest.java:15)
+####################
+
+[FILE NAME]: TEST-DesensitizedUtilTest_addressTest.xml
+[CLASS NAME]: cn.hutool.core.util.DesensitizedUtilTest
+[METHOD NAME]: testAddress
+[ERROR MESSAGE]: expected: <***********USA> but was: <123 Main Street, Anytown*****>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.DesensitizedUtilTest.testAddress(DesensitizedUtilTest.java:14)
+####################
+
+[FILE NAME]: TEST-StringToolsTest_testIsWhitespace.xml
+[CLASS NAME]: org.languagetool.tools.StringToolsTest
+[METHOD NAME]: testIsWhitespace
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.tools.StringToolsTest.testIsWhitespace(StringToolsTest.java:22)
+####################
+
+[FILE NAME]: TEST-MPEGDecoderTest_testProbe.xml
+[CLASS NAME]: org.jcodec.codecs.mpeg12.MPEGDecoderTest
+[METHOD NAME]: testProbe
+[ERROR MESSAGE]: expected:<20> but was:<0>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jcodec.codecs.mpeg12.MPEGDecoderTest.testProbe(MPEGDecoderTest.java:22)
+####################
+
+[FILE NAME]: TEST-HttpRequestTest_toStringTest.xml
+[CLASS NAME]: cn.hutool.http.HttpRequestTest
+[METHOD NAME]: testToString
+[ERROR MESSAGE]: expected: <Request Url: https://www.example.com
+java.lang.Object@<hashcode>> but was: <Request Url: https://www.example.com
+Request Headers: 
+    Accept: text/html,application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool
+    Accept-Encoding: gzip, deflate
+    Accept-Language: zh-CN,zh;q=0.8
+Request Body: 
+    null
+>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.http.HttpRequestTest.testToString(HttpRequestTest.java:12)
+####################
+
+[FILE NAME]: TEST-SimpleSortFieldTest_testEquals.xml
+[CLASS NAME]: com.stratio.cassandra.lucene.search.sort.SimpleSortFieldTest
+[METHOD NAME]: testEquals
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.stratio.cassandra.lucene.search.sort.SimpleSortFieldTest.testEquals(SimpleSortFieldTest.java:23)
+####################
+
+[FILE NAME]: TEST-NetUtilTest_getLocalHostNameTest.xml
+[CLASS NAME]: cn.hutool.core.net.NetUtilTest
+[METHOD NAME]: testGetLocalHostName
+[ERROR MESSAGE]: expected: <ubuntu> but was: <172.17.0.1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.net.NetUtilTest.testGetLocalHostName(NetUtilTest.java:20)
+####################
+
+[FILE NAME]: TEST-TlvUtilTest_testGetFormattedTagAndLength.xml
+[CLASS NAME]: com.github.devnied.emvnfccard.utils.TlvUtilTest
+[METHOD NAME]: testGetFormattedTagAndLength
+[ERROR MESSAGE]: expected:<    01 0[4 -- Tag1     02 02 -- Tag2     03 01 -- Tag3     04 01 -- Tag4]> but was:<    01 0[2 -- [UNKNOWN TAG]     03 04 -- [UNKNOWN TAG]]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.github.devnied.emvnfccard.utils.TlvUtilTest.testGetFormattedTagAndLength(TlvUtilTest.java:14)
+####################
+
+[FILE NAME]: TEST-ElementTest_testClosest.xml
+[CLASS NAME]: org.jsoup.nodes.ElementTest
+[METHOD NAME]: testClosest
+[ERROR MESSAGE]: expected: org.jsoup.nodes.Document@c540f5a<<html>
+ <head></head>
+ <body>
+  <div id="parent">
+   <div id="child"></div>
+  </div>
+ </body>
+</html>> but was: org.jsoup.nodes.Element@770c2e6b<<html>
+ <head></head>
+ <body>
+  <div id="parent">
+   <div id="child"></div>
+  </div>
+ </body>
+</html>>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at org.jsoup.nodes.ElementTest.testClosest(ElementTest.java:30)
+####################
+
+[FILE NAME]: TEST-AnalyzedTokenTest_testMatches.xml
+[CLASS NAME]: org.languagetool.AnalyzedTokenTest
+[METHOD NAME]: testMatches
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.AnalyzedTokenTest.testMatches(AnalyzedTokenTest.java:22)
+####################
+
+[FILE NAME]: TEST-SpringUtilTest_registerBeanTest.xml
+[CLASS NAME]: cn.hutool.extra.spring.SpringUtilTest
+[METHOD NAME]: cn.hutool.extra.spring.SpringUtilTest
+[ERROR MESSAGE]: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+[ERROR TYPE]: java.lang.IllegalStateException
+[ERROR LINE]: 
+####################
+
+[FILE NAME]: TEST-FrenchWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.fr.FrenchWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<9> but was:<15>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.tokenizers.fr.FrenchWordTokenizerTest.testTokenize(FrenchWordTokenizerTest.java:14)
+####################
+
+[FILE NAME]: TEST-ServletUtilTest_writeTest.xml
+[CLASS NAME]: cn.hutool.extra.servlet.ServletUtilTest
+[METHOD NAME]: testWrite
+[ERROR MESSAGE]: OutputStream is null !
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at cn.hutool.extra.servlet.ServletUtilTest.testWrite(ServletUtilTest.java:27)
+####################
+
+[FILE NAME]: TEST-IdcardUtilTest_getProvinceByIdCardTest.xml
+[CLASS NAME]: cn.hutool.core.util.IdcardUtilTest
+[METHOD NAME]: testGetProvinceByIdCard
+[ERROR MESSAGE]: expected: <北京市> but was: <北京>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.IdcardUtilTest.testGetProvinceByIdCard(IdcardUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-LinkedForestMapTest_removeTest.xml
+[CLASS NAME]: cn.hutool.core.map.LinkedForestMapTest
+[METHOD NAME]: testRemove
+[ERROR MESSAGE]: expected: <3> but was: <2>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.map.LinkedForestMapTest.testRemove(LinkedForestMapTest.java:20)
+####################
+
+[FILE NAME]: TEST-PointListTest_testClone.xml
+[CLASS NAME]: com.graphhopper.util.PointListTest
+[METHOD NAME]: testClone
+[ERROR MESSAGE]: This is a 2D list we cannot store elevation: 34.0
+[ERROR TYPE]: java.lang.IllegalStateException
+[ERROR LINE]: at com.graphhopper.util.PointListTest.testClone(PointListTest.java:11)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testWriteRawLittleEndian64.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testWriteRawLittleEndian64
+[ERROR MESSAGE]: expected:<-106> but was:<-127>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testWriteRawLittleEndian64(ProtobufOutputTest.java:19)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testGetTagAndRawLittleEndian32Bytes.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testGetTagAndRawLittleEndian32Bytes
+[ERROR MESSAGE]: arrays first differed at element [0]; expected:<8> but was:<1>
+[ERROR TYPE]: arrays first differed at element [0]; expected
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testGetTagAndRawLittleEndian32Bytes(ProtobufOutputTest.java:14)
+####################
+
+[FILE NAME]: TEST-TIFFUtilitiesTest_testSplit.xml
+[CLASS NAME]: com.twelvemonkeys.contrib.tiff.TIFFUtilitiesTest
+[METHOD NAME]: testSplit
+[ERROR MESSAGE]: None
+[ERROR TYPE]: java.io.EOFException
+[ERROR LINE]: at com.twelvemonkeys.contrib.tiff.TIFFUtilitiesTest.testSplit(TIFFUtilitiesTest.java:20)
+####################
+
+[FILE NAME]: TEST-CallerUtilTest_getCallerMethodNameTest.xml
+[CLASS NAME]: cn.hutool.core.lang.caller.CallerUtilTest
+[METHOD NAME]: testGetCallerMethodName
+[ERROR MESSAGE]: expected: <CallerUtilTest.testGetCallerMethodName> but was: <cn.hutool.core.lang.caller.CallerUtilTest.testGetCallerMethodName>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: org.opentest4j.AssertionFailedError: expected: <CallerUtilTest.testGetCallerMethodName> but was: <cn.hutool.core.lang.caller.CallerUtilTest.testGetCallerMethodName> 	at cn.hutool.core.lang.caller.CallerUtilTest.testGetCallerMethodName(CallerUtilTest.java:14)
+####################
+
+[FILE NAME]: TEST-CollStreamUtilTest_testMerge.xml
+[CLASS NAME]: cn.hutool.core.collection.CollStreamUtilTest
+[METHOD NAME]: testMerge
+[ERROR MESSAGE]: expected: <one> but was: <one-null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.collection.CollStreamUtilTest.testMerge(CollStreamUtilTest.java:28)
+####################
+
+[FILE NAME]: TEST-IterUtilTest_getElementTypeTest.xml
+[CLASS NAME]: cn.hutool.core.collection.IterUtilTest
+[METHOD NAME]: testGetElementType
+[ERROR MESSAGE]: expected: <java.lang.Object> but was: <java.lang.String>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.collection.IterUtilTest.testGetElementType(IterUtilTest.java:30)
+####################
+
+[FILE NAME]: TEST-StrBuilderTest_delTest.xml
+[CLASS NAME]: cn.hutool.core.text.StrBuilderTest
+[METHOD NAME]: testDel
+[ERROR MESSAGE]: expected: <Hello> but was: <Hello >
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.text.StrBuilderTest.testDel(StrBuilderTest.java:12)
+####################
+
+[FILE NAME]: TEST-ArrayUtilTest_wrapTest.xml
+[CLASS NAME]: cn.hutool.core.util.ArrayUtilTest
+[METHOD NAME]: testWrap
+[ERROR MESSAGE]: array contents differ at index [0], expected: java.lang.Integer@44c8afef<1> but was: java.lang.Byte@7b69c6ba<1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ArrayUtilTest.testWrap(ArrayUtilTest.java:32)
+####################
+
+[FILE NAME]: TEST-DistanceCalcEarthTest_testValidEdgeDistance.xml
+[CLASS NAME]: com.graphhopper.util.DistanceCalcEarthTest
+[METHOD NAME]: testValidEdgeDistance
+[ERROR MESSAGE]: expected: <true> but was: <false>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.DistanceCalcEarthTest.testValidEdgeDistance(DistanceCalcEarthTest.java:18)
+####################
+
+[FILE NAME]: TEST-SRTMGL1ProviderTest_testGetDownloadUrl.xml
+[CLASS NAME]: com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[METHOD NAME]: testGetDownloadURL
+[ERROR MESSAGE]: expected: <North/N37W123.hgt> but was: <North/North_30_60/N37W123.hgt>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.SRTMGL1ProviderTest.testGetDownloadURL(SRTMGL1ProviderTest.java:15)
+####################
+
+[FILE NAME]: TEST-GHSortedCollectionTest_testInsert.xml
+[CLASS NAME]: com.graphhopper.coll.GHSortedCollectionTest
+[METHOD NAME]: testInsert
+[ERROR MESSAGE]: expected: <1> but was: <3>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.coll.GHSortedCollectionTest.testInsert(GHSortedCollectionTest.java:25)
+####################
+
+[FILE NAME]: TEST-SeekHeadFactoryTest_testEstimeteSeekSize.xml
+[CLASS NAME]: org.jcodec.containers.mkv.SeekHeadFactoryTest
+[METHOD NAME]: testEstimeteSeekSize
+[ERROR MESSAGE]: expected:<31> but was:<21>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jcodec.containers.mkv.SeekHeadFactoryTest.testEstimeteSeekSize(SeekHeadFactoryTest.java:16)
+####################
+
+[FILE NAME]: TEST-FileUtilTest_getWebRootTest.xml
+[CLASS NAME]: cn.hutool.core.io.FileUtilTest
+[METHOD NAME]: testGetWebRoot
+[ERROR MESSAGE]: expected: <src/main/webapp> but was: </home/fdse/zhiqiang/python/Promt2Testing/repo_get/re_clone_repo/Involved_repo/dromara_hutool/hutool-core>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.io.FileUtilTest.testGetWebRoot(FileUtilTest.java:14)
+####################
+
+[FILE NAME]: TEST-DPXReaderTest_testTryParseISO8601Date.xml
+[CLASS NAME]: org.jcodec.containers.dpx.DPXReaderTest
+[METHOD NAME]: testTryParseISO8601Date
+[ERROR MESSAGE]: expected:<Sun Jan 02 04:00:00 CST 2022> but was:<Sat Jan 01 12:00:00 CST 2022>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jcodec.containers.dpx.DPXReaderTest.testTryParseISO8601Date(DPXReaderTest.java:17)
+####################
+
+[FILE NAME]: TEST-LittleEndianDataInputStreamTest_testReadShort.xml
+[CLASS NAME]: com.twelvemonkeys.io.LittleEndianDataInputStreamTest
+[METHOD NAME]: testReadShort
+[ERROR MESSAGE]: expected:<258> but was:<513>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.twelvemonkeys.io.LittleEndianDataInputStreamTest.testReadShort(LittleEndianDataInputStreamTest.java:17)
+####################
+
+[FILE NAME]: TEST-CharUtilTest_toCloseCharTest.xml
+[CLASS NAME]: cn.hutool.core.util.CharUtilTest
+[METHOD NAME]: testToCloseChar
+[ERROR MESSAGE]: expected: <⒵> but was: <Ⓩ>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.CharUtilTest.testToCloseChar(CharUtilTest.java:22)
+####################
+
+[FILE NAME]: TEST-ProtoUtilTest_testToCamelCase.xml
+[CLASS NAME]: io.protostuff.parser.ProtoUtilTest
+[METHOD NAME]: testToCamelCase
+[ERROR MESSAGE]: expected:<h[elloWorld]> but was:<h[ELLOWORLD]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at io.protostuff.parser.ProtoUtilTest.testToCamelCase(ProtoUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-CityHashTest_hash32Test.xml
+[CLASS NAME]: cn.hutool.core.lang.hash.CityHashTest
+[METHOD NAME]: testHash32
+[ERROR MESSAGE]: expected: <-1919615575> but was: <1633095781>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.lang.hash.CityHashTest.testHash32(CityHashTest.java:13)
+####################
+
+[FILE NAME]: TEST-ImgUtilTest_createImageTest.xml
+[CLASS NAME]: cn.hutool.core.img.ImgUtilTest
+[METHOD NAME]: testCreateImage
+[ERROR MESSAGE]: expected: <23> but was: <26>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.img.ImgUtilTest.testCreateImage(ImgUtilTest.java:22)
+####################
+
+[FILE NAME]: TEST-ArrayUtilTest_castTest.xml
+[CLASS NAME]: cn.hutool.core.util.ArrayUtilTest
+[METHOD NAME]: testCast
+[ERROR MESSAGE]: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.ArrayStoreException>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.ArrayUtilTest.testCast(ArrayUtilTest.java:19) 	at cn.hutool.core.util.ArrayUtilTest.lambda$testCast$0(ArrayUtilTest.java:20) 	at cn.hutool.core.util.ArrayUtilTest.testCast(ArrayUtilTest.java:19)
+####################
+
+[FILE NAME]: TEST-SkadiProviderTest_testGetFileName.xml
+[CLASS NAME]: com.graphhopper.reader.dem.SkadiProviderTest
+[METHOD NAME]: testGetFileName
+[ERROR MESSAGE]: expected: <37.7749-122.4194> but was: <n37w123>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.SkadiProviderTest.testGetFileName(SkadiProviderTest.java:15)
+####################
+
+[FILE NAME]: TEST-RulingTest_testToString.xml
+[CLASS NAME]: technology.tabula.TestRuling
+[METHOD NAME]: testToString
+[ERROR MESSAGE]: expected:<class [Ruling[x1=10.000000 y1=20.000000 x2=40.000000 y2=6]0.000000]> but was:<class [technology.tabula.Ruling[x1=20.000000 y1=10.000000 x2=50.000000 y2=5]0.000000]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at technology.tabula.TestRuling.testToString(TestRuling.java:12)
+####################
+
+[FILE NAME]: TEST-SqlBuilderTest_orderByTest.xml
+[CLASS NAME]: cn.hutool.db.sql.SqlBuilderTest
+[METHOD NAME]: testOrderBy
+[ERROR MESSAGE]: expected: <SELECT name, age, gender FROM users WHERE age > 18 ORDER BY age ASC, name DESC> but was: <SELECT name,age,gender FROM users WHERE age > 18 ORDER BY age ASC,name DESC>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.db.sql.SqlBuilderTest.testOrderBy(SqlBuilderTest.java:16)
+####################
+
+[FILE NAME]: TEST-ServiceRegistryTest_testDeregister.xml
+[CLASS NAME]: com.twelvemonkeys.util.service.ServiceRegistryTest
+[METHOD NAME]: testDeregister
+[ERROR MESSAGE]: categories may not be null
+[ERROR TYPE]: java.lang.IllegalArgumentException
+[ERROR LINE]: at com.twelvemonkeys.util.service.ServiceRegistryTest.testDeregister(ServiceRegistryTest.java:10)
+####################
+
+[FILE NAME]: TEST-DateCheckFilterTest_testGetDayOfWeek_2.xml
+[CLASS NAME]: org.languagetool.rules.ru.DateCheckFilterTest
+[METHOD NAME]: testGetDayOfWeek
+[ERROR MESSAGE]: Could not find day of week for 'poniedziałek'
+[ERROR TYPE]: java.lang.RuntimeException
+[ERROR LINE]: at org.languagetool.rules.ru.DateCheckFilterTest.testGetDayOfWeek(DateCheckFilterTest.java:12)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testComputeRawVarint32Size.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testComputeRawVarint32Size
+[ERROR MESSAGE]: expected:<3> but was:<2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testComputeRawVarint32Size(ProtobufOutputTest.java:30)
+####################
+
+[FILE NAME]: TEST-WordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.WordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<10> but was:<19>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.tokenizers.WordTokenizerTest.testTokenize(WordTokenizerTest.java:14)
+####################
+
+[FILE NAME]: TEST-XmlUtilTest_xmlToBeanTest.xml
+[CLASS NAME]: cn.hutool.core.util.XmlUtilTest
+[METHOD NAME]: testXmlToBean
+[ERROR MESSAGE]: expected: <John> but was: <null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.XmlUtilTest.testXmlToBean(XmlUtilTest.java:30)
+####################
+
+[FILE NAME]: TEST-MapUtilTest_toObjectArrayTest.xml
+[CLASS NAME]: cn.hutool.core.map.MapUtilTest
+[METHOD NAME]: testToObjectArray
+[ERROR MESSAGE]: array contents differ at index [0][0], expected: <apple> but was: <banana>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.map.MapUtilTest.testToObjectArray(MapUtilTest.java:20)
+####################
+
+[FILE NAME]: TEST-UnzipperTest_testUnzip.xml
+[CLASS NAME]: com.graphhopper.util.UnzipperTest
+[METHOD NAME]: testUnzip
+[ERROR MESSAGE]: expected: <true> but was: <false>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.UnzipperTest.testUnzip(UnzipperTest.java:29)
+####################
+
+[FILE NAME]: TEST-NumberUtilTest_parseLongTest.xml
+[CLASS NAME]: cn.hutool.core.util.NumberUtilTest
+[METHOD NAME]: testParseLong
+[ERROR MESSAGE]: Unparseable number: "abc"
+[ERROR TYPE]: java.lang.NumberFormatException
+[ERROR LINE]: at cn.hutool.core.util.NumberUtilTest.testParseLong(NumberUtilTest.java:23) 	at cn.hutool.core.util.NumberUtilTest.testParseLong(NumberUtilTest.java:23)
+####################
+
+[FILE NAME]: TEST-IdcardUtilTest_isValidCardTest.xml
+[CLASS NAME]: cn.hutool.core.util.IdcardUtilTest
+[METHOD NAME]: testIsValidCard
+[ERROR MESSAGE]: expected: <true> but was: <false>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.IdcardUtilTest.testIsValidCard(IdcardUtilTest.java:12)
+####################
+
+[FILE NAME]: TEST-SensitiveUtilTest_testSensitiveFilter.xml
+[CLASS NAME]: cn.hutool.dfa.SensitiveUtilTest
+[METHOD NAME]: testSensitiveFilter
+[ERROR MESSAGE]: expected: <This is a sensitive text containing bad words like **** and ****> but was: <This is a sensitive text containing bad words like shit and damn>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.dfa.SensitiveUtilTest.testSensitiveFilter(SensitiveUtilTest.java:19)
+####################
+
+[FILE NAME]: TEST-DateCheckFilterTest_testGetDayOfWeek_3.xml
+[CLASS NAME]: org.languagetool.rules.uk.DateCheckFilterTest
+[METHOD NAME]: testGetDayOfWeek
+[ERROR MESSAGE]: Could not find day of week for 'poniedziałek'
+[ERROR TYPE]: java.lang.RuntimeException
+[ERROR LINE]: at org.languagetool.rules.uk.DateCheckFilterTest.testGetDayOfWeek(DateCheckFilterTest.java:12)
+####################
+
+[FILE NAME]: TEST-BufferedFileImageInputStreamTest_testRead.xml
+[CLASS NAME]: com.twelvemonkeys.imageio.stream.BufferedFileImageInputStreamTest
+[METHOD NAME]: testRead
+[ERROR MESSAGE]: expected:<72> but was:<-1>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at com.twelvemonkeys.imageio.stream.BufferedFileImageInputStreamTest.testRead(BufferedFileImageInputStreamTest.java:29)
+####################
+
+[FILE NAME]: TEST-NumberChineseFormatterTest_formatTest.xml
+[CLASS NAME]: cn.hutool.core.convert.NumberChineseFormatterTest
+[METHOD NAME]: testFormat
+[ERROR MESSAGE]: expected: <壹万贰仟叁佰肆拾伍亿陆仟柒佰捌拾玖万零壹佰贰拾叁> but was: <一万二千三百四十五亿六千七百八十九万零一百二十三>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.convert.NumberChineseFormatterTest.testFormat(NumberChineseFormatterTest.java:13)
+####################
+
+[FILE NAME]: TEST-LinkBufferTest_testGetBuffers.xml
+[CLASS NAME]: io.protostuff.LinkBufferTest
+[METHOD NAME]: testGetBuffers
+[ERROR MESSAGE]: expected:<2> but was:<1>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at io.protostuff.LinkBufferTest.testGetBuffers(LinkBufferTest.java:30)
+####################
+
+[FILE NAME]: TEST-ObjectUtilTest_cloneTest.xml
+[CLASS NAME]: cn.hutool.core.util.ObjectUtilTest
+[METHOD NAME]: testClone
+[ERROR MESSAGE]: expected: <cn.hutool.core.util.ObjectUtilTest$MyClass@364492> but was: <null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: org.opentest4j.AssertionFailedError: expected: <cn.hutool.core.util.ObjectUtilTest$MyClass@364492> but was: <null> 	at cn.hutool.core.util.ObjectUtilTest.testClone(ObjectUtilTest.java:12)
+####################
+
+[FILE NAME]: TEST-CharsetDetectorTest_detectTest.xml
+[CLASS NAME]: cn.hutool.core.io.CharsetDetectorTest
+[METHOD NAME]: testDetectWithDefaultCharsets
+[ERROR MESSAGE]: expected: <cn.hutool.core.util.ObjectUtilTest$MyClass@364492> but was: <null>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: org.opentest4j.AssertionFailedError: expected: <cn.hutool.core.util.ObjectUtilTest$MyClass@364492> but was: <null> 	at cn.hutool.core.util.ObjectUtilTest.testClone(ObjectUtilTest.java:12)
+####################
+
+[FILE NAME]: TEST-CharsetDetectorTest_detectTest.xml
+[CLASS NAME]: cn.hutool.core.io.CharsetDetectorTest
+[METHOD NAME]: testDetectWithInvalidCharset
+[ERROR MESSAGE]: expected: <null> but was: <ISO-8859-1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.io.CharsetDetectorTest.testDetectWithInvalidCharset(CharsetDetectorTest.java:25)
+####################
+
+[FILE NAME]: TEST-CharsetDetectorTest_detectTest.xml
+[CLASS NAME]: cn.hutool.core.io.CharsetDetectorTest
+[METHOD NAME]: testDetectWithValidCharset
+[ERROR MESSAGE]: expected: <null> but was: <ISO-8859-1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.io.CharsetDetectorTest.testDetectWithInvalidCharset(CharsetDetectorTest.java:25)
+####################
+
+[FILE NAME]: TEST-GMTEDProviderTest_testGetFileName.xml
+[CLASS NAME]: com.graphhopper.reader.dem.GMTEDProviderTest
+[METHOD NAME]: testGetFileName
+[ERROR MESSAGE]: expected: <n040w075_20101117_gmted_mea075> but was: <30n090w_20101117_gmted_mea075>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.GMTEDProviderTest.testGetFileName(GMTEDProviderTest.java:17)
+####################
+
+[FILE NAME]: TEST-UtilTest_testCamelCaseToUnderscore.xml
+[CLASS NAME]: com.github.davidmoten.rx.jdbc.UtilTest
+[METHOD NAME]: testCamelCaseToUnderscore
+[ERROR MESSAGE]: expected:<this_[is_camel_c]ased> but was:<this_[Is_Camel_C]ased>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.github.davidmoten.rx.jdbc.UtilTest.testCamelCaseToUnderscore(UtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-SpanishWordTokenizerTest_testTokenize.xml
+[CLASS NAME]: org.languagetool.tokenizers.es.SpanishWordTokenizerTest
+[METHOD NAME]: testTokenize
+[ERROR MESSAGE]: expected:<10> but was:<25>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.languagetool.tokenizers.es.SpanishWordTokenizerTest.testTokenize(SpanishWordTokenizerTest.java:14)
+####################
+
+[FILE NAME]: TEST-IdentifierTest_testFromCompoundString.xml
+[CLASS NAME]: com.github.dockerjava.api.model.IdentifierTest
+[METHOD NAME]: testFromCompoundString
+[ERROR MESSAGE]: None
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.github.dockerjava.api.model.IdentifierTest.testFromCompoundString(IdentifierTest.java:11)
+####################
+
+[FILE NAME]: TEST-NetUtilTest_getDnsInfoTest.xml
+[CLASS NAME]: cn.hutool.core.net.NetUtilTest
+[METHOD NAME]: testGetDnsInfo
+[ERROR MESSAGE]: expected: <false> but was: <true>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.net.NetUtilTest.testGetDnsInfo(NetUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-RingIndexUtilTest_ringNextIntByObjTest.xml
+[CLASS NAME]: cn.hutool.core.collection.RingIndexUtilTest
+[METHOD NAME]: testRingNextIntByObj
+[ERROR MESSAGE]: expected: <0> but was: <1>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.collection.RingIndexUtilTest.testRingNextIntByObj(RingIndexUtilTest.java:22)
+####################
+
+[FILE NAME]: TEST-WikipediaQuickCheckTest_testGetPlainText.xml
+[CLASS NAME]: org.languagetool.dev.wikipedia.WikipediaQuickCheckTest
+[METHOD NAME]: testGetPlainText
+[ERROR MESSAGE]: Could not parse XML: ==Heading==
+This is some '''bold''' and ''italic'' text.
+
+[[Link]] to another page.
+
+{| class="wikitable"
+|-
+! Header 1
+! Header 2
+|-
+| Row 1, Cell 1
+| Row 1, Cell 2
+|-
+| Row 2, Cell 1
+| Row 2, Cell 2
+|}
+
+[[File:Example.jpg|thumb|Caption]]
+
+==Another Heading==
+This is some more text.
+
+[[Category:Example]]
+[ERROR TYPE]: java.lang.RuntimeException
+[ERROR LINE]: at org.languagetool.dev.wikipedia.WikipediaQuickCheckTest.testGetPlainText(WikipediaQuickCheckTest.java:13)
+####################
+
+[FILE NAME]: TEST-PageUtilTest_rainbowTest.xml
+[CLASS NAME]: cn.hutool.core.util.PageUtilTest
+[METHOD NAME]: testRainbow
+[ERROR MESSAGE]: array lengths differ, expected: <10> but was: <5>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.PageUtilTest.testRainbow(PageUtilTest.java:40)
+####################
+
+[FILE NAME]: TEST-DesensitizedUtilTest_carLicenseTest.xml
+[CLASS NAME]: cn.hutool.core.util.DesensitizedUtilTest
+[METHOD NAME]: testCarLicense
+[ERROR MESSAGE]: expected: <京A***45> but was: <京A1***5>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.DesensitizedUtilTest.testCarLicense(DesensitizedUtilTest.java:17)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testToColorString.xml
+[CLASS NAME]: com.twelvemonkeys.lang.StringUtilTest
+[METHOD NAME]: testToColorString
+[ERROR MESSAGE]: expected:<#[FFFFFF]> but was:<#[ffffff]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.twelvemonkeys.lang.StringUtilTest.testToColorString(StringUtilTest.java:21)
+####################
+
+[FILE NAME]: TEST-CGIARProviderTest_testDown.xml
+[CLASS NAME]: com.graphhopper.reader.dem.CGIARProviderTest
+[METHOD NAME]: testDown
+[ERROR MESSAGE]: expected: <12> but was: <10>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.reader.dem.CGIARProviderTest.testDown(CGIARProviderTest.java:35)
+####################
+
+[FILE NAME]: TEST-CharSequenceUtilTest_subPreGbkTest.xml
+[CLASS NAME]: cn.hutool.core.text.CharSequenceUtilTest
+[METHOD NAME]: testSubPreGbk
+[ERROR MESSAGE]: expected: <中国人民> but was: <中国>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.text.CharSequenceUtilTest.testSubPreGbk(CharSequenceUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-IdcardUtilTest_convert15To18Test.xml
+[CLASS NAME]: cn.hutool.core.util.IdcardUtilTest
+[METHOD NAME]: testConvert15To18
+[ERROR MESSAGE]: expected: <110101198001010019> but was: <110101198001010010>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at cn.hutool.core.util.IdcardUtilTest.testConvert15To18(IdcardUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testGetTagAndRawVarInt32Bytes.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testGetTagAndRawVarInt32Bytes
+[ERROR MESSAGE]: arrays first differed at element [0]; expected:<8> but was:<1>
+[ERROR TYPE]: arrays first differed at element [0]; expected
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testGetTagAndRawVarInt32Bytes(ProtobufOutputTest.java:14)
+####################
+
+[FILE NAME]: TEST-StringUtilTest_testCut.xml
+[CLASS NAME]: com.twelvemonkeys.lang.StringUtilTest
+[METHOD NAME]: testCut
+[ERROR MESSAGE]: expected:<...string that needs to[ be cut off at a]...> but was:<...string that needs to[]...>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at com.twelvemonkeys.lang.StringUtilTest.testCut(StringUtilTest.java:13)
+####################
+
+[FILE NAME]: TEST-AngleCalcTest_testAlignOrientation.xml
+[CLASS NAME]: com.graphhopper.util.AngleCalcTest
+[METHOD NAME]: testAlignOrientation
+[ERROR MESSAGE]: expected: <1.5707963267948966> but was: <4.71238898038469>
+[ERROR TYPE]: org.opentest4j.AssertionFailedError
+[ERROR LINE]: at com.graphhopper.util.AngleCalcTest.testAlignOrientation(AngleCalcTest.java:27)
+####################
+
+[FILE NAME]: TEST-ToolsTest_testShortenComment.xml
+[CLASS NAME]: org.languagetool.gui.ToolsTest
+[METHOD NAME]: testShortenComment
+[ERROR MESSAGE]: expected:<... of the comment that[ needs to be shortened.]> but was:<... of the comment that[…]>
+[ERROR TYPE]: org.junit.ComparisonFailure
+[ERROR LINE]: at org.languagetool.gui.ToolsTest.testShortenComment(ToolsTest.java:24)
+####################
+
+[FILE NAME]: TEST-ProtobufOutputTest_testGetTagAndRawVarInt64Bytes.xml
+[CLASS NAME]: io.protostuff.ProtobufOutputTest
+[METHOD NAME]: testGetTagAndRawVarInt64Bytes
+[ERROR MESSAGE]: arrays first differed at element [1]; expected:<-94> but was:<-46>
+[ERROR TYPE]: arrays first differed at element [1]; expected
+[ERROR LINE]: at io.protostuff.ProtobufOutputTest.testGetTagAndRawVarInt64Bytes(ProtobufOutputTest.java:14)
+####################
+
+[FILE NAME]: TEST-ProjectionProfileTest_testGetAutocorrelation.xml
+[CLASS NAME]: technology.tabula.TestProjectionProfile
+[METHOD NAME]: testGetAutocorrelation
+[ERROR MESSAGE]: arrays first differed at element [0]; expected:<2.0> but was:<0.0>
+[ERROR TYPE]: org.junit.internal.ArrayComparisonFailure
+[ERROR LINE]: at technology.tabula.TestProjectionProfile.testGetAutocorrelation(TestProjectionProfile.java:13) 	at technology.tabula.TestProjectionProfile.testGetAutocorrelation(TestProjectionProfile.java:13)
+####################
+
+[FILE NAME]: TEST-TypeTokenTest_testGetTypes.xml
+[CLASS NAME]: org.jfaster.mango.util.reflect.TypeTokenTest
+[METHOD NAME]: testGetTypes
+[ERROR MESSAGE]: expected:<3> but was:<2>
+[ERROR TYPE]: java.lang.AssertionError
+[ERROR LINE]: at org.jfaster.mango.util.reflect.TypeTokenTest.testGetTypes(TypeTokenTest.java:13)
+####################
+
+Filed MVN
+SessionIdFormatTest_testCreateSessionId.java
+StringToolsTest_testIsBlank.java
+ContainerCreateConfigTest_testEnvironment.java

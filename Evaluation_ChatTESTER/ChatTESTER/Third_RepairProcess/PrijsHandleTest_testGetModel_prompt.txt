@@ -1,0 +1,351 @@
+0-->1-->0-->compileRepair
+// ReisKlasse class
+package nl.pvanassen.ns.model.prijzen;
+
+public class ReisKlasse {
+}
+
+
+// Test Method
+package nl.pvanassen.ns.model.prijzen;
+import org.junit.Test;
+import java.math.BigDecimal;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import java.io.ByteArrayInputStream;
+public class PrijsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<VervoerderKeuzes>\n" +
+                "    <VervoerderKeuze naam=\"NS\">\n" +
+                "        <Tariefeenheden>2</Tariefeenheden>\n" +
+                "        <ReisType name=\"Enkele reis\">\n" +
+                "            <ReisKlasse klasse=\"1\">\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"4.20\" van=\"Amsterdam\" naar=\"Utrecht\"/>\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"2.80\" van=\"Utrecht\" naar=\"Den Haag\"/>\n" +
+                "                <Totaal>7.00</Totaal>\n" +
+                "                <Korting>\n" +
+                "                    <Kortingsprijs name=\"Korting 65+\" prijs=\"5.00\"/>\n" +
+                "                </Korting>\n" +
+                "            </ReisKlasse>\n" +
+                "        </ReisType>\n" +
+                "    </VervoerderKeuze>\n" +
+                "</VervoerderKeuzes>";
+        ByteArrayInputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        PrijsHandle prijsHandle = new PrijsHandle();
+        Prijzen prijzen = prijsHandle.getModel(stream);
+        assertNotNull(prijzen);
+        assertEquals(1, prijzen.getVervoerderKeuzes().size());
+        VervoerderKeuze nsKeuze = prijzen.getVervoerderKeuzes().get("NS");
+        assertNotNull(nsKeuze);
+        assertEquals(2, nsKeuze.getTariefEenheden());
+        assertEquals(1, nsKeuze.getReisTypes().size());
+        ReisType enkeleReis = nsKeuze.getReisTypes().get("Enkele reis");
+        assertNotNull(enkeleReis);
+        assertEquals(1, enkeleReis.getReisKlassen().size());
+        ReisKlasse eersteKlasse = enkeleReis.getReisKlassen().get(1);
+        assertNotNull(eersteKlasse);
+
+       <Buggy Line>: cannot find symbol method "getPrijsdelen()" in ReisKlasse
+        assertEquals(1, eersteKlasse.getPrijsdelen().size());
+
+        assertEquals(new BigDecimal("7.00"), eersteKlasse.getTotaal());
+        assertEquals(1, eersteKlasse.getKortingprijzen().size());
+        assertEquals(new BigDecimal("5.00"), eersteKlasse.getKortingprijzen().get("Korting 65+"));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "ReisKlasse" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "ReisKlasse" class  cannot be modified.
+
+########
+
+1-->2-->0-->compileRepair
+// ReisKlasse class
+package nl.pvanassen.ns.model.prijzen;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.util.Map;
+
+/**
+ * Created by paul on 5-6-2017.
+ */
+@Data
+@AllArgsConstructor
+public class ReisKlasse {
+}
+
+
+// Test Method
+package nl.pvanassen.ns.model.prijzen;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
+import java.math.BigDecimal;
+import java.util.Map;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+public class PrijsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<VervoerderKeuzes>\n" +
+                "    <VervoerderKeuze naam=\"NS\">\n" +
+                "        <Tariefeenheden>2</Tariefeenheden>\n" +
+                "        <ReisType name=\"Enkele reis\">\n" +
+                "            <ReisKlasse klasse=\"1\">\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"4.20\" van=\"Amsterdam\" naar=\"Utrecht\"/>\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"2.80\" van=\"Utrecht\" naar=\"Den Haag\"/>\n" +
+                "                <Totaal>7.00</Totaal>\n" +
+                "                <Korting>\n" +
+                "                    <Kortingsprijs name=\"Korting 65+\" prijs=\"5.00\"/>\n" +
+                "                </Korting>\n" +
+                "            </ReisKlasse>\n" +
+                "        </ReisType>\n" +
+                "    </VervoerderKeuze>\n" +
+                "</VervoerderKeuzes>";
+        ByteArrayInputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        PrijsHandle prijsHandle = new PrijsHandle();
+        Prijzen prijzen = prijsHandle.getModel(stream);
+        assertNotNull(prijzen);
+        assertEquals(1, prijzen.getVervoerderKeuzes().size());
+        VervoerderKeuze nsKeuze = prijzen.getVervoerderKeuzes().get("NS");
+        assertNotNull(nsKeuze);
+        assertEquals(2, nsKeuze.getTariefEenheden());
+        assertEquals(1, nsKeuze.getReisTypes().size());
+        ReisType enkeleReis = nsKeuze.getReisTypes().get("Enkele reis");
+        assertNotNull(enkeleReis);
+        assertEquals(1, enkeleReis.getReisKlassen().size());
+        ReisKlasse eersteKlasse = enkeleReis.getReisKlassen().get(1);
+        assertNotNull(eersteKlasse);
+
+          <Buggy Line>: cannot find symbol method "getPrijsdelen()" in ReisKlasse
+        Map<String, String> prijsdelen = eersteKlasse.getPrijsdelen();
+
+        assertNotNull(prijsdelen);
+        assertEquals(2, prijsdelen.size());
+        assertEquals(new BigDecimal("7.00"), new BigDecimal(eersteKlasse.getTotaal()));
+        Map<String, String> kortingprijzen = eersteKlasse.getKortingprijzen();
+        assertNotNull(kortingprijzen);
+        assertEquals(1, kortingprijzen.size());
+        assertEquals(new BigDecimal("5.00"), new BigDecimal(kortingprijzen.get("Korting 65+")));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "ReisKlasse" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "ReisKlasse" class  cannot be modified.
+
+########
+
+2-->3-->1-->compileRepair
+// ReisKlasse class
+package nl.pvanassen.ns.model.prijzen;
+
+public class ReisKlasse {
+}
+
+
+// Test Method
+package nl.pvanassen.ns.model.prijzen;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
+import java.math.BigDecimal;
+import java.util.Map;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+public class PrijsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<VervoerderKeuzes>\n" +
+                "    <VervoerderKeuze naam=\"NS\">\n" +
+                "        <Tariefeenheden>2</Tariefeenheden>\n" +
+                "        <ReisType name=\"Enkele reis\">\n" +
+                "            <ReisKlasse klasse=\"1\">\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"4.20\" van=\"Amsterdam\" naar=\"Utrecht\"/>\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"2.80\" van=\"Utrecht\" naar=\"Den Haag\"/>\n" +
+                "                <Totaal>7.00</Totaal>\n" +
+                "                <Korting>\n" +
+                "                    <Kortingsprijs name=\"Korting 65+\" prijs=\"5.00\"/>\n" +
+                "                </Korting>\n" +
+                "            </ReisKlasse>\n" +
+                "        </ReisType>\n" +
+                "    </VervoerderKeuze>\n" +
+                "</VervoerderKeuzes>";
+        ByteArrayInputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        PrijsHandle prijsHandle = new PrijsHandle();
+        Prijzen prijzen = prijsHandle.getModel(stream);
+        assertNotNull(prijzen);
+        assertEquals(1, prijzen.getVervoerderKeuzes().size());
+        VervoerderKeuze nsKeuze = prijzen.getVervoerderKeuzes().get("NS");
+        assertNotNull(nsKeuze);
+        assertEquals(2, nsKeuze.getTariefEenheden());
+        assertEquals(1, nsKeuze.getReisTypes().size());
+        ReisType enkeleReis = nsKeuze.getReisTypes().get("Enkele reis");
+        assertNotNull(enkeleReis);
+        assertEquals(1, enkeleReis.getReisKlassen().size());
+        ReisKlasse eersteKlasse = enkeleReis.getReisKlassen().get(1);
+        assertNotNull(eersteKlasse);
+
+          <Buggy Line>: cannot find symbol method "getPrijsdelen()" in ReisKlasse
+        Map<String, String> prijsdelen = eersteKlasse.getPrijsdelen();
+
+        assertNotNull(prijsdelen);
+        assertEquals(2, prijsdelen.size());
+        assertEquals(new BigDecimal("7.00"), new BigDecimal(eersteKlasse.getTotaal()));
+        Map<String, String> kortingprijzen = eersteKlasse.getKortingprijzen();
+        assertNotNull(kortingprijzen);
+        assertEquals(1, kortingprijzen.size());
+        assertEquals(new BigDecimal("5.00"), new BigDecimal(kortingprijzen.get("Korting 65+")));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "ReisKlasse" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "ReisKlasse" class  cannot be modified.
+
+########
+
+3-->4-->2-->compileRepair
+// ReisKlasse class
+package nl.pvanassen.ns.model.prijzen;
+
+public class ReisKlasse {
+}
+
+
+// Test Method
+package nl.pvanassen.ns.model.prijzen;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
+import java.math.BigDecimal;
+import java.util.Map;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+public class PrijsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<VervoerderKeuzes>\n" +
+                "    <VervoerderKeuze naam=\"NS\">\n" +
+                "        <Tariefeenheden>2</Tariefeenheden>\n" +
+                "        <ReisType name=\"Enkele reis\">\n" +
+                "            <ReisKlasse klasse=\"1\">\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"4.20\" van=\"Amsterdam\" naar=\"Utrecht\"/>\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"2.80\" van=\"Utrecht\" naar=\"Den Haag\"/>\n" +
+                "                <Totaal>7.00</Totaal>\n" +
+                "                <Korting>\n" +
+                "                    <Kortingsprijs name=\"Korting 65+\" prijs=\"5.00\"/>\n" +
+                "                </Korting>\n" +
+                "            </ReisKlasse>\n" +
+                "        </ReisType>\n" +
+                "    </VervoerderKeuze>\n" +
+                "</VervoerderKeuzes>";
+        ByteArrayInputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        PrijsHandle prijsHandle = new PrijsHandle();
+        Prijzen prijzen = prijsHandle.getModel(stream);
+        assertNotNull(prijzen);
+        assertEquals(1, prijzen.getVervoerderKeuzes().size());
+        VervoerderKeuze nsKeuze = prijzen.getVervoerderKeuzes().get("NS");
+        assertNotNull(nsKeuze);
+        assertEquals(2, nsKeuze.getTariefEenheden());
+        assertEquals(1, nsKeuze.getReisTypes().size());
+        ReisType enkeleReis = nsKeuze.getReisTypes().get("Enkele reis");
+        assertNotNull(enkeleReis);
+        assertEquals(1, enkeleReis.getReisKlassen().size());
+        ReisKlasse eersteKlasse = enkeleReis.getReisKlassen().get(1);
+        assertNotNull(eersteKlasse);
+
+          <Buggy Line>: cannot find symbol method "getPrijsdelen()" in ReisKlasse
+        Map<String, String> prijsdelen = eersteKlasse.getPrijsdelen();
+
+        assertNotNull(prijsdelen);
+        assertEquals(2, prijsdelen.size());
+        assertEquals(new BigDecimal("7.00"), new BigDecimal(eersteKlasse.getTotaal()));
+        Map<String, String> kortingprijzen = eersteKlasse.getKortingprijzen();
+        assertNotNull(kortingprijzen);
+        assertEquals(1, kortingprijzen.size());
+        assertEquals(new BigDecimal("5.00"), new BigDecimal(kortingprijzen.get("Korting 65+")));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "ReisKlasse" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "ReisKlasse" class  cannot be modified.
+
+########
+
+4-->5-->3-->compileRepair
+// ReisKlasse class
+package nl.pvanassen.ns.model.prijzen;
+
+public class ReisKlasse {
+}
+
+
+// Test Method
+package nl.pvanassen.ns.model.prijzen;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
+import java.math.BigDecimal;
+import java.util.Map;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+public class PrijsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<VervoerderKeuzes>\n" +
+                "    <VervoerderKeuze naam=\"NS\">\n" +
+                "        <Tariefeenheden>2</Tariefeenheden>\n" +
+                "        <ReisType name=\"Enkele reis\">\n" +
+                "            <ReisKlasse klasse=\"1\">\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"4.20\" van=\"Amsterdam\" naar=\"Utrecht\"/>\n" +
+                "                <Prijsdeel vervoerder=\"NS\" prijs=\"2.80\" van=\"Utrecht\" naar=\"Den Haag\"/>\n" +
+                "                <Totaal>7.00</Totaal>\n" +
+                "                <Korting>\n" +
+                "                    <Kortingsprijs name=\"Korting 65+\" prijs=\"5.00\"/>\n" +
+                "                </Korting>\n" +
+                "            </ReisKlasse>\n" +
+                "        </ReisType>\n" +
+                "    </VervoerderKeuze>\n" +
+                "</VervoerderKeuzes>";
+        ByteArrayInputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        PrijsHandle prijsHandle = new PrijsHandle();
+        Prijzen prijzen = prijsHandle.getModel(stream);
+        assertNotNull(prijzen);
+        assertEquals(1, prijzen.getVervoerderKeuzes().size());
+        VervoerderKeuze nsKeuze = prijzen.getVervoerderKeuzes().get("NS");
+        assertNotNull(nsKeuze);
+        assertEquals(2, nsKeuze.getTariefEenheden());
+        assertEquals(1, nsKeuze.getReisTypes().size());
+        ReisType enkeleReis = nsKeuze.getReisTypes().get("Enkele reis");
+        assertNotNull(enkeleReis);
+        assertEquals(1, enkeleReis.getReisKlassen().size());
+        ReisKlasse eersteKlasse = enkeleReis.getReisKlassen().get(1);
+        assertNotNull(eersteKlasse);
+
+          <Buggy Line>: cannot find symbol method "getPrijsdelen()" in ReisKlasse
+        Map<String, String> prijsdelen = eersteKlasse.getPrijsdelen();
+
+        assertNotNull(prijsdelen);
+        assertEquals(2, prijsdelen.size());
+        assertEquals(new BigDecimal("7.00"), new BigDecimal(eersteKlasse.getTotaal()));
+        Map<String, String> kortingprijzen = eersteKlasse.getKortingprijzen();
+        assertNotNull(kortingprijzen);
+        assertEquals(1, kortingprijzen.size());
+        assertEquals(new BigDecimal("5.00"), new BigDecimal(kortingprijzen.get("Korting 65+")));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "ReisKlasse" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "ReisKlasse" class  cannot be modified.
+
+########
+

@@ -1,0 +1,86 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,29] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[19,23] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[31,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[37,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[43,45] error: cannot find symbol
+[INFO] 8 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,29] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[19,23] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[31,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[37,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[43,45] error: cannot find symbol
+[INFO] 8 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,29] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[19,23] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[31,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[37,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[43,45] error: cannot find symbol
+[INFO] 8 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,29] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[19,23] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[31,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[37,45] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[43,45] error: cannot find symbol
+[INFO] 8 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,32] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[21,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[35,38] error: constructor Reference in class Reference cannot be applied to given types;
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,50] error: <anonymous org.syphr.prom.DefaultEvaluatorTest$1> is not abstract and does not override abstract method retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[18,32] error: retrieve(String) in <anonymous org.syphr.prom.DefaultEvaluatorTest$1> cannot implement retrieve(String) in Retriever
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[17,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[21,12] error: method does not override or implement a method from a supertype
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[35,38] error: constructor Reference in class Reference cannot be applied to given types;
+[INFO] 6 errors 
+####################
+

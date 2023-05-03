@@ -1,0 +1,184 @@
+0-->1-->0-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.security.SecureRandom;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Test;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+
+          <Buggy Line>: no suitable constructor found for Key(no arguments)
+        Key key = new Key();
+
+        Token token = Token.generate(random, key, payload);
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+        IvParameterSpec iv = token.getInitializationVector();
+        assertEquals(Token.initializationVectorBytes, iv.getIV().length);
+        byte[] cipherText = token.getCipherText();
+        assertEquals(0, cipherText.length % Token.cipherTextBlockSize);
+        byte[] hmac = token.getHmac();
+        assertEquals(Token.signatureBytes, hmac.length);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+
+          <Buggy Line>: no suitable constructor found for Key(java.security.SecureRandom)
+        Key key = new Key(random);
+
+        Token token = Token.generate(random, key, payload);
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+        IvParameterSpec iv = token.getInitializationVector();
+        assertEquals(Token.initializationVectorBytes, iv.getIV().length);
+        byte[] cipherText = token.getCipherText();
+        assertEquals(0, cipherText.length % Token.cipherTextBlockSize);
+        byte[] hmac = token.getHmac();
+        assertEquals(Token.signatureBytes, hmac.length);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Token class
+package com.macasaet.fernet;
+public class Token {
+public static Token fromBytes(final byte[] bytes);
+public static Token fromString(final String string);
+public static Token generate(final Key key, final String plainText);
+public static Token generate(final SecureRandom random, final Key key, final String plainText);
+public static Token generate(final Key key, final byte[] payload);
+public static Token generate(final SecureRandom random, final Key key, final byte[] payload);
+public T validateAndDecrypt(final Key key, final Validator<T> validator);
+public T validateAndDecrypt(final Collection<? extends Key> keys, final Validator<T> validator);
+public String serialise();
+public void writeTo(final OutputStream outputStream) throws IOException;
+public byte getVersion();
+public Instant getTimestamp();
+public IvParameterSpec getInitializationVector();
+public String toString();
+public boolean isValidSignature(final Key key);
+}
+
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+        Key key = Key.generateKey();
+        Token token = Token.generate(random, key, payload);
+        assertNotNull(token);
+
+       <Buggy Line>: cannot find symbol variable "supportedVersion"
+        assertEquals(Token.supportedVersion, token.getVersion());
+
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+        IvParameterSpec iv = token.getInitializationVector();
+        assertEquals(Token.initializationVectorBytes, iv.getIV().length);
+        byte[] cipherText = token.getCipherText();
+        assertEquals(0, cipherText.length % Token.cipherTextBlockSize);
+        byte[] hmac = token.getHmac();
+        assertEquals(Token.signatureBytes, hmac.length);
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Token" class information (it is crucial) and return the complete test method after repair. Note that the "Token" class information cannot be modified.
+
+########
+

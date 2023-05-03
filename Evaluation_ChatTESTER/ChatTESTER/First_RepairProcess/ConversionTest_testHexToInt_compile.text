@@ -1,0 +1,24 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testHexToInt
+[GENERATED PATH] ConversionTest_testHexToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[3,52] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,7] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,14] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,18] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,24] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[4,44] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[5,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[5,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[5,36] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[6,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[6,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[6,11] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[6,17] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[6,22] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[65,2] reached end of file while parsing
+[INFO] 17 errors 
+####################
+

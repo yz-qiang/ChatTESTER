@@ -1,0 +1,160 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[13,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[14,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[15,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[17,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[19,22] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[20,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest###testReduce
+[GENERATED PATH] FractionTest_testReduce.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[12,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[16,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/math/FractionTest.java:[20,30] Fraction(int,int) has private access in org.apache.commons.lang3.math.Fraction
+[INFO] 3 errors 
+####################
+

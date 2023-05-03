@@ -1,0 +1,242 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
+public class DefaultEvaluatorTest_testGetreferences {
+    private DefaultEvaluator defaultEvaluator;
+    private Retriever retriever;
+    @Before
+    public void setUp() {
+        defaultEvaluator = new DefaultEvaluator();
+        retriever = new Retriever(new Properties());
+    }
+    @Test
+    public void testGetReferences() {
+        String rawValue = "test";
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<Reference> expectedReferences = new ArrayList<>();
+
+        expectedReferences.add(new Reference("test1"));
+        expectedReferences.add(new Reference("test2"));
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertEquals(expectedReferences.size(), actualReferences.size());
+        Assert.assertEquals(expectedReferences.get(0).getName(), actualReferences.get(0).getName());
+        Assert.assertEquals(expectedReferences.get(1).getName(), actualReferences.get(1).getName());
+    }
+    @Test
+    public void testGetReferencesWithNullRawValue() {
+        String rawValue = null;
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertTrue(actualReferences.isEmpty());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    private DefaultEvaluator defaultEvaluator;
+    private Retriever retriever;
+    @Before
+    public void setUp() {
+        defaultEvaluator = new DefaultEvaluator();
+        retriever = new Retriever(new Properties());
+    }
+    @Test
+    public void testGetReferences() {
+        String rawValue = "test";
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<Reference> expectedReferences = new ArrayList<>();
+
+        expectedReferences.add(new Reference("test1"));
+        expectedReferences.add(new Reference("test2"));
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertEquals(expectedReferences.size(), actualReferences.size());
+        Assert.assertEquals(expectedReferences.get(0).getName(), actualReferences.get(0).getName());
+        Assert.assertEquals(expectedReferences.get(1).getName(), actualReferences.get(1).getName());
+    }
+    @Test
+    public void testGetReferencesWithNullRawValue() {
+        String rawValue = null;
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertTrue(actualReferences.isEmpty());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    private DefaultEvaluator defaultEvaluator;
+    private Retriever retriever;
+    @Before
+    public void setUp() {
+        defaultEvaluator = new DefaultEvaluator();
+
+          <Buggy Line>: Retriever is abstract; cannot be instantiated
+        retriever = new Retriever(new Properties());
+
+    }
+    @Test
+    public void testGetReferences() {
+        String rawValue = "test";
+        List<Reference> expectedReferences = new ArrayList<Reference>();
+        expectedReferences.add(new Reference("test1"));
+        expectedReferences.add(new Reference("test2"));
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertEquals(expectedReferences.size(), actualReferences.size());
+        Assert.assertEquals(expectedReferences.get(0).getName(), actualReferences.get(0).getName());
+        Assert.assertEquals(expectedReferences.get(1).getName(), actualReferences.get(1).getName());
+    }
+    @Test
+    public void testGetReferencesWithNullRawValue() {
+        String rawValue = null;
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertTrue(actualReferences.isEmpty());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    private DefaultEvaluator defaultEvaluator;
+    private Retriever retriever;
+    @Before
+    public void setUp() {
+        defaultEvaluator = new DefaultEvaluator();
+
+          <Buggy Line>: cannot find symbol
+        retriever = new DefaultRetriever(new Properties());
+
+    }
+    @Test
+    public void testGetReferences() {
+        String rawValue = "test";
+        List<Reference> expectedReferences = new ArrayList<Reference>();
+        expectedReferences.add(new Reference("test1"));
+        expectedReferences.add(new Reference("test2"));
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertEquals(expectedReferences.size(), actualReferences.size());
+        Assert.assertEquals(expectedReferences.get(0).getName(), actualReferences.get(0).getName());
+        Assert.assertEquals(expectedReferences.get(1).getName(), actualReferences.get(1).getName());
+    }
+    @Test
+    public void testGetReferencesWithNullRawValue() {
+        String rawValue = null;
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertTrue(actualReferences.isEmpty());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    private DefaultEvaluator defaultEvaluator;
+    private Retriever retriever;
+    @Before
+    public void setUp() {
+        defaultEvaluator = new DefaultEvaluator();
+        Properties properties = new Properties();
+
+         <Buggy Line>: cannot find symbol
+        retriever = new DefaultRetriever(properties);
+
+    }
+    @Test
+    public void testGetReferences() {
+        String rawValue = "test";
+        List<Reference> expectedReferences = new ArrayList<Reference>();
+        expectedReferences.add(new Reference("test1"));
+        expectedReferences.add(new Reference("test2"));
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertEquals(expectedReferences.size(), actualReferences.size());
+        Assert.assertEquals(expectedReferences.get(0).getName(), actualReferences.get(0).getName());
+        Assert.assertEquals(expectedReferences.get(1).getName(), actualReferences.get(1).getName());
+    }
+    @Test
+    public void testGetReferencesWithNullRawValue() {
+        String rawValue = null;
+        List<Reference> actualReferences = defaultEvaluator.getReferences(rawValue, retriever);
+        Assert.assertNotNull(actualReferences);
+        Assert.assertTrue(actualReferences.isEmpty());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

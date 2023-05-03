@@ -1,0 +1,187 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntFloatHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntFloatHashMap map1 = new IntFloatHashMap();
+        map1.put(1, 1.0f);
+        map1.put(2, 2.0f);
+        map1.put(3, 3.0f);
+        IntFloatHashMap map2 = new IntFloatHashMap();
+        map2.put(1, 1.0f);
+        map2.put(2, 2.0f);
+        map2.put(3, 3.0f);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntFloatHashMap map3 = new IntFloatHashMap();
+        map3.put(1, 1.0f);
+        map3.put(2, 2.0f);
+        map3.put(4, 3.0f);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntFloatHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntFloatHashMap map1 = new IntFloatHashMap();
+        map1.put(1, 1.0f);
+        map1.put(2, 2.0f);
+        map1.put(3, 3.0f);
+        IntFloatHashMap map2 = new IntFloatHashMap();
+        map2.put(1, 1.0f);
+        map2.put(2, 2.0f);
+        map2.put(3, 3.0f);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntFloatHashMap map3 = new IntFloatHashMap();
+        map3.put(1, 1.0f);
+        map3.put(2, 2.0f);
+        map3.put(4, 3.0f);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class IntFloatHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntFloatHashMap map1 = new IntFloatHashMap();
+        map1.put(1, 1.0f);
+        map1.put(2, 2.0f);
+        map1.put(3, 3.0f);
+        IntFloatHashMap map2 = new IntFloatHashMap();
+        map2.put(1, 1.0f);
+        map2.put(2, 2.0f);
+        map2.put(3, 3.0f);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntFloatHashMap map3 = new IntFloatHashMap();
+        map3.put(1, 1.0f);
+        map3.put(2, 2.0f);
+        map3.put(4, 3.0f);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class IntFloatHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntFloatHashMap map1 = new IntFloatHashMap();
+        map1.put(1, 1.0f);
+        map1.put(2, 2.0f);
+        map1.put(3, 3.0f);
+        IntFloatHashMap map2 = new IntFloatHashMap();
+        map2.put(1, 1.0f);
+        map2.put(2, 2.0f);
+        map2.put(3, 3.0f);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntFloatHashMap map3 = new IntFloatHashMap();
+        map3.put(1, 1.0f);
+        map3.put(2, 2.0f);
+        map3.put(4, 3.0f);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class IntFloatHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntFloatHashMap map1 = new IntFloatHashMap();
+        map1.put(1, 1.0f);
+        map1.put(2, 2.0f);
+        map1.put(3, 3.0f);
+        IntFloatHashMap map2 = new IntFloatHashMap();
+        map2.put(1, 1.0f);
+        map2.put(2, 2.0f);
+        map2.put(3, 3.0f);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntFloatHashMap map3 = new IntFloatHashMap();
+        map3.put(1, 1.0f);
+        map3.put(2, 2.0f);
+        map3.put(4, 3.0f);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

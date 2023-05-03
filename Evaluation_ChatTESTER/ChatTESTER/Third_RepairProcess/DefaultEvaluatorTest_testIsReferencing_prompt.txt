@@ -1,0 +1,56 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private DefaultEvaluator evaluator;
+    @Before
+    public void setUp() {
+        evaluator = new DefaultEvaluator();
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue = "Hello ${name}";
+        String name = "name";
+        Retriever retriever = new Retriever() {
+            @Override
+            public String retrieve(String key) {
+                return "World";
+            }
+        };
+        boolean result = evaluator.isReferencing(rawValue, name, retriever);
+        Assert.assertTrue(result);
+    }
+    @Test
+    public void testIsNotReferencing() {
+        String rawValue = "Hello World";
+        String name = "name";
+        Retriever retriever = new Retriever() {
+            @Override
+            public String retrieve(String key) {
+                return "World";
+            }
+        };
+        boolean result = evaluator.isReferencing(rawValue, name, retriever);
+        Assert.assertFalse(result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

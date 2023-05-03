@@ -1,0 +1,84 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Calendar;
+import java.util.TimeZone;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class DurationFormatUtilsTest_testLexx {
+    @Test
+    public void testLexx() {
+        String format = "yMdHmsS";
+
+         <Buggy Line>: cannot find symbol class "Token"
+        Token[] expectedTokens = {
+
+                new Token(DurationFormatUtils.y),
+                new Token(DurationFormatUtils.M),
+                new Token(DurationFormatUtils.d),
+                new Token(DurationFormatUtils.H),
+                new Token(DurationFormatUtils.m),
+                new Token(DurationFormatUtils.s),
+                new Token(DurationFormatUtils.S)
+        };
+        Token[] actualTokens = DurationFormatUtils.lexx(format);
+        assertArrayEquals(expectedTokens, actualTokens);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Calendar;
+import java.util.TimeZone;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class DurationFormatUtilsTest_testLexx {
+    @Test
+    public void testLexx() {
+        String format = "yMdHmsS";
+
+         <Buggy Line>: cannot find symbol class "Token"
+        Token[] expectedTokens = {
+
+                new Token(DurationFormatUtils.y),
+                new Token(DurationFormatUtils.M),
+                new Token(DurationFormatUtils.d),
+                new Token(DurationFormatUtils.H),
+                new Token(DurationFormatUtils.m),
+                new Token(DurationFormatUtils.s),
+                new Token(DurationFormatUtils.S)
+        };
+        Token[] actualTokens = DurationFormatUtils.lexx(format);
+        assertArrayEquals(expectedTokens, actualTokens);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

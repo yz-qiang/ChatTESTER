@@ -1,0 +1,586 @@
+0-->1-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToShort` method is to convert a specified number of boolean values from a given source array into a short integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+public class ConversionTest_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 0;
+        short dstInit = 0;
+        int dstPos = 0;
+        int nBools = 8;
+        short expectedOutput = 170;
+        short actualOutput = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expectedOutput, actualOutput);
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, actualOutput); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

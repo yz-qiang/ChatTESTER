@@ -1,0 +1,168 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[47,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[58,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[67,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[74,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[75,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[89,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[90,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[103,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[106,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[47,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[58,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[67,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[74,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[75,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[89,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[90,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[103,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[106,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[47,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[58,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[67,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[74,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[75,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[89,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[90,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[103,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[106,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[47,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[58,49] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[67,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[74,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[75,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[89,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[90,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[103,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[106,20] cannot find symbol
+  symbol:   method onComplete(java.lang.Runnable)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[43,41] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[48,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[56,42] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] ConcurrentCompletableTest_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[43,41] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[48,61] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[56,42] cannot find symbol
+  symbol:   method getResult()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable<java.lang.Object>
+[INFO] 3 errors 
+####################
+

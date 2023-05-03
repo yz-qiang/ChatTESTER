@@ -1,0 +1,19 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] IntIntHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java_generated\edu\jhu\prim\map\IntIntHashMapTest.java:[28,8] error: cannot find symbol
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] IntIntHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java_generated\edu\jhu\prim\map\IntIntHashMapTest.java:[4] error: cannot find symbol
+[ERROR]   symbol:   static assertNotEquals
+  location: class
+D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java_generated\edu\jhu\prim\map\IntIntHashMapTest.java:[22,8] error: cannot find symbol
+[INFO] 2 errors 
+####################
+

@@ -1,0 +1,923 @@
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the equality of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import org.apache.commons.lang3.reflect.MethodUtils;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.reflectionAppend(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the equality of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import org.apache.commons.lang3.reflect.MethodUtils;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.reflectionAppend(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the fields of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.util.Arrays;
+import org.apache.commons.lang3.reflect.MethodUtils;
+import org.junit.Test;
+import org.junit.Before;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.append(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the equality of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.util.Arrays;
+import org.junit.Test;
+import org.junit.Before;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.append(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the equality of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.util.Arrays;
+import org.junit.Test;
+import org.junit.Before;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.append(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the equality of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.util.Arrays;
+import org.junit.Test;
+import org.junit.Before;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.append(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Method intention
+The intention of the `reflectionAppend` method is to compare the fields of two objects `lhs` and `rhs` using reflection.
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.util.Arrays;
+import org.junit.Test;
+import org.junit.Before;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.append(lhs4, rhs4);
+
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public EqualsBuilder reflectionAppend(final Object lhs, final Object rhs) {
+    if (!isEquals) {
+        return this;
+    }
+    if (lhs == rhs) {
+        return this;
+    }
+    if (lhs == null || rhs == null) {
+        isEquals = false;
+        return this;
+    }
+    final Class<?> lhsClass = lhs.getClass();
+    final Class<?> rhsClass = rhs.getClass();
+    Class<?> testClass;
+    if (lhsClass.isInstance(rhs)) {
+        testClass = lhsClass;
+        if (!rhsClass.isInstance(lhs)) {
+            testClass = rhsClass;
+        }
+    } else if (rhsClass.isInstance(lhs)) {
+        testClass = rhsClass;
+        if (!lhsClass.isInstance(rhs)) {
+            testClass = lhsClass;
+        }
+    } else {
+        isEquals = false;
+        return this;
+    }
+    try {
+        if (testClass.isArray()) {
+            append(lhs, rhs);
+        } else {
+            reflectionAppend(lhs, rhs, testClass);
+            while (testClass.getSuperclass() != null && testClass != reflectUpToClass) {
+                testClass = testClass.getSuperclass();
+                reflectionAppend(lhs, rhs, testClass);
+            }
+        }
+    } catch (final IllegalArgumentException e) {
+        isEquals = false;
+        return this;
+    }
+    return this;
+}
+
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import org.apache.commons.lang3.reflect.MethodUtils;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class EqualsBuilderTest_testReflectionAppend {
+    private EqualsBuilder equalsBuilder;
+    @Before
+    public void setUp() {
+        equalsBuilder = new EqualsBuilder();
+    }
+    @Test
+    public void testReflectionAppend() {
+        Object lhs1 = new Object();
+        Object rhs1 = lhs1;
+        EqualsBuilder result1 = equalsBuilder.reflectionAppend(lhs1, rhs1);
+        assertTrue(result1.isEquals());
+        Object lhs2 = null;
+        Object rhs2 = null;
+        EqualsBuilder result2 = equalsBuilder.reflectionAppend(lhs2, rhs2);
+        assertTrue(result2.isEquals());
+        Object lhs3 = new Object();
+        Object rhs3 = new String("test");
+        EqualsBuilder result3 = equalsBuilder.reflectionAppend(lhs3, rhs3);
+        assertFalse(result3.isEquals());
+        int[] lhs4 = {1, 2, 3};
+        int[] rhs4 = {1, 2, 3};
+        EqualsBuilder result4 = equalsBuilder.reflectionAppend(lhs4, rhs4);
+
+<Error Line>
+        assertTrue(result4.isEquals());
+
+        MyClass lhs5 = new MyClass("test", 1);
+        MyClass rhs5 = new MyClass("test", 2);
+        EqualsBuilder result5 = equalsBuilder.reflectionAppend(lhs5, rhs5);
+        assertFalse(result5.isEquals());
+    }
+    private static class MyClass {
+        private String str;
+        private int num;
+        public MyClass(String str, int num) {
+            this.str = str;
+            this.num = num;
+        }
+        public String getStr() {
+            return str;
+        }
+        public int getNum() {
+            return num;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(result4.isEquals()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

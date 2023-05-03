@@ -1,0 +1,62 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testLongToHex
+[GENERATED PATH] ConversionTest_testLongToHex.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[13,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[19,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[31,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[37,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[43,23] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testLongToHex
+[GENERATED PATH] ConversionTest_testLongToHex.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[13,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[19,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[31,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[37,36] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[43,23] method longToHex in class org.apache.commons.lang3.Conversion cannot be applied to given types;
+  required: long,int,java.lang.String,int,int
+  found: long,int,int
+  reason: actual and formal argument lists differ in length
+[INFO] 6 errors 
+####################
+

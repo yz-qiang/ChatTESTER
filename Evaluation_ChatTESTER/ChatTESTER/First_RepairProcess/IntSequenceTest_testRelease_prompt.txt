@@ -1,0 +1,226 @@
+0-->1-->0-->compileRepair
+// IntSequence class
+package cn.xdean.jex.lang.collection.sequence;
+public class IntSequence {
+public static IntSequence create(int start, int step);
+public boolean hasNext();
+public Integer next();
+public boolean release(Integer e);
+}
+
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+import io.reactivex.Flowable;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+    public void testRelease() {
+
+           <Buggy Line>: IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+        IntSequence sequence = new IntSequence(0, 2);
+
+        assertTrue(sequence.release(0));
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "IntSequence" class information (it is crucial) and return the complete test method after repair. Note that the "IntSequence" class information cannot be modified.
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@Override
+public boolean release(Integer e) {
+    int i = e;
+    if (i >= start && i < next && (i - start) % step == 0) {
+        return released.add(i);
+    }
+    return false;
+}
+
+// Method intention
+The intention of the `release(Integer e)` method is to add the integer `e` to the `released` list if it meets certain conditions.
+
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+    public void testRelease() {
+        IntSequence sequence = IntSequence.create(0, 2);
+
+        assertTrue(sequence.release(0));
+
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(sequence.release(0)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+
+<Buggy Line>: class, interface, or enum expected
+import io.reactivex.Flowable;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+    public void testRelease() {
+        IntSequence sequence = new IntSequence(0, 2);
+        assertTrue(sequence.release(0));
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// IntSequence class
+package cn.xdean.jex.lang.collection.sequence;
+public class IntSequence {
+public static IntSequence create(int start, int step);
+public boolean hasNext();
+public Integer next();
+public boolean release(Integer e);
+}
+
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+import io.reactivex.Flowable;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+
+     <Buggy Line>: IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+    public void testRelease() {
+
+        IntSequence sequence = new IntSequence(0, 2);
+        assertTrue(sequence.release(0));
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "IntSequence" class information (it is crucial) and return the complete test method after repair. Note that the "IntSequence" class information cannot be modified.
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+@Override
+public boolean release(Integer e) {
+    int i = e;
+    if (i >= start && i < next && (i - start) % step == 0) {
+        return released.add(i);
+    }
+    return false;
+}
+
+// Method intention
+The intention of the `release(Integer e)` method is to add the integer `e` to the `released` list if it meets certain conditions.
+
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+    public void testRelease() {
+        IntSequence sequence = IntSequence.create(0, 2);
+
+        assertTrue(sequence.release(0));
+
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(sequence.release(0)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Test Method
+package cn.xdean.jex.lang.collection.sequence;
+
+<Buggy Line>: class, interface, or enum expected
+import io.reactivex.Flowable;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntSequenceTest_testRelease {
+    @Test
+    public void testRelease() {
+        IntSequence sequence = new IntSequence(0, 2);
+        assertTrue(sequence.release(0));
+        assertFalse(sequence.release(1));
+        assertTrue(sequence.release(2));
+        assertFalse(sequence.release(3));
+        assertTrue(sequence.release(4));
+        assertFalse(sequence.release(5));
+        assertTrue(sequence.release(6));
+        assertFalse(sequence.release(7));
+        assertTrue(sequence.release(8));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

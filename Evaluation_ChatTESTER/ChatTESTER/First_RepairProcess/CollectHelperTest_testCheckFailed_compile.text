@@ -1,0 +1,56 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] CollectHelperTest_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[48,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[59,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] CollectHelperTest_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,44] incompatible types: eu.toolchain.concurrent.ConcurrentManaged.ManagedState cannot be converted to java.util.concurrent.atomic.AtomicReference<eu.toolchain.concurrent.ConcurrentManaged.ManagedState>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[59,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] CollectHelperTest_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,44] incompatible types: eu.toolchain.concurrent.ConcurrentManaged.ManagedState cannot be converted to java.util.concurrent.atomic.AtomicReference<eu.toolchain.concurrent.ConcurrentManaged.ManagedState>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable reference
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] CollectHelperTest_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[42,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] CollectHelperTest_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[42,9] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[INFO] 1 error
+####################
+

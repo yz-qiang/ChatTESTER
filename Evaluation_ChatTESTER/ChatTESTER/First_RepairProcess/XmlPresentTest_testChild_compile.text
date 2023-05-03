@@ -1,0 +1,138 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[24,9] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[24,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[31,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[32,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[35,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[36,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[39,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 7 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[25,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[26,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[29,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[30,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[33,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 5 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,9] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[26,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[27,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[33,42] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[40,36] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 6 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[21,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[27,42] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[34,36] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,9] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[26,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[27,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[33,42] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[40,36] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 6 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[21,37] cannot find symbol
+  symbol:   method getContent()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[27,42] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[34,36] cannot find symbol
+  symbol:   method getName()
+  location: variable child of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+

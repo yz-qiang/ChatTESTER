@@ -1,0 +1,120 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[39,45] cannot find symbol
+  symbol:   method getStations()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStationList()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[39,45] cannot find symbol
+  symbol:   method getStations()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,45] cannot find symbol
+  symbol:   method getStationList()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStation()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStations()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStation()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[39,45] cannot find symbol
+  symbol:   method getStations()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStationList()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStation()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStations()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,61] cannot find symbol
+  symbol:   method getStation()
+  location: variable stations of type nl.pvanassen.ns.model.stations.Stations
+[INFO] 1 error
+####################
+

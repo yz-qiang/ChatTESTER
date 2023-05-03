@@ -1,0 +1,453 @@
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[40,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[40,38] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[42,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[42,48] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[52,32] error: constructor Datastream in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[53,18] error: method id in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[60,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[60,45] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[61,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[61,50] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[62,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[62,52] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[63,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[63,54] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[64,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[64,52] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[69,38] error: method get in class StoreConnector cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[79,24] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[80,24] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[81,28] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[82,28] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[83,24] error: cannot find symbol
+
+[INFO] 22 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[40,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[40,38] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[42,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[42,48] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[52,32] error: constructor Datastream in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[53,18] error: method id in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[60,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[60,45] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[61,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[61,50] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[62,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[62,52] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[63,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[63,54] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[64,8] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[64,52] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[69,38] error: method get in class StoreConnector cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[79,24] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[80,24] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[81,28] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[82,28] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[83,24] error: cannot find symbol
+
+[INFO] 22 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,28] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,163] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[47,19] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[47,30] error: ';' expected
+
+[INFO] 4 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,28] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,103] error: ';' expected
+
+[INFO] 2 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,28] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,103] error: ';' expected
+
+[INFO] 2 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,28] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,103] error: ';' expected
+
+[INFO] 2 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,28] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[46,103] error: ';' expected
+
+[INFO] 2 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[176,12] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[127,14] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[128,14] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[129,21] error: incompatible types: String cannot be converted to State
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,14] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[137,32] error: constructor Datastream in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[138,18] error: method id in class Datastream cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[139,18] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[140,18] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[141,18] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[143,29] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[147,36] error: constructor DatastreamVersion in class DatastreamVersion cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[148,15] error: method id in class DatastreamVersion cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[150,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[151,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[152,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[153,26] error: incompatible types: String cannot be converted to URI
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[156,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[157,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[158,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[177,19] error: cannot find symbol
+
+[INFO] 21 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,29] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,35] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,18] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,30] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,26] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,32] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,15] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,24] error: ';' expected
+
+[INFO] 9 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,29] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,35] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,18] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,30] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,26] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,32] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,15] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,24] error: ';' expected
+
+[INFO] 9 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,29] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,35] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,18] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,30] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,26] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,32] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,15] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,24] error: ';' expected
+
+[INFO] 9 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,29] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[132,35] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,18] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[133,30] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,26] error: unclosed string literal
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[144,32] error: ';' expected
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,15] error: illegal start of expression
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[145,24] error: ';' expected
+
+[INFO] 9 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[82,47] error: incompatible types: Object cannot be converted to HttpEntity
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[89,30] error: method get in class StoreConnector cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[100,30] error: constructor FedoraObject in class FedoraObject cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[103,21] error: incompatible types: String cannot be converted to State
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[106,36] error: constructor DatastreamVersion in class DatastreamVersion cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[107,15] error: method id in class DatastreamVersion cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[110,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[111,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[113,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[114,15] error: method createdDate in class DatastreamVersion cannot be applied to given types;
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[115,15] error: cannot find symbol
+
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[116,14] error: cannot find symbol
+
+[INFO] 12 errors 
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.973 s
+[INFO] Finished at: 2023-04-29T03:06:12+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:testCompile (default-testCompile) on project fcrepo-cloudsync-service: Compilation failure
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+[ERROR] 
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.888 s
+[INFO] Finished at: 2023-04-29T03:07:30+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:testCompile (default-testCompile) on project fcrepo-cloudsync-service: Compilation failure
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+[ERROR] 
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.818 s
+[INFO] Finished at: 2023-04-29T03:08:37+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:testCompile (default-testCompile) on project fcrepo-cloudsync-service: Compilation failure
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+[ERROR] 
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+####################
+
+original test path: duraspace_fcrepo-cloudsync###duraspace_fcrepo-cloudsync/fcrepo-cloudsync-service/src/test/java/org/duraspace/fcrepo/cloudsync/service/backend/DuraCloudConnectorTest###testPutObject
+[GENERATED PATH] DuraCloudConnectorTest_testPutObject.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.853 s
+[INFO] Finished at: 2023-04-29T03:09:48+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:testCompile (default-testCompile) on project fcrepo-cloudsync-service: Compilation failure
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\duraspace_fcrepo-cloudsync\fcrepo-cloudsync-service\src\test\java\org\duraspace\fcrepo\cloudsync\service\backend\DuraCloudConnectorTest.java:[39,38] error: unclosed string literal
+[ERROR] 
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Duser.language=en
+####################
+

@@ -1,0 +1,394 @@
+0-->1-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, stored as an array of booleans, into an integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 1, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 6 " in " int actualOutput2 = Conversion.binaryToInt(binaryArray2, 1, 0, 1, 6); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, stored as an array of booleans, into an integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 0, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput2, actualOutput2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, stored as an array of booleans, into an integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 0, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput2, actualOutput2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, given as a boolean array `src`, into an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 0, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput2, actualOutput2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, stored as an array of booleans, into an integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 0, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput2, actualOutput2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static int binaryToInt(final boolean[] src, final int srcPos, final int dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 32) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToInt` method is to convert a binary representation of a number, given as a boolean array `src`, into an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToInt {
+    @Test
+    public void testBinaryToInt() {
+        boolean[] binaryArray = {true, false, true, false};
+        int expectedOutput = 5;
+        int actualOutput = Conversion.binaryToInt(binaryArray, 0, 0, 0, 4);
+        assertEquals(expectedOutput, actualOutput);
+        boolean[] binaryArray2 = {false, true, false, true, false, true};
+        int expectedOutput2 = 42;
+        int actualOutput2 = Conversion.binaryToInt(binaryArray2, 0, 0, 1, 6);
+
+        assertEquals(expectedOutput2, actualOutput2);
+
+        boolean[] binaryArray3 = {true, true, true, true, true, true, true, true};
+        int expectedOutput3 = 255;
+        int actualOutput3 = Conversion.binaryToInt(binaryArray3, 0, 0, 0, 8);
+        assertEquals(expectedOutput3, actualOutput3);
+        boolean[] binaryArray4 = {false, false, false, false, false, false, false, false};
+        int expectedOutput4 = 0;
+        int actualOutput4 = Conversion.binaryToInt(binaryArray4, 0, 0, 0, 8);
+        assertEquals(expectedOutput4, actualOutput4);
+        boolean[] binaryArray5 = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+        try {
+            Conversion.binaryToInt(binaryArray5, 0, 0, 0, 16);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput2, actualOutput2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

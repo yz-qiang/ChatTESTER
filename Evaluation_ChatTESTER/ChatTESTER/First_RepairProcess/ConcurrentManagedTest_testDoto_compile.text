@@ -1,0 +1,221 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[60,62] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,37] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[66,43] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[77,64] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[77,111] incompatible types: eu.toolchain.concurrent.Stage<java.lang.Object> cannot be converted to eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[60,62] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,37] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[66,43] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[77,64] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[77,111] incompatible types: eu.toolchain.concurrent.Stage<java.lang.Object> cannot be converted to eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,58] cannot find symbol
+  symbol:   variable ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[61,37] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[62,43] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,60] cannot find symbol
+  symbol:   variable ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,108] incompatible types: eu.toolchain.concurrent.Stage<java.lang.Object> cannot be converted to eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ImmediateResult
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,37] package eu.toolchain.concurrent.stage does not exist
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,58] cannot find symbol
+  symbol:   variable ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[61,37] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[62,43] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,60] cannot find symbol
+  symbol:   variable ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,108] incompatible types: eu.toolchain.concurrent.Stage<java.lang.Object> cannot be converted to eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ImmediateResult
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,37] package eu.toolchain.concurrent.stage does not exist
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,62] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,50] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[61,53] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,62] cannot find symbol
+  symbol:   class ImmediateResult
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,49] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[62,46] cannot find symbol
+  symbol:   method get()
+  location: variable stage of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[56,63] cannot find symbol
+  symbol:   method immediate(eu.toolchain.concurrent.Caller,int)
+  location: interface eu.toolchain.concurrent.Stage
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,49] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,46] cannot find symbol
+  symbol:   method get()
+  location: variable stage of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[36,58] eu.toolchain.concurrent.Stage is abstract; cannot be instantiated
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[37,49] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[39,46] cannot find symbol
+  symbol:   method get()
+  location: variable stage of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[36,63] cannot find symbol
+  symbol:   method completed(int)
+  location: interface eu.toolchain.concurrent.Stage
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[37,49] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[39,46] cannot find symbol
+  symbol:   method get()
+  location: variable stage of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testDoto
+[GENERATED PATH] ConcurrentManagedTest_testDoto.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[36,79] <anonymous eu.toolchain.concurrent.ConcurrentManagedTest$1> is not abstract and does not override abstract method withNotComplete(java.util.function.Supplier<? extends eu.toolchain.concurrent.Stage<java.lang.Void>>) in eu.toolchain.concurrent.Stage
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[37,13] method does not override or implement a method from a supertype
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[42,49] method doto in class eu.toolchain.concurrent.ConcurrentManaged<T> cannot be applied to given types;
+  required: java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>
+  found: eu.toolchain.concurrent.Stage<java.lang.Integer>
+  reason: cannot infer type-variable(s) R
+    (argument mismatch; eu.toolchain.concurrent.Stage<java.lang.Integer> cannot be converted to java.util.function.Function<? super java.lang.String,? extends eu.toolchain.concurrent.Stage<R>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,46] cannot find symbol
+  symbol:   method get()
+  location: variable stage of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[INFO] 4 errors 
+####################
+

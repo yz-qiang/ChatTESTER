@@ -1,0 +1,90 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[35,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[35,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest###testTruncate
+[GENERATED PATH] DateUtilsTest_testTruncate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java:[11,18] reference to truncate is ambiguous
+  both method truncate(java.util.Date,int) in org.apache.commons.lang3.time.DateUtils and method truncate(java.util.Calendar,int) in org.apache.commons.lang3.time.DateUtils match
+[INFO] 1 error
+####################
+

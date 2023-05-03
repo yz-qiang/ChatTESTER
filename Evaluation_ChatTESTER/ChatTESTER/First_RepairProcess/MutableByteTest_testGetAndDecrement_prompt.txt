@@ -1,0 +1,436 @@
+0-->1-->0-->compileRepair
+// MutableByte class
+package org.apache.commons.lang3.mutable;
+public class MutableByte {
+public MutableByte();
+public MutableByte(final byte value);
+public MutableByte(final Number value);
+public MutableByte(final String value) throws NumberFormatException;
+public Byte getValue();
+public void setValue(final byte value);
+public void setValue(final Number value);
+public void increment();
+public byte getAndIncrement();
+public byte incrementAndGet();
+public void decrement();
+public byte getAndDecrement();
+public byte decrementAndGet();
+public void add(final byte operand);
+public void add(final Number operand);
+public void subtract(final byte operand);
+public void subtract(final Number operand);
+public byte addAndGet(final byte operand);
+public byte addAndGet(final Number operand);
+public byte getAndAdd(final byte operand);
+public byte getAndAdd(final Number operand);
+public byte byteValue();
+public int intValue();
+public long longValue();
+public float floatValue();
+public double doubleValue();
+public Byte toByte();
+public boolean equals(final Object obj);
+public int hashCode();
+public int compareTo(final MutableByte other);
+public String toString();
+}
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+
+       <Buggy Line>: value has private access in org.apache.commons.lang3.mutable.MutableByte
+        assertEquals(4, mutableByte.value);
+
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+        assertEquals(Byte.MIN_VALUE + 1, mutableByte.value);
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "MutableByte" class information (it is crucial) and return the complete test method after repair. Note that the "MutableByte" class information cannot be modified.
+
+########
+
+0-->1-->0-->compileRepair
+// MutableByte class
+package org.apache.commons.lang3.mutable;
+public class MutableByte {
+public MutableByte();
+public MutableByte(final byte value);
+public MutableByte(final Number value);
+public MutableByte(final String value) throws NumberFormatException;
+public Byte getValue();
+public void setValue(final byte value);
+public void setValue(final Number value);
+public void increment();
+public byte getAndIncrement();
+public byte incrementAndGet();
+public void decrement();
+public byte getAndDecrement();
+public byte decrementAndGet();
+public void add(final byte operand);
+public void add(final Number operand);
+public void subtract(final byte operand);
+public void subtract(final Number operand);
+public byte addAndGet(final byte operand);
+public byte addAndGet(final Number operand);
+public byte getAndAdd(final byte operand);
+public byte getAndAdd(final Number operand);
+public byte byteValue();
+public int intValue();
+public long longValue();
+public float floatValue();
+public double doubleValue();
+public Byte toByte();
+public boolean equals(final Object obj);
+public int hashCode();
+public int compareTo(final MutableByte other);
+public String toString();
+}
+
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+
+       <Buggy Line>: value has private access in org.apache.commons.lang3.mutable.MutableByte
+        assertEquals(4, mutableByte.value);
+
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+        assertEquals(Byte.MIN_VALUE + 1, mutableByte.value);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "MutableByte" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "MutableByte" class  cannot be modified.
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+// Method intention
+The intention of the `getAndDecrement()` method is to retrieve the current value of the `MutableByte` object and then decrement it by 1.
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+        assertEquals(4, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+
+        assertEquals(Byte.MIN_VALUE + 1, mutableByte.byteValue());
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(Byte.MIN_VALUE + 1, mutableByte.byteValue()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+// Method intention
+The intention of the `getAndDecrement()` method is to retrieve the current value of the `MutableByte` object and then decrement it by 1.
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+        assertEquals(4, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+
+        assertEquals(Byte.MIN_VALUE, mutableByte.byteValue());
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(Byte.MIN_VALUE, mutableByte.byteValue()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+// Method intention
+The intention of the `getAndDecrement()` method is to retrieve the current value of the `MutableByte` object and then decrement it by 1.
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+        assertEquals(4, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+
+        assertEquals(Byte.MIN_VALUE - 1, mutableByte.byteValue());
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(Byte.MIN_VALUE - 1, mutableByte.byteValue()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+// Method intention
+The intention of the `getAndDecrement()` method is to retrieve the current value of the `MutableByte` object and then decrement it by 1.
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+        assertEquals(4, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.byteValue());
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+
+        assertEquals(Byte.MIN_VALUE - 1, mutableByte.byteValue());
+
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(Byte.MIN_VALUE - 1, mutableByte.byteValue()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+
+<Buggy Line>: class, interface, or enum expected
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class MutableByteTest_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement() {
+        MutableByte mutableByte = new MutableByte((byte) 5);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(5, result);
+        assertEquals(4, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithNegativeValue() {
+        MutableByte mutableByte = new MutableByte((byte) -1);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(-1, result);
+        assertEquals(-2, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMaxValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MAX_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MAX_VALUE, result);
+        assertEquals(Byte.MAX_VALUE - 1, mutableByte.value);
+    }
+    @Test
+    public void testGetAndDecrementWithMinValue() {
+        MutableByte mutableByte = new MutableByte(Byte.MIN_VALUE);
+        byte result = mutableByte.getAndDecrement();
+        assertEquals(Byte.MIN_VALUE, result);
+        assertEquals(Byte.MIN_VALUE + 1, mutableByte.value);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

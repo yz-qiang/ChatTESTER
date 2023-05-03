@@ -1,0 +1,439 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,54] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,54] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,52] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,52] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,52] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[56,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,19] method completed in class eu.toolchain.concurrent.CollectAndDiscardHelper cannot be applied to given types;
+  required: java.lang.Object
+  found: int,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,52] incompatible types: eu.toolchain.concurrent.Completable<java.lang.Void> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[81,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[82,28] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Stage<java.lang.Object>)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[83,28] cannot find symbol
+  symbol:   method tryComplete()
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[58,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,22] type eu.toolchain.concurrent.CoreAsync does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[58,34] cannot infer type arguments for eu.toolchain.concurrent.CoreAsync
+  reason: cannot use '<>' with non-generic class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,14] cannot find symbol
+  symbol:   method completable()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,20] cannot find symbol
+  symbol:   method getRemaining()
+  location: variable helper of type eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,28] cannot find symbol
+  symbol:   method bind(java.util.Collection)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[58,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,46] cannot find symbol
+  symbol:   class CollectAndDiscardHelper
+  location: class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[70,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[30,22] type eu.toolchain.concurrent.CoreAsync does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[33,55] cannot find symbol
+  symbol:   class ExecutorService
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[45,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[32,55] cannot find symbol
+  symbol:   class ExecutorService
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[38,46] cannot find symbol
+  symbol:   class CollectAndDiscardHelper
+  location: class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[45,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[39,46] cannot find symbol
+  symbol:   class CollectAndDiscardHelper
+  location: class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[45,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[41,41] cannot find symbol
+  symbol:   method newCollectAndDiscardHelper(int,eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[47,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollectAndDiscard
+[GENERATED PATH] CoreAsyncTest_testDoCollectAndDiscard.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[41,41] cannot find symbol
+  symbol:   method collectAndDiscardHelper(int,eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CoreAsync
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[47,31] cannot find symbol
+  symbol:   method bind(eu.toolchain.concurrent.Completable<java.lang.Void>)
+  location: class eu.toolchain.concurrent.CollectAndDiscardHelper
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,36] cannot find symbol
+  symbol:   method propagate(java.lang.Throwable)
+  location: interface eu.toolchain.concurrent.Completable<java.lang.Void>
+[INFO] 3 errors 
+####################
+

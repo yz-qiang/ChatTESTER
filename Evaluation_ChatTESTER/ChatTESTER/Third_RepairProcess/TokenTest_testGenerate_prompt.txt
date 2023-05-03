@@ -1,0 +1,317 @@
+0-->1-->0-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.security.Key;
+import java.security.SecureRandom;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Test;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+
+                <Buggy Line>: java.security.Key is abstract; cannot be instantiated
+        Key key = new Key(); 
+
+        Token token = Token.generate(random, key, payload);
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.security.Key;
+import java.security.SecureRandom;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Test;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+
+            <Buggy Line>: cannot find symbol class "SecretKeySpec"
+        Key key = new SecretKeySpec(random.generateSeed(16), "AES"); 
+
+        Token token = Token.generate(random, key, payload);
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Token class
+package com.macasaet.fernet;
+public class Token {
+public static Token fromBytes(final byte[] bytes);
+public static Token fromString(final String string);
+public static Token generate(final Key key, final String plainText);
+public static Token generate(final SecureRandom random, final Key key, final String plainText);
+public static Token generate(final Key key, final byte[] payload);
+public static Token generate(final SecureRandom random, final Key key, final byte[] payload);
+public T validateAndDecrypt(final Key key, final Validator<T> validator);
+public T validateAndDecrypt(final Collection<? extends Key> keys, final Validator<T> validator);
+public String serialise();
+public void writeTo(final OutputStream outputStream) throws IOException;
+public byte getVersion();
+public Instant getTimestamp();
+public IvParameterSpec getInitializationVector();
+public String toString();
+public boolean isValidSignature(final Key key);
+}
+
+
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.security.Key;
+import javax.crypto.spec.SecretKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+        Key key = new SecretKeySpec(random.generateSeed(16), "AES"); 
+
+           <Buggy Line>: no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+        Token token = Token.generate(random, key, payload);
+
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Token" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Token" class  cannot be modified.
+
+########
+
+3-->4-->1-->compileRepair
+// Token class
+package com.macasaet.fernet;
+public class Token {
+public static Token fromBytes(final byte[] bytes);
+public static Token fromString(final String string);
+public static Token generate(final Key key, final String plainText);
+public static Token generate(final SecureRandom random, final Key key, final String plainText);
+public static Token generate(final Key key, final byte[] payload);
+public static Token generate(final SecureRandom random, final Key key, final byte[] payload);
+public T validateAndDecrypt(final Key key, final Validator<T> validator);
+public T validateAndDecrypt(final Collection<? extends Key> keys, final Validator<T> validator);
+public String serialise();
+public void writeTo(final OutputStream outputStream) throws IOException;
+public byte getVersion();
+public Instant getTimestamp();
+public IvParameterSpec getInitializationVector();
+public String toString();
+public boolean isValidSignature(final Key key);
+}
+
+
+// Test Method
+package com.macasaet.fernet;
+import static com.macasaet.fernet.Constants.initializationVectorBytes;
+import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.mutabilitydetector.unittesting.AllowedReason.allowingForSubclassing;
+import static org.mutabilitydetector.unittesting.AllowedReason.assumingFields;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.stream.IntStream;
+import javax.crypto.spec.IvParameterSpec;
+import org.junit.Before;
+import org.junit.Test;
+import java.security.Key;
+import javax.crypto.spec.SecretKeySpec;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+        Key key = new SecretKeySpec(random.generateSeed(16), "AES"); 
+
+          <Buggy Line>: no suitable method found for generate(java.security.Key,byte[])
+        Token token = Token.generate(key, payload);
+
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Token" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Token" class  cannot be modified.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import org.junit.Test;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.Key;
+import java.security.SecureRandom;
+import java.util.Collection;
+import static org.junit.Assert.*;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+        Key key = new SecretKeySpec(random.generateSeed(16), "AES");
+
+          <Buggy Line>: type com.macasaet.fernet.Token does not take parameters
+        Token<byte[]> token = Token.generate(key, payload);
+
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package com.macasaet.fernet;
+import org.junit.Test;
+import javax.crypto.spec.SecretKeySpec;
+import java.security.Key;
+import java.security.SecureRandom;
+import java.util.Collection;
+import static org.junit.Assert.*;
+public class TokenTest_testGenerate {
+    @Test
+    public void testGenerate() {
+        SecureRandom random = new SecureRandom();
+        byte[] payload = "test payload".getBytes();
+        Key key = new SecretKeySpec(random.generateSeed(16), "AES");
+
+          <Buggy Line>: type com.macasaet.fernet.Token does not take parameters
+        Token<byte[]> token = Token.generate(key, payload);
+
+        assertNotNull(token);
+        assertEquals(Token.supportedVersion, token.getVersion());
+        assertNotNull(token.getTimestamp());
+        assertNotNull(token.getInitializationVector());
+        assertNotNull(token.getCipherText());
+        assertNotNull(token.getHmac());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

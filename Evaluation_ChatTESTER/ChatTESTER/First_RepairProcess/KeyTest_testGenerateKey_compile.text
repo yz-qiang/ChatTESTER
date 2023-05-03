@@ -1,0 +1,44 @@
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] KeyTest_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[31,26] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[32,26] encryptionKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[33,29] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[34,29] encryptionKey has private access in com.macasaet.fernet.Key
+[INFO] 4 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] KeyTest_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[31,26] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[32,26] encryptionKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[33,29] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[34,29] encryptionKey has private access in com.macasaet.fernet.Key
+[INFO] 4 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] KeyTest_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[31,26] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[32,26] encryptionKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[33,29] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[34,29] encryptionKey has private access in com.macasaet.fernet.Key
+[INFO] 4 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] KeyTest_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[31,26] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[32,26] encryptionKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[33,29] signingKey has private access in com.macasaet.fernet.Key
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[34,29] encryptionKey has private access in com.macasaet.fernet.Key
+[INFO] 4 errors 
+####################
+

@@ -1,0 +1,212 @@
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,49] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 1 error
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,5] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,150] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,151] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,157] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 7 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,27] cannot find symbol
+  symbol:   class RamDisk
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,49] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,27] cannot find symbol
+  symbol:   class SimpleDisk
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,52] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,27] cannot find symbol
+  symbol:   class SimpleDisk
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,52] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,32] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,54] cannot find symbol
+  symbol:   method getLength()
+  location: variable clusterChain of type de.waldheinz.fs.fat.ClusterChain
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,5] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,178] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,182] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,193] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,199] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,194] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,209] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,215] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,194] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,209] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,215] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,32] cannot find symbol
+  symbol:   variable FileSystemType
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,54] cannot find symbol
+  symbol:   method getLength()
+  location: variable clusterChain of type de.waldheinz.fs.fat.ClusterChain
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,5] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,178] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,182] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,193] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,199] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,194] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,209] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,215] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] ClusterChainTest_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,194] '.' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,209] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[3,215] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[4,3] illegal character: '`'
+[INFO] 8 errors 
+####################
+

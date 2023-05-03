@@ -1,0 +1,133 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,33] cannot find symbol
+  symbol:   method strings()
+  location: @interface org.junit.experimental.theories.suppliers.TestedOn
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,13] annotation @org.junit.experimental.theories.suppliers.TestedOn is missing a default value for the element 'ints'
+[INFO] 6 errors 
+####################
+

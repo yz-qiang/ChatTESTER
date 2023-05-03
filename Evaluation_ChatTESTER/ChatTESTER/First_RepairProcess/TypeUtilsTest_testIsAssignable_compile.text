@@ -1,0 +1,119 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[47,47] incompatible types: org.apache.commons.lang3.reflect.testbed.StringParameterizedChild cannot be converted to java.lang.reflect.ParameterizedType
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,75] type org.apache.commons.lang3.reflect.testbed.StringParameterizedChild does not take parameters
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,77] cannot find symbol
+  symbol:   method withType(java.lang.Class<java.lang.String>)
+  location: class org.apache.commons.lang3.reflect.testbed.StringParameterizedChild
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,77] cannot find symbol
+  symbol:   method withType(java.lang.Class<java.lang.String>)
+  location: class org.apache.commons.lang3.reflect.testbed.StringParameterizedChild
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,77] cannot find symbol
+  symbol:   method withType(java.lang.Class<java.lang.String>)
+  location: class org.apache.commons.lang3.reflect.testbed.StringParameterizedChild
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[51,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[52,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[53,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[54,65] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[55,65] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[46,104] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[47,140] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[48,154] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[49,105] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[50,141] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[47,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[49,109] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[49,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[51,110] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[51,65] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[53,72] cannot find symbol
+  symbol: method getTypeParameters()
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[55,73] cannot find symbol
+  symbol: method getTypeParameters()
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[57,64] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[59,65] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[61,65] type org.apache.commons.lang3.reflect.testbed.GenericTypeHolder does not take parameters
+[INFO] 10 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+[GENERATED PATH] TypeUtilsTest_testIsAssignable.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,104] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,104] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,105] cannot find symbol
+  symbol:   method getType()
+  location: interface java.lang.reflect.ParameterizedType
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[41,72] cannot find symbol
+  symbol: method getTypeParameters()
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[42,73] cannot find symbol
+  symbol: method getTypeParameters()
+[INFO] 5 errors 
+####################
+

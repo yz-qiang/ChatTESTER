@@ -1,0 +1,56 @@
+0-->1-->0-->compileRepair
+// UnorderedPair class
+package edu.jhu.prim.tuple;
+public class UnorderedPair {
+public UnorderedPair(int fac1, int fac2);
+public int get1();
+public int get2();
+}
+
+
+// Test Method
+package edu.jhu.prim.sample;
+import java.util.Collection;
+import org.junit.Assert;
+import org.junit.Test;
+import edu.jhu.prim.tuple.OrderedPair;
+import edu.jhu.prim.tuple.UnorderedPair;
+import java.util.Collection;
+import java.util.HashSet;
+import org.junit.Assert;
+import org.junit.Test;
+public class PairSamplerTest_testSampleUnorderedPairs {
+    @Test
+    public void testSampleUnorderedPairs() {
+        int minI = 1;
+        int maxI = 5;
+        int minJ = 2;
+        int maxJ = 6;
+        double prop = 0.5;
+        Collection<UnorderedPair> pairs = PairSampler.sampleUnorderedPairs(minI, maxI, minJ, maxJ, prop);
+        for (UnorderedPair pair : pairs) {
+
+             <Buggy Line>: cannot find symbol method "getFirst()" in UnorderedPair
+            int i = pair.getFirst();
+
+            int j = pair.getSecond();
+            Assert.assertTrue(i >= minI && i < maxI);
+            Assert.assertTrue(j >= minJ && j < maxJ);
+        }
+        int numPairs = pairs.size();
+        long expectedNumPairs = PairSampler.countUnorderedPairs(minI, maxI, minJ, maxJ);
+        double expectedProp = expectedNumPairs * prop;
+        double tolerance = expectedProp * 0.1; 
+        Assert.assertTrue(Math.abs(numPairs - expectedProp) < tolerance);
+        HashSet<UnorderedPair> uniquePairs = new HashSet<UnorderedPair>(pairs);
+        Assert.assertEquals(numPairs, uniquePairs.size());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "UnorderedPair" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "UnorderedPair" class  cannot be modified.
+
+########
+

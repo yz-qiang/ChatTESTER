@@ -1,0 +1,146 @@
+0-->1-->0-->compileRepair
+// Stations class
+package nl.pvanassen.ns.model.stations;
+public class Stations {
+}
+
+// Test Method
+package nl.pvanassen.ns.model.stations;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.Test;
+public class StationsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<Stations>\n" +
+                "  <Station>\n" +
+                "    <Code>AMS</Code>\n" +
+                "    <Type>InterCityStation</Type>\n" +
+                "    <Namen>\n" +
+                "      <Kort>Amsterdam</Kort>\n" +
+                "      <Middel>Amsterdam Centraal</Middel>\n" +
+                "      <Lang>Amsterdam Centraal Station</Lang>\n" +
+                "    </Namen>\n" +
+                "    <Land>NL</Land>\n" +
+                "    <UICCode>8400058</UICCode>\n" +
+                "    <Lat>52.3792</Lat>\n" +
+                "    <Lon>4.8994</Lon>\n" +
+                "    <Synoniemen>\n" +
+                "      <Synoniem>Amsterdam CS</Synoniem>\n" +
+                "      <Synoniem>Amsterdam Centraal Station</Synoniem>\n" +
+                "    </Synoniemen>\n" +
+                "  </Station>\n" +
+                "</Stations>";
+        InputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        StationsHandle stationsHandle = new StationsHandle();
+        Stations stations = stationsHandle.getModel(stream);
+        assertNotNull(stations);
+
+         <Buggy Line>: cannot find symbol method "getStations()" in Stations
+        List<Station> stationList = stations.getStations();
+
+        assertNotNull(stationList);
+        assertEquals(1, stationList.size());
+        Station station = stationList.get(0);
+        assertNotNull(station);
+        assertEquals("AMS", station.getCode());
+        assertEquals("InterCityStation", station.getType());
+        assertNotNull(station.getNamen());
+        assertEquals("Amsterdam", station.getNamen().getKort());
+        assertEquals("Amsterdam Centraal", station.getNamen().getMiddel());
+        assertEquals("Amsterdam Centraal Station", station.getNamen().getLang());
+        assertEquals("NL", station.getLand());
+        assertEquals(8400058, station.getUicCode());
+        assertEquals(52.3792, station.getLat(), 0.0001);
+        assertEquals(4.8994, station.getLon(), 0.0001);
+        List<String> synoniemen = new ArrayList<>();
+        synoniemen.add("Amsterdam CS");
+        synoniemen.add("Amsterdam Centraal Station");
+        assertEquals(synoniemen, station.getSynoniemen());
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Stations" class information (it is crucial) and return the complete test method after repair. Note that the "Stations" class information cannot be modified.
+
+########
+
+1-->2-->0-->compileRepair
+// Stations class
+package nl.pvanassen.ns.model.stations;
+public class Stations {
+}
+
+// Test Method
+package nl.pvanassen.ns.model.stations;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+public class StationsHandleTest_testGetModel {
+    @Test
+    public void testGetModel() {
+        String xmlString = "<Stations>\n" +
+                "  <Station>\n" +
+                "    <Code>AMS</Code>\n" +
+                "    <Type>InterCityStation</Type>\n" +
+                "    <Namen>\n" +
+                "      <Kort>Amsterdam</Kort>\n" +
+                "      <Middel>Amsterdam Centraal</Middel>\n" +
+                "      <Lang>Amsterdam Centraal Station</Lang>\n" +
+                "    </Namen>\n" +
+                "    <Land>NL</Land>\n" +
+                "    <UICCode>8400058</UICCode>\n" +
+                "    <Lat>52.3792</Lat>\n" +
+                "    <Lon>4.8994</Lon>\n" +
+                "    <Synoniemen>\n" +
+                "      <Synoniem>Amsterdam CS</Synoniem>\n" +
+                "      <Synoniem>Amsterdam Centraal Station</Synoniem>\n" +
+                "    </Synoniemen>\n" +
+                "  </Station>\n" +
+                "</Stations>";
+        InputStream stream = new ByteArrayInputStream(xmlString.getBytes());
+        StationsHandle stationsHandle = new StationsHandle();
+        Stations stations = stationsHandle.getModel(stream);
+        assertNotNull(stations);
+
+          <Buggy Line>: cannot find symbol method "getStationList()" in Stations
+        List<Station> stationList = new ArrayList<>(stations.getStationList());
+
+        assertNotNull(stationList);
+        assertEquals(1, stationList.size());
+        Station station = stationList.get(0);
+        assertNotNull(station);
+        assertEquals("AMS", station.getCode());
+        assertEquals("InterCityStation", station.getType());
+        assertNotNull(station.getNamen());
+        assertEquals("Amsterdam", station.getNamen().getKort());
+        assertEquals("Amsterdam Centraal", station.getNamen().getMiddel());
+        assertEquals("Amsterdam Centraal Station", station.getNamen().getLang());
+        assertEquals("NL", station.getLand());
+        assertEquals(8400058, station.getUicCode());
+        assertEquals(52.3792, station.getLat(), 0.0001);
+        assertEquals(4.8994, station.getLon(), 0.0001);
+        List<String> synoniemen = new ArrayList<>();
+        synoniemen.add("Amsterdam CS");
+        synoniemen.add("Amsterdam Centraal Station");
+        assertEquals(synoniemen, station.getSynoniemen());
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Stations" class information (it is crucial) and return the complete test method after repair. Note that the "Stations" class information cannot be modified.
+
+########
+

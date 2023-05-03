@@ -1,0 +1,644 @@
+0-->1-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToShort` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a `short` value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToShort {
+    @Test
+    public void testHexToShort() {
+        short result1 = Conversion.hexToShort("ABCD", 0, (short) 0, 0, 4);
+
+<Error Line>
+        assertEquals("Test case 1 failed", (short) 0xABCD, result1);
+
+        short result2 = Conversion.hexToShort("123456", 2, (short) 0, 8, 2);
+        assertEquals("Test case 2 failed", (short) 0x5600, result2);
+        short result3 = Conversion.hexToShort("FEDCBA", 1, (short) 0x1234, 4, 3);
+        assertEquals("Test case 3 failed", (short) 0x1FED, result3);
+        try {
+            Conversion.hexToShort("12345", 0, (short) 0, 0, 5);
+            fail("Test case 4 failed: Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Test case 4 failed: Incorrect exception message", "(nHexs-1)*4+dstPos is greater or equal to than 16", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals("Test case 1 failed", (short) 0xABCD, result1); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

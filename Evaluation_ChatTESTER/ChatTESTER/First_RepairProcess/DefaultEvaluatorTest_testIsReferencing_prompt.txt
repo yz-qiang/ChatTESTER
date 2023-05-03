@@ -1,0 +1,225 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+import org.junit.Before;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private static Retriever retriever;
+    @Before
+    public void setUp() {
+        Properties properties = new Properties();
+        retriever = new Retriever(properties);
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue1 = "This is a reference to name";
+        String name1 = "name";
+        boolean result1 = new DefaultEvaluator().isReferencing(rawValue1, name1, retriever);
+        Assert.assertTrue(result1);
+        String rawValue2 = "This does not contain the name";
+        String name2 = "name";
+        boolean result2 = new DefaultEvaluator().isReferencing(rawValue2, name2, retriever);
+        Assert.assertFalse(result2);
+        String rawValue3 = null;
+        String name3 = "name";
+        boolean result3 = new DefaultEvaluator().isReferencing(rawValue3, name3, retriever);
+        Assert.assertFalse(result3);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private static Retriever retriever;
+    @Before
+    public void setUp() {
+        Properties properties = new Properties();
+
+         <Buggy Line>: Retriever is abstract; cannot be instantiated
+        retriever = new Retriever(properties);
+
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue1 = "This is a reference to name";
+        String name1 = "name";
+        boolean result1 = new DefaultEvaluator().isReferencing(rawValue1, name1, retriever);
+        Assert.assertTrue(result1);
+        String rawValue2 = "This does not contain the name";
+        String name2 = "name";
+        boolean result2 = new DefaultEvaluator().isReferencing(rawValue2, name2, retriever);
+        Assert.assertFalse(result2);
+        String rawValue3 = null;
+        String name3 = "name";
+        boolean result3 = new DefaultEvaluator().isReferencing(rawValue3, name3, retriever);
+        Assert.assertFalse(result3);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.Properties;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Assert;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private static Retriever retriever;
+    @Before
+    public void setUp() {
+        Properties properties = new Properties();
+
+          <Buggy Line>: anonymous class implements interface; cannot have arguments
+        retriever = new Retriever(properties) {
+
+            @Override
+            public String retrieve(String reference) {
+                return null;
+            }
+        };
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue1 = "This is a reference to name";
+        String name1 = "name";
+        boolean result1 = new DefaultEvaluator().isReferencing(rawValue1, name1, retriever);
+        Assert.assertTrue(result1);
+        String rawValue2 = "This does not contain the name";
+        String name2 = "name";
+        boolean result2 = new DefaultEvaluator().isReferencing(rawValue2, name2, retriever);
+        Assert.assertFalse(result2);
+        String rawValue3 = null;
+        String name3 = "name";
+        boolean result3 = new DefaultEvaluator().isReferencing(rawValue3, name3, retriever);
+        Assert.assertFalse(result3);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.Properties;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Assert;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private static Retriever retriever;
+    @Before
+    public void setUp() {
+        Properties properties = new Properties();
+
+          <Buggy Line>: anonymous class implements interface; cannot have arguments
+        retriever = new Retriever(properties) {
+
+            @Override
+            public String retrieve(String reference) {
+                return null;
+            }
+        };
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue1 = "This is a reference to name";
+        String name1 = "name";
+        boolean result1 = new DefaultEvaluator().isReferencing(rawValue1, name1, retriever);
+        Assert.assertTrue(result1);
+        String rawValue2 = "This does not contain the name";
+        String name2 = "name";
+        boolean result2 = new DefaultEvaluator().isReferencing(rawValue2, name2, retriever);
+        Assert.assertFalse(result2);
+        String rawValue3 = null;
+        String name3 = "name";
+        boolean result3 = new DefaultEvaluator().isReferencing(rawValue3, name3, retriever);
+        Assert.assertFalse(result3);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.Properties;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Assert;
+public class DefaultEvaluatorTest_testIsReferencing {
+    private static Retriever retriever;
+    @Before
+    public void setUp() {
+        Properties properties = new Properties();
+
+          <Buggy Line>: anonymous class implements interface; cannot have arguments
+        retriever = new Retriever(properties) {
+
+            @Override
+            public String retrieve(String reference) {
+                return null;
+            }
+        };
+    }
+    @Test
+    public void testIsReferencing() {
+        String rawValue1 = "This is a reference to name";
+        String name1 = "name";
+        boolean result1 = new DefaultEvaluator().isReferencing(rawValue1, name1, retriever);
+        Assert.assertTrue(result1);
+        String rawValue2 = "This does not contain the name";
+        String name2 = "name";
+        boolean result2 = new DefaultEvaluator().isReferencing(rawValue2, name2, retriever);
+        Assert.assertFalse(result2);
+        String rawValue3 = null;
+        String name3 = "name";
+        boolean result3 = new DefaultEvaluator().isReferencing(rawValue3, name3, retriever);
+        Assert.assertFalse(result3);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

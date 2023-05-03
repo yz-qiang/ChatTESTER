@@ -1,0 +1,144 @@
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyObject;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import com.google.common.collect.ImmutableList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Function;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class CollectHelperTest_testCheckFailed {
+    @Mock
+    private Stage<?> source1;
+    @Mock
+    private Stage<?> source2;
+    @Mock
+    private Completable<Object> target;
+    private CollectHelper<Object, Object> collectHelper;
+    @Before
+    public void setUp() {
+        List<Stage<?>> sources = ImmutableList.of(source1, source2);
+        Function<Collection<Object>, Object> collector = objects -> null;
+        collectHelper = new CollectHelper<>(2, collector, sources, target);
+    }
+    @Test
+    public void testCheckFailed() {
+        collectHelper.failed.set(false);
+        doNothing().when(source1).cancel();
+        doNothing().when(source2).cancel();
+        collectHelper.checkFailed();
+        verify(source1, times(1)).cancel();
+        verify(source2, times(1)).cancel();
+        assertNull(collectHelper.sources);
+
+      <Buggy Line>: cannot find symbol method "assertTrue(boolean)" in CollectHelperTest
+        assertTrue(collectHelper.failed.get());
+
+    }
+    @Test
+    public void testCheckFailedAlreadyFailed() {
+        collectHelper.failed.set(true);
+        doNothing().when(source1).cancel();
+        doNothing().when(source2).cancel();
+        collectHelper.checkFailed();
+        verify(source1, times(0)).cancel();
+        verify(source2, times(0)).cancel();
+        assertNotNull(collectHelper.sources);
+        assertTrue(collectHelper.failed.get());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyObject;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import com.google.common.collect.ImmutableList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Function;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class CollectHelperTest_testCheckFailed {
+    @Mock
+    private Stage<?> source1;
+    @Mock
+    private Stage<?> source2;
+    @Mock
+    private Completable<Object> target;
+    private CollectHelper<Object, Object> collectHelper;
+    @Before
+    public void setUp() {
+        List<Stage<?>> sources = ImmutableList.of(source1, source2);
+        Function<Collection<Object>, Object> collector = objects -> null;
+        collectHelper = new CollectHelper<>(2, collector, sources, target);
+    }
+    @Test
+    public void testCheckFailed() {
+        collectHelper.failed.set(false);
+        doNothing().when(source1).cancel();
+        doNothing().when(source2).cancel();
+        collectHelper.checkFailed();
+        verify(source1, times(1)).cancel();
+        verify(source2, times(1)).cancel();
+        assertNull(collectHelper.sources);
+        assertEquals(true, collectHelper.failed.get());
+    }
+    @Test
+    public void testCheckFailedAlreadyFailed() {
+        collectHelper.failed.set(true);
+        doNothing().when(source1).cancel();
+        doNothing().when(source2).cancel();
+        collectHelper.checkFailed();
+        verify(source1, times(0)).cancel();
+        verify(source2, times(0)).cancel();
+        assertNotNull(collectHelper.sources);
+
+      <Buggy Line>: cannot find symbol method "assertTrue(boolean)" in CollectHelperTest
+        assertTrue(collectHelper.failed.get());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,538 @@
+0-->1-->0-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.inOrder;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.ArgumentCaptor;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        // Arrange
+        completable.state.set(ConcurrentCompletable.PENDING);
+        // Act
+        boolean result = completable.cancel();
+        // Assert
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        verify(caller).postComplete();
+
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        // Arrange
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        // Act
+        boolean result = completable.cancel();
+        // Assert
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        // Arrange
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        // Act
+        boolean result = completable.cancel();
+        // Assert
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() {
+        // Arrange
+        completable.state.set(ConcurrentCompletable.PENDING);
+        doThrow(new InterruptedException()).when(caller).postComplete();
+        // Assert
+        exceptionRule.expect(InterruptedException.class);
+        // Act
+        completable.cancel();
+    }
+}
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. Note that the "Caller" class information cannot be modified.
+
+########
+
+0-->1-->0-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.inOrder;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.ArgumentCaptor;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        boolean result = completable.cancel();
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        verify(caller).postComplete();
+
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        doThrow(new InterruptedException()).when(caller).postComplete();
+        exceptionRule.expect(InterruptedException.class);
+        completable.cancel();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Caller" class  cannot be modified.
+
+########
+
+1-->2-->0-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        boolean result = completable.cancel();
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        verify(caller).postComplete();
+
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() throws InterruptedException {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        InterruptedException exception = new InterruptedException();
+        caller.postComplete();
+        verify(caller).postComplete();
+        Thread.currentThread().interrupt();
+        exceptionRule.expect(InterruptedException.class);
+        completable.cancel();
+        throw exception;
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Caller" class  cannot be modified.
+
+########
+
+2-->3-->1-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        boolean result = completable.cancel();
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        caller.postComplete();
+
+        verify(caller).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() throws InterruptedException {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        InterruptedException exception = new InterruptedException();
+        caller.postComplete();
+        verify(caller).postComplete();
+        Thread.currentThread().interrupt();
+        exceptionRule.expect(InterruptedException.class);
+        completable.cancel();
+        throw exception;
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Caller" class  cannot be modified.
+
+########
+
+3-->4-->2-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        boolean result = completable.cancel();
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        caller.postComplete();
+
+        verify(caller).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() throws InterruptedException {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        InterruptedException exception = new InterruptedException();
+        caller.postComplete();
+        verify(caller).postComplete();
+        Thread.currentThread().interrupt();
+        exceptionRule.expect(InterruptedException.class);
+        completable.cancel();
+        throw exception;
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Caller" class  cannot be modified.
+
+########
+
+4-->5-->3-->compileRepair
+// Caller class
+package eu.toolchain.concurrent;
+public class Caller {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentCompletableTest_testCancel {
+    @Mock
+    private Caller caller;
+    @Rule
+    public ExpectedException exceptionRule = ExpectedException.none();
+    private ConcurrentCompletable completable;
+    @Before
+    public void setUp() {
+        completable = new ConcurrentCompletable(caller);
+    }
+    @Test
+    public void cancel_shouldCancelCompletable() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        boolean result = completable.cancel();
+        assertTrue(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertEquals(ConcurrentCompletable.CANCEL, completable.result);
+
+      <Buggy Line>: cannot find symbol method "postComplete()" in Caller
+        caller.postComplete();
+
+        verify(caller).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCancelled() {
+        completable.state.set(ConcurrentCompletable.CANCELLED);
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.CANCELLED, completable.state.get());
+        assertNull(completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldNotCancelCompletableIfAlreadyCompleted() {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        completable.result = "result";
+        completable.postComplete();
+        boolean result = completable.cancel();
+        assertFalse(result);
+        assertEquals(ConcurrentCompletable.COMPLETED, completable.state.get());
+        assertEquals("result", completable.result);
+        verify(caller, never()).postComplete();
+    }
+    @Test
+    public void cancel_shouldThrowExceptionIfInterrupted() throws InterruptedException {
+        completable.state.set(ConcurrentCompletable.PENDING);
+        InterruptedException exception = new InterruptedException();
+        caller.postComplete();
+        verify(caller).postComplete();
+        Thread.currentThread().interrupt();
+        exceptionRule.expect(InterruptedException.class);
+        completable.cancel();
+        throw exception;
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Caller" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Caller" class  cannot be modified.
+
+########
+

@@ -1,0 +1,904 @@
+0-->1-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.lang.reflect.Type;
+import java.util.List;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = ((TypeVariable<?>) GenericTypeHolder.class.getTypeParameters()[0]).getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.lang.reflect.Type;
+import java.util.List;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = ((TypeVariable<?>) GenericTypeHolder.class.getTypeParameters()[0]).getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = ((TypeVariable<?>) GenericTypeHolder.class.getTypeParameters()[0]).getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new WildcardTypeImpl(new Type[]{String.class}, new Type[]{Object.class});
+        assigningType = null;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+    private static class WildcardTypeImpl implements WildcardType {
+        private final Type[] upperBounds;
+        private final Type[] lowerBounds;
+        public WildcardTypeImpl(Type[] upperBounds, Type[] lowerBounds) {
+            this.upperBounds = upperBounds;
+            this.lowerBounds = lowerBounds;
+        }
+        @Override
+        public Type[] getUpperBounds() {
+            return upperBounds;
+        }
+        @Override
+        public Type[] getLowerBounds() {
+            return lowerBounds;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = Object.class; 
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = ((TypeVariable<?>) GenericTypeHolder.class.getTypeParameters()[0]).getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new WildcardTypeImpl(new Type[]{String.class}, new Type[]{Object.class});
+        assigningType = null;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+    private static class WildcardTypeImpl implements WildcardType {
+        private final Type[] upperBounds;
+        private final Type[] lowerBounds;
+        public WildcardTypeImpl(Type[] upperBounds, Type[] lowerBounds) {
+            this.upperBounds = upperBounds;
+            this.lowerBounds = lowerBounds;
+        }
+        @Override
+        public Type[] getUpperBounds() {
+            return upperBounds;
+        }
+        @Override
+        public Type[] getLowerBounds() {
+            return lowerBounds;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = Foo.class.getTypeParameters()[0].getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = Object.class; 
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = GenericTypeHolder.class.getTypeParameters()[0].getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new WildcardTypeImpl(new Type[]{String.class}, new Type[]{Object.class});
+        assigningType = null;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+    private static class WildcardTypeImpl implements WildcardType {
+        private final Type[] upperBounds;
+        private final Type[] lowerBounds;
+        public WildcardTypeImpl(Type[] upperBounds, Type[] lowerBounds) {
+            this.upperBounds = upperBounds;
+            this.lowerBounds = lowerBounds;
+        }
+        @Override
+        public Type[] getUpperBounds() {
+            return upperBounds;
+        }
+        @Override
+        public Type[] getLowerBounds() {
+            return lowerBounds;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = Foo.class.getTypeParameters()[0].getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = Foo.class.getTypeParameters()[0].getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = Object.class; 
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = GenericTypeHolder.class.getTypeParameters()[0].getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new WildcardTypeImpl(new Type[]{String.class}, new Type[]{Object.class});
+        assigningType = null;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+    private static class WildcardTypeImpl implements WildcardType {
+        private final Type[] upperBounds;
+        private final Type[] lowerBounds;
+        public WildcardTypeImpl(Type[] upperBounds, Type[] lowerBounds) {
+            this.upperBounds = upperBounds;
+            this.lowerBounds = lowerBounds;
+        }
+        @Override
+        public Type[] getUpperBounds() {
+            return upperBounds;
+        }
+        @Override
+        public Type[] getLowerBounds() {
+            return lowerBounds;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = Foo.class.getTypeParameters()[0].getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Method intention
+The intention of the `getRawType` method is to determine the raw type of a given `Type` object.
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+        type = Foo.class.getTypeParameters()[0].getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = Object.class; 
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = GenericTypeHolder.class.getTypeParameters()[0].getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new WildcardTypeImpl(new Type[]{String.class}, new Type[]{Object.class});
+        assigningType = null;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+    private static class WildcardTypeImpl implements WildcardType {
+        private final Type[] upperBounds;
+        private final Type[] lowerBounds;
+        public WildcardTypeImpl(Type[] upperBounds, Type[] lowerBounds) {
+            this.upperBounds = upperBounds;
+            this.lowerBounds = lowerBounds;
+        }
+        @Override
+        public Type[] getUpperBounds() {
+            return upperBounds;
+        }
+        @Override
+        public Type[] getLowerBounds() {
+            return lowerBounds;
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = Foo.class.getTypeParameters()[0].getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static Class<?> getRawType(final Type type, final Type assigningType) {
+    if (type instanceof Class<?>) {
+        return (Class<?>) type;
+    }
+    if (type instanceof ParameterizedType) {
+        return getRawType((ParameterizedType) type);
+    }
+    if (type instanceof TypeVariable<?>) {
+        if (assigningType == null) {
+            return null;
+        }
+        final Object genericDeclaration = ((TypeVariable<?>) type).getGenericDeclaration();
+        if (!(genericDeclaration instanceof Class<?>)) {
+            return null;
+        }
+        final Map<TypeVariable<?>, Type> typeVarAssigns = getTypeArguments(assigningType, (Class<?>) genericDeclaration);
+        if (typeVarAssigns == null) {
+            return null;
+        }
+        final Type typeArgument = typeVarAssigns.get(type);
+        if (typeArgument == null) {
+            return null;
+        }
+        return getRawType(typeArgument, assigningType);
+    }
+    if (type instanceof GenericArrayType) {
+        final Class<?> rawComponentType = getRawType(((GenericArrayType) type).getGenericComponentType(), assigningType);
+        return Array.newInstance(rawComponentType, 0).getClass();
+    }
+    if (type instanceof WildcardType) {
+        return null;
+    }
+    throw new IllegalArgumentException("unknown type: " + type);
+}
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.lang.reflect.Type;
+import java.util.List;
+import org.junit.Test;
+public class TypeUtilsTest_testGetRawType {
+    @Test
+    public void testGetRawType() {
+        Type type = String.class;
+        Type assigningType = null;
+        Class<?> expected = String.class;
+        Class<?> actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new StringParameterizedChild().getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = GenericParent.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+
+<Error Line>
+        type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0];
+
+        assigningType = Foo.class;
+        expected = String.class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = new String[0].getClass().getGenericSuperclass();
+        assigningType = null;
+        expected = String[].class;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+        type = ((TypeVariable<?>) GenericTypeHolder.class.getTypeParameters()[0]).getBounds()[0];
+        assigningType = null;
+        expected = null;
+        actual = TypeUtils.getRawType(type, assigningType);
+        assertEquals(expected, actual);
+    }
+}
+
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " type = ((TypeVariable<?>) Foo.class.getTypeParameters()[0]).getBounds()[0]; ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

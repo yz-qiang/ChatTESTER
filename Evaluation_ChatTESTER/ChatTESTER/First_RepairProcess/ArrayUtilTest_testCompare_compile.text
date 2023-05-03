@@ -1,0 +1,57 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testCompare
+[GENERATED PATH] ArrayUtilTest_testCompare.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,25] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,26] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,25] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[19,13] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testCompare
+[GENERATED PATH] ArrayUtilTest_testCompare.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,25] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,20] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,20] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[19,13] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testCompare
+[GENERATED PATH] ArrayUtilTest_testCompare.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,25] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,20] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,20] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[19,13] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+

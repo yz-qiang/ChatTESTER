@@ -1,0 +1,1197 @@
+0-->1-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToInt` method is to convert a hexadecimal string to an integer value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+<Error Line>
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+<Error Line>
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+<Error Line>
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+<Error Line>
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+
+<Buggy Line>: class, interface, or enum expected
+import static org.junit.Assert.assertArrayEquals;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static int hexToInt(final String src, final int srcPos, final int dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToInt {
+    @Test
+    public void testHexToInt() {
+        String src = "A1";
+        int srcPos = 0;
+        int dstInit = 0;
+        int dstPos = 0;
+        int nHex = 2;
+        int expected = 161;
+        int actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+
+<Error Line>
+        assertEquals(expected, actual);
+
+        src = "FF";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 2;
+        expected = 255;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 8;
+        expected = 305419896;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "ABCDEF";
+        srcPos = 1;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 5;
+        expected = 11259375;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 3;
+        dstInit = 0;
+        dstPos = 8;
+        nHex = 5;
+        expected = 83886080;
+        actual = Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+        assertEquals(expected, actual);
+        src = "12345678";
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nHex = 10;
+        try {
+            Conversion.hexToInt(src, srcPos, dstInit, dstPos, nHex);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

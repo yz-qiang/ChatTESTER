@@ -1,0 +1,1383 @@
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Void.class)); 
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Void.class)); 
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Void.class)); 
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Method intention
+Based on the method name and the code implementation, the intention of the `isValidAnnotationMemberType` method is to determine whether a given class type is a valid member type for an annotation.
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Void.class)); 
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+
+  <Buggy Line>: class, interface, or enum expected
+    }
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+@GwtIncompatible("incompatible method")
+public static boolean isValidAnnotationMemberType(Class<?> type) {
+    if (type == null) {
+        return false;
+    }
+    if (type.isArray()) {
+        type = type.getComponentType();
+    }
+    return type.isPrimitive() || type.isEnum() || type.isAnnotation() || String.class.equals(type) || Class.class.equals(type);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.CURLY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.LARRY;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.MOE;
+import static org.apache.commons.lang3.AnnotationUtilsTest.Stooge.SHEMP;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType() {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+
+<Error Line>
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class));
+
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Stooge[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyAnnotation[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class[].class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Collection.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(InvocationHandler.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Method.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Field.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Proxy.class));
+    }
+    @Retention(RUNTIME)
+    @Target(FIELD)
+    public @interface MyAnnotation {
+        Stooge value();
+    }
+    public enum Stooge {
+        MOE, LARRY, CURLY, SHEMP
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean.class)); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

@@ -1,0 +1,404 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+
+         <Buggy Line>: integer number too large: 00000001000000020000000300000004
+        long expectedOutput = 0x00000001000000020000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static long intArrayToLong(final int[] src, final int srcPos, final long dstInit, final int dstPos, final int nInts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nInts) {
+        return dstInit;
+    }
+    if ((nInts - 1) * 32 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + dstPos;
+        final long bits = (0xffffffffL & src[i + srcPos]) << shift;
+        final long mask = 0xffffffffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `intArrayToLong` method is to convert an array of integers into a single long value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+        long expectedOutput = 0x0000000100000002L;
+        expectedOutput = (expectedOutput << 32) | 0x0000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+dstPos is greater or equal to than 64 " in " long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static long intArrayToLong(final int[] src, final int srcPos, final long dstInit, final int dstPos, final int nInts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nInts) {
+        return dstInit;
+    }
+    if ((nInts - 1) * 32 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + dstPos;
+        final long bits = (0xffffffffL & src[i + srcPos]) << shift;
+        final long mask = 0xffffffffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `intArrayToLong` method is to convert an array of integers into a single long value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+        long expectedOutput = 0x0000000100000002L;
+        expectedOutput = (expectedOutput << 32) | 0x0000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+dstPos is greater or equal to than 64 " in " long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static long intArrayToLong(final int[] src, final int srcPos, final long dstInit, final int dstPos, final int nInts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nInts) {
+        return dstInit;
+    }
+    if ((nInts - 1) * 32 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + dstPos;
+        final long bits = (0xffffffffL & src[i + srcPos]) << shift;
+        final long mask = 0xffffffffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `intArrayToLong` method is to convert an array of integers into a single long value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+        long expectedOutput = 0x0000000100000002L;
+        expectedOutput = (expectedOutput << 32) | 0x0000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+dstPos is greater or equal to than 64 " in " long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static long intArrayToLong(final int[] src, final int srcPos, final long dstInit, final int dstPos, final int nInts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nInts) {
+        return dstInit;
+    }
+    if ((nInts - 1) * 32 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + dstPos;
+        final long bits = (0xffffffffL & src[i + srcPos]) << shift;
+        final long mask = 0xffffffffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `intArrayToLong` method is to convert an array of integers into a single long value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+        long expectedOutput = 0x0000000100000002L;
+        expectedOutput = (expectedOutput << 32) | 0x0000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+dstPos is greater or equal to than 64 " in " long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static long intArrayToLong(final int[] src, final int srcPos, final long dstInit, final int dstPos, final int nInts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nInts) {
+        return dstInit;
+    }
+    if ((nInts - 1) * 32 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + dstPos;
+        final long bits = (0xffffffffL & src[i + srcPos]) << shift;
+        final long mask = 0xffffffffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `intArrayToLong` method is to convert an array of integers into a single long value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntArrayToLong {
+    @Test
+    public void testIntArrayToLong() {
+        int[] src = {1, 2, 3, 4};
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nInts = 4;
+        long expectedOutput = 0x0000000100000002L;
+        expectedOutput = (expectedOutput << 32) | 0x0000000300000004L;
+
+        long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[0];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 0;
+        expectedOutput = 0;
+        actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+        assertEquals(expectedOutput, actualOutput);
+        src = new int[2];
+        srcPos = 0;
+        dstInit = 0;
+        dstPos = 0;
+        nInts = 33;
+        try {
+            actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nInts-1)*32+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+dstPos is greater or equal to than 64 " in " long actualOutput = Conversion.intArrayToLong(src, srcPos, dstInit, dstPos, nInts); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

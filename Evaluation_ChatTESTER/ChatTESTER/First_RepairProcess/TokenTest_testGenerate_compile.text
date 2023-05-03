@@ -1,0 +1,262 @@
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[31,19] no suitable constructor found for Key(no arguments)
+    constructor com.macasaet.fernet.Key.Key(byte[],byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor com.macasaet.fernet.Key.Key(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor com.macasaet.fernet.Key.Key(java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[40,27] cannot find symbol
+  symbol:   variable initializationVectorBytes
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[42,50] cannot find symbol
+  symbol:   variable cipherTextBlockSize
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[44,27] cannot find symbol
+  symbol:   variable signatureBytes
+  location: class com.macasaet.fernet.Token
+[INFO] 5 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[28,19] no suitable constructor found for Key(java.security.SecureRandom)
+    constructor com.macasaet.fernet.Key.Key(byte[]) is not applicable
+      (argument mismatch; java.security.SecureRandom cannot be converted to byte[])
+    constructor com.macasaet.fernet.Key.Key(java.lang.String) is not applicable
+      (argument mismatch; java.security.SecureRandom cannot be converted to java.lang.String)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[31,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[37,27] cannot find symbol
+  symbol:   variable initializationVectorBytes
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[39,50] cannot find symbol
+  symbol:   variable cipherTextBlockSize
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[41,27] cannot find symbol
+  symbol:   variable signatureBytes
+  location: class com.macasaet.fernet.Token
+[INFO] 5 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[31,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[37,27] cannot find symbol
+  symbol:   variable initializationVectorBytes
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[39,50] cannot find symbol
+  symbol:   variable cipherTextBlockSize
+  location: class com.macasaet.fernet.Token
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[41,27] cannot find symbol
+  symbol:   variable signatureBytes
+  location: class com.macasaet.fernet.Token
+[INFO] 4 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,19] java.security.Key is abstract; cannot be instantiated
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[35,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,23] cannot find symbol
+  symbol:   class SecretKeySpec
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[35,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[29,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[31,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 2 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,14] type com.macasaet.fernet.Token does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,36] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[16,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,14] type com.macasaet.fernet.Token does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,36] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[16,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,14] type com.macasaet.fernet.Token does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[14,36] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[16,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,19] java.security.Key is abstract; cannot be instantiated
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[35,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,23] cannot find symbol
+  symbol:   class SecretKeySpec
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[35,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,28] no suitable method found for generate(java.security.SecureRandom,java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(java.security.SecureRandom,com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 2 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[31,28] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 2 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[15,14] type com.macasaet.fernet.Token does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[15,36] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[17,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[15,14] type com.macasaet.fernet.Token does not take parameters
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[15,36] no suitable method found for generate(java.security.Key,byte[])
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,java.lang.String) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+    method com.macasaet.fernet.Token.generate(com.macasaet.fernet.Key,byte[]) is not applicable
+      (argument mismatch; java.security.Key cannot be converted to com.macasaet.fernet.Key)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[17,27] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.Token
+[INFO] 3 errors 
+####################
+

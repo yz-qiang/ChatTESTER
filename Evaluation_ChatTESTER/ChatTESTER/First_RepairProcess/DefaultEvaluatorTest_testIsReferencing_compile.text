@@ -1,0 +1,57 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[19,20] error: Retriever is abstract; cannot be instantiated
+[INFO] 2 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,20] error: Retriever is abstract; cannot be instantiated
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[12,34] error: anonymous class implements interface; cannot have arguments
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[12,34] error: anonymous class implements interface; cannot have arguments
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[12,34] error: anonymous class implements interface; cannot have arguments
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[INFO] 1 error
+####################
+

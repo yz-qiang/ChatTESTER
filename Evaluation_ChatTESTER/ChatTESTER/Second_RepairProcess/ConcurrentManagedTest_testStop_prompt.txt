@@ -1,0 +1,732 @@
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+
+      <Buggy Line>: cannot find symbol class "T"
+    private Supplier<? extends Stage<T>> setup;
+
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<T> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<T> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ManagedState> state = spy(new AtomicReference<>(ManagedState.STARTED));
+        AtomicReference<T> reference = spy(new AtomicReference<>());
+        concurrentManaged.state = state;
+        concurrentManaged.reference = reference;
+        when(state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)).thenReturn(true);
+        T expectedReference = mock(T.class);
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ManagedState.STARTED, ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+
+          <Buggy Line>: cannot find symbol class "ManagedState"
+        AtomicReference<ManagedState> state = spy(new AtomicReference<>(ManagedState.STARTED));
+
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.state = state;
+        concurrentManaged.reference = reference;
+        when(state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ManagedState.STARTED, ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+
+        <Buggy Line>: cannot assign a value to final variable state
+        concurrentManaged.state = state;
+
+        concurrentManaged.reference = reference;
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+
+        <Buggy Line>: cannot assign a value to final variable reference
+        concurrentManaged.reference = reference;
+
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+@Override
+public Stage<Void> stop() {
+    if (!state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)) {
+        return stopFuture;
+    }
+    stopReferenceFuture.complete(this.reference.getAndSet(null));
+    release();
+    return stopFuture;
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.reference.getAndSet(reference.get());
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+
+<Error Line>
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method throw an error " org.mockito.exceptions.misusing.MissingMethodInvocationException  when() requires an argument which has to be 'a method call on a mock'. For example:     when(mock.getArticles()).thenReturn(articles);  Also, this error might show up because: 1. you stub either of: final/private/equals()/hashCode() methods.    Those methods *cannot* be stubbed/verified.    Mocking methods declared on non-public parent classes is not supported. 2. inside when() you don't call method on mock but on some other object.  " in " when(reference.getAndSet(null)).thenReturn(expectedReference); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->6-->0-->testRepair
+// Focal method
+@Override
+public Stage<Void> stop() {
+    if (!state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)) {
+        return stopFuture;
+    }
+    stopReferenceFuture.complete(this.reference.getAndSet(null));
+    release();
+    return stopFuture;
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.reference.getAndSet(reference.get());
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+
+<Error Line>
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method throw an error " org.mockito.exceptions.misusing.MissingMethodInvocationException  when() requires an argument which has to be 'a method call on a mock'. For example:     when(mock.getArticles()).thenReturn(articles);  Also, this error might show up because: 1. you stub either of: final/private/equals()/hashCode() methods.    Those methods *cannot* be stubbed/verified.    Mocking methods declared on non-public parent classes is not supported. 2. inside when() you don't call method on mock but on some other object.  " in " when(reference.getAndSet(null)).thenReturn(expectedReference); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+6-->7-->0-->testRepair
+// Focal method
+@Override
+public Stage<Void> stop() {
+    if (!state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)) {
+        return stopFuture;
+    }
+    stopReferenceFuture.complete(this.reference.getAndSet(null));
+    release();
+    return stopFuture;
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.reference.getAndSet(reference.get());
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+
+<Error Line>
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method throw an error " org.mockito.exceptions.misusing.MissingMethodInvocationException  when() requires an argument which has to be 'a method call on a mock'. For example:     when(mock.getArticles()).thenReturn(articles);  Also, this error might show up because: 1. you stub either of: final/private/equals()/hashCode() methods.    Those methods *cannot* be stubbed/verified.    Mocking methods declared on non-public parent classes is not supported. 2. inside when() you don't call method on mock but on some other object.  " in " when(reference.getAndSet(null)).thenReturn(expectedReference); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+7-->4-->0-->testRepair
+// Focal method
+@Override
+public Stage<Void> stop() {
+    if (!state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)) {
+        return stopFuture;
+    }
+    stopReferenceFuture.complete(this.reference.getAndSet(null));
+    release();
+    return stopFuture;
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.reference.getAndSet(reference.get());
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+
+<Error Line>
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method throw an error " org.mockito.exceptions.misusing.MissingMethodInvocationException  when() requires an argument which has to be 'a method call on a mock'. For example:     when(mock.getArticles()).thenReturn(articles);  Also, this error might show up because: 1. you stub either of: final/private/equals()/hashCode() methods.    Those methods *cannot* be stubbed/verified.    Mocking methods declared on non-public parent classes is not supported. 2. inside when() you don't call method on mock but on some other object.  " in " when(reference.getAndSet(null)).thenReturn(expectedReference); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+8-->5-->0-->testRepair
+// Focal method
+@Override
+public Stage<Void> stop() {
+    if (!state.compareAndSet(ManagedState.STARTED, ManagedState.STOPPED)) {
+        return stopFuture;
+    }
+    stopReferenceFuture.complete(this.reference.getAndSet(null));
+    release();
+    return stopFuture;
+}
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<? extends Stage<Object>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Object> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<Object> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testStop() {
+        AtomicReference<ConcurrentManaged.ManagedState> state = spy(new AtomicReference<>(ConcurrentManaged.ManagedState.STARTED));
+        AtomicReference<Object> reference = spy(new AtomicReference<>());
+        concurrentManaged.reference.getAndSet(reference.get());
+        when(state.compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED)).thenReturn(true);
+        Object expectedReference = mock(Object.class);
+
+<Error Line>
+        when(reference.getAndSet(null)).thenReturn(expectedReference);
+
+        doNothing().when(stopReferenceFuture).complete(expectedReference);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(state, times(1)).compareAndSet(ConcurrentManaged.ManagedState.STARTED, ConcurrentManaged.ManagedState.STOPPED);
+        verify(reference, times(1)).getAndSet(null);
+        verify(stopReferenceFuture, times(1)).complete(expectedReference);
+        verify(concurrentManaged, times(1)).release();
+        assertEquals(stopFuture, result);
+    }
+}
+
+
+The test method throw an error " org.mockito.exceptions.misusing.MissingMethodInvocationException  when() requires an argument which has to be 'a method call on a mock'. For example:     when(mock.getArticles()).thenReturn(articles);  Also, this error might show up because: 1. you stub either of: final/private/equals()/hashCode() methods.    Those methods *cannot* be stubbed/verified.    Mocking methods declared on non-public parent classes is not supported. 2. inside when() you don't call method on mock but on some other object.  " in " when(reference.getAndSet(null)).thenReturn(expectedReference); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

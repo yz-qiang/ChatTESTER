@@ -1,0 +1,966 @@
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+
+              <Buggy Line>: cannot find symbol class "ImmediateResult"
+        Function<String, Stage<Integer>> function = s -> new ImmediateResult<>(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> new ImmediateResult<>(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+
+              <Buggy Line>: cannot find symbol class "ImmediateResult"
+        Function<String, Stage<Integer>> function = s -> new ImmediateResult<>(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> new ImmediateResult<>(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+
+import static org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.assertFalse;
+
+import static org.junit.Assert.assertNotNull;
+
+import static org.junit.Assert.assertNull;
+
+import static org.junit.Assert.assertTrue;
+
+import static org.junit.Assert.fail;
+
+import static org.mockito.Matchers.any;
+
+import static org.mockito.Mockito.doAnswer;
+
+import static org.mockito.Mockito.doNothing;
+
+import static org.mockito.Mockito.doReturn;
+
+import static org.mockito.Mockito.doThrow;
+
+import static org.mockito.Mockito.mock;
+
+import static org.mockito.Mockito.never;
+
+import static org.mockito.Mockito.spy;
+
+import static org.mockito.Mockito.times;
+
+import static org.mockito.Mockito.verify;
+
+import static org.mockito.Mockito.when;
+
+import com.google.common.collect.ImmutableList;
+
+import java.util.concurrent.atomic.AtomicReference;
+
+import java.util.function.Function;
+
+import java.util.function.Supplier;
+
+import org.junit.Before;
+
+import org.junit.Test;
+
+import org.junit.runner.RunWith;
+
+import org.mockito.Mock;
+
+import org.mockito.invocation.InvocationOnMock;
+
+import org.mockito.runners.MockitoJUnitRunner;
+
+import org.mockito.stubbing.Answer;
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+
+             <Buggy Line>: cannot find symbol variable "ImmediateResult"
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ImmediateResult"
+import eu.toolchain.concurrent.ImmediateResult;
+
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: package eu.toolchain.concurrent.stage does not exist
+import eu.toolchain.concurrent.stage.ImmediateResult;
+
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+
+import static org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.assertFalse;
+
+import static org.junit.Assert.assertNotNull;
+
+import static org.junit.Assert.assertNull;
+
+import static org.junit.Assert.assertTrue;
+
+import static org.junit.Assert.fail;
+
+import static org.mockito.Matchers.any;
+
+import static org.mockito.Mockito.doAnswer;
+
+import static org.mockito.Mockito.doNothing;
+
+import static org.mockito.Mockito.doReturn;
+
+import static org.mockito.Mockito.doThrow;
+
+import static org.mockito.Mockito.mock;
+
+import static org.mockito.Mockito.never;
+
+import static org.mockito.Mockito.spy;
+
+import static org.mockito.Mockito.times;
+
+import static org.mockito.Mockito.verify;
+
+import static org.mockito.Mockito.when;
+
+import com.google.common.collect.ImmutableList;
+
+import java.util.concurrent.atomic.AtomicReference;
+
+import java.util.function.Function;
+
+import java.util.function.Supplier;
+
+import org.junit.Before;
+
+import org.junit.Test;
+
+import org.junit.runner.RunWith;
+
+import org.mockito.Mock;
+
+import org.mockito.invocation.InvocationOnMock;
+
+import org.mockito.runners.MockitoJUnitRunner;
+
+import org.mockito.stubbing.Answer;
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+
+             <Buggy Line>: cannot find symbol variable "ImmediateResult"
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+5-->6-->2-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ImmediateResult"
+import eu.toolchain.concurrent.ImmediateResult;
+
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+6-->7-->3-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: package eu.toolchain.concurrent.stage does not exist
+import eu.toolchain.concurrent.stage.ImmediateResult;
+
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDotoValidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> ImmediateResult.of(caller, s.length());
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateResult);
+        assertEquals(expected.length(), ((ImmediateResult<Integer>) stage).getResult().intValue());
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+    @Test
+    public void testDotoInvalidResource() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(false);
+        Stage<Integer> stage = concurrentManaged.doto(s -> ImmediateResult.of(caller, s.length())).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateCancelled);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, never()).get();
+        verify(borrowed, never()).release();
+    }
+    @Test
+    public void testDotoFunctionThrowsException() {
+        Borrowed<String> borrowed = mock(Borrowed.class);
+        when(borrowed.isValid()).thenReturn(true);
+        String expected = "Hello World";
+        when(borrowed.get()).thenReturn(expected);
+        Function<String, Stage<Integer>> function = s -> {
+            throw new RuntimeException("Function threw exception");
+        };
+        Stage<Integer> stage = concurrentManaged.doto(function).whenDone(borrowed::release);
+        assertNotNull(stage);
+        assertTrue(stage instanceof ImmediateFailed);
+        verify(borrowed, times(1)).isValid();
+        verify(borrowed, times(1)).get();
+        verify(borrowed, times(1)).release();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

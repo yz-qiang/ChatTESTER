@@ -1,0 +1,287 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+        Assert.assertEquals(3, references.size());
+        Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+@Override
+public List<Reference> getReferences(String rawValue, Retriever retriever) {
+    if (rawValue == null) {
+        return Collections.emptyList();
+    }
+    Evaluation eval = new Evaluation(rawValue, retriever);
+    eval.parse();
+    return eval.getReferences(false);
+}
+
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Assert;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+
+<Error Line>
+        Assert.assertEquals(3, references.size());
+
+        org.junit.Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        org.junit.Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        org.junit.Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " Assert.assertEquals(3, references.size()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Test Method
+package org.syphr.prom;
+
+<Buggy Line>: class, interface, or enum expected
+import java.util.List;
+
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+        Assert.assertEquals(3, references.size());
+        Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+@Override
+public List<Reference> getReferences(String rawValue, Retriever retriever) {
+    if (rawValue == null) {
+        return Collections.emptyList();
+    }
+    Evaluation eval = new Evaluation(rawValue, retriever);
+    eval.parse();
+    return eval.getReferences(false);
+}
+
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import junit.framework.Assert;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+
+<Error Line>
+        Assert.assertEquals(3, references.size());
+
+        Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method throw an error " junit.framework.AssertionFailedError " in " Assert.assertEquals(3, references.size()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Test Method
+package org.syphr.prom;
+
+<Buggy Line>: class, interface, or enum expected
+import java.util.List;
+
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+        Assert.assertEquals(3, references.size());
+        Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+@Override
+public List<Reference> getReferences(String rawValue, Retriever retriever) {
+    if (rawValue == null) {
+        return Collections.emptyList();
+    }
+    Evaluation eval = new Evaluation(rawValue, retriever);
+    eval.parse();
+    return eval.getReferences(false);
+}
+
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testGetreferences {
+    @Test
+    public void testGetReferences() {
+        Retriever mockRetriever = new Retriever() {
+            @Override
+            public String retrieve(String reference) {
+                return "Mock value for " + reference;
+            }
+        };
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        List<Reference> nullReferences = evaluator.getReferences(null, mockRetriever);
+        Assert.assertEquals(0, nullReferences.size());
+        List<Reference> emptyReferences = evaluator.getReferences("", mockRetriever);
+        Assert.assertEquals(0, emptyReferences.size());
+        String rawValue = "This is a test string with references [ref1], [ref2], and [ref3]";
+        List<Reference> references = evaluator.getReferences(rawValue, mockRetriever);
+
+<Error Line>
+        Assert.assertEquals(3, references.size());
+
+        Assert.assertEquals("Mock value for ref1", references.get(0).getValue());
+        Assert.assertEquals("Mock value for ref2", references.get(1).getValue());
+        Assert.assertEquals("Mock value for ref3", references.get(2).getValue());
+    }
+}
+
+
+The test method throw an error " junit.framework.AssertionFailedError " in " Assert.assertEquals(3, references.size()); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

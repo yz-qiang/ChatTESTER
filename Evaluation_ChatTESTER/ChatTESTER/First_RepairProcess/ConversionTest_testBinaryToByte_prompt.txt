@@ -1,0 +1,708 @@
+0-->1-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToByte` method is to convert a specified number of boolean values from a given source array into a single byte value, starting at a specified position in the destination byte array.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static byte binaryToByte(final boolean[] src, final int srcPos, final byte dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 8) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+        assertEquals(expected, result);
+
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+
+<Buggy Line>: class, interface, or enum expected
+import static org.junit.Assert.assertArrayEquals;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class ConversionTest_testBinaryToByte {
+    @Test
+    public void testBinaryToByte() {
+        boolean[] src = {true, false, true, false, true, false, true, false};
+        int srcPos = 2;
+        byte dstInit = 0;
+        int dstPos = 3;
+        int nBools = 4;
+        byte expected = 0b00011000;
+        byte result = Conversion.binaryToByte(src, srcPos, dstInit, dstPos, nBools);
+        assertEquals(expected, result);
+        boolean[] emptySrc = {};
+        byte emptyExpected = dstInit;
+        byte emptyResult = Conversion.binaryToByte(emptySrc, srcPos, dstInit, dstPos, nBools);
+        assertEquals(emptyExpected, emptyResult);
+        int largeNBools = 6;
+        try {
+            Conversion.binaryToByte(src, srcPos, dstInit, dstPos, largeNBools);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,286 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[56,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[56,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[63,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[73,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[74,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[78,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 10 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[70,26] cannot assign a value to final variable reference
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[70,26] cannot assign a value to final variable reference
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable reference
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,26] cannot assign a value to final variable reference
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[20,13] cannot find symbol
+  symbol:   class Supplier
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[38,13] cannot find symbol
+  symbol:   class Supplier
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[50,29] cannot infer type arguments for eu.toolchain.concurrent.ConcurrentManaged<>
+  reason: cannot infer type-variable(s) T
+    (argument mismatch; java.util.function.Function<java.lang.Void,capture#1 of ? extends eu.toolchain.concurrent.Stage<java.lang.String>> cannot be converted to java.util.function.Supplier<? extends eu.toolchain.concurrent.Stage<T>>)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[54,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[54,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[56,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[66,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[66,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[68,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[71,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 11 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[60,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[67,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[67,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[69,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[70,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[72,22] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 10 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[39,38] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,25] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[48,31] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,73] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,34] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,56] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,47] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable reference
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[39,38] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,25] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[48,31] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,25] cannot find symbol
+  symbol:   class ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[55,73] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,34] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[59,56] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,47] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[65,69] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable state
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[57,26] cannot assign a value to final variable reference
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,26] cannot assign a value to final variable reference
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] ConcurrentManagedTest_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[58,31] cannot find symbol
+  symbol:   method reference()
+  location: variable concurrentManaged of type eu.toolchain.concurrent.ConcurrentManaged<java.lang.Object>
+[INFO] 1 error
+####################
+

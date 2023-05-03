@@ -1,0 +1,88 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[26,59] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[20,59] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[15,20] error: Retriever is abstract; cannot be instantiated
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[21,31] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[22,31] error: constructor Reference in class Reference cannot be applied to given types;
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[15,24] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[21,31] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[22,31] error: constructor Reference in class Reference cannot be applied to given types;
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[16,24] error: cannot find symbol
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[22,31] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[23,31] error: constructor Reference in class Reference cannot be applied to given types;
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[3,1] error: class, interface, or enum expected
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[3,35] error: '.' expected
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[3,43] error: ';' expected
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[3,1] error: class, interface, or enum expected
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[10,0] error: a type with the same simple name is already defined by the single-type-import of Assert
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testGetreferences
+[GENERATED PATH] DefaultEvaluatorTest_testGetreferences.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] \Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\syphr42_prom\src\test\java\org\syphr\prom\DefaultEvaluatorTest.java:[3,1] error: class, interface, or enum expected
+[INFO] 1 error
+####################
+

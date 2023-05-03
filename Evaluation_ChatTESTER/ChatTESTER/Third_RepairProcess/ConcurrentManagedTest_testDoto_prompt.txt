@@ -1,0 +1,262 @@
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDoto() throws Exception {
+        String expected = "result";
+
+              <Buggy Line>: cannot find symbol class "ImmediateResult"
+        Function<String, Stage<Integer>> function = s -> new ImmediateResult<>(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function.apply(expected));
+        assertNotNull(stage);
+        assertEquals(expected.length(), stage.get());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Stage class
+package eu.toolchain.concurrent;
+public class Stage {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDoto() throws Exception {
+        String expected = "result";
+
+             <Buggy Line>: cannot find symbol method "immediate(eu.toolchain.concurrent.Caller,int)" in Stage
+        Function<String, Stage<Integer>> function = s -> Stage.immediate(caller, s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function.apply(expected));
+        assertNotNull(stage);
+        assertEquals(expected.length(), stage.get());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Stage" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Stage" class  cannot be modified.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDoto() throws Exception {
+        String expected = "result";
+
+             <Buggy Line>: eu.toolchain.concurrent.Stage is abstract; cannot be instantiated
+        Function<String, Stage<Integer>> function = s -> new Stage<>(s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function.apply(expected));
+        assertNotNull(stage);
+        assertEquals(expected.length(), stage.get().intValue());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Stage class
+package eu.toolchain.concurrent;
+public class Stage {
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class ConcurrentManagedTest_testDoto {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<String>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<String> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged<String> concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = new ConcurrentManaged<>(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture);
+    }
+    @Test
+    public void testDoto() throws Exception {
+        String expected = "result";
+
+            <Buggy Line>: cannot find symbol method "completed(int)" in Stage
+        Function<String, Stage<Integer>> function = s -> Stage.completed(s.length());
+
+        Stage<Integer> stage = concurrentManaged.doto(function.apply(expected));
+        assertNotNull(stage);
+        assertEquals(expected.length(), stage.get().intValue());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "Stage" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "Stage" class  cannot be modified.
+
+########
+

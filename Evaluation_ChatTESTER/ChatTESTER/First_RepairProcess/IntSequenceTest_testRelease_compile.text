@@ -1,0 +1,424 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[9,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,122] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,128] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,134] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,139] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,158] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,170] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,177] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,183] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,210] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,22] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,32] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[21,2] reached end of file while parsing
+[INFO] 19 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,122] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,128] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,134] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,139] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,158] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,170] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,177] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,183] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,198] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,210] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,22] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,32] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[21,2] reached end of file while parsing
+[INFO] 19 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[11,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,22] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,34] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,58] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,66] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,82] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,94] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,101] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,111] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,123] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,131] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,139] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,156] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,161] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,169] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,183] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,193] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,198] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,199] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,204] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,205] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,221] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,232] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,10] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,17] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,36] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,47] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,51] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,79] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,86] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,93] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,103] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,108] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,116] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,127] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,140] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,152] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,158] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,159] invalid method declaration; return type required
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,186] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,187] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,188] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,189] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,191] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,220] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,231] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,236] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,244] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,255] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,266] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,267] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,272] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,273] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,285] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,286] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,290] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,291] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,306] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,308] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,21] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,41] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,49] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,60] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,65] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,77] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,84] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,98] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,108] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,119] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[15,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[15,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[15,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,16] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,24] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,30] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,41] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,54] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,59] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,60] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,62] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,63] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,73] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,77] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,86] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,95] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,96] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,100] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,103] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,105] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,110] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,120] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,133] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,138] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[16,148] ';' expected
+[INFO] 100 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,22] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,34] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,58] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,66] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,82] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,94] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,101] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,107] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,115] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,129] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,140] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,149] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,161] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,163] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,188] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,200] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,211] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,233] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,240] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,21] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,45] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,57] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,70] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,82] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,99] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,118] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,132] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,147] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,149] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,155] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,161] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,166] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,167] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,171] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,190] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,200] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,204] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,216] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,229] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,241] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,258] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,261] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,274] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,278] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,286] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,291] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,297] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,306] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,5] unclosed character literal
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,17] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[7,22] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,1] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,7] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,32] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[24,2] reached end of file while parsing
+[INFO] 62 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[11,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,22] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,34] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,58] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,66] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,82] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,98] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,105] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,115] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,127] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,135] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,143] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,160] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,165] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,173] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,187] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,199] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,204] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,205] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,210] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,211] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,227] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,238] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,10] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,17] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,36] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,47] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,59] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,88] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,98] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,105] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,115] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,120] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,128] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,139] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,155] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,168] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,173] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,189] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,196] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,202] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,210] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,225] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,233] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,238] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,247] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,258] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,267] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,281] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,291] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,297] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,306] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,317] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,326] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,341] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,349] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,360] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,371] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,8] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,23] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,39] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,46] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[27,2] reached end of file while parsing
+[INFO] 67 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[8,32] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,1] class, interface, or enum expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,22] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,34] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,58] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,66] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,82] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,98] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,105] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,115] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,127] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,135] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,143] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,160] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,165] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,173] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,187] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,199] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,204] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,205] illegal start of type
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,210] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,211] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,227] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[3,238] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,10] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,17] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,29] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,36] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,47] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,59] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,88] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,98] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,105] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,115] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,120] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,128] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,139] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,155] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,168] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,173] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,189] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,196] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,202] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,210] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,225] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,233] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,238] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,247] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,258] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,267] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,281] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,291] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,297] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,306] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,317] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,326] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,341] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,349] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,360] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[4,371] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,8] ';' expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,23] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,39] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[5,46] <identifier> expected
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,1] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,2] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[6,3] illegal character: '`'
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[27,2] reached end of file while parsing
+[INFO] 67 errors 
+####################
+

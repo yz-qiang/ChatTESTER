@@ -1,0 +1,587 @@
+0-->1-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+// Method intention
+The intention of the `intToByteArray` method is to convert an integer value into a byte array of specified length and store it in the destination byte array starting from the specified position.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testIntToByteArray {
+    @Test
+    public void testIntToByteArray() {
+        int src = 10;
+        int srcPos = 0;
+        byte[] dst = new byte[2];
+        int dstPos = 0;
+        int nBytes = 2;
+        byte[] expected = {0, 10};
+        byte[] actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+        assertArrayEquals(expected, actual);
+
+        src = 255;
+        srcPos = 0;
+        dst = new byte[1];
+        dstPos = 0;
+        nBytes = 1;
+        expected = new byte[]{-1};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[4];
+        dstPos = 0;
+        nBytes = 4;
+        expected = new byte[]{0, 0, 3, -24};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[2];
+        dstPos = 1;
+        nBytes = 2;
+        expected = new byte[]{0, 3};
+        actual = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+        assertArrayEquals(expected, actual);
+        src = 1000;
+        srcPos = 0;
+        dst = new byte[3];
+        dstPos = 0;
+        nBytes = 3;
+        try {
+            Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nBytes-1)*8+srcPos is greater or equal to than 32", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<10> " in " assertArrayEquals(expected, actual); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

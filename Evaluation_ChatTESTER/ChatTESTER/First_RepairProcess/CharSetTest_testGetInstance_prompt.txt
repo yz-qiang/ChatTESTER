@@ -1,0 +1,402 @@
+0-->1-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Method intention
+The intention of the `getInstance(final String...
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Method intention
+The intention of the `getInstance(final String...
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        assertEquals(commonCharSet, CharSet.getInstance("abc"));
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class CharSetTest_testGetInstance {
+
+  <Buggy Line>: cannot find symbol method "assertSame(org.apache.commons.lang3.CharSet,org.apache.commons.lang3.CharSet)" in CharSetTest
+    @Test
+
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Method intention
+The intention of the `getInstance(final String...
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+
+      <Buggy Line>: class, interface, or enum expected
+        assertTrue(charSet.toString().contains("def"));
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Method intention
+The intention of the `getInstance(final String...
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+<Error Line>
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+<Error Line>
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.*;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    @Test
+    public void testGetInstance() {
+        assertNull(CharSet.getInstance(null));
+        CharSet commonCharSet = CharSet.getInstance("abc");
+
+<Error Line>
+        assertSame(commonCharSet, CharSet.getInstance("abc"));
+
+        CharSet charSet = CharSet.getInstance("abc", "def");
+        assertFalse(charSet == commonCharSet);
+        assertTrue(charSet.toString().contains("abc"));
+        assertTrue(charSet.toString().contains("def"));
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertSame(commonCharSet, CharSet.getInstance("abc")); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

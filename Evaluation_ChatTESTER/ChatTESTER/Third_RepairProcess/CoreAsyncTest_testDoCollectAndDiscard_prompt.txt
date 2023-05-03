@@ -1,0 +1,463 @@
+0-->1-->0-->compileRepair
+// CoreAsync class
+package eu.toolchain.concurrent;
+public class CoreAsync {
+public ExecutorService executor();
+public Caller caller();
+public Stage<C> call(final Callable<? extends C> callable);
+public Stage<C> call(final Callable<? extends C> callable, final ExecutorService executor);
+public Stage<C> doCall(final Callable<? extends C> callable, final ExecutorService executor, final Completable<C> stage);
+public Completable<T> completable();
+public Stage<Void> completed();
+public Stage<T> completed(T value);
+public Stage<T> failed(Throwable e);
+public Stage<T> cancelled();
+public Stage<Collection<T>> collect(final Collection<? extends Stage<? extends T>> stages);
+public Stage<T> collect(final Collection<? extends Stage<? extends C>> stages, final Function<? super Collection<C>, ? extends T> collector);
+public Stage<U> streamCollect(final Collection<? extends Stage<? extends T>> stages, final Consumer<? super T> consumer, final Supplier<? extends U> supplier);
+public Stage<T> eventuallyCollect(final Collection<? extends Callable<? extends Stage<? extends C>>> callables, final Consumer<? super C> consumer, Supplier<? extends T> supplier, int parallelism);
+public Stage<Void> collectAndDiscard(Collection<? extends Stage<?>> stages);
+public Managed<C> managed(Supplier<? extends Stage<C>> setup, Function<? super C, ? extends Stage<Void>> teardown);
+public ReloadableManaged<C> reloadableManaged(final Supplier<? extends Stage<C>> setup, final Function<? super C, ? extends Stage<Void>> teardown);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy, final ClockSource clockSource);
+public static Builder builder();
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static eu.toolchain.concurrent.CoreAsync.buildCollectedException;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyCollection;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.inOrder;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+    private CoreAsync coreAsync;
+    @Before
+    public void setUp() {
+
+         <Buggy Line>: constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+        coreAsync = new CoreAsync();
+
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+        doReturn(helper).when(coreAsync).new CollectAndDiscardHelper(stages.size(), completable);
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "CoreAsync" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "CoreAsync" class  cannot be modified.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import com.google.common.collect.ImmutableList;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import java.util.Collection;
+import java.util.List;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.*;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+
+    <Buggy Line>: type eu.toolchain.concurrent.CoreAsync does not take parameters
+    private CoreAsync<Void> coreAsync;
+
+    @Before
+    public void setUp() {
+        coreAsync = CoreAsync.builder().executor(mock(ExecutorService.class)).build();
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+        doReturn(helper).when(coreAsync).new CollectAndDiscardHelper(stages.size(), completable);
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import com.google.common.collect.ImmutableList;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import java.util.List;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.*;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+    private CoreAsync coreAsync;
+    @Before
+    public void setUp() {
+
+        <Buggy Line>: cannot find symbol class "ExecutorService"
+        coreAsync = CoreAsync.builder().executor(mock(ExecutorService.class)).build();
+
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+        doReturn(helper).when(coreAsync).new CollectAndDiscardHelper(anyInt(), eq(completable));
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import com.google.common.collect.ImmutableList;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import java.util.List;
+import java.util.concurrent.ExecutorService; 
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.*;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+    private CoreAsync coreAsync;
+    @Before
+    public void setUp() {
+        coreAsync = CoreAsync.builder().executor(mock(ExecutorService.class)).build();
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+
+        <Buggy Line>: cannot find symbol class "CollectAndDiscardHelper"
+        doReturn(helper).when(coreAsync).new CollectAndDiscardHelper(anyInt(), eq(completable));
+
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// CoreAsync class
+package eu.toolchain.concurrent;
+public class CoreAsync {
+public ExecutorService executor();
+public Caller caller();
+public Stage<C> call(final Callable<? extends C> callable);
+public Stage<C> call(final Callable<? extends C> callable, final ExecutorService executor);
+public Stage<C> doCall(final Callable<? extends C> callable, final ExecutorService executor, final Completable<C> stage);
+public Completable<T> completable();
+public Stage<Void> completed();
+public Stage<T> completed(T value);
+public Stage<T> failed(Throwable e);
+public Stage<T> cancelled();
+public Stage<Collection<T>> collect(final Collection<? extends Stage<? extends T>> stages);
+public Stage<T> collect(final Collection<? extends Stage<? extends C>> stages, final Function<? super Collection<C>, ? extends T> collector);
+public Stage<U> streamCollect(final Collection<? extends Stage<? extends T>> stages, final Consumer<? super T> consumer, final Supplier<? extends U> supplier);
+public Stage<T> eventuallyCollect(final Collection<? extends Callable<? extends Stage<? extends C>>> callables, final Consumer<? super C> consumer, Supplier<? extends T> supplier, int parallelism);
+public Stage<Void> collectAndDiscard(Collection<? extends Stage<?>> stages);
+public Managed<C> managed(Supplier<? extends Stage<C>> setup, Function<? super C, ? extends Stage<Void>> teardown);
+public ReloadableManaged<C> reloadableManaged(final Supplier<? extends Stage<C>> setup, final Function<? super C, ? extends Stage<Void>> teardown);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy, final ClockSource clockSource);
+public static Builder builder();
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import com.google.common.collect.ImmutableList;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyInt;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.*;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+    private CoreAsync coreAsync;
+    @Before
+    public void setUp() {
+        coreAsync = CoreAsync.builder().executor(mock(ExecutorService.class)).build();
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+
+       <Buggy Line>: cannot find symbol method "newCollectAndDiscardHelper(int,eu.toolchain.concurrent.Completable<java.lang.Void>)" in CoreAsync
+        doReturn(helper).when(coreAsync).newCollectAndDiscardHelper(anyInt(), eq(completable));
+
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "CoreAsync" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "CoreAsync" class  cannot be modified.
+
+########
+
+5-->6-->3-->compileRepair
+// CoreAsync class
+package eu.toolchain.concurrent;
+public class CoreAsync {
+public ExecutorService executor();
+public Caller caller();
+public Stage<C> call(final Callable<? extends C> callable);
+public Stage<C> call(final Callable<? extends C> callable, final ExecutorService executor);
+public Stage<C> doCall(final Callable<? extends C> callable, final ExecutorService executor, final Completable<C> stage);
+public Completable<T> completable();
+public Stage<Void> completed();
+public Stage<T> completed(T value);
+public Stage<T> failed(Throwable e);
+public Stage<T> cancelled();
+public Stage<Collection<T>> collect(final Collection<? extends Stage<? extends T>> stages);
+public Stage<T> collect(final Collection<? extends Stage<? extends C>> stages, final Function<? super Collection<C>, ? extends T> collector);
+public Stage<U> streamCollect(final Collection<? extends Stage<? extends T>> stages, final Consumer<? super T> consumer, final Supplier<? extends U> supplier);
+public Stage<T> eventuallyCollect(final Collection<? extends Callable<? extends Stage<? extends C>>> callables, final Consumer<? super C> consumer, Supplier<? extends T> supplier, int parallelism);
+public Stage<Void> collectAndDiscard(Collection<? extends Stage<?>> stages);
+public Managed<C> managed(Supplier<? extends Stage<C>> setup, Function<? super C, ? extends Stage<Void>> teardown);
+public ReloadableManaged<C> reloadableManaged(final Supplier<? extends Stage<C>> setup, final Function<? super C, ? extends Stage<Void>> teardown);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy);
+public Stage<RetryResult<T>> retryUntilCompleted(final Callable<? extends Stage<T>> callable, final RetryPolicy policy, final ClockSource clockSource);
+public static Builder builder();
+}
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import com.google.common.collect.ImmutableList;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.RunWith;
+import org.mockito.InOrder;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyInt;
+import static org.mockito.Matchers.eq;
+import static org.mockito.Mockito.*;
+@RunWith(MockitoJUnitRunner.class)
+public class CoreAsyncTest_testDoCollectAndDiscard {
+    @Mock
+    private Stage<Object> stage1;
+    @Mock
+    private Stage<Object> stage2;
+    @Mock
+    private Stage<Object> stage3;
+    @Mock
+    private Completable<Void> completable;
+    @Mock
+    private CollectAndDiscardHelper helper;
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+    private CoreAsync coreAsync;
+    @Before
+    public void setUp() {
+        coreAsync = CoreAsync.builder().executor(mock(ExecutorService.class)).build();
+    }
+    @Test
+    public void testDoCollectAndDiscard() throws Exception {
+        List<Stage<?>> stages = ImmutableList.of(stage1, stage2, stage3);
+        doReturn(completable).when(coreAsync).completable();
+
+       <Buggy Line>: cannot find symbol method "collectAndDiscardHelper(int,eu.toolchain.concurrent.Completable<java.lang.Void>)" in CoreAsync
+        doReturn(helper).when(coreAsync).collectAndDiscardHelper(anyInt(), eq(completable));
+
+        coreAsync.doCollectAndDiscard(stages);
+        InOrder inOrder = inOrder(stage1, stage2, stage3, helper, completable);
+        inOrder.verify(stage1).handle(helper);
+        inOrder.verify(stage2).handle(helper);
+        inOrder.verify(stage3).handle(helper);
+        inOrder.verify(helper).bind(completable);
+        inOrder.verify(completable).propagate(any(Throwable.class));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line with the given "CoreAsync" class information (it is crucial) and return the complete test method after repair. 
+Note that the contents in  "CoreAsync" class  cannot be modified.
+
+########
+

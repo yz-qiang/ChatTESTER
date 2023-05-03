@@ -1,0 +1,50 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[19,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[20,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[24,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[24,102] maximum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[25,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[25,102] maximum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[26,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[26,102] maximum has private access in org.apache.commons.lang3.Range
+[INFO] 9 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[19,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[20,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[24,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[24,102] maximum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[25,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[25,102] maximum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[26,74] minimum has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[26,102] maximum has private access in org.apache.commons.lang3.Range
+[INFO] 9 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[17,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[17,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,18] <T>Range(T,T,java.util.Comparator<T>) has private access in org.apache.commons.lang3.Range
+[INFO] 2 errors 
+####################
+

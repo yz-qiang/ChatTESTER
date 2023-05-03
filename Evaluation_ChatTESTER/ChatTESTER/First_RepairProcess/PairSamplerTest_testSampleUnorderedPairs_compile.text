@@ -1,0 +1,33 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[29,24] error: cannot find symbol
+[ERROR]   symbol:   method getFirst()
+  location: variable pair of type UnorderedPair
+D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[30,24] error: cannot find symbol
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[23,24] error: cannot find symbol
+[ERROR]   symbol:   method getFirst()
+  location: variable pair of type UnorderedPair
+D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[24,24] error: cannot find symbol
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[23,24] error: cannot find symbol
+[ERROR]   symbol:   method getFirst()
+  location: variable pair of type UnorderedPair
+D:\Python\Test_Completion\Promt2Testing\repo_get\approachValidation_repo\mgormley_prim\src\test\java\edu\jhu\prim\sample\PairSamplerTest.java:[24,24] error: cannot find symbol
+[INFO] 2 errors 
+####################
+

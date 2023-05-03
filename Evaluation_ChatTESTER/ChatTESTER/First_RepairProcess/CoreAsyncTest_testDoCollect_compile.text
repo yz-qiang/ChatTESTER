@@ -1,0 +1,345 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[60,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[66,43] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[72,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,20] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[60,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[66,43] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[72,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,20] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[60,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[66,43] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[72,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[80,20] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[59,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,62] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[59,79] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<?>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,79] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<?>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[INFO] 2 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,64] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[59,87] incompatible types: java.util.function.Function<java.util.Collection<java.lang.Object>,java.lang.String> cannot be converted to java.util.function.Function<? super java.util.Collection<java.lang.String>,? extends java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,64] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,87] incompatible types: java.util.function.Function<java.util.Collection<java.lang.Object>,java.lang.String> cannot be converted to java.util.function.Function<? super java.util.Collection<java.lang.String>,? extends java.lang.Object>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,64] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[59,87] incompatible types: java.util.function.Function<java.util.Collection<java.lang.Object>,java.lang.String> cannot be converted to java.util.function.Function<? super java.util.Collection<java.lang.String>,? extends java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,64] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,87] incompatible types: java.util.function.Function<java.util.Collection<java.lang.Object>,java.lang.String> cannot be converted to java.util.function.Function<? super java.util.Collection<java.lang.String>,? extends java.lang.Object>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[70,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[74,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[72,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[74,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,85] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<?>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,70] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,93] incompatible types: invalid method reference
+    incompatible types: java.util.Collection<java.lang.String> cannot be converted to java.util.Collection<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,85] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<? extends java.lang.Object>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,21] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[70,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[74,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[76,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[64,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[69,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[72,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[74,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,68] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,85] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<?>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[57,70] incompatible types: inference variable E has incompatible bounds
+    equality constraints: eu.toolchain.concurrent.Stage<? extends java.lang.String>
+    lower bounds: eu.toolchain.concurrent.Stage<java.lang.Integer>,eu.toolchain.concurrent.Stage<java.lang.String>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,93] incompatible types: invalid method reference
+    incompatible types: java.util.Collection<java.lang.String> cannot be converted to java.util.Collection<java.lang.Object>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] CoreAsyncTest_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,85] incompatible types: java.util.List<eu.toolchain.concurrent.Stage<? extends java.lang.Object>> cannot be converted to java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends java.lang.String>>
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[68,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[71,22] method completed in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: java.lang.Object
+  found: int,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[73,49] cannot find symbol
+  symbol:   method get()
+  location: variable completable of type eu.toolchain.concurrent.Completable<java.lang.String>
+[INFO] 4 errors 
+####################
+

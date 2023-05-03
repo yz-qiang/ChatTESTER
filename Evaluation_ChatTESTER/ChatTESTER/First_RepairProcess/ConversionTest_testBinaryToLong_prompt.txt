@@ -1,0 +1,416 @@
+0-->1-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static long binaryToLong(final boolean[] src, final int srcPos, final long dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 64) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final long bits = (src[i + srcPos] ? 1L : 0) << shift;
+        final long mask = 0x1L << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `binaryToLong` method is to convert a binary representation of a number, given as a boolean array `src`, into a long integer.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testBinaryToLong {
+    @Test
+    public void testBinaryToLong() {
+        boolean[] src = {true, false, true, false}; 
+        int srcPos = 0;
+        long dstInit = 0;
+        int dstPos = 0;
+        int nBools = 4;
+        long expected = 10; 
+        long result = Conversion.binaryToLong(src, srcPos, dstInit, dstPos, nBools);
+
+        assertEquals(expected, result);
+
+        boolean[] src2 = {true, false, true, false, true, false, true, false, true, false}; 
+        int srcPos2 = 0;
+        long dstInit2 = 0;
+        int dstPos2 = 0;
+        int nBools2 = 10;
+        long expected2 = 682; 
+        long result2 = Conversion.binaryToLong(src2, srcPos2, dstInit2, dstPos2, nBools2);
+        assertEquals(expected2, result2);
+        boolean[] src3 = {};
+        int srcPos3 = 0;
+        long dstInit3 = 0;
+        int dstPos3 = 0;
+        int nBools3 = 0;
+        try {
+            Conversion.binaryToLong(src3, srcPos3, dstInit3, dstPos3, nBools3);
+            fail("Expected IllegalArgumentException to be thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("nBools-1+dstPos is greater or equal to than 64", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expected, result); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+

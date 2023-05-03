@@ -1,0 +1,240 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[40,37] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[42,37] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[43,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[40,37] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[42,37] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[43,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] PrijsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[41,54] cannot find symbol
+  symbol:   method getPrijsdelen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[44,46] no suitable constructor found for BigDecimal(java.math.BigDecimal)
+    constructor java.math.BigDecimal.BigDecimal(char[]) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to char[])
+    constructor java.math.BigDecimal.BigDecimal(java.lang.String) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.lang.String)
+    constructor java.math.BigDecimal.BigDecimal(double) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to double)
+    constructor java.math.BigDecimal.BigDecimal(java.math.BigInteger) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to java.math.BigInteger)
+    constructor java.math.BigDecimal.BigDecimal(int) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to int)
+    constructor java.math.BigDecimal.BigDecimal(long) is not applicable
+      (argument mismatch; java.math.BigDecimal cannot be converted to long)
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest.java:[45,58] cannot find symbol
+  symbol:   method getKortingprijzen()
+  location: variable eersteKlasse of type nl.pvanassen.ns.model.prijzen.ReisKlasse
+[INFO] 3 errors 
+####################
+

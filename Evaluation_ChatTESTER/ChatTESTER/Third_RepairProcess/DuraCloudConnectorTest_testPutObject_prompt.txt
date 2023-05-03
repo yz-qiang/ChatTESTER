@@ -1,0 +1,635 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class, HttpPut.class, HttpHead.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private static final String PROVIDER_ID = "testProviderId";
+    private static final String PREFIX = "testPrefix";
+    private static final String USERNAME = "testUsername";
+    private static final String PASSWORD = "testPassword";
+    private static final String SPACE = "testSpace";
+    private static final String URL = "http:
+    private static final String PID = "testPid";
+    private static final String CONTENT = "testContent";
+    private static final long CHUNK_SIZE = 1024L;
+    private DuraCloudConnector connector;
+    private MultiThreadedHttpClient httpClient;
+    private StoreConnector source;
+    private FedoraObject object;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    @Before
+    public void setUp() {
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        source = PowerMock.createMock(StoreConnector.class);
+        object = createTestObject();
+        connector = new DuraCloudConnector(createTestSpaceURI(), PROVIDER_ID, PREFIX, httpClient, CHUNK_SIZE);
+    }
+    @After
+    public void tearDown() {
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        HttpPut putRequest = PowerMock.createMock(HttpPut.class);
+        PowerMock.expectNew(HttpPut.class, createTestObjectURI()).andReturn(putRequest);
+        putRequest.setHeader("Content-Type", "application/xml");
+        putRequest.setHeader("Content-MD5", "testMd5");
+        putRequest.setHeader("x-dura-meta-provider-id", PROVIDER_ID);
+        putRequest.setHeader("x-dura-meta-prefix", PREFIX);
+        putRequest.setHeader("x-dura-meta-pid", PID);
+        putRequest.setHeader("x-dura-meta-dsids", "testDsId");
+        putRequest.setHeader("x-dura-meta-ds-versions", "testDsVersion");
+        putRequest.setHeader("x-dura-meta-ds-mime-types", "testDsMimeType");
+        putRequest.setHeader("x-dura-meta-ds-formats", "testDsFormat");
+        putRequest.setHeader("x-dura-meta-ds-locations", "testDsLocation");
+        putRequest.setHeader("x-dura-meta-ds-sizes", "testDsSize");
+        putRequest.setHeader("x-dura-meta-ds-checksums", "testDsChecksum");
+        putRequest.setHeader("x-dura-meta-ds-created-dates", "testDsCreatedDate");
+        putRequest.setHeader("x-dura-meta-ds-modified-dates", "testDsModifiedDate");
+
+      <Buggy Line>: incompatible types: Object cannot be converted to HttpEntity
+        putRequest.setEntity(EasyMock.anyObject());
+
+        HttpResponse response = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        EasyMock.expect(httpClient.execute(putRequest)).andReturn(response);
+        EasyMock.expect(response.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(200);
+        EasyMock.expect(source.get(PID)).andReturn(new AutoCloseInputStream(new ByteArrayInputStream(CONTENT.getBytes())));
+        PowerMock.replayAll();
+        boolean result = connector.putObject(object, source, true, true, true);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+    private FedoraObject createTestObject() {
+        FedoraObject object = new FedoraObject(createTestObjectURI());
+        object.label("testLabel");
+        object.ownerId("testOwnerId");
+        object.state("testState");
+        object.createdDate(new Date());
+        object.lastModifiedDate(new Date());
+        DatastreamVersion version = new DatastreamVersion();
+        version.id("testDsId");
+        version.label("testDsLabel");
+        version.mimeType("testDsMimeType");
+        version.formatUri("testDsFormat");
+        version.location(createTestObjectURI());
+        version.size(1024L);
+        version.checksum("testDsChecksum");
+        version.createdDate(new Date());
+        version.lastModifiedDate(new Date());
+        object.datastream("testDsId", version);
+        return object;
+    }
+    private URI createTestSpaceURI() {
+        return URI.create(URL + "/" + SPACE);
+    }
+    private URI createTestObjectURI() {
+        return URI.create(URL + "/" + SPACE + "/" + PID);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class, HttpPut.class, HttpHead.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private static final String PROVIDER_ID = "testProviderId";
+    private static final String PREFIX = "testPrefix";
+    private static final String USERNAME = "testUsername";
+    private static final String PASSWORD = "testPassword";
+    private static final String SPACE = "testSpace";
+
+        <Buggy Line>: unclosed string literal
+    private static final String URL = "http:
+
+    private static final String PID = "testPid";
+    private static final String CONTENT = "testContent";
+    private static final long CHUNK_SIZE = 1024L;
+    private DuraCloudConnector connector;
+    private MultiThreadedHttpClient httpClient;
+    private StoreConnector source;
+    private FedoraObject object;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    @Before
+    public void setUp() {
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        source = PowerMock.createMock(StoreConnector.class);
+        object = createTestObject();
+        connector = new DuraCloudConnector(createTestSpaceURI(), PROVIDER_ID, PREFIX, httpClient, CHUNK_SIZE);
+    }
+    @After
+    public void tearDown() {
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        HttpPut putRequest = PowerMock.createMock(HttpPut.class);
+        PowerMock.expectNew(HttpPut.class, createTestObjectURI()).andReturn(putRequest);
+        putRequest.setHeader("Content-Type", "application/xml");
+        putRequest.setHeader("Content-MD5", "testMd5");
+        putRequest.setHeader("x-dura-meta-provider-id", PROVIDER_ID);
+        putRequest.setHeader("x-dura-meta-prefix", PREFIX);
+        putRequest.setHeader("x-dura-meta-pid", PID);
+        putRequest.setHeader("x-dura-meta-dsids", "testDsId");
+        putRequest.setHeader("x-dura-meta-ds-versions", "testDsVersion");
+        putRequest.setHeader("x-dura-meta-ds-mime-types", "testDsMimeType");
+        putRequest.setHeader("x-dura-meta-ds-formats", "testDsFormat");
+        putRequest.setHeader("x-dura-meta-ds-locations", "testDsLocation");
+        putRequest.setHeader("x-dura-meta-ds-sizes", "testDsSize");
+        putRequest.setHeader("x-dura-meta-ds-checksums", "testDsChecksum");
+        putRequest.setHeader("x-dura-meta-ds-created-dates", "testDsCreatedDate");
+        putRequest.setHeader("x-dura-meta-ds-modified-dates", "testDsModifiedDate");
+        putRequest.setEntity(EasyMock.anyObject(org.apache.http.HttpEntity.class));
+        HttpResponse response = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        EasyMock.expect(httpClient.execute(putRequest)).andReturn(response);
+        EasyMock.expect(response.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(200);
+        EasyMock.expect(source.get(PID)).andReturn(new AutoCloseInputStream(new ByteArrayInputStream(CONTENT.getBytes())));
+        PowerMock.replayAll();
+        boolean result = connector.putObject(object, source, true, true, true);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+    private FedoraObject createTestObject() {
+        FedoraObject object = new FedoraObject(createTestObjectURI());
+        object.label("testLabel");
+        object.ownerId("testOwnerId");
+        object.state("testState");
+        object.createdDate(new Date());
+        object.lastModifiedDate(new Date());
+        DatastreamVersion version = new DatastreamVersion();
+        version.id("testDsId");
+        version.label("testDsLabel");
+        version.mimeType("testDsMimeType");
+        version.formatUri("testDsFormat");
+        version.location(createTestObjectURI());
+        version.size(1024L);
+        version.checksum("testDsChecksum");
+        version.createdDate(new Date());
+        version.lastModifiedDate(new Date());
+        object.datastream("testDsId", version);
+        return object;
+    }
+    private URI createTestSpaceURI() {
+        return URI.create(URL + "/" + SPACE);
+    }
+    private URI createTestObjectURI() {
+        return URI.create(URL + "/" + SPACE + "/" + PID);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class, HttpPut.class, HttpHead.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private static final String PROVIDER_ID = "testProviderId";
+    private static final String PREFIX = "testPrefix";
+    private static final String USERNAME = "testUsername";
+    private static final String PASSWORD = "testPassword";
+    private static final String SPACE = "testSpace";
+
+        <Buggy Line>: unclosed string literal
+    private static final String URL = "http:
+
+    private static final String PID = "testPid";
+    private static final String CONTENT = "testContent";
+    private static final long CHUNK_SIZE = 1024L;
+    private DuraCloudConnector connector;
+    private MultiThreadedHttpClient httpClient;
+    private StoreConnector source;
+    private FedoraObject object;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    @Before
+    public void setUp() {
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        source = PowerMock.createMock(StoreConnector.class);
+        object = createTestObject();
+        connector = new DuraCloudConnector(createTestSpaceURI(), PROVIDER_ID, PREFIX, httpClient, CHUNK_SIZE);
+    }
+    @After
+    public void tearDown() {
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        HttpPut putRequest = PowerMock.createMock(HttpPut.class);
+        PowerMock.expectNew(HttpPut.class, createTestObjectURI()).andReturn(putRequest);
+        putRequest.setHeader("Content-Type", "application/xml");
+        putRequest.setHeader("Content-MD5", "testMd5");
+        putRequest.setHeader("x-dura-meta-provider-id", PROVIDER_ID);
+        putRequest.setHeader("x-dura-meta-prefix", PREFIX);
+        putRequest.setHeader("x-dura-meta-pid", PID);
+        putRequest.setHeader("x-dura-meta-dsids", "testDsId");
+        putRequest.setHeader("x-dura-meta-ds-versions", "testDsVersion");
+        putRequest.setHeader("x-dura-meta-ds-mime-types", "testDsMimeType");
+        putRequest.setHeader("x-dura-meta-ds-formats", "testDsFormat");
+        putRequest.setHeader("x-dura-meta-ds-locations", "testDsLocation");
+        putRequest.setHeader("x-dura-meta-ds-sizes", "testDsSize");
+        putRequest.setHeader("x-dura-meta-ds-checksums", "testDsChecksum");
+        putRequest.setHeader("x-dura-meta-ds-created-dates", "testDsCreatedDate");
+        putRequest.setHeader("x-dura-meta-ds-modified-dates", "testDsModifiedDate");
+        putRequest.setEntity(EasyMock.anyObject(org.apache.http.HttpEntity.class));
+        HttpResponse response = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        EasyMock.expect(httpClient.execute(putRequest)).andReturn(response);
+        EasyMock.expect(response.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(200);
+        EasyMock.expect(source.get(PID)).andReturn(new AutoCloseInputStream(new ByteArrayInputStream(CONTENT.getBytes())));
+        PowerMock.replayAll();
+        boolean result = connector.putObject(object, source, true, true, true);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+    private FedoraObject createTestObject() {
+        FedoraObject object = new FedoraObject(createTestObjectURI());
+        object.label("testLabel");
+        object.ownerId("testOwnerId");
+        object.state("testState");
+        object.createdDate(new Date());
+        object.lastModifiedDate(new Date());
+        DatastreamVersion version = new DatastreamVersion();
+        version.id("testDsId");
+        version.label("testDsLabel");
+        version.mimeType("testDsMimeType");
+        version.formatUri("testDsFormat");
+        version.location(createTestObjectURI());
+        version.size(1024L);
+        version.checksum("testDsChecksum");
+        version.createdDate(new Date());
+        version.lastModifiedDate(new Date());
+        object.datastream("testDsId", version);
+        return object;
+    }
+    private URI createTestSpaceURI() {
+        return URI.create(URL + "/" + SPACE);
+    }
+    private URI createTestObjectURI() {
+        return URI.create(URL + "/" + SPACE + "/" + PID);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class, HttpPut.class, HttpHead.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private static final String PROVIDER_ID = "testProviderId";
+    private static final String PREFIX = "testPrefix";
+    private static final String USERNAME = "testUsername";
+    private static final String PASSWORD = "testPassword";
+    private static final String SPACE = "testSpace";
+
+        <Buggy Line>: unclosed string literal
+    private static final String URL = "http:
+
+    private static final String PID = "testPid";
+    private static final String CONTENT = "testContent";
+    private static final long CHUNK_SIZE = 1024L;
+    private DuraCloudConnector connector;
+    private MultiThreadedHttpClient httpClient;
+    private StoreConnector source;
+    private FedoraObject object;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    @Before
+    public void setUp() {
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        source = PowerMock.createMock(StoreConnector.class);
+        object = createTestObject();
+        connector = new DuraCloudConnector(createTestSpaceURI(), PROVIDER_ID, PREFIX, httpClient, CHUNK_SIZE);
+    }
+    @After
+    public void tearDown() {
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        HttpPut putRequest = PowerMock.createMock(HttpPut.class);
+        PowerMock.expectNew(HttpPut.class, createTestObjectURI()).andReturn(putRequest);
+        putRequest.setHeader("Content-Type", "application/xml");
+        putRequest.setHeader("Content-MD5", "testMd5");
+        putRequest.setHeader("x-dura-meta-provider-id", PROVIDER_ID);
+        putRequest.setHeader("x-dura-meta-prefix", PREFIX);
+        putRequest.setHeader("x-dura-meta-pid", PID);
+        putRequest.setHeader("x-dura-meta-dsids", "testDsId");
+        putRequest.setHeader("x-dura-meta-ds-versions", "testDsVersion");
+        putRequest.setHeader("x-dura-meta-ds-mime-types", "testDsMimeType");
+        putRequest.setHeader("x-dura-meta-ds-formats", "testDsFormat");
+        putRequest.setHeader("x-dura-meta-ds-locations", "testDsLocation");
+        putRequest.setHeader("x-dura-meta-ds-sizes", "testDsSize");
+        putRequest.setHeader("x-dura-meta-ds-checksums", "testDsChecksum");
+        putRequest.setHeader("x-dura-meta-ds-created-dates", "testDsCreatedDate");
+        putRequest.setHeader("x-dura-meta-ds-modified-dates", "testDsModifiedDate");
+        putRequest.setEntity(EasyMock.anyObject(org.apache.http.HttpEntity.class));
+        HttpResponse response = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        EasyMock.expect(httpClient.execute(putRequest)).andReturn(response);
+        EasyMock.expect(response.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(200);
+        EasyMock.expect(source.get(PID)).andReturn(new AutoCloseInputStream(new ByteArrayInputStream(CONTENT.getBytes())));
+        PowerMock.replayAll();
+        boolean result = connector.putObject(object, source, true, true, true);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+    private FedoraObject createTestObject() {
+        FedoraObject object = new FedoraObject(createTestObjectURI());
+        object.label("testLabel");
+        object.ownerId("testOwnerId");
+        object.state("testState");
+        object.createdDate(new Date());
+        object.lastModifiedDate(new Date());
+        DatastreamVersion version = new DatastreamVersion();
+        version.id("testDsId");
+        version.label("testDsLabel");
+        version.mimeType("testDsMimeType");
+        version.formatUri("testDsFormat");
+        version.location(createTestObjectURI());
+        version.size(1024L);
+        version.checksum("testDsChecksum");
+        version.createdDate(new Date());
+        version.lastModifiedDate(new Date());
+        object.datastream("testDsId", version);
+        return object;
+    }
+    private URI createTestSpaceURI() {
+        return URI.create(URL + "/" + SPACE);
+    }
+    private URI createTestObjectURI() {
+        return URI.create(URL + "/" + SPACE + "/" + PID);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.duraspace.fcrepo.cloudsync.service.backend;
+import com.github.cwilper.fcrepo.dto.core.ControlGroup;
+import com.github.cwilper.fcrepo.dto.core.Datastream;
+import com.github.cwilper.fcrepo.dto.core.DatastreamVersion;
+import com.github.cwilper.fcrepo.dto.core.FedoraObject;
+import com.github.cwilper.fcrepo.httpclient.MultiThreadedHttpClient;
+import junit.framework.Assert;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.AutoCloseInputStream;
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpPut;
+import org.easymock.EasyMock;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.easymock.PowerMock;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import java.io.BufferedWriter;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.net.URI;
+import java.util.Date;
+import java.util.Random;
+@RunWith(PowerMockRunner.class)
+@PrepareForTest({DuraCloudConnector.class, HttpPut.class, HttpHead.class})
+public class DuraCloudConnectorTest_testPutObject {
+    private static final String PROVIDER_ID = "testProviderId";
+    private static final String PREFIX = "testPrefix";
+    private static final String USERNAME = "testUsername";
+    private static final String PASSWORD = "testPassword";
+    private static final String SPACE = "testSpace";
+
+        <Buggy Line>: unclosed string literal
+    private static final String URL = "http:
+
+    private static final String PID = "testPid";
+    private static final String CONTENT = "testContent";
+    private static final long CHUNK_SIZE = 1024L;
+    private DuraCloudConnector connector;
+    private MultiThreadedHttpClient httpClient;
+    private StoreConnector source;
+    private FedoraObject object;
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    @Before
+    public void setUp() {
+        httpClient = PowerMock.createMock(MultiThreadedHttpClient.class);
+        source = PowerMock.createMock(StoreConnector.class);
+        object = createTestObject();
+        connector = new DuraCloudConnector(createTestSpaceURI(), PROVIDER_ID, PREFIX, httpClient, CHUNK_SIZE);
+    }
+    @After
+    public void tearDown() {
+    }
+    @Test
+    public void testPutObject() throws Exception {
+        HttpPut putRequest = PowerMock.createMock(HttpPut.class);
+        PowerMock.expectNew(HttpPut.class, createTestObjectURI()).andReturn(putRequest);
+        putRequest.setHeader("Content-Type", "application/xml");
+        putRequest.setHeader("Content-MD5", "testMd5");
+        putRequest.setHeader("x-dura-meta-provider-id", PROVIDER_ID);
+        putRequest.setHeader("x-dura-meta-prefix", PREFIX);
+        putRequest.setHeader("x-dura-meta-pid", PID);
+        putRequest.setHeader("x-dura-meta-dsids", "testDsId");
+        putRequest.setHeader("x-dura-meta-ds-versions", "testDsVersion");
+        putRequest.setHeader("x-dura-meta-ds-mime-types", "testDsMimeType");
+        putRequest.setHeader("x-dura-meta-ds-formats", "testDsFormat");
+        putRequest.setHeader("x-dura-meta-ds-locations", "testDsLocation");
+        putRequest.setHeader("x-dura-meta-ds-sizes", "testDsSize");
+        putRequest.setHeader("x-dura-meta-ds-checksums", "testDsChecksum");
+        putRequest.setHeader("x-dura-meta-ds-created-dates", "testDsCreatedDate");
+        putRequest.setHeader("x-dura-meta-ds-modified-dates", "testDsModifiedDate");
+        putRequest.setEntity(EasyMock.anyObject(org.apache.http.HttpEntity.class));
+        HttpResponse response = PowerMock.createMock(HttpResponse.class);
+        StatusLine statusLine = PowerMock.createMock(StatusLine.class);
+        EasyMock.expect(httpClient.execute(putRequest)).andReturn(response);
+        EasyMock.expect(response.getStatusLine()).andReturn(statusLine);
+        EasyMock.expect(statusLine.getStatusCode()).andReturn(200);
+        EasyMock.expect(source.get(PID)).andReturn(new AutoCloseInputStream(new ByteArrayInputStream(CONTENT.getBytes())));
+        PowerMock.replayAll();
+        boolean result = connector.putObject(object, source, true, true, true);
+        Assert.assertTrue(result);
+        PowerMock.verifyAll();
+    }
+    private FedoraObject createTestObject() {
+        FedoraObject object = new FedoraObject(createTestObjectURI());
+        object.label("testLabel");
+        object.ownerId("testOwnerId");
+        object.state("testState");
+        object.createdDate(new Date());
+        object.lastModifiedDate(new Date());
+        DatastreamVersion version = new DatastreamVersion();
+        version.id("testDsId");
+        version.label("testDsLabel");
+        version.mimeType("testDsMimeType");
+        version.formatUri("testDsFormat");
+        version.location(createTestObjectURI());
+        version.size(1024L);
+        version.checksum("testDsChecksum");
+        version.createdDate(new Date());
+        version.lastModifiedDate(new Date());
+        object.datastream("testDsId", version);
+        return object;
+    }
+    private URI createTestSpaceURI() {
+        return URI.create(URL + "/" + SPACE);
+    }
+    private URI createTestObjectURI() {
+        return URI.create(URL + "/" + SPACE + "/" + PID);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

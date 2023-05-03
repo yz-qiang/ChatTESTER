@@ -1,0 +1,232 @@
+0-->1-->0-->compileRepair
+// Import information
+import de.waldheinz.fs.util.RamDisk;
+
+import java.io.IOException;
+
+import java.nio.ByteBuffer;
+
+import org.junit.Before;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+
+             <Buggy Line>: cannot find symbol variable "FileSystemType"
+        fat = new Fat(new RamDisk(1024 * 1024), FileSystemType.FAT32);
+
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+
+  <Buggy Line>: unclosed character literal
+Here's the repaired test method:
+
+```
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+        fat = new Fat(new RamDisk(1024 * 1024), FileSystemType.FAT32);
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+
+                           <Buggy Line>: class, interface, or enum expected
+There is no buggy line related to an unclosed character literal in the provided test method. However, if there were any unnecessary import statements, they could be removed as follows:
+
+```
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+        fat = new Fat(new RamDisk(1024 * 1024), FileSystemType.FAT32);
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import java.io.IOException;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+
+             <Buggy Line>: cannot find symbol class "RamDisk"
+        fat = new Fat(new RamDisk(1024 * 1024), FileSystemType.FAT32);
+
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import java.io.IOException;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+
+             <Buggy Line>: cannot find symbol class "SimpleDisk"
+        fat = new Fat(new SimpleDisk(1024 * 1024), FileSystemType.FAT32);
+
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import java.io.IOException;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ClusterChainTest_testSetSize {
+    private Fat fat;
+    private ClusterChain clusterChain;
+    @Before
+    public void setUp() throws Exception {
+
+             <Buggy Line>: cannot find symbol class "SimpleDisk"
+        fat = new Fat(new SimpleDisk(1024 * 1024), FileSystemType.FAT32);
+
+        clusterChain = new ClusterChain(fat, false);
+    }
+    @Test
+    public void testSetSize() throws IOException {
+        long size = 1024;
+        long expectedClusterSize = 4096;
+        long expectedTotalSize = 4096;
+        long actualTotalSize = clusterChain.setSize(size);
+        assertEquals(expectedTotalSize, actualTotalSize);
+        assertEquals(expectedClusterSize, clusterChain.getClusterSize());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

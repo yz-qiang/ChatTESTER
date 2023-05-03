@@ -1,0 +1,201 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,20] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,27] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[19,35] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[24,43] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,45] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,6] cannot find symbol
+  symbol:   class Test
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[7,45] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,45] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,33] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,33] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,32] cannot find symbol
+  symbol:   class ArrayUtil
+  location: package cn.xdean.jex.lang
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,33] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,45] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,6] cannot find symbol
+  symbol:   class Test
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[7,45] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 4 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,45] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,33] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[8,33] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,9] cannot find symbol
+  symbol:   method assertNotSame(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,9] cannot find symbol
+  symbol:   method assertArrayEquals(java.lang.Integer[],java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] ArrayUtilTest_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,32] cannot find symbol
+  symbol:   class ArrayUtil
+  location: package cn.xdean.jex.lang
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[4,1] static import only from classes and interfaces
+[ERROR] /D:/Python/Test_Completion/Promt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,33] cannot find symbol
+  symbol:   method arrayDeepClone(java.lang.Integer[])
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[INFO] 3 errors 
+####################
+

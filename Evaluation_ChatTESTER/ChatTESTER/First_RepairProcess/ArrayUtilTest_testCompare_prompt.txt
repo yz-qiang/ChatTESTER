@@ -1,0 +1,43 @@
+0-->1-->0-->compileRepair
+// Import information
+import org.junit.Test;
+
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+
+import static org.junit.Assert.*;
+
+
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ArrayUtilTest_testCompare {
+    @Test
+    public void testCompare() {
+        Integer[] a = {1, 2, 3};
+        Integer[] b = {1, 2, 3};
+        Integer[] c = {1, 2, 4};
+        Integer[] d = {1, 2};
+
+        <Buggy Line>: cannot find symbol variable "ArrayUtil"
+        assertEquals(0, ArrayUtil.compare(a, b));
+
+        assertEquals(-1, ArrayUtil.compare(a, c));
+        assertEquals(1, ArrayUtil.compare(c, a));
+        try {
+            ArrayUtil.compare(a, d);
+            fail("Expected IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+            assertEquals("Can't compare different length arrays", e.getMessage());
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

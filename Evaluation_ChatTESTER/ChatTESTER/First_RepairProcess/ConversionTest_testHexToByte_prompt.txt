@@ -1,0 +1,500 @@
+0-->1-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToByte` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a byte value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToByte` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a byte value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Method intention
+The intention of the `hexToByte` method is to convert a specified number of hexadecimal digits from a given string `src` starting at position `srcPos` into a byte value.
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+0-->1-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+1-->1-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+2-->3-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+3-->3-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+4-->5-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
+5-->5-->0-->testRepair
+// Focal method
+public static byte hexToByte(final String src, final int srcPos, final byte dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 8) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 8");
+    }
+    byte out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (byte) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class ConversionTest_testHexToByte {
+    @Test
+    public void testHexToByte() {
+        byte result1 = Conversion.hexToByte("F", 0, (byte) 0x00, 0, 1);
+        assertEquals((byte) 0xF, result1);
+        byte result2 = Conversion.hexToByte("1A", 0, (byte) 0x00, 0, 2);
+
+<Error Line>
+        assertEquals((byte) 0x1A, result2);
+
+        byte result3 = Conversion.hexToByte("FF1A", 2, (byte) 0x00, 0, 2);
+        assertEquals((byte) 0x1A, result3);
+        byte result4 = Conversion.hexToByte("F", 0, (byte) 0x00, 4, 1);
+        assertEquals((byte) 0x10, result4);
+        try {
+            Conversion.hexToByte("FFFF", 0, (byte) 0x00, 0, 4);
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertEquals("(nHexs-1)*4+dstPos is greater or equal to than 8", e.getMessage());
+        }
+    }
+}
+
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals((byte) 0x1A, result2); ". 
+Please repair the error with the given Focal method and method intention information (it is crucial), and return the complete test method after repair.
+
+
+########
+
