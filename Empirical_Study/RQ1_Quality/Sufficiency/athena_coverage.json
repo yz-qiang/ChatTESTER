@@ -1,0 +1,134 @@
+[
+    {
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/string/TestStringUtils###testReplace",
+        "generated_path": "TestStringUtils.java",
+        "Statement_coverage": "84%",
+        "Branch_coverage": "71%"
+    },
+    {
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/websocket/common/utils/QuoteUtilTest###testQuoteIfNeeded",
+        "generated_path": "QuoteUtilTest.java",
+        "Statement_coverage": "84%",
+        "Branch_coverage": "75%"
+    },
+    {
+        "original_path": "bekkopen_NoCommons###bekkopen_NoCommons/src/test/java/no/bekk/bekkopen/org/OrganisasjonsnummerCalculatorTest###testGetOrganisasjonsnummerList",
+        "generated_path": "OrganisasjonsnummerCalculatorTest.java",
+        "Statement_coverage": "95%",
+        "Branch_coverage": "100%"
+    },
+    {
+        "original_path": "davidmoten_geo###davidmoten_geo/geo/src/test/java/com/github/davidmoten/geo/LatLongTest###testToString",
+        "generated_path": "LatLongTest.java",
+        "Statement_coverage": "100%",
+        "Branch_coverage": "n/a"
+    },
+    {
+        "original_path": "fabric8io_fabric8-maven-plugin###fabric8io_fabric8-maven-plugin/core/src/test/java/io/fabric8/maven/core/util/KindAndNameTest###testHashCode",
+        "generated_path": "KindAndNameTest.java",
+        "Statement_coverage": "100%",
+        "Branch_coverage": "n/a"
+    },
+    {
+        "original_path": "fabric8io_fabric8-maven-plugin###fabric8io_fabric8-maven-plugin/core/src/test/java/io/fabric8/maven/core/util/KindAndNameTest###equalsTest",
+        "generated_path": "KindAndNameTest.java",
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%"
+    },
+    {
+        "original_path": "microsoft_azure-maven-plugins###microsoft_azure-maven-plugins/azure-maven-plugin-lib/src/test/java/com/microsoft/azure/maven/prompt/InputValidateResultTest###testWrap",
+        "generated_path": "InputValidateResultTest.java",
+        "Statement_coverage": "100%",
+        "Branch_coverage": "n/a"
+    },
+    {
+        "original_path": "protostuff_protostuff###protostuff_protostuff/protostuff-parser/src/test/java/io/protostuff/parser/ProtoUtilTest###testToUnderscoreCase",
+        "generated_path": "ProtoUtilTest.java",
+        "Statement_coverage": "93%",
+        "Branch_coverage": "86%"
+    },
+    {
+        "original_path": "Stratio_cassandra-lucene-index###Stratio_cassandra-lucene-index/plugin/src/test/java/com/stratio/cassandra/lucene/search/sort/SimpleSortFieldTest###testHashCode",
+        "generated_path": "SimpleSortFieldTest.java",
+        "Statement_coverage": "fail",
+        "Branch_coverage": "fail"
+    },
+    {
+        "original_path": "Stratio_cassandra-lucene-index###Stratio_cassandra-lucene-index/plugin/src/test/java/com/stratio/cassandra/lucene/search/sort/GeoDistanceSortFieldTest###testHashCode",
+        "generated_path": "GeoDistanceSortFieldTest.java",
+        "Statement_coverage": "fail",
+        "Branch_coverage": "fail"
+    },
+    {
+        "original_path": "Stratio_cassandra-lucene-index###Stratio_cassandra-lucene-index/plugin/src/test/java/com/stratio/cassandra/lucene/search/sort/GeoDistanceSortFieldTest###testEquals",
+        "generated_path": "GeoDistanceSortFieldTest.java",
+        "Statement_coverage": "fail",
+        "Branch_coverage": "fail"
+    },
+    {
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testLtrim",
+        "generated_path": "StringUtilTest.java",
+        "Statement_coverage": "86%",
+        "Branch_coverage": "70%"
+    },
+    {
+        "original_path": "languagetool-org_languagetool###languagetool-org_languagetool/languagetool-core/src/test/java/org/languagetool/AnalyzedTokenTest###testMatches",
+        "generated_path": "AnalyzedTokenTest.java",
+        "Statement_coverage": "11%",
+        "Branch_coverage": "7%"
+    },
+    {
+        "original_path": "languagetool-org_languagetool###languagetool-org_languagetool/languagetool-core/src/test/java/org/languagetool/tools/StringToolsTest###testFilterXML",
+        "generated_path": "StringToolsTest.java",
+        "Statement_coverage": "40%",
+        "Branch_coverage": "50%"
+    },
+    {
+        "original_path": "languagetool-org_languagetool###languagetool-org_languagetool/languagetool-language-modules/ga/src/test/java/org/languagetool/tagging/disambiguation/rules/ga/UtilsTest###testUnPonc",
+        "generated_path": "UtilsTest.java",
+        "Statement_coverage": "25%",
+        "Branch_coverage": "18%"
+    },
+    {
+        "original_path": "languagetool-org_languagetool###languagetool-org_languagetool/languagetool-language-modules/ga/src/test/java/org/languagetool/tagging/disambiguation/rules/ga/UtilsTest###testGreekToLatin",
+        "generated_path": "UtilsTest.java",
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%"
+    },
+    {
+        "original_path": "languagetool-org_languagetool###languagetool-org_languagetool/languagetool-gui-commons/src/test/java/org/languagetool/gui/ToolsTest###testShortenComment",
+        "generated_path": "ToolsTest.java",
+        "Statement_coverage": "10%",
+        "Branch_coverage": "6%"
+    },
+    {
+        "original_path": "graphhopper_graphhopper###graphhopper_graphhopper/web-api/src/test/java/com/graphhopper/util/HelperTest###testUnderscoreToCamelCase",
+        "generated_path": "HelperTest.java",
+        "Statement_coverage": "76%",
+        "Branch_coverage": "75%"
+    },
+    {
+        "original_path": "graphhopper_graphhopper###graphhopper_graphhopper/core/src/test/java/com/graphhopper/reader/dem/CGIARProviderTest###testDown",
+        "generated_path": "CGIARProviderTest.java",
+        "Statement_coverage": "57%",
+        "Branch_coverage": "25%"
+    },
+    {
+        "original_path": "graphhopper_graphhopper###graphhopper_graphhopper/web-api/src/test/java/com/graphhopper/util/HelperTest###testCountBitValue",
+        "generated_path": "HelperTest.java",
+        "Statement_coverage": "30%",
+        "Branch_coverage": "50%"
+    },
+    {
+        "original_path": "graphhopper_graphhopper###graphhopper_graphhopper/web-api/src/test/java/com/graphhopper/util/HelperTest###testCamelCaseToUnderscore",
+        "generated_path": "HelperTest.java",
+        "Statement_coverage": "12%",
+        "Branch_coverage": "16%"
+    },
+    {
+        "original_path": "graphhopper_graphhopper###graphhopper_graphhopper/web-api/src/test/java/com/graphhopper/util/GHResponseTest###testToString",
+        "generated_path": "GHResponseTest.java",
+        "Statement_coverage": "41%",
+        "Branch_coverage": "50%"
+    }
+]

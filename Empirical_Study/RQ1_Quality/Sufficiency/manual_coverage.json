@@ -1,0 +1,1040 @@
+[
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/convert/NumberChineseFormatterTest###formatSimpleTest",
+        "generated_path": "NumberChineseFormatterTest.java"
+    },
+    {
+        "Statement_coverage": "84%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/map/MapUtilTest###filterTest",
+        "generated_path": "MapUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "perwendel_spark###perwendel_spark/src/test/java/spark/utils/SparkUtilsTest###testConvertRouteToList",
+        "generated_path": "SparkUtilsTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "83%",
+        "original_path": "zeromq_jeromq###zeromq_jeromq/src/test/java/org/zeromq/ZMsgTest###testHashcode",
+        "generated_path": "ZMsgTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadLong",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "58%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/map/MapUtilTest###editTest",
+        "generated_path": "MapUtilTest.java"
+    },
+    {
+        "Statement_coverage": "68%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/LocalDateTimeUtilTest###parseTest",
+        "generated_path": "LocalDateTimeUtilTest.java"
+    },
+    {
+        "Statement_coverage": "81%",
+        "Branch_coverage": "62%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/websocket/common/utils/QuoteUtilTest###testQuoteIfNeeded",
+        "generated_path": "QuoteUtilTest.java"
+    },
+    {
+        "Statement_coverage": "44%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/reflect/MethodHandleUtilTest###findMethodTest",
+        "generated_path": "MethodHandleUtilTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "70%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testIsNumber",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "GoSimpleLLC_nbvcxz###GoSimpleLLC_nbvcxz/src/test/java/me/gosimple/nbvcxz/resources/AdjacencyGraphUtilTest###testNeighborsNumber",
+        "generated_path": "AdjacencyGraphUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-http/src/test/java/cn/hutool/http/HtmlUtilTest###removeHtmlAttrTest",
+        "generated_path": "HtmlUtilTest.java"
+    },
+    {
+        "Statement_coverage": "77%",
+        "Branch_coverage": "50%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/collection/map/MultiMapTest###testRemoveValue",
+        "generated_path": "MultiMapTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "GoSimpleLLC_nbvcxz###GoSimpleLLC_nbvcxz/src/test/java/me/gosimple/nbvcxz/matching/match/BaseMatchTest###testNCk",
+        "generated_path": "BaseMatchTest.java"
+    },
+    {
+        "Statement_coverage": "66%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/Ipv4UtilTest###ipv4ToLongTest",
+        "generated_path": "Ipv4UtilTest.java"
+    },
+    {
+        "Statement_coverage": "85%",
+        "Branch_coverage": "75%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/http/common/model/HttpURITest###testParseRequestTarget",
+        "generated_path": "HttpURITest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "66%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###editTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "87%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/text/CharSequenceUtilTest###commonPrefixTest",
+        "generated_path": "CharSequenceUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/tree/TreeTest###walkTest",
+        "generated_path": "TreeTest.java"
+    },
+    {
+        "Statement_coverage": "79%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/text/TextSimilarityTest###similarTest",
+        "generated_path": "TextSimilarityTest.java"
+    },
+    {
+        "Statement_coverage": "92%",
+        "Branch_coverage": "62%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest###secondToTimeTest",
+        "generated_path": "DateUtilTest.java"
+    },
+    {
+        "Statement_coverage": "72%",
+        "Branch_coverage": "50%",
+        "original_path": "zeromq_jeromq###zeromq_jeromq/src/test/java/org/zeromq/util/ZDataTest###testEquals",
+        "generated_path": "ZDataTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getNameFieldMapTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "39%",
+        "Branch_coverage": "32%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ObjectUtilTest###containsTest",
+        "generated_path": "ObjectUtilTest.java"
+    },
+    {
+        "Statement_coverage": "41%",
+        "Branch_coverage": "40%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsEnglishAndNumberMix",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "66%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadUnsignedByte",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "rometools_rome###rometools_rome/rome-utils/src/test/java/com/rometools/utils/LongsTest###testParseDecimal",
+        "generated_path": "LongsTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest###ageTest",
+        "generated_path": "DateUtilTest.java"
+    },
+    {
+        "Statement_coverage": "69%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadByte",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "50%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/XmlUtilTest###readBySaxTest",
+        "generated_path": "XmlUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/map/TableMapTest###removeTest",
+        "generated_path": "TableMapTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "jmeter-maven-plugin_jmeter-maven-plugin###jmeter-maven-plugin_jmeter-maven-plugin/src/test/java/com/lazerycode/jmeter/utility/UtilityFunctionsTest###humanReadableCommandLineOutputTest",
+        "generated_path": "UtilityFunctionsTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###isIntegerTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "jparsec_jparsec###jparsec_jparsec/jparsec/src/test/java/org/jparsec/OperatorsTest###testLexicon",
+        "generated_path": "OperatorsTest.java"
+    },
+    {
+        "Statement_coverage": "64%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ObjectUtilTest###toStringTest",
+        "generated_path": "ObjectUtilTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "50%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/collection/map/MultiMapTest###testAdd",
+        "generated_path": "MultiMapTest.java"
+    },
+    {
+        "Statement_coverage": "87%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/IdcardUtilTest###getCityCodeByIdCardTest",
+        "generated_path": "IdcardUtilTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "58%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/CollUtilTest###unionTest",
+        "generated_path": "CollUtilTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###findAllTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "84%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###findAllTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "94%",
+        "Branch_coverage": "66%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###findAllTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-http/src/test/java/cn/hutool/http/HtmlUtilTest###removeAllHtmlAttrTest",
+        "generated_path": "HtmlUtilTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/imageio/imageio-core/src/test/java/com/twelvemonkeys/imageio/stream/ByteArrayImageInputStreamTest###testRead",
+        "generated_path": "ByteArrayImageInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "76%",
+        "Branch_coverage": "66%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###generateBySetTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getEnumMapTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "31%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###isDoubleTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "jparsec_jparsec###jparsec_jparsec/jparsec/src/test/java/org/jparsec/internal/util/IntListTest###testToArray",
+        "generated_path": "IntListTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "83%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/object/TestTypeUtils###testIsFalse",
+        "generated_path": "TestTypeUtils.java"
+    },
+    {
+        "Statement_coverage": "86%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###delFirstTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "68%",
+        "Branch_coverage": "58%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/CollUtilTest###getTest",
+        "generated_path": "CollUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/string/SearchPatternTest###testEndsWith",
+        "generated_path": "SearchPatternTest.java"
+    },
+    {
+        "Statement_coverage": "86%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getByTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "70%",
+        "Branch_coverage": "46%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/ValidatorTest###isBirthdayTest",
+        "generated_path": "ValidatorTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/ValidatorTest###isBirthdayTest",
+        "generated_path": "ValidatorTest.java"
+    },
+    {
+        "Statement_coverage": "94%",
+        "Branch_coverage": "66%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/CollUtilTest###zipTest",
+        "generated_path": "CollUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/math/CombinationTest###selectTest",
+        "generated_path": "CombinationTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "92%",
+        "original_path": "OWASP_java-html-sanitizer###OWASP_java-html-sanitizer/src/test/java/org/owasp/html/CssGrammarTest###testCssContent",
+        "generated_path": "CssGrammarTest.java"
+    },
+    {
+        "Statement_coverage": "91%",
+        "Branch_coverage": "100%",
+        "original_path": "rometools_rome###rometools_rome/rome-utils/src/test/java/com/rometools/utils/DoublesTest###testParse",
+        "generated_path": "DoublesTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "70%",
+        "original_path": "eBay_cors-filter###eBay_cors-filter/src/test/java/org/ebaysf/web/cors/CORSFilterTest###testJoin",
+        "generated_path": "CORSFilterTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getFieldByTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testReplaceIgnoreCase",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "Wikidata_Wikidata-Toolkit###Wikidata_Wikidata-Toolkit/wdtk-storage/src/test/java/org/wikidata/wdtk/storage/datastructures/BitVectorImplTest###testToString",
+        "generated_path": "BitVectorImplTest.java"
+    },
+    {
+        "Statement_coverage": "84%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/RandomUtilTest###randomEleSetTest",
+        "generated_path": "RandomUtilTest.java"
+    },
+    {
+        "Statement_coverage": "75%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###equalsTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "91%",
+        "Branch_coverage": "83%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/string/TestStringUtils###testHasText",
+        "generated_path": "TestStringUtils.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/ListUtilTest###pageTest",
+        "generated_path": "ListUtilTest.java"
+    },
+    {
+        "Statement_coverage": "97%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/ListUtilTest###pageTest",
+        "generated_path": "ListUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testReplace",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "75%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/imageio/imageio-metadata/src/test/java/com/twelvemonkeys/imageio/metadata/tiff/RationalTest###testTimes",
+        "generated_path": "RationalTest.java"
+    },
+    {
+        "Statement_coverage": "37%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/io/FileUtilTest###touchTest",
+        "generated_path": "FileUtilTest.java"
+    },
+    {
+        "Statement_coverage": "75%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/io/FileUtilTest###touchTest",
+        "generated_path": "FileUtilTest.java"
+    },
+    {
+        "Statement_coverage": "30%",
+        "Branch_coverage": "50%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/http/common/v2/hpack/HpackContextTest###testResize",
+        "generated_path": "HpackContextTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "asterisk-java_asterisk-java###asterisk-java_asterisk-java/src/test/java/org/asteriskjava/fastagi/ScriptEngineMappingStrategyTest###testGetExtension",
+        "generated_path": "ScriptEngineMappingStrategyTest.java"
+    },
+    {
+        "Statement_coverage": "81%",
+        "Branch_coverage": "50%",
+        "original_path": "rometools_rome###rometools_rome/rome/src/test/java/com/rometools/rome/io/XmlReaderTest###testGetXmlProlog",
+        "generated_path": "XmlReaderTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "86%",
+        "original_path": "protostuff_protostuff###protostuff_protostuff/protostuff-parser/src/test/java/io/protostuff/parser/ProtoUtilTest###testToUnderscoreCase",
+        "generated_path": "ProtoUtilTest.java"
+    },
+    {
+        "Statement_coverage": "89%",
+        "Branch_coverage": "76%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-json/src/test/java/cn/hutool/json/JSONStrFormatterTest###formatTest",
+        "generated_path": "JSONStrFormatterTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "80%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/text/CharSequenceUtilTest###commonSuffixTest",
+        "generated_path": "CharSequenceUtilTest.java"
+    },
+    {
+        "Statement_coverage": "40%",
+        "Branch_coverage": "50%",
+        "original_path": "assertthat_selenium-shutterbug###assertthat_selenium-shutterbug/src/test/java/com/assertthat/selenium_shutterbug/utils/image/ImageProcessorTest###testImagesAreEquals",
+        "generated_path": "ImageProcessorTest.java"
+    },
+    {
+        "Statement_coverage": "86%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###delAllTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###delAllTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "86%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/map/TableMapTest###getTest",
+        "generated_path": "TableMapTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/io/BufferUtilTest###readBytesTest",
+        "generated_path": "BufferUtilTest.java"
+    },
+    {
+        "Statement_coverage": "87%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/TypeUtilTest###getParamTypeTest",
+        "generated_path": "TypeUtilTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/io/unit/DataSizeUtilTest###formatTest",
+        "generated_path": "DataSizeUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "83%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/math/ArrangementTest###selectTest",
+        "generated_path": "ArrangementTest.java"
+    },
+    {
+        "Statement_coverage": "84%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###parseFloatTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###parseFloatTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "91%",
+        "Branch_coverage": "70%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/dictionary/impl/DictionaryTrieTest###testPrefix",
+        "generated_path": "DictionaryTrieTest.java"
+    },
+    {
+        "Statement_coverage": "77%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/RuntimeUtilTest###getProcessorCountTest",
+        "generated_path": "RuntimeUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "zeromq_jeromq###zeromq_jeromq/src/test/java/org/zeromq/ZMsgTest###testAppend",
+        "generated_path": "ZMsgTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "davidmoten_rxjava2-extras###davidmoten_rxjava2-extras/src/test/java/com/github/davidmoten/rx2/util/PairTest###testEquals",
+        "generated_path": "PairTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###distinctTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "92%",
+        "Branch_coverage": "68%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/string/TestQuotedStringTokenizer###testQuoteIfNeeded",
+        "generated_path": "TestQuotedStringTokenizer.java"
+    },
+    {
+        "Statement_coverage": "75%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/NetUtilTest###isInRangeTest",
+        "generated_path": "NetUtilTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###getTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###getTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###getTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "47%",
+        "Branch_coverage": "29%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###isNumberTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "89%",
+        "Branch_coverage": "60%",
+        "original_path": "jfaster_mango###jfaster_mango/src/test/java/org/jfaster/mango/binding/DefaultInvocationContextTest###testTrim",
+        "generated_path": "DefaultInvocationContextTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "87%",
+        "original_path": "psjava_psjava###psjava_psjava/src/test/java/org/psjava/formula/MaxInIterableTest###testMax",
+        "generated_path": "MaxInIterableTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "50%",
+        "original_path": "protostuff_protostuff###protostuff_protostuff/protostuff-parser/src/test/java/io/protostuff/parser/ProtoUtilTest###testToPascalCase",
+        "generated_path": "ProtoUtilTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "90%",
+        "original_path": "neoremind_fluent-validator###neoremind_fluent-validator/fluent-validator/src/test/java/com/baidu/unbiz/fluentvalidator/util/ReflectionUtilTest###testGetAnnotationFields",
+        "generated_path": "ReflectionUtilTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "64%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###likeValueOfTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/io/TestBufferUtils###testAddCapacity",
+        "generated_path": "TestBufferUtils.java"
+    },
+    {
+        "Statement_coverage": "40%",
+        "Branch_coverage": "44%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ObjectUtilTest###lengthTest",
+        "generated_path": "ObjectUtilTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadInt",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "94%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getNamesTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "92%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/io/BufferUtilTest###readLineTest",
+        "generated_path": "BufferUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/text/CharSequenceUtilTest###removeSuffixIgnoreCaseTest",
+        "generated_path": "CharSequenceUtilTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "95%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/http/common/model/QuotedCSVTest###testUnQuote",
+        "generated_path": "QuotedCSVTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "70%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testRtrim",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/io/TestBufferUtils###testToArray",
+        "generated_path": "TestBufferUtils.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "33%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/Ipv4UtilTest###listTest",
+        "generated_path": "Ipv4UtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/Ipv4UtilTest###listTest",
+        "generated_path": "Ipv4UtilTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "50%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadUnsignedShort",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/IdUtilTest###getDataCenterIdTest",
+        "generated_path": "IdUtilTest.java"
+    },
+    {
+        "Statement_coverage": "75%",
+        "Branch_coverage": "75%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/LittleEndianDataInputStreamTest###testReadBoolean",
+        "generated_path": "LittleEndianDataInputStreamTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "50%",
+        "original_path": "asterisk-java_asterisk-java###asterisk-java_asterisk-java/src/test/java/org/asteriskjava/manager/event/T38FaxStatusEventTest###testStripUnit",
+        "generated_path": "T38FaxStatusEventTest.java"
+    },
+    {
+        "Statement_coverage": "94%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/EnumUtilTest###getFieldValuesTest",
+        "generated_path": "EnumUtilTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "83%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/CollUtilTest###splitTest",
+        "generated_path": "CollUtilTest.java"
+    },
+    {
+        "Statement_coverage": "77%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest###dateTest",
+        "generated_path": "DateUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###isLongTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "75%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/imageio/imageio-metadata/src/test/java/com/twelvemonkeys/imageio/metadata/tiff/RationalTest###testPlus",
+        "generated_path": "RationalTest.java"
+    },
+    {
+        "Statement_coverage": "72%",
+        "Branch_coverage": "50%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-common/src/test/java/com/fireflysource/common/collection/map/MultiMapTest###testPut",
+        "generated_path": "MultiMapTest.java"
+    },
+    {
+        "Statement_coverage": "73%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###getTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "neoremind_fluent-validator###neoremind_fluent-validator/fluent-validator/src/test/java/com/baidu/unbiz/fluentvalidator/util/ArrayUtilTest###testHasIntersection",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "84%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###parseDoubleTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/NumberUtilTest###parseDoubleTest",
+        "generated_path": "NumberUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "zeromq_jeromq###zeromq_jeromq/src/test/java/org/zeromq/ZMsgTest###testContentSize",
+        "generated_path": "ZMsgTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/ValidatorTest###isBetweenTest",
+        "generated_path": "ValidatorTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###replaceTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "83%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-poi/src/test/java/cn/hutool/poi/excel/ExcelUtilTest###indexToColNameTest",
+        "generated_path": "ExcelUtilTest.java"
+    },
+    {
+        "Statement_coverage": "45%",
+        "Branch_coverage": "50%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsNumber",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "75%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsNumber",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/RandomUtilTest###randomElesTest",
+        "generated_path": "RandomUtilTest.java"
+    },
+    {
+        "Statement_coverage": "95%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest###timeToSecondTest",
+        "generated_path": "DateUtilTest.java"
+    },
+    {
+        "Statement_coverage": "43%",
+        "Branch_coverage": "50%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsChineseNumber",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "96%",
+        "Branch_coverage": "87%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/text/CharSequenceUtilTest###endWithTest",
+        "generated_path": "CharSequenceUtilTest.java"
+    },
+    {
+        "Statement_coverage": "76%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###isMatchTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "81%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###isMatchTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "93%",
+        "Branch_coverage": "80%",
+        "original_path": "code4craft_webmagic###code4craft_webmagic/webmagic-core/src/test/java/us/codecraft/webmagic/proxy/ProxyTest###testCreate",
+        "generated_path": "ProxyTest.java"
+    },
+    {
+        "Statement_coverage": "54%",
+        "Branch_coverage": "35%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/CollUtilTest###containsAnyTest",
+        "generated_path": "CollUtilTest.java"
+    },
+    {
+        "Statement_coverage": "60%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReflectUtilTest###invokeTest",
+        "generated_path": "ReflectUtilTest.java"
+    },
+    {
+        "Statement_coverage": "54%",
+        "Branch_coverage": "43%",
+        "original_path": "hypercube1024_firefly###hypercube1024_firefly/firefly-net/src/test/java/com/fireflysource/net/http/common/codec/URIUtilsTest###testEncodeString",
+        "generated_path": "URIUtilsTest.java"
+    },
+    {
+        "Statement_coverage": "52%",
+        "Branch_coverage": "33%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-extra/src/test/java/cn/hutool/extra/qrcode/QrCodeUtilTest###generateAsBase64Test",
+        "generated_path": "QrCodeUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testIsEmpty",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "asterisk-java_asterisk-java###asterisk-java_asterisk-java/src/test/java/org/asteriskjava/live/CallerIdTest###testToString",
+        "generated_path": "CallerIdTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-json/src/test/java/cn/hutool/json/JSONObjectTest###accumulateTest",
+        "generated_path": "JSONObjectTest.java"
+    },
+    {
+        "Statement_coverage": "59%",
+        "Branch_coverage": "50%",
+        "original_path": "asterisk-java_asterisk-java###asterisk-java_asterisk-java/src/test/java/org/asteriskjava/manager/response/SipShowPeerResponseTest###testSetQualifyFreq",
+        "generated_path": "SipShowPeerResponseTest.java"
+    },
+    {
+        "Statement_coverage": "86%",
+        "Branch_coverage": "70%",
+        "original_path": "haraldk_TwelveMonkeys###haraldk_TwelveMonkeys/common/common-lang/src/test/java/com/twelvemonkeys/lang/StringUtilTest###testLtrim",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "82%",
+        "Branch_coverage": "70%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/NetUtilTest###getLocalhostTest",
+        "generated_path": "NetUtilTest.java"
+    },
+    {
+        "Statement_coverage": "78%",
+        "Branch_coverage": "62%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###cloneTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "75%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###cloneTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "88%",
+        "Branch_coverage": "70%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ArrayUtilTest###insertTest",
+        "generated_path": "ArrayUtilTest.java"
+    },
+    {
+        "Statement_coverage": "44%",
+        "Branch_coverage": "40%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/comparator/CompareUtilTest###compareTest",
+        "generated_path": "CompareUtilTest.java"
+    },
+    {
+        "Statement_coverage": "78%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/DesensitizedUtilTest###emailTest",
+        "generated_path": "DesensitizedUtilTest.java"
+    },
+    {
+        "Statement_coverage": "64%",
+        "Branch_coverage": "75%",
+        "original_path": "abel533_Mapper###abel533_Mapper/core/src/test/java/tk/mybatis/mapper/util/StringUtilTest###testUnderlineToCamelhump",
+        "generated_path": "StringUtilTest.java"
+    },
+    {
+        "Statement_coverage": "40%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/net/Ipv4UtilTest###getMaskBitByMaskTest",
+        "generated_path": "Ipv4UtilTest.java"
+    },
+    {
+        "Statement_coverage": "51%",
+        "Branch_coverage": "38%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsQuantifier",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "87%",
+        "Branch_coverage": "50%",
+        "original_path": "davidmoten_rxjava2-extras###davidmoten_rxjava2-extras/src/test/java/com/github/davidmoten/rx2/util/PairTest###testHashCode",
+        "generated_path": "PairTest.java"
+    },
+    {
+        "Statement_coverage": "92%",
+        "Branch_coverage": "83%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###escapeTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "gwtbootstrap3_gwtbootstrap3###gwtbootstrap3_gwtbootstrap3/gwtbootstrap3/src/test/java/org/gwtbootstrap3/client/ui/base/helper/StyleHelperTest###testContainsStyle",
+        "generated_path": "StyleHelperTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "protostuff_protostuff###protostuff_protostuff/protostuff-core/src/test/java/io/protostuff/ProtobufOutputTest###testComputeRawVarint64Size",
+        "generated_path": "ProtobufOutputTest.java"
+    },
+    {
+        "Statement_coverage": "90%",
+        "Branch_coverage": "50%",
+        "original_path": "protostuff_protostuff###protostuff_protostuff/protostuff-core/src/test/java/io/protostuff/ProtobufOutputTest###testWriteRawLittleEndian32",
+        "generated_path": "ProtobufOutputTest.java"
+    },
+    {
+        "Statement_coverage": "80%",
+        "Branch_coverage": "58%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateBetweenTest###betweenYearTest",
+        "generated_path": "DateBetweenTest.java"
+    },
+    {
+        "Statement_coverage": "45%",
+        "Branch_coverage": "50%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsEnglish",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "77%",
+        "Branch_coverage": "75%",
+        "original_path": "ysc_word###ysc_word/src/test/java/org/apdplat/word/recognition/RecognitionToolTest###testIsEnglish",
+        "generated_path": "RecognitionToolTest.java"
+    },
+    {
+        "Statement_coverage": "69%",
+        "Branch_coverage": "50%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/lang/ValidatorTest###isGeneralTest",
+        "generated_path": "ValidatorTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "75%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/date/DateBetweenTest###betweenMonthTest",
+        "generated_path": "DateBetweenTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "66%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###delLastTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/util/ReUtilTest###delLastTest",
+        "generated_path": "ReUtilTest.java"
+    },
+    {
+        "Statement_coverage": "100%",
+        "Branch_coverage": "100%",
+        "original_path": "code4craft_webmagic###code4craft_webmagic/webmagic-core/src/test/java/us/codecraft/webmagic/utils/UrlUtilsTest###testGetDomain",
+        "generated_path": "UrlUtilsTest.java"
+    },
+    {
+        "Statement_coverage": "83%",
+        "Branch_coverage": "62%",
+        "original_path": "dromara_hutool###dromara_hutool/hutool-core/src/test/java/cn/hutool/core/collection/IterUtilTest###getTest",
+        "generated_path": "IterUtilTest.java"
+    }
+]
