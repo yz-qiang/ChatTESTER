@@ -1,0 +1,364 @@
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,13] cannot find symbol
+  symbol:   class FileSystem
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[17,20] no suitable constructor found for RamDisk(no arguments)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(java.nio.ByteBuffer,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[18,19] cannot find symbol
+  symbol:   class FileSystem
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,21] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,9] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,9] cannot find symbol
+  symbol:   class SeekableByteChannel
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,60] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,81] cannot find symbol
+  symbol:   variable StandardOpenOption
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,39] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 9 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[17,20] no suitable constructor found for RamDisk(no arguments)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(java.nio.ByteBuffer,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[18,15] no suitable constructor found for FatFileSystem(de.waldheinz.fs.util.RamDisk)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[19,16] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,21] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,9] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,9] cannot find symbol
+  symbol:   class SeekableByteChannel
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,60] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,81] cannot find symbol
+  symbol:   variable StandardOpenOption
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,39] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 9 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[17,20] no suitable constructor found for RamDisk(no arguments)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(java.nio.ByteBuffer,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.util.RamDisk.RamDisk(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[18,15] no suitable constructor found for FatFileSystem(de.waldheinz.fs.util.RamDisk)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[19,16] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,21] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,9] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,9] cannot find symbol
+  symbol:   class SeekableByteChannel
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,60] cannot find symbol
+  symbol:   variable Paths
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,81] cannot find symbol
+  symbol:   variable StandardOpenOption
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[27,39] cannot find symbol
+  symbol:   variable Files
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 9 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[23,14] no suitable constructor found for FatFileSystem(de.waldheinz.fs.util.RamDisk)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[24,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[31,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[32,9] cannot find symbol
+  symbol:   class SeekableByteChannel
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[23,14] no suitable constructor found for FatFileSystem(de.waldheinz.fs.util.RamDisk)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor de.waldheinz.fs.fat.FatFileSystem.FatFileSystem(de.waldheinz.fs.BlockDevice,boolean,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[24,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[31,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[32,9] cannot find symbol
+  symbol:   class SeekableByteChannel
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[24,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[32,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 3 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[24,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[32,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 3 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TestClass_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,27] cannot find symbol
+  symbol:   class RamDisk
+  location: package de.waldheinz.fs.fat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[25,41] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[26,15] constructor Fat in class de.waldheinz.fs.fat.Fat cannot be applied to given types;
+  required: de.waldheinz.fs.fat.BootSector,long
+  found: de.waldheinz.fs.fat.FatFileSystem
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[33,14] no suitable method found for write(java.nio.file.Path,java.nio.ByteBuffer)
+    method java.nio.file.Files.write(java.nio.file.Path,byte[],java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to byte[])
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.charset.Charset,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+    method java.nio.file.Files.write(java.nio.file.Path,java.lang.Iterable<? extends java.lang.CharSequence>,java.nio.file.OpenOption...) is not applicable
+      (argument mismatch; java.nio.ByteBuffer cannot be converted to java.lang.Iterable<? extends java.lang.CharSequence>)
+[INFO] 4 errors 
+####################
+

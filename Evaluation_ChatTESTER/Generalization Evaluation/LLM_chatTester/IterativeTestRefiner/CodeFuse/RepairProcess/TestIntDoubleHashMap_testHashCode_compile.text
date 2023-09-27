@@ -1,0 +1,133 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[28,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[28,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[28,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[28,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testHashCode
+[GENERATED PATH] TestIntDoubleHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[28,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 2 errors 
+####################
+

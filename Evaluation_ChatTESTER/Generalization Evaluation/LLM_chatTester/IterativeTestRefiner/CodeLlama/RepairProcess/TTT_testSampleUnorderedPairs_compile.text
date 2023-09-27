@@ -1,0 +1,50 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] TTT_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[17,5] cannot find symbol
+  symbol:   method assertEquals(java.lang.String,int,int)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[18,109] cannot find symbol
+  symbol:   method getSecond()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[18,89] cannot find symbol
+  symbol:   method getFirst()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[18,5] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[19,5] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[20,96] cannot find symbol
+  symbol:   method getFirst()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[20,111] cannot find symbol
+  symbol:   method getSecond()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[20,5] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[INFO] 8 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] TTT_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[18,120] cannot find symbol
+  symbol:   method getSecond()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[18,100] cannot find symbol
+  symbol:   method getFirst()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[20,107] cannot find symbol
+  symbol:   method getFirst()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[20,122] cannot find symbol
+  symbol:   method getSecond()
+  location: variable p of type edu.jhu.prim.tuple.UnorderedPair
+[INFO] 4 errors 
+####################
+

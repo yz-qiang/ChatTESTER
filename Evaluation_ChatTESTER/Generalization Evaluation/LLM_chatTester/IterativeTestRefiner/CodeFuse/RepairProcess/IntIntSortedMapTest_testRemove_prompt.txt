@@ -1,0 +1,291 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+public class TestIntIntIntSortedMap_testRemove {
+    private IntIntSortedMap map;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp(){
+        map = new IntIntSortedMap();
+    }
+    @Test
+    public void testRemoveWithValidIdx() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        assertFalse(map.containsKey(3));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistingElement() {
+        map.remove(2);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 5);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        map.remove(6);
+        assertFalse(map.containsKey(3));
+        assertFalse(map.containsKey(6));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+
+<Buggy Line>: cannot find symbol class "IntIntIntSortedMap"
+import edu.jhu.prim.map.IntIntIntSortedMap;
+
+import org.junit.Assert;
+public class TestIntIntIntSortedMap_testRemove {
+    private IntIntSortedMap map;
+    @Before
+    public void setUp(){
+        map = new IntIntSortedMap();
+    }
+    @Test
+    public void testRemoveWithValidIdx() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        assertFalse(map.containsKey(3));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistingElement() {
+        map.remove(2);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 5);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        map.remove(6);
+        assertFalse(map.containsKey(3));
+        assertFalse(map.containsKey(6));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+
+<Buggy Line>: cannot find symbol class "IntIntIntSortedMap"
+import edu.jhu.prim.map.IntIntIntSortedMap;
+
+import org.junit.Assert;
+public class TestIntIntIntSortedMap_testRemove {
+    private IntIntSortedMap map;
+    @Before
+    public void setUp(){
+        map = new IntIntSortedMap();
+    }
+    @Test
+    public void testRemoveWithValidIdx() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        assertFalse(map.containsKey(3));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistingElement() {
+        map.remove(2);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 5);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        map.remove(6);
+        assertFalse(map.containsKey(3));
+        assertFalse(map.containsKey(6));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+
+<Buggy Line>: cannot find symbol class "IntIntIntSortedMap"
+import edu.jhu.prim.map.IntIntIntSortedMap;
+
+import org.junit.Assert;
+public class TestIntIntIntSortedMap_testRemove {
+    private IntIntSortedMap map;
+    @Before
+    public void setUp(){
+        map = new IntIntSortedMap();
+    }
+    @Test
+    public void testRemoveWithValidIdx() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        assertFalse(map.containsKey(3));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistingElement() {
+        map.remove(2);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 5);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        map.remove(6);
+        assertFalse(map.containsKey(3));
+        assertFalse(map.containsKey(6));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+
+<Buggy Line>: cannot find symbol class "IntIntIntSortedMap"
+import edu.jhu.prim.map.IntIntIntSortedMap;
+
+import org.junit.Assert;
+public class TestIntIntIntSortedMap_testRemove {
+    private IntIntSortedMap map;
+    @Before
+    public void setUp(){
+        map = new IntIntSortedMap();
+    }
+    @Test
+    public void testRemoveWithValidIdx() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        assertFalse(map.containsKey(3));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistingElement() {
+        map.remove(2);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 5);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 5);
+        map.put(3, 7);
+        map.put(4, 9);
+        map.put(6, 8);
+        map.remove(3);
+        map.remove(6);
+        assertFalse(map.containsKey(3));
+        assertFalse(map.containsKey(6));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

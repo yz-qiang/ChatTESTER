@@ -1,0 +1,102 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollect
+[GENERATED PATH] TTT_testDoEventuallyCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,43] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,19] cannot find symbol
+  symbol:   method cancelledStage()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,19] cannot find symbol
+  symbol:   method failedStage(java.lang.RuntimeException)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[47,19] cannot find symbol
+  symbol:   method completedStage(java.lang.String)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,31] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService,eu.toolchain.concurrent.Caller
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,26] 'void' type not allowed here
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[61,28] cannot find symbol
+  symbol:   method cancel()
+  location: interface eu.toolchain.concurrent.Caller
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,38] cannot find symbol
+  symbol:   method equalTo(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,22] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,46] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 10 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollect
+[GENERATED PATH] TTT_testDoEventuallyCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[47,19] cannot find symbol
+  symbol:   method completedStage(java.lang.String)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,19] cannot find symbol
+  symbol:   method failedStage(java.lang.RuntimeException)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,19] cannot find symbol
+  symbol:   method cancelledStage()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,31] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService,eu.toolchain.concurrent.Caller
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,26] 'void' type not allowed here
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[61,28] cannot find symbol
+  symbol:   method cancel()
+  location: interface eu.toolchain.concurrent.Caller
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,38] cannot find symbol
+  symbol:   method equalTo(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,22] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,46] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 9 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollect
+[GENERATED PATH] TTT_testDoEventuallyCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[47,19] cannot find symbol
+  symbol:   method completedStage(java.lang.String)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,19] cannot find symbol
+  symbol:   method failedStage(java.lang.RuntimeException)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,19] cannot find symbol
+  symbol:   method cancelledStage()
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,31] constructor CoreAsync in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.concurrent.ExecutorService,java.util.concurrent.ScheduledExecutorService,eu.toolchain.concurrent.Caller,eu.toolchain.concurrent.ClockSource,eu.toolchain.concurrent.ManagedOptions
+  found: java.util.concurrent.ExecutorService,eu.toolchain.concurrent.Caller
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[54,26] 'void' type not allowed here
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[61,28] cannot find symbol
+  symbol:   method cancel()
+  location: interface eu.toolchain.concurrent.Caller
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[62,38] cannot find symbol
+  symbol:   method equalTo(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,22] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[63,46] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 9 errors 
+####################
+

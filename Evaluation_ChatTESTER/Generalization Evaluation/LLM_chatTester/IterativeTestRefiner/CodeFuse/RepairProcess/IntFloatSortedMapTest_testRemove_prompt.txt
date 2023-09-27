@@ -1,0 +1,55 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+public class TestIntFloatSortedMap_testRemove {
+    private IntFloatSortedMap map;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp(){
+        map = new IntFloatSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        map.put(1, 3f);
+        map.put(5, 7f);
+        map.put(9, 8f);
+        map.put(4, 6f);
+        map.remove(5);
+        assertFalse(map.containsKey(5));
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        map.remove(-1);
+    }
+    @Test
+    public void testEmptyMapAfterRemoval() {
+        map.put(1, 3f);
+        map.remove(1);
+        assertTrue(map.isEmpty());
+    }
+    @Test
+    public void testMultipleElementsRemoved() {
+        map.put(1, 3f);
+        map.put(5, 7f);
+        map.put(9, 8f);
+        map.put(4, 6f);
+        map.remove(5);
+        map.remove(1);
+        assertFalse(map.containsKey(5));
+        assertFalse(map.containsKey(1));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

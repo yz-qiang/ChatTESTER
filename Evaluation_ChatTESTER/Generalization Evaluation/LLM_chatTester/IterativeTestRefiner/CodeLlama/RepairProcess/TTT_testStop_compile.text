@@ -1,0 +1,144 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[37,30] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,17] cannot find symbol
+  symbol:   class T
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[43,37] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[46,40] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[48,5] cannot find symbol
+  symbol:   method assertSame(eu.toolchain.concurrent.Stage<java.lang.Void>,eu.toolchain.concurrent.Stage<java.lang.Void>)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[43,37] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[46,40] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[48,5] cannot find symbol
+  symbol:   method assertSame(eu.toolchain.concurrent.Stage<java.lang.Void>,eu.toolchain.concurrent.Stage<java.lang.Void>)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[43,37] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[46,40] cannot find symbol
+  symbol:   variable ManagedState
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[48,5] cannot find symbol
+  symbol:   method assertSame(eu.toolchain.concurrent.Stage<java.lang.Void>,eu.toolchain.concurrent.Stage<java.lang.Void>)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 3 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testStop
+[GENERATED PATH] TTT_testStop.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[31,31] cannot find symbol
+  symbol:   class ManagedState
+  location: package eu.toolchain.concurrent
+[INFO] 1 error
+####################
+

@@ -1,0 +1,198 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,49] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,25] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 5 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,25] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 5 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,25] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 5 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,25] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 5 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TTT_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,4] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,29] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[9,48] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[13,84] error: cannot find symbol
+[ERROR]  variable stack of type ChangeStack<Integer>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,12] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[15,44] error: cannot find symbol
+[INFO] 6 errors 
+####################
+

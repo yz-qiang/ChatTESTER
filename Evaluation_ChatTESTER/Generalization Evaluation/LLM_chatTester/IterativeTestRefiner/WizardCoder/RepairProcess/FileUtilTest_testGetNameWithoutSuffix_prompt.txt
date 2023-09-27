@@ -1,0 +1,215 @@
+0-->1-->0-->compileRepair
+// Test Method
+package cn.xdean.jex.io;
+import cn.xdean.jex.lang.ExceptionUtil;
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
+public class TTT_testGetNameWithoutSuffix {
+@Test
+    public void testGetNameWithoutExtension() throws Exception{
+
+          <Buggy Line>: unclosed string literal
+        URI uri = new URI("http:
+
+        try {
+            Assert.assertTrue(!uri.isAbsolute());
+            final String fileNameWithExtention = Paths.get(uri).getFileName().toString();
+            System.out.println("\nfileNameWithExtention : "+fileNameWithExtention+"\n\n");
+            final String expectedResult="myFile";
+            final String actualResult=FileUtil.getNameWithoutSuffix(Paths.get("/"+fileNameWithExtention));
+            assertEquals(expectedResult,actualResult );
+        } catch (URISyntaxException e){
+           throw new RuntimeException ("Invalid URL",e);
+        }
+    }
+@Test 
+    public void testGetNameWithoutExtension_withAbsolutePath(){
+      final String absoluteFilePath="/home/user/documents/test.pdf" ;
+      final String result=FileUtil.getNameWithoutSuffix(Paths.get(absoluteFilePath)) ; 
+      assertNotEquals("",result ) ; 
+  }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package cn.xdean.jex.io;
+import cn.xdean.jex.lang.ExceptionUtil;
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
+public class TTT_testGetNameWithoutSuffix {
+    @Test
+    public void testGetNameWithoutExtension() throws Exception {
+
+          <Buggy Line>: unclosed string literal
+        URI uri = new URI("http:
+
+        try {
+            Assert.assertTrue(!uri.isAbsolute());
+            final String fileNameWithExtention = Paths.get(uri).getFileName().toString();
+            System.out.println("\nfileNameWithExtention : " + fileNameWithExtention + "\n\n");
+            final String expectedResult = "myFile";
+            final String actualResult = FileUtil.getNameWithoutSuffix(Paths.get("/" + fileNameWithExtention));
+            assertEquals(expectedResult, actualResult);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException("Invalid URL", e);
+        }
+    }
+    @Test
+    public void testGetNameWithoutExtension_withAbsolutePath() {
+        final String absoluteFilePath = "/home/user/documents/test.pdf";
+        final String result = FileUtil.getNameWithoutSuffix(Paths.get(absoluteFilePath));
+        assertNotEquals("", result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package cn.xdean.jex.io;
+import cn.xdean.jex.lang.ExceptionUtil;
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
+public class TTT_testGetNameWithoutSuffix {
+    @Test
+    public void testGetNameWithoutExtension() throws Exception {
+
+         <Buggy Line>: unclosed string literal
+        URI uri = URI.create("http:
+
+        try {
+            Assert.assertTrue(!uri.isAbsolute());
+            final String fileNameWithExtention = Paths.get(uri).getFileName().toString();
+            System.out.println("\nfileNameWithExtention : " + fileNameWithExtention + "\n\n");
+            final String expectedResult = "myFile";
+            final String actualResult = FileUtil.getNameWithoutSuffix(Paths.get("/" + fileNameWithExtention));
+            assertEquals(expectedResult, actualResult);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException("Invalid URL", e);
+        }
+    }
+    @Test
+    public void testGetNameWithoutExtension_withAbsolutePath() {
+        final String absoluteFilePath = "/home/user/documents/test.pdf";
+        final String result = FileUtil.getNameWithoutSuffix(Paths.get(absoluteFilePath));
+        assertNotEquals("", result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package cn.xdean.jex.io;
+import cn.xdean.jex.lang.ExceptionUtil;
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
+public class TTT_testGetNameWithoutSuffix {
+    @Test
+    public void testGetNameWithoutExtension() throws Exception {
+
+         <Buggy Line>: unclosed string literal
+        URI uri = URI.create("http:
+
+        try {
+            Assert.assertTrue(!uri.isAbsolute());
+            final String fileNameWithExtention = Paths.get(uri).getFileName().toString();
+            System.out.println("\nfileNameWithExtention : " + fileNameWithExtention + "\n\n");
+            final String expectedResult = "myFile";
+            final String actualResult = FileUtil.getNameWithoutSuffix(Paths.get("/" + fileNameWithExtention));
+            assertEquals(expectedResult, actualResult);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException("Invalid URL", e);
+        }
+    }
+    @Test
+    public void testGetNameWithoutExtension_withAbsolutePath() {
+        final String absoluteFilePath = "/home/user/documents/test.pdf";
+        final String result = FileUtil.getNameWithoutSuffix(Paths.get(absoluteFilePath));
+        assertNotEquals("", result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package cn.xdean.jex.io;
+import cn.xdean.jex.lang.ExceptionUtil;
+import org.junit.Assert;
+import org.junit.Ignore;
+import org.junit.Test;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
+public class TTT_testGetNameWithoutSuffix {
+    @Test
+    public void testGetNameWithoutExtension() throws Exception {
+
+         <Buggy Line>: unclosed string literal
+        URI uri = URI.create("http:
+
+        try {
+            Assert.assertTrue(!uri.isAbsolute());
+            final String fileNameWithExtention = Paths.get(uri).getFileName().toString();
+            System.out.println("\nfileNameWithExtention : " + fileNameWithExtention + "\n\n");
+            final String expectedResult = "myFile";
+            final String actualResult = FileUtil.getNameWithoutSuffix(Paths.get("/" + fileNameWithExtention));
+            assertEquals(expectedResult, actualResult);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException("Invalid URL", e);
+        }
+    }
+    @Test
+    public void testGetNameWithoutExtension_withAbsolutePath() {
+        final String absoluteFilePath = "/home/user/documents/test.pdf";
+        final String result = FileUtil.getNameWithoutSuffix(Paths.get(absoluteFilePath));
+        assertNotEquals("", result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

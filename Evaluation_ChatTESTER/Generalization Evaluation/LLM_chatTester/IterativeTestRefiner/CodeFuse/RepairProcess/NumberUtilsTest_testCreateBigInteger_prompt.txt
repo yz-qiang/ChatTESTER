@@ -1,0 +1,128 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.math;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import org.apache.commons.lang3.SystemUtils;
+import org.junit.Test;
+public class NumberUtilsTest_testCreateBigInteger {
+    @Test
+    public void testCreateBigInteger() throws Exception {
+        assertEquals(new BigInteger("12345"), NumberUtils.createBigInteger("12345"));
+        assertEquals(new BigInteger("-12345"), NumberUtils.createBigInteger("-12345"));
+        assertEquals(new BigInteger("79A"), NumberUtils.createBigInteger("0x79a"));
+        assertEquals(new BigInteger("79A"), NumberUtils.createBigInteger("#79a"));
+        assertEquals(new BigInteger("12345"), NumberUtils.createBigInteger("0o12345"));
+        try{
+            NumberUtils.createBigInteger("invalid");
+            fail("Expected IllegalArgumentException not thrown.");
+        } catch(NumberFormatException e){
+        }
+        try{
+            NumberUtils.createBigInteger("0xghi");
+            fail("Expected NumberFormatException not thrown.");
+        }catch(NumberFormatException e){
+        }
+        try{
+            NumberUtils.createBigInteger("0o89");
+            fail("Expected NumberFormatException not thrown.");
+        }catch(NumberFormatException e){
+        }
+
+      <Buggy Line>: cannot find symbol method "assertNull(java.math.BigInteger)" in NumberUtilsTest
+        assertNull(NumberUtils.createBigInteger(null));
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.math;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import org.apache.commons.lang3.SystemUtils;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.Assert;
+public class NumberUtilsTest_testCreateBigInteger {
+    @Test
+    public void testCreateBigInteger() throws Exception {
+        Assert.assertEquals(new BigInteger("12345"), NumberUtils.createBigInteger("12345"));
+        Assert.assertEquals(new BigInteger("-12345"), NumberUtils.createBigInteger("-12345"));
+
+<Error Line>
+        Assert.assertEquals(new BigInteger("79A"), NumberUtils.createBigInteger("0x79a"));
+
+        Assert.assertEquals(new BigInteger("79A"), NumberUtils.createBigInteger("#79a"));
+        Assert.assertEquals(new BigInteger("12345"), NumberUtils.createBigInteger("0o12345"));
+        try{
+            NumberUtils.createBigInteger("invalid");
+            fail("Expected IllegalArgumentException not thrown.");
+        } catch(NumberFormatException e){
+        }
+        try{
+            NumberUtils.createBigInteger("0xghi");
+            fail("Expected NumberFormatException not thrown.");
+        }catch(NumberFormatException e){
+        }
+        try{
+            NumberUtils.createBigInteger("0o89");
+            fail("Expected NumberFormatException not thrown.");
+        }catch(NumberFormatException e){
+        }
+        Assert.assertNull(NumberUtils.createBigInteger(null));
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static BigInteger createBigInteger(final String str) {
+    if (str == null) {
+        return null;
+    }
+    int pos = 0;
+    int radix = 10;
+    boolean negate = false;
+    if (str.startsWith("-")) {
+        negate = true;
+        pos = 1;
+    }
+    if (str.startsWith("0x", pos) || str.startsWith("0X", pos)) {
+        radix = 16;
+        pos += 2;
+    } else if (str.startsWith("#", pos)) {
+        radix = 16;
+        pos++;
+    } else if (str.startsWith("0", pos) && str.length() > pos + 1) {
+        radix = 8;
+        pos++;
+    }
+    final BigInteger value = new BigInteger(str.substring(pos), radix);
+    return negate ? value.negate() : value;
+}
+
+The test method throw an error " java.lang.NumberFormatException For input string: "79A" " in " Assert.assertEquals(new BigInteger("79A"), NumberUtils.createBigInteger("0x79a")); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

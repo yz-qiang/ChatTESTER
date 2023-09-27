@@ -1,0 +1,282 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+@Test
+public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+    Boolean[][] binArrays = {{true},
+                            {}, 
+                            {true, false, true}};
+    Byte expectedResult = null; 
+    Integer index = Math.abs((expectedResult ^ UUID.randomUUID().getLeastSignificantBits()) % binArrays.length);
+
+    <Buggy Line>: illegal start of expression
+    while (!binArrays[index].equals({})) {
+
+        expectedResult++; 
+        index = Math.abs((expectedResult ^ UUID.randomUUID().getLeastSignificantBits()) % binArrays.length);
+    };
+    System.err.println("\tExpected result:\t" + Arrays.toString(new byte[]{expectedResult}));
+  	for (Boolean[] arr : binArrays){
+      String strArr = ""; 
+      StringBuilder sbStr = new StringBuilder();
+      for (boolean boolVal : arr )
+          sbStr.append(boolVal).append(", ");
+      strArr += "[" +sbStr.substring(0, sbStr.lastIndexOf(",")) + "]"; 
+      System.err.println("\tInput Array:" +strArr );
+      try{
+        assertEquals("",Conversion.binaryToByte(arr,  0,   0b0000_0000,(short)(Math.random()*7), arr.length));
+        fail(""); 
+      }catch(IllegalArgumentException e ){
+        assertTrue(!e.getMessage().isEmpty());
+      } catch(AssertionError ae){
+        assertFalse(""==ae.getMessage(),!"".equals(ae.getMessage()));
+      }finally{}
+  }}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+    @Test
+    public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+        Boolean[][] binArrays = {{true}, {}, {true, false, true}};
+        Byte expectedResult = null;
+
+             <Buggy Line>: incompatible types: long cannot be converted to java.lang.Integer
+        Integer index = Math.abs((expectedResult ^ UUID.randomUUID().getLeastSignificantBits()) % binArrays.length);
+
+        while (!binArrays[index].isEmpty()) {
+            expectedResult++;
+            index = Math.abs((expectedResult ^ UUID.randomUUID().getLeastSignificantBits()) % binArrays.length);
+        }
+        System.err.println("\tExpected result:\t" + Arrays.toString(new byte[]{expectedResult}));
+        for (Boolean[] arr : binArrays) {
+            String strArr = "";
+            StringBuilder sbStr = new StringBuilder();
+            for (boolean boolVal : arr)
+                sbStr.append(boolVal).append(", ");
+            strArr += "[" + sbStr.substring(0, sbStr.lastIndexOf(",")) + "]";
+            System.err.println("\tInput Array:" + strArr);
+            try {
+                assertEquals("", Conversion.binaryToByte(arr, 0, 0b0000_0000, (short) (Math.random() * 7), arr.length));
+                fail("");
+            } catch (IllegalArgumentException e) {
+                assertTrue(!e.getMessage().isEmpty());
+            } catch (AssertionError ae) {
+                assertFalse("" == ae.getMessage(),!"".equals(ae.getMessage()));
+            } finally {
+            }
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+    @Test
+    public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+        Boolean[][] binArrays = {{true}, {}, {true, false, true}};
+        Byte expectedResult = null;
+        for (Boolean[] arr : binArrays) {
+            String strArr = "";
+            StringBuilder sbStr = new StringBuilder();
+            for (boolean boolVal : arr)
+                sbStr.append(boolVal).append(", ");
+            strArr += "[" + sbStr.substring(0, sbStr.lastIndexOf(",")) + "]";
+            System.err.println("\tInput Array:" + strArr);
+            try {
+
+                      <Buggy Line>: incompatible types: java.lang.Boolean[] cannot be converted to boolean[]
+                assertEquals("", Conversion.binaryToByte(arr, 0, 0b0000_0000, (short) (Math.random() * 7), arr.length));
+
+                fail("");
+            } catch (IllegalArgumentException e) {
+                assertTrue(!e.getMessage().isEmpty());
+            } catch (AssertionError ae) {
+                assertFalse("" == ae.getMessage(),!"".equals(ae.getMessage()));
+            } finally {
+            }
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+    @Test
+    public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+        Boolean[][] binArrays = {{true}, {}, {true, false, true}};
+        Byte expectedResult = null;
+        for (Boolean[] arr : binArrays) {
+            String strArr = "";
+            StringBuilder sbStr = new StringBuilder();
+            for (boolean boolVal : arr)
+                sbStr.append(boolVal).append(", ");
+            strArr += "[" + sbStr.substring(0, sbStr.lastIndexOf(",")) + "]";
+            System.err.println("\tInput Array:" + strArr);
+            try {
+
+                       <Buggy Line>: incompatible types: java.lang.Boolean[] cannot be converted to boolean[]
+                assertEquals("", Conversion.binaryToByte(arr, 0, (byte) 0b0000_0000, (short) (Math.random() * 7), arr.length));
+
+                fail("");
+            } catch (IllegalArgumentException e) {
+                assertTrue(!e.getMessage().isEmpty());
+            } catch (AssertionError ae) {
+                assertFalse("" == ae.getMessage(),!"".equals(ae.getMessage()));
+            } finally {
+            }
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+    @Test
+    public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+        Boolean[][] binArrays = {{true}, {}, {true, false, true}};
+        Byte expectedResult = null;
+        for (Boolean[] arr : binArrays) {
+            String strArr = "";
+            StringBuilder sbStr = new StringBuilder();
+            for (boolean boolVal : arr)
+                sbStr.append(boolVal).append(", ");
+            strArr += "[" + sbStr.substring(0, sbStr.lastIndexOf(",")) + "]";
+            System.err.println("\tInput Array:" + strArr);
+            try {
+
+                   <Buggy Line>: cannot find symbol variable "Arrays"
+                boolean[] boolArr = Arrays.stream(arr).map(b -> b.booleanValue()).toArray();
+
+                assertEquals("", Conversion.binaryToByte(boolArr, 0, (byte) 0b0000_0000, (short) (Math.random() * 7), boolArr.length));
+                fail("");
+            } catch (IllegalArgumentException e) {
+                assertTrue(!e.getMessage().isEmpty());
+            } catch (AssertionError ae) {
+                assertFalse("" == ae.getMessage(),!"".equals(ae.getMessage()));
+            } finally {
+            }
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToByte {
+    @Test
+    public void shouldConvertBinaryArrayIntoByteArrayCorrectly() throws Exception {
+        Boolean[][] binArrays = {{true}, {}, {true, false, true}};
+        Byte expectedResult = null;
+        for (Boolean[] arr : binArrays) {
+            String strArr = "";
+            StringBuilder sbStr = new StringBuilder();
+            for (boolean boolVal : arr)
+                sbStr.append(boolVal).append(", ");
+            strArr += "[" + sbStr.substring(0, sbStr.lastIndexOf(",")) + "]";
+            System.err.println("\tInput Array:" + strArr);
+            try {
+
+                   <Buggy Line>: cannot find symbol variable "Arrays"
+                boolean[] boolArr = Arrays.stream(arr).map(b -> b.booleanValue()).toArray();
+
+                assertEquals("", Conversion.binaryToByte(boolArr, 0, (byte) 0b0000_0000, (short) (Math.random() * 7), boolArr.length));
+                fail("");
+            } catch (IllegalArgumentException e) {
+                assertTrue(!e.getMessage().isEmpty());
+            } catch (AssertionError ae) {
+                assertFalse("" == ae.getMessage(),!"".equals(ae.getMessage()));
+            } finally {
+            }
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

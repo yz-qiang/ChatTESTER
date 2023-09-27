@@ -1,0 +1,264 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public @Test 
+
+  <Buggy Line>: class, interface, or enum expected
+void shouldSyncValue() throws Exception {
+
+    final Object lock = new Object();
+    class TestableChangeStack_testSync extends ChangeStack<Object> {
+        public volatile int numWaitingThreads = -1;
+        @Override
+        protected void _synced() {
+            super._synced();
+            synchronized (lock) {
+                ++numWaitingThreads;
+                try {
+                    while (!isSynchronized())
+                        wait();
+                    notifyAll();
+                } catch (InterruptedException e) {} finally {
+                    --numWaitingThreads;
+                }
+            }
+        }
+        private boolean isSynchronized() {
+            Thread currentThread = Thread.currentThread();
+            StackTraceElement[] traceElements = currentThread.getStackTrace();
+            String className = getClass().getName();
+            for (int i=0 ; i < traceElements.length &&!className.equals(traceElements[i].getClassName()); i++) 
+                continue;
+            return!(++i >= traceElements.length ||
+                     getMethodDepth("shouldSyncValue", traceElements)<getMethodDepth("wait", traceElements)); 
+        }
+        private static int getMethodDepth(String methodName, StackTraceElement traces) {
+            List<Integer> depths = Arrays.stream(traces).filter((t)->methodName.equals(t.getMethodName())).mapToInt(StackTraceElement::getLineNumber).boxed().collect(Collectors.toList());
+            Collections.sort(depths);
+            assert(!depths.isEmpty()):"No "+methodName+" found";
+            return depths.get(0)-2;    
+        }
+    };
+    TestableChangeStack_testSync cstack = new TestableChangeStack_testSync("");
+    Assert.assertTrue(cstack.sync("foo"));     
+    Assert.assertEquals("", cstack.pop());      
+    Assert.assertFalse(cstack.empty());         
+   additional assertions here as needed
+   assertTrue(cstack.getNumWaitingThreads()==0):
+           "Expected zero waiting threads but got "+cstack.getNumWaitingThreads()+" instead.";
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TestableChangeStack_testSync {
+
+  <Buggy Line>: type ChangeStackTest does not take parameters
+TestableChangeStack_testSync cstack = new TestableChangeStack_testSync<Object>("");
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TestableChangeStack_testSync {
+    private ChangeStack<Object> cstack;
+    @Before
+    public void setUp() {
+
+         <Buggy Line>: diamond operator is not supported in -source 1.6
+        cstack = new ChangeStack<>();
+
+    }
+    @Test
+    public void testPush() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testPop() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.pop());
+        Assert.assertEquals("two", cstack.pop());
+        Assert.assertEquals("one", cstack.pop());
+        Assert.assertEquals(0, cstack.size());
+    }
+    @Test
+    public void testPeek() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.peek());
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testIsEmpty() {
+        Assert.assertTrue(cstack.isEmpty());
+        cstack.push("one");
+        Assert.assertFalse(cstack.isEmpty());
+    }
+    @Test
+    public void testClear() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        cstack.clear();
+        Assert.assertEquals(0, cstack.size());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TestableChangeStack_testSync {
+    private ChangeStack<Object> cstack;
+    @Before
+    public void setUp() {
+
+         <Buggy Line>: diamond operator is not supported in -source 1.6
+        cstack = new ChangeStack<>(Comparator.naturalOrder());
+
+    }
+    @Test
+    public void testPush() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testPop() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.pop());
+        Assert.assertEquals("two", cstack.pop());
+        Assert.assertEquals("one", cstack.pop());
+        Assert.assertEquals(0, cstack.size());
+    }
+    @Test
+    public void testPeek() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.peek());
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testIsEmpty() {
+        Assert.assertTrue(cstack.isEmpty());
+        cstack.push("one");
+        Assert.assertFalse(cstack.isEmpty());
+    }
+    @Test
+    public void testClear() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        cstack.clear();
+        Assert.assertEquals(0, cstack.size());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TestableChangeStack_testSync {
+    private ChangeStack<Object> cstack;
+    @Before
+    public void setUp() {
+
+         <Buggy Line>: cannot find symbol
+        cstack = new ChangeStack<Object>(Comparator.naturalOrder());
+
+    }
+    @Test
+    public void testPush() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testPop() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.pop());
+        Assert.assertEquals("two", cstack.pop());
+        Assert.assertEquals("one", cstack.pop());
+        Assert.assertEquals(0, cstack.size());
+    }
+    @Test
+    public void testPeek() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        Assert.assertEquals("three", cstack.peek());
+        Assert.assertEquals(3, cstack.size());
+    }
+    @Test
+    public void testIsEmpty() {
+        Assert.assertTrue(cstack.isEmpty());
+        cstack.push("one");
+        Assert.assertFalse(cstack.isEmpty());
+    }
+    @Test
+    public void testClear() {
+        cstack.push("one");
+        cstack.push("two");
+        cstack.push("three");
+        cstack.clear();
+        Assert.assertEquals(0, cstack.size());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,225 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testHexToShort
+[GENERATED PATH] HexToShortConversionTests_testHexToShort.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreakerTest.java:[329,20] cannot access org.apache.commons.lang3.concurrent.AbstractCircuitBreaker
+  class file for org.apache.commons.lang3.concurrent.AbstractCircuitBreaker not found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[604,18] cannot access org.apache.commons.lang3.mutable.Mutable
+  class file for org.apache.commons.lang3.mutable.Mutable not found
+[ERROR] Annotation generator had thrown the exception. com.sun.tools.javac.code.Symbol$CompletionFailure: class file for org.apache.commons.lang3.builder.ToStringStyle$SimpleToStringStyle not found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java:[33,13] cannot find symbol
+  symbol:   class Computable
+  location: class org.apache.commons.lang3.concurrent.MemoizerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java:[27,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/AbstractExceptionContextTest.java:[34,38] cannot find symbol
+  symbol:   class Pair
+  location: package org.apache.commons.lang3.tuple
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[39,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[1651,18] cannot find symbol
+  symbol:   class StrMatcher
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/ContextedExceptionTest.java:[25,32] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[64,5] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[68,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[72,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[76,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[89,15] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[219,119] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[379,104] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[386,84] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerTest.java:[50,13] cannot find symbol
+  symbol:   class LazyInitializer
+  location: class org.apache.commons.lang3.concurrent.LazyInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java:[29,51] cannot find symbol
+  symbol:   class Diffable
+  location: class org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java:[53,16] cannot find symbol
+  symbol:   class DiffResult
+  location: class org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.TypeTestClass
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateFormat_ParserTest.java:[30,15] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java:[36,49] cannot find symbol
+  symbol:   class Diffable
+  location: class org.apache.commons.lang3.builder.DiffResultTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java:[48,16] cannot find symbol
+  symbol:   class DiffResult
+  location: class org.apache.commons.lang3.builder.DiffResultTest.SimpleClass
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/test/SystemDefaultsSwitchTest.java:[24,37] cannot find symbol
+  symbol:   class FastTimeZone
+  location: package org.apache.commons.lang3.time
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/StringUtilsTest.java:[41,37] cannot find symbol
+  symbol:   class WordUtils
+  location: package org.apache.commons.lang3.text
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[40,37] cannot find symbol
+  symbol:   class StrBuilder
+  location: package org.apache.commons.lang3.text
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java:[30,15] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[52,5] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[56,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[60,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[64,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[75,15] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java:[35,47] cannot find symbol
+  symbol:   class CharSequenceTranslator
+  location: package org.apache.commons.lang3.text.translate
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java:[58,5] cannot find symbol
+  symbol:   class FastDateFormat
+  location: class org.apache.commons.lang3.time.DateUtilsRoundingTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrTokenizerTest.java:[33,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrTokenizerTest.java:[45,35] cannot find symbol
+  symbol:   class StrTokenizer
+  location: class org.apache.commons.lang3.text.StrTokenizerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrTokenizerTest.java:[538,26] cannot find symbol
+  symbol:   class StrTokenizer
+  location: class org.apache.commons.lang3.text.StrTokenizerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrTokenizerTest.java:[779,27] cannot find symbol
+  symbol:   class StrTokenizer
+  location: class org.apache.commons.lang3.text.StrTokenizerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffTest.java:[30,26] cannot find symbol
+  symbol:   class Diff
+  location: class org.apache.commons.lang3.builder.DiffTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffTest.java:[32,46] cannot find symbol
+  symbol:   class Diff
+  location: class org.apache.commons.lang3.builder.DiffTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java:[26,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java:[38,51] cannot find symbol
+  symbol:   class Diffable
+  location: class org.apache.commons.lang3.builder.DiffBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java:[60,16] cannot find symbol
+  symbol:   class DiffResult
+  location: class org.apache.commons.lang3.builder.DiffBuilderTest.TypeTestClass
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java:[69,13] cannot find symbol
+  symbol:   class AtomicSafeInitializer
+  location: class org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[48,31] cannot find symbol
+  symbol:   class FormatFactory
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[439,60] cannot find symbol
+  symbol:   class FormatFactory
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[450,60] cannot find symbol
+  symbol:   class FormatFactory
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[461,68] cannot find symbol
+  symbol:   class FormatFactory
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[475,61] cannot find symbol
+  symbol:   class ExtendedMessageFormat
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java:[479,45] cannot find symbol
+  symbol:   class FormatFactory
+  location: class org.apache.commons.lang3.text.ExtendedMessageFormatTest.OtherExtendedMessageFormat
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[41,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[52,38] cannot find symbol
+  symbol:   class ImmutablePair
+  location: package org.apache.commons.lang3.tuple
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[277,16] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[281,16] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[285,23] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[289,23] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[293,34] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[293,75] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[298,34] cannot find symbol
+  symbol:   class ImmutablePair
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java:[305,49] cannot find symbol
+  symbol:   class Mutable
+  location: class org.apache.commons.lang3.reflect.MethodUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[40,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[41,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[42,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[44,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[45,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[46,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[47,13] cannot find symbol
+  symbol:   class Range
+  location: class org.apache.commons.lang3.RangeTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java:[25,32] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/ConstructorUtilsTest.java:[31,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java:[19,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/CircuitBreakingExceptionTest.java:[32,22] cannot find symbol
+  symbol:   class CircuitBreakingException
+  location: class org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/CircuitBreakingExceptionTest.java:[37,22] cannot find symbol
+  symbol:   class CircuitBreakingException
+  location: class org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/CircuitBreakingExceptionTest.java:[42,22] cannot find symbol
+  symbol:   class CircuitBreakingException
+  location: class org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/CircuitBreakingExceptionTest.java:[47,22] cannot find symbol
+  symbol:   class CircuitBreakingException
+  location: class org.apache.commons.lang3.concurrent.CircuitBreakingExceptionTest
+[INFO] 74 errors 
+####################
+

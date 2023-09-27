@@ -1,0 +1,300 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+@Test
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+
+<Error Line>
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Calendar round(final Calendar date, final int field) {
+    if (date == null) {
+        throw new IllegalArgumentException("The date must not be null");
+    }
+    final Calendar rounded = (Calendar) date.clone();
+    modify(rounded, field, ModifyType.ROUND);
+    return rounded;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+
+<Buggy Line>: invalid method declaration; return type required
+@Test
+
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+@Test
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+
+<Error Line>
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Calendar round(final Calendar date, final int field) {
+    if (date == null) {
+        throw new IllegalArgumentException("The date must not be null");
+    }
+    final Calendar rounded = (Calendar) date.clone();
+    modify(rounded, field, ModifyType.ROUND);
+    return rounded;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+
+<Buggy Line>: invalid method declaration; return type required
+@Test
+
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+@Test
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+
+<Error Line>
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Calendar round(final Calendar date, final int field) {
+    if (date == null) {
+        throw new IllegalArgumentException("The date must not be null");
+    }
+    final Calendar rounded = (Calendar) date.clone();
+    modify(rounded, field, ModifyType.ROUND);
+    return rounded;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+5-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Iterator;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.TimeZone;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Rule;
+import org.junit.Test;
+public class TTT_testRound {
+
+<Buggy Line>: invalid method declaration; return type required
+@Test
+
+public void testRound() throws ParseException {
+    GregorianCalendar cal = new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34, 56);
+    Calendar roundedCal = DateUtils.round(cal, Calendar.MINUTE);
+    assertEquals(new GregorianCalendar(2023, Calendar.JANUARY, 15, 12, 34), roundedCal);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

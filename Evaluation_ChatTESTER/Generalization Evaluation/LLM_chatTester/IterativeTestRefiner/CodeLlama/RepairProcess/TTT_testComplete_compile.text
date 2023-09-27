@@ -1,0 +1,30 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest###testComplete
+[GENERATED PATH] TTT_testComplete.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[37,16] cannot find symbol
+  symbol:   method thenAcceptAsync(java.util.function.Consumer)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[38,16] cannot find symbol
+  symbol:   method thenApplyAsync(java.util.function.Supplier)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[39,16] cannot find symbol
+  symbol:   method thenComposeAsync(java.util.function.Function)
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[45,18] cannot find symbol
+  symbol:   variable COMPLETED
+  location: class eu.toolchain.concurrent.ConcurrentCompletableTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[45,40] cannot find symbol
+  symbol:   method state()
+  location: variable completable of type eu.toolchain.concurrent.ConcurrentCompletable
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[46,30] method result in class eu.toolchain.concurrent.ConcurrentCompletable<T> cannot be applied to given types;
+  required: java.lang.Object
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentCompletableTest.java:[47,45] method result in class eu.toolchain.concurrent.ConcurrentCompletable<T> cannot be applied to given types;
+  required: java.lang.Object
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[INFO] 7 errors 
+####################
+

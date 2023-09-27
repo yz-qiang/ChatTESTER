@@ -1,0 +1,168 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+    List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+
+      <Buggy Line>: diamond operator is not supported in -source 1.6
+    ChangeStack<Integer> stack = new ChangeStack<>(list);
+
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+
+         <Buggy Line>: cannot find symbol
+    List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+
+    ChangeStack<Integer> stack = new ChangeStack<Integer>(list);
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+
+          <Buggy Line>: cannot find symbol
+    List<Integer> list = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5));
+
+    ChangeStack<Integer> stack = new ChangeStack<Integer>(list);
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+
+          <Buggy Line>: cannot find symbol
+    List<Integer> list = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5).toList());
+
+    ChangeStack<Integer> stack = new ChangeStack<Integer>(list);
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+
+         <Buggy Line>: cannot find symbol
+    List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+
+    ChangeStack<Integer> stack = new ChangeStack<Integer>(list);
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class TTT_testSync {
+@Test
+public void testSync() {
+
+          <Buggy Line>: cannot find symbol
+    List<Integer> list = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5));
+
+    ChangeStack<Integer> stack = new ChangeStack<Integer>(list);
+    Integer newValue = 6;
+    Assert.assertTrue("New value was added successfully", stack.sync(newValue));
+    Assert.assertEquals("New value is now the most recent addition", newValue, stack.peek());
+    Assert.assertArrayEquals("Other elements were shifted down by one position",
+            Arrays.asList(1, 2, 3, 4), stack.toList().subList(0, 4));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

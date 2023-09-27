@@ -1,0 +1,86 @@
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest###testGenerate
+[GENERATED PATH] TokenGenerateTest_testGenerate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[22,2] cannot find symbol
+  symbol: class RunWith
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[24,6] cannot find symbol
+  symbol:   class Mock
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[26,6] cannot find symbol
+  symbol:   class Mock
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[28,6] cannot find symbol
+  symbol:   class InjectMocks
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[32,24] no suitable method found for nextBytes(no arguments)
+    method java.util.Random.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.security.SecureRandom.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,30] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[33,37] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,27] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,34] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,41] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[34,48] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[36,9] cannot find symbol
+  symbol:   method assertNotNull(com.macasaet.fernet.Token)
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[37,22] cannot find symbol
+  symbol:   variable supportedVersion
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[45,24] no suitable method found for nextBytes(no arguments)
+    method java.util.Random.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.security.SecureRandom.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[50,24] no suitable method found for nextBytes(no arguments)
+    method java.util.Random.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.security.SecureRandom.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[51,30] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[51,37] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[56,24] no suitable method found for nextBytes(no arguments)
+    method java.util.Random.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.security.SecureRandom.nextBytes(byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[57,30] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[57,37] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[58,27] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[58,34] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[58,41] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/TokenTest.java:[58,48] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.TokenTest
+[INFO] 24 errors 
+####################
+

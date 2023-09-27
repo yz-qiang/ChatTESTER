@@ -1,0 +1,172 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Comparator;
+import org.junit.Before;
+import org.junit.Test;
+public class RangeHashCodeTest_testHashCode {
+    @Test
+    public void testHashCode_sameMinMax() {
+        Integer min = 5;
+        Integer max = 5;
+
+           <Buggy Line>: cannot infer type arguments for org.apache.commons.lang3.Range<>
+        Range<Integer> range = new Range<>(min, max);
+
+        assertEquals(range.hashCode(), range.hashCode());
+    }
+    @Test
+    public void testHashCode_differentMinMax() {
+        Integer min = 5;
+        Integer max = 6;
+        Range<Integer> range = new Range<>(min, max);
+        assertNotEquals(range.hashCode(), range.hashCode());
+    }
+    @Test
+    public void testHashCode_nullMinMax() {
+        Integer min = null;
+        Integer max = null;
+        try {
+            new Range<>(min, max);
+            fail("Expected exception");
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Comparator;
+import org.junit.Before;
+import org.junit.Test;
+public class RangeHashCodeTest_testHashCode {
+@Test
+public void testHashCode_sameMinMax() {
+    Integer min = 5;
+    Integer max = 5;
+
+       <Buggy Line>: cannot infer type arguments for org.apache.commons.lang3.Range<>
+    Range<Integer> range = new Range<>(min, max);
+
+    assertEquals(range.hashCode(), range.hashCode());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Comparator;
+import org.junit.Before;
+import org.junit.Test;
+public class RangeHashCodeTest_testHashCode {
+@Test
+public void testHashCode_sameMinMax() {
+    Integer min = 5;
+    Integer max = 5;
+
+       <Buggy Line>: cannot infer type arguments for org.apache.commons.lang3.Range<>
+    Range<Integer> range = new Range<>(min, max);
+
+    assertEquals(range.hashCode(), range.hashCode());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Comparator;
+import org.junit.Before;
+import org.junit.Test;
+public class RangeHashCodeTest_testHashCode {
+@Test
+public void testHashCode_sameMinMax() {
+    Integer min = 5;
+    Integer max = 5;
+
+       <Buggy Line>: cannot infer type arguments for org.apache.commons.lang3.Range<>
+    Range<Integer> range = new Range<>(min, max);
+
+    assertEquals(range.hashCode(), range.hashCode());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.util.Comparator;
+import org.junit.Before;
+import org.junit.Test;
+public class RangeHashCodeTest_testHashCode {
+@Test
+public void testHashCode_sameMinMax() {
+    Integer min = 5;
+    Integer max = 5;
+
+       <Buggy Line>: cannot infer type arguments for org.apache.commons.lang3.Range<>
+    Range<Integer> range = new Range<>(min, max);
+
+    assertEquals(range.hashCode(), range.hashCode());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

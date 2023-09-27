@@ -1,0 +1,308 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+public class LongDoubleSortedMapTest_testRemove {
+    private LongDoubleSortedMap ldsm;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp(){
+        ldsm = new LongDoubleSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        ldsm.put(1L, 3.5);
+        ldsm.put(2L, 4.6);
+        ldsm.put(3L, 7.8);
+        ldsm.put(4L, 9.0);
+        ldsm.remove(2L);
+        assertFalse(ldsm.containsKey(2L));
+        assertEquals(2, ldsm.size());
+        Iterator<Pair<Long, Double>> iter = ldsm.entrySet().iterator();
+        while(iter.hasNext()) {
+            Pair<Long, Double> entry = iter.next();
+            assertNotNull(entry);
+            switch((long)entry.key){
+                case 1L :
+                    assertEquals(new Double(3.5), entry.value);
+                    break;
+                case 3L :
+                    assertEquals(new Double(7.8), entry.value);
+                    break;
+                case 4L :
+                    assertEquals(new Double(9.0), entry.value);
+                    break;
+                default: fail("Unexpected element found in map.");
+            }
+        }
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        ldsm.remove(5L);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+import edu.jhu.prim.map.LongDoubleSortedMap;
+import edu.jhu.prim.Primitives;
+
+<Buggy Line>: cannot find symbol class "Pair"
+import edu.jhu.prim.Pair;
+
+import java.util.Map;
+import java.util.Map.Entry;
+public class LongDoubleSortedMapTest_testRemove {
+    private LongDoubleSortedMap ldsm;
+    @Before
+    public void setUp(){
+        ldsm = new LongDoubleSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        ldsm.put(1L, 3.5);
+        ldsm.put(2L, 4.6);
+        ldsm.put(3L, 7.8);
+        ldsm.put(4L, 9.0);
+        ldsm.remove(2L);
+        assertFalse(ldsm.containsKey(2L));
+        assertEquals(2, ldsm.size());
+        Iterator<Entry<Long, Double>> iter = ldsm.entrySet().iterator();
+        while(iter.hasNext()) {
+            Entry<Long, Double> entry = iter.next();
+            assertNotNull(entry);
+            switch((long)entry.getKey()){
+                case 1L :
+                    assertEquals(new Double(3.5), entry.getValue());
+                    break;
+                case 3L :
+                    assertEquals(new Double(7.8), entry.getValue());
+                    break;
+                case 4L :
+                    assertEquals(new Double(9.0), entry.getValue());
+                    break;
+                default: fail("Unexpected element found in map.");
+            }
+        }
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        ldsm.remove(5L);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+import edu.jhu.prim.map.LongDoubleSortedMap;
+import edu.jhu.prim.Primitives;
+
+<Buggy Line>: cannot find symbol class "Pair"
+import edu.jhu.prim.Pair;
+
+import java.util.Map;
+import java.util.Map.Entry;
+public class LongDoubleSortedMapTest_testRemove {
+    private LongDoubleSortedMap ldsm;
+    @Before
+    public void setUp(){
+        ldsm = new LongDoubleSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        ldsm.put(1L, 3.5);
+        ldsm.put(2L, 4.6);
+        ldsm.put(3L, 7.8);
+        ldsm.put(4L, 9.0);
+        ldsm.remove(2L);
+        assertFalse(ldsm.containsKey(2L));
+        assertEquals(2, ldsm.size());
+        Iterator<Entry<Long, Double>> iter = ldsm.entrySet().iterator();
+        while(iter.hasNext()) {
+            Entry<Long, Double> entry = iter.next();
+            assertNotNull(entry);
+            switch((long)entry.getKey()){
+                case 1L :
+                    assertEquals(new Double(3.5), entry.getValue());
+                    break;
+                case 3L :
+                    assertEquals(new Double(7.8), entry.getValue());
+                    break;
+                case 4L :
+                    assertEquals(new Double(9.0), entry.getValue());
+                    break;
+                default: fail("Unexpected element found in map.");
+            }
+        }
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        ldsm.remove(5L);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+import edu.jhu.prim.map.LongDoubleSortedMap;
+import edu.jhu.prim.Primitives;
+
+<Buggy Line>: cannot find symbol class "Pair"
+import edu.jhu.prim.Pair;
+
+import java.util.Map;
+import java.util.Map.Entry;
+public class LongDoubleSortedMapTest_testRemove {
+    private LongDoubleSortedMap ldsm;
+    @Before
+    public void setUp(){
+        ldsm = new LongDoubleSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        ldsm.put(1L, 3.5);
+        ldsm.put(2L, 4.6);
+        ldsm.put(3L, 7.8);
+        ldsm.put(4L, 9.0);
+        ldsm.remove(2L);
+        assertFalse(ldsm.containsKey(2L));
+        assertEquals(2, ldsm.size());
+        Iterator<Entry<Long, Double>> iter = ldsm.entrySet().iterator();
+        while(iter.hasNext()) {
+            Entry<Long, Double> entry = iter.next();
+            assertNotNull(entry);
+            switch((long)entry.getKey()){
+                case 1L :
+                    assertEquals(new Double(3.5), entry.getValue());
+                    break;
+                case 3L :
+                    assertEquals(new Double(7.8), entry.getValue());
+                    break;
+                case 4L :
+                    assertEquals(new Double(9.0), entry.getValue());
+                    break;
+                default: fail("Unexpected element found in map.");
+            }
+        }
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        ldsm.remove(5L);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.assertEquals;
+import java.util.Iterator;
+import org.junit.Test;
+import org.junit.Before;
+import org.junit.Assert;
+import edu.jhu.prim.map.LongDoubleSortedMap;
+import edu.jhu.prim.Primitives;
+
+<Buggy Line>: cannot find symbol class "Pair"
+import edu.jhu.prim.Pair;
+
+import java.util.Map;
+import java.util.Map.Entry;
+public class LongDoubleSortedMapTest_testRemove {
+    private LongDoubleSortedMap ldsm;
+    @Before
+    public void setUp(){
+        ldsm = new LongDoubleSortedMap();
+    }
+    @Test
+    public void testRemoveExistingElement() {
+        ldsm.put(1L, 3.5);
+        ldsm.put(2L, 4.6);
+        ldsm.put(3L, 7.8);
+        ldsm.put(4L, 9.0);
+        ldsm.remove(2L);
+        assertFalse(ldsm.containsKey(2L));
+        assertEquals(2, ldsm.size());
+        Iterator<Entry<Long, Double>> iter = ldsm.entrySet().iterator();
+        while(iter.hasNext()) {
+            Entry<Long, Double> entry = iter.next();
+            assertNotNull(entry);
+            switch((long)entry.getKey()){
+                case 1L :
+                    assertEquals(new Double(3.5), entry.getValue());
+                    break;
+                case 3L :
+                    assertEquals(new Double(7.8), entry.getValue());
+                    break;
+                case 4L :
+                    assertEquals(new Double(9.0), entry.getValue());
+                    break;
+                default: fail("Unexpected element found in map.");
+            }
+        }
+    }
+    @Test(expected=IllegalArgumentException.class)
+    public void testRemoveNonExistentElement() {
+        ldsm.remove(5L);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

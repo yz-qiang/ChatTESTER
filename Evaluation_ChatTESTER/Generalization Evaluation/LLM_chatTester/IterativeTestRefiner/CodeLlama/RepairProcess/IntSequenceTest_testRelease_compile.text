@@ -1,0 +1,32 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest###testRelease
+[GENERATED PATH] IntSequenceTest_testRelease.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[9,27] IntSequence(int,int) has private access in cn.xdean.jex.lang.collection.sequence.IntSequence
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[11,22] cannot find symbol
+  symbol:   variable IntList
+  location: class cn.xdean.jex.lang.collection.sequence.IntSequenceTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[11,40] cannot find symbol
+  symbol:   method getReleased()
+  location: variable seq of type cn.xdean.jex.lang.collection.sequence.IntSequence
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[13,22] cannot find symbol
+  symbol:   variable IntList
+  location: class cn.xdean.jex.lang.collection.sequence.IntSequenceTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[13,42] cannot find symbol
+  symbol:   method getReleased()
+  location: variable seq of type cn.xdean.jex.lang.collection.sequence.IntSequence
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[15,22] cannot find symbol
+  symbol:   variable IntList
+  location: class cn.xdean.jex.lang.collection.sequence.IntSequenceTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[15,42] cannot find symbol
+  symbol:   method getReleased()
+  location: variable seq of type cn.xdean.jex.lang.collection.sequence.IntSequence
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[17,22] cannot find symbol
+  symbol:   variable IntList
+  location: class cn.xdean.jex.lang.collection.sequence.IntSequenceTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/collection/sequence/IntSequenceTest.java:[17,42] cannot find symbol
+  symbol:   method getReleased()
+  location: variable seq of type cn.xdean.jex.lang.collection.sequence.IntSequence
+[INFO] 9 errors 
+####################
+

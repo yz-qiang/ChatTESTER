@@ -1,0 +1,218 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[20,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testHashCode
+[GENERATED PATH] TestIntIntHashmap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[10,24] cannot find symbol
+  symbol:   class IntIntIntHashMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[11,24] cannot find symbol
+  symbol:   class IntIntIntMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[17,15] edu.jhu.prim.map.IntIntMap is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[23,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[25,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 6 errors 
+####################
+

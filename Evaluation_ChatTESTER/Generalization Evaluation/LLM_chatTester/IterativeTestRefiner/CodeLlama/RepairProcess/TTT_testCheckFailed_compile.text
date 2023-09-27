@@ -1,0 +1,234 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,20] cannot find symbol
+  symbol: variable count
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[36,13] cannot find symbol
+  symbol: variable count
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[29,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[40,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[41,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[42,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[44,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 7 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[29,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[41,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[42,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[43,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[45,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[29,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[41,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[42,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[43,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[45,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest###testCheckFailed
+[GENERATED PATH] TTT_testCheckFailed.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[30,5] cannot find symbol
+  symbol:   method when(java.util.Iterator<eu.toolchain.concurrent.Stage<?>>)
+  location: class eu.toolchain.concurrent.CollectHelperTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[31,30] cannot find symbol
+  symbol:   method cancel()
+  location: interface java.util.List<eu.toolchain.concurrent.Stage<?>>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[32,32] constructor CollectHelper in class eu.toolchain.concurrent.CollectHelper<T,U> cannot be applied to given types;
+  required: int,java.util.function.Function,java.util.Collection,eu.toolchain.concurrent.Completable
+  found: int,<nulltype>,java.util.List<eu.toolchain.concurrent.Stage<?>>
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[33,11] cannot find symbol
+  symbol:   method setFailed(boolean)
+  location: variable helper of type eu.toolchain.concurrent.CollectHelper
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CollectHelperTest.java:[35,32] cannot find symbol
+  symbol:   method cancel()
+  location: class eu.toolchain.concurrent.CollectHelper
+[INFO] 5 errors 
+####################
+

@@ -1,0 +1,181 @@
+0-->1-->0-->compileRepair
+// Test Method
+package nl.pvanassen.ns.model.stations;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+public class TestClass_testGetModel {
+    @Test
+
+         <Buggy Line>: cannot find symbol class "ParserConfigurationException"
+    public void testGetModel() throws ParserConfigurationException, SAXException, IOException {
+
+        byte[] xmlData = "<Stations>" +
+                      "   <Station>" +
+                      "       <Code>AMS</Code>" +
+                      "       <Type>Main</Type>" +
+                      "       <Namen><Kort>Amsterdam</Kort></Namen>" +
+                      "       <Namen><Middel>Amsterdam Centraal</Middel></Namen>" +
+                      "       <Namen><Lang>Amsterdam Central Station</Lang></Namen>" +
+                      "       <Land>NL</Land>" +
+                      "       <UICCode>840001265</UICCode>" +
+                      "       <Lat>52.37916667</Lat>" +
+                      "       <Lon>4.8916667</Lon>" +
+                      "       <Synoniemen>" +
+                      "           <Synoniem>Central Station Amsterdam</Synoniem>" +
+                      "           <Synoniem>CS</Synoniem>" +
+                      "       </Synoniemen>" +
+                      "</Station>" +
+                      "</Stations>";
+        InputStream stream = new ByteArrayInputStream(xmlData);
+        Stations result = StationsHandle.getModel(stream);
+        assertNotNull(result);
+        assertFalse(result.isEmpty());
+        assertTrue(result.containsKey("AMS"));
+        assertEquals("Main", result.get("AMS").getType());
+        assertEquals("Amsterdam", result.get("AMS").getName().getShortName());
+        assertEquals("Amsterdam Centraal", result.get("AMS").getName().getMediumName());
+        assertEquals("Amsterdam Central Station", result.get("AMS").getName().getLongName());
+        assertEquals("NL", result.get("AMS").getCountry());
+        assertEquals(840001265, result.get("AMS").getUICCode());
+        assertEquals(52.37916667, result.get("AMS").getLatitude(), 0.000001);
+        assertEquals(4.8916667, result.get("AMS").getLongitude(), 0.00001);
+        assertEquals(2, result.get("AMS").getSynonyms().size());
+        assertEquals("Central Station Amsterdam", result.get("AMS").getSynonyms().get(0));
+        assertEquals("CS", result.get("AMS").getSynonyms().get(1));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package nl.pvanassen.ns.model.stations;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import org.xml.sax.SAXException;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+public class TestClass_testGetModel {
+    @Test
+    public void testGetModel() throws ParserConfigurationException, SAXException, IOException {
+
+          <Buggy Line>: incompatible types: java.lang.String cannot be converted to byte[]
+        byte[] xmlData = "<Stations>" +
+
+                      "   <Station>" +
+                      "       <Code>AMS</Code>" +
+                      "       <Type>Main</Type>" +
+                      "       <Namen><Kort>Amsterdam</Kort></Namen>" +
+                      "       <Namen><Middel>Amsterdam Centraal</Middel></Namen>" +
+                      "       <Namen><Lang>Amsterdam Central Station</Lang></Namen>" +
+                      "       <Land>NL</Land>" +
+                      "       <UICCode>840001265</UICCode>" +
+                      "       <Lat>52.37916667</Lat>" +
+                      "       <Lon>4.8916667</Lon>" +
+                      "       <Synoniemen>" +
+                      "           <Synoniem>Central Station Amsterdam</Synoniem>" +
+                      "           <Synoniem>CS</Synoniem>" +
+                      "       </Synoniemen>" +
+                      "</Station>" +
+                      "</Stations>";
+        InputStream stream = new ByteArrayInputStream(xmlData);
+        Stations result = StationsHandle.getModel(stream);
+        assertNotNull(result);
+        assertFalse(result.isEmpty());
+        assertTrue(result.containsKey("AMS"));
+        assertEquals("Main", result.get("AMS").getType());
+        assertEquals("Amsterdam", result.get("AMS").getName().getShortName());
+        assertEquals("Amsterdam Centraal", result.get("AMS").getName().getMediumName());
+        assertEquals("Amsterdam Central Station", result.get("AMS").getName().getLongName());
+        assertEquals("NL", result.get("AMS").getCountry());
+        assertEquals(840001265, result.get("AMS").getUICCode());
+        assertEquals(52.37916667, result.get("AMS").getLatitude(), 0.00001);
+        assertEquals(4.8916667, result.get("AMS").getLongitude(), 0.00001);
+        assertEquals(2, result.get("AMS").getSynonyms().size());
+        assertEquals("Central Station Amsterdam", result.get("AMS").getSynonyms().get(0));
+        assertEquals("CS", result.get("AMS").getSynonyms().get(1));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package nl.pvanassen.ns.model.stations;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
+import org.xml.sax.SAXException;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import org.junit.Assert;
+import java.nio.charset.StandardCharsets;
+public class TestClass_testGetModel {
+    @Test
+    public void testGetModel() throws ParserConfigurationException, SAXException, IOException {
+        String xmlData = "<Stations>" +
+                      "   <Station>" +
+                      "       <Code>AMS</Code>" +
+                      "       <Type>Main</Type>" +
+                      "       <Namen><Kort>Amsterdam</Kort></Namen>" +
+                      "       <Namen><Middel>Amsterdam Centraal</Middel></Namen>" +
+                      "       <Namen><Lang>Amsterdam Central Station</Lang></Namen>" +
+                      "       <Land>NL</Land>" +
+                      "       <UICCode>840001265</UICCode>" +
+                      "       <Lat>52.37916667</Lat>" +
+                      "       <Lon>4.8916667</Lon>" +
+                      "       <Synoniemen>" +
+                      "           <Synoniem>Central Station Amsterdam</Synoniem>" +
+                      "           <Synoniem>CS</Synoniem>" +
+                      "       </Synoniemen>" +
+                      "</Station>" +
+                      "</Stations>";
+        byte[] xmlDataBytes = xmlData.getBytes(StandardCharsets.UTF_8);
+        InputStream stream = new ByteArrayInputStream(xmlDataBytes);
+
+         <Buggy Line>: non-static method getModel(java.io.InputStream) cannot be referenced from a static context
+        Stations result = StationsHandle.getModel(stream);
+
+        Assert.assertNotNull(result);
+        Assert.assertFalse(result.isEmpty());
+        Assert.assertTrue(result.containsKey("AMS"));
+        Assert.assertEquals("Main", result.get("AMS").getType());
+        Assert.assertEquals("Amsterdam", result.get("AMS").getName().getShortName());
+        Assert.assertEquals("Amsterdam Centraal", result.get("AMS").getName().getMediumName());
+        Assert.assertEquals("Amsterdam Central Station", result.get("AMS").getName().getLongName());
+        Assert.assertEquals("NL", result.get("AMS").getCountry());
+        Assert.assertEquals(840001265, result.get("AMS").getUICCode());
+        Assert.assertEquals(52.37916667, result.get("AMS").getLatitude(), 0.00001);
+        Assert.assertEquals(4.8916667, result.get("AMS").getLongitude(), 0.00001);
+        Assert.assertEquals(2, result.get("AMS").getSynonyms().size());
+        Assert.assertEquals("Central Station Amsterdam", result.get("AMS").getSynonyms().get(0));
+        Assert.assertEquals("CS", result.get("AMS").getSynonyms().get(1));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

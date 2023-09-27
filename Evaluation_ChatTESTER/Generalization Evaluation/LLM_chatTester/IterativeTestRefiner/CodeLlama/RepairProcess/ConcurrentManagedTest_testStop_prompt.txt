@@ -1,0 +1,450 @@
+0-->1-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+public class TTT_testStop {
+@Test
+public void testStop() throws Exception {
+    Caller caller = mock(Caller.class);
+    ManagedOptions options = mock(ManagedOptions.class);
+
+       <Buggy Line>: cannot find symbol class "T"
+    Supplier<? extends Stage<T>> setup = mock(Supplier.class);
+
+    Completable<Void> startFuture = mock(Completable.class);
+    Completable<Void> zeroLeaseFuture = mock(Completable.class);
+    Completable<T> stopReferenceFuture = mock(Completable.class);
+    Stage<Void> stopFuture = mock(Stage.class);
+    ConcurrentManaged concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+    when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+    doNothing().when(concurrentManaged).release();
+    Stage<Void> result = concurrentManaged.stop();
+    verify(concurrentManaged).setState(ManagedState.STOPPED);
+    verify(concurrentManaged, times(1)).release();
+    assertSame(result, stopFuture);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+public class TTT_testStop {
+@Test
+public void testStop() throws Exception {
+    Caller caller = mock(Caller.class);
+    ManagedOptions options = mock(ManagedOptions.class);
+    Supplier<Stage<Void>> setup = mock(Supplier.class);
+    Completable<Void> startFuture = mock(Completable.class);
+    Completable<Void> zeroLeaseFuture = mock(Completable.class);
+    Completable<Void> stopReferenceFuture = mock(Completable.class);
+    Stage<Void> stopFuture = mock(Stage.class);
+    ConcurrentManaged concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+
+  <Buggy Line>: cannot find symbol variable "ManagedState"
+    when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+
+    doNothing().when(concurrentManaged).release();
+    Stage<Void> result = concurrentManaged.stop();
+    verify(concurrentManaged).setState(ManagedState.STOPPED);
+    verify(concurrentManaged, times(1)).release();
+    assertSame(result, stopFuture);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ManagedState"
+import eu.toolchain.concurrent.ManagedState;
+
+@RunWith(MockitoJUnitRunner.class)
+public class TTT_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<Void>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Void> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+    }
+    @Test
+    public void testStop() throws Exception {
+        when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(concurrentManaged).setState(ManagedState.STOPPED);
+        verify(concurrentManaged, times(1)).release();
+        assertSame(result, stopFuture);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ManagedState"
+import eu.toolchain.concurrent.ManagedState;
+
+@RunWith(MockitoJUnitRunner.class)
+public class TTT_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<Void>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Void> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+    }
+    @Test
+    public void testStop() throws Exception {
+        when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(concurrentManaged).setState(ManagedState.STOPPED);
+        verify(concurrentManaged, times(1)).release();
+        assertSame(result, stopFuture);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ManagedState"
+import eu.toolchain.concurrent.ManagedState;
+
+@RunWith(MockitoJUnitRunner.class)
+public class TTT_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<Void>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Void> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+    }
+    @Test
+    public void testStop() throws Exception {
+        when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(concurrentManaged).setState(ManagedState.STOPPED);
+        verify(concurrentManaged, times(1)).release();
+        assertSame(result, stopFuture);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doAnswer;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import com.google.common.collect.ImmutableList;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.stubbing.Answer;
+
+<Buggy Line>: cannot find symbol class "ManagedState"
+import eu.toolchain.concurrent.ManagedState;
+
+@RunWith(MockitoJUnitRunner.class)
+public class TTT_testStop {
+    @Mock
+    private Caller caller;
+    @Mock
+    private ManagedOptions options;
+    @Mock
+    private Supplier<Stage<Void>> setup;
+    @Mock
+    private Completable<Void> startFuture;
+    @Mock
+    private Completable<Void> zeroLeaseFuture;
+    @Mock
+    private Completable<Void> stopReferenceFuture;
+    @Mock
+    private Stage<Void> stopFuture;
+    private ConcurrentManaged concurrentManaged;
+    @Before
+    public void setUp() {
+        concurrentManaged = spy(new ConcurrentManaged(caller, options, setup, startFuture, zeroLeaseFuture, stopReferenceFuture, stopFuture));
+    }
+    @Test
+    public void testStop() throws Exception {
+        when(concurrentManaged.setState(ManagedState.STOPPED)).thenReturn(true);
+        doNothing().when(concurrentManaged).release();
+        Stage<Void> result = concurrentManaged.stop();
+        verify(concurrentManaged).setState(ManagedState.STOPPED);
+        verify(concurrentManaged, times(1)).release();
+        assertSame(result, stopFuture);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

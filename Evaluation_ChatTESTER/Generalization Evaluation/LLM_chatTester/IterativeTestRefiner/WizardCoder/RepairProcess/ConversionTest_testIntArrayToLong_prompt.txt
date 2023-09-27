@@ -1,0 +1,216 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+            {-9223372036854775808l}, 
+            {(byte)-92,(byte)-76,-128,   0}},
+            {
+                {-9223372036854775808l}, 
+                {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)}, 
+            {
+
+               <Buggy Line>: '}' expected
+                {}, {}};
+
+        for (int dataSetIndex = 0 ; dataSetIndex<testDataSets.length ; dataSetIndex++){
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index "+expectedOutputArrayIndex+" not found", expectedOutputObj!= null);
+            assertEquals(((long[])expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+            {-9223372036854775808l}, 
+            {(byte)-92,(byte)-76,-128,  0}},
+            {
+                {-9223372036854775808l}, 
+                {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)}, 
+
+           <Buggy Line>: '}' expected
+            {}, {}};
+
+        for (int dataSetIndex = 0 ; dataSetIndex<testDataSets.length ; dataSetIndex++){
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index "+expectedOutputArrayIndex+" not found", expectedOutputObj!= null);
+            assertEquals(((long[])expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+            {-9223372036854775808l}, 
+            {(byte)-92,(byte)-76,-128, 0}},
+            {
+                {-9223372036854775808l}, 
+                {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)}, 
+
+          <Buggy Line>: '}' expected
+            {}};
+
+        for (int dataSetIndex = 0 ; dataSetIndex<testDataSets.length ; dataSetIndex++){
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index "+expectedOutputArrayIndex+" not found", expectedOutputObj!= null);
+            assertEquals(((long[])expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+            {-9223372036854775808l}, 
+            {(byte)-92,(byte)-76,-128, 0}},
+            {
+                {-9223372036854775808l}, 
+                {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)}, 
+
+              <Buggy Line>: '}' expected
+                {}};
+
+        for (int dataSetIndex = 0 ; dataSetIndex<testDataSets.length ; dataSetIndex++){
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index "+expectedOutputArrayIndex+" not found", expectedOutputObj!= null);
+            assertEquals(((long[])expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+
+           <Buggy Line>: illegal initializer for byte
+            {-9223372036854775808l}, 
+
+            {(byte)-92,(byte)-76,-128, 0}},
+            {
+                {-9223372036854775808l}, 
+                {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)}, 
+                {}
+            }};
+        for (int dataSetIndex = 0 ; dataSetIndex<testDataSets.length ; dataSetIndex++){
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index "+expectedOutputArrayIndex+" not found", expectedOutputObj!= null);
+            assertEquals(((long[])expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class IntArrToIntLongConversionTests_testIntArrayToLong {
+    @Test
+    public void shouldConvertIntArrayElementsIntoSingleUnsignedLongValueWithSpecifiedBitPositionsAndNumberOfIntegersAsInputParameters_whenAllInputsAreValid() throws Exception {
+        byte[][] testDataSets = {{
+
+          <Buggy Line>: illegal initializer for byte
+            {Byte.MIN_VALUE},
+
+            {(short)-32768, Short.MAX_VALUE, Byte.MIN_VALUE, Character.MAX_VALUE / 2, Long.MAX_VALUE >> 32, -(Byte.MIN_VALUE)},
+            {}
+        }};
+        for (int dataSetIndex = 0; dataSetIndex < testDataSets.length; dataSetIndex++) {
+            Object expectedOutputObj = testDataSets[dataSetIndex][expectedOutputArrayIndex];
+            assertTrue("Expected object at index " + expectedOutputArrayIndex + " not found", expectedOutputObj!= null);
+            assertEquals(((long[]) expectedOutputObj)[0], actualOutput);
+        }
+    }
+    private volatile boolean stopRequested = false;
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

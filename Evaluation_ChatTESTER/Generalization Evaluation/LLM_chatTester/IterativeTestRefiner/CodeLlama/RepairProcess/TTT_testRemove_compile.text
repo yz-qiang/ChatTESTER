@@ -1,0 +1,220 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.map.IntDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.map.IntDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntFloatSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntFloatSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntIntSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntIntSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class edu.jhu.prim.map.IntIntSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class edu.jhu.prim.map.IntIntSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[23,24] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable map of type edu.jhu.prim.map.LongDoubleSortedMap
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntLongSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.IntLongSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.map.IntLongSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method assertTrue(java.lang.String,boolean)
+  location: class edu.jhu.prim.map.IntLongSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] TTT_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 1 error
+####################
+

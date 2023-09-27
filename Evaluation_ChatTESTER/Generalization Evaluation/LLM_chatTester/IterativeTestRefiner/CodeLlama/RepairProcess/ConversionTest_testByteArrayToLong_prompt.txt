@@ -1,0 +1,65 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testByteArrayToLong {
+@Test
+public void testByteArrayToLong() {
+    assertEquals(0L, Conversion.byteArrayToLong(new byte[]{}, 0, 0L, 0, 0));
+    byte[] input = new byte[]{1, 2, 3};
+
+<Error Line>
+    assertEquals(0x010203L, Conversion.byteArrayToLong(input, 0, 0L, 0, 3));
+
+    assertEquals(0x0203L, Conversion.byteArrayToLong(input, 1, 0L, 0, 2));
+    try {
+        Conversion.byteArrayToLong(input, -1, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    try {
+        Conversion.byteArrayToLong(input, 0, 0L, 0, -1);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    try {
+        Conversion.byteArrayToLong(input, 0, 0L, -1, 2);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    try {
+        Conversion.byteArrayToLong(input, -1, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static long byteArrayToLong(final byte[] src, final int srcPos, final long dstInit, final int dstPos, final int nBytes) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBytes) {
+        return dstInit;
+    }
+    if ((nBytes - 1) * 8 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nBytes-1)*8+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + dstPos;
+        final long bits = (0xffL & src[i + srcPos]) << shift;
+        final long mask = 0xffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(0x010203L, Conversion.byteArrayToLong(input, 0, 0L, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

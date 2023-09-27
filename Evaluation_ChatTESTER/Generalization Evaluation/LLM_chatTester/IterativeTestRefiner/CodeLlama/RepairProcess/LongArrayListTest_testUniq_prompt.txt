@@ -1,0 +1,35 @@
+0-->1-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+
+
+// Test Method
+package edu.jhu.prim.list;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public class TTT_testUniq {
+@Test
+public void testUniq() {
+    LongArrayList list = new LongArrayList();
+
+        <Buggy Line>: cannot find symbol variable "Arrays"
+    list.addAll(Arrays.asList(new Long[]{1L, 2L, 3L, 4L, 5L, 6L}));
+
+    list.addAll(Arrays.asList(new Long[]{1L, 2L, 3L, 4L, 5L, 6L}));
+    list.uniq();
+    assertEquals(list.size(), 6);
+    for (int i = 0; i < list.size(); i++) {
+        assertTrue(!list.containsDuplicates());
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

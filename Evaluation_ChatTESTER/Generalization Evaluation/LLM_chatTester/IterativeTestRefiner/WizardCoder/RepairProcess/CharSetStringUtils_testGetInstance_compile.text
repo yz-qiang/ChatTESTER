@@ -1,0 +1,66 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest###testGetInstance
+[GENERATED PATH] CharSetStringUtils_testGetInstance.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[11,8] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[13,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[14,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[15,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[16,1] class, interface, or enum expected
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest###testGetInstance
+[GENERATED PATH] CharSetStringUtils_testGetInstance.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[13,40] method getInstance in class org.apache.commons.lang3.CharSetTest cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[14,38] package CharsetStringUtils does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[14,55] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[15,20] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[16,21] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[19,31] cannot find symbol
+  symbol:   variable length
+  location: variable set of type java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[23,25] for-each not applicable to expression type
+  required: array or java.lang.Iterable
+  found:    java.lang.String
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest###testGetInstance
+[GENERATED PATH] CharSetStringUtils_testGetInstance.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[13,40] method getInstance in class org.apache.commons.lang3.CharSetTest cannot be applied to given types;
+  required: java.lang.String
+  found: java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[14,38] package CharsetStringUtils does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[14,55] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[15,20] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[16,21] cannot find symbol
+  symbol:   variable CharsetStringUtils
+  location: class org.apache.commons.lang3.CharSetTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[19,31] cannot find symbol
+  symbol:   variable length
+  location: variable set of type java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/CharSetTest.java:[23,25] for-each not applicable to expression type
+  required: array or java.lang.Iterable
+  found:    java.lang.String
+[INFO] 7 errors 
+####################
+

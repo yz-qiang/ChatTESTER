@@ -1,0 +1,35 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntLongSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[11,20] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.vector.IntLongSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.vector.IntLongSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[14,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntLongSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[16,23] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.vector.IntLongSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[17,22] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.vector.IntLongSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[35,49] cannot find symbol
+  symbol:   method getValue()
+  location: interface edu.jhu.prim.map.IntLongEntry
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntLongSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntLongSortedVectorTest.java:[39,49] cannot find symbol
+  symbol:   method getValue()
+  location: interface edu.jhu.prim.map.IntLongEntry
+[INFO] 1 error
+####################
+

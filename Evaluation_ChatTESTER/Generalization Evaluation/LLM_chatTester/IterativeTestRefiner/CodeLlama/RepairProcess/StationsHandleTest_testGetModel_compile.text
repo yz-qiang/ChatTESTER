@@ -1,0 +1,463 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[14,9] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[14,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[14,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[17,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[21,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[25,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 14 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] StationsHandleTest_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,34] cannot find symbol
+  symbol:   class ByteArrayInputStream
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[15,72] cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[18,31] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[19,33] cannot find symbol
+  symbol:   method getStations()
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[22,51] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[23,58] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[24,64] cannot find symbol
+  symbol:   method getName()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[26,41] cannot find symbol
+  symbol:   method getUICCode()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[27,39] cannot find symbol
+  symbol:   method getLatitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[28,38] cannot find symbol
+  symbol:   method getLongitude()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[29,32] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[30,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[31,27] cannot find symbol
+  symbol:   method getSynonyms()
+  location: variable station of type nl.pvanassen.ns.model.stations.Station
+[INFO] 13 errors 
+####################
+

@@ -1,0 +1,166 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,51] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,65] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,65] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,51] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,51] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 3 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,65] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,65] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,55] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,73] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[26,34] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[28,8] error: cannot find symbol
+[INFO] 4 errors 
+####################
+

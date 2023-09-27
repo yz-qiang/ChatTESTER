@@ -1,0 +1,29 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest###testAppendSuper
+[GENERATED PATH] CompareToBuilderTest_testAppendSuper.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java:[9,6] cannot find symbol
+  symbol:   class Before
+  location: class org.apache.commons.lang3.builder.CompareToBuilderTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest###testAppendSuper
+[GENERATED PATH] CompareToBuilderTest_testAppendSuper.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java:[18,120] cannot find symbol
+  symbol:   method getComparison()
+  location: class org.apache.commons.lang3.builder.CompareToBuilder
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java:[22,25] cannot find symbol
+  symbol:   method setComparison(int)
+  location: variable compareToBuilder of type org.apache.commons.lang3.builder.CompareToBuilder
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java:[23,136] cannot find symbol
+  symbol:   method getComparison()
+  location: class org.apache.commons.lang3.builder.CompareToBuilder
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest.java:[26,30] cannot find symbol
+  symbol:   method getComparison()
+  location: variable compareToBuilder of type org.apache.commons.lang3.builder.CompareToBuilder
+[INFO] 4 errors 
+####################
+

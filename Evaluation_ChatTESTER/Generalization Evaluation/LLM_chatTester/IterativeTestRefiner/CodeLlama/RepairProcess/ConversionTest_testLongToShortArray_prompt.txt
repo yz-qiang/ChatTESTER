@@ -1,0 +1,150 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToShortArray {
+@Test
+public void testLongToShortArray() {
+    long[] longValues = new long[]{12345L, 67890L};
+
+       <Buggy Line>: incompatible types: possible lossy conversion from int to short
+    short[] expectedShortValues = new short[]{12345, 67890};
+
+    int srcPos = 0;
+    int dstPos = 0;
+    int nShorts = 2;
+    short[] actualShortValues = Conversion.longToShortArray(longValues, srcPos, expectedShortValues, dstPos, nShorts);
+    assertArrayEquals(expectedShortValues, actualShortValues);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToShortArray {
+@Test
+public void testLongToShortArray() {
+    long[] longValues = new long[]{12345L, 67890L};
+
+       <Buggy Line>: incompatible types: possible lossy conversion from int to short
+    short[] expectedShortValues = new short[]{12345, 67890};
+
+    int srcPos = (int) 0L;
+    int dstPos = (int) 0L;
+    int nShorts = 2;
+    short[] actualShortValues = Conversion.longToShortArray(longValues, srcPos, expectedShortValues, dstPos, nShorts);
+    assertArrayEquals(expectedShortValues, actualShortValues);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToShortArray {
+@Test
+public void testLongToShortArray() {
+    long[] longValues = new long[]{12345L, 67890L};
+
+       <Buggy Line>: incompatible types: possible lossy conversion from int to short
+    short[] expectedShortValues = new short[]{12345, 67890};
+
+    int srcPos = (int) 0L;
+    int dstPos = (int) 0L;
+    int nShorts = 2;
+    short[] actualShortValues = Conversion.longToShortArray(longValues, srcPos, expectedShortValues, dstPos, nShorts);
+    assertArrayEquals(expectedShortValues, actualShortValues);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToShortArray {
+@Test
+public void testLongToShortArray() {
+    long[] longValues = new long[]{12345L, 67890L};
+
+       <Buggy Line>: incompatible types: possible lossy conversion from int to short
+    short[] expectedShortValues = new short[]{12345, 67890};
+
+    int srcPos = (int) 0L;
+    int dstPos = (int) 0L;
+    int nShorts = 2;
+    short[] actualShortValues = Conversion.longToShortArray(longValues, srcPos, expectedShortValues, dstPos, nShorts);
+    assertArrayEquals(expectedShortValues, actualShortValues);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToShortArray {
+@Test
+public void testLongToShortArray() {
+    long[] longValues = new long[]{12345L, 67890L};
+
+       <Buggy Line>: incompatible types: possible lossy conversion from int to short
+    short[] expectedShortValues = new short[]{12345, 67890};
+
+    int srcPos = (int) 0L;
+    int dstPos = (int) 0L;
+    int nShorts = 2;
+    short[] actualShortValues = Conversion.longToShortArray(longValues, srcPos, expectedShortValues, dstPos, nShorts);
+    assertArrayEquals(expectedShortValues, actualShortValues);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

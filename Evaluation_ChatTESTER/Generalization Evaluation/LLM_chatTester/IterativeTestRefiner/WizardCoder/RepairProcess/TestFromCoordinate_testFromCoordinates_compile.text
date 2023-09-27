@@ -1,0 +1,25 @@
+original test path: lazee_meteo###lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest###testFromCoordinates
+[GENERATED PATH] TestFromCoordinate_testFromCoordinates.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[7,13] cannot find symbol
+  symbol:   class Stream
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[7,20] cannot find symbol
+  symbol:   class Arguments
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[36,19] cannot find symbol
+  symbol:   class Stream
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[36,26] cannot find symbol
+  symbol:   class Arguments
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[25,6] cannot find symbol
+  symbol:   class ParameterizedTest
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[26,6] cannot find symbol
+  symbol:   class MethodSource
+  location: class no.api.meteo.entity.core.LocationTest
+[INFO] 6 errors 
+####################
+

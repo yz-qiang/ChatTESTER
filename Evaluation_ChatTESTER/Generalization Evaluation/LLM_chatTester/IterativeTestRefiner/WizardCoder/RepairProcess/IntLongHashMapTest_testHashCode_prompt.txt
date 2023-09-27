@@ -1,0 +1,40 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+
+   <Buggy Line>: cannot find symbol class "AbstractMapTestCase"
+public class HashCodeTests_testHashCode extends AbstractMapTestCase<Integer> {
+
+    private Integer[][] data;
+    @Before
+    public void setUpData() throws Exception {
+        super.setUpData();
+        data = createRandomInput((short)(Math.random()*256), false).toArray(new Integer[0][]);
+    }
+    @Test
+    public void testGetHashCode() {
+        try{
+            assertEquals("", "", "");
+            assertTrue(!map.isEmpty());
+            assertFalse(map.containsKey(-9));
+            assertNotEquals("-", "-");
+            assertSame(null, null);
+        } catch (Exception e){
+            fail("" +e );
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

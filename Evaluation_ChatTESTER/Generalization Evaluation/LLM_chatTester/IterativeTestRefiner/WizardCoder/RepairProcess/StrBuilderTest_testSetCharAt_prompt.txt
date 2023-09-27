@@ -1,0 +1,112 @@
+0-->1-->0-->compileRepair
+// Import information
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import org.apache.commons.lang3.ArrayUtils;
+
+
+// Test Method
+package org.apache.commons.lang3.text;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import org.apache.commons.lang3.ArrayUtils;
+public class TTT_testSetCharAt {
+@Test
+public void testGetChars_validRange() throws Exception{
+    StringBuilder sb1 = new StringBuilder("Hello");
+
+     <Buggy Line>: cannot find symbol variable "ByteBuffer"
+    CharBuffer cb2 = ByteBuffer.wrap(sb1).asReadOnlyBuffer().get(4,6);
+
+    assertEquals('l',cb2.charAt(0));    
+    assertFalse((char)(byte)Byte.MAX_VALUE=='\uFFFF');
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Import information
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import org.apache.commons.lang3.ArrayUtils;
+
+
+// Test Method
+package org.apache.commons.lang3.text;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import org.apache.commons.lang3.ArrayUtils;
+public class TTT_testSetCharAt {
+
+  <Buggy Line>: cannot find symbol variable "sb1"
+CharBuffer cb2 = ByteBuffer.wrap(sb1.toString().getBytes()).asReadOnlyBuffer().get(4, 6);
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

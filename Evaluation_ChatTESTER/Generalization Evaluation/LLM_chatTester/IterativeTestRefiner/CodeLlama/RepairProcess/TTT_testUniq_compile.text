@@ -1,0 +1,32 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest###testUniq
+[GENERATED PATH] TTT_testUniq.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[10,17] cannot find symbol
+  symbol:   variable Arrays
+  location: class edu.jhu.prim.list.LongArrayListTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[11,17] cannot find symbol
+  symbol:   variable Arrays
+  location: class edu.jhu.prim.list.LongArrayListTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[15,25] cannot find symbol
+  symbol:   method containsDuplicates()
+  location: variable list of type edu.jhu.prim.list.LongArrayList
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest###testUniq
+[GENERATED PATH] TTT_testUniq.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[11,13] cannot find symbol
+  symbol:   method addAll(java.util.List<java.lang.Long>)
+  location: variable list of type edu.jhu.prim.list.LongArrayList
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[12,13] cannot find symbol
+  symbol:   method addAll(java.util.List<java.lang.Long>)
+  location: variable list of type edu.jhu.prim.list.LongArrayList
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/list/LongArrayListTest.java:[16,29] cannot find symbol
+  symbol:   method containsDuplicates()
+  location: variable list of type edu.jhu.prim.list.LongArrayList
+[INFO] 3 errors 
+####################
+

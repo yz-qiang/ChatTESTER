@@ -1,0 +1,235 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class TTT_testGetInstance {
+@Test
+public void testGetInstance() throws Exception {
+    assertNull(CharSet.getInstance((String[])null));
+
+  <Buggy Line>: cannot find symbol method "assertNotNull(org.apache.commons.lang3.CharSet)" in CharSetTest
+    assertNotNull(CharSet.getInstance());
+
+    CharSet charSet = CharSet.getInstance("abc");
+    assertNotNull(charSet);
+    assertEquals(1, charSet.size());
+    assertTrue(charSet.contains('a'));
+    assertTrue(charSet.contains('b'));
+    assertTrue(charSet.contains('c'));
+    charSet = CharSet.getInstance("abc", "def");
+    assertNotNull(charSet);
+    assertEquals(2, charSet.size());
+    assertTrue(charSet.contains('a'));
+    assertTrue(charSet.contains('b'));
+    assertTrue(charSet.contains('c'));
+    assertTrue(charSet.contains('d'));
+    assertTrue(charSet.contains('e'));
+    assertTrue(charSet.contains('f'));
+    try {
+        CharSet.getInstance("invalid_input");
+        fail("Expected IllegalArgumentException");
+    } catch (IllegalArgumentException e) {
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class TTT_testGetInstance {
+    @Test
+    public void testGetInstance() throws Exception {
+        assertNull(CharSet.getInstance((String[]) null));
+
+      <Buggy Line>: cannot find symbol method "assertNotNull(org.apache.commons.lang3.CharSet)" in CharSetTest
+        assertNotNull(CharSet.getInstance());
+
+        CharSet charSet = CharSet.getInstance("abc");
+        assertNotNull(charSet);
+        assertEquals(1, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        charSet = CharSet.getInstance("abc", "def");
+        assertNotNull(charSet);
+        assertEquals(2, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        assertTrue(charSet.contains('d'));
+        assertTrue(charSet.contains('e'));
+        assertTrue(charSet.contains('f'));
+        try {
+            CharSet.getInstance("invalid_input");
+            fail("Expected IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class TTT_testGetInstance {
+    @Test
+    public void testGetInstance() throws Exception {
+        assertNull(CharSet.getInstance((String[]) null));
+
+      <Buggy Line>: cannot find symbol method "assertNotNull(org.apache.commons.lang3.CharSet)" in CharSetTest
+        assertNotNull(CharSet.getInstance());
+
+        CharSet charSet = CharSet.getInstance("abc");
+        assertNotNull(charSet);
+        assertEquals(1, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        charSet = CharSet.getInstance("abc", "def");
+        assertNotNull(charSet);
+        assertEquals(2, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        assertTrue(charSet.contains('d'));
+        assertTrue(charSet.contains('e'));
+        assertTrue(charSet.contains('f'));
+        try {
+            CharSet.getInstance("invalid_input");
+            fail("Expected IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class TTT_testGetInstance {
+    @Test
+    public void testGetInstance() throws Exception {
+        assertNull(CharSet.getInstance((String[]) null));
+
+      <Buggy Line>: cannot find symbol method "assertNotNull(org.apache.commons.lang3.CharSet)" in CharSetTest
+        assertNotNull(CharSet.getInstance());
+
+        CharSet charSet = CharSet.getInstance("abc");
+        assertNotNull(charSet);
+        assertEquals(1, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        charSet = CharSet.getInstance("abc", "def");
+        assertNotNull(charSet);
+        assertEquals(2, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        assertTrue(charSet.contains('d'));
+        assertTrue(charSet.contains('e'));
+        assertTrue(charSet.contains('f'));
+        try {
+            CharSet.getInstance("invalid_input");
+            fail("Expected IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class TTT_testGetInstance {
+    @Test
+    public void testGetInstance() throws Exception {
+        assertNull(CharSet.getInstance((String[]) null));
+
+      <Buggy Line>: cannot find symbol method "assertNotNull(org.apache.commons.lang3.CharSet)" in CharSetTest
+        assertNotNull(CharSet.getInstance());
+
+        CharSet charSet = CharSet.getInstance("abc");
+        assertNotNull(charSet);
+        assertEquals(1, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        charSet = CharSet.getInstance("abc", "def");
+        assertNotNull(charSet);
+        assertEquals(2, charSet.size());
+        assertTrue(charSet.contains('a'));
+        assertTrue(charSet.contains('b'));
+        assertTrue(charSet.contains('c'));
+        assertTrue(charSet.contains('d'));
+        assertTrue(charSet.contains('e'));
+        assertTrue(charSet.contains('f'));
+        try {
+            CharSet.getInstance("invalid_input");
+            fail("Expected IllegalArgumentException");
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

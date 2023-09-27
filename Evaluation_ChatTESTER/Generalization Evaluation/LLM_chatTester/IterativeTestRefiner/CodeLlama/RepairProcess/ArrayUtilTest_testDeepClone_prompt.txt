@@ -1,0 +1,153 @@
+0-->1-->0-->compileRepair
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+public class TTT_testDeepClone {
+@Test
+public void testDeepClone() throws Exception {
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Integer[]
+    Integer[][][] arr = {{1, 2}, {3, 4}};
+
+    String[] strArr = {"hello", "world"};
+    Object[] objArr = {arr, strArr};
+    Object clonedObj = ArrayUtil.deepClone(objArr);
+    assertEquals(objArr.length, clonedObj.length);
+    for (int i = 0; i < objArr.length; i++) {
+        assertTrue(clonedObj[i].equals(objArr[i]));
+    }
+    arr[0][0] = -1;
+    assertNotEquals(objArr[0], clonedObj[0]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+public class TTT_testDeepClone {
+@Test
+public void testDeepClone() throws Exception {
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Integer[]
+    Integer[][][] arr = {{1, 2}, {3, 4}};
+
+    String[] strArr = {"hello", "world"};
+    Object[] objArr = {new Object[] {arr}, strArr};
+    Object clonedObj = ArrayUtil.deepClone(objArr);
+    assertEquals(objArr.length, clonedObj.length);
+    for (int i = 0; i < objArr.length; i++) {
+        assertTrue(clonedObj[i].equals(objArr[i]));
+    }
+    arr[0][0] = -1;
+    assertNotEquals(objArr[0], clonedObj[0]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+public class TTT_testDeepClone {
+@Test
+public void testDeepClone() throws Exception {
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Integer[]
+    Integer[][][] arr = {{1, 2}, {3, 4}};
+
+    String[] strArr = {"hello", "world"};
+    Object[] objArr = {new Object[] {arr}, strArr};
+    Object clonedObj = ArrayUtil.deepClone(Arrays.asList(objArr));
+    assertEquals(objArr.length, clonedObj.length);
+    for (int i = 0; i < objArr.length; i++) {
+        assertTrue(clonedObj[i].equals(objArr[i]));
+    }
+    arr[0][0] = -1;
+    assertNotEquals(objArr[0], clonedObj[0]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+public class TTT_testDeepClone {
+@Test
+public void testDeepClone() throws Exception {
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Integer[]
+    Integer[][][] arr = {{1, 2}, {3, 4}};
+
+    Object[] objArr = {new Object[] {arr}, strArr};
+    Object clonedObj = ArrayUtil.deepClone(Arrays.asList(objArr));
+    assertEquals(objArr.length, clonedObj.length);
+    for (int i = 0; i < objArr.length; i++) {
+        assertTrue(clonedObj[i].equals(objArr[i]));
+    }
+    arr[0][0] = -1;
+    assertNotEquals(objArr[0], clonedObj[0]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package cn.xdean.jex.lang;
+import org.junit.Test;
+import static cn.xdean.jex.lang.collection.ArrayUtil.*;
+import static org.junit.Assert.*;
+public class TTT_testDeepClone {
+@Test
+public void testDeepClone() throws Exception {
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Integer[]
+    Integer[][][] arr = {{1, 2}, {3, 4}};
+
+    Object[] objArr = {new Object[] {arr}, strArr};
+    Object clonedObj = ArrayUtil.deepClone(Arrays.asList(objArr));
+    assertEquals(objArr.length, clonedObj.length);
+    for (int i = 0; i < objArr.length; i++) {
+        assertTrue(clonedObj[i].equals(objArr[i]));
+    }
+    arr[0][0] = -1;
+    assertNotEquals(objArr[0], clonedObj[0]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

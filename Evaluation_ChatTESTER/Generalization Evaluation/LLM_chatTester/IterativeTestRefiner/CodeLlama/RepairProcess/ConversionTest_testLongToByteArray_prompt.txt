@@ -1,0 +1,46 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+@Test
+public void testLongToByteArray() {
+    long src = 123456789L;
+    int srcPos = 0;
+    byte[] dst = new byte[8];
+    int dstPos = 0;
+    int nBytes = 4;
+    byte[] expectedResult = new byte[]{0x01, 0x02, 0x03, 0x04};
+    byte[] actualResult = Conversion.longToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+<Error Line>
+    assertArrayEquals(expectedResult, actualResult);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static byte[] longToByteArray(final long src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 64) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 64");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertArrayEquals(expectedResult, actualResult); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

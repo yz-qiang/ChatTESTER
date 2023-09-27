@@ -1,0 +1,144 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest###testLexx
+[GENERATED PATH] DurationFormatUtilsTest_testLexx.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[15,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest###testLexx
+[GENERATED PATH] DurationFormatUtilsTest_testLexx.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,55] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,73] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,89] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,107] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,123] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,139] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[31,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,57] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,75] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,93] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,109] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,125] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[52,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[52,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[58,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[58,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] 20 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest###testLexx
+[GENERATED PATH] DurationFormatUtilsTest_testLexx.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,55] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,73] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,89] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,107] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,123] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[25,139] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[31,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,57] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,75] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,93] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,109] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[46,125] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[52,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[52,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[58,9] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DurationFormatUtilsTest.java:[58,39] cannot find symbol
+  symbol:   class Token
+  location: class org.apache.commons.lang3.time.DurationFormatUtilsTest
+[INFO] 20 errors 
+####################
+

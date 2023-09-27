@@ -1,0 +1,157 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[10,82] cannot find symbol
+  symbol:   class InvocationTargetException
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,84] cannot find symbol
+  symbol:   class InvocationTargetException
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testByteArrayToInt
+[GENERATED PATH] TestByteArrayToInt_testByteArrayToInt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[25,9] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[27,9] cannot find symbol
+  symbol:   method assertNotNull(java.lang.Object)
+  location: class org.apache.commons.lang3.ConversionTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest.java:[39,13] cannot find symbol
+  symbol:   class Method
+  location: class org.apache.commons.lang3.ConversionTest
+[INFO] 3 errors 
+####################
+

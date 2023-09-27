@@ -1,0 +1,24 @@
+original test path: lazee_meteo###lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest###testFromCoordinates
+[GENERATED PATH] LocationTest_testFromCoordinates.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[8,22] constructor Location in class no.api.meteo.entity.core.Location cannot be applied to given types;
+  required: java.lang.Double,java.lang.Double,java.lang.Integer,java.lang.String
+  found: double,double
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[9,22] constructor Location in class no.api.meteo.entity.core.Location cannot be applied to given types;
+  required: java.lang.Double,java.lang.Double,java.lang.Integer,java.lang.String
+  found: double,double,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[10,9] cannot find symbol
+  symbol:   method assertThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->Locati[...]null))
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[11,9] cannot find symbol
+  symbol:   method assertThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->Locati[...]put"))
+  location: class no.api.meteo.entity.core.LocationTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/lazee_meteo/meteo-core/src/test/java/no/api/meteo/entity/core/LocationTest.java:[12,9] cannot find symbol
+  symbol:   method assertThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->Locati[...]abc"))
+  location: class no.api.meteo.entity.core.LocationTest
+[INFO] 5 errors 
+####################
+

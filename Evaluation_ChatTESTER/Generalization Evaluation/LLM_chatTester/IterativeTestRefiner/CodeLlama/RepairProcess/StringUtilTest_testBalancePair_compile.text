@@ -1,0 +1,627 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[12,10] cannot find symbol
+  symbol: class JUnit4
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[16,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[13,10] cannot find symbol
+  symbol: class JUnit4
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 16 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[13,10] cannot find symbol
+  symbol: class JUnit4
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 16 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest###testBalancePair
+[GENERATED PATH] StringUtilTest_testBalancePair.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[11,24] cannot find symbol
+  symbol:   class JUnit4
+  location: package org.junit.runner
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[17,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[18,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[19,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[20,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[21,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[22,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[23,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[24,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[25,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[26,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[27,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[28,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[29,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/StringUtilTest.java:[30,9] cannot find symbol
+  symbol:   method assertArrayEquals(int[],int[])
+  location: class cn.xdean.jex.lang.StringUtilTest
+[INFO] 15 errors 
+####################
+

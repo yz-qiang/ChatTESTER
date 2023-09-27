@@ -1,0 +1,46 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] EvaluatorTestCases_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,61] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] EvaluatorTestCases_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,63] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] EvaluatorTestCases_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,63] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] EvaluatorTestCases_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,5] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,44] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,8] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,38] error: method referenceAt in interface Evaluator cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,12] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,12] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[29,15] error: Evaluator is abstract; cannot be instantiated
+[INFO] 8 errors 
+####################
+

@@ -1,0 +1,36 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest###testReflectionAppend
+[GENERATED PATH] EqualsBuilderTest_testReflectionAppend.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[13,6] cannot find symbol
+  symbol:   class Before
+  location: class org.apache.commons.lang3.builder.EqualsBuilderTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest###testReflectionAppend
+[GENERATED PATH] EqualsBuilderTest_testReflectionAppend.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[24,50] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[30,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[36,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[42,50] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[48,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[54,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest###testReflectionAppend
+[GENERATED PATH] EqualsBuilderTest_testReflectionAppend.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[24,50] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[30,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[36,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[42,50] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[48,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[54,51] incompatible types: org.apache.commons.lang3.builder.EqualsBuilder cannot be converted to boolean
+[INFO] 6 errors 
+####################
+

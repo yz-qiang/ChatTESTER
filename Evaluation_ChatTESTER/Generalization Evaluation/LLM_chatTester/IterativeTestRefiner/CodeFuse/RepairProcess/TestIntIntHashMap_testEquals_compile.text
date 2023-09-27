@@ -1,0 +1,44 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] TestIntIntHashMap_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[37,60] ')' expected
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] TestIntIntHashMap_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[37,55] ')' expected
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] TestIntIntHashMap_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[37,55] ')' expected
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] TestIntIntHashMap_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] TestIntIntHashMap_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 1 error
+####################
+

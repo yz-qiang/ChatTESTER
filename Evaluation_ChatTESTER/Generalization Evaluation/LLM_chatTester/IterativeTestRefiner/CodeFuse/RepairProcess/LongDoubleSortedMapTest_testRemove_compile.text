@@ -1,0 +1,233 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[10,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[21,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,18] cannot find symbol
+  symbol:   class Pair
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[23,49] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[25,13] cannot find symbol
+  symbol:   class Pair
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[27,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[37,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 7 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest###testRemove
+[GENERATED PATH] LongDoubleSortedMapTest_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[11,20] cannot find symbol
+  symbol:   class Pair
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[28,25] cannot find symbol
+  symbol:   method containsKey(long)
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[30,50] cannot find symbol
+  symbol:   method entrySet()
+  location: variable ldsm of type edu.jhu.prim.map.LongDoubleSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[33,13] cannot find symbol
+  symbol:   method assertNotNull(java.util.Map.Entry<java.lang.Long,java.lang.Double>)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[34,19] incompatible types: possible lossy conversion from long to int
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleSortedMapTest.java:[44,26] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.map.LongDoubleSortedMapTest
+[INFO] 6 errors 
+####################
+

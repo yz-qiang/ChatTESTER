@@ -1,0 +1,140 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TestByteArrayToLong_testByteArrayToLong {
+    @Test
+
+         <Buggy Line>: cannot find symbol class "InvocationTargetException"
+    public void testByteArrayToLong() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+
+        Conversion conversion = new Conversion();
+        Method method = Conversion.class.getDeclaredMethods()[0];
+        Random random = new Random();
+        byte[] src = new byte[random.nextInt(5)];
+        int srcPos = random.nextInt(5);
+        long dstInit = random.nextLong();
+        int dstPos = random.nextInt(7);
+        int nBytes = random.nextInt(32);
+        try{
+            Object result = method.invoke(conversion, src, srcPos, dstInit, dstPos, nBytes);
+            assertNotNull(result);
+            assertTrue((long)result instanceof Long);
+        } catch (IllegalArgumentException e){
+            fail("An exception was thrown when calling the method.");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Random;
+import org.junit.Assert;
+public class TestByteArrayToLong_testByteArrayToLong {
+    @Test
+    public void testByteArrayToLong() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Conversion conversion = new Conversion();
+
+         <Buggy Line>: cannot find symbol class "Method"
+        Method method = Conversion.class.getDeclaredMethods()[0];
+
+        Random random = new Random();
+        byte[] src = new byte[random.nextInt(5)];
+        int srcPos = random.nextInt(5);
+        long dstInit = random.nextLong();
+        int dstPos = random.nextInt(7);
+        int nBytes = random.nextInt(32);
+        try{
+            Object result = method.invoke(conversion, src, srcPos, dstInit, dstPos, nBytes);
+            assertNotNull(result);
+            assertTrue((long)result instanceof Long);
+        } catch (IllegalArgumentException e){
+            fail("An exception was thrown when calling the method.");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Random;
+import org.junit.Assert;
+import org.apache.commons.lang3.Conversion;
+import java.lang.reflect.Method;
+public class TestByteArrayToLong_testByteArrayToLong {
+    @Test
+    public void testByteArrayToLong() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Conversion conversion = new Conversion();
+        Method method = Conversion.class.getDeclaredMethods()[0];
+        Random random = new Random();
+        byte[] src = new byte[random.nextInt(5)];
+        int srcPos = random.nextInt(5);
+        long dstInit = random.nextLong();
+        int dstPos = random.nextInt(7);
+        int nBytes = random.nextInt(32);
+        try{
+            Object result = method.invoke(conversion, src, srcPos, dstInit, dstPos, nBytes);
+            Assert.assertNotNull(result);
+            Assert.assertTrue(result instanceof Long);
+        } catch (IllegalArgumentException e){
+
+<Error Line>
+            fail("An exception was thrown when calling the method.");
+
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static long byteArrayToLong(final byte[] src, final int srcPos, final long dstInit, final int dstPos, final int nBytes) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBytes) {
+        return dstInit;
+    }
+    if ((nBytes - 1) * 8 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nBytes-1)*8+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + dstPos;
+        final long bits = (0xffL & src[i + srcPos]) << shift;
+        final long mask = 0xffL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " fail("An exception was thrown when calling the method."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

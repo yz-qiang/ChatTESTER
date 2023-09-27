@@ -1,0 +1,8 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testReferenceAt
+[GENERATED PATH] DefaultEvaluatorTest_testReferenceAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[27,64] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+

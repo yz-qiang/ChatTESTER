@@ -1,0 +1,112 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testByteArrayToInt {
+@Test
+public void testByteArrayToInt() {
+    byte[] input = new byte[]{0x01};
+    int expectedOutput = 0x01;
+    assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 1));
+    input = new byte[]{0x01, 0x02, 0x03, 0x04};
+    expectedOutput = 0x01020304;
+    assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 4));
+    input = new byte[]{0x01, 0x02, 0x03, 0x04, 0x05};
+    expectedOutput = 0x030405;
+    assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 2, 0, 0, 3));
+    input = new byte[]{-0x01, -0x02, -0x03, -0x04};
+    expectedOutput = -0x01020304;
+    assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 4));
+
+        <Buggy Line>: incompatible types: possible lossy conversion from int to byte
+    input = new byte[]{0x7f, 0xff, 0xff, 0xff};
+
+    try {
+        Conversion.byteArrayToInt(input, 0, 0, 0, 4);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    input = new byte[]{-0x80, -0x80, -0x80, -0x80};
+    try {
+        Conversion.byteArrayToInt(input, 0, 0, 0, 4);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testByteArrayToInt {
+    @Test
+    public void testByteArrayToInt() {
+        byte[] input = new byte[]{0x01};
+        int expectedOutput = 0x01;
+        assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 1));
+        input = new byte[]{0x01, 0x02, 0x03, 0x04};
+        expectedOutput = 0x01020304;
+
+<Error Line>
+        assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 4));
+
+        input = new byte[]{0x01, 0x02, 0x03, 0x04, 0x05};
+        expectedOutput = 0x030405;
+        assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 2, 0, 0, 3));
+        input = new byte[]{-0x01, -0x02, -0x03, -0x04};
+        expectedOutput = -0x01020304;
+        assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 4));
+        input = new byte[]{(byte) 0x7f, (byte) 0xff, (byte) 0xff, (byte) 0xff};
+        try {
+            Conversion.byteArrayToInt(input, 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e) {
+        }
+        input = new byte[]{(byte) -0x80, (byte) -0x80, (byte) -0x80, (byte) -0x80};
+        try {
+            Conversion.byteArrayToInt(input, 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e) {
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static int byteArrayToInt(final byte[] src, final int srcPos, final int dstInit, final int dstPos, final int nBytes) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBytes) {
+        return dstInit;
+    }
+    if ((nBytes - 1) * 8 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + dstPos;
+        final int bits = (0xff & src[i + srcPos]) << shift;
+        final int mask = 0xff << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, Conversion.byteArrayToInt(input, 0, 0, 0, 4)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

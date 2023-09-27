@@ -1,0 +1,200 @@
+0-->1-->0-->compileRepair
+// Test Method
+package nl.pvanassen.ns.xml;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+public 
+class XmlPresentTest_testChild {
+    @Test
+    void testChildMethodWithValidInput() throws Exception {
+        InputStream stream = getResourceAsStream("/testdata/valid_input.xml");
+        String rootName = "root";
+        XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+        Xml result = xmlPresent.child("child");
+        assertNotNull(result);
+        assertEquals("child", result.getName());
+        assertEquals("value", result.getValue());
+    }
+    @Test
+    void testChildMethodWithInvalidInput() throws Exception {
+        InputStream stream = getResourceAsStream("/testdata/invalid_input.xml");
+        String rootName = "root";
+        XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+        Xml result = xmlPresent.child("nonExistentChild");
+        assertNull(result);
+    }
+
+  <Buggy Line>: cannot find symbol class "ParameterizedTest"
+    @ParameterizedTest
+
+    @CsvSource({"valid_input.xml, root, child", "invalid_input.xml, root, nonExistentChild"})
+    void testChildMethodWithDifferentScenarios(String fileName, String rootName, String childName) throws Exception {
+        InputStream stream = getResourceAsStream("/testdata/" + fileName);
+        XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+        Xml result = xmlPresent.child(childName);
+        if ("valid_input.xml".equals(fileName)) {
+            assertNotNull(result);
+            assertEquals(childName, result.getName());
+            assertEquals("value", result.getValue());
+        } else {
+            assertNull(result);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package nl.pvanassen.ns.xml;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+public class XmlPresentTest_testChild {
+@Test
+void testChildMethodWithDifferentScenarios(String fileName, String rootName, String childName) throws Exception {
+
+       <Buggy Line>: cannot find symbol class "InputStream"
+    InputStream stream = getResourceAsStream("/testdata/" + fileName);
+
+    XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+    Xml result = xmlPresent.child(childName);
+    if ("valid_input.xml".equals(fileName)) {
+        assertNotNull(result);
+        assertEquals(childName, result.getName());
+        assertEquals("value", result.getValue());
+    } else {
+        assertNull(result);
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package nl.pvanassen.ns.xml;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+public class XmlPresentTest_testChild {
+@Test
+void testChildMethodWithDifferentScenarios(String fileName, String rootName, String childName) throws Exception {
+
+       <Buggy Line>: cannot find symbol class "InputStream"
+    InputStream stream = getResourceAsStream("/testdata/" + fileName);
+
+    XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+    Xml result = xmlPresent.child(childName);
+    if ("valid_input.xml".equals(fileName)) {
+        assertNotNull(result);
+        assertEquals(childName, result.getName());
+        assertEquals("value", result.getValue());
+    } else {
+        assertNull(result);
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package nl.pvanassen.ns.xml;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+public class XmlPresentTest_testChild {
+@Test
+void testChildMethodWithDifferentScenarios(String fileName, String rootName, String childName) throws Exception {
+
+       <Buggy Line>: cannot find symbol class "InputStream"
+    InputStream stream = getResourceAsStream("/testdata/" + fileName);
+
+    XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+    Xml result = xmlPresent.child(childName);
+    if ("valid_input.xml".equals(fileName)) {
+        assertNotNull(result);
+        assertEquals(childName, result.getName());
+        assertEquals("value", result.getValue());
+    } else {
+        assertNull(result);
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package nl.pvanassen.ns.xml;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+public class XmlPresentTest_testChild {
+@Test
+void testChildMethodWithDifferentScenarios(String fileName, String rootName, String childName) throws Exception {
+
+       <Buggy Line>: cannot find symbol class "InputStream"
+    InputStream stream = getResourceAsStream("/testdata/" + fileName);
+
+    XmlPresent xmlPresent = new XmlPresent(stream, rootName);
+    Xml result = xmlPresent.child(childName);
+    if ("valid_input.xml".equals(fileName)) {
+        assertNotNull(result);
+        assertEquals(childName, result.getName());
+        assertEquals("value", result.getValue());
+    } else {
+        assertNull(result);
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

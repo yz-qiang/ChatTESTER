@@ -1,0 +1,46 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testIntToByteArray {
+@Test
+public void testIntToByteArray() {
+    int src = 456789;
+    int srcPos = 1;
+    byte[] dst = new byte[4];
+    int dstPos = 0;
+    int nBytes = 3;
+    byte[] expectedResult = new byte[]{0x00, 0x00, 0x00, 0x00};
+    byte[] actualResult = Conversion.intToByteArray(src, srcPos, dst, dstPos, nBytes);
+
+<Error Line>
+    assertArrayEquals(expectedResult, actualResult);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static byte[] intToByteArray(final int src, final int srcPos, final byte[] dst, final int dstPos, final int nBytes) {
+    if (0 == nBytes) {
+        return dst;
+    }
+    if ((nBytes - 1) * 8 + srcPos >= 32) {
+        throw new IllegalArgumentException("(nBytes-1)*8+srcPos is greater or equal to than 32");
+    }
+    for (int i = 0; i < nBytes; i++) {
+        final int shift = i * 8 + srcPos;
+        dst[dstPos + i] = (byte) (0xff & (src >> shift));
+    }
+    return dst;
+}
+
+The test method throw an error " arrays first differed at element [0]; expected arrays first differed at element [0]; expected:<0> but was:<42> " in " assertArrayEquals(expectedResult, actualResult); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

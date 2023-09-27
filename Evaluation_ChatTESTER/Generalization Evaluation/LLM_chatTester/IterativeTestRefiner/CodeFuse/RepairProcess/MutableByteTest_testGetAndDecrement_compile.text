@@ -1,0 +1,163 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[9,6] cannot find symbol
+  symbol:   class Before
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[16,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[24,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[32,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[38,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[44,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[16,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[24,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[32,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[38,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[44,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] MutableByteTest_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[17,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[25,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[33,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[39,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[45,9] reference to assertEquals is ambiguous
+  both method assertEquals(java.lang.String,long,long) in org.junit.Assert and method assertEquals(java.lang.String,java.lang.Object,java.lang.Object) in org.junit.Assert match
+[INFO] 5 errors 
+####################
+

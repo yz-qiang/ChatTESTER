@@ -1,0 +1,234 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test 
+    public void testGetAndDecrement_Atomicity() {
+        MutableInt mutableInteger = new MutableInt(-50);
+        Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement())); 
+
+               <Buggy Line>: incompatible types: java.lang.String cannot be converted to boolean
+        Thread t2 = new Thread(() -> assertFalse("" + mutableInteger)); 
+
+        try{
+            t1.start(); 
+            TimeUnit.SECONDS.sleep(3L);  
+            assertTrue("Thread not finished yet.",t1.isAlive()); 
+            while(!mutableInteger.equals(new MutableInt())) 
+                ;   
+            t2.start(); 
+            TimeUnit.MILLISECONDS.sleep(700L);
+            assertNotEquals("",""+mutableInteger,"Mutable object has been modified.");
+        } catch (InterruptedException e){
+            fail("Execution interrupted");
+        } finally {
+            System.out.println("\nFinal Value : "+mutableInteger+"\n");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test 
+public void testGetAndDecrement_Atomicity() {
+    MutableInt mutableInteger = new MutableInt(-50);
+    Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement())); 
+    Thread t2 = new Thread(() -> assertFalse(mutableInteger.getAndDecrement() == 0)); 
+    try{
+        t1.start(); 
+
+        <Buggy Line>: package TimeUnit does not exist
+        TimeUnit.SECONDS.sleep(3L);  
+
+        assertTrue("Thread not finished yet.",t1.isAlive()); 
+        while(!mutableInteger.equals(new MutableInt())) 
+            ;   
+        t2.start(); 
+        TimeUnit.MILLISECONDS.sleep(700L);
+        assertNotEquals("",""+mutableInteger,"Mutable object has been modified.");
+    } catch (InterruptedException e){
+        fail("Execution interrupted");
+    } finally {
+        System.out.println("\nFinal Value : "+mutableInteger+"\n");
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement_Atomicity() {
+        MutableInt mutableInteger = new MutableInt(-50);
+        Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement()));
+        Thread t2 = new Thread(() -> assertFalse(mutableInteger.getAndDecrement() == 0));
+        try {
+            t1.start();
+            Thread.sleep(3000L);
+            assertTrue("Thread not finished yet.", t1.isAlive());
+            while (!mutableInteger.equals(new MutableInt()))
+                ;
+            t2.start();
+            Thread.sleep(700L);
+
+                  <Buggy Line>: cannot find symbol method "assertNotEquals(java.lang.String,java.lang.String,java.lang.String)" in MutableIntTest
+            assertNotEquals("", "" + mutableInteger, "Mutable object has been modified.");
+
+        } catch (InterruptedException e) {
+            fail("Execution interrupted");
+        } finally {
+            System.out.println("\nFinal Value : " + mutableInteger + "\n");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement_Atomicity() {
+        MutableInt mutableInteger = new MutableInt(-50);
+        Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement()));
+        Thread t2 = new Thread(() -> assertFalse(mutableInteger.getAndDecrement() == 0));
+        try {
+            t1.start();
+            Thread.sleep(3000L);
+            assertTrue("Thread not finished yet.", t1.isAlive());
+            while (!mutableInteger.equals(new MutableInt()))
+                ;
+            t2.start();
+            Thread.sleep(700L);
+
+                  <Buggy Line>: cannot find symbol method "assertNotEquals(java.lang.String,java.lang.String,java.lang.String)" in MutableIntTest
+            assertNotEquals(mutableInteger.toString(), "" + mutableInteger, "Mutable object has been modified.");
+
+        } catch (InterruptedException e) {
+            fail("Execution interrupted");
+        } finally {
+            System.out.println("\nFinal Value : " + mutableInteger + "\n");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement_Atomicity() {
+        MutableInt mutableInteger = new MutableInt(-50);
+        Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement()));
+        Thread t2 = new Thread(() -> assertFalse(mutableInteger.getAndDecrement() == 0));
+        try {
+            t1.start();
+            Thread.sleep(3000L);
+            assertTrue("Thread not finished yet.", t1.isAlive());
+            while (!mutableInteger.equals(new MutableInt()))
+                ;
+            t2.start();
+            Thread.sleep(700L);
+
+                  <Buggy Line>: cannot find symbol method "assertNotEquals(java.lang.String,java.lang.String,java.lang.String)" in MutableIntTest
+            assertNotEquals(mutableInteger.toString(), "" + mutableInteger.intValue(), "Mutable object has been modified.");
+
+        } catch (InterruptedException e) {
+            fail("Execution interrupted");
+        } finally {
+            System.out.println("\nFinal Value : " + mutableInteger + "\n");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+    @Test
+    public void testGetAndDecrement_Atomicity() {
+        MutableInt mutableInteger = new MutableInt(-50);
+        Thread t1 = new Thread(() -> assertEquals("-49", "" + mutableInteger.getAndDecrement()));
+        Thread t2 = new Thread(() -> assertFalse(mutableInteger.getAndDecrement() == 0));
+        try {
+            t1.start();
+            Thread.sleep(3000L);
+            assertTrue("Thread not finished yet.", t1.isAlive());
+            while (!mutableInteger.equals(new MutableInt()))
+                ;
+            t2.start();
+            Thread.sleep(700L);
+
+                   <Buggy Line>: cannot find symbol method "assertNotEquals(java.lang.String,java.lang.String,java.lang.String)" in MutableIntTest
+            assertNotEquals(mutableInteger.toString(), "" + mutableInteger.intValue(), "Mutable object has not been modified.");
+
+        } catch (InterruptedException e) {
+            fail("Execution interrupted");
+        } finally {
+            System.out.println("\nFinal Value : " + mutableInteger + "\n");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

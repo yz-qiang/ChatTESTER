@@ -1,0 +1,194 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TestConversion_testHexToInt {
+    @Test
+    public void testHexToInt() throws Exception {
+        assertEquals(6555379, Conversion.hexToInt("FF", 0, 0, 2));
+
+          <Buggy Line>: integer number too large: -84214738496
+        assertEquals(-84214738496, Conversion.hexToInt("FFFFFF", 0, Integer.MIN_VALUE, 3));
+
+        assertEquals(Integer.MAX_VALUE, Conversion.hexToInt("7FFFFFFF", 0, 0, 3);
+        try{
+            Conversion.hexToInt("ABCDEFG", 0, 0, 0, 2);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+        try{
+            Conversion.hexToInt("ABCD", 0, 0, 0, 3);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToInt {
+    @Test
+    public void testHexToInt() throws Exception {
+        assertEquals(6555379, Conversion.hexToInt("FF", 0, 0, 2));
+
+          <Buggy Line>: integer number too large: -84214738496
+        assertEquals(-84214738496, Conversion.hexToInt("FFFFFF", 0, Integer.MIN_VALUE, 3));
+
+        assertEquals(Integer.MAX_VALUE, Conversion.hexToInt("7FFFFFFF", 0, 0, 3);
+        try{
+            Conversion.hexToInt("ABCDEFG", 0, 0, 0, 2);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+        try{
+            Conversion.hexToInt("ABCD", 0, 0, 0, 3);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToInt {
+    @Test
+    public void testHexToInt() throws Exception {
+        assertEquals(6555379, Conversion.hexToInt("FF", 0, 0, 2));
+
+          <Buggy Line>: integer number too large: -84214738496
+        assertEquals(-84214738496, Conversion.hexToInt("FFFFFF", 0, Integer.MIN_VALUE, 3));
+
+        assertEquals(Integer.MAX_VALUE, Conversion.hexToInt("7FFFFFFF", 0, 0, 3);
+        try{
+            Conversion.hexToInt("ABCDEFG", 0, 0, 0, 2);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+        try{
+            Conversion.hexToInt("ABCD", 0, 0, 0, 3);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToInt {
+    @Test
+    public void testHexToInt() throws Exception {
+        assertEquals(6555379, Conversion.hexToInt("FF", 0, 0, 2));
+
+          <Buggy Line>: integer number too large: -84214738496
+        assertEquals(-84214738496, Conversion.hexToInt("FFFFFF", 0, Integer.MIN_VALUE, 3));
+
+        assertEquals(Integer.MAX_VALUE, Conversion.hexToInt("7FFFFFFF", 0, 0, 3);
+        try{
+            Conversion.hexToInt("ABCDEFG", 0, 0, 0, 2);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+        try{
+            Conversion.hexToInt("ABCD", 0, 0, 0, 3);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToInt {
+    @Test
+    public void testHexToInt() throws Exception {
+        assertEquals(6555379, Conversion.hexToInt("FF", 0, 0, 2));
+
+          <Buggy Line>: integer number too large: -84214738496
+        assertEquals(-84214738496, Conversion.hexToInt("FFFFFF", 0, Integer.MIN_VALUE, 3));
+
+        assertEquals(Integer.MAX_VALUE, Conversion.hexToInt("7FFFFFFF", 0, 0, 3);
+        try{
+            Conversion.hexToInt("ABCDEFG", 0, 0, 0, 2);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+        try{
+            Conversion.hexToInt("ABCD", 0, 0, 0, 3);
+            fail();
+        } catch(IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

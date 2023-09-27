@@ -1,0 +1,166 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+@Test 
+
+  <Buggy Line>: class, interface, or enum expected
+public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception{
+
+    final BigInteger bigInteger1 = new BigInteger("2"); 
+    final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+    assertEquals(-1, 
+        new CompareToBuilder_testAppendSuper().
+            appendSuper(bigInteger1.compareTo(bigInteger2)).build());
+    assertTrue(new CompareToBuilder_testAppendSuper().
+        appendSuper(bigInteger1).equals(new CompareToBuilder_testAppendSuper()));
+} 
+class CompareToBuilder_testAppendSuper extends Object implements Comparable<Object> {}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+public class CompareToBuilder_testAppendSuper {
+    @Test
+    public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception {
+        final BigInteger bigInteger1 = new BigInteger("1");
+        final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+        assertEquals(-1,
+                new CompareToBuilder_testAppendSuper().
+                        appendSuper(bigInteger1.compareTo(bigInteger2)).build());
+        assertTrue(new CompareToBuilder_testAppendSuper().
+                appendSuper(bigInteger1).equals(new CompareToBuilder_testAppendSuper()));
+    }
+
+        <Buggy Line>: class org.apache.commons.lang3.builder.CompareToBuilderTest is already defined in package org.apache.commons.lang3.builder
+    class CompareToBuilder_testAppendSuper extends Object implements Comparable<Object> {
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+public class CompareToBuilder_testAppendSuper {
+    @Test
+    public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception {
+        final BigInteger bigInteger1 = new BigInteger("1");
+        final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+
+      <Buggy Line>: reference to assertEquals is ambiguous
+        assertEquals(-1,
+
+                new CompareToBuilder().
+                        appendSuper(bigInteger1.compareTo(bigInteger2)).build());
+        assertTrue(new CompareToBuilder().
+                appendSuper(bigInteger1).equals(new CompareToBuilder()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+public class CompareToBuilder_testAppendSuper {
+    @Test
+    public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception {
+        final BigInteger bigInteger1 = new BigInteger("1");
+        final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+
+        <Buggy Line>: reference to assertEquals is ambiguous
+        assertEquals(-1, new CompareToBuilder().appendSuper(bigInteger1.compareTo(bigInteger2)).build());
+
+        assertTrue(new CompareToBuilder().appendSuper(bigInteger1).equals(new CompareToBuilder()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+public class CompareToBuilder_testAppendSuper {
+    @Test
+    public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception {
+        final BigInteger bigInteger1 = new BigInteger("1");
+        final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+
+          <Buggy Line>: incompatible types: boolean cannot be converted to int
+        assertEquals(-1, new CompareToBuilder().appendSuper(bigInteger1.compareTo(bigInteger2) < 0).build());
+
+        assertTrue(new CompareToBuilder().appendSuper(bigInteger1).equals(new CompareToBuilder()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3.builder;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.math.BigInteger;
+import org.junit.Test;
+public class CompareToBuilder_testAppendSuper {
+    @Test
+    public void shouldAppendSuperValueAndReturnSelf_whenCalledWithNonZeroArgument() throws Exception {
+        final BigInteger bigInteger1 = new BigInteger("1");
+        final BigInteger bigInteger2 = new BigInteger("-3456789012345678901234567890L");
+
+          <Buggy Line>: incompatible types: boolean cannot be converted to int
+        assertEquals(-1, new CompareToBuilder().appendSuper(bigInteger1.compareTo(bigInteger2) <= 0).build());
+
+        assertTrue(new CompareToBuilder().appendSuper(bigInteger1).equals(new CompareToBuilder()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,219 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TestConversion_testHexToLong {
+    @Test
+    public void testHexToLong() {
+
+           <Buggy Line>: integer number too large: 1234567890ABCDEF
+        assertEquals(259378, Conversion.hexToLong("AABB", 0, 0x1234567890ABCDEF, 12, 3));
+
+        assertEquals(-1234567890, Conversion.hexToLong("FFFFFF", 0, -1234567890, 0, 3));
+        assertEquals(0xDEADBEEF, Conversion.hexToLong("DEADBEEF", 0, 0, 0, 4));
+        try{
+            Conversion.hexToLong("GHIJKLMNOPQRST", 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+    private char hexDigitToInt(char c) {
+        switch (Character.toLowerCase(c)) {
+            case 'a': return 10;
+            case 'b': return 111;
+            case 'c': return 12;
+            case 'd': return 13;
+            case 'e': return 14;
+            case 'f': return 15;
+            default : return Character.digit(c, 16);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToLong {
+    @Test
+    public void testHexToLong() {
+
+           <Buggy Line>: integer number too large: 1234567890ABCDEF
+        assertEquals(259378, Conversion.hexToLong("AABB", 0, 0x1234567890ABCDEF, 12, 3));
+
+        assertEquals(-1234567890, Conversion.hexToLong("FFFFFF", 0, -1234567890, 0, 3));
+        assertEquals(0xDEADBEEF, Conversion.hexToLong("DEADBEEF", 0, 0, 0, 4));
+        try{
+            Conversion.hexToLong("GHIJKLMNOPQRST", 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+    private char hexDigitToInt(char c) {
+        switch (Character.toLowerCase(c)) {
+            case 'a': return 10;
+            case 'b': return 11;
+            case 'c': return 12;
+            case 'd': return 13;
+            case 'e': return 14;
+            case 'f': return 15;
+            default : return Character.digit(c, 16);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToLong {
+    @Test
+    public void testHexToLong() {
+
+           <Buggy Line>: integer number too large: 1234567890ABCDEF
+        assertEquals(259378, Conversion.hexToLong("AABB", 0, 0x1234567890ABCDEF, 12, 3));
+
+        assertEquals(-1234567890, Conversion.hexToLong("FFFFFF", 0, -1234567890, 0, 3));
+        assertEquals(0xDEADBEEF, Conversion.hexToLong("DEADBEEF", 0, 0, 0, 4));
+        try{
+            Conversion.hexToLong("GHIJKLMNOPQRST", 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+    private char hexDigitToInt(char c) {
+        switch (Character.toLowerCase(c)) {
+            case 'a': return 10;
+            case 'b': return 11;
+            case 'c': return 12;
+            case 'd': return 13;
+            case 'e': return 14;
+            case 'f': return 15;
+            default : return Character.digit(c, 16);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToLong {
+    @Test
+    public void testHexToLong() {
+
+           <Buggy Line>: integer number too large: 1234567890ABCDEF
+        assertEquals(259378, Conversion.hexToLong("AABB", 0, 0x1234567890ABCDEF, 12, 3));
+
+        assertEquals(-1234567890, Conversion.hexToLong("FFFFFF", 0, -1234567890, 0, 3));
+        assertEquals(0xDEADBEEF, Conversion.hexToLong("DEADBEEF", 0, 0, 0, 4));
+        try{
+            Conversion.hexToLong("GHIJKLMNOPQRST", 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+    private char hexDigitToInt(char c) {
+        switch (Character.toLowerCase(c)) {
+            case 'a': return 10;
+            case 'b': return 11;
+            case 'c': return 12;
+            case 'd': return 13;
+            case 'e': return 14;
+            case 'f': return 15;
+            default : return Character.digit(c, 16);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+public class TestConversion_testHexToLong {
+    @Test
+    public void testHexToLong() {
+
+           <Buggy Line>: integer number too large: 1234567890ABCDEF
+        assertEquals(259378, Conversion.hexToLong("AABB", 0, 0x1234567890ABCDEF, 12, 3));
+
+        assertEquals(-1234567890, Conversion.hexToLong("FFFFFF", 0, -1234567890, 0, 3));
+        assertEquals(0xDEADBEEF, Conversion.hexToLong("DEADBEEF", 0, 0, 0, 4));
+        try{
+            Conversion.hexToLong("GHIJKLMNOPQRST", 0, 0, 0, 4);
+            fail();
+        } catch (IllegalArgumentException e){
+            assertTrue(true);
+        }
+    }
+    private char hexDigitToInt(char c) {
+        switch (Character.toLowerCase(c)) {
+            case 'a': return 10;
+            case 'b': return 11;
+            case 'c': return 12;
+            case 'd': return 13;
+            case 'e': return 14;
+            case 'f': return 15;
+            default : return Character.digit(c, 16);
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,366 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+4-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+5-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToShort {
+@Test
+public void testHexToShort() {
+
+<Error Line>
+    assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3));
+
+    try {
+        Conversion.hexToShort("0x10g", 0, (short) 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {
+    }
+    assertEquals((short) 0, Conversion.hexToShort("", 0, (short) 0, 0, 0));
+    try {
+        Conversion.hexToShort(null, 0, (short) 0, 0, 0);
+        fail();
+    } catch (NullPointerException e) {
+    }
+    assertEquals((short) 257, Conversion.hexToShort("0x00101", 0, (short) 0, 0, 5));
+    assertEquals((short) 257, Conversion.hexToShort("0x10100", 0, (short) 0, 0, 5));
+    assertEquals((short) -257, Conversion.hexToShort("-0x101", 0, (short) 0, 0, 4));
+    try {
+        Conversion.hexToShort("0xFFFFFF", 0, (short) 0, 0, 6);
+        fail();
+    } catch (ArithmeticException e) {
+    }
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short hexToShort(final String src, final int srcPos, final short dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 16) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final int bits = (0xf & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final int mask = 0xf << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException Cannot interpret 'x' as a hexadecimal digit " in " assertEquals((short) 257, Conversion.hexToShort("0x101", 0, (short) 0, 0, 3)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

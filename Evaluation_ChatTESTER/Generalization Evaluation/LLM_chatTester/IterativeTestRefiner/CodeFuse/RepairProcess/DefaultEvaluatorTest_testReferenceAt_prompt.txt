@@ -1,0 +1,42 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("file:/path/to/applicationContext.xml")
+public class DefaultEvaluatorTest_testReferenceAt extends AbstractGenericXmlApplicationContextTests{
+    @Autowired
+    private DefaultEvaluator defaultEvaluator;
+    private final String rawValue = "Hello World";
+    private final int position = 10;
+    private final Retriever mockRetriever = mock(Retriever.class);
+    @Before
+    public void setUp(){
+    }
+    @After
+    public void tearDown(){
+       super.tearDown();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+
+       <Buggy Line>: diamond operator is not supported in -source 1.6
+        when(mockRetriever.retrieve()).thenReturn(new ArrayList<>());
+
+        Assert.assertNull(defaultEvaluator.referenceAt(null, position, mockRetriever));
+        Assert.assertNotNull(defaultEvaluator.referenceAt(rawValue, position, mockRetriever));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

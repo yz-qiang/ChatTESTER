@@ -1,0 +1,24 @@
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] TTT_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[32,53] incompatible types: possible lossy conversion from double to long
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[38,82] incompatible types: void cannot be converted to nl.jqno.equalsverifier.api.SingleTypeEqualsVerifierApi
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[39,35] cannot find symbol
+  symbol:   method isSuccessful()
+  location: variable verifierAPI of type nl.jqno.equalsverifier.api.SingleTypeEqualsVerifierApi
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[40,34] cannot find symbol
+  symbol:   variable Duration
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[41,54] cannot find symbol
+  symbol:   variable keySizeBits
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[42,12] cannot find symbol
+  symbol:   class DecimalFormat
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[42,35] cannot find symbol
+  symbol:   class DecimalFormat
+  location: class com.macasaet.fernet.KeyTest
+[INFO] 7 errors 
+####################
+

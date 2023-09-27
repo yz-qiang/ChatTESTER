@@ -1,0 +1,187 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[13,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[15,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[22,132] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[19,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[26,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[19,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[26,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntDoubleSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntDoubleSortedVector
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[12,25] cannot find symbol
+  symbol:   class IntArrays
+  location: package edu.jhu.prim.util
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[20,25] cannot find symbol
+  symbol:   variable IntArrays
+  location: class edu.jhu.prim.vector.IntDoubleSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntDoubleSortedVectorTest.java:[27,139] cannot find symbol
+  symbol:   variable EPS
+  location: class edu.jhu.prim.Primitives
+[INFO] 4 errors 
+####################
+

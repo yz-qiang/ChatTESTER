@@ -1,0 +1,184 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[31,6] cannot find symbol
+  symbol:   class ParameterizedTest
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[32,6] cannot find symbol
+  symbol:   class CsvSource
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[INFO] 2 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest###testChild
+[GENERATED PATH] XmlPresentTest_testChild.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,5] cannot find symbol
+  symbol:   class InputStream
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[14,26] cannot find symbol
+  symbol:   method getResourceAsStream(java.lang.String)
+  location: class nl.pvanassen.ns.xml.XmlPresentTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[19,39] cannot find symbol
+  symbol:   method getName()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/xml/XmlPresentTest.java:[20,37] cannot find symbol
+  symbol:   method getValue()
+  location: variable result of type nl.pvanassen.ns.xml.Xml
+[INFO] 4 errors 
+####################
+

@@ -1,0 +1,47 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testEquals
+[GENERATED PATH] IntFloatHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[13,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntFloatHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[56,22] incompatible types: java.lang.Object cannot be converted to int
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testEquals
+[GENERATED PATH] IntFloatHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[57,22] incompatible types: java.lang.Object cannot be converted to int
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testEquals
+[GENERATED PATH] IntFloatHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[57,22] incompatible types: java.lang.Object cannot be converted to int
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testEquals
+[GENERATED PATH] IntFloatHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[15,9] cannot find symbol
+  symbol:   variable map1
+  location: class edu.jhu.prim.map.IntFloatHashMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testEquals
+[GENERATED PATH] IntFloatHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[15,9] cannot find symbol
+  symbol:   variable map1
+  location: class edu.jhu.prim.map.IntFloatHashMapTest
+[INFO] 1 error
+####################
+

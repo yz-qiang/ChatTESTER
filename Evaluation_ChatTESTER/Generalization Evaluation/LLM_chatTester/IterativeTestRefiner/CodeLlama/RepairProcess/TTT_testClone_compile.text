@@ -1,0 +1,208 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,5] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,37] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,5] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotEquals(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotEquals(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotSame(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotSame(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotEquals(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotEquals(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotSame(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[32,9] cannot find symbol
+  symbol:   method assertNotSame(org.apache.commons.lang3.MySerializableObject,org.apache.commons.lang3.MySerializableObject)
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[26,41] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[29,9] cannot find symbol
+  symbol:   class MySerializableObject
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 3 errors 
+####################
+

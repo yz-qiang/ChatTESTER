@@ -1,0 +1,240 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoEventuallyCollectImmediate
+[GENERATED PATH] TTT_testDoEventuallyCollectImmediate.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[46,70] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,38] method doEventuallyCollectImmediate in class eu.toolchain.concurrent.CoreAsync cannot be applied to given types;
+  required: java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>,java.util.function.Consumer<? super C>,java.util.function.Supplier<? extends T>
+  found: java.util.List<java.util.concurrent.Callable<java.lang.String>>,java.util.function.Consumer<java.lang.String>,java.util.function.Supplier<java.lang.Integer>
+  reason: cannot infer type-variable(s) C,T
+    (argument mismatch; java.util.List<java.util.concurrent.Callable<java.lang.String>> cannot be converted to java.util.Collection<? extends java.util.concurrent.Callable<? extends eu.toolchain.concurrent.Stage<? extends C>>>)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,82] cannot find symbol
+  symbol:   variable TimeUnit
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method get()
+  location: variable result of type eu.toolchain.concurrent.Stage<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,30] cannot find symbol
+  symbol:   method equalTo(java.lang.Integer)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[INFO] 5 errors 
+####################
+

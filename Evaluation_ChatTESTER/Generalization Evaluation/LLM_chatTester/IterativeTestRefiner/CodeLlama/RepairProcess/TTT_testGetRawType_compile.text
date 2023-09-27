@@ -1,0 +1,290 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,57] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testGetRawType
+[GENERATED PATH] TTT_testGetRawType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,61] incompatible types: java.lang.Class<java.lang.Integer> cannot be converted to java.lang.reflect.ParameterizedType
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,55] cannot find symbol
+  symbol:   class ParameterizedTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,57] cannot find symbol
+  symbol:   class WildcardTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,57] cannot find symbol
+  symbol:   class TypeVariableImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,62] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[37,59] cannot find symbol
+  symbol:   class GenericArrayTypeImpl
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,49] cannot find symbol
+  symbol:   class NonReifiableType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,49] cannot find symbol
+  symbol:   class NoCorrespondingClassType
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 8 errors 
+####################
+

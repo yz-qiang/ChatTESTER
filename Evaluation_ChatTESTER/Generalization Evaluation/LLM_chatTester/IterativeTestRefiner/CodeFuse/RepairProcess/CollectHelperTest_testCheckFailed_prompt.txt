@@ -1,0 +1,71 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package eu.toolchain.concurrent;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.mockito.Matchers.any;
+import static org.mockito.Matchers.anyObject;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import com.google.common.collect.ImmutableList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Function;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+@RunWith(MockitoJUnitRunner.class)
+public class CollectHelperTest_testCheckFailed {
+    @Mock private Stage mockStage1;
+    @Mock private Stage mockStage2;
+    @Mock private Stage mockStage3;
+    @Mock private Completable completableTarget;
+    private List<Stage<?>> stageList;
+    private CollectHelper helper;
+    @Before
+    public void setUp(){
+        stageList = ImmutableList.of(mockStage1, mockStage2, mockStage3);
+
+<Error Line>
+        helper = spy(new CollectHelper(stageList.size(), any(Function.class), stageList, completableTarget));
+
+    }
+    @Test
+    public void testCheckFailed() throws Exception{
+        doReturn(true).when(helper).failed.getAndSet(true);
+        doNothing().when(mockStage1).cancel();
+        doNothing().when(mockStage2).cancel();
+        doNothing().when(mockStage3).cancel();
+        helper.checkFailed();
+        verify(mockStage1, times(1)).cancel();
+        verify(mockStage2, times(1)).cancel();
+        verify(mockStage3, times(1)).cancel();
+        assertNull(helper.sources);
+    }
+}
+
+
+// Focal method (Cannot be modified)
+void checkFailed() {
+    if (!failed.compareAndSet(false, true)) {
+        return;
+    }
+    for (final Stage<?> source : sources) {
+        source.cancel();
+    }
+    sources = null;
+}
+
+The test method throw an error " org.mockito.exceptions.misusing.InvalidUseOfMatchersException  Misplaced argument matcher detected here:  -> at eu.toolchain.concurrent.CollectHelperTest.setUp(CollectHelperTest.java:35)  You cannot use argument matchers outside of verification or stubbing. Examples of correct usage of argument matchers:     when(mock.get(anyInt())).thenReturn(null);     doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());     verify(mock).someMethod(contains("foo"))  Also, this error might show up because you use argument matchers with methods that cannot be mocked. Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode(). Mocking methods declared on non-public parent classes is not supported.  " in " helper = spy(new CollectHelper(stageList.size(), any(Function.class), stageList, completableTarget)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

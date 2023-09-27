@@ -1,0 +1,210 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest###testDoCollect
+[GENERATED PATH] TTT_testDoCollect.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[44,35] cannot find symbol
+  symbol:   variable Arrays
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[48,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[49,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[50,31] incompatible types: java.util.function.Consumer<java.lang.Integer> cannot be converted to eu.toolchain.concurrent.Handle<? super java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,44] non-static method <C,T>doCollect(java.util.Collection<? extends eu.toolchain.concurrent.Stage<? extends C>>,java.util.function.Function<? super java.util.Collection<C>,? extends T>) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[51,54] incompatible types: no instance(s) of type variable(s) C,T exist so that eu.toolchain.concurrent.Stage<T> conforms to eu.toolchain.concurrent.Completable<java.lang.Integer>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[52,5] cannot find symbol
+  symbol:   method assertThat(boolean)
+  location: class eu.toolchain.concurrent.CoreAsyncTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/CoreAsyncTest.java:[53,22] cannot find symbol
+  symbol:   method getNow(<nulltype>)
+  location: variable result of type eu.toolchain.concurrent.Completable<java.lang.Integer>
+[INFO] 8 errors 
+####################
+

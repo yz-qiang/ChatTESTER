@@ -1,0 +1,306 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+
+<Error Line>
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static long hexToLong(final String src, final int srcPos, final long dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final long bits = (0xfL & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final long mask = 0xfL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+
+   <Buggy Line>: cannot find symbol method "hexDigitToInt(char)" in ConversionTest
+    try {
+
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+
+<Error Line>
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static long hexToLong(final String src, final int srcPos, final long dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final long bits = (0xfL & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final long mask = 0xfL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+
+   <Buggy Line>: cannot find symbol method "hexDigitToInt(char)" in ConversionTest
+    try {
+
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+
+<Error Line>
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static long hexToLong(final String src, final int srcPos, final long dstInit, final int dstPos, final int nHex) {
+    if (0 == nHex) {
+        return dstInit;
+    }
+    if ((nHex - 1) * 4 + dstPos >= 64) {
+        throw new IllegalArgumentException("(nHexs-1)*4+dstPos is greater or equal to than 64");
+    }
+    long out = dstInit;
+    for (int i = 0; i < nHex; i++) {
+        final int shift = i * 4 + dstPos;
+        final long bits = (0xfL & hexDigitToInt(src.charAt(i + srcPos))) << shift;
+        final long mask = 0xfL << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+5-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testHexToLong {
+@Test
+public void testHexToLong() {
+    assertEquals(257L, Conversion.hexToLong("ff", 0, 0L, 0, 2));
+    assertEquals(-983041L, Conversion.hexToLong("fffffff", 0, -1L, 0, 4));
+    assertEquals(16777215L, Conversion.hexToLong("ffffffff", 0, -1L, 0, 4));
+    assertEquals(0L, Conversion.hexToLong("00000000", 0, 0L, 0, 4));
+    try {
+        Conversion.hexToLong("ggg", 0, 0L, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+
+   <Buggy Line>: cannot find symbol method "hexDigitToInt(char)" in ConversionTest
+    try {
+
+        Conversion.hexToLong(null, 0, 0L, 0, 2);
+        fail();
+    } catch (NullPointerException e) {}
+    try {
+        Conversion.hexToLong("", 0, 0L, 0, 2);
+        fail();
+    } catch (IndexOutOfBoundsException e) {}
+    assertEquals(257L, Conversion.hexToLong("0xff", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("ff00", 0, 0L, 0, 2));
+    assertEquals(257L, Conversion.hexToLong("0xff00", 0, 0L, 0, 2));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

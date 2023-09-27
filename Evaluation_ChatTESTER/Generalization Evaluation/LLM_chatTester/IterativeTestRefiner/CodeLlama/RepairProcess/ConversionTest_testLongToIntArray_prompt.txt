@@ -1,0 +1,92 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToIntArray {
+@Test
+public void testLongToIntArray() {
+    long src = 0x123456789ABCDEF0L;
+    int srcPos = 32;
+    int[] dst = new int[4];
+    int dstPos = 0;
+    int nInts = 2;
+    int[] expectedResult = new int[]{0x12345678, 0x9ABCDEF0};
+
+<Error Line>
+    int[] actualResult = Conversion.longToIntArray(src, srcPos, dst, dstPos, nInts);
+
+    assertArrayEquals(expectedResult, actualResult);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static int[] longToIntArray(final long src, final int srcPos, final int[] dst, final int dstPos, final int nInts) {
+    if (0 == nInts) {
+        return dst;
+    }
+    if ((nInts - 1) * 32 + srcPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+srcPos is greater or equal to than 64");
+    }
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + srcPos;
+        dst[dstPos + i] = (int) (0xffffffff & (src >> shift));
+    }
+    return dst;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException (nInts-1)*32+srcPos is greater or equal to than 64 " in " int[] actualResult = Conversion.longToIntArray(src, srcPos, dst, dstPos, nInts); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToIntArray {
+@Test
+public void testLongToIntArray() {
+    long src = 0x123456789ABCDEF0L;
+    int srcPos = 0; 
+    int[] dst = new int[4];
+    int dstPos = 0;
+    int nInts = 2;
+    int[] expectedResult = new int[]{0x12345678, 0x9ABCDEF0};
+    int[] actualResult = Conversion.longToIntArray(src, srcPos, dst, dstPos, nInts);
+
+<Error Line>
+    assertArrayEquals(expectedResult, actualResult);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static int[] longToIntArray(final long src, final int srcPos, final int[] dst, final int dstPos, final int nInts) {
+    if (0 == nInts) {
+        return dst;
+    }
+    if ((nInts - 1) * 32 + srcPos >= 64) {
+        throw new IllegalArgumentException("(nInts-1)*32+srcPos is greater or equal to than 64");
+    }
+    for (int i = 0; i < nInts; i++) {
+        final int shift = i * 32 + srcPos;
+        dst[dstPos + i] = (int) (0xffffffff & (src >> shift));
+    }
+    return dst;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertArrayEquals(expectedResult, actualResult); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

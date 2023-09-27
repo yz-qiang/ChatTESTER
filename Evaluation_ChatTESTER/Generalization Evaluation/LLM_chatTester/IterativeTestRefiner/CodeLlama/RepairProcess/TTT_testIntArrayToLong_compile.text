@@ -1,0 +1,52 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ConversionTest###testIntArrayToLong
+[GENERATED PATH] TTT_testIntArrayToLong.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[32,35] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,5] cannot find symbol
+  symbol:   class GenericDeclaration
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,48] cannot find symbol
+  symbol:   class GenericDeclaration
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[33,35] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[34,26] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[35,25] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[36,23] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[38,20] cannot find symbol
+  symbol:   method getGenericDeclaration()
+  location: variable methodMock of type java.lang.reflect.Method
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[39,19] cannot find symbol
+  symbol:   method getGenericDeclaration()
+  location: variable fieldMock of type java.lang.reflect.Field
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[40,5] cannot find symbol
+  symbol:   method when(capture#1 of ?)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[41,5] cannot find symbol
+  symbol:   method when(java.lang.String)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[42,5] cannot find symbol
+  symbol:   method when(java.lang.String)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[43,5] cannot find symbol
+  symbol:   method when(java.lang.String)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[44,5] cannot find symbol
+  symbol:   method when(java.lang.String)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java:[46,5] cannot find symbol
+  symbol:   method assertThat(java.lang.String)
+  location: class org.apache.commons.lang3.reflect.TypeUtilsTest
+[INFO] 15 errors 
+####################
+

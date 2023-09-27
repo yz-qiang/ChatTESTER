@@ -1,0 +1,76 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+@Test 
+
+  <Buggy Line>: class, interface, or enum expected
+public void testGetInstance() throws Exception{
+
+    assertEquals("abc", CharSetStringUtils_testGetInstance.getInstance("a","b","c").toString());
+    assertSame(CharsetStringUtils.COMMON.get(""), CharsetStringUtils.getInstance("", ""));
+    assertNull(CharsetStringUtils.getInstance((String[])null));
+    assertFalse(CharsetStringUtils.getInstance().isEmpty());
+} 
+class CharSetStringUtils_testGetInstance extends CharSet {}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class CharSetStringUtils_testGetInstance {
+    @Test
+    public void testGetInstance() throws Exception {
+
+         <Buggy Line>: method getInstance in class org.apache.commons.lang3.CharSetTest cannot be applied to given types;
+        assertEquals("abc", CharSetStringUtils_testGetInstance.getInstance("a", "b", "c").toString());
+
+        assertSame(CharsetStringUtils.COMMON.get(""), CharsetStringUtils.getInstance("", ""));
+        assertNull(CharsetStringUtils.getInstance((String[]) null));
+        assertFalse(CharsetStringUtils.getInstance().isEmpty());
+    }
+    public static CharSet getInstance(String set) {
+        if (set == null || set.length == 0) {
+            return null;
+        }
+        CharSet result = new CharSet();
+        for (String s : set) {
+            result.add(s);
+        }
+        return result;
+    }
+    private static class CharSet {
+        private final StringBuilder sb = new StringBuilder();
+        public void add(String s) {
+            sb.append(s);
+        }
+        public String toString() {
+            return sb.toString();
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

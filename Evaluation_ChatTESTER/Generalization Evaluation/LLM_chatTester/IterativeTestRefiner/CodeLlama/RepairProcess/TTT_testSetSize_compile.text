@@ -1,0 +1,317 @@
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,15] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,42] de.waldheinz.fs.fat.BootSector is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,5] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.fat.BootSector)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,51] cannot find symbol
+  symbol:   class BlockDevice
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,38] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.BlockDevice)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,5] cannot find symbol
+  symbol:   method when(long)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[16,5] cannot find symbol
+  symbol:   method when(int)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 8 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[8,19] package org.mockito does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,46] de.waldheinz.fs.fat.BootSector is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,9] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.fat.BootSector)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,55] cannot find symbol
+  symbol:   class BlockDevice
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,42] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,9] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.BlockDevice)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[16,9] cannot find symbol
+  symbol:   method when(long)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[17,9] cannot find symbol
+  symbol:   method when(int)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 9 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[8,19] package org.mockito does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,46] de.waldheinz.fs.fat.BootSector is abstract; cannot be instantiated
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,9] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.fat.BootSector)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,55] cannot find symbol
+  symbol:   class BlockDevice
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,42] cannot find symbol
+  symbol:   variable Mockito
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[15,9] cannot find symbol
+  symbol:   method when(de.waldheinz.fs.BlockDevice)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[16,9] cannot find symbol
+  symbol:   method when(long)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[17,9] cannot find symbol
+  symbol:   method when(int)
+  location: class de.waldheinz.fs.fat.ClusterChainTest
+[INFO] 9 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,5] unclosed character literal
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,5] unclosed character literal
+[INFO] 2 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+
+original test path: waldheinz_fat32-lib###waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest###testSetSize
+[GENERATED PATH] TTT_testSetSize.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[10,1] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,1] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[11,60] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,5] class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,25] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,42] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,73] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,77] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,84] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,92] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,110] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[12,135] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,7] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,19] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,27] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,39] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,40] invalid method declaration; return type required
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[13,56] illegal character: '`'
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[14,5] unclosed character literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/waldheinz_fat32-lib/src/test/java/de/waldheinz/fs/fat/ClusterChainTest.java:[41,2] reached end of file while parsing
+[INFO] 23 errors 
+####################
+

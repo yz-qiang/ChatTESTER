@@ -1,0 +1,401 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+
+       <Buggy Line>: cannot find symbol class "HashMap"
+    Map<String, String> expectedOutput = new HashMap<>();
+
+    expectedOutput.put("key", "value");
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+import java.util.HashMap;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+    Map<String, String> expectedOutput = new HashMap<>();
+    expectedOutput.put("key", "value");
+
+<Error Line>
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Map<Object, Object> toMap(final Object[] array) {
+    if (array == null) {
+        return null;
+    }
+    final Map<Object, Object> map = new HashMap<>((int) (array.length * 1.5));
+    for (int i = 0; i < array.length; i++) {
+        final Object object = array[i];
+        if (object instanceof Map.Entry<?, ?>) {
+            final Map.Entry<?, ?> entry = (Map.Entry<?, ?>) object;
+            map.put(entry.getKey(), entry.getValue());
+        } else if (object instanceof Object[]) {
+            final Object[] entry = (Object[]) object;
+            if (entry.length < 2) {
+                throw new IllegalArgumentException("Array element " + i + ", '" + object + "', has a length less than 2");
+            }
+            map.put(entry[0], entry[1]);
+        } else {
+            throw new IllegalArgumentException("Array element " + i + ", '" + object + "', is neither of type Map.Entry nor an Array");
+        }
+    }
+    return map;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, ArrayUtils.toMap(validInputs)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+import java.util.HashMap;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+
+       <Buggy Line>: java.util.Map.Entry is abstract; cannot be instantiated
+    Map<String, String> expectedOutput = new HashMap<>();
+
+    expectedOutput.put("key", "value");
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+import java.util.HashMap;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+    Map<String, String> expectedOutput = new HashMap<>();
+    expectedOutput.put("key", "value");
+
+<Error Line>
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Map<Object, Object> toMap(final Object[] array) {
+    if (array == null) {
+        return null;
+    }
+    final Map<Object, Object> map = new HashMap<>((int) (array.length * 1.5));
+    for (int i = 0; i < array.length; i++) {
+        final Object object = array[i];
+        if (object instanceof Map.Entry<?, ?>) {
+            final Map.Entry<?, ?> entry = (Map.Entry<?, ?>) object;
+            map.put(entry.getKey(), entry.getValue());
+        } else if (object instanceof Object[]) {
+            final Object[] entry = (Object[]) object;
+            if (entry.length < 2) {
+                throw new IllegalArgumentException("Array element " + i + ", '" + object + "', has a length less than 2");
+            }
+            map.put(entry[0], entry[1]);
+        } else {
+            throw new IllegalArgumentException("Array element " + i + ", '" + object + "', is neither of type Map.Entry nor an Array");
+        }
+    }
+    return map;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, ArrayUtils.toMap(validInputs)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+4-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+import java.util.HashMap;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+
+       <Buggy Line>: java.util.Map.Entry is abstract; cannot be instantiated
+    Map<String, String> expectedOutput = new HashMap<>();
+
+    expectedOutput.put("key", "value");
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Modifier;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Map;
+import org.junit.Test;
+import java.util.HashMap;
+public class TTT_testToMap {
+@Test
+public void testToMap() {
+    Object[] validInputs = new Object[]{new String[]{"key", "value"}, new Integer[]{1, 2}, new Double[]{3.4, 5.6}};
+    Map<String, String> expectedOutput = new HashMap<>();
+    expectedOutput.put("key", "value");
+
+<Error Line>
+    assertEquals(expectedOutput, ArrayUtils.toMap(validInputs));
+
+    try {
+        ArrayUtils.toMap(null);
+        fail("Expected NullPointerException when passing null argument.");
+    } catch (NullPointerException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{});
+        fail("Expected IllegalArgumentException when passing empty array.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object(){}});
+        fail("Expected IllegalArgumentException when passing non-array element.");
+    } catch (IllegalArgumentException e) {}
+    try {
+        ArrayUtils.toMap(new Object[]{new Object[]{}});
+        fail("Expected IllegalArgumentException when passing array element with length less than 2.");
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static Map<Object, Object> toMap(final Object[] array) {
+    if (array == null) {
+        return null;
+    }
+    final Map<Object, Object> map = new HashMap<>((int) (array.length * 1.5));
+    for (int i = 0; i < array.length; i++) {
+        final Object object = array[i];
+        if (object instanceof Map.Entry<?, ?>) {
+            final Map.Entry<?, ?> entry = (Map.Entry<?, ?>) object;
+            map.put(entry.getKey(), entry.getValue());
+        } else if (object instanceof Object[]) {
+            final Object[] entry = (Object[]) object;
+            if (entry.length < 2) {
+                throw new IllegalArgumentException("Array element " + i + ", '" + object + "', has a length less than 2");
+            }
+            map.put(entry[0], entry[1]);
+        } else {
+            throw new IllegalArgumentException("Array element " + i + ", '" + object + "', is neither of type Map.Entry nor an Array");
+        }
+    }
+    return map;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedOutput, ArrayUtils.toMap(validInputs)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

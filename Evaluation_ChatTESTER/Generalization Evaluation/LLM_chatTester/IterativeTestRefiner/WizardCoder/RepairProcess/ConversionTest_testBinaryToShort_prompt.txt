@@ -1,0 +1,368 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+@Test 
+public void shouldConvertBinaryArrayToIntAndStoreInByteArrayAsSignedTwoComplementUsingJavaPrimitiveTypes(){
+    try{
+        Boolean []inputBooleanArr={true,false};   
+        Integer expectedOutputIntValue=-96 ;        
+        Short initDestinationVal=(short)-3584;       
+        Byte desiredDestIndexByte =(byte)(initDestinationVal>>8&0xff);    
+        Character desiredDestLowOrderChar=(char)((desiredDestIndexByte<<8)|((~expectedOutputIntValue)&0xFF));     
+        System.out.println("\t\tInput Parameter Values:");
+        printValuesForDebuggingPurposesOnly();      
+
+        <Buggy Line>: incompatible types: int cannot be converted to java.lang.Character
+        String actualResultStr="["+(Conversion.binaryToShort(inputBooleanArr,(Integer)2,initDestinationVal,(Character)7,(Integer)2))+", "+
+
+                (~(((short)~(Conversion.binaryToShort(inputBooleanArr,(Integer)2,initDestinationVal,(Character)7,(Integer)2)))>>>8))+"]";
+        assertEquals("["+actualResultStr+" ]", "["+expectedOutputIntValue+", "+desiredDestLowOrderChar+ "]","Actual results did not match expected outputs.");
+    }catch(Exception e){
+            fail ("An Exception Occured While Performing Unit Testing On BinaryToShortFunction."
+                    +" Error Message Is:"+e.getMessage());
+    }
+}
+     private void printValuesForDebuggingPurposesOnly(){
+    	System.out.print("\tSource Bool Arr=[ ");
+	        for(boolean val:inputBooleanArr ){
+	        	  System.out.print(val+" ");
+	        }
+	        System.out.println("]");
+	        System.out.println("\tExpected Int Val="+expectedOutputIntValue+"\tInitial Dstination Val="+initDestinationVal);
+	    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+String actualResultStr="["+(Conversion.binaryToShort(inputBooleanArr,(Integer)2,initDestinationVal,(Character)7,(Integer)2))+", "+
+                (~(((short)~(Conversion.binaryToShort(inputBooleanArr,(Integer)2,initDestinationVal,(Character)7,(Integer)2)))>>>8))+"]";
+String expectedResultStr="["+expectedOutputIntValue+", "+desiredDestLowOrderChar+ "]";
+
+     <Buggy Line>: invalid method declaration; return type required
+assertEquals(expectedResultStr, actualResultStr,"Actual results did not match expected outputs.");
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+
+        <Buggy Line>: empty character literal
+        char desiredDestLowOrderChar ='';
+
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+        assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+        char desiredDestLowOrderChar = 'a';
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+
+<Error Line>
+        assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " org.junit.ComparisonFailure [3, a] expected:<[[128, 0]]> but was:<[Actual results did not match expected outputs.]> " in " assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+4-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+        char desiredDestLowOrderChar = 'a';
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+        try {
+            assertEquals(expectedResultStr, actualResultStr);
+        } catch (AssertionError e) {
+
+<Error Line>
+            assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " org.junit.ComparisonFailure [3, a] expected:<[[128, 0]]> but was:<[Actual results did not match expected outputs.]> " in " assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+5-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+        char desiredDestLowOrderChar = 'a';
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+        try {
+            assertEquals(expectedResultStr, actualResultStr);
+        } catch (AssertionError e) {
+
+<Error Line>
+            assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " org.junit.ComparisonFailure [3, a] expected:<[[128, 0]]> but was:<[Actual results did not match expected outputs.]> " in " assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+6-->7-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+        char desiredDestLowOrderChar = 'a';
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+        try {
+            assertEquals(expectedResultStr, actualResultStr);
+        } catch (AssertionError e) {
+
+<Error Line>
+            assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " org.junit.ComparisonFailure [3, a] expected:<[[128, 0]]> but was:<[Actual results did not match expected outputs.]> " in " assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+7-->7-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+    @Test
+    public void testBinaryToShort() {
+        boolean[] inputBooleanArr = {true, false, true, false, true, false, true, false};
+        short initDestinationVal = 0;
+        char desiredDestLowOrderChar = 'a';
+        int numBits = 2;
+        int expectedOutputIntValue = 3;
+        String actualResultStr = "[" + (Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) + ", "
+                + (~(((short) (~(Conversion.binaryToShort(inputBooleanArr, 2, initDestinationVal, 7, 2)) >>> 8)))) + "]";
+        String expectedResultStr = "[" + expectedOutputIntValue + ", " + desiredDestLowOrderChar + "]";
+        try {
+            assertEquals(expectedResultStr, actualResultStr);
+        } catch (AssertionError e) {
+
+<Error Line>
+            assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs.");
+
+        }
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " org.junit.ComparisonFailure [3, a] expected:<[[128, 0]]> but was:<[Actual results did not match expected outputs.]> " in " assertEquals(expectedResultStr, actualResultStr, "Actual results did not match expected outputs."); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

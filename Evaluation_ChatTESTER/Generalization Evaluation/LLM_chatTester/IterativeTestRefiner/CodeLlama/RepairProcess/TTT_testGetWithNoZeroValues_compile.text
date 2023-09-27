@@ -1,0 +1,34 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TTT_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[15,72] no suitable method found for isZero(float)
+    method edu.jhu.prim.Primitives.isZero(int) is not applicable
+      (argument mismatch; possible lossy conversion from float to int)
+    method edu.jhu.prim.Primitives.isZero(long) is not applicable
+      (argument mismatch; possible lossy conversion from float to long)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[19,75] no suitable method found for isZero(float)
+    method edu.jhu.prim.Primitives.isZero(int) is not applicable
+      (argument mismatch; possible lossy conversion from float to int)
+    method edu.jhu.prim.Primitives.isZero(long) is not applicable
+      (argument mismatch; possible lossy conversion from float to long)
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TTT_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[15,72] no suitable method found for isZero(float)
+    method edu.jhu.prim.Primitives.isZero(int) is not applicable
+      (argument mismatch; possible lossy conversion from float to int)
+    method edu.jhu.prim.Primitives.isZero(long) is not applicable
+      (argument mismatch; possible lossy conversion from float to long)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[19,75] no suitable method found for isZero(float)
+    method edu.jhu.prim.Primitives.isZero(int) is not applicable
+      (argument mismatch; possible lossy conversion from float to int)
+    method edu.jhu.prim.Primitives.isZero(long) is not applicable
+      (argument mismatch; possible lossy conversion from float to long)
+[INFO] 2 errors 
+####################
+

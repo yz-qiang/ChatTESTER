@@ -1,0 +1,23 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntFloatSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[12,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntFloatSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[26,103] cannot find symbol
+  symbol:   method getValue()
+  location: variable entry of type edu.jhu.prim.map.IntFloatEntry
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntFloatSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntFloatSortedVectorTest.java:[28,103] cannot find symbol
+  symbol:   method getValue()
+  location: variable entry of type edu.jhu.prim.map.IntFloatEntry
+[INFO] 1 error
+####################
+

@@ -1,0 +1,379 @@
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,39] cannot find symbol
+  symbol:   class ParserConfigurationException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,69] cannot find symbol
+  symbol:   class SAXException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,83] cannot find symbol
+  symbol:   class IOException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/prijzen/PrijsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[12,83] cannot find symbol
+  symbol:   class IOException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[INFO] 1 error
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,39] cannot find symbol
+  symbol:   class ParserConfigurationException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,69] cannot find symbol
+  symbol:   class SAXException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[10,83] cannot find symbol
+  symbol:   class IOException
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[INFO] 3 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[16,26] incompatible types: java.lang.String cannot be converted to byte[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[34,41] non-static method getModel(java.io.InputStream) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[36,9] cannot find symbol
+  symbol:   method assertFalse(boolean)
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,26] cannot find symbol
+  symbol:   method containsKey(java.lang.String)
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[38,36] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[39,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[40,50] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[41,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[42,34] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[43,39] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[44,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[45,39] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[46,31] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[47,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[48,34] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[INFO] 15 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[16,26] incompatible types: java.lang.String cannot be converted to byte[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[34,41] non-static method getModel(java.io.InputStream) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[36,9] cannot find symbol
+  symbol:   method assertFalse(boolean)
+  location: class nl.pvanassen.ns.model.stations.StationsHandleTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,26] cannot find symbol
+  symbol:   method containsKey(java.lang.String)
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[38,36] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[39,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[40,50] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[41,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[42,34] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[43,39] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[44,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[45,39] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[46,31] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[47,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[48,34] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[INFO] 15 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,41] non-static method getModel(java.io.InputStream) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[40,33] cannot find symbol
+  symbol:   method containsKey(java.lang.String)
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[41,43] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[42,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[43,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[44,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[45,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[46,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[47,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[48,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[49,38] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[50,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[51,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[37,41] non-static method getModel(java.io.InputStream) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[40,33] cannot find symbol
+  symbol:   method containsKey(java.lang.String)
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[41,43] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[42,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[43,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[44,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[45,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[46,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[47,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[48,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[49,38] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[50,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[51,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[INFO] 13 errors 
+####################
+
+original test path: pvanassen_ns-api###pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest###testGetModel
+[GENERATED PATH] TestClass_testGetModel.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[41,33] cannot find symbol
+  symbol:   method containsKey(java.lang.String)
+  location: variable result of type nl.pvanassen.ns.model.stations.Stations
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[42,43] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[43,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[44,57] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[45,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[46,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[47,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[48,48] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[49,46] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[50,38] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[51,64] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/pvanassen_ns-api/src/test/java/nl/pvanassen/ns/model/stations/StationsHandleTest.java:[52,41] no suitable method found for get(java.lang.String)
+    method java.util.List.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    method nl.pvanassen.ns.model.NsResultListWrapper.get(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+[INFO] 12 errors 
+####################
+

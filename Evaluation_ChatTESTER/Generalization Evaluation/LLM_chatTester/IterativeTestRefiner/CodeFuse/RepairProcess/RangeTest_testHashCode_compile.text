@@ -1,0 +1,98 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[21,23] integer number too large: -649833359367
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[16,16] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[16,16] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest###testHashCode
+[GENERATED PATH] RangeTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/RangeTest.java:[18,17] cannot infer type arguments for org.apache.commons.lang3.Range<>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)
+[INFO] 1 error
+####################
+

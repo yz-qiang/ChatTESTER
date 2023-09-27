@@ -1,0 +1,130 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,10] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,33] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] IntLongHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,25] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 2 errors 
+####################
+

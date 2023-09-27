@@ -1,0 +1,225 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+public void testGetAndDecrement() {
+    MutableInt mutableInt = new MutableInt(5);
+
+   <Buggy Line>: reference to assertEquals is ambiguous
+    assertEquals(5, mutableInt.getValue());
+
+    int result = mutableInt.getAndDecrement();
+    assertEquals(4, result);
+    assertEquals(4, mutableInt.getValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.getValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.getValue());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+public void testGetAndDecrement() {
+    MutableInt mutableInt = new MutableInt(5);
+    assertEquals(5, mutableInt.intValue());
+    int result = mutableInt.getAndDecrement();
+
+<Error Line>
+    assertEquals(4, result);
+
+    assertEquals(4, mutableInt.intValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.intValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.intValue());
+}
+}
+
+
+// Focal method (Cannot be modified)
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(4, result); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+2-->3-->0-->testRepair
+// Import information
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+
+ <Buggy Line>: cannot find symbol variable "value"
+public void testGetAndDecrement() {
+
+    MutableInt mutableInt = new MutableInt(5);
+    assertEquals(5, mutableInt.getValue());
+    int result = mutableInt.getAndDecrement();
+    assertEquals(4, result);
+    assertEquals(4, mutableInt.getValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.getValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.getValue());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+public void testGetAndDecrement() {
+    MutableInt mutableInt = new MutableInt(5);
+    assertEquals(5, mutableInt.getValue());
+
+     <Buggy Line>: reference to assertEquals is ambiguous
+    int result = mutableInt.getAndDecrement();
+
+    assertEquals(4, result);
+    assertEquals(4, mutableInt.getValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.getValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.getValue());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->0-->testRepair
+// Test Method
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+public void testGetAndDecrement() {
+    MutableInt mutableInt = new MutableInt(5);
+
+   <Buggy Line>: reference to assertEquals is ambiguous
+    assertEquals(5, mutableInt.getValue());
+
+    int result = mutableInt.getAndDecrement();
+    assertEquals(4, result);
+    assertEquals(4, mutableInt.getValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.getValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.getValue());
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->5-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.mutable;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class TTT_testGetAndDecrement {
+@Test
+public void testGetAndDecrement() {
+    MutableInt mutableInt = new MutableInt(5);
+    assertEquals(5, mutableInt.intValue());
+    int result = mutableInt.getAndDecrement();
+
+<Error Line>
+    assertEquals(4, result);
+
+    assertEquals(4, mutableInt.intValue());
+    result = mutableInt.getAndDecrement();
+    assertEquals(3, result);
+    assertEquals(3, mutableInt.intValue());
+    mutableInt.setValue(-2);
+    result = mutableInt.getAndDecrement();
+    assertEquals(-3, result);
+    assertEquals(-3, mutableInt.intValue());
+}
+}
+
+
+// Focal method (Cannot be modified)
+public byte getAndDecrement() {
+    final byte last = value;
+    value--;
+    return last;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(4, result); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

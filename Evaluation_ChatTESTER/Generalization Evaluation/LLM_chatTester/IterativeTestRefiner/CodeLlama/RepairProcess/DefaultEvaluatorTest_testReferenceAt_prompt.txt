@@ -1,0 +1,287 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+         <Buggy Line>: cannot find symbol
+    private static final List<Object> REFERENCES = Arrays.asList("abc", "def");
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+    private static final List<Object> REFERENCES = new ArrayList<>(Arrays.asList("abc", "def"));
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+          <Buggy Line>: cannot find symbol
+    private static final List<Object> REFERENCES = new ArrayList<Object>(Arrays.asList("abc", "def"));
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+          <Buggy Line>: cannot find symbol
+    private static final List<Object> REFERENCES = new ArrayList<Object>(Arrays.asList("abc", "def").toList());
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+         <Buggy Line>: cannot find symbol
+    private static final List<Object> REFERENCES = Arrays.asList("abc", "def");
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+    private static final List<Object> REFERENCES = new ArrayList<>(Arrays.asList("abc", "def"));
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+6-->7-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class DefaultEvaluatorTest_testReferenceAt {
+    private static final String RAW_VALUE = "1234567890";
+    private static final int POSITION = 5;
+
+          <Buggy Line>: cannot find symbol
+    private static final List<Object> REFERENCES = new ArrayList<Object>(Arrays.asList("abc", "def"));
+
+    private static ExecutorService executorService;
+    @BeforeClass
+    public static void setUp() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("retriever.class", "com.example.RetrieverImpl");
+        executorService = Executors.newSingleThreadExecutor();
+    }
+    @Test
+    public void testReferenceAt() throws Exception {
+        DefaultEvaluator evaluator = new DefaultEvaluator();
+        String rawValue = RAW_VALUE;
+        int position = POSITION;
+        Retriever retriever = new RetrieverImpl();
+        Object actualResult = evaluator.referenceAt(rawValue, position, retriever);
+        assertEquals(REFERENCES.get(POSITION), actualResult);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

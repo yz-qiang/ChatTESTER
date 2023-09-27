@@ -1,0 +1,163 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[57,65] cannot find symbol
+  symbol:   class List
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[58,65] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[60,65] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[61,65] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 4 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest###testIsValidAnnotationMemberType
+[GENERATED PATH] AnnotationUtilsTest_testIsValidAnnotationMemberType.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[26,61] cannot find symbol
+  symbol:   class Set
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[28,61] cannot find symbol
+  symbol:   class Queue
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java:[29,61] cannot find symbol
+  symbol:   class Stack
+  location: class org.apache.commons.lang3.AnnotationUtilsTest
+[INFO] 3 errors 
+####################
+

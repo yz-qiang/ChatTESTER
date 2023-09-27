@@ -1,0 +1,8 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest###testEquals
+[GENERATED PATH] FastDateParserTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateFormat_ParserTest.java:[29,5] method does not override or implement a method from a supertype
+[INFO] 1 error
+####################
+

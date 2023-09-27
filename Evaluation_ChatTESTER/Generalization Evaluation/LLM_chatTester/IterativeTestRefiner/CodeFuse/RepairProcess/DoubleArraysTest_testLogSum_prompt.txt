@@ -1,0 +1,155 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.arrays;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import edu.jhu.prim.util.Timer;
+import edu.jhu.prim.util.math.FastMath;
+public class DoubleArraysTest_testLogSum {
+    @Test
+    public void testLogSum() {
+
+                   <Buggy Line>: ')' expected
+        assertEquals("The result should be negative infinity when passed empty array", Double.NEGATIVE_INFINITY, DoubleArrays.logSum(new double[]{}, 0);
+
+        assertEquals("The result should equal the input value if there's only one number in the array", Math.log(5), DoubleArrays.logSum(new double[]{5}), 0);
+        assertEquals("The result should be correct when multiple numbers are provided", Math.log(4 + 6 + 8 + 9), DoubleArrays.logSum(new double[]{Math.log(4), Math.log(6), Math.log(9)}, 0);
+        try{
+            DoubleArrays.logSum(new double[]{Math.log(-1)};
+            fail("Expected IllegalArgumentException not thrown");
+        } catch (IllegalArgumentException e){
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.arrays;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import edu.jhu.prim.util.Timer;
+import edu.jhu.prim.util.math.FastMath;
+public class DoubleArraysTest_testLogSum {
+    @Test
+    public void testLogSum() {
+
+                   <Buggy Line>: ')' expected
+        assertEquals("The result should be negative infinity when passed empty array", Double.NEGATIVE_INFINITY, DoubleArrays.logSum(new double[]{}, 0);
+
+        assertEquals("The result should equal the input value if there's only one number in the array", Math.log(5), DoubleArrays.logSum(new double[]{Math.log(5)}, 0);
+        assertEquals("The result should be correct when multiple numbers are provided", Math.log(4 + 6 + 8 + 9), DoubleArrays.logSum(new double[]{Math.log(4), Math.log(6), Math.log(9)}, 0);
+        try{
+            DoubleArrays.logSum(new double[]{Math.log(-1)});
+            fail("Expected IllegalArgumentException not thrown");
+        } catch (IllegalArgumentException e){
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.arrays;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import edu.jhu.prim.util.Timer;
+import edu.jhu.prim.util.math.FastMath;
+public class DoubleArraysTest_testLogSum {
+    @Test
+    public void testLogSum() {
+
+                   <Buggy Line>: ')' expected
+        assertEquals("The result should be negative infinity when passed empty array", Double.NEGATIVE_INFINITY, DoubleArrays.logSum(new double[]{}, 0);
+
+        assertEquals("The result should equal the input value if there's only one number in the array", Math.log(5), DoubleArrays.logSum(new double[]{Math.log(5)}, 0);
+        assertEquals("The result should be correct when multiple numbers are provided", Math.log(4 + 6 + 8 + 9), DoubleArrays.logSum(new double[]{Math.log(4), Math.log(6), Math.log(9)}, 0);
+        try{
+            DoubleArrays.logSum(new double[]{Math.log(-1)});
+            fail("Expected IllegalArgumentException not thrown");
+        } catch (IllegalArgumentException e){
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.arrays;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import edu.jhu.prim.util.Timer;
+import edu.jhu.prim.util.math.FastMath;
+public class DoubleArraysTest_testLogSum {
+    @Test
+    public void testLogSum() {
+
+                   <Buggy Line>: ')' expected
+        assertEquals("The result should be negative infinity when passed empty array", Double.NEGATIVE_INFINITY, DoubleArrays.logSum(new double[]{}, 0);
+
+        assertEquals("The result should equal the input value if there's only one number in the array", Math.log(5), DoubleArrays.logSum(new double[]{Math.log(5)}, 0);
+        assertEquals("The result should be correct when multiple numbers are provided", Math.log(4 + 6 + 8 + 9), DoubleArrays.logSum(new double[]{Math.log(4), Math.log(6), Math.log(9)}, 0);
+        try{
+            DoubleArrays.logSum(new double[]{Math.log(-1)});
+            fail("Expected IllegalArgumentException not thrown");
+        } catch (IllegalArgumentException e){
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.arrays;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import edu.jhu.prim.util.Timer;
+import edu.jhu.prim.util.math.FastMath;
+public class DoubleArraysTest_testLogSum {
+    @Test
+    public void testLogSum() {
+
+                   <Buggy Line>: ')' expected
+        assertEquals("The result should be negative infinity when passed empty array", Double.NEGATIVE_INFINITY, DoubleArrays.logSum(new double[]{}, 0);
+
+        assertEquals("The result should equal the input value if there's only one number in the array", Math.log(5), DoubleArrays.logSum(new double[]{Math.log(5)}, 0);
+        assertEquals("The result should be correct when multiple numbers are provided", Math.log(4 + 6 + 8 + 9), DoubleArrays.logSum(new double[]{Math.log(4), Math.log(6), Math.log(9)}, 0);
+        try{
+            DoubleArrays.logSum(new double[]{Math.log(-1)});
+            fail("Expected IllegalArgumentException not thrown");
+        } catch (IllegalArgumentException e){
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

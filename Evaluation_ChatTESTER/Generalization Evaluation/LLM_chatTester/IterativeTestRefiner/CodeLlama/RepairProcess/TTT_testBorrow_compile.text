@@ -1,0 +1,250 @@
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+
+original test path: udoprog_tiny-async-java###udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest###testBorrow
+[GENERATED PATH] TTT_testBorrow.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[40,29] cannot find symbol
+  symbol:   method isInvalid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[44,32] cannot find symbol
+  symbol:   method isValid()
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,30] cannot find symbol
+  symbol:   method getValue()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[45,43] cannot find symbol
+  symbol:   method equalTo(java.lang.String)
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,30] cannot find symbol
+  symbol:   method getStackTrace()
+  location: variable actualBorrowed of type eu.toolchain.concurrent.Borrowed<java.lang.String>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/udoprog_tiny-async-java/tiny-async-core/src/test/java/eu/toolchain/concurrent/ConcurrentManagedTest.java:[47,48] cannot find symbol
+  symbol:   method arrayContainingInAnyOrder(java.lang.StackTraceElement[])
+  location: class eu.toolchain.concurrent.ConcurrentManagedTest
+[INFO] 6 errors 
+####################
+

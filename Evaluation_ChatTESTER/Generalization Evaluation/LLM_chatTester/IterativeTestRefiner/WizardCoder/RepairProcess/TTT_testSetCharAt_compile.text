@@ -1,0 +1,36 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest###testSetCharAt
+[GENERATED PATH] TTT_testSetCharAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[24,22] cannot find symbol
+  symbol:   variable ByteBuffer
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[INFO] 1 error
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest###testSetCharAt
+[GENERATED PATH] TTT_testSetCharAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[21,34] cannot find symbol
+  symbol:   variable sb1
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[21,18] cannot find symbol
+  symbol:   variable ByteBuffer
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest###testSetCharAt
+[GENERATED PATH] TTT_testSetCharAt.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[21,34] cannot find symbol
+  symbol:   variable sb1
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[21,18] cannot find symbol
+  symbol:   variable ByteBuffer
+  location: class org.apache.commons.lang3.text.StrBuilderTest
+[INFO] 2 errors 
+####################
+

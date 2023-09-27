@@ -1,0 +1,208 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class TestIntDoubleHashMap_testHashCode {
+    private IntDoubleHashMap map;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp(){
+        map = new IntDoubleHashMap();
+    }
+    @Test
+    public void testHashCode() {
+        assertEquals(0, map.hashCode());
+        map.put(1, 2.5);
+        map.put(2, 4.8);
+        map.put(3, 6.9);
+        assertNotEquals(0, map.hashCode());
+        map.remove(2);
+        assertNotEquals(0, map.hashCode());
+        map.clear();
+        assertEquals(0, map.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+import edu.jhu.prim.map.IntDoubleHashMap;
+public class TestIntDoubleHashMap_testHashCode {
+    private IntDoubleHashMap map;
+    @Before
+    public void setUp(){
+        map = new IntDoubleHashMap();
+    }
+    @Test
+    public void testHashCode() {
+        assertEquals(0, map.hashCode());
+        map.put(1, 2.5);
+        map.put(2, 4.8);
+        map.put(3, 6.9);
+
+       <Buggy Line>: cannot find symbol method "assertNotEquals(int,int)" in IntDoubleHashMapTest
+        assertNotEquals(0, map.hashCode());
+
+        map.remove(2);
+        assertNotEquals(0, map.hashCode());
+        map.clear();
+        assertEquals(0, map.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+import edu.jhu.prim.map.IntDoubleHashMap;
+import edu.jhu.prim.map.IntDoubleHashMapTest;
+public class TestIntDoubleHashMap_testHashCode {
+    private IntDoubleHashMap map;
+    @Before
+    public void setUp(){
+        map = new IntDoubleHashMap();
+    }
+    @Test
+    public void testHashCode() {
+        assertEquals(0, map.hashCode());
+        map.put(1, 2.5);
+        map.put(2, 4.8);
+        map.put(3, 6.9);
+
+       <Buggy Line>: cannot find symbol method "assertNotEquals(int,int)" in IntDoubleHashMapTest
+        assertNotEquals(0, map.hashCode());
+
+        map.remove(2);
+        assertNotEquals(0, map.hashCode());
+        map.clear();
+        assertEquals(0, map.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+import edu.jhu.prim.map.IntDoubleHashMap;
+import edu.jhu.prim.map.IntDoubleHashMapTest;
+import org.junit.Assert;
+public class TestIntDoubleHashMap_testHashCode {
+    private IntDoubleHashMap map;
+    @Before
+    public void setUp(){
+        map = new IntDoubleHashMap();
+    }
+    @Test
+    public void testHashCode() {
+        assertEquals(0, map.hashCode());
+        map.put(1, 2.5);
+        map.put(2, 4.8);
+        map.put(3, 6.9);
+
+       <Buggy Line>: cannot find symbol method "assertNotEquals(int,int)" in IntDoubleHashMapTest
+        assertNotEquals(0, map.hashCode());
+
+        map.remove(2);
+        assertNotEquals(0, map.hashCode());
+        map.clear();
+        assertEquals(0, map.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+import edu.jhu.prim.map.IntDoubleHashMap;
+import edu.jhu.prim.map.IntDoubleHashMapTest;
+import org.junit.Assert;
+public class TestIntDoubleHashMap_testHashCode {
+    private IntDoubleHashMap map;
+    @Before
+    public void setUp(){
+        map = new IntDoubleHashMap();
+    }
+    @Test
+    public void testHashCode() {
+        assertEquals(0, map.hashCode());
+        map.put(1, 2.5);
+        map.put(2, 4.8);
+        map.put(3, 6.9);
+
+       <Buggy Line>: cannot find symbol method "assertNotEquals(int,int)" in IntDoubleHashMapTest
+        assertNotEquals(0, map.hashCode());
+
+        map.remove(2);
+        assertNotEquals(0, map.hashCode());
+        map.clear();
+        assertEquals(0, map.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,274 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[12,53] incompatible types: java.lang.String cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[15,21] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[20,21] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[15,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[20,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,9] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 4 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[15,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[20,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,9] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 4 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableByteTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableByteTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[12,53] incompatible types: java.lang.String cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[15,21] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[20,21] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 5 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[15,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[20,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,9] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 4 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[15,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[20,17] package TimeUnit does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,9] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,9] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 4 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest###testGetAndDecrement
+[GENERATED PATH] TTT_testGetAndDecrement.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[21,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/mutable/MutableIntTest.java:[23,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class org.apache.commons.lang3.mutable.MutableIntTest
+[INFO] 2 errors 
+####################
+

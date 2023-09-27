@@ -1,0 +1,10 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest###testEquals
+[GENERATED PATH] IntDoubleHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntDoubleHashMapTest.java:[13,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntDoubleHashMapTest
+[INFO] 1 error
+####################
+

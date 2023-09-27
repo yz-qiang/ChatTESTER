@@ -1,0 +1,360 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntLongHashMapEqualsTest_testEquals {
+    private IntLongHashMap map1;
+    private IntLongHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntLongHashMap();
+        map2 = new IntLongHashMap();
+    }
+    @Test
+    public void testEqualEmptyMaps() {
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalEmptyAndNonemptyMaps() {
+        map1.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalDifferentKeyValuePairs() {
+        map1.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testEqualWithDuplicateKeys() {
+        map1.put(1, 1L);
+        map1.put(1, 2L);
+        map2.put(1, 2L);
+        map2.put(1, 3L);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithMissingEntryInOneMap() {
+        map1.put(1, 1L);
+        map2.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentValuesForSameKey() {
+        map1.put(1, 1L);
+        map2.put(1, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentNumberOfEntries() {
+        map1.put(1, 1L);
+        map1.put(2, 2L);
+        map2.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntLongHashMapEqualsTest_testEquals {
+    private IntLongHashMap map1;
+    private IntLongHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntLongHashMap();
+        map2 = new IntLongHashMap();
+    }
+    @Test
+    public void testEqualEmptyMaps() {
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalEmptyAndNonemptyMaps() {
+        map1.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalDifferentKeyValuePairs() {
+        map1.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testEqualWithDuplicateKeys() {
+        map1.put(1, 1L);
+        map1.put(1, 2L);
+        map2.put(1, 2L);
+        map2.put(1, 3L);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithMissingEntryInOneMap() {
+        map1.put(1, 1L);
+        map2.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentValuesForSameKey() {
+        map1.put(1, 1L);
+        map2.put(1, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentNumberOfEntries() {
+        map1.put(1, 1L);
+        map1.put(2, 2L);
+        map2.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntLongHashMapEqualsTest_testEquals {
+    private IntLongHashMap map1;
+    private IntLongHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntLongHashMap();
+        map2 = new IntLongHashMap();
+    }
+    @Test
+    public void testEqualEmptyMaps() {
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalEmptyAndNonemptyMaps() {
+        map1.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalDifferentKeyValuePairs() {
+        map1.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testEqualWithDuplicateKeys() {
+        map1.put(1, 1L);
+        map1.put(1, 2L);
+        map2.put(1, 2L);
+        map2.put(1, 3L);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithMissingEntryInOneMap() {
+        map1.put(1, 1L);
+        map2.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentValuesForSameKey() {
+        map1.put(1, 1L);
+        map2.put(1, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentNumberOfEntries() {
+        map1.put(1, 1L);
+        map1.put(2, 2L);
+        map2.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntLongHashMapEqualsTest_testEquals {
+    private IntLongHashMap map1;
+    private IntLongHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntLongHashMap();
+        map2 = new IntLongHashMap();
+    }
+    @Test
+    public void testEqualEmptyMaps() {
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalEmptyAndNonemptyMaps() {
+        map1.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalDifferentKeyValuePairs() {
+        map1.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testEqualWithDuplicateKeys() {
+        map1.put(1, 1L);
+        map1.put(1, 2L);
+        map2.put(1, 2L);
+        map2.put(1, 3L);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithMissingEntryInOneMap() {
+        map1.put(1, 1L);
+        map2.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentValuesForSameKey() {
+        map1.put(1, 1L);
+        map2.put(1, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentNumberOfEntries() {
+        map1.put(1, 1L);
+        map1.put(2, 2L);
+        map2.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntLongHashMapEqualsTest_testEquals {
+    private IntLongHashMap map1;
+    private IntLongHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntLongHashMap();
+        map2 = new IntLongHashMap();
+    }
+    @Test
+    public void testEqualEmptyMaps() {
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalEmptyAndNonemptyMaps() {
+        map1.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalDifferentKeyValuePairs() {
+        map1.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testEqualWithDuplicateKeys() {
+        map1.put(1, 1L);
+        map1.put(1, 2L);
+        map2.put(1, 2L);
+        map2.put(1, 3L);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithMissingEntryInOneMap() {
+        map1.put(1, 1L);
+        map2.put(1, 1L);
+        map2.put(2, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentValuesForSameKey() {
+        map1.put(1, 1L);
+        map2.put(1, 2L);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalWithDifferentNumberOfEntries() {
+        map1.put(1, 1L);
+        map1.put(2, 2L);
+        map2.put(1, 1L);
+        assertFalse(map1.equals(map2));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

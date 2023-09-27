@@ -1,0 +1,220 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[10,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntIntSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[21,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[31,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[41,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[42,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest###testRemove
+[GENERATED PATH] TestIntIntIntSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[9,24] cannot find symbol
+  symbol:   class IntIntIntSortedMap
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[25,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[35,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[45,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntSortedMapTest.java:[46,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntIntSortedMap
+[INFO] 5 errors 
+####################
+

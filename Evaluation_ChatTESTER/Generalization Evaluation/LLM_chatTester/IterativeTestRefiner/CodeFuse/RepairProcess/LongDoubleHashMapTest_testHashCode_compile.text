@@ -1,0 +1,28 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest###testHashCode
+[GENERATED PATH] LongDoubleHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest.java:[17,38] illegal start of expression
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest###testHashCode
+[GENERATED PATH] LongDoubleHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.LongDoubleHashMapTest
+[INFO] 1 error
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest###testHashCode
+[GENERATED PATH] LongDoubleHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/map/LongDoubleHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.LongDoubleHashMapTest
+[INFO] 1 error
+####################
+

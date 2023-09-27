@@ -1,0 +1,494 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[1], Double.class);
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+
+  <Buggy Line>: cannot find symbol method "assertNotNull(java.lang.reflect.ParameterizedType)" in TypeUtilsTest
+    assertNotNull(result);
+
+    assertEquals(rawClass, result.getRawType());
+    assertEquals(2, result.getActualTypeArguments().length);
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+    assertEquals(Double.class, result.getActualTypeArguments()[1]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[1], Double.class);
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+
+  <Buggy Line>: cannot find symbol variable "Assert"
+    Assert.assertNotNull(result);
+
+    assertEquals(rawClass, result.getRawType());
+    assertEquals(2, result.getActualTypeArguments().length);
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+    assertEquals(Double.class, result.getActualTypeArguments()[1]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+public class TTT_testParameterize {
+    @Test
+    public void testParameterize() throws NoSuchMethodException, SecurityException {
+        Class<?> rawClass = StringParameterizedChild.class;
+        Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+        typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+        typeArgs.put(StringParameterizedChild.class.getTypeParameters()[1], Double.class);
+        ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+
+      <Buggy Line>: cannot find symbol method "assertNotNull(java.lang.reflect.ParameterizedType)" in TypeUtilsTest
+        assertNotNull(result);
+
+        assertEquals(rawClass, result.getRawType());
+        assertEquals(2, result.getActualTypeArguments().length);
+        assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+        assertEquals(Double.class, result.getActualTypeArguments()[1]);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->3-->1-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+
+<Error Line>
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[1], Double.class);
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+    assertNotNull(result);
+    assertEquals(rawClass, result.getRawType());
+    assertEquals(2, result.getActualTypeArguments().length);
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+    assertEquals(Double.class, result.getActualTypeArguments()[1]);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static final ParameterizedType parameterize(final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings) {
+    Validate.notNull(raw, "raw class is null");
+    Validate.notNull(typeArgMappings, "typeArgMappings is null");
+    return parameterizeWithOwner(null, raw, extractTypeArgumentsFrom(typeArgMappings, raw.getTypeParameters()));
+}
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+4-->3-->1-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+    if (rawClass.getTypeParameters().length > 0) {
+        typeArgs.put(rawClass.getTypeParameters()[0], Integer.class);
+        typeArgs.put(rawClass.getTypeParameters()[1], Double.class);
+    }
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+    assertNotNull(result);
+    assertEquals(rawClass, result.getRawType());
+
+<Error Line>
+    assertEquals(2, result.getActualTypeArguments().length);
+
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+    assertEquals(Double.class, result.getActualTypeArguments()[1]);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static final ParameterizedType parameterize(final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings) {
+    Validate.notNull(raw, "raw class is null");
+    Validate.notNull(typeArgMappings, "typeArgMappings is null");
+    return parameterizeWithOwner(null, raw, extractTypeArgumentsFrom(typeArgMappings, raw.getTypeParameters()));
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(2, result.getActualTypeArguments().length); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+5-->3-->1-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgMappings = new HashMap<>();
+
+<Error Line>
+    typeArgMappings.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgMappings);
+    assertNotNull(result);
+    assertEquals(rawClass, result.getRawType());
+    assertEquals(1, result.getActualTypeArguments().length);
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static final ParameterizedType parameterize(final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings) {
+    Validate.notNull(raw, "raw class is null");
+    Validate.notNull(typeArgMappings, "typeArgMappings is null");
+    return parameterizeWithOwner(null, raw, extractTypeArgumentsFrom(typeArgMappings, raw.getTypeParameters()));
+}
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 0 " in " typeArgMappings.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+6-->7-->1-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+    Map<TypeVariable<?>, Type> typeArgMappings = new HashMap<>();
+    if (rawClass.getTypeParameters().length > 0) {
+        typeArgMappings.put(rawClass.getTypeParameters()[0], Integer.class);
+    }
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgMappings);
+    assertNotNull(result);
+    assertEquals(rawClass, result.getRawType());
+
+<Error Line>
+    assertEquals(1, result.getActualTypeArguments().length);
+
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static final ParameterizedType parameterize(final Class<?> raw, final Map<TypeVariable<?>, Type> typeArgMappings) {
+    Validate.notNull(raw, "raw class is null");
+    Validate.notNull(typeArgMappings, "typeArgMappings is null");
+    return parameterizeWithOwner(null, raw, extractTypeArgumentsFrom(typeArgMappings, raw.getTypeParameters()));
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(1, result.getActualTypeArguments().length); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+7-->7-->1-->testRepair
+// Test Method
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+public class TTT_testParameterize {
+@Test
+public void testParameterize() throws NoSuchMethodException, SecurityException {
+    Class<?> rawClass = StringParameterizedChild.class;
+
+       <Buggy Line>: reference to parameterize is ambiguous
+    Map<TypeVariable<?>, Type> typeArgs = new HashMap<>();
+
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[0], Integer.class);
+    typeArgs.put(StringParameterizedChild.class.getTypeParameters()[1], Double.class);
+    ParameterizedType result = TypeUtils.parameterize(rawClass, typeArgs);
+    assertNotNull(result);
+    assertEquals(rawClass, result.getRawType());
+    assertEquals(2, result.getActualTypeArguments().length);
+    assertEquals(Integer.class, result.getActualTypeArguments()[0]);
+    assertEquals(Double.class, result.getActualTypeArguments()[1]);
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

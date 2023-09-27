@@ -1,0 +1,49 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.vector;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import edu.jhu.prim.map.IntLongEntry;
+public class TestIntLongSortedVector_testGetWithNoZeroValues {
+
+     <Buggy Line>: cannot find symbol class "List"
+    private static List<Integer> indices;
+
+    private static List<Long> values;
+    private static IntLongSortedVector sortedVector;
+    @BeforeClass
+    public static void setUp(){
+        indices = new ArrayList<>();
+        values = new ArrayList<>();
+        indices.add(1);
+        indices.add(2);
+        indices.add(3);
+        indices.add(4);
+        indices.add(5);
+        values.add((long) 0);
+        values.add((long) 0);
+        values.add((long) 6);
+        values.add((long) 7);
+        values.add((long) 8);
+        sortedVector = new IntLongSortedVector(indices.stream().mapToInt(Integer::valueOf).toArray(), values.stream().mapToLong(Long::valueOf).toArray());
+    }
+    @Test
+    public void testGetWithNoZeroValues() {
+        IntLongSortedVector result = IntLongSortedVector.getWithNoZeroValues(sortedVector);
+        Iterator<IntLongEntry> iterator = result.iterator();
+        while (iterator.hasNext()) {
+             assertNotEquals(0L, iterator.next().getValue());
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

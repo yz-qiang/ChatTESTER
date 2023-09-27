@@ -1,0 +1,236 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[18,41] array required, but java.lang.Object found
+[INFO] 9 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[18,41] array required, but java.lang.Object found
+[INFO] 9 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[18,41] array required, but java.lang.Object found
+[INFO] 9 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[18,41] array required, but java.lang.Object found
+[INFO] 10 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[13,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[15,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[18,41] array required, but java.lang.Object found
+[INFO] 10 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,44] cannot find symbol
+  symbol:   variable strArr
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[14,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,41] array required, but java.lang.Object found
+[INFO] 11 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,44] cannot find symbol
+  symbol:   variable strArr
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[14,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,41] array required, but java.lang.Object found
+[INFO] 11 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,44] cannot find symbol
+  symbol:   variable strArr
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[14,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,41] array required, but java.lang.Object found
+[INFO] 11 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,44] cannot find symbol
+  symbol:   variable strArr
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[14,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,41] array required, but java.lang.Object found
+[INFO] 11 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest###testDeepClone
+[GENERATED PATH] TTT_testDeepClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,27] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,30] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,35] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[9,38] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[10,44] cannot find symbol
+  symbol:   variable strArr
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,44] cannot find symbol
+  symbol:   variable Arrays
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[11,24] cannot find symbol
+  symbol:   variable ArrayUtil
+  location: class cn.xdean.jex.lang.ArrayUtilTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[12,42] cannot find symbol
+  symbol:   variable length
+  location: variable clonedObj of type java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[14,29] array required, but java.lang.Object found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[16,17] incompatible types: int cannot be converted to java.lang.Integer[]
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/lang/ArrayUtilTest.java:[17,41] array required, but java.lang.Object found
+[INFO] 11 errors 
+####################
+

@@ -1,0 +1,150 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TestConversion_testShortArrayToInt {
+    @Test
+    public void testShortArrayToIntWithEmptyInputAndZeroNShortsReturnsDstInitValue(){
+        short[] inputArr = {};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 5, 4, 0);
+        assertEquals(5, result);
+    }
+    @Test
+    public void testShortArrayToIntThrowsIllegalArgExWhenNDestinationBitsGreaterOrEqualTo32(){
+        try{
+            short[] inputArr = {1};
+            fail();
+        } catch (IllegalArgumentException e){
+
+          <Buggy Line>: cannot find symbol method "assertTrue(boolean)" in ConversionTest
+            assertTrue(true);
+
+        }
+    }
+    @Test
+    public void testShortArrayToIntWithOneElementInSrcArray(){
+        short[] inputArr = {1};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 1);
+        assertEquals(256, result);
+    }
+    @Test
+    public void testShortArrayToIntWithMultipleElementsInSrcArray(){
+        short[] inputArr = {1, 2, 3, 4};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 3);
+        assertEquals(7936, result);
+    }
+    @Test
+    public void testShortArrayToIntWithNonZeroDstPos(){
+        short[] inputArr = {1, 2, 3, 4};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 4, 3);
+        assertEquals(19472, result);
+    }
+    @Test
+    public void testShortArrayToIntWithNonZeroSrcPos(){
+        short[] inputArr = {1, 2, 3, 4};
+        int result = Conversion.shortArrayToInt(inputArr, 1, 0, 8, 2);
+        assertEquals(7772, result);
+    }
+    @Test
+    public void testShortArrayToIntWithAllZeros(){
+        short[] inputArr = {0, 0, 0, 0};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 3);
+        assertEquals(0, result);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Assert;
+public class TestConversion_testShortArrayToInt {
+    @Test
+    public void testShortArrayToIntWithEmptyInputAndZeroNShortsReturnsDstInitValue(){
+        short[] inputArr = {};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 5, 4, 0);
+        Assert.assertEquals(5, result);
+    }
+    @Test
+    public void testShortArrayToIntThrowsIllegalArgExWhenNDestinationBitsGreaterOrEqualTo32(){
+        short[] inputArr = {1};
+        try{
+            Conversion.shortArrayToInt(inputArr, 0, 0, 32, 1);
+            fail();
+        } catch (IllegalArgumentException e){
+            Assert.assertTrue(true);
+        }
+    }
+    @Test
+    public void testShortArrayToIntWithOneElementInSrcArray(){
+        short[] inputArr = {1};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 1);
+        Assert.assertEquals(256, result);
+    }
+    @Test
+    public void testShortArrayToIntWithMultipleElementsInSrcArray(){
+        short[] inputArr = {1, 2, 3, 4};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 3);
+        Assert.assertEquals(7936, result);
+    }
+    @Test
+    public void testShortArrayToIntWithNonZeroDstPos(){
+        short[] inputArr = {1, 2, 3, 4};
+
+<Error Line>
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 4, 3);
+
+        Assert.assertEquals(19472, result);
+    }
+    @Test
+    public void testShortArrayToIntWithNonZeroSrcPos(){
+        short[] inputArr = {1, 2, 3, 4};
+        int result = Conversion.shortArrayToInt(inputArr, 1, 0, 8, 2);
+        Assert.assertEquals(7772, result);
+    }
+    @Test
+    public void testShortArrayToIntWithAllZeros(){
+        short[] inputArr = {0, 0, 0};
+        int result = Conversion.shortArrayToInt(inputArr, 0, 0, 8, 3);
+        Assert.assertEquals(0, result);
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static int shortArrayToInt(final short[] src, final int srcPos, final int dstInit, final int dstPos, final int nShorts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nShorts) {
+        return dstInit;
+    }
+    if ((nShorts - 1) * 16 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nShorts-1)*16+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nShorts; i++) {
+        final int shift = i * 16 + dstPos;
+        final int bits = (0xffff & src[i + srcPos]) << shift;
+        final int mask = 0xffff << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.IllegalArgumentException (nShorts-1)*16+dstPos is greater or equal to than 32 " in " int result = Conversion.shortArrayToInt(inputArr, 0, 0, 4, 3); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

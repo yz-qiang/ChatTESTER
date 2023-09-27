@@ -1,0 +1,111 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+public class CharSetTest_testGetInstance {
+    private static CharSet charSet;
+
+  <Buggy Line>: cannot find symbol class "BeforeClass"
+    @BeforeClass
+
+    public static void setup() {
+        charSet = CharSet.getInstance("a", "b");
+    }
+    @Test
+    public void testGetInstanceWithOneArgumentAndExistingObject() {
+        assertSame(charSet, CharSet.getInstance("a", "b"));
+    }
+    @Test
+    public void testGetInstanceWithMultipleArguments() {
+        assertNotNull(CharSet.getInstance("c", "d"));
+    }
+    @Test
+    public void testGetInstanceWithDifferentArguments() {
+        assertNotSame(charSet, CharSet.getInstance("e", "f"));
+    }
+    @Test
+    public void testGetInstanceWithEmptyArray() {
+        assertNull(CharSet.getInstance());
+    }
+    @Test
+    public void testGetInstanceWithNullInput() {
+        assertNull(CharSet.getInstance((String[])null));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import java.lang.reflect.Modifier;
+import org.junit.Test;
+import org.junit.BeforeClass;
+import static org.junit.Assert.*;
+import org.apache.commons.lang3.CharSet;
+public class CharSetTest_testGetInstance {
+    private static CharSet charSet;
+    @BeforeClass
+    public static void setup() {
+        charSet = CharSet.getInstance("a", "b");
+    }
+    @Test
+    public void testGetInstanceWithOneArgumentAndExistingObject() {
+        assertSame(charSet, CharSet.getInstance("a", "b"));
+    }
+    @Test
+    public void testGetInstanceWithMultipleArguments() {
+        assertNotNull(CharSet.getInstance("c", "d"));
+    }
+    @Test
+    public void testGetInstanceWithDifferentArguments() {
+        assertNotSame(charSet, CharSet.getInstance("e", "f"));
+    }
+    @Test
+    public void testGetInstanceWithEmptyArray() {
+
+<Error Line>
+        assertNull(CharSet.getInstance());
+
+    }
+    @Test
+    public void testGetInstanceWithNullInput() {
+        assertNull(CharSet.getInstance((String[])null));
+    }
+}
+
+
+// Focal method (Cannot be modified)
+public static CharSet getInstance(final String... setStrs) {
+    if (setStrs == null) {
+        return null;
+    }
+    if (setStrs.length == 1) {
+        final CharSet common = COMMON.get(setStrs[0]);
+        if (common != null) {
+            return common;
+        }
+    }
+    return new CharSet(setStrs);
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertNull(CharSet.getInstance()); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

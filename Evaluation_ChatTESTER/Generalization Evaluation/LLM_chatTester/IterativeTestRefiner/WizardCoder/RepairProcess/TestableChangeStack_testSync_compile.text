@@ -1,0 +1,127 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[7,0] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[8,10] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[35,67] error: lambda expressions are not supported in -source 1.6
+[ERROR]   (use -source 8 or higher to enable lambda expressions)
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[35,135] error: method references are not supported in -source 1.6
+[ERROR]   (use -source 8 or higher to enable method references)
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[41,4] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[42,4] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[43,4] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[44,4] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[45,3] error: class, interface, or enum expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[48,0] error: class, interface, or enum expected
+[INFO] 10 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[7,44] error: type ChangeStackTest does not take parameters
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[7,44] error: type ChangeStackTest does not take parameters
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,33] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,33] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,33] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,33] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,41] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[17,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[24,43] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[25,41] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[26,41] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[27,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[34,43] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[35,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[39,32] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[41,33] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[48,14] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[49,37] error: cannot find symbol
+[INFO] 12 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest###testSync
+[GENERATED PATH] TestableChangeStack_testSync.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[10,41] error: cannot find symbol
+[ERROR]  class ChangeStackTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[17,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[24,43] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[25,41] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[26,41] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[27,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[34,43] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[35,37] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[39,32] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[41,33] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[48,14] error: cannot find symbol
+[ERROR]  variable cstack of type ChangeStack<Object>
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/ChangeStackTest.java:[49,37] error: cannot find symbol
+[INFO] 12 errors 
+####################
+

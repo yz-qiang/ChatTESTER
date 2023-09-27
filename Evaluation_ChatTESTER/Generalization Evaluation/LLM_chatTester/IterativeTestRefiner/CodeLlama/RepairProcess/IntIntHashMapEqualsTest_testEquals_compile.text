@@ -1,0 +1,10 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest###testEquals
+[GENERATED PATH] IntIntHashMapEqualsTest_testEquals.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntIntHashMapTest.java:[14,10] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntIntHashMapTest
+[INFO] 1 error
+####################
+

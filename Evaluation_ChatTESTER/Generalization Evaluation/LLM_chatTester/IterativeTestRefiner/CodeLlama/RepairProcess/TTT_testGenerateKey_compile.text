@@ -1,0 +1,28 @@
+original test path: l0s_fernet-java8###l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest###testGenerateKey
+[GENERATED PATH] TTT_testGenerateKey.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[25,31] cannot find symbol
+  symbol:   variable Mockito
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[26,31] cannot find symbol
+  symbol:   method any()
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[29,9] cannot find symbol
+  symbol:   variable Arrays
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[33,5] cannot find symbol
+  symbol:   method assertNotNull(com.macasaet.fernet.Key)
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[34,5] cannot find symbol
+  symbol:   method assertTrue(boolean)
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[37,17] cannot find symbol
+  symbol:   variable Arrays
+  location: class com.macasaet.fernet.KeyTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/l0s_fernet-java8/fernet-java8/src/test/java/com/macasaet/fernet/KeyTest.java:[38,17] cannot find symbol
+  symbol:   variable Arrays
+  location: class com.macasaet.fernet.KeyTest
+[INFO] 7 errors 
+####################
+

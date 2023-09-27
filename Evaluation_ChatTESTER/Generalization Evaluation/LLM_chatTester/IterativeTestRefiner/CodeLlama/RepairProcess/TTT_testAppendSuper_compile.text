@@ -1,0 +1,245 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/CompareToBuilderTest###testAppendSuper
+[GENERATED PATH] TTT_testAppendSuper.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreakerTest.java:[329,20] cannot access org.apache.commons.lang3.concurrent.AbstractCircuitBreaker
+  class file for org.apache.commons.lang3.concurrent.AbstractCircuitBreaker not found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java:[19,1] static import only from classes and interfaces
+[ERROR] Annotation generator had thrown the exception. com.sun.tools.javac.code.Symbol$CompletionFailure: class file for org.apache.commons.lang3.builder.ToStringStyle$SimpleToStringStyle not found
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/MemoizerTest.java:[33,13] cannot find symbol
+  symbol:   class Computable
+  location: class org.apache.commons.lang3.concurrent.MemoizerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java:[27,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/AbstractExceptionContextTest.java:[34,38] cannot find symbol
+  symbol:   class Pair
+  location: package org.apache.commons.lang3.tuple
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/AbstractExceptionContextTest.java:[40,62] cannot find symbol
+  symbol: class ExceptionContext
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java:[27,40] cannot find symbol
+  symbol:   class MethodUtils
+  location: package org.apache.commons.lang3.reflect
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[22,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[23,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[24,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[25,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[26,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[26,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[27,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[27,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[28,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[28,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[29,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[29,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[30,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[30,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[31,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java:[31,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java:[41,43] package org.apache.commons.lang3.ClassUtils does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java:[18,32] cannot find symbol
+  symbol:   class ArrayUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/ConstantInitializerTest.java:[35,13] cannot find symbol
+  symbol:   class ConstantInitializer
+  location: class org.apache.commons.lang3.concurrent.ConstantInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/ContextedExceptionTest.java:[25,32] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/ContextedExceptionTest.java:[31,74] cannot find symbol
+  symbol: class ContextedException
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[64,5] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[68,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[72,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[76,13] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[89,15] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[219,119] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[379,104] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java:[386,84] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/exception/DefaultExceptionContextTest.java:[25,79] cannot find symbol
+  symbol: class DefaultExceptionContext
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerTest.java:[50,13] cannot find symbol
+  symbol:   class LazyInitializer
+  location: class org.apache.commons.lang3.concurrent.LazyInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/LazyInitializerTest.java:[40,15] cannot find symbol
+  symbol:   class ConcurrentInitializer
+  location: class org.apache.commons.lang3.concurrent.LazyInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/concurrent/AbstractConcurrentInitializerTest.java:[119,24] cannot find symbol
+  symbol:   class ConcurrentInitializer
+  location: class org.apache.commons.lang3.concurrent.AbstractConcurrentInitializerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java:[29,51] cannot find symbol
+  symbol:   class Diffable
+  location: class org.apache.commons.lang3.builder.ReflectionDiffBuilderTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/ReflectionDiffBuilderTest.java:[53,16] cannot find symbol
+  symbol:   class DiffResult
+  location: class org.apache.commons.lang3.builder.ReflectionDiffBuilderTest.TypeTestClass
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateFormat_ParserTest.java:[30,15] cannot find symbol
+  symbol:   class DateParser
+  location: class org.apache.commons.lang3.time.FastDateFormat_ParserTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java:[36,49] cannot find symbol
+  symbol:   class Diffable
+  location: class org.apache.commons.lang3.builder.DiffResultTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/builder/DiffResultTest.java:[48,16] cannot find symbol
+  symbol:   class DiffResult
+  location: class org.apache.commons.lang3.builder.DiffResultTest.SimpleClass
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[23,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[27,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[27,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[28,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[28,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[29,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[29,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[30,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[30,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[31,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[31,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[32,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[32,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[33,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[33,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[34,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[34,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[35,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[35,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[36,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[36,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[37,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[37,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[38,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[38,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[39,39] cannot find symbol
+  symbol:   class JavaVersion
+  location: package org.apache.commons.lang3
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/JavaVersionTest.java:[39,1] static import only from classes and interfaces
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[19,37] package org.apache.commons.lang3.arch does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[136,57] package Processor does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[136,75] cannot find symbol
+  symbol:   class Processor
+  location: class org.apache.commons.lang3.ArchUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[142,60] package Processor does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[142,78] cannot find symbol
+  symbol:   class Processor
+  location: class org.apache.commons.lang3.ArchUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[148,57] package Processor does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[148,75] cannot find symbol
+  symbol:   class Processor
+  location: class org.apache.commons.lang3.ArchUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[154,60] package Processor does not exist
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArchUtilsTest.java:[154,78] cannot find symbol
+  symbol:   class Processor
+  location: class org.apache.commons.lang3.ArchUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/test/SystemDefaultsSwitchTest.java:[24,37] cannot find symbol
+  symbol:   class FastTimeZone
+  location: package org.apache.commons.lang3.time
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/StringUtilsTest.java:[41,37] cannot find symbol
+  symbol:   class WordUtils
+  location: package org.apache.commons.lang3.text
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[39,40] cannot find symbol
+  symbol:   class MutableObject
+  location: package org.apache.commons.lang3.mutable
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[40,37] cannot find symbol
+  symbol:   class StrBuilder
+  location: package org.apache.commons.lang3.text
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[604,48] cannot find symbol
+  symbol:   class MutableObject
+  location: class org.apache.commons.lang3.ObjectUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ObjectUtilsTest.java:[619,50] cannot find symbol
+  symbol:   class MutableObject
+  location: class org.apache.commons.lang3.ObjectUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java:[30,15] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDateFormat_PrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[52,5] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[56,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[60,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[64,13] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java:[75,15] cannot find symbol
+  symbol:   class DatePrinter
+  location: class org.apache.commons.lang3.time.FastDatePrinterTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java:[35,47] cannot find symbol
+  symbol:   class CharSequenceTranslator
+  location: package org.apache.commons.lang3.text.translate
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java:[58,5] cannot find symbol
+  symbol:   class FastDateFormat
+  location: class org.apache.commons.lang3.time.DateUtilsRoundingTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/text/StrSubstitutorTest.java:[31,40] cannot find symbol
+  symbol:   class MutableObject
+  location: package org.apache.commons.lang3.mutable
+[INFO] 102 errors 
+####################
+

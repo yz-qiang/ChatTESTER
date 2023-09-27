@@ -1,0 +1,163 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[20,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,28] cannot find symbol
+  symbol:   method getHashcode()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,28] cannot find symbol
+  symbol:   method getHashcode()
+  location: variable map of type edu.jhu.prim.map.IntLongHashMap
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest###testHashCode
+[GENERATED PATH] TestIntLongHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[22,9] cannot find symbol
+  symbol:   method assertNotEquals(int,int)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[24,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongHashMapTest.java:[26,9] cannot find symbol
+  symbol:   method assertNotEquals(int,long)
+  location: class edu.jhu.prim.map.IntLongHashMapTest
+[INFO] 3 errors 
+####################
+

@@ -1,0 +1,247 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class ConversionTest_testShortToByteArray {
+    private static Conversion conversionObj;
+    @BeforeClass
+    public static void setUp(){
+          conversionObj = new Conversion();
+    }
+    @Test
+    public void testShortToByteArrayWithValidInputs() {
+        try{
+            short inputValue = 327594;
+            byte[] expectedOutput = {(byte) 0b0000000000000,(byte) 0b00000000010,(byte) 0b000000000010};
+
+           <Buggy Line>: ')' expected
+            assertArrayEquals(expectedOutput,conversionObj.shortToByteArray((short)inputValue,0,new byte[3],0,3);
+
+        }catch(IllegalArgumentException e){
+           fail("Should not have thrown exception");
+       }
+   }
+    @Test
+    public void testShortToByteArrayWithInvalidInputs() {
+        try{
+            short inputValue = 327594;
+            byte[] output = conversionObj.shortToByteArray((short)inputValue,0,new byte[3],0,4);
+            fail("Expected an IllegalArgumentException but it did not occur.");
+        } catch(IllegalArgumentException ex){
+            String errorMessage = "nBytes-1*8+srcPos should be less than 16";
+            String actualErrorMessage = ex.getMessage();
+            assertTrue(actualErrorMessage != null && actualErrorMessage.contains(errorMessage));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+public class ConversionTest_testShortToByteArray {
+    private static Conversion conversionObj;
+    @BeforeClass
+    public static void setUp() {
+        conversionObj = new Conversion();
+    }
+    @Test
+    public void testShortToByteArrayWithValidInputs() {
+        try {
+
+             <Buggy Line>: incompatible types: possible lossy conversion from int to short
+            short inputValue = 327594;
+
+            byte[] expectedOutput = {(byte) 0b000000000000,(byte) 0b0000000010,(byte) 0b00000000010};
+            byte[] actualOutput = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 3);
+            Assert.assertArrayEquals(expectedOutput, actualOutput);
+        } catch (IllegalArgumentException e) {
+            fail("Should not have thrown exception");
+        }
+    }
+    @Test
+    public void testShortToByteArrayWithInvalidInputs() {
+        try {
+            short inputValue = 327594;
+            byte[] output = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 4);
+            fail("Expected an IllegalArgumentException but it did not occur.");
+        } catch (IllegalArgumentException ex) {
+            String errorMessage = "nBytes-1*8+srcPos should be less than 16";
+            String actualErrorMessage = ex.getMessage();
+            Assert.assertTrue(actualErrorMessage != null && actualErrorMessage.contains(errorMessage));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+public class ConversionTest_testShortToByteArray {
+    private static Conversion conversionObj;
+    @BeforeClass
+    public static void setUp() {
+        conversionObj = new Conversion();
+    }
+    @Test
+    public void testShortToByteArrayWithValidInputs() {
+        try {
+
+             <Buggy Line>: incompatible types: possible lossy conversion from int to short
+            short inputValue = 327594;
+
+            byte[] expectedOutput = {(byte) 0b00000000000,(byte) 0b000000010,(byte) 0b0000000010};
+            byte[] actualOutput = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 3);
+            assertArrayEquals(expectedOutput, actualOutput);
+        } catch (IllegalArgumentException e) {
+            fail("Should not have thrown exception");
+        }
+    }
+    @Test
+    public void testShortToByteArrayWithInvalidInputs() {
+        try {
+            short inputValue = 327594;
+            byte[] output = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 4);
+            fail("Expected an IllegalArgumentException but it did not occur.");
+        } catch (IllegalArgumentException ex) {
+            String errorMessage = "nBytes-1*8+srcPos should be less than 16";
+            String actualErrorMessage = ex.getMessage();
+            Assert.assertTrue(actualErrorMessage != null && actualErrorMessage.contains(errorMessage));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+public class ConversionTest_testShortToByteArray {
+    private static Conversion conversionObj;
+    @BeforeClass
+    public static void setUp() {
+        conversionObj = new Conversion();
+    }
+    @Test
+    public void testShortToByteArrayWithValidInputs() {
+        try {
+
+             <Buggy Line>: incompatible types: possible lossy conversion from int to short
+            short inputValue = 327594;
+
+            byte[] expectedOutput = {(byte) 0b0000000000,(byte) 0b000000010,(byte) 0b000000010};
+            byte[] actualOutput = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 3);
+            assertArrayEquals(expectedOutput, actualOutput);
+        } catch (IllegalArgumentException e) {
+            fail("Should not have thrown exception");
+        }
+    }
+    @Test
+    public void testShortToByteArrayWithInvalidInputs() {
+        try {
+            short inputValue = 327594;
+            byte[] output = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 4);
+            fail("Expected an IllegalArgumentException but it did not occur.");
+        } catch (IllegalArgumentException ex) {
+            String errorMessage = "nBytes-1*8+srcPos should be less than 16";
+            String actualErrorMessage = ex.getMessage();
+            Assert.assertTrue(actualErrorMessage != null && actualErrorMessage.contains(errorMessage));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+public class ConversionTest_testShortToByteArray {
+    private static Conversion conversionObj;
+    @BeforeClass
+    public static void setUp() {
+        conversionObj = new Conversion();
+    }
+    @Test
+    public void testShortToByteArrayWithValidInputs() {
+        try {
+
+             <Buggy Line>: incompatible types: possible lossy conversion from int to short
+            short inputValue = 327594;
+
+            byte[] expectedOutput = {(byte) 0b000000000,(byte) 0b00000010,(byte) 0b00000010};
+            byte[] actualOutput = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 3);
+            assertArrayEquals(expectedOutput, actualOutput);
+        } catch (IllegalArgumentException e) {
+            fail("Should not have thrown exception");
+        }
+    }
+    @Test
+    public void testShortToByteArrayWithInvalidInputs() {
+        try {
+            short inputValue = 327594;
+            byte[] output = conversionObj.shortToByteArray(inputValue, 0, new byte[3], 0, 4);
+            fail("Expected an IllegalArgumentException but it did not occur.");
+        } catch (IllegalArgumentException ex) {
+            String errorMessage = "nBytes-1*8+srcPos should be less than 16";
+            String actualErrorMessage = ex.getMessage();
+            Assert.assertTrue(actualErrorMessage != null && actualErrorMessage.contains(errorMessage));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

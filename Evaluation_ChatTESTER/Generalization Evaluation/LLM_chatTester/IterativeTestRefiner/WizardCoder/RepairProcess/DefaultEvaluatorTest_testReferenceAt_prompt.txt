@@ -1,0 +1,81 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public 
+class EvaluatorTestCases_testReferenceAt extends Assert{
+    private static final String RAW_VALUE1="This is just one example.";
+    private static final Integer POSITION=50;
+    @Before 
+    public void setUp() throws Exception {}
+    @Test   
+    public void whenNoValidReferenceFoundThenReturnNull(){
+        Properties propertiesMockedObject=mock(Properties.class);
+
+        <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<Integer> listPositionalReferences=new ArrayList<>();
+
+        when(propertiesMockedObject.getProperty("validRef")).thenReturn("");
+        try{
+            defaultEvaluatorInstance().referenceAt("",POSITION,"",listPositionalReferences).equals(null);
+             fail("Should not reach here");
+        }catch(Exception e){
+           assertTrue((e instanceof IllegalArgumentException));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import java.util.List;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import junit.framework.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+public class EvaluatorTestCases_testReferenceAt extends Assert {
+    private static final String RAW_VALUE1 = "This is just one example.";
+    private static final Integer POSITION = 50;
+    @Before
+    public void setUp() throws Exception {
+    }
+    @Test
+    public void whenNoValidReferenceFoundThenReturnNull() {
+        Properties propertiesMockedObject = mock(Properties.class);
+
+          <Buggy Line>: diamond operator is not supported in -source 1.6
+        List<Integer> listPositionalReferences = new ArrayList<>();
+
+        when(propertiesMockedObject.getProperty("validRef")).thenReturn("");
+        try {
+            defaultEvaluatorInstance().referenceAt("", POSITION, "", listPositionalReferences).equals(null);
+            fail("Should not reach here");
+        } catch (Exception e) {
+            assertTrue((e instanceof IllegalArgumentException));
+        }
+    }
+    private Evaluator defaultEvaluatorInstance() {
+        return new Evaluator();
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

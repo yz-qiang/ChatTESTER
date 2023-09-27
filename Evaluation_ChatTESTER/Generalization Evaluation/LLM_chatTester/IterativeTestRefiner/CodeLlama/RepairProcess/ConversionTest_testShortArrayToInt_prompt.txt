@@ -1,0 +1,66 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testShortArrayToInt {
+@Test
+public void testShortArrayToInt() {
+    assertEquals(0, Conversion.shortArrayToInt(new short[]{}, 0, 0, 0, 0));
+    assertEquals(42, Conversion.shortArrayToInt(new short[]{42}, 0, 0, 0, 1));
+
+<Error Line>
+    assertEquals(5789, Conversion.shortArrayToInt(new short[]{1234, 5678}, 0, 0, 0, 2));
+
+    assertEquals(-1234, Conversion.shortArrayToInt(new short[]{-1234}, 0, 0, 0, 1));
+    assertEquals(123456789, Conversion.shortArrayToInt(new short[]{1234, 5678, 9012}, 0, 0, 0, 3));
+    try {
+        Conversion.shortArrayToInt(null, 0, 0, 0, 0);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.shortArrayToInt(new short[]{}, 0, 0, 0, -1);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.shortArrayToInt(new short[]{}, 0, 0, 0, 1);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.shortArrayToInt(new short[]{}, 0, 0, 0, 2);
+        fail();
+    } catch (IllegalArgumentException e) {}
+    try {
+        Conversion.shortArrayToInt(new short[]{}, 0, 0, 0, 3);
+        fail();
+    } catch (IllegalArgumentException e) {}
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static int shortArrayToInt(final short[] src, final int srcPos, final int dstInit, final int dstPos, final int nShorts) {
+    if (src.length == 0 && srcPos == 0 || 0 == nShorts) {
+        return dstInit;
+    }
+    if ((nShorts - 1) * 16 + dstPos >= 32) {
+        throw new IllegalArgumentException("(nShorts-1)*16+dstPos is greater or equal to than 32");
+    }
+    int out = dstInit;
+    for (int i = 0; i < nShorts; i++) {
+        final int shift = i * 16 + dstPos;
+        final int bits = (0xffff & src[i + srcPos]) << shift;
+        final int mask = 0xffff << shift;
+        out = (out & ~mask) | bits;
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(5789, Conversion.shortArrayToInt(new short[]{1234, 5678}, 0, 0, 0, 2)); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

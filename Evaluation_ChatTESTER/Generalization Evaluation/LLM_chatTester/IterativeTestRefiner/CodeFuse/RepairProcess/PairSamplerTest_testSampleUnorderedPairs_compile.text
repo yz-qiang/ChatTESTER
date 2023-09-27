@@ -1,0 +1,162 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[9,20] cannot find symbol
+  symbol:   class Random
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[10,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[12,20] cannot find symbol
+  symbol:   class Random
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[16,9] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[16,50] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[17,9] cannot find symbol
+  symbol:   class Set
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[17,39] cannot find symbol
+  symbol:   class HashSet
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[31,9] cannot find symbol
+  symbol:   class Set
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[34,14] cannot find symbol
+  symbol:   method assertNotNull(java.lang.String,edu.jhu.prim.tuple.UnorderedPair)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[35,91] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[35,62] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[35,134] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[35,105] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[36,38] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[36,14] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[37,38] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[37,14] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,9] cannot find symbol
+  symbol:   class Set
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[49,11] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[51,12] cannot find symbol
+  symbol:   method assertEquals(java.lang.String,java.lang.String,java.lang.String)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[INFO] 20 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[37,75] incompatible types: java.util.Collection<edu.jhu.prim.tuple.UnorderedPair> cannot be converted to java.util.Set<edu.jhu.prim.tuple.UnorderedPair>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,97] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,68] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,140] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,111] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,37] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,13] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[43,37] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[43,13] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[48,75] incompatible types: java.util.Collection<edu.jhu.prim.tuple.UnorderedPair> cannot be converted to java.util.Set<edu.jhu.prim.tuple.UnorderedPair>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[55,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[INFO] 11 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[37,75] incompatible types: java.util.Collection<edu.jhu.prim.tuple.UnorderedPair> cannot be converted to java.util.Set<edu.jhu.prim.tuple.UnorderedPair>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,97] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,68] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,140] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[41,111] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,37] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,13] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[43,37] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[43,13] cannot find symbol
+  symbol:   variable seenValues
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[48,75] incompatible types: java.util.Collection<edu.jhu.prim.tuple.UnorderedPair> cannot be converted to java.util.Set<edu.jhu.prim.tuple.UnorderedPair>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[55,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[INFO] 11 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest###testSampleUnorderedPairs
+[GENERATED PATH] PairSamplerTest_testSampleUnorderedPairs.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,97] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[42,140] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[43,37] cannot find symbol
+  symbol:   method getFirst()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[44,37] cannot find symbol
+  symbol:   method getSecond()
+  location: variable pair of type edu.jhu.prim.tuple.UnorderedPair
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[49,75] incompatible types: java.util.Collection<edu.jhu.prim.tuple.UnorderedPair> cannot be converted to java.util.Set<edu.jhu.prim.tuple.UnorderedPair>
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java/edu/jhu/prim/sample/PairSamplerTest.java:[56,13] cannot find symbol
+  symbol:   method fail(java.lang.String)
+  location: class edu.jhu.prim.sample.PairSamplerTest
+[INFO] 6 errors 
+####################
+

@@ -1,0 +1,419 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,20] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class List
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[14,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,46] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,46] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,55] cannot find symbol
+  symbol:   class ArrayList
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[55,69] invalid method reference
+  non-static method intValue() cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[56,69] invalid method reference
+  non-static method intValue() cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,80] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,31] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,89] cannot find symbol
+  symbol:   method valueAt(int)
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[66,60] cannot find symbol
+  symbol:   method used()
+  location: variable result2 of type edu.jhu.prim.vector.IntIntSortedVector
+[INFO] 13 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[17,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[58,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,80] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[66,31] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[67,89] cannot find symbol
+  symbol:   method valueAt(int)
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[69,60] cannot find symbol
+  symbol:   method used()
+  location: variable result2 of type edu.jhu.prim.vector.IntIntSortedVector
+[INFO] 8 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[17,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[58,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,80] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[66,31] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[67,89] cannot find symbol
+  symbol:   method valueAt(int)
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[69,60] cannot find symbol
+  symbol:   method used()
+  location: variable result2 of type edu.jhu.prim.vector.IntIntSortedVector
+[INFO] 8 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[18,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[65,80] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[67,31] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[68,89] cannot find symbol
+  symbol:   method valueAt(int)
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[70,60] cannot find symbol
+  symbol:   method used()
+  location: variable result2 of type edu.jhu.prim.vector.IntIntSortedVector
+[INFO] 9 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[18,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[65,80] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[67,31] cannot find symbol
+  symbol:   method used()
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[68,89] cannot find symbol
+  symbol:   method valueAt(int)
+  location: variable result1 of type edu.jhu.prim.vector.IntIntSortedVector
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[70,60] cannot find symbol
+  symbol:   method used()
+  location: variable result2 of type edu.jhu.prim.vector.IntIntSortedVector
+[INFO] 9 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class IntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[19,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[INFO] 14 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class IntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[19,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[64,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[INFO] 14 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class IntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[19,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[58,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[INFO] 14 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class IntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[19,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[58,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[63,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[INFO] 14 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest###testGetWithNoZeroValues
+[GENERATED PATH] TestIntIntIntSortedVector_testGetWithNoZeroValues.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[11,24] cannot find symbol
+  symbol:   class IntEntry
+  location: package edu.jhu.prim.map
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[12,20] cannot find symbol
+  symbol:   class IntIntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[13,20] cannot find symbol
+  symbol:   class IntSortedVector
+  location: package edu.jhu.prim
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[19,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[57,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[58,32] cannot find symbol
+  symbol:   method toPrimitive(int[],<nulltype>)
+  location: class edu.jhu.prim.Primitives
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[59,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[60,36] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[61,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,9] cannot find symbol
+  symbol:   class IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/vector/IntIntSortedVectorTest.java:[62,35] cannot find symbol
+  symbol:   variable IntSortedVector
+  location: class edu.jhu.prim.vector.IntIntSortedVectorTest
+[INFO] 14 errors 
+####################
+

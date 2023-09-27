@@ -1,0 +1,310 @@
+0-->1-->0-->compileRepair
+// Import information
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class TTT_testSetSize {
+@Test
+public void testSetSize() throws Exception {
+
+     <Buggy Line>: cannot find symbol variable "Mockito"
+    Fat fat = Mockito.mock(Fat.class);
+
+    when(fat.getBootSector()).thenReturn(new BootSector());
+    when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+    when(fat.getBootSector().getFilesOffset()).thenReturn(0L);
+    when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+    ClusterChain chain = new ClusterChain(fat, true);
+    assertEquals(0, chain.getChainLength());
+    long expectedSize = 4096L;
+    long actualSize = chain.setSize(expectedSize);
+    assertEquals(expectedSize, actualSize);
+    assertEquals(8, chain.getChainLength());
+    try {
+        chain.setSize(-1L);
+        fail("Expected exception was not thrown");
+    } catch (IllegalArgumentException e) {
+        assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+    }
+    try {
+        chain.setSize(Integer.MAX_VALUE + 1L);
+        fail("Expected exception was not thrown");
+    } catch (IOException e) {
+        assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+<Buggy Line>: package org.mockito does not exist
+import org.mockito.Mockito;
+
+public class TTT_testSetSize {
+    @Test
+    public void testSetSize() throws Exception {
+        Fat fat = Mockito.mock(Fat.class);
+        when(fat.getBootSector()).thenReturn(new BootSector());
+        when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+        when(fat.getBootSector().getFilesOffset()).thenReturn(0L);
+        when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+        ClusterChain chain = new ClusterChain(fat, true);
+        assertEquals(0, chain.getChainLength());
+        long expectedSize = 4096L;
+        long actualSize = chain.setSize(expectedSize);
+        assertEquals(expectedSize, actualSize);
+        assertEquals(8, chain.getChainLength());
+        try {
+            chain.setSize(-1L);
+            fail("Expected exception was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+        }
+        try {
+            chain.setSize(Integer.MAX_VALUE + 1L);
+            fail("Expected exception was not thrown");
+        } catch (IOException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.mockito.Mockito;
+
+        <Buggy Line>: class, interface, or enum expected
+Sure, I can help you with that. The buggy line is:
+
+Here's the complete test method after repair:
+public class TTT_testSetSize {
+    @Test
+    public void testSetSize() throws Exception {
+        Fat fat = Mockito.mock(Fat.class);
+        when(fat.getBootSector()).thenReturn(new BootSector());
+        when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+        when(fat.getBootSector().getFilesOffset()).thenReturn(0L);
+        when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+        ClusterChain chain = new ClusterChain(fat, true);
+        assertEquals(0, chain.getChainLength());
+        long expectedSize = 4096L;
+        long actualSize = chain.setSize(expectedSize);
+        assertEquals(expectedSize, actualSize);
+        assertEquals(8, chain.getChainLength());
+        try {
+            chain.setSize(-1L);
+            fail("Expected exception was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+        }
+        try {
+            chain.setSize(Integer.MAX_VALUE + 1L);
+            fail("Expected exception was not thrown");
+        } catch (IOException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.mockito.Mockito;
+
+        <Buggy Line>: class, interface, or enum expected
+Sure, I can help you with that. The buggy line is:
+
+`when(fat.getBootSector().getFilesOffset()).thenReturn(0L);`
+The problem is that the `getFilesOffset()` method is not defined in the `Fat` class, so the code is trying to call a method that doesn't exist.
+To fix the bug, we need to remove the `getFilesOffset()` method call and replace it with a valid method call that returns the correct value.
+Here's the complete test method after repair:
+public class TTT_testSetSize {
+    @Test
+    public void testSetSize() throws Exception {
+        Fat fat = Mockito.mock(Fat.class);
+        when(fat.getBootSector()).thenReturn(new BootSector());
+        when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+        when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+        ClusterChain chain = new ClusterChain(fat, true);
+        assertEquals(0, chain.getChainLength());
+        long expectedSize = 4096L;
+        long actualSize = chain.setSize(expectedSize);
+        assertEquals(expectedSize, actualSize);
+        assertEquals(8, chain.getChainLength());
+        try {
+            chain.setSize(-1L);
+            fail("Expected exception was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+        }
+        try {
+            chain.setSize(Integer.MAX_VALUE + 1L);
+            fail("Expected exception was not thrown");
+        } catch (IOException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.mockito.Mockito;
+
+        <Buggy Line>: class, interface, or enum expected
+Sure, I can help you with that. The buggy line is:
+
+`when(fat.getBootSector().getFilesOffset()).thenReturn(0L);`
+The problem is that the `getFilesOffset()` method is not defined in the `Fat` class, so the code is trying to call a method that doesn't exist.
+To fix the bug, we need to remove the `getFilesOffset()` method call and replace it with a valid method call that returns the correct value.
+Here's the complete test method after repair:
+public class TTT_testSetSize {
+    @Test
+    public void testSetSize() throws Exception {
+        Fat fat = Mockito.mock(Fat.class);
+        when(fat.getBootSector()).thenReturn(new BootSector());
+        when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+        when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+        ClusterChain chain = new ClusterChain(fat, true);
+        assertEquals(0, chain.getChainLength());
+        long expectedSize = 4096L;
+        long actualSize = chain.setSize(expectedSize);
+        assertEquals(expectedSize, actualSize);
+        assertEquals(8, chain.getChainLength());
+        try {
+            chain.setSize(-1L);
+            fail("Expected exception was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+        }
+        try {
+            chain.setSize(Integer.MAX_VALUE + 1L);
+            fail("Expected exception was not thrown");
+        } catch (IOException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Test Method
+package de.waldheinz.fs.fat;
+import de.waldheinz.fs.util.RamDisk;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.mockito.Mockito;
+
+        <Buggy Line>: class, interface, or enum expected
+Sure, I can help you with that. The buggy line is:
+
+`when(fat.getBootSector().getFilesOffset()).thenReturn(0L);`
+The problem is that the `getFilesOffset()` method is not defined in the `Fat` class, so the code is trying to call a method that doesn't exist.
+To fix the bug, we need to remove the `getFilesOffset()` method call and replace it with a valid method call that returns the correct value.
+Here's the complete test method after repair:
+public class TTT_testSetSize {
+    @Test
+    public void testSetSize() throws Exception {
+        Fat fat = Mockito.mock(Fat.class);
+        when(fat.getBootSector()).thenReturn(new BootSector());
+        when(fat.getDevice()).thenReturn(Mockito.mock(BlockDevice.class));
+        when(fat.getBootSector().getBytesPerCluster()).thenReturn(512L);
+        ClusterChain chain = new ClusterChain(fat, true);
+        assertEquals(0, chain.getChainLength());
+        long expectedSize = 4096L;
+        long actualSize = chain.setSize(expectedSize);
+        assertEquals(expectedSize, actualSize);
+        assertEquals(8, chain.getChainLength());
+        try {
+            chain.setSize(-1L);
+            fail("Expected exception was not thrown");
+        } catch (IllegalArgumentException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("negative"));
+        }
+        try {
+            chain.setSize(Integer.MAX_VALUE + 1L);
+            fail("Expected exception was not thrown");
+        } catch (IOException e) {
+            assertTrue(e.getMessage(), e.getMessage().contains("too many clusters"));
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

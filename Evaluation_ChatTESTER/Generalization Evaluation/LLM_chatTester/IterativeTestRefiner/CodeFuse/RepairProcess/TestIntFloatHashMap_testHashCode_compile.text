@@ -1,0 +1,23 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testHashCode
+[GENERATED PATH] TestIntFloatHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[12,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntFloatHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[25,19] cannot find symbol
+  symbol:   method sortIndexAsc(int[],float[])
+  location: class edu.jhu.prim.Primitives
+[INFO] 2 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testHashCode
+[GENERATED PATH] TestIntFloatHashMap_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[27,19] cannot find symbol
+  symbol:   method sortIndexAsc(int[],float[])
+  location: class edu.jhu.prim.Primitives
+[INFO] 1 error
+####################
+

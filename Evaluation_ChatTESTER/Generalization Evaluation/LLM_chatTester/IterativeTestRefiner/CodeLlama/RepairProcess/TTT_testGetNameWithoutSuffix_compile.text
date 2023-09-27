@@ -1,0 +1,65 @@
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[14,23] unclosed string literal
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[14,29] ';' expected
+[INFO] 2 errors 
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[15,5] cannot find symbol
+  symbol:   class Path
+  location: class cn.xdean.jex.io.FileUtilTest
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[15,5] cannot find symbol
+  symbol:   class Path
+  location: class cn.xdean.jex.io.FileUtilTest
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[15,19] unreported exception java.net.URISyntaxException; must be caught or declared to be thrown
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[15,19] unreported exception java.net.URISyntaxException; must be caught or declared to be thrown
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[20,14] cannot find symbol
+  symbol:   class URISyntaxException
+  location: class cn.xdean.jex.io.FileUtilTest
+[INFO] 1 error
+####################
+
+original test path: XDean_Java-EX###XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest###testGetNameWithoutSuffix
+[GENERATED PATH] TTT_testGetNameWithoutSuffix.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/XDean_Java-EX/src/test/java/cn/xdean/jex/io/FileUtilTest.java:[20,14] cannot find symbol
+  symbol:   class URISyntaxException
+  location: class cn.xdean.jex.io.FileUtilTest
+[INFO] 1 error
+####################
+

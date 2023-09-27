@@ -1,0 +1,413 @@
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,67] error: diamond operator is not supported in -source 1.6
+[INFO] 1 error
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+
+original test path: syphr42_prom###syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest###testIsReferencing
+[GENERATED PATH] DefaultEvaluatorTest_testIsReferencing.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[13,30] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,53] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[14,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[15,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[16,26] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[17,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[18,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[19,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[20,27] error: constructor Reference in class Reference cannot be applied to given types;
+[ERROR]  actual and formal argument lists differ in length
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[21,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[22,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,31] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[23,4] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,49] error: cannot find symbol
+[ERROR]  class DefaultEvaluatorTest
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[24,22] error: cannot find symbol
+[ERROR]  variable retrieverMock of type Retriever
+/home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,32] error: non-static method isReferencing(String,String,Retriever) cannot be referenced from a static context
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/syphr42_prom/src/test/java/org/syphr/prom/DefaultEvaluatorTest.java:[25,4] error: cannot find symbol
+[INFO] 22 errors 
+####################
+

@@ -1,0 +1,211 @@
+0-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+@Test
+public void testBinaryToShort() {
+    boolean[] src = new boolean[]{true, true, false, false};
+    int srcPos = 2;
+    short dstInit = 0;
+    int dstPos = 4;
+    int nBools = 3;
+    short expectedResult = 5;
+
+<Error Line>
+    short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+    assertEquals(expectedResult, actualResult);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 4 " in " short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+1-->1-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+@Test
+public void testBinaryToShort() {
+    boolean[] src = new boolean[]{true, true, false, false};
+    int srcPos = 2;
+    short dstInit = 0;
+    int dstPos = 4;
+    int nBools = 3;
+    short expectedResult = 5;
+    if (srcPos < 0 || srcPos >= src.length) {
+        fail("srcPos is out of bounds");
+    }
+
+<Error Line>
+    short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+    assertEquals(expectedResult, actualResult);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 4 " in " short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+2-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+@Test
+public void testBinaryToShort() {
+    boolean[] src = new boolean[]{true, true, false, false};
+    int srcPos = 2;
+    short dstInit = 0;
+    int dstPos = 4;
+    int nBools = 3;
+    short expectedResult = 5;
+    if (srcPos < 0 || srcPos >= src.length) {
+        fail("srcPos is out of bounds");
+    }
+    if (srcPos >= src.length) {
+        srcPos = src.length - 1;
+    }
+
+<Error Line>
+    short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+    assertEquals(expectedResult, actualResult);
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.ArrayIndexOutOfBoundsException 4 " in " short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+
+3-->3-->0-->testRepair
+// Test Method (Need to be repaired)
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testBinaryToShort {
+@Test
+public void testBinaryToShort() {
+    boolean[] src = new boolean[]{true, true, false, false};
+    int srcPos = 0;
+    short dstInit = 0;
+    int dstPos = 4;
+    int nBools = 3;
+    short expectedResult = 5;
+    if (srcPos < 0 || srcPos >= src.length) {
+        fail("srcPos is out of bounds");
+    }
+    if (srcPos >= src.length) {
+        srcPos = src.length - 1;
+    }
+    short actualResult = Conversion.binaryToShort(src, srcPos, dstInit, dstPos, nBools);
+
+<Error Line>
+    assertEquals(expectedResult, actualResult);
+
+}
+}
+
+
+// Focal method (Cannot be modified)
+public static short binaryToShort(final boolean[] src, final int srcPos, final short dstInit, final int dstPos, final int nBools) {
+    if (src.length == 0 && srcPos == 0 || 0 == nBools) {
+        return dstInit;
+    }
+    if (nBools - 1 + dstPos >= 16) {
+        throw new IllegalArgumentException("nBools-1+dstPos is greater or equal to than 16");
+    }
+    short out = dstInit;
+    for (int i = 0; i < nBools; i++) {
+        final int shift = i + dstPos;
+        final int bits = (src[i + srcPos] ? 1 : 0) << shift;
+        final int mask = 0x1 << shift;
+        out = (short) ((out & ~mask) | bits);
+    }
+    return out;
+}
+
+The test method throw an error " java.lang.AssertionError " in " assertEquals(expectedResult, actualResult); ". 
+Please refer to the code logic of the Focal method to repair the error in the test method, and then return the complete test method after repair. Note that adding a try-catch structure to repair the test method and modify the Focal method both are denied.
+
+########
+

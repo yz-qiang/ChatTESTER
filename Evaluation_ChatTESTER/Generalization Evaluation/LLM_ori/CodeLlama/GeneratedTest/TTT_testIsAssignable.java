@@ -1,0 +1,73 @@
+package org.apache.commons.lang3.reflect;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.lang.reflect.GenericArrayType;
+import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.lang.reflect.TypeVariable;
+import java.lang.reflect.WildcardType;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+import org.apache.commons.lang3.reflect.testbed.Foo;
+import org.apache.commons.lang3.reflect.testbed.GenericParent;
+import org.apache.commons.lang3.reflect.testbed.GenericTypeHolder;
+import org.apache.commons.lang3.reflect.testbed.StringParameterizedChild;
+import org.junit.Test;
+// original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest###testIsAssignable
+public class TTT_testIsAssignable {
+@Test
+public void testIsAssignable() throws Exception {
+    assertTrue(isAssignable(Integer.TYPE, Integer.class));
+    assertTrue(isAssignable(Long.TYPE, Long.class));
+    assertTrue(isAssignable(Float.TYPE, Float.class));
+    assertTrue(isAssignable(Double.TYPE, Double.class));
+    assertTrue(isAssignable(Boolean.TYPE, Boolean.class));
+    assertTrue(isAssignable(Character.TYPE, Character.class));
+    assertTrue(isAssignable(Byte.TYPE, Byte.class));
+    assertTrue(isAssignable(Short.TYPE, Short.class));
+    assertTrue(isAssignable(Void.TYPE, Void.class));
+    assertTrue(isAssignable(String.class, String.class));
+    assertTrue(isAssignable(Number.class, Number.class));
+    assertTrue(isAssignable(Object.class, Object.class));
+    assertTrue(isAssignable(new ArrayList<>().getClass(), List.class));
+    assertTrue(isAssignable(new HashMap<>().getClass(), Map.class));
+    assertTrue(isAssignable(new TreeSet<>().getClass(), Set.class));
+    assertTrue(isAssignable(new Foo().getClass(), Foo.class));
+    assertTrue(isAssignable(new StringParameterizedChild().getClass(), StringParameterizedChild.class));
+    assertTrue(isAssignable(new GenericParent<String>().getClass(), GenericParent.class));
+    assertTrue(isAssignable(new GenericTypeHolder<String>().getClass(), GenericTypeHolder.class));
+    assertFalse(isAssignable(null, Integer.class));
+    assertFalse(isAssignable(Integer.TYPE, null));
+    assertFalse(isAssignable(Integer.TYPE, String.class));
+    assertFalse(isAssignable(Long.TYPE, Integer.class));
+    assertFalse(isAssignable(Float.TYPE, Double.class));
+    assertFalse(isAssignable(Double.TYPE, Float.class));
+    assertFalse(isAssignable(Boolean.TYPE, String.class));
+    assertFalse(isAssignable(Character.TYPE, String.class));
+    assertFalse(isAssignable(Byte.TYPE, String.class));
+    assertFalse(isAssignable(Short.TYPE, String.class));
+    assertFalse(isAssignable(Void.TYPE, String.class));
+    assertFalse(isAssignable(String.class, Integer.class));
+    assertFalse(isAssignable(Number.class, String.class));
+    assertFalse(isAssignable(Object.class, String.class));
+    assertFalse(isAssignable(new ArrayList<>().getClass(), HashSet.class));
+    assertFalse(isAssignable(new HashMap<>().getClass(), LinkedHashSet.class));
+    assertFalse(isAssignable(new TreeSet<>().getClass(), SortedSet.class));
+    assertFalse(isAssignable(new Foo().getClass(), Bar.class));
+    assertFalse(isAssignable(new StringParameterizedChild().getClass(), IntParameterizedChild.class));
+    assertFalse(isAssignable(new GenericParent<String>().getClass(), GenericParent<Integer>.class));
+    assertFalse(isAssignable(new GenericTypeHolder<String>().getClass(), GenericTypeHolder<Integer>.class));
+}
+}

@@ -1,0 +1,68 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TestSerializationUtils_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[31,9] cannot find symbol
+  symbol:   class DummyObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[31,29] cannot find symbol
+  symbol:   class DummyObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[34,9] cannot find symbol
+  symbol:   class DummyObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[42,30] method clone in class org.apache.commons.lang3.SerializationUtils cannot be applied to given types;
+  required: T
+  found: java.lang.Object
+  reason: inference variable T has incompatible bounds
+    upper bounds: java.io.Serializable
+    lower bounds: java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[48,30] method clone in class org.apache.commons.lang3.SerializationUtils cannot be applied to given types;
+  required: T
+  found: java.lang.Object
+  reason: inference variable T has incompatible bounds
+    upper bounds: java.io.Serializable
+    lower bounds: java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[53,9] cannot find symbol
+  symbol:   class NonSerializableObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[53,54] cannot find symbol
+  symbol:   class NonSerializableObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[59,9] cannot find symbol
+  symbol:   class TransientFieldObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[59,46] cannot find symbol
+  symbol:   class TransientFieldObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[62,9] cannot find symbol
+  symbol:   class TransientFieldObj
+  location: class org.apache.commons.lang3.SerializationUtilsTest
+[INFO] 10 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest###testClone
+[GENERATED PATH] TestSerializationUtils_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[44,30] method clone in class org.apache.commons.lang3.SerializationUtils cannot be applied to given types;
+  required: T
+  found: java.lang.Object
+  reason: inference variable T has incompatible bounds
+    upper bounds: java.io.Serializable
+    lower bounds: java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[50,30] method clone in class org.apache.commons.lang3.SerializationUtils cannot be applied to given types;
+  required: T
+  found: java.lang.Object
+  reason: inference variable T has incompatible bounds
+    upper bounds: java.io.Serializable
+    lower bounds: java.lang.Object
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java:[56,30] method clone in class org.apache.commons.lang3.SerializationUtils cannot be applied to given types;
+  required: T
+  found: org.apache.commons.lang3.SerializationUtilsTest.NonSerializableObj
+  reason: inference variable T has incompatible bounds
+    upper bounds: java.io.Serializable
+    lower bounds: org.apache.commons.lang3.SerializationUtilsTest.NonSerializableObj
+[INFO] 3 errors 
+####################
+

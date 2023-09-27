@@ -1,0 +1,59 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TestIntLongSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[10,6] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntLongSortedMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[21,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[22,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[32,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[42,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[43,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[44,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[45,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[INFO] 8 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest###testRemove
+[GENERATED PATH] TestIntLongSortedMap_testRemove.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[27,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[28,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[38,23] cannot find symbol
+  symbol:   method isEmpty()
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[48,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[49,24] cannot find symbol
+  symbol:   method containsKey(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[50,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntLongSortedMapTest.java:[51,23] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntLongSortedMap
+[INFO] 7 errors 
+####################
+

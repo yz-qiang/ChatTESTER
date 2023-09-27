@@ -1,0 +1,26 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.math;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import org.junit.Test;
+public 
+
+ <Buggy Line>: cannot find symbol class "TestCase"
+class TestFractionEqualsMethod_testEquals extends TestCase{
+
+    @Test
+    public void shouldReturnTrueIfTwoFractionsAreEqualBasedOnValuesAndDenomenator(){
+        assertEquals("Expected True", new Fraction(10,2),new Fraction(5,-3)); 
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

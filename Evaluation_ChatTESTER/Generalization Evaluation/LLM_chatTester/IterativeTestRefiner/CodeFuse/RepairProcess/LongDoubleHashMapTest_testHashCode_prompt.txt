@@ -1,0 +1,62 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toLong;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class LongDoubleHashMapTest_testHashCode {
+    private LongDoubleHashMap map;
+    @Before
+    public void setUp(){
+    }
+    @Test
+    public void testHashCode() {
+
+       <Buggy Line>: illegal start of expression
+        assertEquals(map.hashCode(), );
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toDouble;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toLong;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class LongDoubleHashMapTest_testHashCode {
+    private LongDoubleHashMap map;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp(){
+    }
+    @Test
+    public void testHashCode() {
+        int expectedHashCode = 12345; 
+        int actualHashCode = map.hashCode();
+        assertEquals(expectedHashCode, actualHashCode);
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

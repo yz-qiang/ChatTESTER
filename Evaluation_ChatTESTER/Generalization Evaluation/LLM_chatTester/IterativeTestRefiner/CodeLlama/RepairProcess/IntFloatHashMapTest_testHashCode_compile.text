@@ -1,0 +1,35 @@
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testHashCode
+[GENERATED PATH] IntFloatHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[12,10] cannot find symbol
+  symbol:   class Before
+  location: class edu.jhu.prim.map.IntFloatHashMapTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[23,40] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[24,38] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[25,42] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[INFO] 4 errors 
+####################
+
+original test path: mgormley_prim###mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest###testHashCode
+[GENERATED PATH] IntFloatHashMapTest_testHashCode.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[24,32] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[25,26] cannot find symbol
+  symbol:   method getKeys()
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/mgormley_prim/src/test/java_generated/edu/jhu/prim/map/IntFloatHashMapTest.java:[26,30] cannot find symbol
+  symbol:   method getValue(int)
+  location: variable map of type edu.jhu.prim.map.IntFloatHashMap
+[INFO] 3 errors 
+####################
+

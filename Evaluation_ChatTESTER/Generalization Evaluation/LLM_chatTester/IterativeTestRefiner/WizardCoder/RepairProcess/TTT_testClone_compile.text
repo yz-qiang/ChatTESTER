@@ -1,0 +1,551 @@
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,57] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,59] '.class' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,65] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,66] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,67] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,75] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,94] illegal start of type
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,93] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,95] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,96] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,102] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,114] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,116] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,119] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,120] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,124] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,129] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,130] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,144] ';' expected
+[INFO] 20 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,59] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,61] '.class' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,67] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,68] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,69] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,77] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,96] illegal start of type
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,95] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,97] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,98] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,102] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,105] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,120] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,123] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,125] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,136] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,138] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,152] ';' expected
+[INFO] 20 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,59] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,61] '.class' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,67] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,68] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,69] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,77] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,96] illegal start of type
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,95] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,97] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,98] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,102] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,105] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,117] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,120] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,123] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,125] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,136] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,138] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,152] ';' expected
+[INFO] 20 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,59] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,61] '.class' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,67] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,68] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,69] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,77] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,117] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,132] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,135] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,137] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,141] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,148] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,150] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,164] ';' expected
+[INFO] 16 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,59] <identifier> expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,61] '.class' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,67] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,68] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,69] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,77] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,117] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,129] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,132] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,135] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,137] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,141] ';' expected
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,148] illegal start of expression
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,150] not a statement
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,164] ';' expected
+[INFO] 16 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[35,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.Object,java.lang.String)
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,51] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[35,13] cannot find symbol
+  symbol:   method assertNotEquals(java.lang.String,java.lang.Object,java.lang.String)
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,51] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 7 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,51] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,51] incompatible types: boolean cannot be converted to java.lang.String
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+
+original test path: ManfredTremmel_gwt-commons-lang3###ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest###testClone
+[GENERATED PATH] TTT_testClone.java
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[36,53] incompatible types: int cannot be converted to boolean
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[43,31] invalid method reference
+  cannot find symbol
+    symbol:   method compare(java.lang.Object,java.lang.Object)
+    location: class java.util.Arrays
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,76] cannot find symbol
+  symbol:   variable Collectors
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,100] cannot find symbol
+  symbol:   class TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,49] no suitable method found for stream(no arguments)
+    method java.util.Arrays.<T>stream(T[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.<T>stream(T[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(int[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(long[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.Arrays.stream(double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/zqc/Test_Completion/Prompt2Testing/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3/src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java:[44,115] cannot find symbol
+  symbol:   variable TreeMap
+  location: class org.apache.commons.lang3.ArrayUtilsTest
+[INFO] 6 errors 
+####################
+

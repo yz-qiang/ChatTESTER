@@ -1,0 +1,222 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.io.Serializable;
+import java.text.FieldPosition;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+import java.util.TimeZone;
+import org.apache.commons.lang3.SerializationUtils;
+import org.apache.commons.lang3.test.SystemDefaults;
+import org.apache.commons.lang3.test.SystemDefaultsSwitch;
+import org.junit.Rule;
+import org.junit.Test;
+
+   <Buggy Line>: cannot find symbol class "TestCase"
+public class TestEquals_testEquals extends TestCase {
+
+    @Rule
+    public SystemDefaultsSwitch defaultsSwitcher = new SystemDefaultsSwitch("en_US"); 
+    public void testEqual() throws Exception{
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd HHmmssSSS", Locale.ENGLISH);
+        Date d1=sdf1.parse("20210905 163728123");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("EEE MMM dd yyyy hh:mm:ss zzz", Locale.UK);
+        Date d2=sdf2.parse("Wed Sep 05 2021 04:37:28 GMT+00:00");
+        assertTrue((new FastDatePrinter("", null, Locale.ENGLISH)).equals(null));    
+        assertFalse((new FastDatePrinter("", null, Locale.ENGLISH)).equals(("")));     
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.Serializable;
+import java.text.ParseException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import org.apache.commons.lang3.LocaleUtils;
+import org.apache.commons.lang3.SerializationUtils;
+import org.junit.Test;
+
+<Buggy Line>: cannot find symbol class "RunWith"
+@RunWith(JUnit4.class)
+
+public class TestEquals_testEquals {
+    @Rule
+    public SystemDefaultsSwitch defaultsSwitcher = new SystemDefaultsSwitch("en_US");
+    @Test
+    public void testEqual() throws Exception {
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd HHmmssSSS", Locale.ENGLISH);
+        Date d1 = sdf1.parse("20210905 163728123");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("EEE MMM dd yyyy hh:mm:ss zzz", Locale.UK);
+        Date d2 = sdf2.parse("Wed Sep 05 2021 04:37:28 GMT+00:00");
+        assertTrue((new FastDatePrinter("", null, Locale.ENGLISH)).equals(null));
+        assertFalse((new FastDatePrinter("", null, Locale.ENGLISH)).equals(""));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.Serializable;
+import java.text.ParseException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import org.apache.commons.lang3.LocaleUtils;
+import org.apache.commons.lang3.SerializationUtils;
+import org.junit.Test;
+
+<Buggy Line>: cannot find symbol class "RunWith"
+@RunWith(JUnit4.class)
+
+public class TestEquals_testEquals {
+    @Rule
+    public SystemDefaultsSwitch defaultsSwitcher = new SystemDefaultsSwitch("en_US");
+    @Test
+    public void testEqual() throws Exception {
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd HHmmssSSS", Locale.ENGLISH);
+        Date d1 = sdf1.parse("20210905 163728123");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("EEE MMM dd yyyy hh:mm:ss zzz", Locale.UK);
+        Date d2 = sdf2.parse("Wed Sep 05 2021 04:37:28 GMT+00:00");
+        assertTrue((new FastDatePrinter("", null, Locale.ENGLISH)).equals(null));
+        assertFalse((new FastDatePrinter("", null, Locale.ENGLISH)).equals(""));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.Serializable;
+import java.text.ParseException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import org.apache.commons.lang3.LocaleUtils;
+import org.apache.commons.lang3.SerializationUtils;
+import org.junit.Test;
+
+<Buggy Line>: cannot find symbol class "RunWith"
+@RunWith(JUnit4.class)
+
+public class TestEquals_testEquals {
+    @Rule
+    public SystemDefaultsSwitch defaultsSwitcher = new SystemDefaultsSwitch("en_US");
+    @Test
+    public void testEqual() throws Exception {
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd HHmmssSSS", Locale.ENGLISH);
+        Date d1 = sdf1.parse("20210905 163728123");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("EEE MMM dd yyyy hh:mm:ss zzz", Locale.UK);
+        Date d2 = sdf2.parse("Wed Sep 05 2021 04:37:28 GMT+00:00");
+        assertTrue((new FastDatePrinter("", null, Locale.ENGLISH)).equals(null));
+        assertFalse((new FastDatePrinter("", null, Locale.ENGLISH)).equals(""));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3.time;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import java.io.Serializable;
+import java.text.ParseException;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import org.apache.commons.lang3.LocaleUtils;
+import org.apache.commons.lang3.SerializationUtils;
+import org.junit.Test;
+
+<Buggy Line>: cannot find symbol class "RunWith"
+@RunWith(JUnit4.class)
+
+public class TestEquals_testEquals {
+    @Rule
+    public SystemDefaultsSwitch defaultsSwitcher = new SystemDefaultsSwitch("en_US");
+    @Test
+    public void testEqual() throws Exception {
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd HHmmssSSS", Locale.ENGLISH);
+        Date d1 = sdf1.parse("20210905 163728123");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("EEE MMM dd yyyy hh:mm:ss zzz", Locale.UK);
+        Date d2 = sdf2.parse("Wed Sep 05 2021 04:37:28 GMT+00:00");
+        assertTrue((new FastDatePrinter("", null, Locale.ENGLISH)).equals(null));
+        assertFalse((new FastDatePrinter("", null, Locale.ENGLISH)).equals(""));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

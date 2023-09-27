@@ -1,0 +1,188 @@
+0-->1-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+@Test 
+    public void convertToByteArrayAndStoreAtPosition(){
+        UUID uuidValue= UUID.randomUUID();  
+        String expectedHexString=""+uuidValue.getMostSignificantBits()+""+uuidValue.getLeastSignificantBits()+"";   
+        System.out.println("Expected Hex string:"+expectedHexString); 
+
+        <Buggy Line>: cannot find symbol variable "actualDouble"
+        Long actualLong=(long)(Math.abs((double)actualDouble*ConversionUtil.SCALE_FACTOR)+0.5)/CONVERSION_CONSTANT ;
+
+        assertEquals("", expectedHexString, ""+(new BigInteger(String.valueOf(actualLong)).toString()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+    @Test
+    public void convertToByteArrayAndStoreAtPosition() {
+        UUID uuidValue = UUID.randomUUID();
+        String expectedHexString = "" + uuidValue.getMostSignificantBits() + "" + uuidValue.getLeastSignificantBits() + "";
+        System.out.println("Expected Hex string:" + expectedHexString);
+
+                <Buggy Line>: cannot find symbol variable "actualDouble"
+        long actualLong = (long) (Math.abs(actualDouble * ConversionUtil.SCALE_FACTOR) + 0.5) / ConversionUtil.CONVERSION_CONSTANT;
+
+        assertEquals("", expectedHexString, "" + (new BigInteger(String.valueOf(actualLong)).toString()));
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+2-->3-->0-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+
+        <Buggy Line>: cannot find symbol variable "actualDouble"
+long actualLong = (long) (Math.abs(actualDouble) * ConversionUtil.SCALE_FACTOR + 0.5) / ConversionUtil.CONVERSION_CONSTANT;
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+3-->4-->1-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+
+        <Buggy Line>: cannot find symbol variable "actualDouble"
+long actualLong = (long) (Math.abs(actualDouble) * ConversionUtil.SCALE_FACTOR + 0.5) / ConversionUtil.CONVERSION_CONSTANT;
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+4-->5-->2-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+
+        <Buggy Line>: cannot find symbol variable "actualDouble"
+long actualLong = (long) (Math.abs(actualDouble) * ConversionUtil.SCALE_FACTOR + 0.5) / ConversionUtil.CONVERSION_CONSTANT;
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+
+5-->6-->3-->compileRepair
+// Import information
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+
+
+// Test Method
+package org.apache.commons.lang3;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import java.util.UUID;
+import org.junit.Test;
+public class TTT_testLongToByteArray {
+
+        <Buggy Line>: cannot find symbol variable "actualDouble"
+long actualLong = (long) (Math.abs(actualDouble) * ConversionUtil.SCALE_FACTOR + 0.5) / ConversionUtil.CONVERSION_CONSTANT;
+
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

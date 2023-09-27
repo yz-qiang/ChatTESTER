@@ -1,0 +1,187 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+public class IntFloatHashMapEqualsTest_testEquals {
+    private IntFloatHashMap map1;
+    private IntFloatHashMap map2;
+
+  <Buggy Line>: cannot find symbol class "Before"
+    @Before
+
+    public void setUp() throws Exception {
+        map1 = new IntFloatHashMap();
+        map2 = new IntFloatHashMap();
+    }
+    @Test
+    public void testEqualMapsWithDifferentOrdering() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(3, 3f);
+        map2.put(3, 3f);
+        map2.put(2, 2f);
+        map2.put(1, 1f);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalMapsWithDifferentKeys() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(4, 4f);
+        map2.put(3, 3f);
+        map2.put(2, 2f);
+        map2.put(5, 5f);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalMapsWithDifferentValues() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(3, 3f);
+        map2.put(1, 1f);
+        map2.put(2, 2f);
+        map2.put(3, 6f);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testNullMapComparison() {
+        assertNotNull(map1);
+        assertFalse(map1.equals(null));
+    }
+    @Test
+    public void testNonHashableKeyComparison() {
+        try {
+            map1.put(new Object(), 1f);
+            fail("Expected UnsupportedOperationException");
+        } catch (UnsupportedOperationException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+public class IntFloatHashMapEqualsTest_testEquals {
+    private IntFloatHashMap map1;
+    private IntFloatHashMap map2;
+    @Before
+    public void setUp() throws Exception {
+        map1 = new IntFloatHashMap();
+        map2 = new IntFloatHashMap();
+    }
+    @Test
+    public void testEqualMapsWithDifferentOrdering() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(3, 3f);
+        map2.put(3, 3f);
+        map2.put(2, 2f);
+        map2.put(1, 1f);
+        assertTrue(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalMapsWithDifferentKeys() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(4, 4f);
+        map2.put(3, 3f);
+        map2.put(2, 2f);
+        map2.put(5, 5f);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testUnequalMapsWithDifferentValues() {
+        map1.put(1, 1f);
+        map1.put(2, 2f);
+        map1.put(3, 3f);
+        map2.put(1, 1f);
+        map2.put(2, 2f);
+        map2.put(3, 6f);
+        assertFalse(map1.equals(map2));
+    }
+    @Test
+    public void testNullMapComparison() {
+        assertNotNull(map1);
+        assertFalse(map1.equals(null));
+    }
+    @Test
+    public void testNonHashableKeyComparison() {
+        try {
+
+            <Buggy Line>: incompatible types: java.lang.Object cannot be converted to int
+            map1.put(new Object(), 1f);
+
+            fail("Expected UnsupportedOperationException");
+        } catch (UnsupportedOperationException e) {
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Import information
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+
+import org.junit.Before;
+
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toFloat;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Before;
+public class IntFloatHashMapEqualsTest_testEquals {
+@Test
+public void testNonHashableKeyComparison() {
+    try {
+
+       <Buggy Line>: cannot find symbol variable "map1"
+        map1.put(1, 1f);
+
+        fail("Expected UnsupportedOperationException");
+    } catch (UnsupportedOperationException e) {
+    }
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+Please repair the buggy line with the given Import information (it is crucial) and return the complete test method after repair.
+
+########
+

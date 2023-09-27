@@ -1,0 +1,244 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+    @Test
+    public void testIsValidAnnotationMemberType_primitiveTypes() throws Exception {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(int.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(long.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(float.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(double.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(boolean.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(byte.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(short.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(char.class));
+    }
+    @Test
+    public void testIsValidAnnotationMemberType_enumTypes() throws Exception {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyEnum1.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(MyEnum2.class));
+    }
+    @Test
+    public void testIsValidAnnotationMemberType_arrayTypes() throws Exception {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Integer[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Long[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Float[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Double[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Boolean[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Byte[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Short[].class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Character[].class));
+    }
+    @Test
+    public void testIsValidAnnotationMemberType_stringAndClassTypes() throws Exception {
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(String.class));
+        assertTrue(AnnotationUtils.isValidAnnotationMemberType(Class.class));
+    }
+    @Test
+    public void testIsValidAnnotationMemberType_otherTypes() throws Exception {
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Object.class));
+
+      <Buggy Line>: cannot find symbol class "List"
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(List.class));
+
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Set.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Queue.class));
+        assertFalse(AnnotationUtils.isValidAnnotationMemberType(Stack.class));
+    }
+    private enum MyEnum1 {}
+    private enum MyEnum2 {}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+@Test
+public void testIsValidAnnotationMemberType_otherTypes() throws Exception {
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Object.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(List.class));
+
+  <Buggy Line>: cannot find symbol class "Set"
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Set.class));
+
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Queue.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Stack.class));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+@Test
+public void testIsValidAnnotationMemberType_otherTypes() throws Exception {
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Object.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(List.class));
+
+  <Buggy Line>: cannot find symbol class "Set"
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Set.class));
+
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Queue.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Stack.class));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+@Test
+public void testIsValidAnnotationMemberType_otherTypes() throws Exception {
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Object.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(List.class));
+
+  <Buggy Line>: cannot find symbol class "Set"
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Set.class));
+
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Queue.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Stack.class));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.apache.commons.lang3;
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+import java.util.Collection;
+import java.util.Map;
+import org.junit.Before;
+import org.junit.Test;
+import java.util.List;
+public class AnnotationUtilsTest_testIsValidAnnotationMemberType {
+@Test
+public void testIsValidAnnotationMemberType_otherTypes() throws Exception {
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Object.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(List.class));
+
+  <Buggy Line>: cannot find symbol class "Set"
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Set.class));
+
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Map.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Queue.class));
+    assertFalse(AnnotationUtils.isValidAnnotationMemberType(Stack.class));
+}
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

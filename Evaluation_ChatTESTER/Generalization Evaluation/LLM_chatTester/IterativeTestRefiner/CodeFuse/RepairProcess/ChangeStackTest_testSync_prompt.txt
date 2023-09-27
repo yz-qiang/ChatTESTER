@@ -1,0 +1,164 @@
+0-->1-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class ChangeStackTest_testSync {
+    private ChangeStack<Integer> changeStack;
+    @Before
+    public void setUp() {
+
+         <Buggy Line>: diamond operator is not supported in -source 1.6
+        changeStack = new ChangeStack<>(10);
+
+    }
+    @Test
+    public void testSyncWithValue() {
+        try{
+            boolean result = changeStack.sync(20);
+            assertTrue("The value should have been added successfully",result);
+        } catch (NullPointerException e){
+            fail("An exception occurred while adding value");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+public class ChangeStackTest_testSync {
+    private ChangeStack<Integer> changeStack;
+    @Before
+    public void setUp() {
+        changeStack = new ChangeStack<Integer>(10);
+    }
+    @Test
+    public void testSyncWithValue() {
+        try {
+            boolean result = changeStack.sync(20);
+            Assert.assertTrue("The value should have been added successfully", result);
+        } catch (NullPointerException e) {
+            Assert.fail("An exception occurred while adding value");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+public class ChangeStackTest_testSync {
+    private ChangeStack<Integer> changeStack;
+    @Before
+    public void setUp() {
+        changeStack = new ChangeStack<Integer>(10);
+    }
+    @Test
+    public void testSyncWithValue() {
+        try {
+            boolean result = changeStack.sync(20);
+            Assert.assertTrue("The value should have been added successfully", result);
+        } catch (NullPointerException e) {
+            Assert.fail("An exception occurred while adding value");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+public class ChangeStackTest_testSync {
+    private ChangeStack<Integer> changeStack;
+    @Before
+    public void setUp() {
+        changeStack = new ChangeStack<Integer>(10);
+    }
+    @Test
+    public void testSyncWithValue() {
+        try {
+            boolean result = changeStack.sync(20);
+            Assert.assertTrue("The value should have been added successfully", result);
+        } catch (NullPointerException e) {
+            Assert.fail("An exception occurred while adding value");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package org.syphr.prom;
+import junit.framework.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+<Buggy Line>: a type with the same simple name is already defined by the single-type-import of Assert
+import org.junit.Assert;
+
+public class ChangeStackTest_testSync {
+    private ChangeStack<Integer> changeStack;
+    @Before
+    public void setUp() {
+        changeStack = new ChangeStack<Integer>(10);
+    }
+    @Test
+    public void testSyncWithValue() {
+        try {
+            boolean result = changeStack.sync(20);
+            Assert.assertTrue("The value should have been added successfully", result);
+        } catch (NullPointerException e) {
+            Assert.fail("An exception occurred while adding value");
+        }
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
