@@ -1,0 +1,100 @@
+#   Copyright 2021 Carlos Macasaet
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       https://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+name: Continuous Integration
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+    steps:
+    - uses: actions/checkout@v2
+    - name: Initialise SAST
+      uses: github/codeql-action/init@v2
+      with:
+        languages: java
+        config-file: ./.github/codeql/codeql-config.yml
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: 17
+        distribution: 'temurin'
+    - name: Cache Maven Packages
+      uses: actions/cache@v2
+      with:
+        path: ~/.m2
+        key: m2-${{ runner.os }}-17-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          m2-${{ runner.os }}-17
+          m2-${{ runner.os }}
+          m2
+    - name: Cache PMD
+      uses: actions/cache@v2
+      with:
+        path: |
+          fernet-java8/target/pmd
+          fernet-aws-secrets-manager-rotator/target/pmd
+          fernet-jersey-auth/target/pmd
+        key: pmd-${{ runner.os }}-17-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          pmd-${{ runner.os }}-${{ matrix.java-version }}
+          pmd-${{ runner.os }}
+          pmd
+    - run: ./mvnw clean install
+    - name: Perform SAST Analysis
+      uses: github/codeql-action/analyze@v2
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java-version: [ 8, 11 ]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK ${{ matrix.java-version }}
+      uses: actions/setup-java@v2
+      with:
+        java-version: ${{ matrix.java-version }}
+        distribution: 'temurin'
+    - name: Cache Maven Packages
+      uses: actions/cache@v2
+      with:
+        path: ~/.m2
+        key: m2-${{ runner.os }}-${{ matrix.java-version }}-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          m2-${{ runner.os }}-${{ matrix.java-version }}
+          m2-${{ runner.os }}
+          m2
+    - name: Cache PMD
+      uses: actions/cache@v2
+      with:
+        path: |
+          fernet-java8/target/pmd
+          fernet-aws-secrets-manager-rotator/target/pmd
+          fernet-jersey-auth/target/pmd
+        key: pmd-${{ runner.os }}-${{ matrix.java-version }}-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          pmd-${{ runner.os }}-${{ matrix.java-version }}
+          pmd-${{ runner.os }}
+          pmd
+    - run: ./mvnw clean install

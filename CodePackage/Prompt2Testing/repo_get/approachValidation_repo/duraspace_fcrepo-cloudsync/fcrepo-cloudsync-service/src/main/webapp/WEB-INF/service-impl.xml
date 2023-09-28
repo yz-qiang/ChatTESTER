@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+  <bean id="serviceImpl"
+        class="org.duraspace.fcrepo.cloudsync.service.CloudSyncServiceImpl">
+    <constructor-arg ref="dataSource"/>
+    <constructor-arg ref="transactionManager"/>
+    <constructor-arg ref="httpClientConfig"/>
+  </bean>
+
+  <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+    <property name="driverClass" value="${jdbc.driver}"/>
+    <property name="jdbcUrl" value="${jdbc.url}"/>
+  </bean>
+
+  <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource"/>
+  </bean>
+
+  <bean id="httpClientConfig" class="com.github.cwilper.fcrepo.httpclient.HttpClientConfig">
+    <property name="skipSSLHostnameVerification" value="true"/>
+    <property name="skipSSLTrustCheck" value="true"/>
+  </bean>
+
+  <security:http auto-config="true">
+    <security:intercept-url pattern="/css/**" filters="none"/>
+    <security:intercept-url pattern="/images/**" filters="none"/>
+    <security:intercept-url pattern="/js/**" filters="none"/>
+    <security:intercept-url pattern="/login*" filters="none"/>
+    <security:intercept-url pattern="/api/rest/service*" filters="none"/>
+    <security:intercept-url pattern="/**" access="ROLE_USER"/>
+    <security:form-login login-page="/login"/>
+  </security:http>
+
+  <security:authentication-manager>
+    <security:authentication-provider>
+      <security:password-encoder hash="sha"/>
+      <security:jdbc-user-service data-source-ref="dataSource"/>
+    </security:authentication-provider>
+  </security:authentication-manager>
+
+</beans>

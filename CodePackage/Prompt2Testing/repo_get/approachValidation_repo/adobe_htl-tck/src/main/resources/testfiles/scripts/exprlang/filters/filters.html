@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2014 Adobe Systems Incorporated
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html>
+<head>
+    <title>Expression Filters</title>
+</head>
+<body>
+<div id="format" data-sly-use.pojo="FiltersPojo">
+    <p id="format1">${'Hello {0}!' @ format=['World']}</p>
+
+    <p id="format2">${'Mary {0} a {1} lamb' @ format=['had', 'little']}</p>
+
+    <p id="format3">${'The ultimate answer is {0}' @ format=[42]}</p>
+
+    <p id="format4">${'The ultimate answer is {0}' @ format=42}</p>
+
+    <p id="format5">${'Placeholder is {3} {1} of {0}' @ format=['bounds', 'outside']}</p>
+    <div data-sly-test.fmt="Dynamic {0} is permitted in {1}">
+        <p id="format6">${fmt @ format=['format', 'Sightly']}</p>
+    </div>
+
+    <p id="format7">${'No placeholders here' @ format=['O-Hai!']}</p>
+
+    <p id="format8">${'{0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}' @ format=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}</p>
+    <p id="format9">${'Total: {0}' @ i18n, locale='de', format=100}</p>
+    <p id="format10">${'-{0}-' @ format=undefined, type='string'}</p>
+    <p id="format11">${'-{0}-' @ format='', type='string'}</p>
+    <p id="format12">${'-{0}-' @ format=[], type='string'}</p>
+    <p id="format13">${'hello, world' @ format=''}</p>
+    <p id="format14">${'#.00' @ format=''}</p>
+    <p id="format15">${'YYYY-MM-dd' @ format=''}</p>
+    <p id="format-date-1">${'dd-MM-yyy' @ format=pojo.date}</p>
+    <p id="format-date-2">${'HH:mm' @ format=pojo.date, timezone='GMT+00:30'}</p>
+    <p id="format-date-3">${'MMMMM' @ format=pojo.date, locale='en_US'}</p>
+    <p id="format-date-4">${'MMMMM' @ format=pojo.date, locale='de'}</p>
+    <p id="format-date-5">${'\'Day of week\': EEEE' @ format=pojo.date, i18n, locale='de'}</p>
+    <p id="format-date-6">${'yyyy {0}' @ format=pojo.date, type='date'}</p>
+    <p id="format-date-7">${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=pojo.date, timezone='UTC'}</p>
+    <p id="format-date-8">${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=pojo.date, timezone='GMT+02:00'}</p>
+    <p id="format-date-9">${'yyyy-MM-dd HH:mm:ss.SSS(z)' @ format=pojo.date, timezone='GMT+02:00'}</p>
+    <p id="format-date-10">${'yyyy-MM-dd HH:mm:ss.SSSZ' @ format=pojo.date, timezone='GMT+02:00'}</p>
+    <p id="format-date-11">${'dd MMMM \'\'yy hh:mm a; \'day in year\': D; \'week in year\': w' @ format=pojo.date, timezone='UTC', locale='en_US'}</p>
+    <p id="format-date-12">${'EEEE, d MMM y' @ format=pojo.date, timezone='UTC', locale='de'}</p>
+    <p id="format-date-13">${'hh:mm a' @ format=pojo.calendar}</p>
+    <p id="format-date-14">${'yyyy-MM-dd' @ format=undefined, type='date'}</p>
+    <p id="format-date-15">${'yyyy-MM-dd' @ format=undefined}</p>
+    <p id="format-number-1">${'00' @ format=1}</p>
+    <p id="format-number-2">${'#.##' @ format=pojo.number, locale='en'}</p>
+    <p id="format-number-3">${'#.##' @ format=pojo.number, locale='de'}</p>
+    <p id="format-number-4">${'##' @ format=pojo.number, i18n, locale='de'}</p>
+    <p id="format-number-5">${'# \'{0}\'' @ format=42, type='number'}</p>
+    <p id="format-number-6">${'#,###.00' @ format=1000, locale='en_US'}</p>
+    <p id="format-number-7">${'#.###;-#.###' @ format=pojo.negativeNumber, locale='en_US'}</p>
+    <p id="format-number-8">${'#.00;(#.00)' @ format=pojo.negativeNumber, locale='en_US'}</p>
+    <p id="format-number-9">${'#.000E00' @ format=pojo.negativeNumber, locale='en_US'}</p>
+    <p id="format-number-10">${'#%' @ format=pojo.negativeNumber}</p>
+    <p id="format-number-11">${'curr #,###.##' @ format=1000.14, locale='de_CH', i18n}</p>
+    <p id="format-number-12">${'0.00' @ format=undefined, type='number'}</p>
+    <p id="format-number-13">${'0.00' @ format=undefined}</p>
+</div>
+<div id="i18n">
+    <div id="translation1">${'hello' @ i18n, locale='de'}</div>
+
+    <div id="translation2_hint">${'hello' @ i18n, locale='de', hint='some-hint'}</div>
+
+    <div id="translation3">${'world' @ i18n, locale='de'}</div>
+
+    <div id="translation4">${'random text' @ i18n, locale='invalid-locale'}</div>
+
+    <div id="translation5">${'bun' @ i18n, locale='de'}</div>
+    <div id="translation6">${'bun' @ i18n, locale='de_CH'}</div>
+</div>
+<div id="join">
+    <div id="array1">${[1,2,3] @ join='-'}</div>
+    <div id="array2">${[1,'a',3] @ join='='}</div>
+    <div id="collection1" data-sly-use.pojo="FiltersPojo">${pojo.collection @ join=';'}</div>
+    <div id="string">${'test' @ join=','}</div>
+</div>
+<div id="uri" data-sly-use.jsuse="uri.js">
+    <!--/* scheme handling */-->
+    <a id="add-scheme" href="${'//example.com/path/page.html' @ scheme='http'}">Click</a>
+    <a id="replace-scheme" href="${'http://example.com/path/page.html' @ scheme='https'}">Click</a>
+    <a id="empty-scheme-1" href="${'http://example.com/path/page.html' @ scheme=''}">Click</a>
+    <a id="empty-scheme-2" href="${'http://example.com/path/page.html' @ scheme}">Click</a>
+
+    <!--/* domain handling */-->
+    <a id="add-domain-1" href="${'///path/page.html' @ domain='example.org'}">Click</a>
+    <a id="add-domain-2" href="${'http:///path/page.html' @ domain='example.org'}">Click</a>
+    <a id="replace-domain" href="${'http://www.example.com/path/page.html' @ domain='www.example.org'}">Click</a>
+
+    <!--/* path options */-->
+    <a id="append-relative" href="${'one' @ appendPath='two'}">Click</a>
+    <a id="append-absolute" href="${'/one/' @ appendPath='/two/'}">Click</a>
+    <a id="prepend-relative" href="${'path' @ prependPath='..'}">Click</a>
+    <a id="prepend-apend-absolute" href="${'path' @ prependPath='/', appendPath='/'}">Click</a>
+    <a id="prepend-domain" href="${'http://example.com/path/page.html' @ prependPath='foo'}">Click</a>
+    <a id="append-prexisting" href="${'path/page.selector.html/suffix?key=value#fragment' @ appendPath='appended'}">Click</a>
+    <a id="path-replacement" href="${'http://example.com/this/one.selector.html/suffix?key=value#fragment' @ path='that/two'}">Click</a>
+    <a id="empty-path-1" href="${'http://example.com/this/one.selector.html/suffix?key=value#fragment' @ path=''}">Click</a>
+    <a id="empty-path-2" href="${'http://example.com/this/one.selector.html/suffix?key=value#fragment' @ path}">Click</a>
+    <a id="no-path-info-1"
+       href="${'http://example.com' @ prependPath='one',
+                                      appendPath='three',
+                                      extension='html',
+                                      selectors='a.b.c',
+                                      fragment='fragment',
+                                      query=jsuse.query}">Click</a>
+    <a id="no-path-info-2"
+       href="${'http://example.com/' @ prependPath='one',
+                                       appendPath='three',
+                                       extension='html',
+                                       selectors='a.b.c',
+                                       fragment='fragment',
+                                       query=jsuse.query}">Click</a>
+    <a id="no-path-info-3"
+       href="${'' @ prependPath='one',
+                    appendPath='three',
+                    extension='html',
+                    selectors='a.b.c',
+                    fragment='fragment',
+                    query=jsuse.query}">Click</a>
+    <a id="no-path-info-4"
+       href="${@ prependPath='one',
+                 appendPath='three',
+                 extension='html',
+                 selectors='a.b.c',
+                 fragment='fragment',
+                 query=jsuse.query}">Click</a>
+
+    <!--/* selector handling */-->
+    <a id="replace-selectors-1" href="${'path/page.woo.foo.html' @ selectors='foo.bar'}">Click</a>
+    <a id="replace-selectors-2" href="${'path/page.woo.foo.html' @ selectors=['foo', 'bar']}">Click</a>
+    <a id="add-selectors-1" href="${'path/page.woo.foo.html' @ addSelectors='foo.bar'}">Click</a>
+    <a id="add-selectors-2" href="${'path/page.woo.foo.html' @ addSelectors=['foo', 'bar']}">Click</a>
+    <a id="remove-selectors-1" href="${'path/page.woo.foo.html' @ removeSelectors='foo.bar'}">Click</a>
+    <a id="remove-selectors-2" href="${'path/page.woo.foo.html' @ removeSelectors=['foo', 'bar']}">Click</a>
+    <a id="remove-all-selectors-1" href="${'path/page.woo.foo.html' @ selectors}">Click</a>
+    <a id="remove-all-selectors-2" href="${'path/page.woo.foo.html' @ selectors=''}">Click</a>
+
+    <!--/* extension handling */-->
+    <a id="add-extension" href="${'path/page' @ extension='html'}">Click</a>
+    <a id="replace-extension" href="${'path/page.json' @ extension='html'}">Click</a>
+    <a id="replace-extension-selector" href="${'path/page.selector.json' @ extension='html'}">Click</a>
+    <a id="replace-extension-suffix" href="${'path/page.json/suffix' @ extension='html'}">Click</a>
+    <a id="replace-extension-query" href="${'path/page.json?key=value' @ extension='html'}">Click</a>
+    <a id="replace-extension-fragment" href="${'path/page.json#fragment' @ extension='html'}">Click</a>
+    <a id="remove-extension" href="${'path/page.json' @ extension}">Click</a>
+
+    <!--/* suffix handing */-->
+    <a id="add-suffix" href="${'path/page.html' @ suffix='my/suffix'}">Click</a>
+    <a id="replace-suffix" href="${'path/page.html/some/suffix' @ suffix='my/suffix'}">Click</a>
+    <a id="add-suffix-query" href="${'path/page.html?key=value' @ suffix='my/suffix'}">Click</a>
+    <a id="add-suffix-fragment" href="${'path/page.html#fragment' @ suffix='my/suffix'}">Click</a>
+    <a id="prepend-suffix" href="${'path/page.html/suffix' @ prependSuffix='prepended'}">Click</a>
+    <a id="append-suffix" href="${'path/page.html/suffix' @ appendSuffix='appended'}">Click</a>
+    <a id="remove-suffix" href="${'path/page.html/suffix' @ suffix}">Click</a>
+
+    <!--/* query handling */-->
+    <a id="add-query" href="${'http://www.example.org/search' @ query=jsuse.query}">Click</a>
+    <a id="extend-query" href="${'http://www.example.org/search?s=1' @ addQuery=jsuse.query}">Click</a>
+    <a id="partial-remove-query" href="${'http://www.example.org/search?s=1&q=sightly' @ removeQuery='q'}">Click</a>
+    <a id="completely-remove-query-1" href="${'http://www.example.org/search?s=1&q=sightly' @ removeQuery=['s', 'q']}">Click</a>
+    <a id="completely-remove-query-2" href="${'http://www.example.org/search?s=1&q=sightly' @ query}">Click</a>
+
+    <!--/* fragment handling */-->
+    <a id="add-fragment" href="${'path/page' @ fragment='fragment'}">Click</a>
+    <a id="replace-fragment" href="${'path/page#one' @ fragment='two'}">Click</a>
+    <a id="remove-fragment" href="${'path/page#one' @ fragment}">Click</a>
+
+    <!--/* complete rewrite */-->
+    <a id="complete-rewrite" href="${
+        'http://www.example.com/resource.selector.extension/suffix#fragment?param=value'
+        @ scheme='https', domain='www.example.org', prependPath='/before', path='/path', appendPath='/after', selectors=['a', 'b'],
+        extension='html', prependSuffix='/pre', suffix='suf', appendSuffix='after', fragment='rewrite', query=jsuse.query,
+        removeQuery='array'
+        }">Click</a>
+    <a id="complete-rewrite-no-path-info"
+       href="${'http://example.com' @ prependPath='one', path='two', appendPath='three', extension='html', selectors='a.b.c',
+       fragment='fragment', query=jsuse.query}">Click</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>meteo</artifactId>
+        <groupId>no.api.meteo</groupId>
+        <version>3.1.3-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>meteo-examples</artifactId>
+    <name>meteo-examples</name>
+    <description>Meteo examples</description>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <scan.interval.seconds>3</scan.interval.seconds>
+            </properties>
+        </profile>
+    </profiles>
+    
+
+    <dependencies>
+        <dependency>
+            <groupId>no.api.meteo</groupId>
+            <artifactId>meteo-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>no.api.meteo</groupId>
+            <artifactId>meteo-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sparkjava</groupId>
+            <artifactId>spark-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.23</version>
+        </dependency>
+        <dependency>
+            <groupId>no.api.freemarker</groupId>
+            <artifactId>freemarker-java8</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+    </dependencies>
+</project>

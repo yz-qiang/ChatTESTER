@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2014 Adobe Systems Incorporated
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html>
+<head>
+    <title>Expression Filters</title>
+</head>
+<body>
+<div id="format">
+    <p id="format1">Hello World!</p>
+
+    <p id="format2">Mary had a little lamb</p>
+
+    <p id="format3">The ultimate answer is 42</p>
+
+    <p id="format4">The ultimate answer is 42</p>
+
+    <p id="format5">Placeholder is  outside of bounds</p>
+    <div>
+        <p id="format6">Dynamic format is permitted in Sightly</p>
+    </div>
+
+    <p id="format7"></p>
+
+    <p id="format8">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12</p>
+    <p id="format9">Gesamtbetrag: 100</p>
+    <p id="format10"></p>
+    <p id="format11">--</p>
+    <p id="format12">--</p>
+    <p id="format13">hello, world</p>
+    <p id="format14"></p>
+    <p id="format15"></p>
+    <p id="format-date-1">01-12-1918</p>
+    <p id="format-date-2">00:30</p>
+    <p id="format-date-3">December</p>
+    <p id="format-date-4">Dezember</p>
+    <p id="format-date-5">Wochentag: Sonntag</p>
+    <p id="format-date-6">1918 {0}</p>
+    <p id="format-date-7">1918-12-01 00:00:00.000Z</p>
+    <p id="format-date-8">1918-12-01 02:00:00.000+02:00</p>
+    <p id="format-date-9">1918-12-01 02:00:00.000(GMT+02:00)</p>
+    <p id="format-date-10">1918-12-01 02:00:00.000+0200</p>
+    <p id="format-date-11">01 December &#39;18 12:00 AM; day in year: 335; week in year: 49</p>
+    <p id="format-date-12">Sonntag, 1 Dez 1918</p>
+    <p id="format-date-13">12:30 AM</p>
+    <p id="format-date-14"></p>
+    <p id="format-date-15"></p>
+    <p id="format-number-1">01</p>
+    <p id="format-number-2">100.79</p>
+    <p id="format-number-3">100,79</p>
+    <p id="format-number-4">100,789</p>
+    <p id="format-number-5">42 {0}</p>
+    <p id="format-number-6">1,000.00</p>
+    <p id="format-number-7">-3.14</p>
+    <p id="format-number-8">(3.14)</p>
+    <p id="format-number-9">-.314E01</p>
+    <p id="format-number-10">-314%</p>
+    <p id="format-number-11">CHF 1&#39;000.14</p>
+    <p id="format-number-12"></p>
+    <p id="format-number-13"></p>
+</div>
+<div id="i18n">
+    <div id="translation1">Hallo</div>
+
+    <div id="translation2_hint">Hallo mit einem Hauch</div>
+
+    <div id="translation3">Welt</div>
+
+    <div id="translation4">random text</div>
+
+    <div id="translation5">Brötchen</div>
+    <div id="translation6">Brötli</div>
+</div>
+<div id="join">
+    <div id="array1">1-2-3</div>
+    <div id="array2">1=a=3</div>
+    <div id="collection1">a;b;c</div>
+    <div id="string">test</div>
+</div>
+<div id="uri">
+
+    <a id="add-scheme" href="http://example.com/path/page.html">Click</a>
+    <a id="replace-scheme" href="https://example.com/path/page.html">Click</a>
+    <a id="empty-scheme-1" href="http://example.com/path/page.html">Click</a>
+    <a id="empty-scheme-2" href="http://example.com/path/page.html">Click</a>
+
+
+    <a id="add-domain-1" href="//example.org/path/page.html">Click</a>
+    <a id="add-domain-2" href="http://example.org/path/page.html">Click</a>
+    <a id="replace-domain" href="http://www.example.org/path/page.html">Click</a>
+
+
+    <a id="append-relative" href="one/two">Click</a>
+    <a id="append-absolute" href="/one/two/">Click</a>
+    <a id="prepend-relative" href="../path">Click</a>
+    <a id="prepend-apend-absolute" href="/path/">Click</a>
+    <a id="prepend-domain" href="http://example.com/foo/path/page.html">Click</a>
+    <a id="append-prexisting" href="path/page/appended.selector.html/suffix?key=value#fragment">Click</a>
+    <a id="path-replacement" href="http://example.com/that/two.selector.html/suffix?key=value#fragment">Click</a>
+    <a id="empty-path-1" href="http://example.com/this/one.selector.html/suffix?key=value#fragment">Click</a>
+    <a id="empty-path-2" href="http://example.com/this/one.selector.html/suffix?key=value#fragment">Click</a>
+    <a id="no-path-info-1" href="http://example.com?q=sightly&array=1&array=2&array=3#fragment">Click</a>
+    <a id="no-path-info-2" href="http://example.com/one/three.a.b.c.html?q=sightly&array=1&array=2&array=3#fragment">Click</a>
+    <a id="no-path-info-3" href="?q=sightly&array=1&array=2&array=3#fragment">Click</a>
+    <a id="no-path-info-4" href="?q=sightly&array=1&array=2&array=3#fragment">Click</a>
+
+
+    <a id="replace-selectors-1" href="path/page.foo.bar.html">Click</a>
+    <a id="replace-selectors-2" href="path/page.foo.bar.html">Click</a>
+    <a id="add-selectors-1" href="path/page.woo.foo.foo.bar.html">Click</a>
+    <a id="add-selectors-2" href="path/page.woo.foo.foo.bar.html">Click</a>
+    <a id="remove-selectors-1" href="path/page.woo.html">Click</a>
+    <a id="remove-selectors-2" href="path/page.woo.html">Click</a>
+    <a id="remove-all-selectors-1" href="path/page.html">Click</a>
+    <a id="remove-all-selectors-2" href="path/page.html">Click</a>
+
+
+    <a id="add-extension" href="path/page.html">Click</a>
+    <a id="replace-extension" href="path/page.html">Click</a>
+    <a id="replace-extension-selector" href="path/page.selector.html">Click</a>
+    <a id="replace-extension-suffix" href="path/page.html/suffix">Click</a>
+    <a id="replace-extension-query" href="path/page.html?key=value">Click</a>
+    <a id="replace-extension-fragment" href="path/page.html#fragment">Click</a>
+    <a id="remove-extension" href="path/page">Click</a>
+
+
+    <a id="add-suffix" href="path/page.html/my/suffix">Click</a>
+    <a id="replace-suffix" href="path/page.html/my/suffix">Click</a>
+    <a id="add-suffix-query" href="path/page.html/my/suffix?key=value">Click</a>
+    <a id="add-suffix-fragment" href="path/page.html/my/suffix#fragment">Click</a>
+    <a id="prepend-suffix" href="path/page.html/prepended/suffix">Click</a>
+    <a id="append-suffix" href="path/page.html/suffix/appended">Click</a>
+    <a id="remove-suffix" href="path/page.html">Click</a>
+
+
+    <a id="add-query" href="http://www.example.org/search?q=sightly&array=1&array=2&array=3">Click</a>
+    <a id="extend-query" href="http://www.example.org/search?s=1&q=sightly&array=1&array=2&array=3">Click</a>
+    <a id="partial-remove-query" href="http://www.example.org/search?s=1">Click</a>
+    <a id="completely-remove-query-1" href="http://www.example.org/search">Click</a>
+    <a id="completely-remove-query-2" href="http://www.example.org/search">Click</a>
+
+
+    <a id="add-fragment" href="path/page#fragment">Click</a>
+    <a id="replace-fragment" href="path/page#two">Click</a>
+    <a id="remove-fragment" href="path/page">Click</a>
+
+
+    <a id="complete-rewrite" href="https://www.example.org/before/path/after.a.b.html/pre/suf/after?q=sightly#rewrite">Click</a>
+    <a id="complete-rewrite-no-path-info" href="http://example.com/one/two/three.a.b.c.html?q=sightly&array=1&array=2&array=3#fragment">Click</a>
+</div>
+</body>
+</html>

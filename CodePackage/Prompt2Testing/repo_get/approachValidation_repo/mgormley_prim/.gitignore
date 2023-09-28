@@ -1,0 +1,23 @@
+*.pyc
+*~
+.#*
+\#*\#
+
+java.hprof.txt
+warn.log
+tmp
+.project
+.classpath
+.pydevproject
+.settings
+
+# /
+/target
+/tests
+
+# /lib/
+/lib/*/
+/lib/*.tgz
+/lib/*.tar.gz
+/lib/*.zip
+/bin/

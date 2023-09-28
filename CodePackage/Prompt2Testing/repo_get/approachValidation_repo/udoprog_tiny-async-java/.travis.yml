@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+script:
+  # enable integration tests in travis build (found in src/it/java).
+  - mvn -D environment=test clean test
+
+after_success:
+  # report coverage to coveralls.io, does not include integration tests.
+  - mvn -P coverage
+    clean
+    cobertura:cobertura
+    coveralls:report

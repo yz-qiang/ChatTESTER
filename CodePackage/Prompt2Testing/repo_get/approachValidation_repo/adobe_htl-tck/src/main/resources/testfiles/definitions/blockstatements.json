@@ -1,0 +1,1089 @@
+{
+    "suite": "Block Statements",
+    "groups": [
+        {
+            "name": "data-sly-test",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/test.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/test.html",
+            "cases": [
+                {
+                    "selector": "#false",
+                    "positive": false
+                },
+                {
+                    "selector": "#true"
+                },
+                {
+                    "selector": "#one"
+                },
+                {
+                    "selector": "#string"
+                },
+                {
+                    "selector": "#empty_string",
+                    "positive": false
+                },
+                {
+                    "selector": "#string_OR"
+                },
+                {
+                    "selector": "#string_AND",
+                    "positive": false
+                },
+                {
+                    "selector": "#var_OR"
+                },
+                {
+                    "selector": "#var_AND",
+                    "positive": false
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#myvar_test",
+                    "value": "notempty"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-list",
+            "method": "hasAttribute",
+            "url": "/sightlytck/blockstatements/list.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/list.html",
+            "cases": [
+                {
+                    "method": "hasChildren",
+                    "selector": "#non-empty-list",
+                    "value": 5
+                },
+                {
+                    "selector": "#list_1",
+                    "attribute": "data-first"
+                },
+                {
+                    "selector": "#list_1",
+                    "attribute": "data-middle",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_1",
+                    "attribute": "data-last",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_1",
+                    "attribute": "data-odd"
+                },
+                {
+                    "selector": "#list_1",
+                    "attribute": "data-even",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_2",
+                    "attribute": "data-even"
+                },
+                {
+                    "selector": "#list_2",
+                    "attribute": "data-first",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_2",
+                    "attribute": "data-middle",
+                    "value": ""
+                },
+                {
+                    "selector": "#list_2",
+                    "attribute": "data-last",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_5",
+                    "attribute": "data-middle",
+                    "positive": false
+                },
+                {
+                    "selector": "#list_5",
+                    "attribute": "data-last"
+                },
+                {
+                    "selector": "#notAList1",
+                    "method": "exists",
+                    "positive": false
+                },
+                {
+                    "selector": "#notAList2",
+                    "method": "hasChildren",
+                    "value": 0
+                },
+                {
+                    "selector": "#nestedList .item_1_6",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_1_7",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_1_8",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_1_9",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_1_10",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_2_6",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_2_7",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_2_8",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_2_9",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_2_10",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_3_6",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_3_7",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_3_8",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_3_9",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_3_10",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_4_6",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_4_7",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_4_8",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_4_9",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_4_10",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_5_6",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_5_7",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_5_8",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_5_9",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#nestedList .item_5_10",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#string-list",
+                    "method": "hasChildren",
+                    "value": 1
+                },
+                {
+                    "selector": "#number-list",
+                    "method": "hasChildren",
+                    "value": 1
+                },
+                {
+                    "selector": "#begin li.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin li.4",
+                    "method": "innerHTMLEquals",
+                    "value": "5"
+                },
+                {
+                    "selector": "#begin-end li.1",
+                    "method": "innerHTMLEquals",
+                    "value": "2"
+                },
+                {
+                    "selector": "#begin-end li.2",
+                    "method": "innerHTMLEquals",
+                    "value": "3"
+                },
+                {
+                    "selector": "#begin-end li.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin-end-step li.1",
+                    "method": "innerHTMLEquals",
+                    "value": "2"
+                },
+                {
+                    "selector": "#begin-end-step li.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin-5",
+                    "method": "exists",
+                    "positive": false
+                },
+                {
+                    "selector": "#end-0",
+                    "method": "exists",
+                    "positive": false
+                }
+            ]
+        },
+        {
+            "name": "data-sly-use",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/use.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/use.html",
+            "cases": [
+                {
+                    "selector": "#init_pojo"
+                },
+                {
+                    "selector": "#method_call_pojo"
+                },
+                {
+                    "selector": "#init_pojo_fq"
+                },
+                {
+                    "selector": "#method_call_pojo_fq"
+                },
+                {
+                    "selector": "#init_js"
+                },
+                {
+                    "selector": "#method_call_js"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-unwrap",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/unwrap.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/unwrap.html",
+            "cases": [
+                {
+                    "selector": "#erased_div",
+                    "positive": false
+                },
+                {
+                    "selector": "#inner_span"
+                },
+                {
+                    "selector": "#erased_div_noexpr",
+                    "positive": false
+                },
+                {
+                    "selector": "#inner_span_noexpr"
+                },
+                {
+                    "selector": "#not_erased_div"
+                },
+                {
+                    "selector": "#inner_span_not_erased"
+                },
+                {
+                    "selector": ".existing_li"
+                },
+                {
+                    "selector": "#unwrap_span",
+                    "positive": false
+                },
+                {
+                    "selector": "section.repeat > p.wrapper",
+                    "positive": false
+                },
+                {
+                    "selector": "section.repeat > p.hello"
+                },
+                {
+                    "selector": "section.repeat > p.resistance"
+                },
+                {
+                    "selector": "section.join > p.wrapper",
+                    "positive": false
+                },
+                {
+                    "selector": "section.join > p.hello"
+                },
+                {
+                    "selector": "section.join > p.resistance"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-text",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/text.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/text.html",
+            "cases": [
+                {
+                    "selector": "#outer_div > .erased_span",
+                    "positive": false
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#outer_div",
+                    "value": "some-text"
+                },
+                {
+                    "selector": "#html_context > .erased_span",
+                    "positive": false
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#html_context",
+                    "value": "<p>some-text</p>"
+                },
+                {
+                    "selector": "#text_context > .erased_span",
+                    "positive": false
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#text_context",
+                    "value": "&lt;p&gt;some-text&lt;/p&gt;"
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#empty_string",
+                    "value": ""
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#empty_array",
+                    "value": ""
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#zero",
+                    "value": "0"
+                },
+                {
+                    "method": "innerHTMLEquals",
+                    "selector": "#false",
+                    "value": "false"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-resource",
+            "method": "innerHTMLEquals",
+            "url": "/sightlytck/blockstatements/resource.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/resource.html",
+            "cases": [
+                {
+                    "selector": "#prependPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-path-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-path-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-path-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-path-4 > h2",
+                    "value"   : "It Works!"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-template + data-sly-call",
+            "method": "innerHTMLEquals",
+            "url": "/sightlytck/blockstatements/templatecall.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/templatecall.html",
+            "cases": [
+                {
+                    "selector": "#remotetmpl_wrapper",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#localtmpl_wrapper",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#remotesec_wrapper",
+                    "method": "exists"
+                },
+                {
+                    "selector": "#mytempl_greeting",
+                    "value": "Hello, John Doe"
+                },
+                {
+                    "selector": "#remotetempl_greeting",
+                    "value": "Hello, John Doe"
+                },
+                {
+                    "selector": "#stale1 span.stale_hello",
+                    "value": ""
+                },
+                {
+                    "selector": "#stale1 span.stale_name",
+                    "value": ""
+                },
+                {
+                    "selector": "#stale2 span.stale_hello",
+                    "value": ""
+                },
+                {
+                    "selector": "#stale2 span.stale_name",
+                    "value": ""
+                },
+                {
+                    "selector": "#remote_div",
+                    "value": "hello"
+                },
+                {
+                    "selector": "#picard",
+                    "value": "Picard: &quot;Resistance is futile, No. 1!&quot;"
+                },
+                {
+                    "selector": "#riker",
+                    "value": "Riker: &quot;Smooth as an android's bottom.&quot;"
+                },
+                {
+                    "selector": "#param .valid1",
+                    "value": "Value for valid1 is value1"
+                },
+                {
+                    "selector": "#param .valid2",
+                    "value": "Value for valid2 is value2"
+                },
+                {
+                    "selector": "#param .invalid1",
+                    "value": "Value for invalid1 is"
+                },
+                {
+                    "selector": "#nested-template-call div",
+                    "value": "This is template2"
+                },
+                {
+                    "selector": "#factorial-call p span",
+                    "value": "5040"
+                },
+                {
+                    "selector": "#caller-template div",
+                    "value": "This is the callee"
+                },
+                {
+                    "selector": "#passed-template p",
+                    "value": "Passed template"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-attribute",
+            "method": "hasAttributeValue",
+            "url": "/sightlytck/blockstatements/attribute.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/attribute.html",
+            "cases": [
+                {
+                    "selector": "#attr1",
+                    "attribute": "class",
+                    "value": "foo"
+                },
+                {
+                    "selector": "#attr1",
+                    "attribute": "data-number",
+                    "value": "1"
+                },
+                {
+                    "selector": "#attr2",
+                    "attribute": "class",
+                    "value": "attrclass"
+                },
+                {
+                    "selector": "#attr2",
+                    "attribute": "data-number",
+                    "value": "1"
+                },
+                {
+                    "selector": "#attr3",
+                    "attribute": "class",
+                    "value": "attrclass"
+                },
+                {
+                    "selector": "#attr3",
+                    "attribute": "data-number",
+                    "value": "1"
+                },
+                {
+                    "selector": "#attr3",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr4",
+                    "attribute": "class",
+                    "value": "foo"
+                },
+                {
+                    "selector": "#attr5",
+                    "attribute": "checked",
+                    "value": "",
+                    "positive": false
+                },
+                {
+                    "selector": "#attr6",
+                    "method": "hasAttribute",
+                    "attribute": "checked"
+                },
+                {
+                    "selector": "#attr7",
+                    "attribute": "checked",
+                    "value": "",
+                    "positive": false
+                },
+                {
+                    "selector": "#attr8",
+                    "method": "hasAttribute",
+                    "attribute": "checked"
+                },
+                {
+                    "selector": "#attr9",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr10",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr11",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr12",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr13",
+                    "attribute": "title",
+                    "value": ""
+                },
+                {
+                    "selector": "#attr13",
+                    "attribute": "class",
+                    "value": "foo"
+                },
+                {
+                    "selector": "#attr13",
+                    "attribute": "data-number",
+                    "value": "2"
+                },
+                {
+                    "selector": "#attr14",
+                    "attribute": "data-attr2",
+                    "value": "false"
+                },
+                {
+                    "selector": "#attr15",
+                    "attribute": "data-seed-slider",
+                    "value": "false"
+                },
+                {
+                    "selector": "#attr16",
+                    "attribute": "data-seed-slider",
+                    "value": "false"
+                },
+                {
+                    "selector": "#attr17",
+                    "attribute": "data-seed-slider",
+                    "value": "false"
+                },
+                {
+                    "selector": "#rogue-attributes",
+                    "method": "innerHTMLEquals",
+                    "value": "<div></div>"
+                },
+                {
+                    "selector": "#rogue-a-1",
+                    "attribute": "href",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#rogue-a-2",
+                    "attribute": "href",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#rogue-a-3",
+                    "attribute": "href",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#forbidden-1",
+                    "attribute": "style",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#forbidden-2",
+                    "attribute": "onclick",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#forbidden-3",
+                    "attribute": "onmouseover",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#forbidden-3",
+                    "attribute": "style",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#forbidden-4",
+                    "attribute": "onclick",
+                    "value": "console.log('OK')"
+                },
+                {
+                    "selector": "#class-attr",
+                    "attribute": "class",
+                    "value": "foo"
+                },
+                {
+                    "selector": "#inexistent-1",
+                    "attribute": "data-test",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#inexistent-2",
+                    "attribute": "data-test",
+                    "method": "hasAttribute",
+                    "positive": false
+                },
+                {
+                    "selector": "#inexistent-3",
+                    "attribute": "data-test",
+                    "method": "hasAttribute",
+                    "positive": false
+                }
+            ]
+        },
+        {
+            "name": "data-sly-include",
+            "method": "innerHTMLEquals",
+            "url": "/sightlytck/blockstatements/include.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/include.html",
+            "cases": [
+                {
+                    "selector": "#prependPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#appendPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-appendPath-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-file-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-file-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-file-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#prependPath-file-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-1 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-2 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-3 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-4 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-5 > h2",
+                    "value"   : "It Works!"
+                },
+                {
+                    "selector": "#relative-6 > h2",
+                    "value"   : "It Works!"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-element",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/element.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/element.html",
+            "cases": [
+                {
+                    "selector": "span#div_span"
+                },
+                {
+                    "selector": "div#div_script"
+                },
+                {
+                    "selector": "div#div_style"
+                },
+                {
+                    "selector": "div#div_link"
+                },
+                {
+                    "selector": "div#div_alert"
+                },
+                {
+                    "selector": "customtag#div_unsafe"
+                },
+                {
+                    "selector": "meta#void-element-1",
+                    "method": "hasClosingTag",
+                    "positive": false
+                },
+                {
+                    "selector": "link#void-element-2",
+                    "method": "hasClosingTag",
+                    "positive": false
+                },
+                {
+                    "selector": "code#div-code-1",
+                    "method": "hasClosingTag"
+                },
+                {
+                    "selector": "code#div-code-2",
+                    "method": "hasClosingTag"
+                }
+            ]
+        },
+        {
+            "name": "data-sly-repeat",
+            "method": "exists",
+            "url": "/sightlytck/blockstatements/repeat.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/repeat.html",
+            "cases": [
+                {
+                    "selector": "div.1#natural-1"
+                },
+                {
+                    "selector": "div.2#natural-2"
+                },
+                {
+                    "selector": "div.3#natural-3"
+                },
+                {
+                    "selector": "div.1#reverse-1"
+                },
+                {
+                    "selector": "div.2#reverse-2"
+                },
+                {
+                    "selector": "div.3#reverse-3"
+                },
+                {
+                    "selector": "div#empty",
+                    "positive": false
+                },
+                {
+                    "selector": "div#string",
+                    "method": "innerHTMLEquals",
+                    "value": "string"
+                },
+                {
+                    "selector": "div#number",
+                    "method": "innerHTMLEquals",
+                    "value": "1"
+                },
+                {
+                    "selector": "#begin span.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin span.4",
+                    "method": "innerHTMLEquals",
+                    "value": "5"
+                },
+                {
+                    "selector": "#begin-end span.1",
+                    "method": "innerHTMLEquals",
+                    "value": "2"
+                },
+                {
+                    "selector": "#begin-end span.2",
+                    "method": "innerHTMLEquals",
+                    "value": "3"
+                },
+                {
+                    "selector": "#begin-end span.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin-end-step span.1",
+                    "method": "innerHTMLEquals",
+                    "value": "2"
+                },
+                {
+                    "selector": "#begin-end-step span.3",
+                    "method": "innerHTMLEquals",
+                    "value": "4"
+                },
+                {
+                    "selector": "#begin-5",
+                    "method": "hasChildren",
+                    "value": 0
+                },
+                {
+                    "selector": "#end-0",
+                    "method": "hasChildren",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "data-sly-set",
+            "method": "innerHTMLEquals",
+            "url": "/sightlytck/blockstatements/set.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/set.html",
+            "cases": [
+                {
+                    "selector": ".username",
+                    "value": "anakins"
+                },
+                {
+                    "selector": ".firstName",
+                    "value": "Darth"
+                },
+                {
+                    "selector": ".lastName",
+                    "value": "Vader"
+                },
+                {
+                    "selector": ".affiliations",
+                    "value": "Sith, Galactic Empire, Jedi Order"
+                },
+                {
+                    "selector": ".height",
+                    "value": "188"
+                }
+            ]
+        },
+        {
+            "name": "Identifiers scoping",
+            "method": "innerHTMLEquals",
+            "url": "/sightlytck/blockstatements/scoping.html",
+            "expectedMarkup": "/testfiles/output/blockstatements/scoping.html",
+            "cases": [
+                {
+                    "selector": "p.in-use",
+                    "value": "use script"
+                },
+                {
+                    "selector": "p.out-use",
+                    "value": "use script"
+                },
+                {
+                    "selector": "p.in-test-1",
+                    "value": "data-sly-test-1"
+                },
+                {
+                    "selector": "p.out-test-1",
+                    "value": "data-sly-test-1"
+                },
+                {
+                    "selector": "p.in-test-2",
+                    "value": "data-sly-test-2"
+                },
+                {
+                    "selector": "p.out-test-2",
+                    "value": "data-sly-test-2"
+                },
+                {
+                    "selector": "p.in-set-1",
+                    "value": "data-sly-set-1"
+                },
+                {
+                    "selector": "p.out-set-1",
+                    "value": "data-sly-set-1"
+                },
+                {
+                    "selector": "ul.data-sly-list",
+                    "method": "hasChildren",
+                    "value": 1
+                },
+                {
+                    "selector": "ul.data-sly-list > li",
+                    "value": "data-sly-list"
+                },
+                {
+                    "selector": "p.out-list",
+                    "value": "data-sly-set-1"
+                },
+                {
+                    "selector": "section.data-sly-repeat-wrapper",
+                    "method": "hasChildren",
+                    "value": 1
+                },
+                {
+                    "selector": "section.data-sly-repeat-wrapper > p.data-sly-repeat",
+                    "value": "data-sly-repeat"
+                },
+                {
+                    "selector": "p.out-repeat",
+                    "value": "data-sly-set-1"
+                }
+            ]
+        }
+    ]
+}

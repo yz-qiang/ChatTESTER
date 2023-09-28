@@ -1,0 +1,11 @@
+  ---
+  About
+  ---
+
+About ${artifactId}
+
+  This library defines the public API of the Fedora CloudSync service.
+
+  For more information, see {{{./usage.html}Usage}}, 
+{{{./apidocs/index.html}Javadocs}}, and the {{{https://wiki.duraspace.org/display/CLOUDSYNC}Fedora CloudSync Wiki Page}}.
+

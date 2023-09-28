@@ -1,0 +1,179 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Assert;
+import org.junit.Test;
+public class IntLongHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntLongHashMap map1 = new IntLongHashMap();
+        map1.put(1, 100L);
+        map1.put(2, 200L);
+        map1.put(3, 300L);
+        IntLongHashMap map2 = new IntLongHashMap();
+        map2.put(1, 100L);
+        map2.put(2, 200L);
+        map2.put(3, 300L);
+        Assert.assertEquals(map1.hashCode(), map2.hashCode());
+        IntLongHashMap map3 = new IntLongHashMap();
+        map3.put(1, 100L);
+        map3.put(2, 200L);
+        map3.put(4, 400L);
+
+       <Buggy Line>: cannot find symbol
+        Assert.assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toLong;
+import static edu.jhu.prim.Primitives.toInt;
+import org.junit.Assert;
+import org.junit.Test;
+public class IntLongHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntLongHashMap map1 = new IntLongHashMap();
+        map1.put(1, 100L);
+        map1.put(2, 200L);
+        map1.put(3, 300L);
+        IntLongHashMap map2 = new IntLongHashMap();
+        map2.put(1, 100L);
+        map2.put(2, 200L);
+        map2.put(3, 300L);
+        Assert.assertEquals(map1.hashCode(), map2.hashCode());
+        IntLongHashMap map3 = new IntLongHashMap();
+        map3.put(1, 100L);
+        map3.put(2, 200L);
+        map3.put(4, 400L);
+
+       <Buggy Line>: cannot find symbol
+        Assert.assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+2-->3-->1-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import org.junit.Assert;
+import org.junit.Test;
+public class IntLongHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntLongHashMap map1 = new IntLongHashMap();
+        map1.put(1, 100L);
+        map1.put(2, 200L);
+        map1.put(3, 300L);
+        IntLongHashMap map2 = new IntLongHashMap();
+        map2.put(1, 100L);
+        map2.put(2, 200L);
+        map2.put(3, 300L);
+        Assert.assertEquals(map1.hashCode(), map2.hashCode());
+        IntLongHashMap map3 = new IntLongHashMap();
+        map3.put(1, 100L);
+        map3.put(2, 200L);
+        map3.put(4, 400L);
+
+       <Buggy Line>: cannot find symbol
+        Assert.assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+3-->4-->2-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import org.junit.Assert;
+import org.junit.Test;
+public class IntLongHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntLongHashMap map1 = new IntLongHashMap();
+        map1.put(1, 100L);
+        map1.put(2, 200L);
+        map1.put(3, 300L);
+        IntLongHashMap map2 = new IntLongHashMap();
+        map2.put(1, 100L);
+        map2.put(2, 200L);
+        map2.put(3, 300L);
+        Assert.assertEquals(map1.hashCode(), map2.hashCode());
+        IntLongHashMap map3 = new IntLongHashMap();
+        map3.put(1, 100L);
+        map3.put(2, 200L);
+        map3.put(4, 400L);
+
+       <Buggy Line>: cannot find symbol
+        Assert.assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+4-->5-->3-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import org.junit.Assert;
+import org.junit.Test;
+public class IntLongHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntLongHashMap map1 = new IntLongHashMap();
+        map1.put(1, 100L);
+        map1.put(2, 200L);
+        map1.put(3, 300L);
+        IntLongHashMap map2 = new IntLongHashMap();
+        map2.put(1, 100L);
+        map2.put(2, 200L);
+        map2.put(3, 300L);
+        Assert.assertEquals(map1.hashCode(), map2.hashCode());
+        IntLongHashMap map3 = new IntLongHashMap();
+        map3.put(1, 100L);
+        map3.put(2, 200L);
+        map3.put(4, 400L);
+
+       <Buggy Line>: cannot find symbol
+        Assert.assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

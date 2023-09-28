@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2015 Adobe Systems Incorporated
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html>
+    <head>
+        <title>data-sly-repeat</title>
+    </head>
+    <body>
+        <div data-sly-repeat="${[1, 2, 3]}" id="natural-${itemList.count}" class="${item}"></div>
+        <div id="reverse-${itemList.count}" class="${item}" data-sly-repeat="${[1, 2, 3]}"></div>
+        <div id="empty" data-sly-repeat="${[]}"></div>
+        <div id="string" data-sly-repeat="${'string'}">${item}</div>
+        <div id="number" data-sly-repeat="${1}">${item}</div>
+        <div>
+          <h2>Iteration Control</h2>
+
+          <h3><code>list=[1, 2, 3, 4, 5]; begin=3</code></h3>
+          <div id="begin">
+          <span data-sly-repeat="${[1, 2, 3, 4, 5] @ begin = 3}" class="${itemList.index}">${item}</span>
+          </div>
+
+          <h3><code>list=[1, 2, 3, 4, 5]; begin=1; end=3</code></h3>
+          <div id="begin-end">
+            <span data-sly-repeat="${[1, 2, 3, 4, 5] @ begin = 1, end = 3}" class="${itemList.index}">${item}</span>
+          </div>
+
+          <h3><code>list=[1, 2, 3, 4, 5]; begin=1; end=4; step=2</code></h3>
+          <div id="begin-end-step" >
+            <span data-sly-repeat="${[1, 2, 3, 4, 5] @ begin = 1, end = 4, step = 2}" class="${itemList.index}">${item}</span>
+          </div>
+
+          <h3><code>list=[1, 2, 3, 4, 5]; begin=5;</code></h3>
+          <div id="begin-5">
+            <span data-sly-repeat="${[1, 2, 3, 4, 5] @ begin = 5}" class="${itemList.index}">${item}</span>
+          </div>
+
+          <h3><code>list=[1, 2, 3, 4, 5]; end=0;</code></h3>
+          <div id="end-0">
+            <span data-sly-repeat="${[1, 2, 3, 4, 5] @ end = 0}" class="${itemList.index}">${item}</span>
+          </div>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+body {
+  font-size: 12px;
+}
+
+td {
+  padding: 2px;
+  margin: 0px;
+}
+
+#title {
+  float: left;
+  margin-bottom: 5px;
+}
+
+#title img {
+  border: 0;
+}
+
+#logout {
+  float: right;
+  text-align: right;
+}
+
+#whoami {
+  font-size: 1.3em;
+  font-style: italic;
+  color: #444444;
+}
+
+#tabs {
+  clear: both;
+}
+
+.tab-header {
+  float: right;
+  padding-bottom: 10px;
+}
+
+.tab-body {
+  clear: both;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #dcdcdc;
+}
+
+.tab-section {
+  padding-bottom: 5px;
+}
+
+.tab-section h2 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.2em;
+}
+
+.tab-section-body {
+  margin-left: 20px;
+}
+
+.tab-footer {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #ececec;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.tab-footer p {
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+.item-actions {
+  text-align: right;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dcdcdc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#dialog-NewSet p {
+  text-align: center;
+}
+
+#dialog-NewStore p {
+  text-align: center;
+}
+
+#dialog-NewTask p {
+  text-align: center;
+}

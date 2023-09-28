@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/ManfredTremmel_gwt-commons-lang3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/XDean_Java-EX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/adobe_htl-tck" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/bazaarvoice_ostrich" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/duraspace_fcrepo-cloudsync" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/l0s_fernet-java8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/lazee_meteo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/mgormley_prim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/pvanassen_ns-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/syphr42_prom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/udoprog_tiny-async-java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/repo_get/approachValidation_repo/waldheinz_fat32-lib" vcs="Git" />
+  </component>
+</project>

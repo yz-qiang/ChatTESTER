@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2014 Adobe Systems Incorporated
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html>
+<head>
+    <title>data-sly-text</title>
+</head>
+<body>
+<div id="outer_div" data-sly-text="${'some-text'}">
+    <span class="erased_child">This content should be hidden</span>
+</div>
+<div id="html_context" data-sly-text="${'<p>some-text</p>' @ context='html'}">
+    <span class="erased_child">This content should be hidden</span>
+</div>
+<div id="text_context" data-sly-text="${'<p>some-text</p>'}">
+    <span class="erased_child">This content should be hidden</span>
+</div>
+<p id="empty_string" data-sly-text="${''}"></p>
+<p id="empty_array" data-sly-text="${[]}"></p>
+<p id="zero" data-sly-text="${0}"></p>
+<p id="false" data-sly-text="${false}"></p>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+  <import resource="classpath:META-INF/cxf/cxf.xml"/>
+  <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+
+  <jaxrs:server id="restService" address="/rest">
+    <jaxrs:serviceBeans>
+      <ref bean="serviceResource"/>
+      <ref bean="userResource"/>
+      <ref bean="taskResource"/>
+      <ref bean="objectSetResource"/>
+      <ref bean="objectStoreResource"/>
+      <ref bean="taskLogResource"/>
+      <ref bean="duraCloudResource"/>
+    </jaxrs:serviceBeans>
+    <jaxrs:providers>
+      <ref bean="jaxbProvider"/>
+      <ref bean="jsonProvider"/>
+    </jaxrs:providers>
+    <jaxrs:extensionMappings>
+      <entry key="json" value="application/json" />
+      <entry key="xml" value="application/xml" />
+    </jaxrs:extensionMappings>
+  </jaxrs:server>
+
+  <util:list id="jsonArrayKeys">
+    <value>objects</value>
+    <value>objectSets</value>
+    <value>objectStores</value>
+    <value>taskLogs</value>
+    <value>tasks</value>
+    <value>users</value>
+  </util:list>
+  
+  <util:list id="jsonTypes">
+    <value>application/json</value>
+    <value>application/vnd.fcrepo-cloudsync.objectset+json</value>
+    <value>application/vnd.fcrepo-cloudsync.objectsets+json</value>
+    <value>application/vnd.fcrepo-cloudsync.objectstore+json</value>
+    <value>application/vnd.fcrepo-cloudsync.objectstores+json</value>
+    <value>application/vnd.fcrepo-cloudsync.provideraccounts+json</value>
+    <value>application/vnd.fcrepo-cloudsync.serviceinfo+json</value>
+    <value>application/vnd.fcrepo-cloudsync.serviceinit+json</value>
+    <value>application/vnd.fcrepo-cloudsync.spaces+json</value>
+    <value>application/vnd.fcrepo-cloudsync.task+json</value>
+    <value>application/vnd.fcrepo-cloudsync.tasks+json</value>
+    <value>application/vnd.fcrepo-cloudsync.tasklog+json</value>
+    <value>application/vnd.fcrepo-cloudsync.tasklogs+json</value>
+    <value>application/vnd.fcrepo-cloudsync.user+json</value>
+    <value>application/vnd.fcrepo-cloudsync.users+json</value>
+  </util:list>
+
+  <util:list id="xmlTypes">
+    <value>application/xml</value>
+    <value>application/vnd.fcrepo-cloudsync.objectset+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.objectsets+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.objectstore+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.objectstores+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.provideraccounts+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.serviceinfo+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.serviceinit+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.spaces+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.task+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.tasks+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.tasklog+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.tasklogs+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.user+xml</value>
+    <value>application/vnd.fcrepo-cloudsync.users+xml</value>
+  </util:list>
+
+  <bean id="jsonProvider" class="org.apache.cxf.jaxrs.provider.JSONProvider">
+    <property name="serializeAsArray" value="true"/>
+    <property name="arrayKeys" ref="jsonArrayKeys"/>
+    <property name="produceMediaTypes" ref="jsonTypes"/>
+    <property name="consumeMediaTypes" ref="jsonTypes"/>
+  </bean>
+
+  <bean id="jaxbProvider" class="org.apache.cxf.jaxrs.provider.JAXBElementProvider">
+    <property name="produceMediaTypes" ref="xmlTypes"/>
+    <property name="consumeMediaTypes" ref="xmlTypes"/>
+  </bean>
+  
+  <bean id="serviceResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.ServiceResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="userResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.UserResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="taskResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.TaskResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="objectSetResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.ObjectSetResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="objectStoreResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.ObjectStoreResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="taskLogResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.TaskLogResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+  <bean id="duraCloudResource"
+        class="org.duraspace.fcrepo.cloudsync.service.rest.DuraCloudResource">
+    <constructor-arg ref="serviceImpl"/>
+  </bean>
+
+</beans>

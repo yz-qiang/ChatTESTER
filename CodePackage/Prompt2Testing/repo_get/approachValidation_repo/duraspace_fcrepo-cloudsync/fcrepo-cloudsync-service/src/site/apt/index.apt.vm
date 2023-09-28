@@ -1,0 +1,11 @@
+  ---
+  About
+  ---
+
+About ${artifactId}
+
+  This is a web application for backing up and restoring Fedora content in
+DuraCloud.
+
+  For more information, see the {{{https://wiki.duraspace.org/display/CLOUDSYNC}Fedora
+CloudSync Wiki Page}}.

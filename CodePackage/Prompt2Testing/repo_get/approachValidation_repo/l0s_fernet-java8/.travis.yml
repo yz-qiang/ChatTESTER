@@ -1,0 +1,54 @@
+#   Copyright 2017 Carlos Macasaet
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       https://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+os: linux
+dist: bionic
+install:
+  # disable (erroneous) mirrors in settings.xml
+  - xmlstarlet edit --inplace --delete "//mirrors" "${TRAVIS_HOME}/.m2/settings.xml"
+jobs:
+  include:
+    - language: java
+      jdk: openjdk8
+      script:
+        - ./mvnw clean install
+    - language: java
+      jdk: openjdk10
+      script:
+        - ./mvnw clean install
+    - language: java
+      jdk: openjdk11
+      script:
+        - ./mvnw clean install site
+env:
+  jobs:
+    secure: AVFhPadriChDFAi6WzcifaEmjXaIdNCMmmsCr2CJw63SptFZ9HcC670oJWTGxVvWCGjTOQAXkwcD1ND4poJCfuXbaN/STPSQxAfF6KGrtMwVcssfbQU0h2XG2N/I8VNcldBFsCwGIe+tvUCnVK0bH9Clst/3sC5HokI4CPGL5YUG+c57rkhh4PDl5gsJHbBdbO7XL8ftjnBkWPuZ9s6NnzJEe12G8s4llUGyzPUpYVer+L0iREdCgAbvD1HZ7ejox2wEmDScKR58fnyF64m4MVOb5Wf0WCh3C9kZH1UrqqOl/ssG+sM6RuNf9piCizPfQWJ3tSiAaqWSO6DdHXS66MPipkeWg6fcqijz+yDgJbjqsB/0cV+oP3RFNbTHpG6oiFwMY4dX9Wnrz8wbhOiebWo2EwusUuV3JigvGrQQv0zxYkTauDDXCMEJGALDoU/QUNYtiQekx7AsNlUScNdqbL1+IZkcVQ8UdXUiZR8mTebpEFCpR5v1LShehq4G4jgp0d3x4KPnBbMjY00R5dmGOdAPRkzoCl7WHPg33VVWcFyyAJ6gn4ijPRvSofdEoffuI88MGFmtkgA/gzYEYkVAdKhmr+9URSwfhXFnNAXi3s9FLf7oi8RvwR7Bl85pOzTD5nzV6KxeVWI08pDq6PoORUc+QJjwulIdGSQNQg4nHbc=
+deploy:
+  provider: pages
+  cleanup: false
+  local_dir: target/staging
+  token: $GITHUB_TOKEN
+  on:
+    tags: true
+    jdk: openjdk11
+addons:
+  apt:
+    packages:
+      - xmlstarlet # XML manipulation tool to edit default setting.xml
+cache:
+  directories:
+    - $HOME/.m2
+    - fernet-java8/target/pmd
+    - fernet-aws-secrets-manager-rotator/target/pmd
+    - fernet-jersey-auth/target/pmd

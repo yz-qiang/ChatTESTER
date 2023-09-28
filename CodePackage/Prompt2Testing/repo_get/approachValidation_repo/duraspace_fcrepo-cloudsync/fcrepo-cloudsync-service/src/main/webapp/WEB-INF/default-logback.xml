@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${cloudsync.home}/systemlogs/cloudsync.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>cloudsync.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%p %d{HH:mm:ss.SSS} (%c{0}\\) %m%n</pattern>
+    </encoder>
+  </appender>
+  <!-- Ignore canonicalization WARNings -->
+  <logger name="com.github.cwilper.fcrepo.dto.core.InlineXML" additivity="false" level="ERROR"/>
+  <!-- Show all INFO, WARNING, and ERROR level messages originating from this app -->
+  <logger name="org.duraspace.fcrepo.cloudsync" additivity="false" level="INFO">
+    <appender-ref ref="FILE"/>
+  </logger>
+  <!-- Show only WARNings and ERRORs for everything else -->
+  <root additivity="false" level="WARN">
+    <appender-ref ref="FILE"/>
+  </root>
+</configuration>

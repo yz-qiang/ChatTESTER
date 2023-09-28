@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ReisMogelijkheden>
+  <ReisMogelijkheid>
+    <AantalOverstappen>1</AantalOverstappen>
+    <GeplandeReisTijd>0:31</GeplandeReisTijd>
+    <ActueleReisTijd>0:31</ActueleReisTijd>
+    <AankomstVertraging>+17 min</AankomstVertraging>
+    <Optimaal>false</Optimaal>
+    <GeplandeVertrekTijd>2010-09-14T15:17:00+0200</GeplandeVertrekTijd>
+    <ActueleVertrekTijd>2010-09-14T15:17:00+0200</ActueleVertrekTijd>
+    <GeplandeAankomstTijd>2010-09-14T15:48:00+0200</GeplandeAankomstTijd>
+    <ActueleAankomstTijd>2010-09-14T16:05:00+0200</ActueleAankomstTijd>
+  </ReisMogelijkheid>
+</ReisMogelijkheden>

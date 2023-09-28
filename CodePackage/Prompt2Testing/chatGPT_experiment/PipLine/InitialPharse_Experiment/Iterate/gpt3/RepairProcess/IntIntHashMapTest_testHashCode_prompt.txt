@@ -1,0 +1,76 @@
+0-->1-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static edu.jhu.prim.Primitives.toInt;
+import static org.junit.Assert.*;
+import java.util.Iterator;
+import org.junit.Test;
+import edu.jhu.prim.Primitives;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class IntIntHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntIntHashMap map1 = new IntIntHashMap();
+        map1.put(1, 10);
+        map1.put(2, 20);
+        map1.put(3, 30);
+        IntIntHashMap map2 = new IntIntHashMap();
+        map2.put(3, 30);
+        map2.put(2, 20);
+        map2.put(1, 10);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntIntHashMap map3 = new IntIntHashMap();
+        map3.put(1, 10);
+        map3.put(2, 20);
+        map3.put(4, 40);
+
+       <Buggy Line>: cannot find symbol
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+
+1-->2-->0-->compileRepair
+// Test Method
+package edu.jhu.prim.map;
+import static org.junit.Assert.assertEquals;
+
+<Buggy Line>: cannot find symbol
+import static org.junit.Assert.assertNotEquals;
+
+import org.junit.Test;
+public class IntIntHashMapTest_testHashCode {
+    @Test
+    public void testHashCode() {
+        IntIntHashMap map1 = new IntIntHashMap();
+        map1.put(1, 10);
+        map1.put(2, 20);
+        map1.put(3, 30);
+        IntIntHashMap map2 = new IntIntHashMap();
+        map2.put(3, 30);
+        map2.put(2, 20);
+        map2.put(1, 10);
+        assertEquals(map1.hashCode(), map2.hashCode());
+        IntIntHashMap map3 = new IntIntHashMap();
+        map3.put(1, 10);
+        map3.put(2, 20);
+        map3.put(4, 40);
+        assertNotEquals(map1.hashCode(), map3.hashCode());
+    }
+}
+
+
+The test method has a bug error (marked <Buggy Line>). 
+ Please repair the buggy line and return the complete test method after repair.
+
+########
+

@@ -1,0 +1,93 @@
+Simple Case
+
+  Create a new manager, load it, and interact with the properties.
+
++------------------------------------------------------
+  enum Key { ITEM1, ITEM2, ITEM3 }
+  
+  File propertiesFile = new File...
+  File defaultsFile = new File...
+  PropertiesManager<Key> prom = PropertiesManagers.newManager(propertiesFile, defaultsFile, Key.class);
+  
+  prom.load();
+  boolean flag = prom.getBooleanProperty(Key.ITEM1);
+  
+  prom.saveProperty(Key.ITEM2, 356);
++------------------------------------------------------
+
+Listeners
+
+  Use the PropertiesManager from the simple example and add listeners.
+  
++------------------------------------------------------
+  prom.addPropertyListener(new PropertyListener<Key>()
+  {
+    public void loaded(PropertyEvent<T> event)
+    {
+      if (event.getProperty() == null)
+      	System.out.println("properties loaded");
+      else
+        System.out.println(event.getProperty() + " loaded");
+    }
+    
+    public void saved(PropertyEvent<T> event)
+    {
+      if (event.getProperty() == null)
+      	System.out.println("properties saved");
+      else
+        System.out.println(event.getProperty() + " saved");
+    }
+    
+    public void changed(PropertyEvent<T> event)
+    {
+      if (event.getProperty() == null)
+      	System.out.println("properties changed");
+      else
+        System.out.println(event.getProperty() + " changed");
+    }
+    
+    public void reset(PropertyEvent<T> event)
+    {
+      if (event.getProperty() == null)
+      	System.out.println("properties reset");
+      else
+        System.out.println(event.getProperty() + " reset");
+    }
+  });
++------------------------------------------------------
+
+More Specific
+
+  Split off a single property and interact with it directly.
+  
++------------------------------------------------------
+  PropertyManager<Key> item3 = prom.getPropertyManager(Key.ITEM3);
+
+  item3.addPropertyListener(new PropertyListener<Key>()
+  {
+    public void loaded(PropertyEvent<T> event)
+    {
+      System.out.println("item3 loaded");
+    }
+    
+    public void saved(PropertyEvent<T> event)
+    {
+      System.out.println("item3 saved");
+    }
+    
+    public void changed(PropertyEvent<T> event)
+    {
+      System.out.println("item3 changed");
+    }
+    
+    public void reset(PropertyEvent<T> event)
+    {
+      System.out.println("item3 reset");
+    }
+  });
+  
+  enum Color { RED, GREEN, BLUE }
+  item3.setProperty(Color.BLUE);
+  
+  Color fav = item3.getEnumProperty(Color.class);
++------------------------------------------------------

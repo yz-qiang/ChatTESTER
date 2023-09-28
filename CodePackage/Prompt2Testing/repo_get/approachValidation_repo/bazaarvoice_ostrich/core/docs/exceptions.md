@@ -1,0 +1,8 @@
+### Ostrich exceptions
+| Exception                           | Service Discovered | Problem Domain | Description                                                                                                                                                  |
+|-------------------------------------|--------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| MaxRetriesException                 | Yes                | Service        | Service invocation has been tried unsuccessfully until a retry policy no longer allows retries.                                                              |
+| NoAvailableHostsException           | No                 | Ostrich        | Indicates that host discovery provided no end points.                                                                                                        |
+| NoCachedInstancesAvailableException | Yes                | Ostrich        | Service cache does not have an idle cached instance for an end point, it does not have room to create a new one, and it is configured to fail when exhausted.|
+| NoSuitableHostsException            | No                 | Ostrich        | Indicates that load balancing algorithm did not chose any end point from provided end points.                                                                |
+| OnlyBadHostsException               | Yes                | Service        | Service endpoints discovered by Ostrich have all errored or are otherwise reporting unhealthy.                                                               |
