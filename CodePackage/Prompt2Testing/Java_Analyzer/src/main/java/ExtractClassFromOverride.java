@@ -12,8 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// 为override方法，提取对应的class。
-// 针对错误情况：method does not override or implement a method from a supertype
+// method does not override or implement a method from a supertype
 public class ExtractClassFromOverride {
 
     public static void main(String[] args) throws FileNotFoundException {
