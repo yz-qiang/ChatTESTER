@@ -26,14 +26,12 @@ public class PublicInfo_collection {
         String filePath = args[0];
         String ClassName = args[1];
 
-//        String filePath = "D:\\\\Python\\\\Test_Completion\\\\Promt2Testing\\\\repo_get\\\\approachValidation_repo\\\\l0s_fernet-java8\\\\fernet-java8\\\\src\\\\main\\\\java\\\\com\\\\macasaet\\\\fernet\\\\Token.java";
-//        String ClassName = "Token";
         String ClassInfo = Deal_underTest(filePath, ClassName);
         System.out.println(ClassInfo);
     }
 
     public static String Deal_underTest(String filePath, String ClassName) throws IOException{
-        // String filePath = "/home/fdse/zhiqiang/python/Promt2Testing/repo_get/mvnTest_Success/jcodec_jcodec/src/main/java/org/jcodec/containers/dpx/DPXReader.java";
+       
         List<HashMap<String,String>> underTest_list = new ArrayList<>();
 
         // file read
@@ -74,7 +72,7 @@ public class PublicInfo_collection {
             e.printStackTrace();
         }
 
-        // 提取package
+        // for package
         PackageDeclaration packageDeclaration = cu.getPackageDeclaration().orElse(null);
         String packageName = packageDeclaration.getNameAsString();
 
@@ -87,7 +85,7 @@ public class PublicInfo_collection {
 
             if (classDeclaration.getNameAsString().equals(ClassName)){
                 String Info = packageDeclaration +"\n" + Class_declaration + "\n" + String.join("\n",public_field) + "\n" + String.join("\n",public_method_signature) + "\n}";
-                PublicInfo = Info.replaceAll("(?m)^[ \t]*\r?\n", "");  // 去除空换行符
+                PublicInfo = Info.replaceAll("(?m)^[ \t]*\r?\n", "");  
             }
         }
 
