@@ -12,8 +12,8 @@ import java.util.Optional;
 
 public class Binding {
     public static void main(String args[]) throws FileNotFoundException {
-        String fileName = "D:\\7z\\testedRepo384\\Wikidata_Wikidata-Toolkit\\wdtk-wikibaseapi\\src\\test\\java\\org\\wikidata\\wdtk\\wikibaseapi\\BasicApiConnectionTest_testConfirmClientLogin.java";
-        String methodName = "getUsername";
+        String fileName = "";
+        String methodName = "";
         String target = getObjectType(fileName, methodName);
         System.out.println(target);
     }
