@@ -12,7 +12,7 @@ public void test04() throws Throwable {
     JsonReaderCodeGenerator.AttributeInfo jsonReaderCodeGenerator_AttributeInfo0 = jsonReaderCodeGenerator_TypeInfo0.addAttributeInfo(class0, (JsonBeanAttribute) null);
     jsonReaderCodeGenerator_AttributeInfo0.getDetail();
     assertEquals(0, jsonReaderCodeGenerator_AttributeInfo0.getArrayType());
-}",2,2,2,2,"@Test(timeout = 4000)
+}",2,2,2,2,"@Test
 public void testAddAttributeInfo() throws Throwable {
     // Create a TypeInfo object with Object class
     Class<Object> class0 = Object.class;
@@ -40,7 +40,7 @@ public void test04() throws Throwable {
     JsonReaderCodeGenerator.AttributeInfo jsonReaderCodeGenerator_AttributeInfo0 = jsonReaderCodeGenerator_TypeInfo0.addAttributeInfo(class0, (JsonBeanAttribute) null);
     jsonReaderCodeGenerator_AttributeInfo0.getDetail();
     assertEquals(0, jsonReaderCodeGenerator_AttributeInfo0.getArrayType());
-}",2,2,2,2,"@Test(timeout = 4000)
+}",2,2,2,2,"@Test
 public void testAddAttributeInfo() throws Throwable {
     // Create a TypeInfo object with Object class
     Class<Object> class0 = Object.class;
@@ -1105,7 +1105,7 @@ public void test36() throws Throwable {
     ZapposJson zapposJson0 = new ZapposJson();
     Class<Date> class0 = Date.class;
     zapposJson0.removeValueFormatter(class0);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testRemoveValueFormatter() throws Throwable {
     ZapposJson zapposJson = new ZapposJson();
     Class<Date> class0 = Date.class;
@@ -2806,7 +2806,7 @@ public void test4() throws Throwable {
     LikesFeed likesFeed0 = new LikesFeed();
     String string0 = likesFeed0.toString();
     assertEquals(""LikesFeed [meta=null, userList=null]"", string0);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testToString() throws Throwable {
     LikesFeed likesFeed = new LikesFeed();
     likesFeed.setMeta(null);
@@ -2929,7 +2929,7 @@ public void test6() throws Throwable {
     TagSearchFeed tagSearchFeed0 = new TagSearchFeed();
     String string0 = tagSearchFeed0.toString();
     assertEquals(""TagSearchFeed [meta=null, tagList=null]"", string0);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testToString() throws Throwable {
     // Create a new instance of TagSearchFeed
     TagSearchFeed tagSearchFeed = new TagSearchFeed();
@@ -3057,7 +3057,7 @@ public void test5() throws Throwable {
     TagInfoFeed tagInfoFeed0 = new TagInfoFeed();
     String string0 = tagInfoFeed0.toString();
     assertEquals(""TagInfoFeed [meta=null, tagInfo=null]"", string0);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testToString() throws Throwable {
     TagInfoFeed tagInfoFeed = new TagInfoFeed();
     tagInfoFeed.setMeta(null);
@@ -3154,7 +3154,7 @@ public void test4() throws Throwable {
     TagMediaFeed tagMediaFeed0 = new TagMediaFeed();
     String string0 = tagMediaFeed0.toString();
     assertEquals(""TagMediaFeed [data=null, meta=null, pagination=null]"", string0);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testToString() throws Throwable {
     // Create a new instance of TagMediaFeed
     TagMediaFeed tagMediaFeed = new TagMediaFeed();
@@ -5001,7 +5001,7 @@ public void test01() throws Throwable {
     Line line1 = Line.removeRepeatedCharacters(line0, character0, (-3689));
     assertEquals(4684.6978F, line0.y, 0.01F);
     assertTrue(line1.equals((Object) line0));
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testRemoveRepeatedCharacters() throws Throwable {
     // Create a Line object
     Line line = new Line();
@@ -5028,7 +5028,7 @@ public void test05() throws Throwable {
     line0.setTextElements((List<TextChunk>) null);
     List<TextChunk> list0 = line0.getTextElements();
     assertNull(list0);
-}",3,3,2,3,"@Test(timeout = 4000)
+}",3,3,2,3,"@Test
 public void testGetTextElements() throws Throwable {
     // Create a new Line object
     Line line = new Line();
@@ -5122,7 +5122,7 @@ public void test00() throws Throwable {
     RectangularTextContainer<RectangularTextContainer<TextElement>> rectangularTextContainer1 = new RectangularTextContainer<RectangularTextContainer<TextElement>>((-198.57213F), 1.0F, (-1133.79F), 0.0F);
     rectangularTextContainer0.merge(rectangularTextContainer1);
     assertEquals((-198.57213F), rectangularTextContainer0.y, 0.01F);
-}",3,3,3,3,"@Test(timeout = 4000)
+}",3,3,3,3,"@Test
 public void testMerge() throws Throwable {
     // Create the first RectangularTextContainer instance
     RectangularTextContainer<RectangularTextContainer<TextElement>> rectangularTextContainer0 = new RectangularTextContainer<RectangularTextContainer<TextElement>>(1.0F, 0.0F, 0.0F, 1.0F);
@@ -5668,14 +5668,24 @@ public void test00() throws Throwable {
     assertEquals(0.7011227255423254, double0, 0.01);
     assertEquals((-416), yearMatch0.getEndIndex());
     assertEquals((-416), yearMatch0.getStartIndex());
-}",3,3,3,3,"@Test
-public void testGetAverageEntropy() {
-    YearMatch yearMatch = new YearMatch(""a._jB-!,<c"", (Configuration) null, (-416), (-416));
-    double averageEntropy = yearMatch.getAverageEntropy();
-    assertEquals(0.7011227255423254, averageEntropy, 0.01);
-    assertEquals((-416), yearMatch.getEndIndex());
-    assertEquals((-416), yearMatch.getStartIndex());
-}",3,3,3,3
+}",3,3,3,3,"    @Test
+    public void testGetAverageEntropy() {
+        // Setup: Create a ConcreteMatch with a known entropy and length
+        String match = ""password123""; // Length is 11 characters
+        Configuration configuration = null; // Assuming configuration is not used in this test scenario
+        int start_index = 0;
+        int end_index = match.length() - 1;
+        ConcreteMatch concreteMatch = new ConcreteMatch(match, configuration, start_index, end_index);
+        
+        // Expected average entropy: calculateEntropy() returns 100.0, length is 11, so average should be 100.0 / 11
+        double expectedAverageEntropy = 100.0 / 11;
+        
+        // Execute: Call getAverageEntropy on the test instance
+        double actualAverageEntropy = concreteMatch.getAverageEntropy();
+        
+        // Verify: The actual average entropy matches the expected value
+        assertEquals(expectedAverageEntropy, actualAverageEntropy, 0.001, ""The calculated average entropy should match the expected value."");
+    }",3,3,3,3
 "@Override
 public int getEndIndex() {
     return this.end_index;
@@ -5687,13 +5697,20 @@ public void test00() throws Throwable {
     assertEquals(0.7011227255423254, double0, 0.01);
     assertEquals((-416), yearMatch0.getEndIndex());
     assertEquals((-416), yearMatch0.getStartIndex());
-}",2,2,3,3,"@Test
-public void testGetEndIndex() {
-    YearMatch yearMatch = new YearMatch(""a._jB-!,<c"", (Configuration) null, (-416), (-416));
-    int expectedEndIndex = -416;
-    int actualEndIndex = yearMatch.getEndIndex();
-    assertEquals(expectedEndIndex, actualEndIndex);
-}",3,3,3,3
+}",2,2,3,3,"    @Test
+    public void testGetEndIndexReturnsCorrectValue() {
+        // Setup: Define test parameters
+        String match = ""test123"";
+        Configuration configuration = null; // Assuming configuration is not relevant for this test
+        int start_index = 0;
+        int end_index = 6; // For ""test123"", the end index would be 6 (0-based indexing)
+        
+        // Initialize a TestMatch object with the defined parameters
+        TestMatch testMatch = new TestMatch(match, configuration, start_index, end_index);
+        
+        // Execute & Verify: Ensure getEndIndex() returns the correct end index
+        assertEquals(end_index, testMatch.getEndIndex(), ""The end index should match the value passed to the constructor."");
+    }",3,3,3,3
 "@Override
 public int getStartIndex() {
     return this.start_index;
@@ -5706,12 +5723,19 @@ public void test00() throws Throwable {
     assertEquals((-416), yearMatch0.getEndIndex());
     assertEquals((-416), yearMatch0.getStartIndex());
 }",2,2,3,3,"@Test
-public void testGetStartIndex() {
-    YearMatch yearMatch = new YearMatch(""a._jB-!,<c"", (Configuration) null, (-416), (-416));
-    int expectedStartIndex = -416;
-    int actualStartIndex = yearMatch.getStartIndex();
-    assertEquals(expectedStartIndex, actualStartIndex);
-}",3,3,3,3
+    public void testGetStartIndexReturnsCorrectValue() {
+        // Setup: Define test parameters
+        String match = ""example"";
+        Configuration configuration = null; // Assuming configuration is not relevant for this test
+        int start_index = 5; // Arbitrary start index for testing
+        int end_index = 12; // End index, not directly relevant to this test
+        
+        // Initialize a TestMatch object with the defined parameters
+        TestMatch testMatch = new TestMatch(match, configuration, start_index, end_index);
+        
+        // Execute & Verify: Ensure getStartIndex() returns the correct start index
+        assertEquals(start_index, testMatch.getStartIndex(), ""The start index should match the value passed to the constructor."");
+    }",3,3,3,3
 "protected static long nCk(int n, int k) {
     if (k > n) {
         return 0;
@@ -6189,29 +6213,18 @@ public void test14() throws Throwable {
     Map<String, Long> map0 = configuration0.getGuessTypes();
     assertTrue(configuration0.isDistanceCalc());
     assertNull(map0);
-}",2,2,2,2,"@Test
-public void testGetGuessTypes() {
-    // Create test data
-    List<PasswordMatcher> passwordMatchers = new LinkedList<>();
-    List<Dictionary> dictionaries = new LinkedList<>();
-    List<AdjacencyGraph> adjacencyGraphs = new LinkedList<>();
-    Map<Character, Character[]> leetTable = new HashMap<>();
-    Pattern yearPattern = Pattern.compile("""");
-    Double minimumEntropy = new Double(278.1067);
-    Integer maxLength = new Integer(0);
-    Locale locale = Locale.SIMPLIFIED_CHINESE;
-    boolean distanceCalc = true;
-    long combinationAlgorithmTimeout = 0;
+}",2,2,2,2,"    @Test
+    public void testGetGuessTypesReturnsCorrectMap() {
+        Map<String, Long> retrievedGuessTypes = configuration.getGuessTypes();
 
-    // Create Configuration object
-    Configuration configuration = new Configuration(passwordMatchers, null, dictionaries, adjacencyGraphs, leetTable, yearPattern, minimumEntropy, maxLength, locale, distanceCalc, combinationAlgorithmTimeout);
+        // Verify the map is not empty
+        assertFalse(retrievedGuessTypes.isEmpty(), ""The guess types map should not be empty."");
 
-    // Call the focal method
-    Map<String, Long> guessTypes = configuration.getGuessTypes();
-
-    // Assert the result
-    assertNull(guessTypes);
-}",2,2,2,2
+        // Verify the map contains the correct entries and values
+        assertEquals(Long.valueOf(1_000_000), retrievedGuessTypes.get(""bruteForce""), ""Brute force guess count should be 1,000,000."");
+        assertEquals(Long.valueOf(100_000), retrievedGuessTypes.get(""dictionaryAttack""), ""Dictionary attack guess count should be 100,000."");
+        assertEquals(Long.valueOf(10_000), retrievedGuessTypes.get(""patternBased""), ""Pattern based guess count should be 10,000."");
+    }",2,2,2,2
 "public List<Dictionary> getDictionaries() {
     return dictionaries;
 }","@Test public void testGetDictionary() throws Exception { List<Dictionary> dictionaries = new ArrayList<Dictionary>(); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); dictionaries.add(new Dictionary()); assertEquals(dictionaries, configuration.getDictionary()); }
@@ -6444,19 +6457,19 @@ public void test0() throws Throwable {
         // 
         verifyException(""java.io.Reader"", e);
     }
-}",1,1,2,2,"@Test(timeout = 4000)
-public void testLoadRankedDictionary_NullFileName_ThrowsNullPointerException() throws Throwable {
-    // Undeclared exception!
-    try {
-        DictionaryUtil.loadRankedDictionary(null);
-        fail(""Expecting exception: NullPointerException"");
-    } catch (NullPointerException e) {
-        // 
-        // no message in exception (getMessage() returned null)
-        // 
-        verifyException(""java.io.Reader"", e);
-    }
-}",1,1,2,2
+}",1,1,2,2," @Test
+    public void testLoadRankedDictionaryWithValidFile() {
+        String testFileName = ""test-dictionary.txt"";
+        Map<String, Integer> result = DictionaryUtil.loadRankedDictionary(testFileName);
+
+        // Verify the size of the returned map matches the number of entries in the file
+        assertEquals(3, result.size(), ""The map should contain 3 entries."");
+
+        // Verify the ranking of each word in the dictionary
+        assertEquals(Integer.valueOf(1), result.get(""apple""), ""Apple should be ranked 1."");
+        assertEquals(Integer.valueOf(2), result.get(""banana""), ""Banana should be ranked 2."");
+        assertEquals(Integer.valueOf(3), result.get(""cherry""), ""Cherry should be ranked 3."");
+    }",1,1,2,2
 "public static int getBruteForceCardinality(final char character) {
     boolean lower = false, upper = false, digits = false, symbols = false, unicode = false;
     if (0x30 <= character && character <= 0x39) {
@@ -6515,7 +6528,7 @@ public void test00() throws Throwable {
         assertEquals(33, symbolCardinality);
 
         // Test unicode character
-        char unicode = '鎯?;
+        char unicode = '閹?;
         int unicodeCardinality = BruteForceUtil.getBruteForceCardinality(unicode);
         assertEquals(100, unicodeCardinality);
     }",3,3,3,3
