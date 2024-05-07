@@ -5,10 +5,36 @@
  */
 package org.jinstagram.entity.users.feed;
 
-
-import org.jinstagram.entity.common.Pagination;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Meta;
+import org.jinstagram.entity.common.Pagination;
+import org.jinstagram.entity.users.feed.UserFeed;
+import org.jinstagram.entity.users.feed.UserFeedData;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Meta;
+import org.jinstagram.entity.common.Pagination;
+import org.jinstagram.entity.users.feed.UserFeed;
+import org.jinstagram.entity.users.feed.UserFeedData;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -22,6 +48,8 @@ import org.jinstagram.entity.users.feed.UserFeedData;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
 import java.util.List;
@@ -33,9 +61,10 @@ import org.jinstagram.entity.users.feed.UserFeed;
 import org.jinstagram.entity.users.feed.UserFeedData;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -52,76 +81,74 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class UserFeed_ESTest extends UserFeed_ESTest_scaffolding {
 
-@Test(timeout = 4000)
-public void testToString() throws Throwable {
-    UserFeed userFeed = new UserFeed();
-    userFeed.setMeta(null);
-    userFeed.setPagination(null);
-    userFeed.setUserList(null);
-    
-    String expected = "UserFeed [meta=null, pagination=null, userList=null]";
-    String actual = userFeed.toString();
-    
-    assertEquals(expected, actual);
-}
+    @Test
+    public void testGetPagination() {
+        UserFeed userFeed = new UserFeed();
+        Pagination pagination = new Pagination();
+        userFeed.setPagination(pagination);
 
-@Test
-public void testSetPagination_2() {
-    UserFeed userFeed = new UserFeed();
-    Pagination pagination = new Pagination();
-    userFeed.setPagination(pagination);
-    Pagination retrievedPagination = userFeed.getPagination();
-    assertNotNull(retrievedPagination);
-    assertEquals(pagination, retrievedPagination);
-}
+        Pagination retrievedPagination = userFeed.getPagination();
+
+        assertNotNull("Pagination object should not be null", retrievedPagination);
+    }
 
     @Test
     public void testSetPagination() {
-        // Create a UserFeed object
+        // Given
         UserFeed userFeed = new UserFeed();
-
-        // Create a Pagination object
         Pagination pagination = new Pagination();
-
-        // Set the Pagination object using the setPagination method
+        
+        // When
         userFeed.setPagination(pagination);
-
-        // Verify that the pagination field of the UserFeed object is set correctly
+        
+        // Then
         assertEquals(pagination, userFeed.getPagination());
     }
 
     @Test
     public void testGetMeta() {
-        // Create a UserFeed object
-        UserFeed userFeed = new UserFeed();
-
-        // Create a Meta object
+        // Given
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
-
-        // Set the Meta object in the UserFeed object
+        UserFeed userFeed = new UserFeed();
         userFeed.setMeta(expectedMeta);
 
-        // Call the getMeta() method
+        // When
         Meta actualMeta = userFeed.getMeta();
 
-        // Assert that the returned Meta object is equal to the expected Meta object
+        // Then
+        assertNotNull(actualMeta);
         assertEquals(expectedMeta, actualMeta);
     }
 
+@Test
+public void testGetUserList() {
+    UserFeed userFeed = new UserFeed();
+    List<UserFeedData> expectedUserList = new LinkedList<UserFeedData>();
+
+    UserFeedData user1 = new UserFeedData();
+    user1.setId("User1");
+    expectedUserList.add(user1);
+
+    UserFeedData user2 = new UserFeedData();
+    user2.setId("User2");
+    expectedUserList.add(user2);
+
+    userFeed.setUserList(expectedUserList);
+    List<UserFeedData> actualUserList = userFeed.getUserList();
+    assertNotNull(actualUserList);
+    assertEquals(expectedUserList, actualUserList);
+}
+
     @Test
     public void testSetMeta() {
-        // Create a new UserFeed object
+        // Given
         UserFeed userFeed = new UserFeed();
-
-        // Create a new Meta object
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
+        
+        // When
         userFeed.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
+        
+        // Then
         assertEquals(meta, userFeed.getMeta());
     }
 

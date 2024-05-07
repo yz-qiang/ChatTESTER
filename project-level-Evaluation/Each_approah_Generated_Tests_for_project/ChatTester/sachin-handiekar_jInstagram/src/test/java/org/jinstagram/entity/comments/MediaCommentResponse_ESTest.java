@@ -5,9 +5,7 @@
  */
 package org.jinstagram.entity.comments;
 
-import org.jinstagram.entity.common.Meta;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -18,7 +16,18 @@ import org.jinstagram.entity.common.Meta;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.comments.CommentData;
+import org.jinstagram.entity.comments.MediaCommentResponse;
+import org.jinstagram.entity.common.Meta;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -34,70 +43,55 @@ public class MediaCommentResponse_ESTest extends MediaCommentResponse_ESTest_sca
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of MediaCommentResponse
-        MediaCommentResponse response = new MediaCommentResponse();
-
-        // Create a new instance of Meta
+        // Given
+        MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("None");
+        mediaCommentResponse.setMeta(expectedMeta);
 
-        // Set the expected Meta object to the response
-        response.setMeta(expectedMeta);
+        // When
+        Meta actualMeta = mediaCommentResponse.getMeta();
 
-        // Call the getMeta() method
-        Meta actualMeta = response.getMeta();
-
-        // Assert that the actual Meta object is equal to the expected Meta object
+        // Then
+        assertNotNull(actualMeta);
         assertEquals(expectedMeta, actualMeta);
     }
 
     @Test
     public void testSetCommentData() {
-        // Create a new instance of MediaCommentResponse
+        // Given
+        CommentData commentData = new CommentData();
         MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
 
-        // Create a new instance of CommentData
-        CommentData commentData = new CommentData();
-
-        // Set the CommentData object using the setCommentData method
+        // When
         mediaCommentResponse.setCommentData(commentData);
 
-        // Verify that the commentData instance variable is set correctly
+        // Then
         assertEquals(commentData, mediaCommentResponse.getCommentData());
     }
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of MediaCommentResponse
-        MediaCommentResponse response = new MediaCommentResponse();
-
-        // Create a new instance of Meta
+        // Given
+        MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
-        response.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, response.getMeta());
+        
+        // When
+        mediaCommentResponse.setMeta(meta);
+        
+        // Then
+        Meta retrievedMeta = mediaCommentResponse.getMeta();
+        assertEquals(meta, retrievedMeta);
     }
 
     @Test
     public void testGetCommentData() {
-        // Create a new instance of MediaCommentResponse
-        MediaCommentResponse response = new MediaCommentResponse();
+        MediaCommentResponse mediaCommentResponse = new MediaCommentResponse();
+        CommentData commentData = new CommentData();
+        mediaCommentResponse.setCommentData(commentData);
 
-        // Create a new CommentData object
-        CommentData expectedCommentData = new CommentData();
+        CommentData retrievedCommentData = mediaCommentResponse.getCommentData();
 
-        // Set the CommentData object in the MediaCommentResponse instance
-        response.setCommentData(expectedCommentData);
-
-        // Call the getCommentData() method
-        CommentData actualCommentData = response.getCommentData();
-
-        // Assert that the returned CommentData object is the same as the expected CommentData object
-        assertEquals(expectedCommentData, actualCommentData);
+        assertNotNull(retrievedCommentData);
     }
 
 }

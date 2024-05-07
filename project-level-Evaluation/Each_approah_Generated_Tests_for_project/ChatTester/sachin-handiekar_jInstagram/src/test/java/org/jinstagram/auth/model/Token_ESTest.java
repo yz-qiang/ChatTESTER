@@ -5,8 +5,8 @@
  */
 package org.jinstagram.auth.model;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -20,37 +20,38 @@ import org.junit.runner.RunWith;
 public class Token_ESTest extends Token_ESTest_scaffolding {
 
     @Test
-    public void testGetRawResponse() {
-        // Create a token object with a non-null raw response
-        Token token = new Token("token", "secret", "rawResponse");
-
-        // Call the getRawResponse() method and assert that it returns the expected raw response
-        String rawResponse = token.getRawResponse();
-        assertEquals("rawResponse", rawResponse);
+    public void testGetRawResponseNotNull() {
+        String tokenValue = "testToken";
+        String secretValue = "testSecret";
+        String rawResponseValue = "testRawResponse";
+        
+        Token token = new Token(tokenValue, secretValue, rawResponseValue);
+        
+        assertEquals("Raw response should match", rawResponseValue, token.getRawResponse());
     }
 
     @Test
     public void testGetToken() {
-        // Create a new Token object
-        Token token = new Token("abc123", "secret");
+        // Given
+        String expectedToken = "testToken";
+        String secret = "testSecret";
+        Token token = new Token(expectedToken, secret);
 
-        // Call the getToken() method
-        String result = token.getToken();
+        // When
+        String actualToken = token.getToken();
 
-        // Assert that the returned token is correct
-        assertEquals("abc123", result);
+        // Then
+        assertEquals(expectedToken, actualToken);
     }
 
     @Test
     public void testGetSecret() {
-        // Create a new Token object with a token and secret
-        Token token = new Token("myToken", "mySecret");
-
-        // Call the getSecret() method and store the result
-        String secret = token.getSecret();
-
-        // Assert that the returned secret is equal to the expected secret
-        assertEquals("mySecret", secret);
+        String expectedSecret = "mySecret";
+        Token token = new Token("myToken", expectedSecret);
+        
+        String actualSecret = token.getSecret();
+        
+        assertEquals(expectedSecret, actualSecret);
     }
 
 }

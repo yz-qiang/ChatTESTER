@@ -5,9 +5,9 @@
  */
 package com.zappos.json.format;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import java.text.SimpleDateFormat;
-import static org.junit.Assert.*;
+import java.sql.Date;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -21,27 +21,8 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
-import java.sql.Date;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import com.zappos.json.ZapposJson;
-import com.zappos.json.format.JavaSqlDateFormatter;
-import com.zappos.json.format.ValueFormatter;
-import java.sql.Date;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.junit.runner.RunWith;
-
-import java.sql.Date;
-import java.text.SimpleDateFormat;
-import com.zappos.json.ZapposJson;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -60,52 +41,33 @@ import org.junit.runner.RunWith;
 public class JavaSqlDateFormatter_ESTest extends JavaSqlDateFormatter_ESTest_scaffolding {
 
     @Test
-    public void testNewFormatterWithPattern() {
+    public void testNewFormatter_defaultPattern() {
         JavaSqlDateFormatter formatter = new JavaSqlDateFormatter();
-        String pattern = "dd/MM/yyyy";
-        formatter.setPattern(pattern);
-
-        SimpleDateFormat expectedFormatter = new SimpleDateFormat(pattern);
-        SimpleDateFormat actualFormatter = formatter.newFormatter();
-
-        assertEquals(expectedFormatter.toPattern(), actualFormatter.toPattern());
+        SimpleDateFormat simpleDateFormat = formatter.newFormatter();
+        
+        assertNotNull(simpleDateFormat);
+        assertEquals("yyyy-MM-dd", simpleDateFormat.toPattern());
     }
 
     @Test
     public void testCast() {
         JavaSqlDateFormatter formatter = new JavaSqlDateFormatter();
-
-        // Test case 1: Valid input
-        Object obj1 = new Date(2021, 10, 15);
-        Date result1 = formatter.cast(obj1);
-        assertEquals(obj1, result1);
-
-        // Test case 2: Invalid input
-        Object obj2 = "2021-10-15";
+        
+        // Test case 1: Valid object of type Date
+        Date expectedDate = new Date(System.currentTimeMillis());
+        Object validObject = expectedDate;
+        Date resultDate = formatter.cast(validObject);
+        assertEquals(expectedDate, resultDate);
+        
+        // Test case 2: Invalid object of type String
+        Object invalidObject = "2022-01-01";
         try {
-            Date result2 = formatter.cast(obj2);
-            fail("Expected ClassCastException to be thrown");
+            formatter.cast(invalidObject);
+            // If the cast is successful for an invalid object, the test should fail
+            fail("Expected ClassCastException was not thrown");
         } catch (ClassCastException e) {
-            // Exception expected
+            // Expected behavior
         }
     }
-
-@Test(timeout = 4000)
-public void testFormat() throws Throwable {
-    // Create a new instance of JavaSqlDateFormatter
-    JavaSqlDateFormatter javaSqlDateFormatter = new JavaSqlDateFormatter();
-    
-    // Create a new instance of ZapposJson
-    ZapposJson zapposJson = ZapposJson.getInstance("");
-    
-    // Create a new Date object with a timestamp of 0
-    Date date = new Date(0L);
-    
-    // Call the format method of JavaSqlDateFormatter and store the result in a string variable
-    String result = javaSqlDateFormatter.format(zapposJson, date);
-    
-    // Assert that the result is equal to the expected JSON string
-    assertEquals("\"1970-01-01\"", result);
-}
 
 }

@@ -6,7 +6,15 @@
 package org.jinstagram.entity.tags;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.tags.TagInfoData;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,73 +28,53 @@ public class TagInfoData_ESTest extends TagInfoData_ESTest_scaffolding {
 
     @Test
     public void testToString() {
-        // Create a TagInfoData object with sample values
         TagInfoData tagInfoData = new TagInfoData();
-        tagInfoData.setMediaCount(10);
-        tagInfoData.setTagName("Java");
+        tagInfoData.setMediaCount(100);
+        tagInfoData.setTagName("testTag");
 
-        // Call the toString() method
-        String result = tagInfoData.toString();
+        String expected = "TagInfoData [mediaCount=100, tagName=testTag]";
+        String actual = tagInfoData.toString();
 
-        // Verify that the generated string representation is correct
-        String expected = "TagInfoData [mediaCount=10, tagName=Java]";
-        assertEquals(expected, result);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void testSetMediaCount() {
-        // Create an instance of TagInfoData
         TagInfoData tagInfoData = new TagInfoData();
-
-        // Set the media count to a specific value
-        long mediaCount = 10;
-        tagInfoData.setMediaCount(mediaCount);
-
-        // Verify that the media count is set correctly
-        assertEquals(mediaCount, tagInfoData.getMediaCount());
+        long newMediaCount = 1000;
+        
+        tagInfoData.setMediaCount(newMediaCount);
+        
+        assertEquals(newMediaCount, tagInfoData.getMediaCount());
     }
 
     @Test
     public void testGetMediaCount() {
-        // Create an instance of TagInfoData
         TagInfoData tagInfoData = new TagInfoData();
+        tagInfoData.setMediaCount(100); // Set a specific media count for testing
 
-        // Set the media count to a specific value
-        long expectedMediaCount = 10;
-        tagInfoData.setMediaCount(expectedMediaCount);
-
-        // Call the getMediaCount() method and assert the returned value
+        long expectedMediaCount = 100;
         long actualMediaCount = tagInfoData.getMediaCount();
+
         assertEquals(expectedMediaCount, actualMediaCount);
     }
 
     @Test
     public void testSetTagName() {
-        // Create an instance of TagInfoData
         TagInfoData tagInfoData = new TagInfoData();
-
-        // Set the tag name using the setTagName method
-        String tagName = "Test Tag";
-        tagInfoData.setTagName(tagName);
-
-        // Verify that the tag name is set correctly
-        assertEquals(tagName, tagInfoData.getTagName());
+        String newTagName = "newTagName";
+        
+        tagInfoData.setTagName(newTagName);
+        
+        assertEquals(newTagName, tagInfoData.getTagName());
     }
 
     @Test
     public void testGetTagName() {
-        // Create an instance of TagInfoData
         TagInfoData tagInfoData = new TagInfoData();
+        tagInfoData.setTagName("testTag");
         
-        // Set the tag name
-        String tagName = "Test Tag";
-        tagInfoData.setTagName(tagName);
-        
-        // Retrieve the tag name using the getTagName() method
-        String retrievedTagName = tagInfoData.getTagName();
-        
-        // Assert that the retrieved tag name is equal to the set tag name
-        assertEquals(tagName, retrievedTagName);
+        assertEquals("testTag", tagInfoData.getTagName());
     }
 
 }

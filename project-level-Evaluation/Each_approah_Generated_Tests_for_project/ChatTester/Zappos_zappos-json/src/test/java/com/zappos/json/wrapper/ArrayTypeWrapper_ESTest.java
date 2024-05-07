@@ -5,8 +5,16 @@
  */
 package com.zappos.json.wrapper;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import com.zappos.json.wrapper.ArrayTypeWrapper;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import com.zappos.json.wrapper.ArrayTypeWrapper;
@@ -20,54 +28,55 @@ public class ArrayTypeWrapper_ESTest extends ArrayTypeWrapper_ESTest_scaffolding
 
     @Test
     public void testSetTarget() {
-        // Create an instance of ArrayTypeWrapper
-        ArrayTypeWrapper<Integer> wrapper = new ArrayTypeWrapper<>();
+        // Given
+        ArrayTypeWrapper<Integer> arrayTypeWrapper = new ArrayTypeWrapper<>();
+        Integer targetValue = 5;
 
-        // Create a target object
-        Integer target = 10;
+        // When
+        arrayTypeWrapper.setTarget(targetValue);
 
-        // Call the setTarget method
-        wrapper.setTarget(target);
-
-        // Verify that the target object is set correctly
-        assertEquals(target, wrapper.getTarget());
+        // Then
+        assertEquals(targetValue, arrayTypeWrapper.getTarget());
     }
 
     @Test
     public void testSetComponentType() {
-        ArrayTypeWrapper wrapper = new ArrayTypeWrapper();
-        Class<?> componentType = String.class;
+        ArrayTypeWrapper arrayTypeWrapper = new ArrayTypeWrapper();
+        Class<?> expectedComponentType = String.class;
 
-        wrapper.setComponentType(componentType);
+        arrayTypeWrapper.setComponentType(expectedComponentType);
 
-        assertEquals(componentType, wrapper.getComponentType());
+        Class<?> actualComponentType = arrayTypeWrapper.getComponentType();
+
+        assertEquals(expectedComponentType, actualComponentType);
     }
 
     @Test
     public void testGetComponentType() {
-        ArrayTypeWrapper<Integer> wrapper = new ArrayTypeWrapper<>();
-        Class<?> componentType = Integer.class;
-        wrapper.setComponentType(componentType);
-        
-        Class<?> result = wrapper.getComponentType();
-        
-        assertEquals(componentType, result);
+        // Given
+        ArrayTypeWrapper<String> arrayTypeWrapper = new ArrayTypeWrapper<>();
+        Class<String> expectedComponentType = String.class;
+
+        // When
+        arrayTypeWrapper.setComponentType(expectedComponentType);
+        Class<?> actualComponentType = arrayTypeWrapper.getComponentType();
+
+        // Then
+        assertEquals(expectedComponentType, actualComponentType);
     }
 
     @Test
     public void testGetTarget() {
-        // Create an instance of ArrayTypeWrapper
-        ArrayTypeWrapper<Integer> wrapper = new ArrayTypeWrapper<>();
+        // Given
+        ArrayTypeWrapper<Integer> arrayTypeWrapper = new ArrayTypeWrapper<>();
+        Integer expected = 5;
+        arrayTypeWrapper.setTarget(expected);
 
-        // Set a target object
-        Integer targetObject = 10;
-        wrapper.setTarget(targetObject);
+        // When
+        Integer actual = arrayTypeWrapper.getTarget();
 
-        // Retrieve the target object using getTarget()
-        Integer retrievedObject = wrapper.getTarget();
-
-        // Assert that the retrieved object is equal to the original target object
-        assertEquals(targetObject, retrievedObject);
+        // Then
+        assertEquals(expected, actual);
     }
 
 }

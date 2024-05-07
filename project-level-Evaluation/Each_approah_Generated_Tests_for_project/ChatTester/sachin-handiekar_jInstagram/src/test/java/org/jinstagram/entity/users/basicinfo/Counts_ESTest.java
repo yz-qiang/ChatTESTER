@@ -6,14 +6,16 @@
 package org.jinstagram.entity.users.basicinfo;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.jinstagram.entity.users.basicinfo.Counts;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -28,71 +30,75 @@ public class Counts_ESTest extends Counts_ESTest_scaffolding {
     @Test
     public void testSetFollowedBy() {
         Counts counts = new Counts();
-        int followedBy = 5;
-        counts.setFollowedBy(followedBy);
-        assertEquals(followedBy, counts.getFollowedBy());
+        int newFollowedBy = 500; // Example value for testing
+
+        counts.setFollowedBy(newFollowedBy);
+
+        assertEquals(newFollowedBy, counts.getFollowedBy());
     }
 
     @Test
     public void testGetFollowedBy() {
         Counts counts = new Counts();
-        counts.setFollowedBy(10);
-        int expected = 10;
-        int actual = counts.getFollowedBy();
-        assertEquals(expected, actual);
+        counts.setFollowedBy(100); // Set a specific value for testing
+
+        int expectedFollowedBy = 100;
+        int actualFollowedBy = counts.getFollowedBy();
+
+        assertEquals(expectedFollowedBy, actualFollowedBy);
     }
 
     @Test
     public void testSetMedia() {
         Counts counts = new Counts();
-        int media = 10;
-        counts.setMedia(media);
-        assertEquals(media, counts.getMedia());
+        int newMediaCount = 10;
+        
+        counts.setMedia(newMediaCount);
+        
+        assertEquals(newMediaCount, counts.getMedia());
     }
 
-@Test
-public void testToString() {
-    Counts counts = new Counts();
-    counts.setFollows(10);
-    counts.setFollowedBy(20);
-    counts.setMedia(30);
-    
-    String expected = "Counts [follows=10, followed_by=20, media=30]";
-    String actual = counts.toString();
-    
-    assertEquals(expected, actual);
-}
-
     @Test
-    public void testGetMedia() {
+    public void testToString() {
         Counts counts = new Counts();
-        counts.setMedia(10);
-        int expected = 10;
-        int actual = counts.getMedia();
+        counts.setFollows(100);
+        counts.setFollowedBy(200);
+        counts.setMedia(300);
+
+        String expected = "Counts [follows=100, followed_by=200, media=300]";
+        String actual = counts.toString();
+
         assertEquals(expected, actual);
     }
 
     @Test
-    public void testGetFollows() {
-        // Create an instance of Counts
+    public void testGetMedia() {
         Counts counts = new Counts();
+        counts.setMedia(10); // Set a specific value for testing
 
-        // Set the follows value
-        counts.setFollows(10);
+        int expectedMedia = 10; // Expected value based on the set value
+        int actualMedia = counts.getMedia(); // Retrieve the value using the getMedia() method
 
-        // Call the getFollows method
-        int result = counts.getFollows();
+        assertEquals(expectedMedia, actualMedia); // Assert that the retrieved value matches the expected value
+    }
 
-        // Assert that the returned value is equal to the set value
-        assertEquals(10, result);
+    @Test
+    public void testGetFollows() {
+        Counts counts = new Counts();
+        counts.setFollows(100); // Set a known value for testing
+
+        int expectedFollows = 100;
+        int actualFollows = counts.getFollows();
+
+        assertEquals(expectedFollows, actualFollows);
     }
 
     @Test
     public void testSetFollows() {
         Counts counts = new Counts();
-        int follows = 10;
-        counts.setFollows(follows);
-        assertEquals(follows, counts.getFollows());
+        int newFollows = 100;
+        counts.setFollows(newFollows);
+        assertEquals(newFollows, counts.getFollows());
     }
 
 }

@@ -6,7 +6,7 @@
 package org.jinstagram.entity.oembed;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,428 +20,347 @@ public class OembedInformation_ESTest extends OembedInformation_ESTest_scaffoldi
 
     @Test
     public void testSetWidth() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        // Given
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedWidth = "100";
 
-        // Set the width using the setWidth method
-        String width = "100";
-        oembed.setWidth(width);
+        // When
+        oembedInformation.setWidth(expectedWidth);
 
-        // Verify that the width property is set correctly
-        assertEquals(width, oembed.getWidth());
+        // Then
+        assertEquals(expectedWidth, oembedInformation.getWidth());
     }
 
     @Test
     public void testGetType() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setType("video");
 
-        // Set the type using the setter method
-        oembed.setType("video");
-
-        // Call the getType() method and assert the returned value
-        assertEquals("video", oembed.getType());
+        assertEquals("video", oembedInformation.getType());
     }
 
     @Test
     public void testGetHtml() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        // Given
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedHtml = "<div>Sample HTML content</div>";
+        oembedInformation.setHtml(expectedHtml);
 
-        // Set the expected HTML content
-        String expectedHtml = "<html><body><h1>Hello, World!</h1></body></html>";
-        oembed.setHtml(expectedHtml);
+        // When
+        String actualHtml = oembedInformation.getHtml();
 
-        // Call the getHtml() method and assert the returned value
-        String actualHtml = oembed.getHtml();
+        // Then
         assertEquals(expectedHtml, actualHtml);
     }
 
     @Test
     public void testSetThumbnailWidth() {
-        OembedInformation oembed = new OembedInformation();
-        int thumbnailWidth = 100;
-        oembed.setThumbnailWidth(thumbnailWidth);
-        assertEquals(thumbnailWidth, oembed.getThumbnailWidth());
+        OembedInformation oembedInformation = new OembedInformation();
+        int expectedThumbnailWidth = 100;
+
+        oembedInformation.setThumbnailWidth(expectedThumbnailWidth);
+
+        assertEquals(expectedThumbnailWidth, oembedInformation.getThumbnailWidth());
     }
 
     @Test
     public void testGetUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-        
-        // Set the URL
-        oembed.setUrl("https://example.com");
-        
-        // Call the getUrl() method
-        String url = oembed.getUrl();
-        
-        // Assert that the returned URL is equal to the set URL
-        assertEquals("https://example.com", url);
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedUrl = "https://example.com";
+        oembedInformation.setUrl(expectedUrl);
+
+        String actualUrl = oembedInformation.getUrl();
+
+        assertEquals(expectedUrl, actualUrl);
     }
 
     @Test
     public void testGetHeight() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setHeight("100");
 
-        // Set the height attribute
-        oembed.setHeight("100");
-
-        // Call the getHeight() method
-        String height = oembed.getHeight();
-
-        // Assert that the returned height is equal to the set height
-        assertEquals("100", height);
+        assertEquals("100", oembedInformation.getHeight());
     }
 
     @Test
     public void testSetAuthorUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the author URL using the setAuthorUrl method
-        String authorUrl = "https://example.com/author";
-        oembed.setAuthorUrl(authorUrl);
-
-        // Verify that the author URL is set correctly
-        assertEquals(authorUrl, oembed.getAuthorUrl());
+        OembedInformation oembedInformation = new OembedInformation();
+        String authorUrl = "https://www.example.com/author";
+        
+        oembedInformation.setAuthorUrl(authorUrl);
+        
+        assertEquals(authorUrl, oembedInformation.getAuthorUrl());
     }
 
     @Test
     public void testSetType() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the type attribute using the setType method
+        // Given
+        OembedInformation oembedInformation = new OembedInformation();
         String expectedType = "video";
-        oembed.setType(expectedType);
 
-        // Verify that the type attribute is set correctly
-        String actualType = oembed.getType();
-        assertEquals(expectedType, actualType);
+        // When
+        oembedInformation.setType(expectedType);
+
+        // Then
+        assertEquals(expectedType, oembedInformation.getType());
     }
 
     @Test
     public void testSetTitle() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the title using the setTitle method
+        OembedInformation oembedInformation = new OembedInformation();
         String title = "Test Title";
-        oembed.setTitle(title);
-
-        // Verify that the title is set correctly
-        assertEquals(title, oembed.getTitle());
+        oembedInformation.setTitle(title);
+        
+        assertEquals(title, oembedInformation.getTitle());
     }
 
     @Test
     public void testSetHtml() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the HTML content using the setHtml method
-        String html = "<html><body><h1>Hello, World!</h1></body></html>";
-        oembed.setHtml(html);
-
-        // Verify that the HTML content is set correctly
-        assertEquals(html, oembed.getHtml());
+        OembedInformation oembedInformation = new OembedInformation();
+        String htmlContent = "<div>This is a test HTML content</div>";
+        
+        oembedInformation.setHtml(htmlContent);
+        
+        assertEquals(htmlContent, oembedInformation.getHtml());
     }
 
     @Test
     public void testSetProviderName() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the provider name
-        String providerName = "Example Provider";
-        oembed.setProviderName(providerName);
-
-        // Verify that the provider name is set correctly
-        assertEquals(providerName, oembed.getProviderName());
+        OembedInformation oembedInformation = new OembedInformation();
+        String providerName = "Test Provider";
+        
+        oembedInformation.setProviderName(providerName);
+        
+        assertEquals(providerName, oembedInformation.getProviderName());
     }
 
     @Test
     public void testGetProviderName() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setProviderName("Test Provider");
 
-        // Set the provider name
-        oembed.setProviderName("Test Provider");
+        String expectedProviderName = "Test Provider";
+        String actualProviderName = oembedInformation.getProviderName();
 
-        // Call the getProviderName() method
-        String providerName = oembed.getProviderName();
-
-        // Assert that the returned provider name is equal to the set provider name
-        assertEquals("Test Provider", providerName);
+        assertEquals(expectedProviderName, actualProviderName);
     }
 
     @Test
     public void testGetThumbnailHeight() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        int expectedThumbnailHeight = 100;
+        oembedInformation.setThumbnailHeight(expectedThumbnailHeight);
 
-        // Set the thumbnail height
-        int expectedHeight = 100;
-        oembed.setThumbnailHeight(expectedHeight);
+        int actualThumbnailHeight = oembedInformation.getThumbnailHeight();
 
-        // Get the thumbnail height using the getThumbnailHeight() method
-        int actualHeight = oembed.getThumbnailHeight();
-
-        // Assert that the retrieved thumbnail height matches the expected height
-        assertEquals(expectedHeight, actualHeight);
+        assertEquals(expectedThumbnailHeight, actualThumbnailHeight);
     }
 
     @Test
     public void testGetProviderUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-        
-        // Set the provider URL
-        oembed.setProviderUrl("https://www.example.com");
-        
-        // Call the getProviderUrl() method
-        String providerUrl = oembed.getProviderUrl();
-        
-        // Assert that the returned provider URL is equal to the set value
-        assertEquals("https://www.example.com", providerUrl);
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setProviderUrl("https://example.com/provider");
+
+        String expectedProviderUrl = "https://example.com/provider";
+        String actualProviderUrl = oembedInformation.getProviderUrl();
+
+        assertEquals(expectedProviderUrl, actualProviderUrl);
     }
 
     @Test
     public void testGetMediaId() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-        
-        // Set the media ID
-        oembed.setMediaId("12345");
-        
-        // Call the getMediaId() method and assert the expected result
-        assertEquals("12345", oembed.getMediaId());
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedMediaId = "testMediaId";
+        oembedInformation.setMediaId(expectedMediaId);
+
+        String actualMediaId = oembedInformation.getMediaId();
+
+        assertEquals(expectedMediaId, actualMediaId);
     }
 
     @Test
     public void testGetThumbnailUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedThumbnailUrl = "https://example.com/thumbnail.jpg";
+        oembedInformation.setThumbnailUrl(expectedThumbnailUrl);
 
-        // Set the thumbnail URL
-        String thumbnailUrl = "https://example.com/thumbnail.jpg";
-        oembed.setThumbnailUrl(thumbnailUrl);
+        String actualThumbnailUrl = oembedInformation.getThumbnailUrl();
 
-        // Get the thumbnail URL using the getThumbnailUrl() method
-        String result = oembed.getThumbnailUrl();
-
-        // Assert that the returned thumbnail URL is equal to the set thumbnail URL
-        assertEquals(thumbnailUrl, result);
+        assertEquals(expectedThumbnailUrl, actualThumbnailUrl);
     }
 
     @Test
     public void testGetVersion() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the version using the setter method
-        oembed.setVersion("1.0");
-
-        // Call the getVersion() method and assert the returned value
-        assertEquals("1.0", oembed.getVersion());
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setVersion("1.0");
+        
+        String expectedVersion = "1.0";
+        String actualVersion = oembedInformation.getVersion();
+        
+        assertEquals(expectedVersion, actualVersion);
     }
 
     @Test
     public void testSetProviderUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the provider URL
+        OembedInformation oembedInformation = new OembedInformation();
         String providerUrl = "https://example.com/provider";
-        oembed.setProviderUrl(providerUrl);
 
-        // Verify that the provider URL is set correctly
-        assertEquals(providerUrl, oembed.getProviderUrl());
+        oembedInformation.setProviderUrl(providerUrl);
+
+        assertEquals(providerUrl, oembedInformation.getProviderUrl());
     }
 
     @Test
     public void testGetTitle() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-        
-        // Set the title of the object
-        oembed.setTitle("Test Title");
-        
-        // Call the getTitle() method and assert the returned value
-        assertEquals("Test Title", oembed.getTitle());
+        // Given
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedTitle = "Sample Title";
+        oembedInformation.setTitle(expectedTitle);
+
+        // When
+        String actualTitle = oembedInformation.getTitle();
+
+        // Then
+        assertEquals(expectedTitle, actualTitle);
     }
 
     @Test
     public void testGetThumbnailWidth() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        int expectedThumbnailWidth = 100; // Set the expected value here
 
-        // Set the thumbnail width
-        int expectedWidth = 100;
-        oembed.setThumbnailWidth(expectedWidth);
+        // Set the thumbnailWidth using a public setter method
+        oembedInformation.setThumbnailWidth(expectedThumbnailWidth);
 
-        // Get the thumbnail width using the getThumbnailWidth() method
-        int actualWidth = oembed.getThumbnailWidth();
+        // Call the method to be tested
+        int actualThumbnailWidth = oembedInformation.getThumbnailWidth();
 
-        // Assert that the retrieved thumbnail width matches the expected width
-        assertEquals(expectedWidth, actualWidth);
+        // Assert that the returned value matches the expected value
+        assertEquals(expectedThumbnailWidth, actualThumbnailWidth);
     }
 
     @Test
     public void testSetHeight() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedHeight = "100"; // Define the expected height value
 
-        // Set the height using the setHeight method
-        String height = "100";
-        oembed.setHeight(height);
+        oembedInformation.setHeight(expectedHeight);
 
-        // Verify that the height attribute has been set correctly
-        assertEquals(height, oembed.getHeight());
+        assertEquals(expectedHeight, oembedInformation.getHeight());
     }
 
     @Test
     public void testSetThumbnailUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the thumbnail URL using the setThumbnailUrl method
-        String thumbnailUrl = "https://example.com/thumbnail.jpg";
-        oembed.setThumbnailUrl(thumbnailUrl);
-
-        // Verify that the thumbnail URL is set correctly
-        assertEquals(thumbnailUrl, oembed.getThumbnailUrl());
+        OembedInformation oembedInformation = new OembedInformation();
+        String thumbnailUrl = "https://example.com/image.jpg";
+        
+        oembedInformation.setThumbnailUrl(thumbnailUrl);
+        
+        assertEquals(thumbnailUrl, oembedInformation.getThumbnailUrl());
     }
 
     @Test
     public void testSetUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the URL using the setUrl() method
-        String url = "https://example.com";
-        oembed.setUrl(url);
-
-        // Verify that the URL is set correctly
-        assertEquals(url, oembed.getUrl());
+        OembedInformation oembedInformation = new OembedInformation();
+        String url = "https://www.example.com";
+        
+        oembedInformation.setUrl(url);
+        
+        assertEquals(url, oembedInformation.getUrl());
     }
 
     @Test
     public void testSetAuthorName() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the author name
+        OembedInformation oembedInformation = new OembedInformation();
         String authorName = "John Doe";
-        oembed.setAuthorName(authorName);
-
-        // Verify that the author name is set correctly
-        assertEquals(authorName, oembed.getAuthorName());
+        oembedInformation.setAuthorName(authorName);
+        
+        assertEquals(authorName, oembedInformation.getAuthorName());
     }
 
     @Test
     public void testSetVersion() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the version attribute using the setVersion method
+        // Given
+        OembedInformation oembedInformation = new OembedInformation();
         String version = "1.0";
-        oembed.setVersion(version);
 
-        // Verify that the version attribute has been updated correctly
-        assertEquals(version, oembed.getVersion());
+        // When
+        oembedInformation.setVersion(version);
+
+        // Then
+        assertEquals(version, oembedInformation.getVersion());
     }
 
     @Test
     public void testGetAuthorUrl() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedAuthorUrl = "https://example.com/author";
+        oembedInformation.setAuthorUrl(expectedAuthorUrl);
 
-        // Set the author URL
-        String authorUrl = "https://example.com/author";
-        oembed.setAuthorUrl(authorUrl);
+        String actualAuthorUrl = oembedInformation.getAuthorUrl();
 
-        // Get the author URL using the getAuthorUrl() method
-        String retrievedAuthorUrl = oembed.getAuthorUrl();
-
-        // Assert that the retrieved author URL is equal to the original author URL
-        assertEquals(authorUrl, retrievedAuthorUrl);
+        assertEquals(expectedAuthorUrl, actualAuthorUrl);
     }
 
     @Test
     public void testToString() {
-        OembedInformation oembed = new OembedInformation();
-        oembed.setProviderUrl("https://example.com");
-        oembed.setTitle("Sample Title");
-        oembed.setUrl("https://example.com/sample");
-        oembed.setAuthorName("John Doe");
-        oembed.setHeight("300");
-        oembed.setWidth("400");
-        oembed.setVersion("1.0");
-        oembed.setAuthorUrl("https://example.com/author");
-        oembed.setProviderName("Example Provider");
-        oembed.setType("video");
-        oembed.setMediaId("12345");
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setProviderUrl("https://example.com");
+        oembedInformation.setTitle("Sample Title");
+        oembedInformation.setUrl("https://example.com/sample");
+        oembedInformation.setAuthorName("John Doe");
+        oembedInformation.setHeight("200");
+        oembedInformation.setWidth("300");
+        oembedInformation.setVersion("1.0");
+        oembedInformation.setAuthorUrl("https://example.com/author");
+        oembedInformation.setProviderName("Sample Provider");
+        oembedInformation.setType("video");
+        oembedInformation.setMediaId("12345");
 
-        String expected = "OembedInformation [provider_url=https://example.com, title=Sample Title, url=https://example.com/sample, author_name=John Doe, height=300, width=400, version=1.0, author_url=https://example.com/author, provider_name=Example Provider, type=video, mediaId=12345]";
-        String actual = oembed.toString();
+        String expected = "OembedInformation [provider_url=https://example.com, title=Sample Title, url=https://example.com/sample, author_name=John Doe, height=200, width=300, version=1.0, author_url=https://example.com/author, provider_name=Sample Provider, type=video, mediaId=12345]";
+        String actual = oembedInformation.toString();
 
         assertEquals(expected, actual);
     }
 
     @Test
     public void testGetAuthorName() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-        
-        // Set the author name
-        oembed.setAuthorName("John Doe");
-        
-        // Call the getAuthorName() method
-        String authorName = oembed.getAuthorName();
-        
-        // Assert that the returned author name is correct
-        assertEquals("John Doe", authorName);
+        OembedInformation oembedInformation = new OembedInformation();
+        String expectedAuthorName = "John Doe";
+        oembedInformation.setAuthorName(expectedAuthorName);
+
+        String actualAuthorName = oembedInformation.getAuthorName();
+
+        assertEquals(expectedAuthorName, actualAuthorName);
     }
 
     @Test
     public void testSetThumbnailHeight() {
-        OembedInformation oembed = new OembedInformation();
-        int expectedHeight = 100;
-        
-        oembed.setThumbnailHeight(expectedHeight);
-        int actualHeight = oembed.getThumbnailHeight();
-        
-        assertEquals(expectedHeight, actualHeight);
+        OembedInformation oembedInformation = new OembedInformation();
+        int expectedThumbnailHeight = 100;
+
+        oembedInformation.setThumbnailHeight(expectedThumbnailHeight);
+
+        assertEquals(expectedThumbnailHeight, oembedInformation.getThumbnailHeight());
     }
 
     @Test
     public void testGetWidth() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
+        OembedInformation oembedInformation = new OembedInformation();
+        oembedInformation.setWidth("100");
 
-        // Set the width property
-        oembed.setWidth("500");
+        String width = oembedInformation.getWidth();
 
-        // Call the getWidth() method
-        String width = oembed.getWidth();
-
-        // Assert that the returned width is equal to the set value
-        assertEquals("500", width);
+        assertEquals("100", width);
     }
 
     @Test
     public void testSetMediaId() {
-        // Create an instance of OembedInformation
-        OembedInformation oembed = new OembedInformation();
-
-        // Set the media ID using the setMediaId method
+        OembedInformation oembedInformation = new OembedInformation();
         String mediaId = "12345";
-        oembed.setMediaId(mediaId);
-
-        // Verify that the media ID is set correctly
-        assertEquals(mediaId, oembed.getMediaId());
+        oembedInformation.setMediaId(mediaId);
+        
+        assertEquals(mediaId, oembedInformation.getMediaId());
     }
 
 }

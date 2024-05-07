@@ -5,8 +5,8 @@
  */
 package org.jinstagram.auth.model;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.net.Proxy;
@@ -15,9 +15,39 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jinstagram.auth.model.OAuthConfig;
 import org.junit.runner.RunWith;
 
-import java.net.Proxy;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.net.Proxy;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.auth.model.OAuthConfig;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.net.Proxy;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.auth.model.OAuthConfig;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.net.Proxy;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.auth.model.OAuthConfig;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import java.net.Proxy;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.net.Proxy;
@@ -31,115 +61,100 @@ import org.junit.runner.RunWith;
 public class OAuthConfig_ESTest extends OAuthConfig_ESTest_scaffolding {
 
     @Test
-    public void testHasScope() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret");
-
-        // Test when scope is null
-        assertFalse(oauthConfig.hasScope());
-
-        // Test when scope is not null
-        oauthConfig = new OAuthConfig("key", "secret", "callback", "scope");
+    public void testHasScopeWithNonNullScope() {
+        OAuthConfig oauthConfig = new OAuthConfig("key", "secret", "callback", "scope");
         assertTrue(oauthConfig.hasScope());
     }
 
     @Test
     public void testGetApiKey() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret");
+        // Given
+        String expectedApiKey = "testKey";
+        String secret = "testSecret";
+        OAuthConfig oauthConfig = new OAuthConfig(expectedApiKey, secret);
 
-        // Call the getApiKey() method
-        String apiKey = oauthConfig.getApiKey();
+        // When
+        String actualApiKey = oauthConfig.getApiKey();
 
-        // Assert that the returned apiKey is not null
-        assertNotNull(apiKey);
-
-        // Assert that the returned apiKey is equal to the expected value
-        assertEquals("key", apiKey);
+        // Then
+        assertEquals(expectedApiKey, actualApiKey);
     }
 
-@Test(timeout = 4000)
-public void testGetDisplay() throws Throwable {
-    // Given
-    String expectedDisplay = "y*c+;*o7Lzs9S],ng!";
-    OAuthConfig oAuthConfig = new OAuthConfig("J{Q=M", "J{Q=M", null, "", expectedDisplay);
-    
-    // When
-    String actualDisplay = oAuthConfig.getDisplay();
-    
-    // Then
-    assertEquals(expectedDisplay, actualDisplay);
-}
-
+    @Test
+    public void testGetDisplay() {
+        String expectedDisplay = "testDisplay";
+        OAuthConfig oauthConfig = new OAuthConfig("testKey", "testSecret", "testCallback", "testScope", expectedDisplay);
+        
+        String actualDisplay = oauthConfig.getDisplay();
+        
+        assertEquals(expectedDisplay, actualDisplay);
+    }
 
     @Test
     public void testGetCallback() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret", "callback", "scope", "display");
+        // Given
+        String expectedCallback = "https://example.com/callback";
+        OAuthConfig oauthConfig = new OAuthConfig("key", "secret", expectedCallback, "scope");
 
-        // Get the callback value using the getCallback() method
-        String callback = oauthConfig.getCallback();
+        // When
+        String actualCallback = oauthConfig.getCallback();
 
-        // Assert that the retrieved callback value is equal to the expected value
-        assertEquals("callback", callback);
+        // Then
+        assertEquals(expectedCallback, actualCallback);
     }
 
     @Test
     public void testGetScope() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret", "callback", "scope");
+        // Given
+        String expectedScope = "testScope";
+        OAuthConfig oauthConfig = new OAuthConfig("testKey", "testSecret", "testCallback", expectedScope, "testDisplay");
 
-        // Get the scope value using the getScope() method
-        String scope = oauthConfig.getScope();
+        // When
+        String actualScope = oauthConfig.getScope();
 
-        // Assert that the scope value is not null
-        assertNotNull(scope);
-
-        // Assert that the scope value is equal to the expected value
-        assertEquals("scope", scope);
+        // Then
+        assertEquals(expectedScope, actualScope);
     }
 
     @Test
     public void testGetApiSecret() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret");
+        // Given
+        String expectedApiSecret = "mySecret";
+        OAuthConfig oauthConfig = new OAuthConfig("myKey", expectedApiSecret);
 
-        // Call the getApiSecret() method
-        String apiSecret = oauthConfig.getApiSecret();
+        // When
+        String actualApiSecret = oauthConfig.getApiSecret();
 
-        // Assert that the returned value is not null
-        assertNotNull(apiSecret);
-
-        // Assert that the returned value is equal to the secret provided during initialization
-        assertEquals("secret", apiSecret);
+        // Then
+        assertEquals(expectedApiSecret, actualApiSecret);
     }
 
     @Test
     public void testGetRequestProxy() {
-        // Create an instance of OAuthConfig
-        OAuthConfig oauthConfig = new OAuthConfig("key", "secret");
+        // Given
+        Proxy expectedProxy = Proxy.NO_PROXY;
+        OAuthConfig oauthConfig = new OAuthConfig("testKey", "testSecret");
 
-        // Create a Proxy object
-        Proxy proxy = Proxy.NO_PROXY;
+        // When
+        oauthConfig.setRequestProxy(expectedProxy);
+        Proxy actualProxy = oauthConfig.getRequestProxy();
 
-        // Set the Proxy object to the OAuthConfig instance
-        oauthConfig.setRequestProxy(proxy);
-
-        // Retrieve the Proxy object using getRequestProxy()
-        Proxy retrievedProxy = oauthConfig.getRequestProxy();
-
-        // Assert that the retrieved Proxy object is equal to the original Proxy object
-        assertEquals(proxy, retrievedProxy);
+        // Then
+        assertEquals(expectedProxy, actualProxy);
     }
 
-@Test
-public void testSetRequestProxy() {
-    OAuthConfig oauthConfig = new OAuthConfig("key", "secret");
+    @Test
+    public void testSetRequestProxy() {
+        // Given
+        OAuthConfig oauthConfig = new OAuthConfig("testKey", "testSecret");
+        Proxy proxy = Proxy.NO_PROXY;
 
-    Proxy proxy = Proxy.NO_PROXY;
+        // When
+        oauthConfig.setRequestProxy(proxy);
 
-    oauthConfig.setRequestProxy(proxy);
-    assertEquals(proxy, oauthConfig.getRequestProxy());
-}
+        // Then
+        assertNotNull(oauthConfig.getRequestProxy());
+        assertEquals(proxy, oauthConfig.getRequestProxy());
+    }
 
 }

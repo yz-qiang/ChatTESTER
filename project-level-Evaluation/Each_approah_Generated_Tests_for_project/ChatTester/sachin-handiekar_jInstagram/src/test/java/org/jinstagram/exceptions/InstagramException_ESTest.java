@@ -5,8 +5,21 @@
  */
 package org.jinstagram.exceptions;
 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import java.util.HashMap;
+import java.util.Map;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.HashMap;
+import java.util.Map;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.exceptions.InstagramException;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.HashMap;
@@ -20,35 +33,29 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class InstagramException_ESTest extends InstagramException_ESTest_scaffolding {
 
-@Test
-public void testGetAPILimitStatus() {
-    InstagramException exception = new InstagramException("Test Exception");
-    Map<String, String> headers = new HashMap<String, String>();
-    headers.put("X-RateLimit-Limit", "1000");
-    headers.put("X-RateLimit-Remaining", "500");
+    @Test
+    public void testGetAPILimitStatus_NullHeaders_ReturnsMinusOne() {
+        InstagramException instagramException = new InstagramException("Test Message");
+        int apiLimitStatus = instagramException.getAPILimitStatus();
+        assertEquals(-1, apiLimitStatus);
+    }
 
-    int limitStatus = exception.getAPILimitStatus();
-    assertEquals(-1, limitStatus);
-}
+    @Test
+    public void testGetErrorType_NullErrorType() {
+        InstagramException instagramException = new InstagramException("Test Message");
+        assertEquals(null, instagramException.getErrorType());
+    }
 
-@Test
-public void testGetErrorType() {
-    InstagramException exception = new InstagramException("Test Error");
-
-    String errorType = exception.getErrorType();
-    assertEquals(null, errorType);
-}
-
-@Test
-public void testGetRemainingLimitStatus() {
-    // Create a new InstagramException object with null headers
-    InstagramException exception = new InstagramException("Test Exception");
-
-    // Call the getRemainingLimitStatus() method
-    int result = exception.getRemainingLimitStatus();
-
-    // Verify that the result is -1
-    assertEquals(-1, result);
-}
+    @Test
+    public void testGetRemainingLimitStatus_WhenHeadersAreNull_ExpectNegativeOne() {
+        // Given
+        InstagramException instagramException = new InstagramException("Test Message");
+        
+        // When
+        int remainingLimitStatus = instagramException.getRemainingLimitStatus();
+        
+        // Then
+        assertEquals(-1, remainingLimitStatus);
+    }
 
 }

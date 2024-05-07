@@ -5,8 +5,9 @@
  */
 package com.zappos.json.format;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.sql.Timestamp;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -23,25 +24,17 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class JavaTimestampFormatter_ESTest extends JavaTimestampFormatter_ESTest_scaffolding {
 
-@Test
-public void testCast() {
-    JavaTimestampFormatter formatter = new JavaTimestampFormatter();
-    Object obj1 = new Timestamp(System.currentTimeMillis());
-    Timestamp result1 = formatter.cast(obj1);
-    assertEquals(obj1, result1);
-    Object obj2 = "2022-01-01 12:00:00";
-    try {
-        Timestamp result2 = formatter.cast(obj2);
-        fail("Expected ClassCastException to be thrown");
-    } catch (ClassCastException e) {
+    @Test
+    public void testCast_ValidInput_ReturnsTimestampObject() {
+        // Arrange
+        JavaTimestampFormatter formatter = new JavaTimestampFormatter();
+        Object inputObject = new Timestamp(System.currentTimeMillis());
+
+        // Act
+        Timestamp result = formatter.cast(inputObject);
+
+        // Assert
+        assertEquals(Timestamp.class, result.getClass());
     }
-    Object obj3 = null;
-    try {
-        Timestamp result3 = formatter.cast(obj3);
-        assertNull(result3);
-    } catch (ClassCastException e) {
-        fail("Expected NullPointerException to be thrown");
-    }
-}
 
 }

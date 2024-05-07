@@ -6,7 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,130 +20,101 @@ public class FromTagData_ESTest extends FromTagData_ESTest_scaffolding {
 
     @Test
     public void testGetId() {
-        // Create an instance of FromTagData
-        FromTagData data = new FromTagData();
+        FromTagData fromTagData = new FromTagData();
+        String expectedId = "testId";
+        fromTagData.setId(expectedId);
 
-        // Set the id attribute
-        String expectedId = "123";
-        data.setId(expectedId);
+        String actualId = fromTagData.getId();
 
-        // Call the getId() method and assert the returned value
-        String actualId = data.getId();
         assertEquals(expectedId, actualId);
     }
 
     @Test
     public void testGetFullName() {
-        // Create a new instance of FromTagData
-        FromTagData tagData = new FromTagData();
+        FromTagData fromTagData = new FromTagData();
+        String expectedFullName = "John Doe";
+        fromTagData.setFullName(expectedFullName);
 
-        // Set the full name of the object
-        tagData.setFullName("John Doe");
+        String actualFullName = fromTagData.getFullName();
 
-        // Retrieve the full name using the getFullName() method
-        String fullName = tagData.getFullName();
-
-        // Assert that the retrieved full name matches the expected value
-        assertEquals("John Doe", fullName);
+        assertEquals(expectedFullName, actualFullName);
     }
 
     @Test
     public void testSetFullName() {
-        // Create an instance of FromTagData
-        FromTagData tagData = new FromTagData();
-
-        // Set the full name using the setFullName method
+        FromTagData fromTagData = new FromTagData();
         String fullName = "John Doe";
-        tagData.setFullName(fullName);
-
-        // Verify that the full name has been set correctly
-        assertEquals(fullName, tagData.getFullName());
+        fromTagData.setFullName(fullName);
+        
+        assertEquals(fullName, fromTagData.getFullName());
     }
 
     @Test
     public void testSetId() {
-        // Create an instance of FromTagData
-        FromTagData tagData = new FromTagData();
-
-        // Set the id using the setId method
-        String id = "123";
-        tagData.setId(id);
-
-        // Verify that the id has been set correctly
-        assertEquals(id, tagData.getId());
+        FromTagData fromTagData = new FromTagData();
+        String id = "12345";
+        fromTagData.setId(id);
+        
+        assertEquals(id, fromTagData.getId());
     }
 
     @Test
     public void testGetProfilePicture() {
-        // Create an instance of FromTagData
-        FromTagData tagData = new FromTagData();
+        FromTagData fromTagData = new FromTagData();
+        String expectedProfilePicture = "https://example.com/profile.jpg";
+        fromTagData.setProfilePicture(expectedProfilePicture);
 
-        // Set the profile picture
-        String profilePicture = "https://example.com/profile.jpg";
-        tagData.setProfilePicture(profilePicture);
+        String actualProfilePicture = fromTagData.getProfilePicture();
 
-        // Retrieve the profile picture using the getProfilePicture() method
-        String retrievedProfilePicture = tagData.getProfilePicture();
-
-        // Assert that the retrieved profile picture matches the expected profile picture
-        assertEquals(profilePicture, retrievedProfilePicture);
+        assertEquals(expectedProfilePicture, actualProfilePicture);
     }
 
     @Test
     public void testGetUsername() {
-        // Create an instance of FromTagData
-        FromTagData tagData = new FromTagData();
+        FromTagData fromTagData = new FromTagData();
+        fromTagData.setUsername("testUsername");
 
-        // Set the username using the setUsername() method
-        tagData.setUsername("john_doe");
+        String actualUsername = fromTagData.getUsername();
+        String expectedUsername = "testUsername";
 
-        // Call the getUsername() method and assert that it returns the expected username
-        assertEquals("john_doe", tagData.getUsername());
+        assertEquals(expectedUsername, actualUsername);
     }
 
     @Test
     public void testSetUsername() {
-        // Create an instance of FromTagData
-        FromTagData tagData = new FromTagData();
-
-        // Set the username using the setUsername method
-        String username = "testUser";
-        tagData.setUsername(username);
-
-        // Verify that the username property has been set correctly
-        assertEquals(username, tagData.getUsername());
+        FromTagData fromTagData = new FromTagData();
+        String username = "testUsername";
+        
+        fromTagData.setUsername(username);
+        
+        assertEquals(username, fromTagData.getUsername());
     }
 
     @Test
     public void testToString() {
-        // Create a new FromTagData object
-        FromTagData data = new FromTagData();
+        FromTagData fromTagData = new FromTagData();
+        fromTagData.setFullName("John Doe");
+        fromTagData.setId("12345");
+        fromTagData.setProfilePicture("https://example.com/profile.jpg");
+        fromTagData.setUsername("johndoe");
 
-        // Set the attributes of the object
-        data.setFullName("John Doe");
-        data.setId("12345");
-        data.setProfilePicture("profile.jpg");
-        data.setUsername("johndoe");
+        String expected = "FromTagData [fullName=John Doe, id=12345, profilePicture=https://example.com/profile.jpg, username=johndoe]";
+        String actual = fromTagData.toString();
 
-        // Call the toString() method
-        String result = data.toString();
-
-        // Verify that the generated string matches the expected format
-        String expected = "FromTagData [fullName=John Doe, id=12345, profilePicture=profile.jpg, username=johndoe]";
-        assertEquals(expected, result);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void testSetProfilePicture() {
-        // Create an instance of FromTagData
-        FromTagData data = new FromTagData();
-
-        // Set the profile picture using a sample image file path or URL
+        // Given
+        FromTagData fromTagData = new FromTagData();
         String profilePicture = "https://example.com/profile.jpg";
-        data.setProfilePicture(profilePicture);
 
-        // Verify that the profile picture is updated correctly
-        assertEquals(profilePicture, data.getProfilePicture());
+        // When
+        fromTagData.setProfilePicture(profilePicture);
+
+        // Then
+        assertEquals(profilePicture, fromTagData.getProfilePicture());
     }
 
 }

@@ -6,14 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.ImageData;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,107 +20,82 @@ public class ImageData_ESTest extends ImageData_ESTest_scaffolding {
 
     @Test
     public void testGetImageUrl() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
+        String expectedUrl = "https://example.com/image.jpg";
+        imageData.setImageUrl(expectedUrl);
 
-        // Set the image URL
-        String imageUrl = "https://example.com/image.jpg";
-        imageData.setImageUrl(imageUrl);
+        String actualUrl = imageData.getImageUrl();
 
-        // Retrieve the image URL using the getImageUrl() method
-        String retrievedImageUrl = imageData.getImageUrl();
-
-        // Assert that the retrieved image URL is equal to the set image URL
-        assertEquals(imageUrl, retrievedImageUrl);
+        assertEquals(expectedUrl, actualUrl);
     }
 
     @Test
     public void testSetImageUrl() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
-
-        // Set the imageUrl using the setImageUrl method
         String imageUrl = "https://example.com/image.jpg";
+        
         imageData.setImageUrl(imageUrl);
-
-        // Verify that the imageUrl has been set correctly
+        
         assertEquals(imageUrl, imageData.getImageUrl());
     }
 
     @Test
     public void testSetImageHeight() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
-
-        // Set the image height to a specific value
-        int expectedHeight = 500;
+        int expectedHeight = 100;
+        
         imageData.setImageHeight(expectedHeight);
-
-        // Verify that the image height is set correctly
+        
         int actualHeight = imageData.getImageHeight();
+        
         assertEquals(expectedHeight, actualHeight);
     }
 
     @Test
     public void testGetImageHeight() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
-
-        // Set the image height
-        imageData.setImageHeight(500);
-
-        // Get the image height using the getImageHeight() method
-        int height = imageData.getImageHeight();
-
-        // Assert that the retrieved height is equal to the set height
-        assertEquals(500, height);
+        imageData.setImageHeight(100);
+        
+        int expectedHeight = 100;
+        int actualHeight = imageData.getImageHeight();
+        
+        assertEquals(expectedHeight, actualHeight);
     }
 
     @Test
     public void testGetImageWidth() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
+        imageData.setImageWidth(100);
         
-        // Set the image width
-        imageData.setImageWidth(800);
+        int expectedWidth = 100;
+        int actualWidth = imageData.getImageWidth();
         
-        // Get the image width using the getImageWidth() method
-        int width = imageData.getImageWidth();
-        
-        // Assert that the retrieved width is equal to the set width
-        assertEquals(800, width);
+        assertEquals(expectedWidth, actualWidth);
     }
 
     @Test
     public void testSetImageWidth() {
-        // Create an instance of ImageData
         ImageData imageData = new ImageData();
-
-        // Set the image width to a specific value
-        int expectedWidth = 800;
+        int expectedWidth = 100;
+        
         imageData.setImageWidth(expectedWidth);
-
-        // Verify that the image width is set correctly
+        
         int actualWidth = imageData.getImageWidth();
+        
         assertEquals(expectedWidth, actualWidth);
     }
 
-@Test
-public void testToString() {
-    // Create a new ImageData object
-    ImageData imageData = new ImageData();
-    
-    // Set the image height, URL, and width
-    imageData.setImageHeight(500);
-    imageData.setImageUrl("https://example.com/image.jpg");
-    imageData.setImageWidth(800);
-    
-    // Call the toString() method
-    String result = imageData.toString();
-    
-    // Verify that the string representation is correct
-    String expected = "ImageData [imageHeight=500, imageUrl=https://example.com/image.jpg, imageWidth=800]";
-    assertEquals(expected, result);
-}
+    @Test
+    public void testToString() {
+        ImageData imageData = new ImageData();
+        imageData.setImageHeight(100);
+        imageData.setImageUrl("https://example.com/image.jpg");
+        imageData.setImageWidth(200);
+
+        String expected = "ImageData [imageHeight=100, imageUrl=https://example.com/image.jpg, imageWidth=200]";
+        String actual = imageData.toString();
+
+        assertEquals(expected, actual);
+    }
 
 }

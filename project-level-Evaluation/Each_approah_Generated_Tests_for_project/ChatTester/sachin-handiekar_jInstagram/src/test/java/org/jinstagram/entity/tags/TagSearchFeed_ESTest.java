@@ -5,7 +5,7 @@
  */
 package org.jinstagram.entity.tags;
 
-
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -17,9 +17,14 @@ import org.jinstagram.entity.tags.TagInfoData;
 import org.jinstagram.entity.tags.TagSearchFeed;
 import org.junit.runner.RunWith;
 
-import java.util.List;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.jinstagram.entity.tags.TagInfoData;
+import org.jinstagram.entity.tags.TagSearchFeed;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -31,24 +36,8 @@ import org.jinstagram.entity.tags.TagInfoData;
 import org.jinstagram.entity.tags.TagSearchFeed;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Meta;
-import org.jinstagram.entity.tags.TagInfoData;
-import org.jinstagram.entity.tags.TagSearchFeed;
-import org.junit.runner.RunWith;
-
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -64,91 +53,44 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class TagSearchFeed_ESTest extends TagSearchFeed_ESTest_scaffolding {
 
-@Test(timeout = 4000)
-public void testToString() throws Throwable {
-    // Create a new instance of TagSearchFeed
-    TagSearchFeed tagSearchFeed = new TagSearchFeed();
-
-    // Call the toString() method
-    String result = tagSearchFeed.toString();
-
-    // Create the expected string representation
-    String expected = "TagSearchFeed [meta=null, tagList=null]";
-
-    // Assert that the result matches the expected string
-    assertEquals(expected, result);
-}
-
     @Test
     public void testSetMeta() {
-        // Create a new instance of TagSearchFeed
+        // Given
         TagSearchFeed tagSearchFeed = new TagSearchFeed();
-
-        // Create a new Meta object
         Meta meta = new Meta();
-        // Set the values of the Meta object
-        meta.setCode(200);
-        meta.setErrorType("none");
-
-        // Call the setMeta method with the Meta object
+        
+        // When
         tagSearchFeed.setMeta(meta);
-
-        // Get the Meta object from the TagSearchFeed instance
-        Meta result = tagSearchFeed.getMeta();
-
-        // Assert that the Meta object is not null
-        assertNotNull(result);
-        // Assert that the Meta object has the same code as the provided Meta object
-        assertEquals(meta.getCode(), result.getCode());
-        // Assert that the Meta object has the same error type as the provided Meta object
-        assertEquals(meta.getErrorType(), result.getErrorType());
+        
+        // Then
+        assertEquals(meta, tagSearchFeed.getMeta());
     }
 
 @Test
 public void testSetTagList() {
     TagSearchFeed tagSearchFeed = new TagSearchFeed();
-    List<TagInfoData> tagList = new ArrayList<TagInfoData>();
-    tagList.add(new TagInfoData());
-    tagList.add(new TagInfoData());
+    List<TagInfoData> newTagList = new LinkedList<TagInfoData>();
 
-    tagList.add(new TagInfoData()); // Fix: Remove the argument from the constructor call
+    newTagList.add(new TagInfoData());
+    newTagList.get(0).setTagName("tag1");
 
-    tagSearchFeed.setTagList(tagList);
-    assertEquals(tagList, tagSearchFeed.getTagList());
+    newTagList.add(new TagInfoData());
+    newTagList.get(1).setTagName("tag2");
+
+    tagSearchFeed.setTagList(newTagList);
+    List<TagInfoData> updatedTagList = tagSearchFeed.getTagList();
+    assertEquals(newTagList, updatedTagList);
 }
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of TagSearchFeed
         TagSearchFeed tagSearchFeed = new TagSearchFeed();
+        Meta meta = new Meta();
+        tagSearchFeed.setMeta(meta);
 
-        // Create a new instance of Meta
-        Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
+        Meta retrievedMeta = tagSearchFeed.getMeta();
 
-        // Set the expected Meta object to the TagSearchFeed instance
-        tagSearchFeed.setMeta(expectedMeta);
-
-        // Call the getMeta() method
-        Meta actualMeta = tagSearchFeed.getMeta();
-
-        // Assert that the actual Meta object is equal to the expected Meta object
-        assertEquals(expectedMeta, actualMeta);
+        assertNotNull("Meta object should not be null", retrievedMeta);
     }
-
-@Test
-public void testGetTagList() {
-    TagSearchFeed tagSearchFeed = new TagSearchFeed();
-    List<TagInfoData> expectedTagList = new LinkedList<TagInfoData>();
-
-    expectedTagList.add(new TagInfoData());
-
-    expectedTagList.add(new TagInfoData());
-    expectedTagList.add(new TagInfoData());
-    tagSearchFeed.setTagList(expectedTagList);
-    List<TagInfoData> actualTagList = tagSearchFeed.getTagList();
-    assertEquals(expectedTagList, actualTagList);
-}
 
 }

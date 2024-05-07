@@ -5,9 +5,18 @@
  */
 package org.jinstagram.entity.locations;
 
-import org.jinstagram.entity.common.Location;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.locations.LocationInfo;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -22,38 +31,38 @@ public class LocationInfo_ESTest extends LocationInfo_ESTest_scaffolding {
 
     @Test
     public void testGetLocationData() {
-        // Create a new Location object
-        Location location = new Location();
-        
-        // Set the location data
         LocationInfo locationInfo = new LocationInfo();
-        locationInfo.setLocationData(location);
         
-        // Retrieve the location data using the getLocationData() method
+        // Create a sample Location object for testing
+        Location sampleLocation = new Location();
+        sampleLocation.setLatitude(40.7128);
+        sampleLocation.setLongitude(74.0060);
+        
+        // Set the sample Location object as the locationData in LocationInfo
+        locationInfo.setLocationData(sampleLocation);
+        
+        // Retrieve the Location object using getLocationData()
         Location retrievedLocation = locationInfo.getLocationData();
         
-        // Assert that the retrieved location is equal to the original location
-        assertEquals(location, retrievedLocation);
+        // Assert that the retrieved Location object is not null
+        assertNotNull(retrievedLocation);
+        
+        // Additional assertions can be added based on the specific properties of the Location object
+        // For example, assertEquals(expectedValue, retrievedLocation.getLatitude());
+        // For example, assertEquals(expectedValue, retrievedLocation.getLongitude());
     }
 
     @Test
     public void testSetLocationData() {
-        // Create a new Location object
-        Location location = new Location();
-        
-        // Set the values for the Location object
-        location.setLatitude(37.7749);
-        location.setLongitude(-122.4194);
-        location.setName("San Francisco");
-        
-        // Create a new LocationInfo object
+        // Given
         LocationInfo locationInfo = new LocationInfo();
+        Location locationData = new Location();
         
-        // Call the setLocationData method with the Location object
-        locationInfo.setLocationData(location);
+        // When
+        locationInfo.setLocationData(locationData);
         
-        // Verify that the locationData variable in LocationInfo is set correctly
-        assertEquals(location, locationInfo.getLocationData());
+        // Then
+        assertEquals(locationData, locationInfo.getLocationData());
     }
 
 }

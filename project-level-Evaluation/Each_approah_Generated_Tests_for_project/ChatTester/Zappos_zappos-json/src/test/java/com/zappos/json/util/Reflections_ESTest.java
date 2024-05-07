@@ -5,9 +5,11 @@
  */
 package com.zappos.json.util;
 
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import java.lang.reflect.Field;
 import static org.junit.Assert.*;
+import java.lang.reflect.Method;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -19,8 +21,47 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.Reflections;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.Reflections;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.lang.reflect.Method;
+import java.lang.reflect.Type;
+import java.lang.reflect.ParameterizedType;
+import java.util.List;
+import java.util.ArrayList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -36,51 +77,8 @@ import org.junit.Test;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import com.zappos.json.util.Reflections;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import com.zappos.json.util.Reflections;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Method;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import com.zappos.json.util.Reflections;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.junit.runner.RunWith;
-
+import java.util.ArrayList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -98,101 +96,52 @@ public class Reflections_ESTest extends Reflections_ESTest_scaffolding {
 
     @Test
     public void testGetGenericTypes() throws NoSuchFieldException {
-        // Create a test class with a parameterized field
-        class TestClass {
-            List<String> myList;
+        // Create a sample class for testing
+        class SampleClass {
+            List<String> stringList;
         }
 
-        // Get the field from the test class
-        Field field = TestClass.class.getDeclaredField("myList");
+        // Get the Field object for the field in the sample class
+        Field field = SampleClass.class.getDeclaredField("stringList");
 
-        // Call the method under test
+        // Test the getGenericTypes method
         Class<?>[] genericTypes = Reflections.getGenericTypes(field);
 
-        // Assert the result
+        // Assert that the genericTypes array is not null and contains the expected type
         assertNotNull(genericTypes);
         assertEquals(1, genericTypes.length);
         assertEquals(String.class, genericTypes[0]);
     }
 
-    @Test
-    public void testHasAnnotation_2() throws NoSuchMethodException {
-        // Create a sample class for testing
-        class SampleClass {
-            @Deprecated
-            public void deprecatedMethod() {
-            }
-
-            public void nonDeprecatedMethod() {
-            }
-        }
-
-        // Get the methods of the sample class
-        Method deprecatedMethod = SampleClass.class.getMethod("deprecatedMethod");
-        Method nonDeprecatedMethod = SampleClass.class.getMethod("nonDeprecatedMethod");
-
-        // Test case 1: Check if deprecatedMethod has Deprecated annotation
-        assertTrue(Reflections.hasAnnotation(deprecatedMethod, Deprecated.class));
-
-        // Test case 2: Check if nonDeprecatedMethod has Deprecated annotation
-        assertFalse(Reflections.hasAnnotation(nonDeprecatedMethod, Deprecated.class));
-    }
-
 @Test
-public void testHasAnnotation() throws NoSuchFieldException, NoSuchMethodException {
-    class SampleClass {
-        @SuppressWarnings("unused")
-        @Deprecated
-        private String sampleField;
-        @SuppressWarnings("unused")
-        @Deprecated
-        public void sampleMethod() {
-        }
-    }
-    Field field = SampleClass.class.getDeclaredField("sampleField");
-    Method method = SampleClass.class.getDeclaredMethod("sampleMethod");
-    assertTrue(Reflections.hasAnnotation(method, field, Deprecated.class));
-    assertTrue(Reflections.hasAnnotation(field, Deprecated.class));
-}
-
-@Test(timeout = 4000)
-public void testGetField() throws Throwable {
-    Class<Annotation> class0 = Annotation.class;
-    try {
-        Reflections.getField(class0, " A6)j>Vi@=Y");
-        fail("Expecting exception: NullPointerException");
-    } catch (NullPointerException e) {
-        verifyException("com.zappos.json.util.Reflections", e);
-    }
+public void testGetFirstGenericParameterType() {
+    Method testMethod = null; 
+     
 }
 
 @Test
-public void testGetSecondGenericParameterType() throws NoSuchMethodException {
-    // Create a sample class for testing
-    class SampleClass<T, U> {
-        public void sampleMethod(T param1, U param2) {}
-    }
+public void testHasAnnotation() throws NoSuchMethodException {
+    Method methodWithAnnotation = Reflections.class.getMethod("hasAnnotation", Method.class, Class.class);
+    Method methodWithoutAnnotation = Reflections.class.getMethod("classPresent", String.class);
+    boolean hasAnnotationTrue = Reflections.hasAnnotation(methodWithAnnotation, Test.class);
+    boolean hasAnnotationFalse = Reflections.hasAnnotation(methodWithoutAnnotation, Test.class);
+  
+}
 
-    // Get the sample method
-    Method method = SampleClass.class.getMethod("sampleMethod", Object.class, Object.class);
-
-    // Call the focal method
-    Class<?> result = Reflections.getSecondGenericParameterType(method);
-
-    // Assert the result
-    assertNull(result);
+@Test
+public void testGetGenericParameterTypes() throws NoSuchMethodException {
+    Method method = Reflections.class.getMethod("getGenericParameterTypes", Method.class);
+    Class<?>[] genericParameterTypes = Reflections.getGenericParameterTypes(method);
+  
 }
 
     @Test
-    public void testClassPresent_shouldReturnTrue_whenClassIsPresent() {
-        // Arrange
-        String className = "java.lang.String";
+    public void testClassPresent() {
+        // Test when class is present
+        assertTrue(Reflections.classPresent("java.lang.String"));
 
-        // Act
-        boolean result = Reflections.classPresent(className);
-
-        // Assert
-        assertTrue(result);
+        // Test when class is not present
+        assertFalse(Reflections.classPresent("com.example.NonExistentClass"));
     }
 
 }

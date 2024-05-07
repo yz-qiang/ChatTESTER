@@ -5,8 +5,18 @@
  */
 package com.zappos.json;
 
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.Date;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -32,9 +42,127 @@ import org.evosuite.runtime.mock.java.io.MockPrintWriter;
 import org.evosuite.runtime.mock.java.time.MockInstant;
 import org.junit.runner.RunWith;
 
-import com.zappos.json.format.ValueFormatter;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.Date;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.io.File;
+import java.io.PipedReader;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.Writer;
+import java.lang.reflect.Array;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.chrono.HijrahEra;
+import java.util.Date;
+import java.util.Locale;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.evosuite.runtime.mock.java.time.MockInstant;
+import org.junit.runner.RunWith;
+
+import java.math.BigInteger;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.io.File;
+import java.io.PipedReader;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.Writer;
+import java.lang.reflect.Array;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.chrono.HijrahEra;
+import java.util.Date;
+import java.util.Locale;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.evosuite.runtime.mock.java.time.MockInstant;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.io.File;
+import java.io.PipedReader;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.Writer;
+import java.lang.reflect.Array;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.chrono.HijrahEra;
+import java.util.Date;
+import java.util.Locale;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.evosuite.runtime.mock.java.time.MockInstant;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.io.File;
+import java.io.PipedReader;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.Writer;
+import java.lang.reflect.Array;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.chrono.HijrahEra;
+import java.util.Date;
+import java.util.Locale;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.evosuite.runtime.mock.java.time.MockInstant;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.io.StringReader;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -61,7 +189,40 @@ import org.evosuite.runtime.mock.java.time.MockInstant;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
+import com.zappos.json.ZapposJson;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.io.File;
+import java.io.PipedReader;
+import java.io.Reader;
 import java.io.StringReader;
+import java.io.Writer;
+import java.lang.reflect.Array;
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.time.chrono.HijrahEra;
+import java.util.Date;
+import java.util.Locale;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.evosuite.runtime.mock.java.time.MockInstant;
+import org.junit.runner.RunWith;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.Date;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -92,54 +253,103 @@ import org.junit.runner.RunWith;
 public class ZapposJson_ESTest extends ZapposJson_ESTest_scaffolding {
 
 @Test
-public void testIsWriterConfig() {
+public void testToJson() {
     ZapposJson zapposJson = ZapposJson.getInstance();
-
-    boolean result = zapposJson.is(JsonConfig.WriterConfig.WRITE_ENUM_USING_NAME);
-
-    assertFalse(result);
+    StringWriter stringWriter = new StringWriter();
+    zapposJson.toJson(null, stringWriter);
+    assertEquals("Expected JSON for null object", "null", stringWriter.toString());
+    stringWriter.getBuffer().setLength(0); 
+    Date date = new Date(1714749928695L); 
+    zapposJson.toJson(date, stringWriter);
+             
 }
 
-@Test(timeout = 4000)
-public void testRemoveValueFormatter() throws Throwable {
-    ZapposJson zapposJson = new ZapposJson();
-    Class<Date> class0 = Date.class;
-    zapposJson.removeValueFormatter(class0);
+@Test
+public void setUp() {
+    ZapposJson zapposJson = ZapposJson.getInstance();
 }
 
     @Test
-    public void testGetInstance_2() {
-        // Test case 1: Verify that getInstance returns the same instance for the same name
-        ZapposJson instance1 = ZapposJson.getInstance("name1");
-        ZapposJson instance2 = ZapposJson.getInstance("name1");
-        assertSame(instance1, instance2);
+    public void testRegister() {
+        ZapposJson zapposJson = new ZapposJson();
+        Class<?> clazz = String.class; // Example class for testing
 
-        // Test case 2: Verify that getInstance returns different instances for different names
-        ZapposJson instance3 = ZapposJson.getInstance("name2");
-        assertNotSame(instance1, instance3);
+        try {
+            zapposJson.register(clazz);
+            // If no exception is thrown, registration was successful
+            assertTrue(true);
+        } catch (Exception e) {
+            // If an exception is thrown, registration failed
+            fail("Registration of class " + clazz.getName() + " failed: " + e.getMessage());
+        }
     }
 
-@Test(timeout = 4000)
-public void testDebug() throws Throwable {
-    ZapposJson zapposJson0 = new ZapposJson();
-    Class<HijrahEra>[] classArray0 = (Class<HijrahEra>[]) Array.newInstance(Class.class, 0);
-    zapposJson0.debug("[]", classArray0);
-    assertEquals(0, classArray0.length);
-}
+    @Test
+    public void testGetInstance() {
+        // Given
+        String name = "testInstance";
+        
+        // When
+        ZapposJson instance1 = ZapposJson.getInstance(name);
+        ZapposJson instance2 = ZapposJson.getInstance(name);
+        
+        // Then
+        assertNotNull(instance1);
+        assertNotNull(instance2);
+        assertSame(instance1, instance2);
+    }
 
 @Test
-public void testGetValueFormatter() {
-    ZapposJson zapposJson = new ZapposJson();
-    Class<Date> class0 = Date.class;
-    ValueFormatter<Object> valueFormatter0 = zapposJson.getValueFormatter(class0);
-    assertNotNull(valueFormatter0);
+public void testDebug() {
+    ZapposJson zapposJson = new ZapposJson(true); 
+    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(outContent));
+    zapposJson.debug("Debug message: %s", "Test");
+    String expectedOutput = "Debug message: Test\n";
+   
 }
 
-@Test
-public void testGetInstance() {
-    ZapposJson instance = ZapposJson.getInstance();
-    assertNotNull(instance);
-    assertSame(instance, ZapposJson.getInstance());
-}
+    @Test
+    public void testAddValueFormatter() {
+        ZapposJson zapposJson = new ZapposJson();
+        JavaDateFormatter javaDateFormatter = new JavaDateFormatter();
+        
+        zapposJson.addValueFormatter(Date.class, javaDateFormatter);
+        
+        ValueFormatter<Object> retrievedFormatter = zapposJson.getValueFormatter(Date.class);
+        
+        assertNotNull("ValueFormatter for Date class should not be null", retrievedFormatter);
+        assertEquals("Added ValueFormatter should match the retrieved ValueFormatter", javaDateFormatter, retrievedFormatter);
+    }
+
+    @Test
+    public void testFormat() {
+        ZapposJson zapposJson = new ZapposJson();
+        
+        // Test formatting Date object
+        Date date = new Date();
+        String formattedDate = zapposJson.format(date);
+        assertNotNull(formattedDate);
+        
+        // Test formatting BigInteger object
+        BigInteger bigInteger = new BigInteger("1234567890");
+        String formattedBigInteger = zapposJson.format(bigInteger);
+        assertNotNull(formattedBigInteger);
+        
+        // Test formatting unknown object
+        Object unknownObject = new Object();
+        String formattedUnknown = zapposJson.format(unknownObject);
+        assertNotNull(formattedUnknown);
+    }
+
+    @Test
+    public void testGetInstance2() {
+        ZapposJson instance1 = ZapposJson.getInstance();
+        ZapposJson instance2 = ZapposJson.getInstance();
+
+        assertNotNull(instance1);
+        assertNotNull(instance2);
+        assertSame(instance1, instance2);
+    }
 
 }

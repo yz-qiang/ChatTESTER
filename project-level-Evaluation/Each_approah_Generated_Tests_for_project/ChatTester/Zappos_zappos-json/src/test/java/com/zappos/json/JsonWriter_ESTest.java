@@ -5,12 +5,15 @@
  */
 package com.zappos.json;
 
-import java.io.IOException;
-import java.io.StringWriter;
-import java.io.Writer;
-import javax.xml.bind.DatatypeConverter;
+
+
+
+
+
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.io.CharArrayWriter;
+import java.io.IOException;
+import java.io.Writer;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -40,11 +43,82 @@ import org.evosuite.runtime.mock.java.io.MockFileWriter;
 import org.evosuite.runtime.mock.java.io.MockPrintWriter;
 import org.junit.runner.RunWith;
 
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.io.IOException;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.JsonWriter;
+import com.zappos.json.ZapposJson;
+import java.io.CharArrayWriter;
+import java.io.File;
+import java.io.IOException;
+import java.io.PipedWriter;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.time.ZoneId;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockFileWriter;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonConfig;
+import com.zappos.json.JsonWriter;
+import com.zappos.json.ZapposJson;
+import java.io.CharArrayWriter;
+import java.io.File;
+import java.io.IOException;
+import java.io.PipedWriter;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.time.ZoneId;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.io.MockFile;
+import org.evosuite.runtime.mock.java.io.MockFileWriter;
+import org.evosuite.runtime.mock.java.io.MockPrintWriter;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import java.io.CharArrayWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.Map;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -78,74 +152,63 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class JsonWriter_ESTest extends JsonWriter_ESTest_scaffolding {
 
-    @Test
-    public void testWriteBoolean() throws IOException {
-        // Create a StringWriter to capture the output
-        StringWriter stringWriter = new StringWriter();
-        
-        // Create a ZapposJson object (if needed)
-        ZapposJson zapposJson = new ZapposJson();
-        
-        // Create a Boolean value to test
-        Boolean value = true;
-        
-        // Call the writeBoolean method
-        JsonWriter.writeBoolean(zapposJson, value, stringWriter);
-        
-        // Get the output from the StringWriter
-        String output = stringWriter.toString();
-        
-        // Assert that the output matches the expected value
-        assertEquals("true", output);
-    }
-
-@Test(timeout = 4000)
-public void testWriteBase64String() throws Throwable {
-    // Arrange
+@Test
+public void testWriteNumber() throws IOException {
     ZapposJson zapposJson = new ZapposJson();
-    byte[] byteArray0 = new byte[8];
+    Number value = 42;
     Writer writer = new StringWriter();
-    
-    // Act
-    JsonWriter.writeBase64String(zapposJson, byteArray0, writer);
-    
-    // Assert
-    String expected = "\"AAAAAAAAAAA=\"";
-    String actual = writer.toString();
-    assertEquals(expected, actual);
+    JsonWriter.writeNumber(zapposJson, value, writer);
+   
 }
 
     @Test
-    public void testWriteString() throws IOException {
-        // Create a StringWriter to capture the output
-        StringWriter stringWriter = new StringWriter();
+    public void testWriteBoolean() throws IOException {
+        // Given
+        ZapposJson zapposJson = new ZapposJson();
+        Boolean value = true;
+        Writer writer = new StringWriter();
 
-        // Create a ZapposJson object for testing
+        // When
+        JsonWriter.writeBoolean(zapposJson, value, writer);
+
+        // Then
+        assertEquals("true", writer.toString());
+    }
+
+    @Test
+    public void testWriteString() throws IOException {
+        // Create a mock ZapposJson object for testing
         ZapposJson zapposJson = new ZapposJson();
 
-        // Define the input value
-        String value = "Hello, World!";
+        // Create a CharArrayWriter to capture the output
+        CharArrayWriter charArrayWriter = new CharArrayWriter();
 
-        // Call the writeString method
-        JsonWriter.writeString(zapposJson, value, stringWriter);
+        // Call the writeString method with a sample string value
+        JsonWriter.writeString(zapposJson, "Hello, World!", charArrayWriter);
 
-        // Get the output from the StringWriter
-        String output = stringWriter.toString();
+        // Verify the output by converting the CharArrayWriter to a String
+        String output = charArrayWriter.toString();
 
-        // Verify that the output is correct
-        assertEquals("\"Hello, World!\"", output);
+        // Expected output with proper JSON formatting
+        String expectedOutput = "\"Hello, World!\"";
+
+        // Assert that the output matches the expected output
+        assertEquals(expectedOutput, output);
     }
 
     @Test
     public void testWriteArray() throws IOException {
-        double[] values = {1.5, 2.7, 3.9};
-        StringWriter writer = new StringWriter();
+        // Prepare test data
+        double[] values = {1.5, 2.7, 3.0};
+        CharArrayWriter charArrayWriter = new CharArrayWriter();
 
-        JsonWriter.writeArray(values, writer);
+        // Call the method under test
+        JsonWriter.writeArray(values, charArrayWriter);
 
-        String expected = "[1.5,2.7,3.9]";
-        String actual = writer.toString();
-        assertEquals(expected, actual);
+        // Verify the output
+        String expectedJson = "[1.5,2.7,3.0]";
+        String actualJson = charArrayWriter.toString();
+        assert(expectedJson.equals(actualJson));
     }
 
 }

@@ -5,6 +5,8 @@
  */
 package org.jinstagram.entity.common;
 
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -13,7 +15,7 @@ import org.jinstagram.entity.common.User;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,190 +29,158 @@ public class User_ESTest extends User_ESTest_scaffolding {
 
     @Test
     public void testGetBio() {
-        // Create a User object
+        // Given
         User user = new User();
-        
-        // Set the bio of the user
-        user.setBio("I am a software engineer");
-        
-        // Retrieve the bio using the getBio() method
-        String bio = user.getBio();
-        
-        // Assert that the retrieved bio is equal to the expected bio
-        assertEquals("I am a software engineer", bio);
+        String expectedBio = "This is a test bio";
+        user.setBio(expectedBio);
+
+        // When
+        String actualBio = user.getBio();
+
+        // Then
+        Assert.assertEquals(expectedBio, actualBio);
     }
 
     @Test
     public void testGetUserName() {
-        // Create a new User object
+        // Given
         User user = new User();
+        String expectedUserName = "testUsername";
+        user.setUserName(expectedUserName);
 
-        // Set the value of the userName variable
-        user.setUserName("JohnDoe");
+        // When
+        String actualUserName = user.getUserName();
 
-        // Call the getUserName() method and store the result
-        String result = user.getUserName();
-
-        // Assert that the result is equal to the expected value
-        assertEquals("JohnDoe", result);
+        // Then
+        Assert.assertEquals(expectedUserName, actualUserName);
     }
 
     @Test
     public void testSetUserName() {
-        // Create a new User object
         User user = new User();
-
-        // Set the username using the setUserName method
-        String expectedUserName = "john_doe";
-        user.setUserName(expectedUserName);
-
-        // Verify that the username has been set correctly
-        String actualUserName = user.getUserName();
-        assertEquals(expectedUserName, actualUserName);
+        String newUserName = "john_doe";
+        user.setUserName(newUserName);
+        
+        assertEquals(newUserName, user.getUserName());
     }
 
     @Test
     public void testSetId() {
-        // Create a new User object
+        // Given
         User user = new User();
-
-        // Set the id using the setId method
         String id = "12345";
+
+        // When
         user.setId(id);
 
-        // Verify that the id has been set correctly
+        // Then
         assertEquals(id, user.getId());
     }
 
     @Test
     public void testSetProfilePictureUrl() {
-        // Create a new User object
         User user = new User();
-
-        // Set the profile picture URL using the setProfilePictureUrl method
-        String profilePictureUrl = "https://example.com/profile.jpg";
-        user.setProfilePictureUrl(profilePictureUrl);
-
-        // Verify that the profile picture URL has been updated correctly
-        assertEquals(profilePictureUrl, user.getProfilePictureUrl());
+        String newProfilePictureUrl = "https://example.com/profile.jpg";
+        
+        user.setProfilePictureUrl(newProfilePictureUrl);
+        
+        assertEquals(newProfilePictureUrl, user.getProfilePictureUrl());
     }
 
     @Test
     public void testGetId() {
-        // Create a new User object
+        // Given
         User user = new User();
+        String expectedId = "12345";
+        user.setId(expectedId);
 
-        // Set the id attribute of the User object
-        user.setId("12345");
+        // When
+        String actualId = user.getId();
 
-        // Call the getId() method and store the result in a variable
-        String id = user.getId();
-
-        // Assert that the returned id is equal to the expected id
-        assertEquals("12345", id);
+        // Then
+        assertEquals(expectedId, actualId);
     }
 
     @Test
     public void testGetProfilePictureUrl() {
-        // Create a User object
         User user = new User();
-        
-        // Set the profile picture URL
-        String profilePictureUrl = "https://example.com/profile.jpg";
-        user.setProfilePictureUrl(profilePictureUrl);
-        
-        // Call the getProfilePictureUrl() method
-        String result = user.getProfilePictureUrl();
-        
-        // Assert that the returned URL matches the set URL
-        assertEquals(profilePictureUrl, result);
+        String expectedProfilePictureUrl = "https://example.com/profile.jpg";
+        user.setProfilePictureUrl(expectedProfilePictureUrl);
+
+        String actualProfilePictureUrl = user.getProfilePictureUrl();
+
+        assertEquals(expectedProfilePictureUrl, actualProfilePictureUrl);
     }
 
     @Test
     public void testGetWebsiteUrl() {
-        // Create a User object
+        // Given
         User user = new User();
+        String expectedWebsiteUrl = "https://www.example.com";
+        user.setWebsiteUrl(expectedWebsiteUrl);
 
-        // Set the website URL
-        String websiteUrl = "https://www.example.com";
-        user.setWebsiteUrl(websiteUrl);
+        // When
+        String actualWebsiteUrl = user.getWebsiteUrl();
 
-        // Retrieve the website URL using the getWebsiteUrl() method
-        String retrievedWebsiteUrl = user.getWebsiteUrl();
-
-        // Assert that the retrieved website URL matches the expected website URL
-        assertEquals(websiteUrl, retrievedWebsiteUrl);
+        // Then
+        Assert.assertEquals(expectedWebsiteUrl, actualWebsiteUrl);
     }
 
-@Test
-public void testToString() {
-    // Create a User object with sample data
-    User user = new User();
-    user.setBio("I am a software engineer");
-    user.setFullName("John Doe");
-    user.setId("123456789");
-    user.setProfilePictureUrl("https://example.com/profile.jpg");
-    user.setUserName("johndoe");
-    user.setWebsiteUrl("https://example.com");
+    @Test
+    public void testToString() {
+        User user = new User();
+        user.setBio("Test Bio");
+        user.setFullName("Test Full Name");
+        user.setId("12345");
+        user.setProfilePictureUrl("http://example.com/profile.jpg");
+        user.setUserName("testuser");
+        user.setWebsiteUrl("http://example.com");
 
-    // Expected string representation of the User object
-    String expected = "User [bio=I am a software engineer, fullName=John Doe, id=123456789, profilePictureUrl=https://example.com/profile.jpg, userName=johndoe, websiteUrl=https://example.com]";
+        String expected = "User [bio=Test Bio, fullName=Test Full Name, id=12345, profilePictureUrl=http://example.com/profile.jpg, userName=testuser, websiteUrl=http://example.com]";
+        String actual = user.toString();
 
-    // Call the toString() method and compare the result with the expected string
-    assertEquals(expected, user.toString());
-}
+        assertEquals(expected, actual);
+    }
 
     @Test
     public void testSetWebsiteUrl() {
-        // Create a new User object
+        // Given
         User user = new User();
+        String websiteUrl = "https://www.example.com";
 
-        // Set the website URL using the setWebsiteUrl method
-        String websiteUrl = "https://example.com";
+        // When
         user.setWebsiteUrl(websiteUrl);
 
-        // Verify that the website URL was set correctly
+        // Then
         assertEquals(websiteUrl, user.getWebsiteUrl());
     }
 
     @Test
     public void testGetFullName() {
-        // Create a User object
         User user = new User();
-        
-        // Set the full name of the user
         user.setFullName("John Doe");
-        
-        // Retrieve the full name using the getFullName() method
-        String fullName = user.getFullName();
-        
-        // Assert that the retrieved full name matches the expected value
-        assertEquals("John Doe", fullName);
+
+        String expectedFullName = "John Doe";
+        String actualFullName = user.getFullName();
+
+        assertEquals(expectedFullName, actualFullName);
     }
 
     @Test
     public void testSetFullName() {
-        // Create a new User object
         User user = new User();
-
-        // Set the full name using the setFullName method
         String fullName = "John Doe";
         user.setFullName(fullName);
-
-        // Verify that the full name has been set correctly
+        
         assertEquals(fullName, user.getFullName());
     }
 
     @Test
     public void testSetBio() {
-        // Create a new User object
         User user = new User();
-
-        // Set the bio using the setBio method
-        String bio = "This is my bio";
+        String bio = "New bio";
         user.setBio(bio);
-
-        // Verify that the bio has been set correctly
+        
         assertEquals(bio, user.getBio());
     }
 

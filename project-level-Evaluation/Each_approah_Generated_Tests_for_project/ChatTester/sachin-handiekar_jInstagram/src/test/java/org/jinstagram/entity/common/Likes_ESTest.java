@@ -6,22 +6,10 @@
 package org.jinstagram.entity.common;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Likes;
-import org.jinstagram.entity.common.User;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -32,6 +20,19 @@ import org.jinstagram.entity.common.Likes;
 import org.jinstagram.entity.common.User;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.User;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -47,51 +48,65 @@ import org.junit.runner.RunWith;
 public class Likes_ESTest extends Likes_ESTest_scaffolding {
 
 @Test
-public void testToString() {
-    Likes likes = new Likes();
-    likes.setCount(0);
-    likes.setLikesUserList(null);
-    
-    String expected = "Likes [count=0, likesUserList=null]";
-    String actual = likes.toString();
-    
-    assertEquals(expected, actual);
-}
-
-@Test
 public void testGetLikesUserList() {
     Likes likes = new Likes();
-    List<User> expectedLikesUserList = new ArrayList<User>();
+    List<User> expectedLikesUserList = new LinkedList<User>();
 
     User user1 = new User();
-    expectedLikesUserList.add(user1);
+    user1.setUserName("JohnDoe");
 
     User user2 = new User();
+    user2.setUserName("JaneSmith");
+    expectedLikesUserList.add(user1);
     expectedLikesUserList.add(user2);
-
     likes.setLikesUserList(expectedLikesUserList);
     List<User> actualLikesUserList = likes.getLikesUserList();
-    assertEquals(expectedLikesUserList, actualLikesUserList);
+    assertNotNull(actualLikesUserList);
+    assertEquals(expectedLikesUserList.size(), actualLikesUserList.size());
+    for (int i = 0; i < expectedLikesUserList.size(); i++) {
+        assertEquals(expectedLikesUserList.get(i).getUserName(), actualLikesUserList.get(i).getUserName());
+    }
 }
 
     @Test
     public void testGetCount() {
         Likes likes = new Likes();
-        int expectedCount = 0;
-        
+        likes.setCount(5); // Set a specific count for testing
+
+        int expectedCount = 5;
         int actualCount = likes.getCount();
-        
+
         assertEquals(expectedCount, actualCount);
     }
+
+@Test
+public void testSetLikesUserList() {
+    Likes likes = new Likes();
+    List<User> testUserList = new LinkedList<User>();
+
+    User user1 = new User();
+    user1.setUserName("JohnDoe");
+
+    User user2 = new User();
+    user2.setUserName("JaneSmith");
+    testUserList.add(user1);
+    testUserList.add(user2);
+    likes.setLikesUserList(testUserList);
+    List<User> updatedUserList = likes.getLikesUserList();
+    assertNotNull(updatedUserList);
+    assertEquals(2, updatedUserList.size());
+    assertEquals("JohnDoe", updatedUserList.get(0).getUserName());
+    assertEquals("JaneSmith", updatedUserList.get(1).getUserName());
+}
 
     @Test
     public void testSetCount() {
         Likes likes = new Likes();
-        int count = 5;
+        int newCount = 10;
         
-        likes.setCount(count);
+        likes.setCount(newCount);
         
-        assertEquals(count, likes.getCount());
+        assertEquals(newCount, likes.getCount());
     }
 
 }

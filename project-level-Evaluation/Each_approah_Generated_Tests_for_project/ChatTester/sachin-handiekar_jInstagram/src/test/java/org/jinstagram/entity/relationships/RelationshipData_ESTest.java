@@ -6,6 +6,25 @@
 package org.jinstagram.entity.relationships;
 
 import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.relationships.RelationshipData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.relationships.RelationshipData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -20,95 +39,82 @@ public class RelationshipData_ESTest extends RelationshipData_ESTest_scaffolding
 
     @Test
     public void testSetTargetUserPrivate() {
-        // Create an instance of RelationshipData
         RelationshipData relationshipData = new RelationshipData();
-
-        // Set the target user privacy status to true
-        relationshipData.setTargetUserPrivate(true);
-
-        // Verify that the target user privacy status is updated correctly
+        boolean targetUserPrivate = true;
+        
+        relationshipData.setTargetUserPrivate(targetUserPrivate);
+        
         assertTrue(relationshipData.isTargetUserPrivate());
-
-        // Set the target user privacy status to false
-        relationshipData.setTargetUserPrivate(false);
-
-        // Verify that the target user privacy status is updated correctly
-        assertFalse(relationshipData.isTargetUserPrivate());
     }
 
     @Test
     public void testGetOutgoingStatus() {
-        // Create an instance of RelationshipData
+        // Given
         RelationshipData relationshipData = new RelationshipData();
-
-        // Set the outgoing status
-        relationshipData.setOutgoingStatus("Pending");
-
-        // Retrieve the outgoing status using the getOutgoingStatus() method
-        String outgoingStatus = relationshipData.getOutgoingStatus();
-
-        // Assert that the retrieved outgoing status is equal to the set outgoing status
-        assertEquals("Pending", outgoingStatus);
+        String expectedOutgoingStatus = "pending";
+        
+        // When
+        relationshipData.setOutgoingStatus(expectedOutgoingStatus);
+        String actualOutgoingStatus = relationshipData.getOutgoingStatus();
+        
+        // Then
+        assertEquals(expectedOutgoingStatus, actualOutgoingStatus);
     }
 
     @Test
     public void testGetIncomingStatus() {
-        // Create an instance of RelationshipData
+        // Given
         RelationshipData relationshipData = new RelationshipData();
-
-        // Set the incoming status
-        relationshipData.setIncomingStatus("Pending");
-
-        // Call the getIncomingStatus() method
-        String incomingStatus = relationshipData.getIncomingStatus();
-
-        // Assert that the returned incoming status is equal to the set incoming status
-        assertEquals("Pending", incomingStatus);
+        String expectedIncomingStatus = "pending";
+        
+        // When
+        relationshipData.setIncomingStatus(expectedIncomingStatus);
+        String actualIncomingStatus = relationshipData.getIncomingStatus();
+        
+        // Then
+        assertEquals(expectedIncomingStatus, actualIncomingStatus);
     }
 
     @Test
     public void testIsTargetUserPrivate() {
-        // Create an instance of RelationshipData
         RelationshipData relationshipData = new RelationshipData();
-
-        // Set the target user's privacy setting to private
+        
+        // Initially, the target user should not be private
+        assertFalse(relationshipData.isTargetUserPrivate());
+        
+        // Set the target user as private
         relationshipData.setTargetUserPrivate(true);
-
-        // Verify that the isTargetUserPrivate() method returns true
         assertTrue(relationshipData.isTargetUserPrivate());
-
-        // Set the target user's privacy setting to public
+        
+        // Set the target user as not private
         relationshipData.setTargetUserPrivate(false);
-
-        // Verify that the isTargetUserPrivate() method returns false
         assertFalse(relationshipData.isTargetUserPrivate());
     }
 
     @Test
     public void testSetIncomingStatus() {
-        // Create an instance of RelationshipData
+        // Given
         RelationshipData relationshipData = new RelationshipData();
+        String incomingStatus = "PENDING";
 
-        // Set the incoming status using the method under test
-        String incomingStatus = "pending";
+        // When
         relationshipData.setIncomingStatus(incomingStatus);
 
-        // Verify that the incoming status is set correctly
+        // Then
         assertEquals(incomingStatus, relationshipData.getIncomingStatus());
     }
 
     @Test
     public void testSetOutgoingStatus() {
-        // Create an instance of RelationshipData
+        // Given
         RelationshipData relationshipData = new RelationshipData();
+        String expectedOutgoingStatus = "FRIENDS";
 
-        // Set the outgoingStatus using the setOutgoingStatus method
-        String expectedOutgoingStatus = "New Status";
+        // When
         relationshipData.setOutgoingStatus(expectedOutgoingStatus);
 
-        // Verify that the outgoingStatus has been updated correctly
-        String actualOutgoingStatus = relationshipData.getOutgoingStatus();
-        assertEquals(expectedOutgoingStatus, actualOutgoingStatus);
+        // Then
+        assertEquals(expectedOutgoingStatus, relationshipData.getOutgoingStatus());
     }
 
 }

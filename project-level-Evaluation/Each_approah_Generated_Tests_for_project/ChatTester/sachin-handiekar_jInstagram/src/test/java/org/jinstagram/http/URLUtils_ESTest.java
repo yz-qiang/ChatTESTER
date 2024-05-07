@@ -5,24 +5,8 @@
  */
 package org.jinstagram.http;
 
-import java.util.Map;
-import java.util.HashMap;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import java.util.HashMap;
-import java.util.Map;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.http.URLUtils;
-import org.junit.runner.RunWith;
-
-import java.util.HashMap;
-import java.util.Map;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -33,8 +17,9 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jinstagram.http.URLUtils;
 import org.junit.runner.RunWith;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -46,8 +31,50 @@ import org.jinstagram.http.URLUtils;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import java.util.Map;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
 import java.util.HashMap;
 import java.util.Map;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.http.URLUtils;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.util.HashMap;
+import java.util.Map;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.util.HashMap;
+import java.util.Map;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.http.URLUtils;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import java.io.UnsupportedEncodingException;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.util.HashMap;
+import java.util.Map;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.http.URLUtils;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -63,140 +90,95 @@ import org.junit.runner.RunWith;
 public class URLUtils_ESTest extends URLUtils_ESTest_scaffolding {
 
     @Test
+    public void testEncodeURIComponent() {
+        String input = "Hello World!";
+        String expectedOutput = "Hello%20World%21";
+        String actualOutput = URLUtils.encodeURIComponent(input);
+       
+}
+
+    @Test
     public void testPercentEncode() {
-        // Test case 1: Empty string
-        String input1 = "";
-        String expected1 = "";
-        String result1 = URLUtils.percentEncode(input1);
-        assertEquals(expected1, result1);
-
-        // Test case 2: String with special characters
-        String input2 = "Hello World!";
-        String expected2 = "Hello%20World%21";
-        String result2 = URLUtils.percentEncode(input2);
-        assertEquals(expected2, result2);
-
-        // Test case 3: String with non-ASCII characters
-        String input3 = "こんにちは";
-        String expected3 = "%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF";
-        String result3 = URLUtils.percentEncode(input3);
-        assertEquals(expected3, result3);
-
-        // Test case 4: String with special characters and non-ASCII characters
-        String input4 = "Hello こんにちは!";
-        String expected4 = "Hello%20%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%21";
-        String result4 = URLUtils.percentEncode(input4);
-        assertEquals(expected4, result4);
+        String input = "Hello, World!";
+        String expectedOutput = "Hello%2C%20World%21"; // Expected output after URL encoding
+        
+        String actualOutput = URLUtils.percentEncode(input);
+        
+        assertEquals(expectedOutput, actualOutput);
     }
 
-@Test
-public void testAppendParametersToQueryString_withEmptyParams() {
-    String url = "https://example.com";
-    Map<String, String> params = new HashMap<String, String>();
+    @Test
+    public void testAppendParametersToQueryString() {
+        String url = "https://example.com/api";
 
-    String result = URLUtils.appendParametersToQueryString(url, params);
-    assertEquals("https://example.com", result);
-}
+        Map<String, String> params = new HashMap<String, String>();
+
+        params.put("param1", "value1");
+        params.put("param2", "value2");
+        String result = URLUtils.appendParametersToQueryString(url, params);
+        assert result.contains(url);
+        assert result.contains("param1=value1");
+        assert result.contains("param2=value2");
+        if (url.contains("?")) {
+            assert result.contains("&");
+        } else {
+            assert result.contains("?");
+        }
+    }
 
     @Test
     public void testQueryStringToMap() {
-        // Test case 1: queryString is null
-        String queryString1 = null;
-        Map<String, String> result1 = URLUtils.queryStringToMap(queryString1);
-        assertNotNull(result1);
-        assertTrue(result1.isEmpty());
+        // Given
+        String queryString = "key1=value1&key2=value2&key3=value3";
 
-        // Test case 2: queryString is empty
-        String queryString2 = "";
-        Map<String, String> result2 = URLUtils.queryStringToMap(queryString2);
-        assertNotNull(result2);
-        assertTrue(result2.isEmpty());
+        // When
+        Map<String, String> resultMap = URLUtils.queryStringToMap(queryString);
 
-        // Test case 3: queryString with single parameter
-        String queryString3 = "key1=value1";
-        Map<String, String> result3 = URLUtils.queryStringToMap(queryString3);
-        assertNotNull(result3);
-        assertEquals(1, result3.size());
-        assertEquals("value1", result3.get("key1"));
-
-        // Test case 4: queryString with multiple parameters
-        String queryString4 = "key1=value1&key2=value2&key3=value3";
-        Map<String, String> result4 = URLUtils.queryStringToMap(queryString4);
-        assertNotNull(result4);
-        assertEquals(3, result4.size());
-        assertEquals("value1", result4.get("key1"));
-        assertEquals("value2", result4.get("key2"));
-        assertEquals("value3", result4.get("key3"));
-
-        // Test case 5: queryString with encoded values
-        String queryString5 = "key1=value%201&key2=value%202";
-        Map<String, String> result5 = URLUtils.queryStringToMap(queryString5);
-        assertNotNull(result5);
-        assertEquals(2, result5.size());
-        assertEquals("value 1", result5.get("key1"));
-        assertEquals("value 2", result5.get("key2"));
+        // Then
+        assertEquals(3, resultMap.size());
+        assertEquals("value1", resultMap.get("key1"));
+        assertEquals("value2", resultMap.get("key2"));
+        assertEquals("value3", resultMap.get("key3"));
     }
-
-@Test
-public void testFormURLEncodeMap_withNonNullMap() {
-    Map<String, String> map = new HashMap<String, String>();
-
-    map.put("key1", "value1");
-    map.put("key2", "value2");
-    String result = URLUtils.formURLEncodeMap(map);
-    assertNotNull(result);
-    assertFalse(result.isEmpty());
-    assertTrue(result.contains("key1=value1"));
-    assertTrue(result.contains("key2=value2"));
-}
 
     @Test
     public void testFormURLDecode() {
-        String encodedString = "Hello%20World%21";
-        String expectedDecodedString = "Hello World!";
-        String decodedString = URLUtils.formURLDecode(encodedString);
-        assertEquals(expectedDecodedString, decodedString);
-    }
+        // Given
+        String encodedString = "Hello%20World";
 
-@Test(timeout = 4000)
-public void test00() throws Throwable {
-    // Undeclared exception!
-    try {
-        URLUtils.concatSortedPercentEncodedParams((Map<String, String>) null);
-        fail("Expecting exception: NullPointerException");
-    } catch (NullPointerException e) {
-        // 
-        // no message in exception (getMessage() returned null)
-        // 
-        verifyException("org.jinstagram.http.URLUtils", e);
+        // When
+        String decodedString = URLUtils.formURLDecode(encodedString);
+
+        // Then
+        assertNotNull(decodedString);
+        assertEquals("Hello World", decodedString);
     }
-}
 
     @Test
     public void testDecodeURIComponent() {
-        // Test case 1: Decoding a URL-encoded string
+        // Given
         String encodedString = "Hello%20World%21";
         String expectedDecodedString = "Hello World!";
+
+        // When
         String decodedString = URLUtils.decodeURIComponent(encodedString);
-        assertEquals(expectedDecodedString, decodedString);
 
-        // Test case 2: Decoding an empty string
-        encodedString = "";
-        expectedDecodedString = "";
-        decodedString = URLUtils.decodeURIComponent(encodedString);
+        // Then
         assertEquals(expectedDecodedString, decodedString);
+    }
 
-        // Test case 3: Decoding a string with special characters
-        encodedString = "%24%25%26%2B%2C%2F%3A%3B%3D%3F%40";
-        expectedDecodedString = "$%&+,/:;=?@";
-        decodedString = URLUtils.decodeURIComponent(encodedString);
-        assertEquals(expectedDecodedString, decodedString);
+    @Test
+    public void testFormURLEncode() {
+        // Given
+        String input = "Hello World";
+        String expectedOutput = "Hello+World";
 
-        // Test case 4: Decoding a string with non-URL-encoded characters
-        encodedString = "Hello World!";
-        expectedDecodedString = "Hello World!";
-        decodedString = URLUtils.decodeURIComponent(encodedString);
-        assertEquals(expectedDecodedString, decodedString);
+        // When
+        String actualOutput = URLUtils.formURLEncode(input);
+
+        // Then
+        assertNotNull(actualOutput);
+        assertEquals(expectedOutput, actualOutput);
     }
 
 }

@@ -5,11 +5,12 @@
  */
 package technology.tabula;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Test;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.RandomAccess;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -26,10 +27,10 @@ import org.junit.runner.RunWith;
 import technology.tabula.QuickSort;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -50,39 +51,49 @@ import technology.tabula.QuickSort;
 public class QuickSort_ESTest extends QuickSort_ESTest_scaffolding {
 
     @Test
-    public void testSort_2() {
+    public void testSort() {
         // Create a list of unsorted elements
-        List<Integer> unsortedList = new ArrayList<>(Arrays.asList(5, 2, 8, 1, 9));
+        List<Integer> unsortedList = new ArrayList<>();
+        unsortedList.add(5);
+        unsortedList.add(2);
+        unsortedList.add(8);
+        unsortedList.add(1);
+        unsortedList.add(3);
 
-        // Call the sort method to sort the list
+        // Sort the list using the QuickSort algorithm
         QuickSort.sort(unsortedList);
 
         // Create a list of expected sorted elements
-        List<Integer> expectedSortedList = new ArrayList<>(Arrays.asList(1, 2, 5, 8, 9));
+        List<Integer> expectedList = new ArrayList<>();
+        expectedList.add(1);
+        expectedList.add(2);
+        expectedList.add(3);
+        expectedList.add(5);
+        expectedList.add(8);
 
-        // Assert that the sorted list matches the expected sorted list
-        assertEquals(expectedSortedList, unsortedList);
+        // Assert that the list is sorted correctly
+        assertEquals(expectedList, unsortedList);
     }
 
     @Test
-    public void testSort() {
-        // Create a list of integers
-        List<Integer> list = new ArrayList<>();
-        list.add(5);
-        list.add(2);
-        list.add(8);
-        list.add(1);
-        list.add(9);
+    public void testSort2() {
+        // Create a list of unsorted elements
+        List<Integer> unsortedList = new ArrayList<>();
+        unsortedList.add(5);
+        unsortedList.add(2);
+        unsortedList.add(8);
+        unsortedList.add(1);
+        unsortedList.add(3);
 
-        // Create a comparator to sort in ascending order
-        Comparator<Integer> comparator = Comparator.naturalOrder();
+        // Define a comparator for sorting integers in ascending order
+        Comparator<Integer> ascendingComparator = Comparator.naturalOrder();
 
-        // Call the sort method
-        QuickSort.sort(list, comparator);
+        // Call the sort method to sort the list
+        QuickSort.sort(unsortedList, ascendingComparator);
 
-        // Check if the list is sorted
-        for (int i = 0; i < list.size() - 1; i++) {
-            assertTrue(comparator.compare(list.get(i), list.get(i + 1)) <= 0);
+        // Check if the list is sorted in ascending order
+        for (int i = 0; i < unsortedList.size() - 1; i++) {
+            assertTrue(unsortedList.get(i) <= unsortedList.get(i + 1));
         }
     }
 

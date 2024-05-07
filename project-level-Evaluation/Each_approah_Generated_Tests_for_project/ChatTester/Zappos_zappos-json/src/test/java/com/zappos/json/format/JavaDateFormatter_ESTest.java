@@ -5,8 +5,24 @@
  */
 package com.zappos.json.format;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.text.ParseException;
+import java.util.Date;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.util.MockDate;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -26,31 +42,25 @@ public class JavaDateFormatter_ESTest extends JavaDateFormatter_ESTest_scaffoldi
 
     @Test
     public void testNewInstance() {
-        JavaDateFormatter formatter = new JavaDateFormatter();
-        ValueFormatter<Date> newInstance = formatter.newInstance();
-        
-        assertNotNull(newInstance);
-        assertTrue(newInstance instanceof JavaDateFormatter);
+        JavaDateFormatter javaDateFormatter = new JavaDateFormatter();
+        ValueFormatter<Date> valueFormatter = javaDateFormatter.newInstance();
+
+        assertNotNull(valueFormatter);
+        assertTrue(valueFormatter instanceof JavaDateFormatter);
     }
 
     @Test
-    public void testCast() {
-        // Create an instance of the JavaDateFormatter class
-        JavaDateFormatter formatter = new JavaDateFormatter();
-
-        // Test case 1: Valid input object
-        Object obj1 = new Date();
-        Date result1 = formatter.cast(obj1);
-        assertEquals(obj1, result1);
-
-        // Test case 2: Invalid input object
-        Object obj2 = "2021-01-01";
-        try {
-            Date result2 = formatter.cast(obj2);
-            fail("Expected ClassCastException to be thrown");
-        } catch (ClassCastException e) {
-            // Exception is expected
-        }
+    public void testCast_ValidDateObject_ReturnsDateObject() {
+        // Given
+        JavaDateFormatter javaDateFormatter = new JavaDateFormatter();
+        Date inputDate = new Date();
+        
+        // When
+        Date result = javaDateFormatter.cast(inputDate);
+        
+        // Then
+        assertNotNull(result);
+        assertEquals(Date.class, result.getClass());
     }
 
 }

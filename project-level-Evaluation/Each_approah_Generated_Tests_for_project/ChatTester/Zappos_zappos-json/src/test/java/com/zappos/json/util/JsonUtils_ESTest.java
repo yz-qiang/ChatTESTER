@@ -5,13 +5,12 @@
  */
 package com.zappos.json.util;
 
-import java.io.IOException;
-import java.io.StringWriter;
-import java.io.Writer;
-import com.zappos.json.JsonConfig.WriterConfig;
-import com.zappos.json.ZapposJson;
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import java.io.StringWriter;
+import java.io.IOException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -29,11 +28,10 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import java.io.IOException;
-import java.io.StringWriter;
-import java.io.Writer;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -56,40 +54,24 @@ import org.junit.runner.RunWith;
 public class JsonUtils_ESTest extends JsonUtils_ESTest_scaffolding {
 
 @Test
-public void testEscape() throws IOException {
+public void testEscape() {
     ZapposJson zapposJson = ZapposJson.getInstance();
 
     CharSequence value = "Hello, \"World\"!";
-    StringWriter writer = new StringWriter();
-    JsonUtils.escape(zapposJson, value, writer);
-    String escapedValue = writer.toString();
-    assertEquals("Hello, \\\"World\\\"!", escapedValue);
+    String expectedOutput = "Hello, \\\"World\\\"!";
+    String escapedValue = JsonUtils.escape(zapposJson, value);
+    assertEquals(expectedOutput, escapedValue);
 }
 
 @Test
-public void testEscape_2() throws IOException {
+public void testUnescape() throws IOException {
     ZapposJson zapposJson = ZapposJson.getInstance();
 
+    CharSequence escapedValue = "This\\nis\\ta\\ttest\\nstring";
     StringWriter writer = new StringWriter();
-    CharSequence value = "Hello, \"World\"!";
-    JsonUtils.escape(zapposJson, value, writer);
-    assertEquals("Hello, \\\"World\\\"!", writer.toString());
-}
-
-@Test
-public void testUnescape() {
-    ZapposJson zapposJson = ZapposJson.getInstance("f[lX;J:ziZx\"");
-
-    CharSequence value = "Hello\\nWorld";
-    String expected = "Hello\nWorld";
-    StringWriter writer = new StringWriter();
-    try {
-        JsonUtils.unescape(zapposJson, value, writer);
-    } catch (IOException e) {
-        fail("IOException occurred");
-    }
-    String actual = writer.toString();
-    assertEquals(expected, actual);
+    JsonUtils.unescape(zapposJson, escapedValue, writer);
+    String unescapedResult = writer.toString();
+    assertEquals("This\nis\ta\ttest\nstring", unescapedResult);
 }
 
 }

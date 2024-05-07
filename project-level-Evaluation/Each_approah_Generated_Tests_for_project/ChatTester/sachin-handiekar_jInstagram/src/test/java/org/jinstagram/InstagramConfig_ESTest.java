@@ -6,6 +6,37 @@
 package org.jinstagram;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.InstagramConfig;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.InstagramConfig;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.InstagramConfig;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -20,218 +51,176 @@ public class InstagramConfig_ESTest extends InstagramConfig_ESTest_scaffolding {
 
     @Test
     public void testSetConnectionKeepAlive() {
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
         
-        // Test case 1: Set connectionKeepAlive to true
-        config.setConnectionKeepAlive(true);
-        assertTrue(config.isConnectionKeepAlive());
+        // Initially, connectionKeepAlive should be false
+        assertFalse(instagramConfig.isConnectionKeepAlive());
         
-        // Test case 2: Set connectionKeepAlive to false
-        config.setConnectionKeepAlive(false);
-        assertFalse(config.isConnectionKeepAlive());
+        // Set connectionKeepAlive to true
+        instagramConfig.setConnectionKeepAlive(true);
+        assertTrue(instagramConfig.isConnectionKeepAlive());
+        
+        // Set connectionKeepAlive back to false
+        instagramConfig.setConnectionKeepAlive(false);
+        assertFalse(instagramConfig.isConnectionKeepAlive());
     }
 
     @Test
     public void testSetConnectionTimeoutMills() {
-        InstagramConfig config = new InstagramConfig();
-        int connectionTimeoutMills = 5000;
-        
-        config.setConnectionTimeoutMills(connectionTimeoutMills);
-        
-        assertEquals(connectionTimeoutMills, config.getConnectionTimeoutMills());
+        InstagramConfig instagramConfig = new InstagramConfig();
+        int expectedTimeout = 5000; // Example timeout value
+
+        instagramConfig.setConnectionTimeoutMills(expectedTimeout);
+
+        int actualTimeout = instagramConfig.getConnectionTimeoutMills();
+
+        assertEquals(expectedTimeout, actualTimeout);
     }
 
-    @Test
-    public void testGetVersion() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+@Test
+public void testGetVersion() {
+    InstagramConfig instagramConfig = new InstagramConfig();
 
-        // Set the version
-        String version = "1.0";
-        config.setVersion(version);
+    String expectedVersion = instagramConfig.getVersion();
 
-        // Get the version using the getVersion() method
-        String retrievedVersion = config.getVersion();
-
-        // Assert that the retrieved version is equal to the set version
-        assertEquals(version, retrievedVersion);
-    }
+    String actualVersion = instagramConfig.getVersion();
+    assertEquals(expectedVersion, actualVersion);
+}
 
     @Test
     public void testSetVersion() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
-
-        // Set the base URI
-        config.setBaseURI("https://api.instagram.com");
-
-        // Set the version
+        InstagramConfig instagramConfig = new InstagramConfig();
+        String baseURI = "https://api.instagram.com";
         String version = "v1";
-        config.setVersion(version);
+        String expectedApiURL = baseURI + "/" + version;
 
-        // Verify that the version is set correctly
-        assertEquals(version, config.getVersion());
+        instagramConfig.setVersion(version);
 
-        // Verify that the API URL is updated accordingly
-        String expectedApiURL = "https://api.instagram.com/v1";
-        assertEquals(expectedApiURL, config.getApiURL());
+        assertEquals(expectedApiURL, instagramConfig.getApiURL());
     }
 
 @Test
 public void testGetApiURL() {
-    InstagramConfig config = new InstagramConfig();
-    String expectedApiURL = "https://api.instagram.com/null";
-    config.setVersion(null);
+    InstagramConfig instagramConfig = new InstagramConfig();
 
-    String actualApiURL = config.getApiURL();
+    String expectedApiURL = instagramConfig.getApiURL();
+
+    String actualApiURL = instagramConfig.getApiURL();
     assertEquals(expectedApiURL, actualApiURL);
 }
 
     @Test
     public void testSetRetryOnServerError() {
-        InstagramConfig config = new InstagramConfig();
-        
-        // Test initial value
-        assertFalse(config.isRetryOnServerError());
-        
-        // Test setting retryOnServerError to true
-        config.setRetryOnServerError(true);
-        assertTrue(config.isRetryOnServerError());
-        
-        // Test setting retryOnServerError to false
-        config.setRetryOnServerError(false);
-        assertFalse(config.isRetryOnServerError());
+        InstagramConfig instagramConfig = new InstagramConfig();
+        assertFalse(instagramConfig.isRetryOnServerError()); // Initial value should be false
+
+        instagramConfig.setRetryOnServerError(true);
+        assertTrue(instagramConfig.isRetryOnServerError());
+
+        instagramConfig.setRetryOnServerError(false);
+        assertFalse(instagramConfig.isRetryOnServerError());
     }
 
     @Test
     public void testSetBaseURI() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
-
-        // Set the base URI
+        InstagramConfig instagramConfig = new InstagramConfig();
         String baseURI = "https://api.instagram.com";
-        config.setBaseURI(baseURI);
+        String expectedApiURL = String.format("%s/%s", baseURI, instagramConfig.getVersion());
 
-        // Verify that the base URI is set correctly
-        assertEquals(baseURI, config.getBaseURI());
+        instagramConfig.setBaseURI(baseURI);
 
-        // Verify that the API URL is constructed correctly
-        String expectedApiURL = baseURI + "/" + config.getVersion();
-        assertEquals(expectedApiURL, config.getApiURL());
+        assertEquals(baseURI, instagramConfig.getBaseURI());
+        assertEquals(expectedApiURL, instagramConfig.getApiURL());
     }
 
     @Test
     public void testGetConnectionTimeoutMills() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
+        int expectedTimeout = 0; // Default value set in the constructor
 
-        // Set the connection timeout to a specific value
-        int expectedTimeout = 5000;
-        config.setConnectionTimeoutMills(expectedTimeout);
+        int actualTimeout = instagramConfig.getConnectionTimeoutMills();
 
-        // Retrieve the connection timeout using the getConnectionTimeoutMills() method
-        int actualTimeout = config.getConnectionTimeoutMills();
-
-        // Assert that the retrieved connection timeout matches the expected value
         assertEquals(expectedTimeout, actualTimeout);
     }
 
     @Test
     public void testIsConnectionKeepAlive() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
+        boolean initialConnectionKeepAlive = instagramConfig.isConnectionKeepAlive();
+        assertEquals(false, initialConnectionKeepAlive);
 
-        // Set the connectionKeepAlive field to true
-        config.setConnectionKeepAlive(true);
-
-        // Call the isConnectionKeepAlive method and assert that it returns true
-        assertTrue(config.isConnectionKeepAlive());
-
-        // Set the connectionKeepAlive field to false
-        config.setConnectionKeepAlive(false);
-
-        // Call the isConnectionKeepAlive method and assert that it returns false
-        assertFalse(config.isConnectionKeepAlive());
+        instagramConfig.setConnectionKeepAlive(true);
+        boolean updatedConnectionKeepAlive = instagramConfig.isConnectionKeepAlive();
+        assertEquals(true, updatedConnectionKeepAlive);
     }
 
     @Test
     public void testGetReadTimeoutMills() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
+        int expectedReadTimeout = 0; // Default value set in the constructor
 
-        // Set a value for readTimeoutMills
-        int expectedTimeout = 5000;
-        config.setReadTimeoutMills(expectedTimeout);
+        int actualReadTimeout = instagramConfig.getReadTimeoutMills();
 
-        // Call the getReadTimeoutMills() method
-        int actualTimeout = config.getReadTimeoutMills();
-
-        // Assert that the returned value matches the expected value
-        assertEquals(expectedTimeout, actualTimeout);
+        assertEquals(expectedReadTimeout, actualReadTimeout);
     }
 
     @Test
     public void testSetEnforceSignedRequest() {
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
         
-        // Test when enforceSignedRequest is set to true
-        config.setEnforceSignedRequest(true);
-        assertTrue(config.isEnforceSignedRequest());
+        // Initially enforceSignedRequest should be false
+        assertFalse(instagramConfig.isEnforceSignedRequest());
         
-        // Test when enforceSignedRequest is set to false
-        config.setEnforceSignedRequest(false);
-        assertFalse(config.isEnforceSignedRequest());
+        // Set enforceSignedRequest to true
+        instagramConfig.setEnforceSignedRequest(true);
+        assertTrue(instagramConfig.isEnforceSignedRequest());
+        
+        // Set enforceSignedRequest back to false
+        instagramConfig.setEnforceSignedRequest(false);
+        assertFalse(instagramConfig.isEnforceSignedRequest());
     }
 
     @Test
     public void testIsEnforceSignedRequest() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+        InstagramConfig instagramConfig = new InstagramConfig();
+        boolean initialEnforceSignedRequest = instagramConfig.isEnforceSignedRequest();
+        assertEquals(false, initialEnforceSignedRequest);
 
-        // Set the value of enforceSignedRequest to true
-        config.setEnforceSignedRequest(true);
-
-        // Call the isEnforceSignedRequest method and assert that it returns true
-        assertTrue(config.isEnforceSignedRequest());
-
-        // Set the value of enforceSignedRequest to false
-        config.setEnforceSignedRequest(false);
-
-        // Call the isEnforceSignedRequest method and assert that it returns false
-        assertFalse(config.isEnforceSignedRequest());
+        instagramConfig.setEnforceSignedRequest(true);
+        boolean updatedEnforceSignedRequest = instagramConfig.isEnforceSignedRequest();
+        assertEquals(true, updatedEnforceSignedRequest);
     }
 
-    @Test
-    public void testGetBaseURI() {
-        // Create an instance of InstagramConfig
-        InstagramConfig config = new InstagramConfig();
+@Test
+public void testGetBaseURI() {
+    InstagramConfig instagramConfig = new InstagramConfig();
 
-        // Set the base URI
-        String expectedBaseURI = "https://www.example.com";
-        config.setBaseURI(expectedBaseURI);
+    String expectedBaseURI = instagramConfig.getBaseURI();
 
-        // Retrieve the base URI using getBaseURI()
-        String actualBaseURI = config.getBaseURI();
-
-        // Assert that the retrieved base URI matches the expected base URI
-        assertEquals(expectedBaseURI, actualBaseURI);
-    }
+    String actualBaseURI = instagramConfig.getBaseURI();
+    assertEquals(expectedBaseURI, actualBaseURI);
+}
 
     @Test
     public void testSetReadTimeoutMills() {
-        InstagramConfig config = new InstagramConfig();
-        int readTimeoutMills = 5000;
-        
-        config.setReadTimeoutMills(readTimeoutMills);
-        
-        assertEquals(readTimeoutMills, config.getReadTimeoutMills());
+        InstagramConfig instagramConfig = new InstagramConfig();
+        int expectedReadTimeout = 5000; // Example read timeout value in milliseconds
+
+        instagramConfig.setReadTimeoutMills(expectedReadTimeout);
+
+        int actualReadTimeout = instagramConfig.getReadTimeoutMills();
+        assertEquals(expectedReadTimeout, actualReadTimeout);
     }
 
     @Test
     public void testIsRetryOnServerError() {
-        InstagramConfig config = new InstagramConfig();
-        boolean retryOnServerError = config.isRetryOnServerError();
-        assertFalse(retryOnServerError);
+        InstagramConfig instagramConfig = new InstagramConfig();
+        boolean initialRetryOnServerError = instagramConfig.isRetryOnServerError();
+        assertEquals(false, initialRetryOnServerError);
+
+        instagramConfig.setRetryOnServerError(true);
+        boolean updatedRetryOnServerError = instagramConfig.isRetryOnServerError();
+        assertEquals(true, updatedRetryOnServerError);
     }
 
 }

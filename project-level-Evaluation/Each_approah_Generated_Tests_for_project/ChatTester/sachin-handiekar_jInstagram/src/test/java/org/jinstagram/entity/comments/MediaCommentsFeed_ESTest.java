@@ -5,23 +5,7 @@
  */
 package org.jinstagram.entity.comments;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.comments.CommentData;
-import org.jinstagram.entity.comments.MediaCommentsFeed;
-import org.jinstagram.entity.common.Meta;
-import org.junit.runner.RunWith;
-
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -33,9 +17,7 @@ import org.jinstagram.entity.comments.MediaCommentsFeed;
 import org.jinstagram.entity.common.Meta;
 import org.junit.runner.RunWith;
 
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -47,9 +29,10 @@ import org.jinstagram.entity.comments.MediaCommentsFeed;
 import org.jinstagram.entity.common.Meta;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -65,80 +48,52 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class MediaCommentsFeed_ESTest extends MediaCommentsFeed_ESTest_scaffolding {
 
-@Test
-public void testGetCommentDataList() {
-    MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
-
-    List<CommentData> commentDataList = new LinkedList<CommentData>();
-
-    CommentData commentData1 = new CommentData();
-    CommentData commentData2 = new CommentData();
-    commentDataList.add(commentData1);
-    commentDataList.add(commentData2);
-    mediaCommentsFeed.setCommentDataList(commentDataList);
-    List<CommentData> retrievedCommentDataList = mediaCommentsFeed.getCommentDataList();
-    assertEquals(commentDataList, retrievedCommentDataList);
-}
-
     @Test
     public void testGetMeta() {
-        // Create a MediaCommentsFeed object
+        // Given
         MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
-
-        // Create a Meta object
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("None");
-
-        // Set the Meta object in the MediaCommentsFeed object
         mediaCommentsFeed.setMeta(expectedMeta);
 
-        // Call the getMeta() method
+        // When
         Meta actualMeta = mediaCommentsFeed.getMeta();
 
-        // Assert that the returned Meta object is equal to the expected Meta object
-        assertEquals(expectedMeta, actualMeta);
+        // Then
+        assertNotNull(actualMeta);
+        // Add more assertions as needed based on the Meta object properties
     }
 
 @Test
 public void testSetCommentDataList() {
     MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
 
-    List<CommentData> commentDataList = new ArrayList<CommentData>();
+    List<CommentData> newCommentDataList = new LinkedList<CommentData>();
 
-    CommentData commentData1 = new CommentData();
-    CommentData commentData2 = new CommentData();
-    commentDataList.add(commentData1);
-    commentDataList.add(commentData2);
-    mediaCommentsFeed.setCommentDataList(commentDataList);
-    assertEquals(commentDataList, mediaCommentsFeed.getCommentDataList());
-}
-
-@Test
-public void testToString() {
-    MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
-    mediaCommentsFeed.setCommentDataList(null);
-    mediaCommentsFeed.setMeta(null);
-    
-    String expected = "MediaCommentsFeed [commentDataList=null, meta=null]";
-    String actual = mediaCommentsFeed.toString();
-    
-    assertEquals(expected, actual);
+    CommentData comment1 = new CommentData();
+    CommentData comment2 = new CommentData();
+    newCommentDataList.add(comment1);
+    newCommentDataList.add(comment2);
+    mediaCommentsFeed.setCommentDataList(newCommentDataList);
+    List<CommentData> updatedCommentDataList = mediaCommentsFeed.getCommentDataList();
+    assertNotNull(updatedCommentDataList);
+    assertEquals(newCommentDataList.size(), updatedCommentDataList.size());
 }
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of MediaCommentsFeed
+        // Given
         MediaCommentsFeed mediaCommentsFeed = new MediaCommentsFeed();
-
-        // Create a new instance of Meta
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
+        meta.setCode(200);
+        meta.setErrorType("No Error");
+        
+        // When
         mediaCommentsFeed.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, mediaCommentsFeed.getMeta());
+        
+        // Then
+        Meta updatedMeta = mediaCommentsFeed.getMeta();
+        assertEquals(200, updatedMeta.getCode());
+        assertEquals("No Error", updatedMeta.getErrorType());
     }
 
 }

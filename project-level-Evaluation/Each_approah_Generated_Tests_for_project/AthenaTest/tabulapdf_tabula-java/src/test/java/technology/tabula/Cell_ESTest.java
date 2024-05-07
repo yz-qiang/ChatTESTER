@@ -36,6 +36,13 @@ public class Cell_ESTest extends Cell_ESTest_scaffolding {
     
     
     @Test 
+    public void testGetText_2() throws Exception {
+    Cell cell = new Cell(0, 0, 0, 0);
+    assertEquals("", cell.getText());
+    }
+    
+    
+    @Test 
     public void testSetPlaceholder() { 
     Cell cell = new Cell(0, 0, 0, 0);
     cell.setPlaceholder(true);

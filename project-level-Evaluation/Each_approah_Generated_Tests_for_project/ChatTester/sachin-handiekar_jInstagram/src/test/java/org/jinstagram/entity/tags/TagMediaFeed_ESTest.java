@@ -6,7 +6,7 @@
 package org.jinstagram.entity.tags;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -19,9 +19,13 @@ import org.jinstagram.entity.tags.TagMediaFeed;
 import org.jinstagram.entity.users.feed.MediaFeedData;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.jinstagram.entity.tags.TagMediaFeed;
+import org.jinstagram.entity.users.feed.MediaFeedData;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -34,9 +38,10 @@ import org.jinstagram.entity.tags.TagMediaFeed;
 import org.jinstagram.entity.users.feed.MediaFeedData;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Pagination;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -49,6 +54,8 @@ import org.jinstagram.entity.tags.TagMediaFeed;
 import org.jinstagram.entity.users.feed.MediaFeedData;
 import org.junit.runner.RunWith;
 
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -67,84 +74,69 @@ public class TagMediaFeed_ESTest extends TagMediaFeed_ESTest_scaffolding {
 
     @Test
     public void testGetPagination() {
-        // Create a new instance of TagMediaFeed
         TagMediaFeed tagMediaFeed = new TagMediaFeed();
-
-        // Create a new instance of Pagination
         Pagination pagination = new Pagination();
-
-        // Set the pagination object to the tagMediaFeed instance
         tagMediaFeed.setPagination(pagination);
 
-        // Call the getPagination() method
-        Pagination result = tagMediaFeed.getPagination();
+        Pagination retrievedPagination = tagMediaFeed.getPagination();
 
-        // Assert that the returned pagination object is the same as the one set
-        assertEquals(pagination, result);
+        assertNotNull(retrievedPagination);
     }
 
     @Test
     public void testGetMeta() {
-        // Create a TagMediaFeed object
         TagMediaFeed tagMediaFeed = new TagMediaFeed();
+        Meta meta = new Meta();
+        tagMediaFeed.setMeta(meta);
 
-        // Create a Meta object
-        Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
+        Meta retrievedMeta = tagMediaFeed.getMeta();
 
-        // Set the Meta object in the TagMediaFeed object
-        tagMediaFeed.setMeta(expectedMeta);
-
-        // Call the getMeta() method
-        Meta actualMeta = tagMediaFeed.getMeta();
-
-        // Assert that the returned Meta object is equal to the expected Meta object
-        assertEquals(expectedMeta, actualMeta);
+        assertNotNull(retrievedMeta);
     }
+
+@Test
+public void testSetData() {
+    TagMediaFeed tagMediaFeed = new TagMediaFeed();
+
+    List<MediaFeedData> testData = new LinkedList<MediaFeedData>();
+
+    MediaFeedData mediaFeedData1 = new MediaFeedData();
+    MediaFeedData mediaFeedData2 = new MediaFeedData();
+    testData.add(mediaFeedData1);
+    testData.add(mediaFeedData2);
+    tagMediaFeed.setData(testData);
+    List<MediaFeedData> retrievedData = tagMediaFeed.getData();
+    assertEquals("Data field should contain 2 MediaFeedData objects", 2, retrievedData.size());
+    assertTrue("Data field should contain mediaFeedData1", retrievedData.contains(mediaFeedData1));
+    assertTrue("Data field should contain mediaFeedData2", retrievedData.contains(mediaFeedData2));
+}
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of TagMediaFeed
+        // Given
         TagMediaFeed tagMediaFeed = new TagMediaFeed();
-
-        // Create a new instance of Meta
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
+        
+        // When
         tagMediaFeed.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
+        
+        // Then
         assertEquals(meta, tagMediaFeed.getMeta());
     }
-
-@Test(timeout = 4000)
-public void testToString() throws Throwable {
-    // Create a new instance of TagMediaFeed
-    TagMediaFeed tagMediaFeed = new TagMediaFeed();
-
-    // Call the toString() method
-    String result = tagMediaFeed.toString();
-
-    // Create the expected string representation
-    String expected = "TagMediaFeed [data=null, meta=null, pagination=null]";
-
-    // Assert that the result matches the expected string
-    assertEquals(expected, result);
-}
 
 @Test
 public void testGetData() {
     TagMediaFeed tagMediaFeed = new TagMediaFeed();
+    MediaFeedData media1 = new MediaFeedData();
+    MediaFeedData media2 = new MediaFeedData();
 
-    List<MediaFeedData> expectedData = new LinkedList<MediaFeedData>();
+    tagMediaFeed.setData(new LinkedList<MediaFeedData>());
 
-    expectedData.add(new MediaFeedData());
-    expectedData.add(new MediaFeedData());
-    expectedData.add(new MediaFeedData());
-    tagMediaFeed.setData(expectedData);
-    List<MediaFeedData> actualData = tagMediaFeed.getData();
-    assertEquals(expectedData, actualData);
+    tagMediaFeed.getData().add(media1);
+    tagMediaFeed.getData().add(media2);
+    List<MediaFeedData> retrievedData = tagMediaFeed.getData();
+    assertNotNull(retrievedData);
+    assertEquals(2, retrievedData.size());
 }
 
 }

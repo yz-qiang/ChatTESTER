@@ -6,7 +6,7 @@
 package org.jinstagram.realtime;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,143 +20,112 @@ public class SubscriptionResponseObject_ESTest extends SubscriptionResponseObjec
 
     @Test
     public void testSetChangedAspect() {
-        // Create an instance of SubscriptionResponseObject
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
-
-        // Set the initial value of changedAspect
-        response.setChangedAspect("initialValue");
-
-        // Verify that the initial value is set correctly
-        assertEquals("initialValue", response.getChangedAspect());
-
-        // Set a new value for changedAspect
-        response.setChangedAspect("newValue");
-
-        // Verify that the new value is set correctly
-        assertEquals("newValue", response.getChangedAspect());
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String changedAspect = "testAspect";
+        
+        subscriptionResponseObject.setChangedAspect(changedAspect);
+        
+        assertEquals(changedAspect, subscriptionResponseObject.getChangedAspect());
     }
 
     @Test
     public void testSetSubscriptionId() {
-        // Create a new instance of SubscriptionResponseObject
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        // Given
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String subscriptionId = "12345";
 
-        // Set the subscription ID using the setSubscriptionId method
-        String subscriptionId = "123456";
-        response.setSubscriptionId(subscriptionId);
+        // When
+        subscriptionResponseObject.setSubscriptionId(subscriptionId);
 
-        // Verify that the subscription ID is set correctly
-        assertEquals(subscriptionId, response.getSubscriptionId());
+        // Then
+        assertEquals(subscriptionId, subscriptionResponseObject.getSubscriptionId());
     }
 
     @Test
     public void testGetEpochTime() {
-        // Create a SubscriptionResponseObject instance
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        long expectedEpochTime = 123456789L;
+        subscriptionResponseObject.setEpochTime(expectedEpochTime);
 
-        // Set a sample epoch time
-        long expectedEpochTime = 1625097600;
-        response.setEpochTime(expectedEpochTime);
+        long actualEpochTime = subscriptionResponseObject.getEpochTime();
 
-        // Call the getEpochTime() method
-        long actualEpochTime = response.getEpochTime();
-
-        // Assert that the returned epoch time matches the expected value
         assertEquals(expectedEpochTime, actualEpochTime);
     }
 
     @Test
     public void testGetObjectId() {
-        // Create a SubscriptionResponseObject instance
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String expectedObjectId = "testObjectId";
+        subscriptionResponseObject.setObjectId(expectedObjectId);
 
-        // Set a value for the objectId variable
-        String expectedObjectId = "12345";
-        response.setObjectId(expectedObjectId);
+        String actualObjectId = subscriptionResponseObject.getObjectId();
 
-        // Call the getObjectId() method and assert the returned value
-        String actualObjectId = response.getObjectId();
         assertEquals(expectedObjectId, actualObjectId);
     }
 
     @Test
     public void testSetObjectId() {
-        // Create an instance of SubscriptionResponseObject
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        // Given
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String expectedObjectId = "12345";
 
-        // Set the objectId using the setObjectId method
-        String objectId = "12345";
-        response.setObjectId(objectId);
+        // When
+        subscriptionResponseObject.setObjectId(expectedObjectId);
 
-        // Verify that the objectId property has been set correctly
-        assertEquals(objectId, response.getObjectId());
+        // Then
+        assertEquals(expectedObjectId, subscriptionResponseObject.getObjectId());
     }
 
     @Test
     public void testSetObject() {
-        // Create an instance of SubscriptionResponseObject
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
-
-        // Set the object value using the setObject method
-        String expectedObject = "Test Object";
-        response.setObject(expectedObject);
-
-        // Verify that the object value is set correctly
-        String actualObject = response.getObject();
-        assertEquals(expectedObject, actualObject);
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String expectedObject = "testObject";
+        
+        subscriptionResponseObject.setObject(expectedObject);
+        
+        assertEquals(expectedObject, subscriptionResponseObject.getObject());
     }
 
     @Test
     public void testGetSubscriptionId() {
-        // Create a SubscriptionResponseObject instance
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String expectedSubscriptionId = "testSubscriptionId";
+        subscriptionResponseObject.setSubscriptionId(expectedSubscriptionId);
 
-        // Set the subscription ID using the setter method
-        response.setSubscriptionId("12345");
+        String actualSubscriptionId = subscriptionResponseObject.getSubscriptionId();
 
-        // Retrieve the subscription ID using the getter method
-        String subscriptionId = response.getSubscriptionId();
-
-        // Assert that the retrieved subscription ID matches the expected value
-        assertEquals("12345", subscriptionId);
+        assertEquals(expectedSubscriptionId, actualSubscriptionId);
     }
 
     @Test
     public void testGetObject() {
-        // Create an instance of SubscriptionResponseObject
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        subscriptionResponseObject.setObject("testObject");
 
-        // Set a value for the object variable
-        String expected = "Test Object";
-        response.setObject(expected);
+        String result = subscriptionResponseObject.getObject();
 
-        // Call the getObject() method and assert the returned value
-        String actual = response.getObject();
-        assertEquals(expected, actual);
+        assertEquals("testObject", result);
     }
 
     @Test
     public void testSetEpochTime() {
-        SubscriptionResponseObject obj = new SubscriptionResponseObject();
-        long epochTime = 1625097600; // Example epoch time value
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        long expectedEpochTime = 123456789L;
         
-        obj.setEpochTime(epochTime);
+        subscriptionResponseObject.setEpochTime(expectedEpochTime);
         
-        assertEquals(epochTime, obj.getEpochTime());
+        assertEquals(expectedEpochTime, subscriptionResponseObject.getEpochTime());
     }
 
     @Test
     public void testGetChangedAspect() {
-        // Create a SubscriptionResponseObject instance
-        SubscriptionResponseObject response = new SubscriptionResponseObject();
+        SubscriptionResponseObject subscriptionResponseObject = new SubscriptionResponseObject();
+        String expectedChangedAspect = "testAspect";
+        subscriptionResponseObject.setChangedAspect(expectedChangedAspect);
 
-        // Set a value for the changedAspect variable
-        String expected = "aspect";
-        response.setChangedAspect(expected);
+        String actualChangedAspect = subscriptionResponseObject.getChangedAspect();
 
-        // Call the getChangedAspect() method and assert the returned value
-        String actual = response.getChangedAspect();
-        assertEquals(expected, actual);
+        assertEquals(expectedChangedAspect, actualChangedAspect);
     }
 
 }

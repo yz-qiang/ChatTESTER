@@ -73,4 +73,12 @@ public class Table_ESTest extends Table_ESTest_scaffolding {
     assertEquals(1, table.getPageNumber());
     }
     
+    
+    @Test 
+    public void testGetCell() { 
+    Table table = Table.empty();
+    RectangularTextContainer cell = table.getCell(0, 0);
+    assertEquals(TextChunk.EMPTY, cell);
+    }
+    
 }

@@ -6,7 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -15,9 +15,9 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jinstagram.entity.common.Pagination;
 import org.junit.runner.RunWith;
 
-import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.mockito.Mockito;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -34,7 +34,6 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     public void testSetNextCursor() {
         Pagination pagination = new Pagination();
         String nextCursor = "12345";
-        
         pagination.setNextCursor(nextCursor);
         
         assertEquals(nextCursor, pagination.getNextCursor());
@@ -43,9 +42,9 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     @Test
     public void testGetNextMinId() {
         Pagination pagination = new Pagination();
-        String expected = "12345";
-        pagination.setNextMinId(expected);
+        pagination.setNextMinId("12345");
         
+        String expected = "12345";
         String actual = pagination.getNextMinId();
         
         assertEquals(expected, actual);
@@ -54,9 +53,9 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     @Test
     public void testGetNextUrl() {
         Pagination pagination = new Pagination();
-        String expectedUrl = "https://example.com/next";
-        pagination.setNextUrl(expectedUrl);
+        pagination.setNextUrl("https://example.com/nextPage");
 
+        String expectedUrl = "https://example.com/nextPage";
         String actualUrl = pagination.getNextUrl();
 
         assertEquals(expectedUrl, actualUrl);
@@ -65,66 +64,62 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     @Test
     public void testSetDepreciationWarning() {
         Pagination pagination = new Pagination();
-        String depreciationWarning = "This object is deprecated.";
+        String expectedDepreciationWarning = "This is a deprecation warning message.";
 
-        pagination.setDepreciationWarning(depreciationWarning);
+        pagination.setDepreciationWarning(expectedDepreciationWarning);
 
-        assertEquals(depreciationWarning, pagination.getDepreciationWarning());
+        assertEquals(expectedDepreciationWarning, pagination.getDepreciationWarning());
     }
 
     @Test
     public void testGetNextCursor() {
+        // Given
         Pagination pagination = new Pagination();
-        String expectedNextCursor = "12345";
-        pagination.setNextCursor(expectedNextCursor);
+        pagination.setNextCursor("testCursor");
 
-        String actualNextCursor = pagination.getNextCursor();
+        // When
+        String result = pagination.getNextCursor();
 
-        assertEquals(expectedNextCursor, actualNextCursor);
+        // Then
+        assertEquals("testCursor", result);
     }
 
     @Test
     public void testGetMinTagId() {
         Pagination pagination = new Pagination();
-        String expected = "12345";
-        pagination.setMinTagId(expected);
-        
+        pagination.setMinTagId("testMinTagId");
+
+        String expected = "testMinTagId";
         String actual = pagination.getMinTagId();
-        
+
         assertEquals(expected, actual);
     }
 
     @Test
     public void testSetMinTagId() {
         Pagination pagination = new Pagination();
-        String minTagId = "12345";
-        
+        String minTagId = "testMinTagId";
         pagination.setMinTagId(minTagId);
         
         assertEquals(minTagId, pagination.getMinTagId());
     }
 
     @Test
-    public void testHasNextPage_WhenNextUrlIsNotBlank_ReturnsTrue() {
-        // Arrange
+    public void testHasNextPage() {
         Pagination pagination = new Pagination();
-        pagination.setNextUrl("https://example.com/nextPage");
+        pagination.setNextUrl("https://example.com/nextpage");
 
-        // Act
-        boolean result = pagination.hasNextPage();
-
-        // Assert
-        assertTrue(result);
+        assertTrue(pagination.hasNextPage());
     }
 
     @Test
     public void testGetNextMaxId() {
         Pagination pagination = new Pagination();
+        pagination.setNextMaxId("12345");
+
         String expected = "12345";
-        pagination.setNextMaxId(expected);
-        
         String actual = pagination.getNextMaxId();
-        
+
         assertEquals(expected, actual);
     }
 
@@ -132,22 +127,18 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     public void testSetNextUrl() {
         Pagination pagination = new Pagination();
         String nextUrl = "https://example.com/next";
-
+        
         pagination.setNextUrl(nextUrl);
-
+        
         assertEquals(nextUrl, pagination.getNextUrl());
     }
 
     @Test
     public void testSetNextMaxTagId() {
-        // Create an instance of Pagination
         Pagination pagination = new Pagination();
-
-        // Set the nextMaxTagId using the provided input string
-        String nextMaxTagId = "12345";
+        String nextMaxTagId = "testNextMaxTagId";
         pagination.setNextMaxTagId(nextMaxTagId);
-
-        // Verify that the nextMaxTagId has been set correctly
+        
         assertEquals(nextMaxTagId, pagination.getNextMaxTagId());
     }
 
@@ -155,7 +146,6 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     public void testSetNextMinId() {
         Pagination pagination = new Pagination();
         String nextMinId = "12345";
-        
         pagination.setNextMinId(nextMinId);
         
         assertEquals(nextMinId, pagination.getNextMinId());
@@ -164,40 +154,35 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     @Test
     public void testGetNextMaxTagId() {
         Pagination pagination = new Pagination();
-        String expected = "12345";
-        pagination.setNextMaxTagId(expected);
-        
-        String actual = pagination.getNextMaxTagId();
-        
-        assertEquals(expected, actual);
+        pagination.setNextMaxTagId("testNextMaxTagId");
+
+        String result = pagination.getNextMaxTagId();
+
+        assertEquals("testNextMaxTagId", result);
     }
 
     @Test
     public void testGetDepreciationWarning() {
         Pagination pagination = new Pagination();
-        String expectedWarning = "This asset is deprecated.";
+        String expectedDepreciationWarning = "Sample Depreciation Warning";
+        pagination.setDepreciationWarning(expectedDepreciationWarning);
 
-        // Set the depreciation warning
-        pagination.setDepreciationWarning(expectedWarning);
+        String actualDepreciationWarning = pagination.getDepreciationWarning();
 
-        // Retrieve the depreciation warning using the getDepreciationWarning() method
-        String actualWarning = pagination.getDepreciationWarning();
-
-        // Assert that the retrieved warning matches the expected warning
-        assertEquals(expectedWarning, actualWarning);
+        assertEquals(expectedDepreciationWarning, actualDepreciationWarning);
     }
 
     @Test
     public void testToString() {
         Pagination pagination = new Pagination();
-        pagination.setDepreciationWarning("This is a depreciation warning");
-        pagination.setMinTagId("123456");
-        pagination.setNextMaxId("789012");
-        pagination.setNextMaxTagId("345678");
-        pagination.setNextMinId("901234");
-        pagination.setNextUrl("https://example.com");
+        pagination.setDepreciationWarning("Test Depreciation Warning");
+        pagination.setMinTagId("Test Min Tag Id");
+        pagination.setNextMaxId("Test Next Max Id");
+        pagination.setNextMaxTagId("Test Next Max Tag Id");
+        pagination.setNextMinId("Test Next Min Id");
+        pagination.setNextUrl("Test Next Url");
 
-        String expected = "Pagination [depreciationWarning=This is a depreciation warning, minTagId=123456, nextMaxId=789012, nextMaxTagId=345678, nextMinId=901234, nextUrl=https://example.com]";
+        String expected = "Pagination [depreciationWarning=Test Depreciation Warning, minTagId=Test Min Tag Id, nextMaxId=Test Next Max Id, nextMaxTagId=Test Next Max Tag Id, nextMinId=Test Next Min Id, nextUrl=Test Next Url]";
         String actual = pagination.toString();
 
         assertEquals(expected, actual);
@@ -207,7 +192,6 @@ public class Pagination_ESTest extends Pagination_ESTest_scaffolding {
     public void testSetNextMaxId() {
         Pagination pagination = new Pagination();
         String nextMaxId = "12345";
-        
         pagination.setNextMaxId(nextMaxId);
         
         assertEquals(nextMaxId, pagination.getNextMaxId());

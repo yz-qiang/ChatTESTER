@@ -6,7 +6,9 @@
 package technology.tabula;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.awt.geom.Line2D;
+import java.awt.geom.Rectangle2D;
+import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -21,15 +23,15 @@ import technology.tabula.CohenSutherlandClipping;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class CohenSutherlandClipping_ESTest extends CohenSutherlandClipping_ESTest_scaffolding {
 
-@Test
-public void testIsInTheSameRegionAs() {
-    CohenSutherlandClipping cohenSutherlandClipping = new CohenSutherlandClipping();
-    CohenSutherlandClipping.Point point1 = cohenSutherlandClipping.new Point(0, 0);
-    CohenSutherlandClipping.Point point2 = cohenSutherlandClipping.new Point(0, 0);
-    assertTrue(point1.isInTheSameRegionAs(point2));
-    CohenSutherlandClipping.Point point3 = cohenSutherlandClipping.new Point(0, 0);
-    CohenSutherlandClipping.Point point4 = cohenSutherlandClipping.new Point(0, 0);
-    assertTrue(point3.isInTheSameRegionAs(point4));
-}
+    @Test
+    public void testClipMethod() {
+        CohenSutherlandClipping clipping = new CohenSutherlandClipping(new Rectangle2D.Double(0, 0, 100, 100));
+        Line2D.Float line = new Line2D.Float(10, 10, 90, 90);
+        
+        boolean result = clipping.clip(line);
+        
+        assertTrue(result);
+        // Add additional assertions based on the expected behavior of the clip method
+    }
 
 }

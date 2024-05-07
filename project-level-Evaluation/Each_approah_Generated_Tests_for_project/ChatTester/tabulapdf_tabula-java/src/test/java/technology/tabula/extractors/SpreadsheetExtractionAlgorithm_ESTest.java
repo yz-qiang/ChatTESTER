@@ -5,12 +5,13 @@
  */
 package technology.tabula.extractors;
 
-import java.awt.geom.Point2D;
-//import java.awt.Rectangle;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import technology.tabula.Rectangle;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -29,25 +30,23 @@ import technology.tabula.extractors.SpreadsheetExtractionAlgorithm;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class SpreadsheetExtractionAlgorithm_ESTest extends SpreadsheetExtractionAlgorithm_ESTest_scaffolding {
 
-    @Test
-    public void testFindSpreadsheetsFromCells() {
-        // Create test data
-        List<Rectangle> cells = new ArrayList<>();
-        cells.add(new Rectangle(0, 0, 10, 10));
-        cells.add(new Rectangle(10, 0, 10, 10));
-        cells.add(new Rectangle(0, 10, 10, 10));
-        cells.add(new Rectangle(10, 10, 10, 10));
-
-        // Call the method under test
-        List<Rectangle> result = SpreadsheetExtractionAlgorithm.findSpreadsheetsFromCells(cells);
-
-        // Assert the result
-        assertEquals(1, result.size());
-        Rectangle spreadsheet = result.get(0);
-        assertEquals(0, spreadsheet.getTop(), 0.001);
-        assertEquals(0, spreadsheet.getLeft(), 0.001);
-        assertEquals(20, spreadsheet.getWidth(), 0.001);
-        assertEquals(20, spreadsheet.getHeight(), 0.001);
-    }
+@Test
+public void testFindSpreadsheetsFromCells() {
+    List<Rectangle> cells = new ArrayList<>();
+    cells.add(new Rectangle(0, 0, 10, 10));
+    cells.add(new Rectangle(15, 15, 25, 25));
+    List<Rectangle> result = SpreadsheetExtractionAlgorithm.findSpreadsheetsFromCells(cells);
+    assertEquals(2, result.size());
+    Rectangle firstRectangle = result.get(0);
+    assertEquals(0, firstRectangle.getTop(), 0.001);
+    assertEquals(0, firstRectangle.getLeft(), 0.001);
+    assertEquals(10, firstRectangle.getWidth(), 0.001);
+    assertEquals(10, firstRectangle.getHeight(), 0.001);
+    Rectangle secondRectangle = result.get(1);
+    assertEquals(15, secondRectangle.getTop(), 0.001);
+    assertEquals(15, secondRectangle.getLeft(), 0.001);
+    assertEquals(25, secondRectangle.getWidth(), 0.001);
+    assertEquals(25, secondRectangle.getHeight(), 0.001);
+}
 
 }

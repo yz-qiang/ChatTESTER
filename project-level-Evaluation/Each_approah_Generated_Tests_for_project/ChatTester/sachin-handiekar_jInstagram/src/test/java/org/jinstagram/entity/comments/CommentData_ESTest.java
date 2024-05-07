@@ -6,7 +6,7 @@
 package org.jinstagram.entity.comments;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -15,9 +15,18 @@ import org.jinstagram.entity.comments.CommentData;
 import org.jinstagram.entity.common.FromTagData;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.FromTagData;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.comments.CommentData;
+import org.jinstagram.entity.common.FromTagData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -32,114 +41,106 @@ public class CommentData_ESTest extends CommentData_ESTest_scaffolding {
 
     @Test
     public void testSetText() {
-        // Create an instance of CommentData
+        // Given
         CommentData commentData = new CommentData();
+        String text = "Test comment text";
 
-        // Set the text using the setText method
-        String text = "This is a test comment";
+        // When
         commentData.setText(text);
 
-        // Verify that the text has been set correctly
+        // Then
         assertEquals(text, commentData.getText());
     }
 
     @Test
     public void testSetCreatedTime() {
-        // Create an instance of CommentData
         CommentData commentData = new CommentData();
-
-        // Set the created time using the setCreatedTime method
-        String createdTime = "2021-10-01 10:00:00";
+        String createdTime = "2022-01-01T12:00:00Z";
+        
         commentData.setCreatedTime(createdTime);
-
-        // Verify that the created time is set correctly
+        
         assertEquals(createdTime, commentData.getCreatedTime());
     }
 
     @Test
     public void testGetCreatedTime() {
-        // Create a CommentData object
+        // Given
         CommentData commentData = new CommentData();
-        
-        // Set the createdTime value
-        String expectedCreatedTime = "2021-10-01 10:00:00";
+        String expectedCreatedTime = "2022-01-01T12:00:00";
+
+        // When
         commentData.setCreatedTime(expectedCreatedTime);
-        
-        // Retrieve the createdTime value using the getCreatedTime() method
         String actualCreatedTime = commentData.getCreatedTime();
-        
-        // Assert that the retrieved createdTime value matches the expected value
+
+        // Then
         assertEquals(expectedCreatedTime, actualCreatedTime);
     }
 
     @Test
     public void testGetText() {
-        // Create a CommentData object
+        // Given
         CommentData commentData = new CommentData();
-        
-        // Set the text value
-        commentData.setText("This is a test comment");
-        
-        // Retrieve the text value using getText() method
-        String text = commentData.getText();
-        
-        // Verify that the retrieved text value is correct
-        assertEquals("This is a test comment", text);
+        String expectedText = "This is a test comment";
+        commentData.setText(expectedText);
+
+        // When
+        String actualText = commentData.getText();
+
+        // Then
+        assertEquals(expectedText, actualText);
     }
 
-@Test
-public void testSetCommentFrom() {
-    CommentData commentData = new CommentData();
-    FromTagData fromTagData = new FromTagData();
-
-    // Fix the buggy line
-    fromTagData.setFullName("propertyValue");
-
-    commentData.setCommentFrom(fromTagData);
-    assertEquals(fromTagData, commentData.getCommentFrom());
-}
+    @Test
+    public void testSetCommentFrom() {
+        CommentData commentData = new CommentData();
+        FromTagData fromTagData = new FromTagData();
+        
+        // Set up the FromTagData object
+        fromTagData.setUsername("testUser");
+        fromTagData.setFullName("Test User");
+        
+        // Call the method under test
+        commentData.setCommentFrom(fromTagData);
+        
+        // Verify that the FromTagData object was set correctly
+        assertEquals("testUser", commentData.getCommentFrom().getUsername());
+        assertEquals("Test User", commentData.getCommentFrom().getFullName());
+    }
 
     @Test
     public void testGetCommentFrom() {
-        // Create a CommentData object
         CommentData commentData = new CommentData();
-
-        // Create a FromTagData object
-        FromTagData expectedCommentFrom = new FromTagData();
-
-        // Set the expected commentFrom object in CommentData
-        commentData.setCommentFrom(expectedCommentFrom);
-
-        // Call the getCommentFrom() method
-        FromTagData actualCommentFrom = commentData.getCommentFrom();
-
-        // Assert that the returned commentFrom object is the same as the expected commentFrom object
-        assertEquals(expectedCommentFrom, actualCommentFrom);
+        FromTagData expectedFromTagData = new FromTagData();
+        
+        commentData.setCommentFrom(expectedFromTagData);
+        
+        FromTagData actualFromTagData = commentData.getCommentFrom();
+        
+        assertNotNull(actualFromTagData);
+        // Add more assertions as needed
     }
 
     @Test
     public void testSetId() {
-        // Create a new CommentData object
         CommentData commentData = new CommentData();
-
-        // Set the id using the setId method
-        String id = "123";
+        String id = "12345";
         commentData.setId(id);
-
-        // Verify that the id has been set correctly
+        
         assertEquals(id, commentData.getId());
     }
 
     @Test
     public void testGetId() {
-        // Create a CommentData object
+        // Given
         CommentData commentData = new CommentData();
-        
-        // Set the id attribute
-        commentData.setId("12345");
-        
-        // Call the getId() method and assert the returned value
-        assertEquals("12345", commentData.getId());
+        String expectedId = "12345";
+        commentData.setId(expectedId);
+
+        // When
+        String actualId = commentData.getId();
+
+        // Then
+        assertEquals(expectedId, actualId);
     }
 
 }

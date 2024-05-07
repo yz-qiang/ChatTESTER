@@ -6,14 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.VideoData;
-import org.junit.runner.RunWith;
-
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,110 +20,82 @@ public class VideoData_ESTest extends VideoData_ESTest_scaffolding {
 
     @Test
     public void testSetHeight() {
-        // Create a new instance of VideoData
         VideoData videoData = new VideoData();
-
-        // Set the height to a specific value
-        int height = 720;
-        videoData.setHeight(height);
-
-        // Verify that the height has been updated correctly
-        assertEquals(height, videoData.getHeight());
+        int newHeight = 720;
+        
+        videoData.setHeight(newHeight);
+        
+        assertEquals(newHeight, videoData.getHeight());
     }
 
-@Test
-public void testToString() {
-    // Create a VideoData object with sample values
-    VideoData videoData = new VideoData();
-    videoData.setWidth(1920);
-    videoData.setHeight(1080);
-    videoData.setUrl("https://example.com/video.mp4");
+    @Test
+    public void testToString() {
+        VideoData videoData = new VideoData();
+        videoData.setWidth(1920);
+        videoData.setHeight(1080);
+        videoData.setUrl("https://example.com/video.mp4");
 
-    // Call the toString() method
-    String result = videoData.toString();
+        String expected = "VideoData [videoWidth=1920, videoHeight=1080, videoUrl=https://example.com/video.mp4]";
+        String actual = videoData.toString();
 
-    // Verify that the returned string contains the expected values
-    assertTrue(result.contains("videoWidth=1920"));
-    assertTrue(result.contains("videoHeight=1080"));
-    assertTrue(result.contains("videoUrl=https://example.com/video.mp4"));
-}
+        assertEquals(expected, actual);
+    }
 
     @Test
     public void testGetWidth() {
-        // Create a VideoData object
         VideoData videoData = new VideoData();
-        
-        // Set the width value
-        videoData.setWidth(1920);
-        
-        // Retrieve the width value using the getWidth() method
-        int width = videoData.getWidth();
-        
-        // Assert that the retrieved width value is equal to the expected width value
-        assertEquals(1920, width);
+        videoData.setWidth(640); // Set a specific width for testing
+
+        int expectedWidth = 640;
+        int actualWidth = videoData.getWidth();
+
+        assertEquals(expectedWidth, actualWidth);
     }
 
     @Test
     public void testGetUrl() {
-        // Create an instance of VideoData
+        // Given
         VideoData videoData = new VideoData();
-        
-        // Set the URL for the video data
-        videoData.setUrl("https://example.com/video.mp4");
-        
-        // Retrieve the URL using the getUrl() method
-        String url = videoData.getUrl();
-        
-        // Assert that the retrieved URL matches the expected URL
-        assertEquals("https://example.com/video.mp4", url);
+        String expectedUrl = "https://example.com/video.mp4";
+        videoData.setUrl(expectedUrl);
+
+        // When
+        String actualUrl = videoData.getUrl();
+
+        // Then
+        assertEquals(expectedUrl, actualUrl);
     }
 
     @Test
     public void testSetWidth() {
-        // Create a new instance of VideoData
         VideoData videoData = new VideoData();
-
-        // Set the initial width
-        int initialWidth = 100;
-        videoData.setWidth(initialWidth);
-
-        // Verify that the width is set correctly
-        assertEquals(initialWidth, videoData.getWidth());
-
-        // Set a new width
-        int newWidth = 200;
-        videoData.setWidth(newWidth);
-
-        // Verify that the width is updated correctly
-        assertEquals(newWidth, videoData.getWidth());
+        int expectedWidth = 640;
+        
+        videoData.setWidth(expectedWidth);
+        
+        int actualWidth = videoData.getWidth();
+        
+        assertEquals(expectedWidth, actualWidth);
     }
 
     @Test
     public void testSetUrl() {
-        // Create an instance of VideoData
         VideoData videoData = new VideoData();
-
-        // Set the URL using the setUrl method
         String url = "https://example.com/video.mp4";
+        
         videoData.setUrl(url);
-
-        // Verify that the URL has been set correctly
+        
         assertEquals(url, videoData.getUrl());
     }
 
     @Test
     public void testGetHeight() {
-        // Create a new instance of VideoData
         VideoData videoData = new VideoData();
+        videoData.setHeight(720); // Set a specific height for testing
 
-        // Set the height attribute to a specific value
         int expectedHeight = 720;
-        videoData.setHeight(expectedHeight);
-
-        // Call the getHeight() method and store the returned value
         int actualHeight = videoData.getHeight();
 
-        // Assert that the returned value matches the expected value
         assertEquals(expectedHeight, actualHeight);
     }
 

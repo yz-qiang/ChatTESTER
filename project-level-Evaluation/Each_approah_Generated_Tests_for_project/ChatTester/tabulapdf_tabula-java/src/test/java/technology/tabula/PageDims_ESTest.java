@@ -6,7 +6,7 @@
 package technology.tabula;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,65 +20,72 @@ public class PageDims_ESTest extends PageDims_ESTest_scaffolding {
 
     @Test
     public void testGetHeight() {
-        // Create a PageDims object with specific values
-        PageDims pageDims = PageDims.of(10.0f, 20.0f, 30.0f, 40.0f);
-
-        // Retrieve the height using the getHeight() method
-        float height = pageDims.getHeight();
-
-        // Assert that the retrieved height matches the expected value
-        assertEquals(40.0f, height, 0.0f);
+        // Given
+        float top = 10.0f;
+        float left = 20.0f;
+        float width = 100.0f;
+        float height = 50.0f;
+        
+        PageDims pageDims = PageDims.of(top, left, width, height);
+        
+        // When
+        float retrievedHeight = pageDims.getHeight();
+        
+        // Then
+        assertEquals(height, retrievedHeight, 0.0f);
     }
 
     @Test
     public void testGetLeft() {
-        // Create a PageDims object with specific values
-        PageDims pageDims = PageDims.of(10.0f, 20.0f, 30.0f, 40.0f);
+        float top = 10.0f;
+        float left = 20.0f;
+        float width = 100.0f;
+        float height = 200.0f;
 
-        // Call the getLeft() method and store the result
-        float left = pageDims.getLeft();
+        PageDims pageDims = PageDims.of(top, left, width, height);
 
-        // Assert that the returned value matches the expected value
-        assertEquals(20.0f, left, 0.0f);
+        float actualLeft = pageDims.getLeft();
+        float expectedLeft = 20.0f;
+
+        assertEquals(expectedLeft, actualLeft, 0.0f);
     }
 
     @Test
     public void testGetWidth() {
-        // Create a PageDims object with specific values
-        PageDims pageDims = PageDims.of(10.0f, 20.0f, 30.0f, 40.0f);
+        // Given
+        float expectedWidth = 10.0f;
+        PageDims pageDims = PageDims.of(0.0f, 0.0f, expectedWidth, 0.0f);
 
-        // Call the getWidth() method and store the result
-        float width = pageDims.getWidth();
+        // When
+        float actualWidth = pageDims.getWidth();
 
-        // Assert that the returned width matches the expected value
-        assertEquals(30.0f, width, 0.0f);
+        // Then
+        assertEquals(expectedWidth, actualWidth, 0.0f);
     }
 
     @Test
     public void testGetTop() {
-        // Create a PageDims object with specific values
-        PageDims pageDims = PageDims.of(10.0f, 20.0f, 30.0f, 40.0f);
-
-        // Retrieve the top value using the getTop() method
-        float top = pageDims.getTop();
-
-        // Assert that the retrieved top value matches the expected value
-        assertEquals(10.0f, top, 0.01f);
+        float expectedTop = 10.0f;
+        PageDims pageDims = PageDims.of(expectedTop, 5.0f, 20.0f, 15.0f);
+        
+        float actualTop = pageDims.getTop();
+        
+        assertEquals(expectedTop, actualTop, 0.0f);
     }
 
     @Test
     public void testOf() {
         float top = 10.0f;
         float left = 20.0f;
-        float width = 30.0f;
-        float height = 40.0f;
+        float width = 100.0f;
+        float height = 50.0f;
 
         PageDims pageDims = PageDims.of(top, left, width, height);
 
-        assertEquals(top, pageDims.getTop(), 0.0);
-        assertEquals(left, pageDims.getLeft(), 0.0);
-        assertEquals(width, pageDims.getWidth(), 0.0);
-        assertEquals(height, pageDims.getHeight(), 0.0);
+        assertEquals(top, pageDims.getTop(), 0.001);
+        assertEquals(left, pageDims.getLeft(), 0.001);
+        assertEquals(width, pageDims.getWidth(), 0.001);
+        assertEquals(height, pageDims.getHeight(), 0.001);
     }
 
 }

@@ -5,11 +5,11 @@
  */
 package org.jinstagram.entity.common;
 
-import org.jinstagram.entity.comments.CommentData;
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -22,24 +22,8 @@ import org.jinstagram.entity.comments.CommentData;
 import org.jinstagram.entity.common.Comments;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import java.util.ConcurrentModificationException;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.comments.CommentData;
-import org.jinstagram.entity.common.Comments;
-import org.junit.runner.RunWith;
-
-import org.jinstagram.entity.comments.CommentData;
-import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -58,65 +42,49 @@ public class Comments_ESTest extends Comments_ESTest_scaffolding {
 
 @Test
 public void testGetComments() {
-
-    List<CommentData> expectedComments = new LinkedList<CommentData>();
-
-    CommentData comment1 = new CommentData();
-    CommentData comment2 = new CommentData();
-    expectedComments.add(comment1);
-    expectedComments.add(comment2);
     Comments comments = new Comments();
-    comments.setComments(expectedComments);
-    List<CommentData> actualComments = comments.getComments();
-    assertEquals(expectedComments, actualComments);
-}
+    List<CommentData> sampleComments = new LinkedList<CommentData>();
 
-@Test
-public void testSetComments() {
-    Comments comments = new Comments();
-
-    List<CommentData> newComments = new ArrayList<CommentData>();
-
+    // Fixing the buggy line
     CommentData comment1 = new CommentData();
+    comment1.setCommentFrom(new FromTagData());
+    comment1.setId("User1");
+    comment1.setText("Comment1");
+    sampleComments.add(comment1);
+
     CommentData comment2 = new CommentData();
-    newComments.add(comment1);
-    newComments.add(comment2);
-    comments.setComments(newComments);
-    assertEquals(newComments, comments.getComments());
+    comment2.setCommentFrom(new FromTagData());
+    comment2.setId("User2");
+    comment2.setText("Comment2");
+    sampleComments.add(comment2);
+
+    comments.setComments(sampleComments);
+    List<CommentData> retrievedComments = comments.getComments();
+    assertNotNull(retrievedComments);
+    assertEquals(sampleComments.size(), retrievedComments.size());
+    for (int i = 0; i < sampleComments.size(); i++) {
+        assertEquals(sampleComments.get(i), retrievedComments.get(i));
+    }
 }
 
     @Test
     public void testGetCount() {
-        // Create an instance of the Comments class
         Comments comments = new Comments();
+        comments.setCount(5); // Set a specific count for testing
 
-        // Set the count variable to a specific value
         int expectedCount = 5;
-        comments.setCount(expectedCount);
-
-        // Call the getCount() method and store the result
         int actualCount = comments.getCount();
 
-        // Assert that the actual count matches the expected count
         assertEquals(expectedCount, actualCount);
     }
 
     @Test
     public void testSetCount() {
-        // Create an instance of the Comments class
         Comments comments = new Comments();
-
-        // Set the initial count value
-        comments.setCount(5);
-
-        // Verify that the count value is updated correctly
-        assertEquals(5, comments.getCount());
-
-        // Set a new count value
-        comments.setCount(10);
-
-        // Verify that the count value is updated correctly
-        assertEquals(10, comments.getCount());
+        int newCount = 10;
+        comments.setCount(newCount);
+        
+        assertEquals(newCount, comments.getCount());
     }
 
 }

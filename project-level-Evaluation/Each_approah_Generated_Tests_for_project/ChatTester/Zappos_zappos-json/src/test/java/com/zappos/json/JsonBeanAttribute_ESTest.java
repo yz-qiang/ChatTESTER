@@ -6,7 +6,7 @@
 package com.zappos.json;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -20,9 +20,25 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
-import java.lang.reflect.Field;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonBeanAttribute;
+import com.zappos.json.annot.JsonEnum;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -37,8 +53,22 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
-import java.lang.reflect.Method;
+import java.lang.reflect.Field;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.JsonBeanAttribute;
+import com.zappos.json.annot.JsonEnum;
+import com.zappos.json.format.JavaDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -56,181 +86,126 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class JsonBeanAttribute_ESTest extends JsonBeanAttribute_ESTest_scaffolding {
 
-@Test
-public void testGetEnumValue() {
-    JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
-
-    JsonEnum.EnumValue expectedEnumValue = JsonEnum.EnumValue.STRING;
-
-    jsonBeanAttribute.setEnumValue(expectedEnumValue);
-    JsonEnum.EnumValue actualEnumValue = jsonBeanAttribute.getEnumValue();
-    assertEquals(expectedEnumValue, actualEnumValue);
-}
-
     @Test
     public void testGetFormatterPattern() {
-        // Create a JsonBeanAttribute instance for testing
-        Method method = null; // Replace with a valid method
-        Field field = null; // Replace with a valid field
-        String attributeKey = "testAttributeKey";
-        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
+        // Given
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
+        String expectedFormatterPattern = "testFormatterPattern";
+        jsonBeanAttribute.setFormatterPattern(expectedFormatterPattern);
 
-        // Set the formatter pattern
-        String formatterPattern = "yyyy-MM-dd";
-        jsonBeanAttribute.setFormatterPattern(formatterPattern);
-
-        // Verify that the formatter pattern is retrieved correctly
+        // When
         String actualFormatterPattern = jsonBeanAttribute.getFormatterPattern();
-        assertEquals(formatterPattern, actualFormatterPattern);
+
+        // Then
+        assertEquals(expectedFormatterPattern, actualFormatterPattern);
     }
 
 @Test
 public void testGetFormatterClass() {
-    Method method = null; 
-    Field field = null; 
-    String attributeKey = "testAttributeKey";
-    JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
-
-    Class<? extends ValueFormatter<?>> expectedFormatterClass = JavaDateFormatter.class; 
-
+    Class<? extends ValueFormatter<?>> expectedFormatterClass = JavaDateFormatter.class;
+    JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
     jsonBeanAttribute.setFormatterClass(expectedFormatterClass);
     Class<? extends ValueFormatter<?>> actualFormatterClass = jsonBeanAttribute.getFormatterClass();
+    
     assertEquals(expectedFormatterClass, actualFormatterClass);
 }
 
     @Test
     public void testSetFormatterPattern() {
-        // Create a JsonBeanAttribute object for testing
-        Method method = null; // Replace with a valid method
-        Field field = null; // Replace with a valid field
-        String attributeKey = "testAttributeKey";
-        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
+        // Given
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
 
-        // Set the formatter pattern
-        String formatterPattern = "yyyy-MM-dd";
-        JsonBeanAttribute result = jsonBeanAttribute.setFormatterPattern(formatterPattern);
+        // When
+        jsonBeanAttribute.setFormatterPattern("yyyy-MM-dd");
 
-        // Verify that the formatter pattern is set correctly
-        assertEquals(formatterPattern, result.getFormatterPattern());
+        // Then
+        assertEquals("Formatter pattern should be set correctly", "yyyy-MM-dd", jsonBeanAttribute.getFormatterPattern());
     }
 
     @Test
     public void testGetAttributeKey() {
-        // Create a JsonBeanAttribute object for testing
-        Method method = null; // Replace with a valid method
-        Field field = null; // Replace with a valid field
-        String attributeKey = "testAttributeKey";
-        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
+        // Given
+        String expectedAttributeKey = "testAttributeKey";
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(null, null, expectedAttributeKey);
 
-        // Call the getAttributeKey() method
-        String result = jsonBeanAttribute.getAttributeKey();
+        // When
+        String actualAttributeKey = jsonBeanAttribute.getAttributeKey();
 
-        // Assert that the returned attribute key matches the expected value
-        assertEquals(attributeKey, result);
+        // Then
+        assertEquals(expectedAttributeKey, actualAttributeKey);
     }
 
     @Test
     public void testGetField() {
-        // Create an instance of JsonBeanAttribute
-        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
+        // Given
+        Field expectedField = null; // Initialize with the expected Field object
 
-        // Set up a field for testing
-        Field field = null; // Replace null with the actual field object
-
-        // Set the field in the JsonBeanAttribute instance
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(); // Create a new JsonBeanAttribute instance
+        // Set the field using reflection (since the constructor is not accessible)
         try {
-            Field fieldVariable = JsonBeanAttribute.class.getDeclaredField("field");
-            fieldVariable.setAccessible(true);
-            fieldVariable.set(jsonBeanAttribute, field);
+            Field field = JsonBeanAttribute.class.getDeclaredField("field");
+            field.setAccessible(true);
+            field.set(jsonBeanAttribute, expectedField);
         } catch (NoSuchFieldException | IllegalAccessException e) {
-            fail("Failed to set field in JsonBeanAttribute instance");
+            e.printStackTrace();
         }
 
-        // Call the getField() method and assert the returned value
-        Field returnedField = jsonBeanAttribute.getField();
-        assertEquals(field, returnedField);
+        // When
+        Field actualField = jsonBeanAttribute.getField();
+
+        // Then
+        assertEquals(expectedField, actualField);
     }
-
-    @Test
-    public void testGetMethod() {
-        // Create a sample method object
-        Method sampleMethod = null; // Replace null with an actual method object
-
-        // Create an instance of JsonBeanAttribute using the sample method
-        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(sampleMethod, null, null);
-
-        // Call the getMethod() method and assert that it returns the sample method
-        Method result = jsonBeanAttribute.getMethod();
-        assertEquals(sampleMethod, result);
-    }
-
-@Test
-public void testSetEnumValue() {
-    JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
-
-    JsonEnum.EnumValue enumValue = JsonEnum.EnumValue.STRING;
-
-    JsonBeanAttribute result = jsonBeanAttribute.setEnumValue(enumValue);
-    assertEquals(enumValue, result.getEnumValue());
-}
 
     @Test
     public void testSetJsonKey() {
-        // Create a new instance of JsonBeanAttribute
-        JsonBeanAttribute attribute = new JsonBeanAttribute();
+        // Given
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
+        String expectedJsonKey = "customKey";
 
-        // Set the jsonKey attribute using the setJsonKey method
-        String jsonKey = "testKey";
-        JsonBeanAttribute result = attribute.setJsonKey(jsonKey);
+        // When
+        jsonBeanAttribute.setJsonKey(expectedJsonKey);
 
-        // Verify that the jsonKey attribute has been set correctly
-        assertEquals(jsonKey, attribute.getJsonKey());
-
-        // Verify that the setJsonKey method returns the updated instance of JsonBeanAttribute
-        assertSame(attribute, result);
+        // Then
+        assertEquals(expectedJsonKey, jsonBeanAttribute.getJsonKey());
     }
 
     @Test
     public void testSetAttributeKey() {
-        // Create a JsonBeanAttribute object
+        // Given
         JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
 
-        // Set the attribute key using the setAttributeKey method
-        String attributeKey = "testAttributeKey";
-        JsonBeanAttribute updatedJsonBeanAttribute = jsonBeanAttribute.setAttributeKey(attributeKey);
+        // When
+        JsonBeanAttribute updatedAttribute = jsonBeanAttribute.setAttributeKey("newAttributeKey");
 
-        // Verify that the attribute key is set correctly
-        assertEquals(attributeKey, updatedJsonBeanAttribute.getAttributeKey());
+        // Then
+        assertEquals("newAttributeKey", updatedAttribute.getAttributeKey());
     }
 
     @Test
     public void testGetJsonKey() {
-        // Create a JsonBeanAttribute object for testing
-        Method method = null; // Replace with a valid method
-        Field field = null; // Replace with a valid field
-        String attributeKey = "attributeKey";
+        // Given
+        Method method = null; // Define a valid Method instance
+        Field field = null; // Define a valid Field instance
+        String attributeKey = "testAttributeKey";
         JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
 
-        // Set the jsonKey value
-        String expectedJsonKey = "jsonKey";
-        jsonBeanAttribute.setJsonKey(expectedJsonKey);
-
-        // Call the getJsonKey() method and assert the result
+        // When
         String actualJsonKey = jsonBeanAttribute.getJsonKey();
+
+        // Then
+        String expectedJsonKey = "testAttributeKey";
         assertEquals(expectedJsonKey, actualJsonKey);
     }
 
-@Test
-public void testSetFormatterClass() {
-    Method method = null; 
-    Field field = null; 
-    String attributeKey = "testAttribute";
-    JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute(method, field, attributeKey);
+    @Test
+    public void testSetFormatterClass() {
+        JsonBeanAttribute jsonBeanAttribute = new JsonBeanAttribute();
+        Class<? extends ValueFormatter<?>> formatterClass = JavaDateFormatter.class;
 
-    Class<? extends ValueFormatter<?>> formatterClass = JavaDateFormatter.class;
+        jsonBeanAttribute.setFormatterClass(formatterClass);
 
-    JsonBeanAttribute result = jsonBeanAttribute.setFormatterClass(formatterClass);
-    assertEquals(formatterClass, result.getFormatterClass());
-}
+        assertEquals(formatterClass, jsonBeanAttribute.getFormatterClass());
+    }
 
 }

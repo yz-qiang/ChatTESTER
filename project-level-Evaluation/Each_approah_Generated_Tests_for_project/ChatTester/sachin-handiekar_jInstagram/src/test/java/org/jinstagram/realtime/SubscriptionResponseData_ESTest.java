@@ -6,7 +6,7 @@
 package org.jinstagram.realtime;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -20,165 +20,134 @@ public class SubscriptionResponseData_ESTest extends SubscriptionResponseData_ES
 
     @Test
     public void testGetCallbackUrl() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String expectedCallbackUrl = "https://example.com/callback";
+        subscriptionResponseData.setCallbackUrl(expectedCallbackUrl);
 
-        // Set a callback URL
-        String callbackUrl = "https://example.com/callback";
-        responseData.setCallbackUrl(callbackUrl);
+        String actualCallbackUrl = subscriptionResponseData.getCallbackUrl();
 
-        // Retrieve the callback URL using the getCallbackUrl() method
-        String retrievedCallbackUrl = responseData.getCallbackUrl();
-
-        // Assert that the retrieved callback URL matches the set callback URL
-        assertEquals(callbackUrl, retrievedCallbackUrl);
+        assertEquals(expectedCallbackUrl, actualCallbackUrl);
     }
 
     @Test
     public void testSetCallbackUrl() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the callback URL
-        String callbackUrl = "https://example.com/callback";
-        responseData.setCallbackUrl(callbackUrl);
-
-        // Verify that the callback URL is set correctly
-        assertEquals(callbackUrl, responseData.getCallbackUrl());
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String newCallbackUrl = "https://example.com/callback";
+        
+        subscriptionResponseData.setCallbackUrl(newCallbackUrl);
+        
+        assertEquals(newCallbackUrl, subscriptionResponseData.getCallbackUrl());
     }
 
     @Test
     public void testSetType() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the type attribute using the setType method
-        String expectedType = "exampleType";
-        responseData.setType(expectedType);
-
-        // Verify that the type attribute has been set correctly
-        String actualType = responseData.getType();
-        assertEquals(expectedType, actualType);
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String expectedType = "testType";
+        
+        subscriptionResponseData.setType(expectedType);
+        
+        assertEquals(expectedType, subscriptionResponseData.getType());
     }
 
     @Test
     public void testSetObject() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the object value using the setObject method
-        String expectedObject = "Test Object";
-        responseData.setObject(expectedObject);
-
-        // Verify that the object value is set correctly
-        String actualObject = responseData.getObject();
-        assertEquals(expectedObject, actualObject);
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String expectedObject = "testObject";
+        
+        subscriptionResponseData.setObject(expectedObject);
+        
+        assertEquals(expectedObject, subscriptionResponseData.getObject());
     }
 
     @Test
     public void testSetAspect() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the aspect using the setAspect method
-        String aspect = "exampleAspect";
-        responseData.setAspect(aspect);
-
-        // Verify that the aspect has been set correctly
-        assertEquals(aspect, responseData.getAspect());
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String aspect = "testAspect";
+        subscriptionResponseData.setAspect(aspect);
+        
+        assertEquals(aspect, subscriptionResponseData.getAspect());
     }
 
     @Test
     public void testGetType() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
+        // Given
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        subscriptionResponseData.setType("testType");
 
-        // Set the type of the object
-        responseData.setType("exampleType");
+        // When
+        String result = subscriptionResponseData.getType();
 
-        // Call the getType() method and assert the returned value
-        assertEquals("exampleType", responseData.getType());
+        // Then
+        assertEquals("testType", result);
     }
 
     @Test
     public void testGetAspect() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String aspectValue = "testAspect";
+        subscriptionResponseData.setAspect(aspectValue);
 
-        // Set the aspect value
-        String aspectValue = "aspect";
-        responseData.setAspect(aspectValue);
+        String retrievedAspect = subscriptionResponseData.getAspect();
 
-        // Retrieve the aspect value using getAspect()
-        String retrievedAspect = responseData.getAspect();
-
-        // Assert that the retrieved aspect value is equal to the set aspect value
         assertEquals(aspectValue, retrievedAspect);
     }
 
     @Test
     public void testGetId() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String expectedId = "testId";
+        subscriptionResponseData.setId(expectedId);
 
-        // Set the id attribute
-        responseData.setId("12345");
+        String actualId = subscriptionResponseData.getId();
 
-        // Call the getId() method and assert the returned value
-        assertEquals("12345", responseData.getId());
+        assertEquals(expectedId, actualId);
     }
 
     @Test
     public void testGetObject() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set a value for the object variable
-        String expectedObject = "Test Object";
-        responseData.setObject(expectedObject);
-
-        // Call the getObject() method and assert the returned value
-        String actualObject = responseData.getObject();
+        // Given
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String expectedObject = "TestObject";
+        
+        // When
+        subscriptionResponseData.setObject(expectedObject);
+        String actualObject = subscriptionResponseData.getObject();
+        
+        // Then
         assertEquals(expectedObject, actualObject);
     }
 
     @Test
     public void testSetId() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the id attribute using the setId method
+        // Given
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
         String id = "12345";
-        responseData.setId(id);
 
-        // Verify that the id attribute has been set correctly
-        assertEquals(id, responseData.getId());
+        // When
+        subscriptionResponseData.setId(id);
+
+        // Then
+        assertEquals(id, subscriptionResponseData.getId());
     }
 
     @Test
     public void testSetObjectId() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set the objectId using the setObjectId method
-        String objectId = "12345";
-        responseData.setObjectId(objectId);
-
-        // Verify that the objectId has been set correctly
-        assertEquals(objectId, responseData.getObjectId());
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        String testObjectId = "testObjectId";
+        
+        subscriptionResponseData.setObjectId(testObjectId);
+        
+        assertEquals(testObjectId, subscriptionResponseData.getObjectId());
     }
 
     @Test
     public void testGetObjectId() {
-        // Create an instance of SubscriptionResponseData
-        SubscriptionResponseData responseData = new SubscriptionResponseData();
-
-        // Set a value for the objectId variable
+        SubscriptionResponseData subscriptionResponseData = new SubscriptionResponseData();
+        subscriptionResponseData.setObjectId("12345");
+        
         String expectedObjectId = "12345";
-        responseData.setObjectId(expectedObjectId);
-
-        // Call the getObjectId() method and assert the returned value
-        String actualObjectId = responseData.getObjectId();
+        String actualObjectId = subscriptionResponseData.getObjectId();
+        
         assertEquals(expectedObjectId, actualObjectId);
     }
 

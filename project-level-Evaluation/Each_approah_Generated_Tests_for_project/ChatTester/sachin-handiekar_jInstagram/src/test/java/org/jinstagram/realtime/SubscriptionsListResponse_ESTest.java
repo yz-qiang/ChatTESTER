@@ -5,9 +5,18 @@
  */
 package org.jinstagram.realtime;
 
-import org.jinstagram.entity.common.Meta;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Meta;
+import org.jinstagram.realtime.SubscriptionsListResponse;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -22,40 +31,31 @@ public class SubscriptionsListResponse_ESTest extends SubscriptionsListResponse_
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of SubscriptionsListResponse
-        SubscriptionsListResponse response = new SubscriptionsListResponse();
+        SubscriptionsListResponse subscriptionsListResponse = new SubscriptionsListResponse();
+        Meta meta = new Meta();
+        subscriptionsListResponse.setMeta(meta);
 
-        // Create a new instance of Meta
-        Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
+        Meta retrievedMeta = subscriptionsListResponse.getMeta();
 
-        // Set the expected Meta object to the response
-        response.setMeta(expectedMeta);
-
-        // Call the getMeta() method
-        Meta actualMeta = response.getMeta();
-
-        // Assert that the actual Meta object is equal to the expected Meta object
-        assertEquals(expectedMeta, actualMeta);
+        assertNotNull(retrievedMeta);
+        assertEquals(meta, retrievedMeta);
     }
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of SubscriptionsListResponse
-        SubscriptionsListResponse response = new SubscriptionsListResponse();
-
-        // Create a new instance of Meta
+        // Given
+        SubscriptionsListResponse subscriptionsListResponse = new SubscriptionsListResponse();
         Meta meta = new Meta();
-        // Set the values of Meta object
         meta.setCode(200);
-        meta.setErrorType("none");
-
-        // Call the setMeta method with the Meta object
-        response.setMeta(meta);
-
-        // Verify that the meta object is set correctly
-        assertEquals(meta, response.getMeta());
+        meta.setErrorType("testError");
+        
+        // When
+        subscriptionsListResponse.setMeta(meta);
+        
+        // Then
+        Meta updatedMeta = subscriptionsListResponse.getMeta();
+        assertEquals(200, updatedMeta.getCode());
+        assertEquals("testError", updatedMeta.getErrorType());
     }
 
 }

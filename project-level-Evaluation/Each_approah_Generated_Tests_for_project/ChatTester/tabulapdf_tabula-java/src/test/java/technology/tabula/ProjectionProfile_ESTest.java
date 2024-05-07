@@ -5,8 +5,23 @@
  */
 package technology.tabula;
 
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.util.LinkedList;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+import technology.tabula.Page;
+import technology.tabula.ProjectionProfile;
+import technology.tabula.Rectangle;
+
+import org.junit.Test;
+import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -24,13 +39,38 @@ public class ProjectionProfile_ESTest extends ProjectionProfile_ESTest_scaffoldi
 
     @Test
     public void testFilter() {
-        float[] data = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f};
+        float[] testData = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f};
         float alpha = 0.5f;
-        
         float[] expected = {1.0f, 1.5f, 2.25f, 3.125f, 4.0625f};
-        float[] result = ProjectionProfile.filter(data, alpha);
-        
+
+        float[] result = ProjectionProfile.filter(testData, alpha);
+
         assertArrayEquals(expected, result, 0.001f);
     }
+
+@Test
+public void testSmooth() {
+    float[] testData = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f};
+    int kernelSize = 3;
+    float[] expectedSmoothedData = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f}; 
+    float[] smoothedData = ProjectionProfile.smooth(testData, kernelSize);
+    
+}
+
+    @Test
+    public void testGetAutocorrelation() {
+        float[] inputProjection = {1.0f, 2.0f, 3.0f, 4.0f, 5.0f};
+        float[] expectedAutocorrelation = {0.02f, 0.06f, 0.12f, 0.20f};
+        float[] result = ProjectionProfile.getAutocorrelation(inputProjection);
+        
+}
+
+@Test
+public void testGetFirstDeriv() {
+    float[] inputProjection = {1.0f, 2.0f, 4.0f, 7.0f, 11.0f};
+    float[] expectedOutput = {1.0f, 2.0f, 3.0f, 3.0f, 4.0f};
+    float[] actualOutput = ProjectionProfile.getFirstDeriv(inputProjection);
+    
+}
 
 }

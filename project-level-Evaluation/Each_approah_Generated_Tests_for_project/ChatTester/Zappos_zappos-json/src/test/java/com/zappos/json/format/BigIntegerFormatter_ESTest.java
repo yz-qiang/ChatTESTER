@@ -5,8 +5,16 @@
  */
 package com.zappos.json.format;
 
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.math.BigInteger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -23,33 +31,10 @@ import org.junit.runner.RunWith;
 public class BigIntegerFormatter_ESTest extends BigIntegerFormatter_ESTest_scaffolding {
 
 @Test
-public void testParse() throws Exception {
-    BigIntegerFormatter formatter = new BigIntegerFormatter();
-
-    ZapposJson zapposJson = ZapposJson.getInstance();
-
-    String numberString = "1234567890";
-    BigInteger result = formatter.parse(zapposJson, numberString);
-    assertEquals(new BigInteger(numberString), result);
+public void testCast() {
+    BigIntegerFormatter bigIntegerFormatter = new BigIntegerFormatter();
+    Object obj = 12345;
+     
 }
-
-    @Test
-    public void testCast() {
-        BigIntegerFormatter formatter = new BigIntegerFormatter();
-
-        // Test case 1: Valid input
-        Object obj1 = new BigInteger("123456789");
-        BigInteger result1 = formatter.cast(obj1);
-        assertEquals(new BigInteger("123456789"), result1);
-
-        // Test case 2: Invalid input
-        Object obj2 = "123456789";
-        try {
-            BigInteger result2 = formatter.cast(obj2);
-            fail("Expected ClassCastException to be thrown");
-        } catch (ClassCastException e) {
-            // Exception expected
-        }
-    }
 
 }

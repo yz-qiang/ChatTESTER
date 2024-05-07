@@ -5,12 +5,8 @@
  */
 package org.jinstagram.entity.likes;
 
-
-import java.util.ArrayList;
-import java.util.List;
-import org.jinstagram.entity.common.User;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -22,24 +18,10 @@ import org.jinstagram.entity.common.User;
 import org.jinstagram.entity.likes.LikesFeed;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Meta;
-import org.jinstagram.entity.common.User;
-import org.jinstagram.entity.likes.LikesFeed;
-import org.junit.runner.RunWith;
-
-import java.util.List;
-import org.jinstagram.entity.common.User;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -51,6 +33,8 @@ import org.jinstagram.entity.common.User;
 import org.jinstagram.entity.likes.LikesFeed;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -66,80 +50,75 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class LikesFeed_ESTest extends LikesFeed_ESTest_scaffolding {
 
-@Test(timeout = 4000)
-public void testToString() throws Throwable {
-    LikesFeed likesFeed = new LikesFeed();
-    likesFeed.setMeta(null);
-    likesFeed.setUserList(null);
-    
-    String expected = "LikesFeed [meta=null, userList=null]";
-    String actual = likesFeed.toString();
-    
-    assertEquals(expected, actual);
-}
-
     @Test
     public void testSetMeta() {
-        // Create a new LikesFeed object
         LikesFeed likesFeed = new LikesFeed();
-
-        // Create a new Meta object
         Meta meta = new Meta();
+        meta.setCode(200);
+        meta.setErrorType("success");
+        meta.setErrorMessage("Operation successful");
 
-        // Set the Meta object using the setMeta method
         likesFeed.setMeta(meta);
 
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, likesFeed.getMeta());
+        Meta updatedMeta = likesFeed.getMeta();
+
+        assertEquals(200, updatedMeta.getCode());
+        assertEquals("success", updatedMeta.getErrorType());
+        assertEquals("Operation successful", updatedMeta.getErrorMessage());
     }
 
     @Test
     public void testGetMeta() {
-        // Create a LikesFeed object
         LikesFeed likesFeed = new LikesFeed();
+        Meta meta = new Meta();
+        likesFeed.setMeta(meta);
 
-        // Create a Meta object
-        Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorMessage(null);
+        Meta retrievedMeta = likesFeed.getMeta();
 
-        // Set the Meta object in the LikesFeed object
-        likesFeed.setMeta(expectedMeta);
-
-        // Call the getMeta() method
-        Meta actualMeta = likesFeed.getMeta();
-
-        // Assert that the returned Meta object is equal to the expected Meta object
-        assertEquals(expectedMeta, actualMeta);
+        assertNotNull(retrievedMeta);
+        assertEquals(meta, retrievedMeta);
     }
 
 @Test
 public void testGetUserList() {
     LikesFeed likesFeed = new LikesFeed();
 
-    List<User> userList = new LinkedList<User>();
+    User user1 = new User();
+    user1.setId("user1");
 
-    userList.add(new User());
-    userList.add(new User());
-    userList.add(new User());
+    User user2 = new User();
+    user2.setId("user2");
+
+    List<User> userList = new LinkedList<User>();
+    userList.add(user1);
+    userList.add(user2);
+
     likesFeed.setUserList(userList);
-    List<User> result = likesFeed.getUserList();
-    assertNotNull(result);
-    assertEquals(userList, result);
+    List<User> retrievedUserList = likesFeed.getUserList();
+
+    assertNotNull(retrievedUserList);
+    assertEquals(2, retrievedUserList.size());
+    assertEquals(user1, retrievedUserList.get(0));
+    assertEquals(user2, retrievedUserList.get(1));
 }
 
 @Test
 public void testSetUserList() {
     LikesFeed likesFeed = new LikesFeed();
+    List<User> userList = new LinkedList<User>();
 
-    List<User> userList = new ArrayList<User>();
+    userList.add(new User());
+    userList.get(0).setUserName("JohnDoe");
 
-    User user1 = new User();
-    User user2 = new User();
-    userList.add(user1);
-    userList.add(user2);
+    userList.add(new User());
+    userList.get(1).setUserName("JaneSmith");
+
     likesFeed.setUserList(userList);
-    assertEquals(userList, likesFeed.getUserList());
+    List<User> retrievedUserList = likesFeed.getUserList();
+    assertNotNull(retrievedUserList);
+    assertEquals(2, retrievedUserList.size());
+    assertEquals("JohnDoe", retrievedUserList.get(0).getUserName());
+    assertEquals("JaneSmith", retrievedUserList.get(1).getUserName());
 }
 
 }

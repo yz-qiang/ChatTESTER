@@ -5,9 +5,11 @@
  */
 package org.jinstagram.http;
 
-import java.net.Proxy;
-import org.junit.Test;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+import java.lang.*;
 import static org.junit.Assert.*;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -27,77 +29,238 @@ import org.jinstagram.http.Request;
 import org.jinstagram.http.Verbs;
 import org.junit.runner.RunWith;
 
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
+import java.net.HttpURLConnection;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import java.nio.charset.Charset;
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import java.util.concurrent.TimeUnit;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import java.net.Proxy;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.shaded.org.mockito.Mockito.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.URL;
+import java.net.URLStreamHandler;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.ViolatedAssumptionAnswer;
+import org.evosuite.runtime.mock.java.net.MockURL;
+import org.jinstagram.http.Request;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.shaded.org.mockito.Mockito.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.Proxy;
-import java.net.URL;
-import java.net.URLStreamHandler;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.evosuite.runtime.ViolatedAssumptionAnswer;
-import org.evosuite.runtime.mock.java.net.MockURL;
-import org.jinstagram.http.Request;
-import org.jinstagram.http.Verbs;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import java.util.concurrent.TimeUnit;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.shaded.org.mockito.Mockito.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.Proxy;
-import java.net.URL;
-import java.net.URLStreamHandler;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.evosuite.runtime.ViolatedAssumptionAnswer;
-import org.evosuite.runtime.mock.java.net.MockURL;
-import org.jinstagram.http.Request;
-import org.jinstagram.http.Verbs;
-import org.junit.runner.RunWith;
-
 import java.net.HttpURLConnection;
 import java.util.HashMap;
 import java.util.Map;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.shaded.org.mockito.Mockito.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.Proxy;
-import java.net.URL;
-import java.net.URLStreamHandler;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.evosuite.runtime.ViolatedAssumptionAnswer;
-import org.evosuite.runtime.mock.java.net.MockURL;
 import org.jinstagram.http.Request;
+import org.jinstagram.http.Response;
 import org.jinstagram.http.Verbs;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -123,248 +286,187 @@ public class Request_ESTest extends Request_ESTest_scaffolding {
 
     @Test
     public void testGetConnectTimeoutInMillis() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        Request request = new Request(verb, url);
+        int expectedConnectTimeout = 5000; // Assuming a connect timeout of 5000 milliseconds
+        request.setConnectTimeout(expectedConnectTimeout, TimeUnit.MILLISECONDS);
 
-        // Set the connect timeout
-        request.setConnectTimeout(5000, TimeUnit.MILLISECONDS);
+        // When
+        int actualConnectTimeout = request.getConnectTimeoutInMillis();
 
-        // Get the connect timeout in milliseconds
-        int connectTimeoutInMillis = request.getConnectTimeoutInMillis();
-
-        // Assert that the retrieved connect timeout matches the set value
-        assertEquals(5000, connectTimeoutInMillis);
+        // Then
+        assertEquals(expectedConnectTimeout, actualConnectTimeout);
     }
 
     @Test
     public void testSetReadTimeout() {
         Request request = new Request(Verbs.GET, "https://example.com");
-        int duration = 10;
-        TimeUnit unit = TimeUnit.SECONDS;
+        int duration = 5000; // 5 seconds
+        TimeUnit unit = TimeUnit.MILLISECONDS;
 
         request.setReadTimeout(duration, unit);
 
-        int expectedTimeoutInMillis = (int) unit.toMillis(duration);
+        int expectedTimeoutInMillis = 5000;
         int actualTimeoutInMillis = request.getReadTimeoutInMillis();
 
         assertEquals(expectedTimeoutInMillis, actualTimeoutInMillis);
     }
 
-    @Test
-    public void testAddBodyParameter() {
-        // Create a new Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
+@Test
+public void testAddBodyParameter() {
+    Request request = new Request(Verbs.POST, "https://example.com/api");
+    request.addBodyParameter("key1", "value1");
+    request.addBodyParameter("key2", "value2");
 
-        // Add body parameter
-        String key = "param1";
-        String value = "value1";
-        request.addBodyParameter(key, value);
+    Map<String, String> expectedBodyParams = new HashMap<String, String>();
 
-        // Get the bodyParams map from the Request object
-        Map<String, String> bodyParams = request.getBodyParams();
-
-        // Verify that the key-value pair is added to the bodyParams map
-        assertTrue(bodyParams.containsKey(key));
-        assertEquals(value, bodyParams.get(key));
-    }
-
-@Test(timeout = 4000)
-public void testAddBody() throws Throwable {
-    Verbs verbs0 = Verbs.DELETE;
-    String url = "}B:Q{&$6Q^6\u0002Hym>N";
-    Request request0 = new Request(verbs0, url);
-    HttpURLConnection httpURLConnection0 = mock(HttpURLConnection.class, new ViolatedAssumptionAnswer());
-    OutputStream outputStream0 = mock(OutputStream.class, new ViolatedAssumptionAnswer());
-    byte[] byteArray0 = new byte[1];
-    doReturn(outputStream0).when(httpURLConnection0).getOutputStream();
-    
-    request0.addBody(httpURLConnection0, byteArray0);
-    
-    verify(httpURLConnection0).setRequestProperty(eq("Content-Length"), eq(String.valueOf(byteArray0.length)));
-    verify(httpURLConnection0).setDoOutput(true);
-    verify(outputStream0).write(byteArray0);
+    expectedBodyParams.put("key1", "value1");
+    expectedBodyParams.put("key2", "value2");
+    Map<String, String> actualBodyParams = request.getBodyParams();
+    assertEquals(expectedBodyParams, actualBodyParams);
 }
+
+    @Test
+    public void testGetProxy() {
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        Request request = new Request(verb, url);
+        
+        Proxy expectedProxy = Proxy.NO_PROXY;
+        request.setProxy(expectedProxy);
+        
+        // When
+        Proxy actualProxy = request.getProxy();
+        
+        // Then
+        assertEquals(expectedProxy, actualProxy);
+    }
 
 @Test
-public void testSetProxy_2() {
-    Verbs verbs0 = Verbs.POST;
-    Request request0 = new Request(verbs0, "");
-    Proxy proxy0 = Proxy.NO_PROXY;
-    request0.setProxy(proxy0);
-    Proxy actualProxy = request0.getProxy();
-    assertEquals(proxy0, actualProxy);
+public void testGetByteBodyContents() {
+    Request request = new Request(Verbs.GET, "https://example.com");
+    request.addBodyParameter("param1", "value1");
+    request.addBodyParameter("param2", "value2");
+    byte[] expectedByteBodyContents = "param1=value1&param2=value2".getBytes(StandardCharsets.UTF_8);
+    byte[] actualByteBodyContents = request.getByteBodyContents();
+
+    assertArrayEquals(expectedByteBodyContents, actualByteBodyContents);
 }
-
-    @Test
-    public void testGetByteBodyContents() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
-
-        // Set the payload or body parameters
-        request.addPayload("test payload");
-        request.addBodyParameter("key1", "value1");
-        request.addBodyParameter("key2", "value2");
-
-        // Set the character encoding
-        request.setCharset("UTF-8");
-
-        // Call the getByteBodyContents() method
-        byte[] byteBodyContents = request.getByteBodyContents();
-
-        // Verify the byte array is not null
-        assertNotNull(byteBodyContents);
-
-        // Verify the byte array length is greater than 0
-        assertTrue(byteBodyContents.length > 0);
-    }
 
     @Test
     public void testGetQueryStringParams() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com/api");
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api/resource?param1=value1&param2=value2";
+        Request request = new Request(verb, url);
+        request.addQuerystringParameter("param3", "value3");
 
-        // Set query string parameters
-        request.addQuerystringParameter("param1", "value1");
-        request.addQuerystringParameter("param2", "value2");
+        // When
+        Map<String, String> queryStringParams = request.getQueryStringParams();
 
-        // Get the query string parameters
-        Map<String, String> queryParams = request.getQueryStringParams();
-
-        // Assert that the query string parameters are correct
-        assertEquals(2, queryParams.size());
-        assertEquals("value1", queryParams.get("param1"));
-        assertEquals("value2", queryParams.get("param2"));
+        // Then
+        assertNotNull(queryStringParams);
+        assertEquals(3, queryStringParams.size());
+        assertEquals("value1", queryStringParams.get("param1"));
+        assertEquals("value2", queryStringParams.get("param2"));
+        assertEquals("value3", queryStringParams.get("param3"));
     }
 
     @Test
     public void testGetVerb() {
-        // Create a Request object with a specific verb
         Verbs expectedVerb = Verbs.GET;
-        Request request = new Request(expectedVerb, "https://example.com");
+        String url = "https://example.com/api";
+        Request request = new Request(expectedVerb, url);
 
-        // Call the getVerb() method
         Verbs actualVerb = request.getVerb();
 
-        // Assert that the returned verb matches the expected verb
         assertEquals(expectedVerb, actualVerb);
     }
 
     @Test
     public void testGetConnectionKeepAlive() {
-        // Create a Request object
+        // Given
         Request request = new Request(Verbs.GET, "https://example.com");
-
-        // Set the connectionKeepAlive variable to true
         request.setConnectionKeepAlive(true);
 
-        // Call the getConnectionKeepAlive() method
+        // When
         boolean connectionKeepAlive = request.getConnectionKeepAlive();
 
-        // Assert that the returned value is true
-        assertTrue(connectionKeepAlive);
+        // Then
+        assertEquals(true, connectionKeepAlive);
     }
-
-@Test
-public void testAddHeaders() throws Exception {
-    // Create a mock HttpURLConnection object
-    HttpURLConnection conn = mock(HttpURLConnection.class);
-    
-    // Create a Request object
-    Verbs verbs = Verbs.DELETE;
-    Request request = new Request(verbs, "gg,DN/nH");
-    
-    // Add headers to the Request object
-    request.addHeader("gg,DN/nH", "/c),&&-");
-    
-    // Call the addHeaders method
-    request.addHeaders(conn);
-    
-    // Verify that the setRequestProperty method is called for each header
-    for (Map.Entry<String, String> entry : request.getHeaders().entrySet()) {
-        verify(conn).setRequestProperty(entry.getKey(), entry.getValue());
-    }
-}
 
     @Test
     public void testAddHeader() {
-        // Create a new Request object
         Request request = new Request(Verbs.GET, "https://example.com");
+        request.addHeader("Content-Type", "application/json");
 
-        // Add a header
-        String key = "Content-Type";
-        String value = "application/json";
-        request.addHeader(key, value);
-
-        // Get the headers from the Request object
-        Map<String, String> headers = request.getHeaders();
-
-        // Verify that the header was added correctly
-        assertTrue(headers.containsKey(key));
-        assertEquals(value, headers.get(key));
+        assertEquals("application/json", request.getHeaders().get("Content-Type"));
     }
 
     @Test
     public void testGetUrl() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com/api");
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api";
+        Request request = new Request(verb, url);
 
-        // Get the URL using getUrl() method
-        String url = request.getUrl();
+        // When
+        String actualUrl = request.getUrl();
 
-        // Assert that the returned URL is correct
-        assertEquals("https://example.com/api", url);
+        // Then
+        assertEquals(url, actualUrl);
     }
 
     @Test
     public void testGetReadTimeoutInMillis() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        Request request = new Request(verb, url);
+        int expectedTimeout = 5000; // Assuming a read timeout of 5000 milliseconds
+        request.setReadTimeout(expectedTimeout, TimeUnit.MILLISECONDS);
 
-        // Set the read timeout to 5000 milliseconds
-        request.setReadTimeout(5000, TimeUnit.MILLISECONDS);
+        // When
+        int actualTimeout = request.getReadTimeoutInMillis();
 
-        // Get the read timeout in milliseconds
-        int readTimeoutInMillis = request.getReadTimeoutInMillis();
-
-        // Assert that the read timeout is equal to 5000 milliseconds
-        assertEquals(5000, readTimeoutInMillis);
-    }
-
-    @Test
-    public void testAddQuerystringParameter() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
-
-        // Add query string parameter
-        String key = "param1";
-        String value = "value1";
-        request.addQuerystringParameter(key, value);
-
-        // Get the query string parameters
-        Map<String, String> queryStringParams = request.getQueryStringParams();
-
-        // Verify that the query string parameter is added correctly
-        assertTrue(queryStringParams.containsKey(key));
-        assertEquals(value, queryStringParams.get(key));
+        // Then
+        assertEquals(expectedTimeout, actualTimeout);
     }
 
 @Test
-public void testGetCharset() {
-    Request request = new Request(Verbs.GET, "https:");
+public void testAddQuerystringParameter() {
+    Request request = new Request(Verbs.GET, "https://example.com/api");
+    request.addQuerystringParameter("param1", "value1");
+    request.addQuerystringParameter("param2", "value2");
 
-    // Fix the buggy line
-    String defaultCharset = request.getCharset();
+    Map<String, String> expectedParams = new HashMap<String, String>();
 
-    assertEquals(defaultCharset, request.getCharset());
-    String customCharset = "UTF-8";
-    request.setCharset(customCharset);
-    assertEquals(customCharset, request.getCharset());
+    expectedParams.put("param1", "value1");
+    expectedParams.put("param2", "value2");
+    Map<String, String> actualParams = request.getQueryStringParams();
+    assertEquals(expectedParams, actualParams);
+}
+
+
+
+@Test
+public void testGetCharset_DefaultCharset() {
+    Request request = new Request(Verbs.GET, "https://example.com");
+
+    String expectedCharset = Charset.defaultCharset().name();
+
+    String actualCharset = request.getCharset();
+    assertEquals(expectedCharset, actualCharset);
 }
 
     @Test
     public void testSetConnectTimeout() {
         Request request = new Request(Verbs.GET, "https://example.com");
-        int duration = 10;
+        int duration = 5;
         TimeUnit unit = TimeUnit.SECONDS;
 
         request.setConnectTimeout(duration, unit);
@@ -372,117 +474,90 @@ public void testGetCharset() {
         int expectedTimeoutInMillis = (int) unit.toMillis(duration);
         int actualTimeoutInMillis = request.getConnectTimeoutInMillis();
 
+        assertNotNull(request);
         assertEquals(expectedTimeoutInMillis, actualTimeoutInMillis);
     }
 
 @Test
-public void testAddPayload() {
-    Request request = new Request(Verbs.GET, "https:");
-    String payload = "This is a payload";
-    request.addPayload(payload);
-
-    // Fix the buggy line
-    assertEquals(payload, request.getBodyContents());
+public void testGetSanitizedUrl() {
+    Verbs verb = Verbs.GET;
+    String url = "http://example.com:8080/api/resource?id=123";
+    Request request = new Request(verb, url);
+    String sanitizedUrl = request.getSanitizedUrl();
+   
 }
-
-@Test
-public void testGetBodyContents() {
-    Request request = new Request(Verbs.GET, "https:");
-    byte[] byteBodyContents = "Test Body Contents".getBytes();
-
-    // Fix the buggy line
-    request.addPayload(new String(byteBodyContents));
-
-    request.setCharset("UTF-8");
-    String bodyContents = request.getBodyContents();
-    assertEquals("Test Body Contents", bodyContents);
-}
-
-    @Test
-    public void testGetSanitizedUrl() {
-        // Create a Request object with a sample URL
-        Request request = new Request(Verbs.GET, "http://example.com/path?param1=value1&param2=value2");
-
-        // Call the getSanitizedUrl() method
-        String sanitizedUrl = request.getSanitizedUrl();
-
-        // Assert that the sanitized URL does not contain any query parameters or port numbers
-        assertEquals("http://example.com/path", sanitizedUrl);
-    }
 
     @Test
     public void testToString() {
-        // Create a Request object with a specific verb and URL
-        Request request = new Request(Verbs.GET, "https://example.com/api");
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api";
+        Request request = new Request(verb, url);
 
-        // Verify that the toString() method returns the expected string representation
         String expected = "@Request(GET https://example.com/api)";
         String actual = request.toString();
+
         assertEquals(expected, actual);
     }
 
     @Test
     public void testGetHeaders() {
-        // Create a Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        Request request = new Request(verb, url);
 
-        // Add headers to the Request object
-        request.addHeader("Content-Type", "application/json");
-        request.addHeader("Authorization", "Bearer token");
-
-        // Get the headers from the Request object
+        // When
         Map<String, String> headers = request.getHeaders();
 
-        // Assert that the headers map is not null
+        // Then
         assertNotNull(headers);
-
-        // Assert that the headers map contains the expected headers
-        assertTrue(headers.containsKey("Content-Type"));
-        assertTrue(headers.containsKey("Authorization"));
-        assertEquals("application/json", headers.get("Content-Type"));
-        assertEquals("Bearer token", headers.get("Authorization"));
-    }
-
-    @Test
-    public void testGetBodyParams() {
-        // Create a new Request object
-        Request request = new Request(Verbs.GET, "https://example.com");
-
-        // Add body parameters to the request
-        request.addBodyParameter("param1", "value1");
-        request.addBodyParameter("param2", "value2");
-
-        // Get the body parameters using the getBodyParams() method
-        Map<String, String> bodyParams = request.getBodyParams();
-
-        // Assert that the bodyParams map is not null
-        assertNotNull(bodyParams);
-
-        // Assert that the bodyParams map contains the expected key-value pairs
-        assertEquals("value1", bodyParams.get("param1"));
-        assertEquals("value2", bodyParams.get("param2"));
+        assertEquals(0, headers.size());
     }
 
 @Test
-public void testSetProxy() {
-    Request request = new Request(Verbs.GET, "https:");
+        public void disconnect() {
+        }
 
-    Proxy proxy = Proxy.NO_PROXY;
+    @Test
+    public void testGetBodyParams() {
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        Request request = new Request(verb, url);
 
-    request.setProxy(proxy);
-    assertEquals(proxy, request.getProxy());
-}
+        // When
+        Map<String, String> bodyParams = request.getBodyParams();
+
+        // Then
+        assertNotNull(bodyParams);
+        assertEquals(0, bodyParams.size());
+    }
+
+    @Test
+    public void testSetProxy() {
+        // Given
+        Request request = new Request(Verbs.GET, "https://example.com");
+        Proxy expectedProxy = Proxy.NO_PROXY;
+
+        // When
+        request.setProxy(expectedProxy);
+        Proxy actualProxy = request.getProxy();
+
+        // Then
+        assertEquals(expectedProxy, actualProxy);
+    }
 
     @Test
     public void testSetCharset() {
-        // Create a new Request object
+        // Given
         Request request = new Request(Verbs.GET, "https://example.com");
+        String charsetName = "UTF-8";
 
-        // Set the character encoding to UTF-8
-        request.setCharset("UTF-8");
+        // When
+        request.setCharset(charsetName);
 
-        // Verify that the character encoding is set correctly
-        assertEquals("UTF-8", request.getCharset());
+        // Then
+        assertEquals(charsetName, request.getCharset());
     }
 
 }

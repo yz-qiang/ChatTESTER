@@ -5,24 +5,8 @@
  */
 package org.jinstagram.entity.users.feed;
 
-import org.jinstagram.entity.common.Images;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Images;
-import org.jinstagram.entity.common.UsersInPhoto;
-import org.jinstagram.entity.common.Videos;
-import org.jinstagram.entity.users.feed.CarouselMedia;
-import org.junit.runner.RunWith;
-
-import org.jinstagram.entity.common.Videos;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -36,7 +20,7 @@ import org.jinstagram.entity.users.feed.CarouselMedia;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -49,6 +33,28 @@ import org.jinstagram.entity.common.Videos;
 import org.jinstagram.entity.users.feed.CarouselMedia;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import java.util.LinkedList;
+import java.util.List;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.users.feed.CarouselMedia;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -67,112 +73,88 @@ public class CarouselMedia_ESTest extends CarouselMedia_ESTest_scaffolding {
 
     @Test
     public void testSetType() {
-        // Create an instance of CarouselMedia
         CarouselMedia carouselMedia = new CarouselMedia();
-
-        // Set the type attribute using the setType method
-        carouselMedia.setType("image");
-
-        // Verify that the type attribute has been set correctly
-        assertEquals("image", carouselMedia.getType());
+        String expectedType = "image";
+        
+        carouselMedia.setType(expectedType);
+        
+        assertEquals(expectedType, carouselMedia.getType());
     }
 
     @Test
     public void testGetVideos() {
-        // Create a CarouselMedia object
         CarouselMedia carouselMedia = new CarouselMedia();
-
-        // Create a Videos object
         Videos videos = new Videos();
-
-        // Set the Videos object in the CarouselMedia object
         carouselMedia.setVideos(videos);
 
-        // Call the getVideos() method
-        Videos returnedVideos = carouselMedia.getVideos();
+        Videos retrievedVideos = carouselMedia.getVideos();
 
-        // Assert that the returnedVideos is equal to the Videos object
-        assertEquals(videos, returnedVideos);
+        assertNotNull(retrievedVideos);
     }
-
-@Test
-public void testToString() {
-    // Create a new instance of CarouselMedia
-    CarouselMedia carouselMedia = new CarouselMedia();
-    
-    // Set the values of the instance variables
-    carouselMedia.setType(null);
-    carouselMedia.setImages(null);
-    carouselMedia.setVideos(null);
-    carouselMedia.setUsersInPhotoList(null);
-    
-    // Call the toString() method
-    String result = carouselMedia.toString();
-    
-    // Verify the result
-    assertEquals("CarouselMedia [type=null, images=null, videos=null, usersInPhotoList=null]", result);
-}
 
     @Test
     public void testGetType() {
-        // Create an instance of CarouselMedia
+        // Given
         CarouselMedia carouselMedia = new CarouselMedia();
-        
-        // Set the type of carouselMedia object
         carouselMedia.setType("image");
-        
-        // Call the getType() method and store the result
+
+        // When
         String type = carouselMedia.getType();
-        
-        // Assert that the returned type is equal to the expected type
+
+        // Then
         assertEquals("image", type);
     }
 
     @Test
     public void testSetImages() {
-        // Create a new CarouselMedia object
+        // Given
         CarouselMedia carouselMedia = new CarouselMedia();
+        Images newImages = new Images();
 
-        // Create a new Images object
-        Images images = new Images();
+        // When
+        carouselMedia.setImages(newImages);
 
-        // Set the Images object using the setImages method
-        carouselMedia.setImages(images);
-
-        // Verify that the images variable of the CarouselMedia object is set correctly
-        assertEquals(images, carouselMedia.getImages());
+        // Then
+        assertEquals(newImages, carouselMedia.getImages());
     }
 
     @Test
     public void testGetImages() {
-        // Create a CarouselMedia object
         CarouselMedia carouselMedia = new CarouselMedia();
-        
-        // Create an Images object
-        Images images = new Images();
-        
-        // Set the Images object to the CarouselMedia object
-        carouselMedia.setImages(images);
-        
-        // Call the getImages() method
-        Images result = carouselMedia.getImages();
-        
-        // Assert that the returned Images object is the same as the one set
-        assertEquals(images, result);
+        Images testImages = new Images();
+        carouselMedia.setImages(testImages);
+
+        Images retrievedImages = carouselMedia.getImages();
+
+        assertNotNull(retrievedImages);
+        assertEquals(testImages, retrievedImages);
     }
+
+@Test
+public void testSetUsersInPhotoList() {
+    CarouselMedia carouselMedia = new CarouselMedia();
+
+    List<UsersInPhoto> usersInPhotoList = new LinkedList<UsersInPhoto>();
+
+    UsersInPhoto user1 = new UsersInPhoto();
+    UsersInPhoto user2 = new UsersInPhoto();
+    usersInPhotoList.add(user1);
+    usersInPhotoList.add(user2);
+    carouselMedia.setUsersInPhotoList(usersInPhotoList);
+    List<UsersInPhoto> retrievedUsersInPhotoList = carouselMedia.getUsersInPhotoList();
+    assertEquals(usersInPhotoList, retrievedUsersInPhotoList);
+}
 
     @Test
     public void testSetVideos() {
-        // Create a CarouselMedia object
+        // Given
         CarouselMedia carouselMedia = new CarouselMedia();
-
-        // Create a Videos object
         Videos videos = new Videos();
 
-        // Set the Videos object using the setVideos method
+        // When
         carouselMedia.setVideos(videos);
 
-        // Verify that the videos instance variable is set correctly
+        // Then
         assertEquals(videos, carouselMedia.getVideos());
     }
 

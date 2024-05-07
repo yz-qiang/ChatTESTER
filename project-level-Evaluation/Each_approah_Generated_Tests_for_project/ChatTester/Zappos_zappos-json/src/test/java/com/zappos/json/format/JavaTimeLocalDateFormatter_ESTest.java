@@ -5,8 +5,30 @@
  */
 package com.zappos.json.format;
 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import java.time.LocalDate;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.JavaTimeLocalDateFormatter;
+import com.zappos.json.format.ValueFormatter;
+import java.time.Clock;
+import java.time.DateTimeException;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeParseException;
+import java.time.temporal.UnsupportedTemporalTypeException;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.evosuite.runtime.mock.java.time.MockClock;
+import org.evosuite.runtime.mock.java.time.MockLocalDate;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -30,59 +52,26 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class JavaTimeLocalDateFormatter_ESTest extends JavaTimeLocalDateFormatter_ESTest_scaffolding {
 
-@Test
-public void testParse() throws Exception {
-    ZapposJson zapposJson = ZapposJson.getInstance(null);
-
-    String dateString = "2022-01-01";
-    JavaTimeLocalDateFormatter formatter = new JavaTimeLocalDateFormatter();
-    LocalDate result = formatter.parse(zapposJson, dateString);
-    LocalDate expected = LocalDate.of(2022, 1, 1);
-    assertEquals(expected, result);
-}
-
     @Test
-    public void testSetPattern() {
+    public void testCast_ValidObject_ReturnsLocalDate() {
+        // Given
         JavaTimeLocalDateFormatter formatter = new JavaTimeLocalDateFormatter();
-        String pattern = "yyyy-MM-dd";
-        
-        ValueFormatter<LocalDate> result = formatter.setPattern(pattern);
-        
-        assertNotNull(result);
-        assertEquals(pattern, formatter.getPattern());
-    }
+        Object obj = LocalDate.of(2022, 10, 15);
 
-@Test
-public void testCast() {
-    JavaTimeLocalDateFormatter formatter = new JavaTimeLocalDateFormatter();
-    Object obj1 = LocalDate.now();
-    LocalDate result1 = formatter.cast(obj1);
-    assertEquals(obj1, result1);
-    Object obj2 = "2021-01-01";
-    try {
-        LocalDate result2 = formatter.cast(obj2);
-        fail("Expected ClassCastException to be thrown");
-    } catch (ClassCastException e) {
-        // Assertion statement
-        assertNotNull(e);
+        // When
+        LocalDate result = formatter.cast(obj);
+
+        // Then
+        assertEquals(LocalDate.of(2022, 10, 15), result);
     }
-    Object obj3 = null;
-    try {
-        LocalDate result3 = formatter.cast(obj3);
-        // Assertion statement
-        assertNull(result3);
-    } catch (ClassCastException e) {
-        fail("ClassCastException should not be thrown");
-    }
-}
 
     @Test
     public void testNewInstance() {
         JavaTimeLocalDateFormatter formatter = new JavaTimeLocalDateFormatter();
-        ValueFormatter<LocalDate> newInstance = formatter.newInstance();
-        
-        assertNotNull(newInstance);
-        assertTrue(newInstance instanceof JavaTimeLocalDateFormatter);
+        ValueFormatter<LocalDate> newInstanceFormatter = formatter.newInstance();
+
+        assertNotNull(newInstanceFormatter);
+        assertTrue(newInstanceFormatter instanceof JavaTimeLocalDateFormatter);
     }
 
 }

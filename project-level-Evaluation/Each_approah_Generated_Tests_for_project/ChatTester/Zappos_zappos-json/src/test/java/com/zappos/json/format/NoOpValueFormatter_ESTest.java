@@ -5,8 +5,20 @@
  */
 package com.zappos.json.format;
 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.ZapposJson;
+import com.zappos.json.format.NoOpValueFormatter;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -22,29 +34,27 @@ public class NoOpValueFormatter_ESTest extends NoOpValueFormatter_ESTest_scaffol
 
     @Test
     public void testCast() {
-        // Create an instance of NoOpValueFormatter
-        NoOpValueFormatter formatter = new NoOpValueFormatter();
+        // Given
+        NoOpValueFormatter noOpValueFormatter = new NoOpValueFormatter();
+        Object inputObject = new Object();
 
-        // Test case 1: Verify that the method returns the input object as is
-        Object input1 = "Test";
-        Object result1 = formatter.cast(input1);
-        assertEquals(input1, result1);
+        // When
+        Object result = noOpValueFormatter.cast(inputObject);
 
-        // Test case 2: Verify that the method returns the input object as is
-        Object input2 = 123;
-        Object result2 = formatter.cast(input2);
-        assertEquals(input2, result2);
-
-        // Test case 3: Verify that the method returns the input object as is
-        Object input3 = new Object();
-        Object result3 = formatter.cast(input3);
-        assertEquals(input3, result3);
+        // Then
+        assertEquals(inputObject, result);
     }
 
-    @Test(expected = UnsupportedOperationException.class)
-    public void testNewInstance() {
-        NoOpValueFormatter formatter = new NoOpValueFormatter();
-        formatter.newInstance();
+    @Test
+    public void testNewInstanceThrowsUnsupportedOperationException() {
+        NoOpValueFormatter noOpValueFormatter = new NoOpValueFormatter();
+
+        try {
+            noOpValueFormatter.newInstance();
+            fail("Expected UnsupportedOperationException was not thrown");
+        } catch (UnsupportedOperationException e) {
+            assertEquals("NoOp", e.getMessage());
+        }
     }
 
 }

@@ -5,8 +5,19 @@
  */
 package org.jinstagram.entity.tags;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Meta;
+import org.jinstagram.entity.tags.TagInfoData;
+import org.jinstagram.entity.tags.TagInfoFeed;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -17,6 +28,8 @@ import org.jinstagram.entity.tags.TagInfoFeed;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
@@ -25,9 +38,10 @@ import org.jinstagram.entity.tags.TagInfoData;
 import org.jinstagram.entity.tags.TagInfoFeed;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Meta;
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -43,82 +57,56 @@ public class TagInfoFeed_ESTest extends TagInfoFeed_ESTest_scaffolding {
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of TagInfoFeed
+        // Given
         TagInfoFeed tagInfoFeed = new TagInfoFeed();
-
-        // Create a new instance of Meta
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("None");
-
-        // Set the expected Meta object to the TagInfoFeed instance
         tagInfoFeed.setMeta(expectedMeta);
 
-        // Call the getMeta() method
+        // When
         Meta actualMeta = tagInfoFeed.getMeta();
 
-        // Assert that the actual Meta object is equal to the expected Meta object
+        // Then
+        assertNotNull(actualMeta);
         assertEquals(expectedMeta, actualMeta);
     }
 
     @Test
     public void testSetTagInfo() {
-        // Create a new instance of TagInfoFeed
+        // Given
         TagInfoFeed tagInfoFeed = new TagInfoFeed();
-
-        // Create a new instance of TagInfoData
-        TagInfoData tagInfoData = new TagInfoData();
-
-        // Set the tagInfoData object using the setTagInfo method
-        tagInfoFeed.setTagInfo(tagInfoData);
-
-        // Verify that the tagInfo instance variable is set correctly
-        assertEquals(tagInfoData, tagInfoFeed.getTagInfo());
+        TagInfoData newTagInfoData = new TagInfoData();
+        
+        // When
+        tagInfoFeed.setTagInfo(newTagInfoData);
+        
+        // Then
+        assertEquals(newTagInfoData, tagInfoFeed.getTagInfo());
     }
 
     @Test
     public void testGetTagInfo() {
-        // Create a new instance of TagInfoFeed
         TagInfoFeed tagInfoFeed = new TagInfoFeed();
-
-        // Create a new instance of TagInfoData
         TagInfoData expectedTagInfo = new TagInfoData();
-
-        // Set the expected TagInfoData object in the TagInfoFeed
+        
+        // Set up the tagInfo field in TagInfoFeed
         tagInfoFeed.setTagInfo(expectedTagInfo);
-
-        // Call the getTagInfo() method
+        
+        // Call the getTagInfo method and assert that it returns the expected TagInfoData
         TagInfoData actualTagInfo = tagInfoFeed.getTagInfo();
-
-        // Assert that the returned TagInfoData object is the same as the expected one
+        assertNotNull(actualTagInfo);
         assertEquals(expectedTagInfo, actualTagInfo);
     }
 
-@Test(timeout = 4000)
-public void testToString() throws Throwable {
+@Test
+public void testSetMeta() {
     TagInfoFeed tagInfoFeed = new TagInfoFeed();
-    tagInfoFeed.setMeta(null);
-    tagInfoFeed.setTagInfo(null);
-    
-    String expected = "TagInfoFeed [meta=null, tagInfo=null]";
-    String actual = tagInfoFeed.toString();
-    
-    assertEquals(expected, actual);
+    Meta testMeta = new Meta();
+    testMeta.setCode(200);
+    testMeta.setErrorMessage("Test Message"); // Fixed the buggy line by using setErrorMessage instead of setMessage
+
+    tagInfoFeed.setMeta(testMeta);
+    Meta retrievedMeta = tagInfoFeed.getMeta();
+    assertEquals(testMeta, retrievedMeta);
 }
-
-    @Test
-    public void testSetMeta() {
-        // Create a new instance of TagInfoFeed
-        TagInfoFeed tagInfoFeed = new TagInfoFeed();
-
-        // Create a new instance of Meta
-        Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
-        tagInfoFeed.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, tagInfoFeed.getMeta());
-    }
 
 }

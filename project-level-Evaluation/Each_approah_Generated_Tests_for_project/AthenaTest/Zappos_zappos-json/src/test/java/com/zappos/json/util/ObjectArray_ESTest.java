@@ -15,6 +15,42 @@ import org.junit.runner.RunWith;
 @RunWith(EvoRunner.class)
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class ObjectArray_ESTest extends ObjectArray_ESTest_scaffolding {
+    @Test 
+    public void testSize() { 
+    ObjectArray objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    objArray = new ObjectArray();
+    assertEquals(0, objArray.size());
+    assertEquals(0, objArray.size());
+    }
+    
+    
     @Test(expected = IndexOutOfBoundsException.class) public void testGet() { 
     new ObjectArray().get(0);
     }

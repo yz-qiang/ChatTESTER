@@ -6,7 +6,31 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.GridPosition;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.GridPosition;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -22,50 +46,56 @@ public class UsersInPhoto_ESTest extends UsersInPhoto_ESTest_scaffolding {
 
     @Test
     public void testSetUser() {
-        // Create a new UsersInPhoto object
+        // Given
         UsersInPhoto usersInPhoto = new UsersInPhoto();
-
-        // Create a new User object
         User user = new User();
-
-        // Set the user object using the setUser method
+        
+        // When
         usersInPhoto.setUser(user);
-
-        // Verify that the user object is set correctly
+        
+        // Then
         assertEquals(user, usersInPhoto.getUser());
     }
 
-@Test
-public void testGetUser() {
-    User user = new User();
-    user.setFullName("John Doe");
+    @Test
+    public void testGetUser() {
+        UsersInPhoto usersInPhoto = new UsersInPhoto();
+        User user = new User();
+        usersInPhoto.setUser(user);
 
-    UsersInPhoto usersInPhoto = new UsersInPhoto();
-    usersInPhoto.setUser(user);
-    User result = usersInPhoto.getUser();
-    assertEquals(user, result);
-}
+        User retrievedUser = usersInPhoto.getUser();
+
+        assertNotNull(retrievedUser);
+    }
 
 @Test
 public void testSetPosition() {
     UsersInPhoto usersInPhoto = new UsersInPhoto();
 
-    GridPosition position = new GridPosition();
-    position.setX(2);
-    position.setY(3);
-
-    usersInPhoto.setPosition(position);
-    assertEquals(position, usersInPhoto.getPosition());
-}
-
-@Test
-public void testGetPosition() {
-    UsersInPhoto usersInPhoto = new UsersInPhoto();
     GridPosition expectedPosition = new GridPosition();
-    expectedPosition.setY(2.0);
+    expectedPosition.setX(2);
+    expectedPosition.setY(3);
+
     usersInPhoto.setPosition(expectedPosition);
     GridPosition actualPosition = usersInPhoto.getPosition();
-    assertSame(expectedPosition, actualPosition);
+    assertEquals(expectedPosition, actualPosition);
 }
+
+    @Test
+    public void testGetPosition() {
+        UsersInPhoto usersInPhoto = new UsersInPhoto();
+        GridPosition expectedPosition = new GridPosition();
+        
+        // Set up the expected position
+        usersInPhoto.setPosition(expectedPosition);
+        
+        // Retrieve the position using getPosition() method
+        GridPosition actualPosition = usersInPhoto.getPosition();
+        
+        // Assert that the retrieved position is not null
+        assertNotNull(actualPosition);
+        
+        // Additional assertions can be added based on specific requirements
+    }
 
 }

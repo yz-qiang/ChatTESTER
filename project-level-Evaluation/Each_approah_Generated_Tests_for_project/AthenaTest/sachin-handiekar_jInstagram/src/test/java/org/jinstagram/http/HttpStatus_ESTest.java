@@ -4,6 +4,7 @@
  */
 package org.jinstagram.http;
 
+import org.jinstagram.InstagramConfig;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;

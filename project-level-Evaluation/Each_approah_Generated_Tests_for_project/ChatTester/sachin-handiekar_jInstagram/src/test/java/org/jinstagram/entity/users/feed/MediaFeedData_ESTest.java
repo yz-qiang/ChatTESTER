@@ -5,51 +5,12 @@
  */
 package org.jinstagram.entity.users.feed;
 
-import org.jinstagram.entity.common.Images;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Caption;
-import org.jinstagram.entity.common.Comments;
-import org.jinstagram.entity.common.Images;
-import org.jinstagram.entity.common.Likes;
-import org.jinstagram.entity.common.Location;
-import org.jinstagram.entity.common.User;
-import org.jinstagram.entity.common.UsersInPhoto;
-import org.jinstagram.entity.common.Videos;
-import org.jinstagram.entity.users.feed.CarouselMedia;
-import org.jinstagram.entity.users.feed.MediaFeedData;
-import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Location;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.util.LinkedList;
-import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Caption;
-import org.jinstagram.entity.common.Comments;
-import org.jinstagram.entity.common.Images;
-import org.jinstagram.entity.common.Likes;
-import org.jinstagram.entity.common.Location;
-import org.jinstagram.entity.common.User;
-import org.jinstagram.entity.common.UsersInPhoto;
-import org.jinstagram.entity.common.Videos;
-import org.jinstagram.entity.users.feed.CarouselMedia;
-import org.jinstagram.entity.users.feed.MediaFeedData;
-import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.Comments;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.Arrays;
+import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -88,9 +49,163 @@ import org.jinstagram.entity.users.feed.CarouselMedia;
 import org.jinstagram.entity.users.feed.MediaFeedData;
 import org.junit.runner.RunWith;
 
-import org.jinstagram.entity.common.User;
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.util.LinkedList;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import java.util.Arrays;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.Caption;
+import org.jinstagram.entity.common.Comments;
+import org.jinstagram.entity.common.Images;
+import org.jinstagram.entity.common.Likes;
+import org.jinstagram.entity.common.Location;
+import org.jinstagram.entity.common.User;
+import org.jinstagram.entity.common.UsersInPhoto;
+import org.jinstagram.entity.common.Videos;
+import org.jinstagram.entity.users.feed.CarouselMedia;
+import org.jinstagram.entity.users.feed.MediaFeedData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.LinkedList;
@@ -113,474 +228,415 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class MediaFeedData_ESTest extends MediaFeedData_ESTest_scaffolding {
 
-@Test
-public void testGetCarouselMedia() {
-    MediaFeedData mediaFeedData = new MediaFeedData();
-
-    List<CarouselMedia> carouselMediaList = new LinkedList<CarouselMedia>();
-
-    CarouselMedia carouselMedia1 = new CarouselMedia();
-    CarouselMedia carouselMedia2 = new CarouselMedia();
-    carouselMediaList.add(carouselMedia1);
-    carouselMediaList.add(carouselMedia2);
-    mediaFeedData.setCarouselMedia(carouselMediaList);
-    List<CarouselMedia> result = mediaFeedData.getCarouselMedia();
-    assertEquals(carouselMediaList, result);
-}
-
     @Test
     public void testSetImages() {
-        // Create a new MediaFeedData object
+        // Given
+        Images images = new Images();
         MediaFeedData mediaFeedData = new MediaFeedData();
 
-        // Create a new Images object
-        Images images = new Images();
-
-        // Set the Images object using the setImages method
+        // When
         mediaFeedData.setImages(images);
 
-        // Verify that the images variable of the MediaFeedData object is set correctly
+        // Then
         assertEquals(images, mediaFeedData.getImages());
     }
 
     @Test
-    public void testGetComments() {
-        // Create a new instance of MediaFeedData
+    public void testSetComments() {
+        // Given
+        Comments comments = new Comments();
         MediaFeedData mediaFeedData = new MediaFeedData();
 
-        // Create a new instance of Comments
-        Comments comments = new Comments();
-
-        // Set the comments for the mediaFeedData object
+        // When
         mediaFeedData.setComments(comments);
 
-        // Call the getComments() method
-        Comments result = mediaFeedData.getComments();
-
-        // Assert that the returned comments is equal to the comments set
-        assertEquals(comments, result);
+        // Then
+        assertNotNull(mediaFeedData.getComments());
+        assertEquals(comments, mediaFeedData.getComments());
     }
 
     @Test
-    public void testSetComments() {
-        // Create a MediaFeedData object
+    public void testSetComments2() {
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a Comments object
         Comments comments = new Comments();
-
-        // Set the Comments object using the setComments method
+        
+        // When
         mediaFeedData.setComments(comments);
-
-        // Verify that the comments instance variable is set correctly
+        
+        // Then
         assertEquals(comments, mediaFeedData.getComments());
     }
 
     @Test
     public void testSetLink() {
-        // Create a new instance of MediaFeedData
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
+        String newLink = "https://www.example.com";
 
-        // Set the link using the setLink method
-        String link = "https://example.com";
-        mediaFeedData.setLink(link);
+        // When
+        mediaFeedData.setLink(newLink);
 
-        // Verify that the link has been set correctly
-        assertEquals(link, mediaFeedData.getLink());
+        // Then
+        assertEquals(newLink, mediaFeedData.getLink());
     }
 
     @Test
     public void testGetUser() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a User object
         User user = new User();
-        // Set the User object to the MediaFeedData object
         mediaFeedData.setUser(user);
 
-        // Call the getUser() method
-        User result = mediaFeedData.getUser();
+        User retrievedUser = mediaFeedData.getUser();
 
-        // Assert that the returned User object is the same as the one set
-        assertEquals(user, result);
+        assertNotNull(retrievedUser);
     }
 
     @Test
     public void testGetCaption() {
-        // Create a MediaFeedData object
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
+        Caption expectedCaption = new Caption();
+        mediaFeedData.setCaption(expectedCaption);
 
-        // Create a Caption object
-        Caption caption = new Caption();
-        caption.setText("Test caption");
+        // When
+        Caption actualCaption = mediaFeedData.getCaption();
 
-        // Set the caption for the MediaFeedData object
-        mediaFeedData.setCaption(caption);
-
-        // Call the getCaption() method
-        Caption result = mediaFeedData.getCaption();
-
-        // Assert that the returned caption is equal to the original caption
-        assertEquals(caption, result);
+        // Then
+        assertNotNull(actualCaption);
+        // Add more assertions or verifications as needed
     }
 
     @Test
     public void testGetLikes() {
-        // Create a MediaFeedData instance
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a Likes object
         Likes likes = new Likes();
-        // Set any required properties of the Likes object
-
-        // Set the Likes object to the MediaFeedData instance
         mediaFeedData.setLikes(likes);
 
-        // Call the getLikes() method and assert that it returns the expected Likes object
-        assertEquals(likes, mediaFeedData.getLikes());
+        Likes retrievedLikes = mediaFeedData.getLikes();
+
+        assertNotNull(retrievedLikes);
     }
 
     @Test
     public void testGetLink() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
-        
-        // Set the link value
-        String link = "https://example.com";
-        mediaFeedData.setLink(link);
-        
-        // Call the getLink() method and assert the returned value
-        assertEquals(link, mediaFeedData.getLink());
+        String expectedLink = "https://example.com";
+        mediaFeedData.setLink(expectedLink);
+
+        String actualLink = mediaFeedData.getLink();
+
+        assertEquals(expectedLink, actualLink);
     }
 
     @Test
     public void testIsUserHasLiked() {
-        // Create a MediaFeedData object
+        // Create a MediaFeedData instance
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Set the userHasLiked property to true
+        
+        // Set the userHasLiked value to true
         mediaFeedData.setUserHasLiked(true);
-
-        // Call the isUserHasLiked method and assert that it returns true
+        
+        // Check if isUserHasLiked returns true when userHasLiked is true
         assertTrue(mediaFeedData.isUserHasLiked());
-
-        // Set the userHasLiked property to false
+        
+        // Set the userHasLiked value to false
         mediaFeedData.setUserHasLiked(false);
-
-        // Call the isUserHasLiked method and assert that it returns false
+        
+        // Check if isUserHasLiked returns false when userHasLiked is false
         assertFalse(mediaFeedData.isUserHasLiked());
     }
 
     @Test
     public void testGetCreatedTime() {
-        // Create a MediaFeedData object
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
+        String expectedCreatedTime = "2022-01-01T12:00:00";
 
-        // Set the createdTime value
-        String expectedCreatedTime = "2021-01-01T12:00:00";
+        // When
         mediaFeedData.setCreatedTime(expectedCreatedTime);
-
-        // Retrieve the createdTime value using the getCreatedTime() method
         String actualCreatedTime = mediaFeedData.getCreatedTime();
 
-        // Assert that the retrieved createdTime value matches the expected value
+        // Then
         assertEquals(expectedCreatedTime, actualCreatedTime);
     }
 
     @Test
     public void testSetCaption() {
-        // Create a new instance of MediaFeedData
+        // Create a new Caption object for testing
+        Caption testCaption = new Caption();
+        testCaption.setText("Test Caption");
+
+        // Create a new MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
 
-        // Create a new instance of Caption
-        Caption caption = new Caption();
-        // Set the properties of the caption object
-        caption.setText("Test caption");
+        // Call the setCaption method with the test Caption object
+        mediaFeedData.setCaption(testCaption);
 
-        // Call the setCaption method of MediaFeedData and pass the caption object
-        mediaFeedData.setCaption(caption);
+        // Retrieve the Caption object from the MediaFeedData object
+        Caption retrievedCaption = mediaFeedData.getCaption();
 
-        // Assert that the caption object is set correctly
-        assertEquals(caption, mediaFeedData.getCaption());
+        // Assert that the retrieved Caption object is the same as the test Caption object
+        assertEquals(testCaption, retrievedCaption);
     }
 
-    @Test
-    public void testSetUser() {
-        // Create a MediaFeedData object
-        MediaFeedData mediaFeedData = new MediaFeedData();
+@Test
+public void testSetUser() {
+    MediaFeedData mediaFeedData = new MediaFeedData();
+    User user = new User();
+    user.setId("123");
+    user.setUserName("testUser"); // Fixed the method name to setUserName
 
-        // Create a User object
-        User user = new User();
-
-        // Set the User object using the setUser method
-        mediaFeedData.setUser(user);
-
-        // Verify that the user instance variable is set correctly
-        assertEquals(user, mediaFeedData.getUser());
-    }
+    mediaFeedData.setUser(user);
+    assertEquals("123", mediaFeedData.getUser().getId());
+    assertEquals("testUser", mediaFeedData.getUser().getUserName());
+}
 
     @Test
     public void testSetCreatedTime() {
-        // Create an instance of MediaFeedData
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
+        String expectedCreatedTime = "2022-01-01T12:00:00";
 
-        // Set the createdTime using the setCreatedTime method
-        String createdTime = "2021-10-01T12:00:00";
-        mediaFeedData.setCreatedTime(createdTime);
+        // When
+        mediaFeedData.setCreatedTime(expectedCreatedTime);
 
-        // Verify that the createdTime has been set correctly
-        assertEquals(createdTime, mediaFeedData.getCreatedTime());
+        // Then
+        assertEquals(expectedCreatedTime, mediaFeedData.getCreatedTime());
     }
 
     @Test
     public void testGetLocation() {
-        // Create a new instance of MediaFeedData
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a new instance of Location
-        Location location = new Location();
-        // Set the desired location values
-        location.setLatitude(37.7749);
-        location.setLongitude(-122.4194);
-
-        // Set the location of the mediaFeedData object
-        mediaFeedData.setLocation(location);
-
-        // Call the getLocation() method
-        Location result = mediaFeedData.getLocation();
-
-        // Assert that the returned location is equal to the expected location
-        assertEquals(location, result);
+        
+        // Set up test data
+        Location expectedLocation = new Location();
+        mediaFeedData.setLocation(expectedLocation);
+        
+        // Call the method under test
+        Location actualLocation = mediaFeedData.getLocation();
+        
+        // Assert that the returned location is not null
+        assertNotNull(actualLocation);
     }
 
     @Test
     public void testSetLocation() {
-        // Create a new MediaFeedData object
+        // Create a new instance of MediaFeedData
         MediaFeedData mediaFeedData = new MediaFeedData();
 
         // Create a new Location object
         Location location = new Location();
-        // Set the properties of the Location object
-        location.setLatitude(37.7749);
-        location.setLongitude(-122.4194);
-        location.setName("San Francisco");
+        location.setLatitude(40.7128);
+        location.setLongitude(-74.0060);
+        location.setName("New York City");
 
-        // Call the setLocation() method with the Location object
+        // Set the location for the media feed data
         mediaFeedData.setLocation(location);
 
-        // Verify that the location attribute of the MediaFeedData object is set correctly
-        assertEquals(location, mediaFeedData.getLocation());
+        // Verify that the location was set correctly
+        assertEquals("New York City", mediaFeedData.getLocation().getName());
+        assertEquals(40.7128, mediaFeedData.getLocation().getLatitude(), 0.001);
+        assertEquals(-74.0060, mediaFeedData.getLocation().getLongitude(), 0.001);
     }
 
     @Test
     public void testGetVideos() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a Videos object
         Videos videos = new Videos();
-
-        // Set the Videos object in the MediaFeedData object
         mediaFeedData.setVideos(videos);
 
-        // Call the getVideos() method
-        Videos result = mediaFeedData.getVideos();
+        Videos retrievedVideos = mediaFeedData.getVideos();
 
-        // Assert that the returned Videos object is the same as the one set
-        assertEquals(videos, result);
+        assertNotNull(retrievedVideos);
     }
 
     @Test
     public void testSetImageFilter() {
-        // Create a MediaFeedData object
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
+        String expectedImageFilter = "testFilter";
 
-        // Set the image filter
-        String imageFilter = "sepia";
-        mediaFeedData.setImageFilter(imageFilter);
+        // When
+        mediaFeedData.setImageFilter(expectedImageFilter);
 
-        // Verify that the image filter is set correctly
-        assertEquals(imageFilter, mediaFeedData.getImageFilter());
+        // Then
+        assertEquals(expectedImageFilter, mediaFeedData.getImageFilter());
     }
 
     @Test
     public void testSetVideos() {
-        // Create a new instance of MediaFeedData
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a new instance of Videos
         Videos videos = new Videos();
-
-        // Set the videos object using the setVideos method
+        
+        // When
         mediaFeedData.setVideos(videos);
-
-        // Verify that the videos object is set correctly
+        
+        // Then
         assertEquals(videos, mediaFeedData.getVideos());
     }
 
     @Test
     public void testSetId() {
-        // Create a new instance of MediaFeedData
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Set the id using the setId method
         String id = "12345";
+
+        // When
         mediaFeedData.setId(id);
 
-        // Verify that the id has been set correctly
+        // Then
         assertEquals(id, mediaFeedData.getId());
     }
 
     @Test
     public void testGetImageFilter() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
+        mediaFeedData.setImageFilter("TestFilter");
 
-        // Set the image filter
-        mediaFeedData.setImageFilter("Filter1");
+        String expectedFilter = "TestFilter";
+        String actualFilter = mediaFeedData.getImageFilter();
 
-        // Retrieve the image filter using the getImageFilter() method
-        String imageFilter = mediaFeedData.getImageFilter();
-
-        // Assert that the retrieved image filter is equal to the set image filter
-        assertEquals("Filter1", imageFilter);
+        assertEquals(expectedFilter, actualFilter);
     }
 
-@Test
-public void testSetTags() {
-    MediaFeedData mediaFeedData = new MediaFeedData();
+    @Test
+    public void testSetTags() {
+        // Given
+        MediaFeedData mediaFeedData = new MediaFeedData();
+        List<String> newTags = Arrays.asList("tag1", "tag2", "tag3");
 
-    List<String> tags = new LinkedList<String>();
-    tags.add("tag1");
-    tags.add("tag2");
-    tags.add("tag3");
+        // When
+        mediaFeedData.setTags(newTags);
 
-    mediaFeedData.setTags(tags);
-    assertEquals(tags, mediaFeedData.getTags());
-}
+        // Then
+        List<String> updatedTags = mediaFeedData.getTags();
+        assertEquals(newTags, updatedTags);
+    }
 
     @Test
     public void testSetType() {
-        // Create an instance of MediaFeedData
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Set the type attribute using the setType method
         String type = "photo";
+
+        // When
         mediaFeedData.setType(type);
 
-        // Verify that the type attribute has been set correctly
+        // Then
         assertEquals(type, mediaFeedData.getType());
     }
 
     @Test
     public void testSetLikes() {
-        // Create a MediaFeedData object
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create a Likes object
         Likes likes = new Likes();
-
-        // Set the Likes object using the setLikes method
+        
+        // When
         mediaFeedData.setLikes(likes);
-
-        // Verify that the likes instance variable is set correctly
+        
+        // Then
         assertEquals(likes, mediaFeedData.getLikes());
     }
 
     @Test
     public void testGetId() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
-        
-        // Set the id attribute
-        mediaFeedData.setId("12345");
-        
-        // Call the getId() method and assert the returned value
-        assertEquals("12345", mediaFeedData.getId());
+        String expectedId = "testId";
+        mediaFeedData.setId(expectedId);
+
+        String actualId = mediaFeedData.getId();
+
+        assertEquals(expectedId, actualId);
     }
 
 @Test
-public void testGetUsersInPhotoList() {
+public void testSetCarouselMedia() {
     MediaFeedData mediaFeedData = new MediaFeedData();
+    List<CarouselMedia> testCarouselMediaList = new ArrayList<CarouselMedia>();
+    CarouselMedia carouselMedia1 = new CarouselMedia();
 
-    List<UsersInPhoto> usersInPhotoList = new LinkedList<UsersInPhoto>();
+    // Fixing the buggy line by using the provided setter method "setType" instead of "setId"
+    carouselMedia1.setType("1");
 
-    UsersInPhoto user1 = new UsersInPhoto();
-    UsersInPhoto user2 = new UsersInPhoto();
-    usersInPhotoList.add(user1);
-    usersInPhotoList.add(user2);
-    mediaFeedData.setUsersInPhotoList(usersInPhotoList);
-    List<UsersInPhoto> result = mediaFeedData.getUsersInPhotoList();
-    assertEquals(usersInPhotoList, result);
+    CarouselMedia carouselMedia2 = new CarouselMedia();
+    carouselMedia2.setType("2");
+    testCarouselMediaList.add(carouselMedia1);
+    testCarouselMediaList.add(carouselMedia2);
+    mediaFeedData.setCarouselMedia(testCarouselMediaList);
+    List<CarouselMedia> retrievedCarouselMediaList = mediaFeedData.getCarouselMedia();
+    assertEquals(testCarouselMediaList, retrievedCarouselMediaList);
 }
 
     @Test
     public void testSetUserHasLiked() {
         MediaFeedData mediaFeedData = new MediaFeedData();
-        boolean userHasLiked = true;
         
-        mediaFeedData.setUserHasLiked(userHasLiked);
+        // Initially set userHasLiked to false
+        assertFalse(mediaFeedData.isUserHasLiked());
         
+        // Set userHasLiked to true
+        mediaFeedData.setUserHasLiked(true);
         assertTrue(mediaFeedData.isUserHasLiked());
+        
+        // Set userHasLiked back to false
+        mediaFeedData.setUserHasLiked(false);
+        assertFalse(mediaFeedData.isUserHasLiked());
     }
 
     @Test
     public void testGetType() {
-        // Create a MediaFeedData object
+        // Given
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Set the type of the object
         mediaFeedData.setType("photo");
 
-        // Call the getType() method and assert the returned value
-        assertEquals("photo", mediaFeedData.getType());
+        // When
+        String type = mediaFeedData.getType();
+
+        // Then
+        assertEquals("photo", type);
     }
 
-@Test
-public void testGetTags() {
-    MediaFeedData mediaFeedData = new MediaFeedData();
+    @Test
+    public void testGetTags() {
+        // Given
+        List<String> expectedTags = Arrays.asList("tag1", "tag2", "tag3");
+        MediaFeedData mediaFeedData = new MediaFeedData();
+        mediaFeedData.setTags(expectedTags);
 
-    List<String> tags = new LinkedList<String>();
+        // When
+        List<String> actualTags = mediaFeedData.getTags();
 
-    tags.add("tag1");
-    tags.add("tag2");
-    tags.add("tag3");
-    mediaFeedData.setTags(tags);
-    List<String> retrievedTags = mediaFeedData.getTags();
-    assertEquals(tags, retrievedTags);
-}
+        // Then
+        assertEquals(expectedTags, actualTags);
+    }
 
     @Test
     public void testGetImages() {
-        // Create a MediaFeedData object
         MediaFeedData mediaFeedData = new MediaFeedData();
-
-        // Create an Images object
         Images images = new Images();
-
-        // Set the Images object to the MediaFeedData object
         mediaFeedData.setImages(images);
 
-        // Call the getImages() method
-        Images result = mediaFeedData.getImages();
+        Images retrievedImages = mediaFeedData.getImages();
 
-        // Assert that the returned Images object is the same as the one set
-        assertEquals(images, result);
+        assertNotNull(retrievedImages);
     }
 
 @Test
 public void testSetUsersInPhotoList() {
     MediaFeedData mediaFeedData = new MediaFeedData();
 
-    List<UsersInPhoto> usersInPhotoList = new LinkedList<UsersInPhoto>();
+    List<UsersInPhoto> testUsersInPhotoList = new LinkedList<UsersInPhoto>();
 
     UsersInPhoto user1 = new UsersInPhoto();
     UsersInPhoto user2 = new UsersInPhoto();
-    usersInPhotoList.add(user1);
-    usersInPhotoList.add(user2);
-    mediaFeedData.setUsersInPhotoList(usersInPhotoList);
-    assertEquals(usersInPhotoList, mediaFeedData.getUsersInPhotoList());
+    testUsersInPhotoList.add(user1);
+    testUsersInPhotoList.add(user2);
+    mediaFeedData.setUsersInPhotoList(testUsersInPhotoList);
+    List<UsersInPhoto> updatedUsersInPhotoList = mediaFeedData.getUsersInPhotoList();
+    assertEquals(testUsersInPhotoList, updatedUsersInPhotoList);
 }
 
 }

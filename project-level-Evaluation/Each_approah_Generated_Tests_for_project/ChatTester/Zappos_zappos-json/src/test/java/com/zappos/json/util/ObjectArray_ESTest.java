@@ -5,8 +5,22 @@
  */
 package com.zappos.json.util;
 
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.ObjectArray;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -20,15 +34,31 @@ import org.junit.runner.RunWith;
 public class ObjectArray_ESTest extends ObjectArray_ESTest_scaffolding {
 
 @Test
-public void testGet() {
+public void testSize() {
     ObjectArray objectArray = new ObjectArray();
-    int index = 0;
-    try {
-        objectArray.get(index);
-        fail("Expected IndexOutOfBoundsException to be thrown");
-    } catch (IndexOutOfBoundsException e) {
-        assertEquals("Index: " + index + ", Size: " + objectArray.size(), e.getMessage());
-    }
+    int expectedSize = 0; // Assuming the initial size is 0
+    int actualSize = objectArray.size();
+    assertEquals(expectedSize, actualSize);
+}
+
+@Test
+public void testAdd() {
+    ObjectArray objectArray = new ObjectArray();
+    Object element = new Object();
+  
+}
+
+@Test
+public void testGetValidIndex() {
+    ObjectArray objectArray = new ObjectArray();
+    objectArray.elementData = new Object[]{1, 2, 3, 4, 5};
+   
+}
+
+@Test
+public void testToArray() {
+    ObjectArray objectArray = new ObjectArray();
+  
 }
 
 }

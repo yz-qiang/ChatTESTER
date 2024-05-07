@@ -6,7 +6,50 @@
 package org.jinstagram.entity.users.basicinfo;
 
 import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.users.basicinfo.Counts;
+import org.jinstagram.entity.users.basicinfo.UserInfoData;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.users.basicinfo.Counts;
+import org.jinstagram.entity.users.basicinfo.UserInfoData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.users.basicinfo.Counts;
+import org.jinstagram.entity.users.basicinfo.UserInfoData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.users.basicinfo.Counts;
+import org.jinstagram.entity.users.basicinfo.UserInfoData;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -21,310 +64,223 @@ public class UserInfoData_ESTest extends UserInfoData_ESTest_scaffolding {
 
     @Test
     public void testGetId() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the value of id attribute
-        String expectedId = "123";
+        String expectedId = "12345";
         userInfoData.setId(expectedId);
 
-        // Call the getId() method and assert the returned value
         String actualId = userInfoData.getId();
+
         assertEquals(expectedId, actualId);
     }
 
-    @Test
-    public void testGetLastName() {
-        // Create a UserInfoData object
-        UserInfoData userInfoData = new UserInfoData();
+@Test
+public void testGetLastName() {
+    UserInfoData userInfoData = new UserInfoData();
+    String expectedLastName = "Doe";
 
-        // Set the last name of the object
-        String expectedLastName = "Smith";
-        userInfoData.setLast_name(expectedLastName);
+    userInfoData.setLast_name(expectedLastName);
 
-        // Call the getLastName() method and assert the returned value
-        String actualLastName = userInfoData.getLastName();
-        assertEquals(expectedLastName, actualLastName);
-    }
+    String actualLastName = userInfoData.getLastName();
+    assertEquals(expectedLastName, actualLastName);
+}
 
     @Test
     public void testSetUsername() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the username using the setUsername method
-        String username = "john_doe";
+        String username = "testUsername";
+        
         userInfoData.setUsername(username);
-
-        // Verify that the username property has been set correctly
+        
         assertEquals(username, userInfoData.getUsername());
     }
 
     @Test
     public void testGetUsername() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the username using the setUsername() method
-        userInfoData.setUsername("john_doe");
-
-        // Retrieve the username using the getUsername() method
-        String username = userInfoData.getUsername();
-
-        // Assert that the retrieved username is equal to the expected username
-        assertEquals("john_doe", username);
+        userInfoData.setUsername("testUsername");
+        
+        String actualUsername = userInfoData.getUsername();
+        String expectedUsername = "testUsername";
+        
+        assertEquals(expectedUsername, actualUsername);
     }
 
     @Test
     public void testSetProfilePicture() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the profile picture using the provided image file path or URL
         String profilePicture = "https://example.com/profile.jpg";
+        
         userInfoData.setProfilePicture(profilePicture);
-
-        // Verify that the profile picture is correctly set
+        
         assertEquals(profilePicture, userInfoData.getProfilePicture());
     }
 
     @Test
     public void testSetFirstName() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the first name using the setFirstName method
         String firstName = "John";
+        
         userInfoData.setFirstName(firstName);
-
-        // Verify that the first name is set correctly
+        
         assertEquals(firstName, userInfoData.getFirstName());
     }
 
     @Test
     public void testSetBusiness() {
         UserInfoData userInfoData = new UserInfoData();
-        boolean isBusiness = true;
+        boolean initialIsBusiness = userInfoData.isBusiness();
         
-        userInfoData.setBusiness(isBusiness);
+        // Set isBusiness to true
+        userInfoData.setBusiness(true);
+        assertTrue(userInfoData.isBusiness());
         
-        assertEquals(isBusiness, userInfoData.isBusiness());
+        // Set isBusiness to false
+        userInfoData.setBusiness(false);
+        assertFalse(userInfoData.isBusiness());
+        
+        // Ensure that setting isBusiness does not affect other properties
+        assertEquals(initialIsBusiness, userInfoData.isBusiness());
     }
 
     @Test
     public void testSetBio() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the bio using the setBio method
-        String bio = "This is my bio";
+        String bio = "New bio information";
+        
         userInfoData.setBio(bio);
-
-        // Verify that the bio has been set correctly
+        
         assertEquals(bio, userInfoData.getBio());
     }
 
     @Test
-    public void testSetCounts_2() {
-        // Create a new instance of UserInfoData
+    public void testSetCounts() {
         UserInfoData userInfoData = new UserInfoData();
-
-        // Create a new instance of Counts
         Counts counts = new Counts();
+        counts.setFollows(100);
+        counts.setFollowedBy(200);
+        counts.setMedia(300);
 
-        // Set the counts object using the setCounts method
         userInfoData.setCounts(counts);
 
-        // Verify that the counts object is correctly assigned
-        assertEquals(counts, userInfoData.getCounts());
+        assertEquals(100, userInfoData.getCounts().getFollows());
+        assertEquals(200, userInfoData.getCounts().getFollowedBy());
+        assertEquals(300, userInfoData.getCounts().getMedia());
     }
 
     @Test
     public void testSetId() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the id using the setId method
-        String id = "12345";
+        String id = "1234567890";
         userInfoData.setId(id);
-
-        // Verify that the id has been set correctly
+        
         assertEquals(id, userInfoData.getId());
     }
 
     @Test
     public void testIsBusiness() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the business status to true
+        
+        // Test when isBusiness is true
         userInfoData.setBusiness(true);
-
-        // Call the isBusiness() method and assert that it returns true
         assertTrue(userInfoData.isBusiness());
-
-        // Set the business status to false
+        
+        // Test when isBusiness is false
         userInfoData.setBusiness(false);
-
-        // Call the isBusiness() method and assert that it returns false
         assertFalse(userInfoData.isBusiness());
     }
 
     @Test
     public void testGetBio() {
-        // Create a UserInfoData object
+        // Given
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the bio of the object
-        String expectedBio = "This is my biography";
+        String expectedBio = "This is a test bio";
         userInfoData.setBio(expectedBio);
 
-        // Call the getBio() method and assert the returned value
+        // When
         String actualBio = userInfoData.getBio();
+
+        // Then
         assertEquals(expectedBio, actualBio);
     }
 
     @Test
     public void testGetProfilePicture() {
-        // Create a new instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the profile picture
-        String expectedProfilePicture = "profile_picture.jpg";
+        String expectedProfilePicture = "https://example.com/profile.jpg";
         userInfoData.setProfilePicture(expectedProfilePicture);
 
-        // Get the profile picture using the getProfilePicture() method
         String actualProfilePicture = userInfoData.getProfilePicture();
 
-        // Assert that the retrieved profile picture matches the expected profile picture
         assertEquals(expectedProfilePicture, actualProfilePicture);
     }
 
-@Test
-public void testSetCounts() {
-    // Create a new instance of UserInfoData
-    UserInfoData userInfoData = new UserInfoData();
-    
-    // Create a new instance of Counts
-    Counts counts = new Counts();
-    counts.setMedia(2888);
-    
-    // Call the setCounts method
-    userInfoData.setCounts(counts);
-    
-    // Get the counts from the UserInfoData object
-    Counts actualCounts = userInfoData.getCounts();
-    
-    // Assert that the counts are equal
-    assertEquals(counts, actualCounts);
-}
+    @Test
+    public void testGetCounts() {
+        UserInfoData userInfoData = new UserInfoData();
+        Counts counts = new Counts();
+        userInfoData.setCounts(counts);
+
+        Counts retrievedCounts = userInfoData.getCounts();
+
+        assertNotNull(retrievedCounts);
+    }
 
     @Test
     public void testGetWebsite() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the website value
         String website = "www.example.com";
         userInfoData.setWebsite(website);
 
-        // Get the website value using the getWebsite() method
         String retrievedWebsite = userInfoData.getWebsite();
 
-        // Assert that the retrieved website value is equal to the set website value
         assertEquals(website, retrievedWebsite);
     }
 
     @Test
     public void testSetLast_name() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the last name using the setLast_name method
-        String expectedLastName = "Doe";
-        userInfoData.setLast_name(expectedLastName);
-
-        // Verify that the last name was set correctly
-        String actualLastName = userInfoData.getLastName();
-        assertEquals(expectedLastName, actualLastName);
+        String last_name = "Doe";
+        userInfoData.setLast_name(last_name);
+        
+        assertEquals(last_name, userInfoData.getLastName());
     }
 
     @Test
     public void testSetWebsite() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the website using the setWebsite method
         String website = "www.example.com";
+        
         userInfoData.setWebsite(website);
-
-        // Verify that the website has been set correctly
+        
         assertEquals(website, userInfoData.getWebsite());
     }
 
     @Test
     public void testGetFirstName() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the value of firstName using the setter method
         userInfoData.setFirstName("John");
-
-        // Retrieve the value of firstName using the getter method
-        String firstName = userInfoData.getFirstName();
-
-        // Assert that the retrieved value is equal to the expected value
-        assertEquals("John", firstName);
+        assertEquals("John", userInfoData.getFirstName());
     }
 
     @Test
     public void testSetFullName() {
-        // Create an instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
-
-        // Set the full name using the setFullName method
         String fullName = "John Doe";
+        
         userInfoData.setFullName(fullName);
-
-        // Verify that the full name is set correctly
+        
         assertEquals(fullName, userInfoData.getFullName());
     }
 
     @Test
     public void testGetFullName() {
-        // Create a new instance of UserInfoData
         UserInfoData userInfoData = new UserInfoData();
+        String expectedFullName = "John Doe";
+        userInfoData.setFullName(expectedFullName);
 
-        // Set the full name of the user
-        String fullName = "John Doe";
-        userInfoData.setFullName(fullName);
+        String actualFullName = userInfoData.getFullName();
 
-        // Retrieve the full name using the getFullName() method
-        String retrievedFullName = userInfoData.getFullName();
-
-        // Assert that the retrieved full name matches the expected full name
-        assertEquals(fullName, retrievedFullName);
+        assertEquals(expectedFullName, actualFullName);
     }
-
-@Test
-public void testToString() {
-    UserInfoData userInfoData = new UserInfoData();
-    userInfoData.setBio("This is my bio");
-    Counts counts = new Counts();
-    userInfoData.setCounts(counts);
-    userInfoData.setFirstName("John");
-    userInfoData.setId("123456");
-
-    userInfoData.setLast_name("Doe"); // Fix: Change setLastName to setLast_name
-
-    userInfoData.setProfilePicture("profile.jpg");
-    userInfoData.setUsername("johndoe");
-    userInfoData.setFullName("John Doe");
-    userInfoData.setWebsite("www.example.com");
-    userInfoData.setBusiness(true);
-    String expected = "UserInfoData [bio=This is my bio, counts=" + counts.toString() + ", first_name=John, id=123456, last_name=Doe, profile_picture=profile.jpg, username=johndoe, fullName=John Doe, website=www.example.com, isBusiness=true]";
-    String actual = userInfoData.toString();
-    assertEquals(expected, actual);
-}
 
 }

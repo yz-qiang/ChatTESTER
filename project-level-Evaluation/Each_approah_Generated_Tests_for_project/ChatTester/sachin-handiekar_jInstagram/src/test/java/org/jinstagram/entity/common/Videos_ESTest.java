@@ -6,7 +6,17 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.VideoData;
+import org.jinstagram.entity.common.Videos;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -21,68 +31,52 @@ public class Videos_ESTest extends Videos_ESTest_scaffolding {
 
     @Test
     public void testSetStandardResolution() {
-        // Create a Videos object
+        // Given
+        VideoData videoData = new VideoData();
         Videos videos = new Videos();
 
-        // Create a VideoData object for standard resolution
-        VideoData standardResolution = new VideoData();
+        // When
+        videos.setStandardResolution(videoData);
 
-        // Set the standard resolution using the setStandardResolution method
-        videos.setStandardResolution(standardResolution);
-
-        // Verify that the standard resolution has been set correctly
-        assertEquals(standardResolution, videos.getStandardResolution());
+        // Then
+        assertEquals(videoData, videos.getStandardResolution());
     }
 
     @Test
     public void testSetLowResolution() {
-        // Create a new instance of Videos
+        // Given
         Videos videos = new Videos();
-
-        // Create a new instance of VideoData
-        VideoData lowResolution = new VideoData();
-
-        // Set the low-resolution video data using the setLowResolution method
-        videos.setLowResolution(lowResolution);
-
-        // Verify that the low-resolution video data is set correctly
-        assertEquals(lowResolution, videos.getLowResolution());
+        VideoData expectedLowResolution = new VideoData();
+        
+        // When
+        videos.setLowResolution(expectedLowResolution);
+        VideoData actualLowResolution = videos.getLowResolution();
+        
+        // Then
+        assertEquals(expectedLowResolution, actualLowResolution);
     }
 
     @Test
     public void testGetLowResolution() {
-        // Create a Videos object
         Videos videos = new Videos();
-
-        // Create a VideoData object for low resolution
-        VideoData lowResolution = new VideoData();
-
-        // Set the low resolution video data in the Videos object
-        videos.setLowResolution(lowResolution);
-
-        // Retrieve the low resolution video data using the getLowResolution() method
-        VideoData retrievedLowResolution = videos.getLowResolution();
-
-        // Assert that the retrieved low resolution video data is equal to the original low resolution video data
-        assertEquals(lowResolution, retrievedLowResolution);
+        VideoData expectedLowResolution = new VideoData();
+        
+        videos.setLowResolution(expectedLowResolution);
+        VideoData actualLowResolution = videos.getLowResolution();
+        
+        assertNotNull(actualLowResolution);
+        assertEquals(expectedLowResolution, actualLowResolution);
     }
 
     @Test
     public void testGetStandardResolution() {
-        // Create a Videos object
         Videos videos = new Videos();
+        VideoData expectedStandardResolution = new VideoData();
+        videos.setStandardResolution(expectedStandardResolution);
 
-        // Create a VideoData object for standard resolution
-        VideoData standardResolution = new VideoData();
+        VideoData actualStandardResolution = videos.getStandardResolution();
 
-        // Set the standard resolution video data in the Videos object
-        videos.setStandardResolution(standardResolution);
-
-        // Retrieve the standard resolution video data using the getStandardResolution() method
-        VideoData retrievedStandardResolution = videos.getStandardResolution();
-
-        // Assert that the retrieved standard resolution video data is equal to the original standard resolution video data
-        assertEquals(standardResolution, retrievedStandardResolution);
+        assertEquals(expectedStandardResolution, actualStandardResolution);
     }
 
 }

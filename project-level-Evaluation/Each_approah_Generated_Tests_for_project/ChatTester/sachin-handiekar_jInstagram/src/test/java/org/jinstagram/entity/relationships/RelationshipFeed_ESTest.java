@@ -5,18 +5,8 @@
  */
 package org.jinstagram.entity.relationships;
 
-import org.jinstagram.entity.common.Meta;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Meta;
-import org.jinstagram.entity.relationships.RelationshipData;
-import org.jinstagram.entity.relationships.RelationshipFeed;
-import org.junit.runner.RunWith;
-
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,7 +17,7 @@ import org.jinstagram.entity.relationships.RelationshipFeed;
 import org.junit.runner.RunWith;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -43,84 +33,59 @@ public class RelationshipFeed_ESTest extends RelationshipFeed_ESTest_scaffolding
 
     @Test
     public void testGetData() {
-        // Create a RelationshipFeed object
+        // Given
         RelationshipFeed relationshipFeed = new RelationshipFeed();
-
-        // Create a RelationshipData object
         RelationshipData expectedData = new RelationshipData();
-
-        // Set the RelationshipData object in the RelationshipFeed object
+        
+        // When
         relationshipFeed.setData(expectedData);
-
-        // Call the getData() method
         RelationshipData actualData = relationshipFeed.getData();
-
-        // Assert that the returned data is the same as the expected data
+        
+        // Then
+        assertNotNull(actualData);
         assertEquals(expectedData, actualData);
     }
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of RelationshipFeed
+        // Given
         RelationshipFeed relationshipFeed = new RelationshipFeed();
-
-        // Create a new instance of Meta
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
+        
+        // When
         relationshipFeed.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, relationshipFeed.getMeta());
+        
+        // Then
+        Meta updatedMeta = relationshipFeed.getMeta();
+        assertEquals(meta, updatedMeta);
     }
 
     @Test
     public void testSetData() {
-        // Create a new instance of RelationshipFeed
+        // Given
         RelationshipFeed relationshipFeed = new RelationshipFeed();
-
-        // Create a new instance of RelationshipData
-        RelationshipData data = new RelationshipData();
-
-        // Set the data using the setData method
-        relationshipFeed.setData(data);
-
-        // Verify that the data has been set correctly
-        assertEquals(data, relationshipFeed.getData());
+        RelationshipData testData = new RelationshipData();
+        
+        // When
+        relationshipFeed.setData(testData);
+        
+        // Then
+        assertEquals(testData, relationshipFeed.getData());
     }
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of RelationshipFeed
+        // Given
         RelationshipFeed relationshipFeed = new RelationshipFeed();
-
-        // Create a new instance of Meta
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
-
-        // Set the expected Meta object to the RelationshipFeed instance
         relationshipFeed.setMeta(expectedMeta);
 
-        // Call the getMeta() method
+        // When
         Meta actualMeta = relationshipFeed.getMeta();
 
-        // Assert that the actual Meta object is equal to the expected Meta object
+        // Then
+        assertNotNull(actualMeta);
         assertEquals(expectedMeta, actualMeta);
     }
-
-@Test
-public void testToString() {
-    RelationshipData data = new RelationshipData();
-    Meta meta = new Meta();
-    RelationshipFeed relationshipFeed = new RelationshipFeed();
-    relationshipFeed.setData(data);
-    relationshipFeed.setMeta(meta);
-    
-    String expected = String.format("RelationshipFeed [data=%s, meta=%s]", data, meta);
-    String actual = relationshipFeed.toString();
-    
-    assertEquals(expected, actual);
-}
 
 }

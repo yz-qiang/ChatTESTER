@@ -6,7 +6,17 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
 import static org.junit.Assert.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.entity.common.ImageData;
+import org.jinstagram.entity.common.Images;
+import org.junit.runner.RunWith;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -21,118 +31,69 @@ public class Images_ESTest extends Images_ESTest_scaffolding {
 
     @Test
     public void testGetStandardResolution() {
-        // Create an instance of the Images class
         Images images = new Images();
-
-        // Create an instance of ImageData for standard resolution
         ImageData standardResolution = new ImageData();
-
-        // Set the standard resolution image data in the Images instance
         images.setStandardResolution(standardResolution);
 
-        // Call the getStandardResolution() method and assert that it returns the same ImageData instance
-        assertEquals(standardResolution, images.getStandardResolution());
-    }
+        ImageData retrievedStandardResolution = images.getStandardResolution();
 
-    @Test
-    public void testToString() {
-        // Create test data
-        ImageData lowResolution = new ImageData();
-        ImageData standardResolution = new ImageData();
-        ImageData thumbnail = new ImageData();
-        
-        // Set test data
-        Images images = new Images();
-        images.setLowResolution(lowResolution);
-        images.setStandardResolution(standardResolution);
-        images.setThumbnail(thumbnail);
-        
-        // Expected result
-        String expected = "Images [lowResolution=" + lowResolution + ", standardResolution=" + standardResolution + ", thumbnail=" + thumbnail + "]";
-        
-        // Test the toString() method
-        String result = images.toString();
-        
-        // Assert the result
-        assertEquals(expected, result);
+        assertNotNull("Standard resolution should not be null", retrievedStandardResolution);
+        // Additional assertions or verifications can be added here based on specific requirements
     }
 
     @Test
     public void testGetThumbnail() {
-        // Create an instance of the Images class
         Images images = new Images();
-
-        // Create an instance of ImageData for the thumbnail
         ImageData thumbnail = new ImageData();
-
-        // Set the thumbnail image data in the Images instance
         images.setThumbnail(thumbnail);
 
-        // Call the getThumbnail() method and assert that it returns the same thumbnail image data
-        assertEquals(thumbnail, images.getThumbnail());
+        ImageData retrievedThumbnail = images.getThumbnail();
+
+        assertNotNull("Thumbnail should not be null", retrievedThumbnail);
+        // Add more specific assertions as needed
     }
 
     @Test
     public void testGetLowResolution() {
-        // Create an instance of the Images class
         Images images = new Images();
+        ImageData imageData = new ImageData();
+        images.setLowResolution(imageData);
 
-        // Create an instance of ImageData for low resolution
-        ImageData lowResolution = new ImageData();
+        ImageData retrievedImageData = images.getLowResolution();
 
-        // Set the low resolution image data in the Images instance
-        images.setLowResolution(lowResolution);
-
-        // Retrieve the low resolution image data using the getLowResolution() method
-        ImageData retrievedLowResolution = images.getLowResolution();
-
-        // Assert that the retrieved low resolution image data is equal to the original low resolution image data
-        assertEquals(lowResolution, retrievedLowResolution);
+        assertNotNull("Low resolution image data should not be null", retrievedImageData);
     }
 
     @Test
     public void testSetLowResolution() {
-        // Create a new instance of Images
         Images images = new Images();
-
-        // Create a new instance of ImageData for low resolution
-        ImageData lowResolution = new ImageData();
-
-        // Set the low resolution image data using the setLowResolution method
-        images.setLowResolution(lowResolution);
-
-        // Verify that the low resolution image data is set correctly
-        assertEquals(lowResolution, images.getLowResolution());
+        ImageData expectedLowResolution = new ImageData();
+        
+        images.setLowResolution(expectedLowResolution);
+        
+        ImageData actualLowResolution = images.getLowResolution();
+        
+        assertEquals(expectedLowResolution, actualLowResolution);
     }
 
     @Test
     public void testSetThumbnail() {
-        // Create a new Images object
         Images images = new Images();
-
-        // Create a new ImageData object for the thumbnail
         ImageData thumbnail = new ImageData();
-
-        // Set the thumbnail using the setThumbnail method
+        
         images.setThumbnail(thumbnail);
-
-        // Verify that the thumbnail is set correctly
+        
         assertEquals(thumbnail, images.getThumbnail());
     }
 
     @Test
     public void testSetStandardResolution() {
-        // Create a new Images object
         Images images = new Images();
-
-        // Create a new ImageData object for standard resolution
-        ImageData standardResolution = new ImageData();
-
-        // Set the standard resolution using the setStandardResolution method
-        images.setStandardResolution(standardResolution);
-
-        // Verify that the standard resolution has been set correctly
-        assertEquals(standardResolution, images.getStandardResolution());
+        ImageData imageData = new ImageData();
+        
+        images.setStandardResolution(imageData);
+        
+        assertEquals(imageData, images.getStandardResolution());
     }
 
 }

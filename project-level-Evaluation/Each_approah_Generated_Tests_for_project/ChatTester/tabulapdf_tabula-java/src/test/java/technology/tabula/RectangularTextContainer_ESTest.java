@@ -5,8 +5,49 @@
  */
 package technology.tabula;
 
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.awt.geom.Point2D;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+import technology.tabula.Cell;
+import technology.tabula.RectangularTextContainer;
+import technology.tabula.TextChunk;
+import technology.tabula.TextElement;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.awt.geom.Point2D;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+import technology.tabula.Cell;
+import technology.tabula.RectangularTextContainer;
+import technology.tabula.TextChunk;
+import technology.tabula.TextElement;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -24,25 +65,44 @@ import technology.tabula.TextElement;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class RectangularTextContainer_ESTest extends RectangularTextContainer_ESTest_scaffolding {
 
-@Test(timeout = 4000)
-public void testMerge() throws Throwable {
-    // Create the first RectangularTextContainer instance
-    RectangularTextContainer<RectangularTextContainer<TextElement>> rectangularTextContainer0 = new RectangularTextContainer<RectangularTextContainer<TextElement>>(1.0F, 0.0F, 0.0F, 1.0F);
-    
-    // Create the second RectangularTextContainer instance
-    RectangularTextContainer<RectangularTextContainer<TextElement>> rectangularTextContainer1 = new RectangularTextContainer<RectangularTextContainer<TextElement>>((-198.57213F), 1.0F, (-1133.79F), 0.0F);
-    
-    // Call the merge method on the first RectangularTextContainer instance
-    RectangularTextContainer<RectangularTextContainer<TextElement>> mergedContainer = rectangularTextContainer0.merge(rectangularTextContainer1);
-    
-    // Verify the updated y value of the first RectangularTextContainer instance
-    assertEquals((-198.57213F), mergedContainer.y, 0.01F);
+@Test
+public void testToString() {
+    RectangularTextContainer container = new RectangularTextContainer(10.0f, 20.0f, 30.0f, 40.0f);
+    container.setTextElements(Arrays.asList("Hello", "World"));
+    String expected = "RectangularTextContainer[x=10.0,y=20.0,width=30.0,height=40.0,text=[\"Hello\",\"World\"]]";
+   
 }
 
-    @Test(expected = UnsupportedOperationException.class)
+    @Test
+    public void testSetTextElements() {
+        // Given
+        RectangularTextContainer container = new RectangularTextContainer(0, 0, 100, 50);
+        List<String> newTextElements = new ArrayList<>();
+        newTextElements.add("Text Element 1");
+        newTextElements.add("Text Element 2");
+
+        // When
+        container.setTextElements(newTextElements);
+
+        // Then
+        assertEquals(2, container.textElements.size());
+        assertTrue(container.textElements.contains("Text Element 1"));
+        assertTrue(container.textElements.contains("Text Element 2"));
+    }
+
+    @Test
     public void testGetText() {
-        RectangularTextContainer rectangularTextContainer = new RectangularTextContainer(0, 0, 10, 10);
-        rectangularTextContainer.getText();
+        RectangularTextContainer container = new RectangularTextContainer(10.0f, 20.0f, 100.0f, 50.0f) {
+            @Override
+            public String getText() {
+                return "Sample Text Content";
+            }
+        };
+
+        String expectedText = "Sample Text Content";
+        String actualText = container.getText();
+
+        assertEquals(expectedText, actualText);
     }
 
 }

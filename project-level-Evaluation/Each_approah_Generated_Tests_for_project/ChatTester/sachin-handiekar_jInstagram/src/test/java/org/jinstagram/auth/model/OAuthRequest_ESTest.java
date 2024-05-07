@@ -5,9 +5,8 @@
  */
 package org.jinstagram.auth.model;
 
-import java.util.Map;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -18,8 +17,9 @@ import org.jinstagram.auth.model.OAuthRequest;
 import org.jinstagram.http.Verbs;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import java.util.Map;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -36,44 +36,28 @@ public class OAuthRequest_ESTest extends OAuthRequest_ESTest_scaffolding {
 
     @Test
     public void testToString() {
-        // Create a new OAuthRequest object
-        OAuthRequest request = new OAuthRequest(Verbs.GET, "https://example.com");
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com/api";
+        OAuthRequest oauthRequest = new OAuthRequest(verb, url);
 
-        // Call the toString() method
-        String result = request.toString();
+        String expected = "@OAuthRequest(GET, https://example.com/api)";
+        String actual = oauthRequest.toString();
 
-        // Verify that the result is formatted correctly
-        assertEquals("@OAuthRequest(GET, https://example.com)", result);
+        assertEquals(expected, actual);
     }
 
     @Test
-    public void testAddOAuthParameter() {
-        // Create an instance of OAuthRequest
-        OAuthRequest oauthRequest = new OAuthRequest(Verbs.GET, "https://example.com");
-
-        // Add an OAuth parameter
-        String key = "oauth_key";
-        String value = "oauth_value";
-        oauthRequest.addOAuthParameter(key, value);
-
-        // Retrieve the OAuth parameters
+    public void testGetOauthParameters() {
+        // Given
+        Verbs verb = Verbs.GET;
+        String url = "https://example.com";
+        OAuthRequest oauthRequest = new OAuthRequest(verb, url);
+        
+        // When
         Map<String, String> oauthParameters = oauthRequest.getOauthParameters();
-
-        // Verify that the OAuth parameter was added correctly
-        assertTrue(oauthParameters.containsKey(key));
-        assertEquals(value, oauthParameters.get(key));
+        
+        // Then
+        assertEquals(0, oauthParameters.size());
     }
-
-@Test
-public void testGetOauthParameters() {
-    OAuthRequest oauthRequest = new OAuthRequest(Verbs.GET, "https://example.com");
-    oauthRequest.addOAuthParameter("oauth_key", "oauth_value");
-    Map<String, String> oauthParameters = oauthRequest.getOauthParameters();
-    
-    // Assertion statement
-    assertEquals(1, oauthParameters.size());
-    assertTrue(oauthParameters.containsKey("oauth_key"));
-    assertEquals("oauth_value", oauthParameters.get("oauth_key"));
-}
 
 }

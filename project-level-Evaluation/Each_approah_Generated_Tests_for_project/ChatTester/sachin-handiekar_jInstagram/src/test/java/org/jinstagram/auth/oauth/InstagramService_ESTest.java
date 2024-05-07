@@ -5,50 +5,32 @@
  */
 package org.jinstagram.auth.oauth;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.auth.InstagramApi;
-import org.jinstagram.auth.model.OAuthConfig;
-import org.jinstagram.auth.model.OAuthRequest;
-import org.jinstagram.auth.model.Token;
-import org.jinstagram.auth.model.Verifier;
-import org.jinstagram.auth.oauth.InstagramService;
-import org.jinstagram.http.Verbs;
-import org.junit.runner.RunWith;
-
-import org.jinstagram.auth.model.OAuthConstants;
-import org.jinstagram.auth.model.OAuthRequest;
-import org.jinstagram.auth.model.Token;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.evosuite.runtime.EvoAssertions.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.auth.InstagramApi;
-import org.jinstagram.auth.model.OAuthConfig;
-import org.jinstagram.auth.model.OAuthRequest;
-import org.jinstagram.auth.model.Token;
-import org.jinstagram.auth.model.Verifier;
-import org.jinstagram.auth.oauth.InstagramService;
-import org.jinstagram.http.Verbs;
-import org.junit.runner.RunWith;
-
-import org.jinstagram.auth.exceptions.OAuthException;
-import org.jinstagram.auth.model.OAuthConstants;
-import org.jinstagram.auth.model.OAuthRequest;
-import org.jinstagram.auth.model.Token;
-import org.jinstagram.auth.model.Verifier;
-import org.jinstagram.http.Response;
-import org.junit.Test;
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.jinstagram.auth.InstagramApi;
+import org.jinstagram.auth.model.OAuthConfig;
+import org.jinstagram.auth.oauth.InstagramService;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.jinstagram.auth.InstagramApi;
+import org.jinstagram.auth.model.OAuthConfig;
+import org.jinstagram.auth.model.OAuthRequest;
+import org.jinstagram.auth.model.Token;
+import org.jinstagram.auth.model.Verifier;
+import org.jinstagram.auth.oauth.InstagramService;
+import org.jinstagram.http.Verbs;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -67,46 +49,18 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class InstagramService_ESTest extends InstagramService_ESTest_scaffolding {
 
-@Test(timeout = 4000)
-public void test1() throws Throwable {
-    InstagramApi instagramApi0 = new InstagramApi();
-    OAuthConfig oAuthConfig0 = new OAuthConfig("YX", "", "", "YX");
-    InstagramService instagramService0 = instagramApi0.createService(oAuthConfig0);
-    // Undeclared exception!
-    try {
-        instagramService0.getAccessToken((Verifier) null);
-        fail("Expecting exception: NullPointerException");
-    } catch (NullPointerException e) {
-        // 
-        // no message in exception (getMessage() returned null)
-        // 
-        verifyException("org.jinstagram.auth.oauth.InstagramService", e);
-    }
+    @Test
+    public void testGetAuthorizationUrl() {
+         
 }
 
 @Test
-public void testSignRequest() {
-    Token accessToken = new Token("mockAccessToken", "mockSecret");
+public void testGetVersion() {
+    InstagramService instagramService = new InstagramService(new InstagramApi(), new OAuthConfig("client_id", "client_secret"));
 
-    OAuthRequest request = new OAuthRequest(Verbs.GET, "https:");
-
-    InstagramService instagramService = new InstagramService(null, null);
-    instagramService.signRequest(accessToken, request);
-    assertEquals("mockAccessToken", request.getQueryStringParams().get(OAuthConstants.ACCESS_TOKEN));
+    String expectedVersion = "1.0";
+    String actualVersion = instagramService.getVersion();
+    assertEquals(expectedVersion, actualVersion);
 }
-
-    @Test
-    public void testGetVersion() {
-        InstagramService instagramService = new InstagramService(null, null);
-        String version = instagramService.getVersion();
-        assertNotNull(version);
-        assertEquals("1.0", version);
-    }
-
-    @Test(expected = UnsupportedOperationException.class)
-    public void testGetRequestToken() {
-        InstagramService instagramService = new InstagramService(null, null);
-        instagramService.getRequestToken();
-    }
 
 }

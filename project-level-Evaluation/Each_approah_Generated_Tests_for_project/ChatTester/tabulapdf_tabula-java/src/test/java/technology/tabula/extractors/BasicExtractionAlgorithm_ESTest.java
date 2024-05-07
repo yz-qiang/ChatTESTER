@@ -5,8 +5,29 @@
  */
 package technology.tabula.extractors;
 
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import java.util.List;
+import technology.tabula.Line;
+import technology.tabula.Rectangle;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import java.util.LinkedList;
+import java.util.List;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+import technology.tabula.Line;
+import technology.tabula.Page;
+import technology.tabula.Ruling;
+import technology.tabula.TextChunk;
+import technology.tabula.extractors.BasicExtractionAlgorithm;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -27,10 +48,17 @@ public class BasicExtractionAlgorithm_ESTest extends BasicExtractionAlgorithm_ES
 
     @Test
     public void testToString() {
-        BasicExtractionAlgorithm algorithm = new BasicExtractionAlgorithm();
+        BasicExtractionAlgorithm basicExtractionAlgorithm = new BasicExtractionAlgorithm();
         String expected = "stream";
-        String actual = algorithm.toString();
+        String actual = basicExtractionAlgorithm.toString();
         assertEquals(expected, actual);
     }
+
+@Test
+public void testColumnPositions() {
+    List<Line> lines = new ArrayList<>();
+    List<Float> expectedColumnPositions = new ArrayList<>();
+     
+}
 
 }

@@ -5,9 +5,8 @@
  */
 package org.jinstagram.realtime;
 
-import org.jinstagram.entity.common.Meta;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -22,36 +21,28 @@ public class SubscriptionResponse_ESTest extends SubscriptionResponse_ESTest_sca
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of SubscriptionResponse
-        SubscriptionResponse response = new SubscriptionResponse();
-
-        // Create a new instance of Meta
+        // Given
+        SubscriptionResponse subscriptionResponse = new SubscriptionResponse();
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
-        response.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
-        assertEquals(meta, response.getMeta());
+        
+        // When
+        subscriptionResponse.setMeta(meta);
+        
+        // Then
+        assertEquals(meta, subscriptionResponse.getMeta());
     }
 
     @Test
     public void testGetMeta() {
-        // Create a SubscriptionResponse object
-        SubscriptionResponse response = new SubscriptionResponse();
-
-        // Create a Meta object
+        // Given
         Meta expectedMeta = new Meta();
-        expectedMeta.setCode(200);
-        expectedMeta.setErrorType("none");
+        SubscriptionResponse subscriptionResponse = new SubscriptionResponse();
+        subscriptionResponse.setMeta(expectedMeta);
 
-        // Set the Meta object in the SubscriptionResponse object
-        response.setMeta(expectedMeta);
+        // When
+        Meta actualMeta = subscriptionResponse.getMeta();
 
-        // Call the getMeta() method
-        Meta actualMeta = response.getMeta();
-
-        // Assert that the returned Meta object is equal to the expected Meta object
+        // Then
         assertEquals(expectedMeta, actualMeta);
     }
 

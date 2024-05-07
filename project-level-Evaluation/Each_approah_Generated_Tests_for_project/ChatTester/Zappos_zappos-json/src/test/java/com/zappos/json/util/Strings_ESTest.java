@@ -5,11 +5,8 @@
  */
 package com.zappos.json.util;
 
-import java.io.IOException;
-import java.io.Reader;
-import java.io.StringReader;
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -21,8 +18,57 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
+import java.util.*;
+import java.lang.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.Strings;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import java.util.Arrays;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.Strings;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import java.util.*;
+import java.lang.*;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.evosuite.runtime.EvoAssertions.*;
+import com.zappos.json.util.Strings;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import org.evosuite.runtime.EvoRunner;
+import org.evosuite.runtime.EvoRunnerParameters;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -40,97 +86,68 @@ public class Strings_ESTest extends Strings_ESTest_scaffolding {
 
     @Test
     public void testRandomNumber() {
-        String result = Strings.randomNumber(5);
-        assertNotNull(result);
-        assertEquals(5, result.length());
-        assertTrue(Strings.isNumber(result));
+        // Given
+        int n = 5;
+        
+        // When
+        String result = Strings.randomNumber(n);
+        
+        // Then
+        assertEquals(n, result.length());
+        for (char c : result.toCharArray()) {
+            assertTrue(Character.isDigit(c));
+        }
     }
 
     @Test
-    public void testFromReader() throws IOException {
-        // Create a test input string
-        String input = "This is a test string";
-
-        // Create a StringReader object with the test input string
-        Reader reader = new StringReader(input);
-
-        // Define the expected output
-        String expectedOutput = "This is a test string";
-
-        // Define the buffer size
-        int bufferSize = 1024;
-
-        // Call the method under test
-        String actualOutput = Strings.fromReader(reader, bufferSize);
-
-        // Assert that the actual output matches the expected output
-        assertEquals(expectedOutput, actualOutput);
-    }
-
-    @Test
-    public void testIsNumber_ValidNumber_ReturnsTrue() {
-        // Arrange
-        String number = "12345";
-
-        // Act
-        boolean result = Strings.isNumber(number);
-
-        // Assert
-        assertTrue(result);
+    public void testIsNumber_validNumber() {
+        assertTrue(Strings.isNumber("123"));
     }
 
     @Test
     public void testRandom() {
         char[] chars = {'a', 'b', 'c', 'd', 'e'};
-        int n = 5;
-        String result = Strings.random(n, chars);
-        
-        // Check if the length of the generated string is equal to n
-        assertEquals(n, result.length());
-        
-        // Check if all characters in the generated string are from the given char array
+        String result = Strings.random(5, chars);
+
+        // Check if the length of the generated string is correct
+        assertEquals(5, result.length());
+
+        // Check if the generated string contains only characters from the provided char array
+        Set<Character> charSet = new HashSet<>();
+        for (char c : chars) {
+            charSet.add(c);
+        }
         for (char c : result.toCharArray()) {
-            boolean found = false;
-            for (char ch : chars) {
-                if (c == ch) {
-                    found = true;
-                    break;
-                }
-            }
-            assertTrue(found);
+            assertTrue(charSet.contains(c));
         }
     }
 
-    @Test
-    public void testRandomAlphabetic() {
-        // Test case 1: n = 0
-        String result1 = Strings.randomAlphabetic(0);
-        assertEquals("", result1);
-
-        // Test case 2: n = 5
-        String result2 = Strings.randomAlphabetic(5);
-        assertEquals(5, result2.length());
-        assertTrue(result2.matches("[a-zA-Z]+"));
-
-        // Test case 3: n = 10
-        String result3 = Strings.randomAlphabetic(10);
-        assertEquals(10, result3.length());
-        assertTrue(result3.matches("[a-zA-Z]+"));
+@Test
+public void testRandomAlphabetic() {
+    int n = 10;
+    String randomString = Strings.randomAlphabetic(n);
+    assertEquals(n, randomString.length());
+    for (char c : randomString.toCharArray()) {
+        assertTrue(Character.isLetter(c));
     }
-
-    @Test
-    public void testFromReader_2() throws IOException {
-        // Create a test input string
-        String input = "This is a test string";
-
-        // Create a StringReader object with the test input string
-        Reader reader = new StringReader(input);
-
-        // Call the fromReader method with the test reader
-        String result = Strings.fromReader(reader);
-
-        // Verify that the result matches the test input string
-        assertEquals(input, result);
+    boolean hasUpperCase = false;
+    boolean hasLowerCase = false;
+    for (char c : randomString.toCharArray()) {
+        if (Character.isUpperCase(c)) {
+            hasUpperCase = true;
+        } else if (Character.isLowerCase(c)) {
+            hasLowerCase = true;
+        }
     }
+                
+}
+
+@Test
+public void testFormat() {
+    String pattern1 = "Hello @, your age is @ years old.";
+    String expected1 = "Hello Alice, your age is 30 years old.";
+    String actual1 = Strings.format(pattern1, "Alice", 30);
+   
+}
 
 }

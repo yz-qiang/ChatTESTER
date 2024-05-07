@@ -6,14 +6,7 @@
 package org.jinstagram.entity.users.feed;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.users.feed.UserFeedData;
-import org.junit.runner.RunWith;
-
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,235 +20,208 @@ public class UserFeedData_ESTest extends UserFeedData_ESTest_scaffolding {
 
     @Test
     public void testGetLastName() {
-        UserFeedData user = new UserFeedData();
-        user.setLastName("Doe");
-        
-        String lastName = user.getLastName();
-        
-        assertEquals("Doe", lastName);
+        UserFeedData userFeedData = new UserFeedData();
+        userFeedData.setLastName("Doe");
+
+        assertEquals("Doe", userFeedData.getLastName());
     }
 
     @Test
     public void testSetLastName() {
-        // Create an instance of UserFeedData
-        UserFeedData user = new UserFeedData();
-
-        // Set the last name using the setLastName method
+        UserFeedData userFeedData = new UserFeedData();
         String lastName = "Doe";
-        user.setLastName(lastName);
-
-        // Verify that the last name has been set correctly
-        assertEquals(lastName, user.getLastName());
+        
+        userFeedData.setLastName(lastName);
+        
+        assertEquals(lastName, userFeedData.getLastName());
     }
 
     @Test
     public void testSetFirstName() {
-        // Create an instance of UserFeedData
-        UserFeedData user = new UserFeedData();
-
-        // Set the first name using the setFirstName method
+        UserFeedData userFeedData = new UserFeedData();
         String firstName = "John";
-        user.setFirstName(firstName);
-
-        // Verify that the first name is set correctly
-        assertEquals(firstName, user.getFirstName());
+        
+        userFeedData.setFirstName(firstName);
+        
+        assertEquals(firstName, userFeedData.getFirstName());
     }
 
     @Test
     public void testGetUserName() {
-        // Create a new instance of UserFeedData
-        UserFeedData user = new UserFeedData();
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        userFeedData.setUserName("testUsername");
 
-        // Set the value of userName using the setter method
-        user.setUserName("john_doe");
+        // When
+        String userName = userFeedData.getUserName();
 
-        // Call the getUserName() method and store the result in a variable
-        String result = user.getUserName();
-
-        // Assert that the value returned by getUserName() is equal to the value set using the setter method
-        assertEquals("john_doe", result);
+        // Then
+        assertEquals("testUsername", userName);
     }
 
     @Test
     public void testSetUserName() {
-        // Create an instance of UserFeedData
-        UserFeedData user = new UserFeedData();
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedUserName = "testUsername";
 
-        // Set the username using the setUserName method
-        String expectedUserName = "john_doe";
-        user.setUserName(expectedUserName);
+        // When
+        userFeedData.setUserName(expectedUserName);
 
-        // Verify that the username is set correctly
-        String actualUserName = user.getUserName();
-        assertEquals(expectedUserName, actualUserName);
+        // Then
+        assertEquals(expectedUserName, userFeedData.getUserName());
     }
 
     @Test
     public void testSetProfilePictureUrl() {
-        // Create a new UserFeedData object
-        UserFeedData user = new UserFeedData();
-
-        // Set the profile picture URL using the setProfilePictureUrl method
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
         String profilePictureUrl = "https://example.com/profile.jpg";
-        user.setProfilePictureUrl(profilePictureUrl);
 
-        // Verify that the profile picture URL has been updated correctly
-        assertEquals(profilePictureUrl, user.getProfilePictureUrl());
+        // When
+        userFeedData.setProfilePictureUrl(profilePictureUrl);
+
+        // Then
+        assertEquals(profilePictureUrl, userFeedData.getProfilePictureUrl());
     }
 
     @Test
     public void testSetBio() {
-        // Create a new UserFeedData object
-        UserFeedData user = new UserFeedData();
-
-        // Set the bio using the setBio method
-        String bio = "This is my bio";
-        user.setBio(bio);
-
-        // Verify that the bio property has been updated correctly
-        assertEquals(bio, user.getBio());
+        UserFeedData userFeedData = new UserFeedData();
+        String bio = "New Bio";
+        userFeedData.setBio(bio);
+        
+        assertEquals(bio, userFeedData.getBio());
     }
 
     @Test
     public void testGetProfilePictureUrl() {
-        // Create a UserFeedData object
-        UserFeedData user = new UserFeedData();
-        
-        // Set the profile picture URL
-        String profilePictureUrl = "https://example.com/profile.jpg";
-        user.setProfilePictureUrl(profilePictureUrl);
-        
-        // Call the getProfilePictureUrl() method and assert the result
-        assertEquals(profilePictureUrl, user.getProfilePictureUrl());
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedProfilePictureUrl = "https://example.com/profile.jpg";
+        userFeedData.setProfilePictureUrl(expectedProfilePictureUrl);
+
+        String actualProfilePictureUrl = userFeedData.getProfilePictureUrl();
+
+        assertEquals(expectedProfilePictureUrl, actualProfilePictureUrl);
     }
 
-@Test
-public void testToString() {
-    // Create a UserFeedData object with sample data
-    UserFeedData user = new UserFeedData();
-    user.setId("123");
-    user.setProfilePictureUrl("https://example.com/profile.jpg");
-    user.setUserName("john_doe");
-    user.setFullName("John Doe");
-    user.setWebsite("https://example.com");
-    user.setBio("Software Engineer");
+    @Test
+    public void testToString() {
+        UserFeedData userFeedData = new UserFeedData();
+        userFeedData.setId("123");
+        userFeedData.setProfilePictureUrl("https://example.com/profile.jpg");
+        userFeedData.setUserName("john_doe");
+        userFeedData.setFullName("John Doe");
+        userFeedData.setWebsite("https://example.com");
+        userFeedData.setBio("Hello, I'm John!");
 
-    // Expected string representation of the UserFeedData object
-    String expected = "UserFeedData [id=123, profilePictureUrl=https://example.com/profile.jpg, userName=john_doe, fullName=John Doe, website=https://example.com, bio=Software Engineer]";
+        String expected = "UserFeedData [id=123, profilePictureUrl=https://example.com/profile.jpg, userName=john_doe, fullName=John Doe, website=https://example.com, bio=Hello, I'm John!]";
+        String actual = userFeedData.toString();
 
-    // Call the toString() method and compare the result with the expected string
-    assertEquals(expected, user.toString());
-}
+        assertEquals(expected, actual);
+    }
 
     @Test
     public void testGetId() {
-        // Create a UserFeedData object
-        UserFeedData user = new UserFeedData();
-        
-        // Set the id attribute
-        user.setId("12345");
-        
-        // Call the getId() method and assert the returned value
-        assertEquals("12345", user.getId());
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedId = "12345";
+        userFeedData.setId(expectedId);
+
+        // When
+        String actualId = userFeedData.getId();
+
+        // Then
+        assertEquals(expectedId, actualId);
     }
 
     @Test
     public void testGetBio() {
-        // Create a UserFeedData object
-        UserFeedData user = new UserFeedData();
-        
-        // Set the bio of the user
-        user.setBio("I am a software engineer");
-        
-        // Retrieve the bio using the getBio() method
-        String bio = user.getBio();
-        
-        // Assert that the retrieved bio is equal to the expected bio
-        assertEquals("I am a software engineer", bio);
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedBio = "Sample bio text";
+        userFeedData.setBio(expectedBio);
+
+        // When
+        String actualBio = userFeedData.getBio();
+
+        // Then
+        assertEquals(expectedBio, actualBio);
     }
 
     @Test
     public void testGetFirstName() {
-        // Create a new instance of UserFeedData
-        UserFeedData user = new UserFeedData();
+        UserFeedData userFeedData = new UserFeedData();
+        userFeedData.setFirstName("John");
 
-        // Set the value of firstName using the setter method
-        user.setFirstName("John");
-
-        // Retrieve the value of firstName using the getter method
-        String firstName = user.getFirstName();
-
-        // Assert that the retrieved value is equal to the expected value
-        assertEquals("John", firstName);
+        assertEquals("John", userFeedData.getFirstName());
     }
 
     @Test
     public void testSetWebsite() {
-        // Create an instance of UserFeedData
-        UserFeedData user = new UserFeedData();
-
-        // Set the website
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
         String website = "www.example.com";
-        user.setWebsite(website);
 
-        // Verify that the website is set correctly
-        assertEquals(website, user.getWebsite());
+        // When
+        userFeedData.setWebsite(website);
+
+        // Then
+        assertEquals(website, userFeedData.getWebsite());
     }
 
     @Test
     public void testGetWebsite() {
-        // Create a UserFeedData object
-        UserFeedData user = new UserFeedData();
-        
-        // Set the website using the setter method
-        user.setWebsite("www.example.com");
-        
-        // Retrieve the website using the getter method
-        String website = user.getWebsite();
-        
-        // Assert that the retrieved website is equal to the expected website
-        assertEquals("www.example.com", website);
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedWebsite = "www.example.com";
+        userFeedData.setWebsite(expectedWebsite);
+
+        // When
+        String actualWebsite = userFeedData.getWebsite();
+
+        // Then
+        assertEquals(expectedWebsite, actualWebsite);
     }
 
     @Test
     public void testGetFullName() {
-        // Create a UserFeedData object
-        UserFeedData user = new UserFeedData();
-        
-        // Set the full name of the user
-        user.setFullName("John Doe");
-        
-        // Retrieve the full name using the getFullName() method
-        String fullName = user.getFullName();
-        
-        // Assert that the retrieved full name matches the expected value
-        assertEquals("John Doe", fullName);
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
+        String expectedFullName = "John Doe";
+        userFeedData.setFullName(expectedFullName);
+
+        // When
+        String actualFullName = userFeedData.getFullName();
+
+        // Then
+        assertEquals(expectedFullName, actualFullName);
     }
 
     @Test
     public void testSetFullName() {
-        // Create an instance of UserFeedData
-        UserFeedData user = new UserFeedData();
-
-        // Set the full name using the setFullName method
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
         String fullName = "John Doe";
-        user.setFullName(fullName);
 
-        // Verify that the full name is set correctly
-        assertEquals(fullName, user.getFullName());
+        // When
+        userFeedData.setFullName(fullName);
+
+        // Then
+        assertEquals(fullName, userFeedData.getFullName());
     }
 
     @Test
     public void testSetId() {
-        // Create a new UserFeedData object
-        UserFeedData user = new UserFeedData();
-
-        // Set the id using the setId method
+        // Given
+        UserFeedData userFeedData = new UserFeedData();
         String id = "12345";
-        user.setId(id);
 
-        // Verify that the id has been set correctly
-        assertEquals(id, user.getId());
+        // When
+        userFeedData.setId(id);
+
+        // Then
+        assertEquals(id, userFeedData.getId());
     }
 
 }

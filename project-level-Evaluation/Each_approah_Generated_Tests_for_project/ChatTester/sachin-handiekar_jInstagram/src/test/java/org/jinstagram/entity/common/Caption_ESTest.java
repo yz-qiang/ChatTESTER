@@ -6,7 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -19,115 +19,88 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class Caption_ESTest extends Caption_ESTest_scaffolding {
 
-@Test
-public void testGetFrom() {
-    Caption caption = new Caption();
-    FromTagData expectedFrom = new FromTagData();
+    @Test
+    public void testGetFrom() {
+        // Given
+        FromTagData expectedFrom = new FromTagData();
+        Caption caption = new Caption();
+        caption.setFrom(expectedFrom);
 
-    expectedFrom.setId("123456789");
-    caption.setFrom(expectedFrom);
-    FromTagData actualFrom = caption.getFrom();
-    assertEquals(expectedFrom, actualFrom);
-}
+        // When
+        FromTagData actualFrom = caption.getFrom();
+
+        // Then
+        assertEquals(expectedFrom, actualFrom);
+    }
 
     @Test
     public void testGetText() {
-        // Create a Caption object
+        // Given
         Caption caption = new Caption();
-        
-        // Set the text value
         String expectedText = "Sample text";
         caption.setText(expectedText);
-        
-        // Retrieve the text value using getText()
+
+        // When
         String actualText = caption.getText();
-        
-        // Assert that the retrieved text value matches the expected text value
+
+        // Then
         assertEquals(expectedText, actualText);
     }
 
     @Test
     public void testSetId() {
-        // Create a new Caption object
+        // Given
         Caption caption = new Caption();
-
-        // Set the id attribute using the setId method
         String id = "12345";
+
+        // When
         caption.setId(id);
 
-        // Verify that the id attribute has been set correctly
+        // Then
         assertEquals(id, caption.getId());
     }
 
     @Test
     public void testGetCreatedTime() {
-        // Create a Caption object
         Caption caption = new Caption();
-        
-        // Set the createdTime value
-        String expectedTime = "2021-01-01 12:00:00";
-        caption.setCreatedTime(expectedTime);
-        
-        // Retrieve the createdTime value using the getCreatedTime() method
-        String actualTime = caption.getCreatedTime();
-        
-        // Assert that the retrieved value matches the expected value
-        assertEquals(expectedTime, actualTime);
+        String expectedCreatedTime = "2022-01-01T12:00:00"; // Set an expected created time value
+
+        // Set the created time using the setter method (not directly accessing the private field)
+        caption.setCreatedTime(expectedCreatedTime);
+
+        // Call the getCreatedTime method and assert that it returns the expected value
+        String actualCreatedTime = caption.getCreatedTime();
+        assertEquals(expectedCreatedTime, actualCreatedTime);
     }
 
     @Test
     public void testSetCreatedTime() {
-        // Create a new instance of Caption
         Caption caption = new Caption();
-
-        // Set the created time using the setCreatedTime method
-        String createdTime = "2021-10-01 10:00:00";
+        String createdTime = "2022-01-01T12:00:00Z";
+        
         caption.setCreatedTime(createdTime);
-
-        // Verify that the created time is set correctly
+        
         assertEquals(createdTime, caption.getCreatedTime());
     }
 
     @Test
-    public void testSetFrom() {
-        // Create a Caption object
-        Caption caption = new Caption();
-
-        // Create a FromTagData object
-        FromTagData fromTagData = new FromTagData();
-
-        // Set the "from" property of the Caption object using the setFrom method
-        caption.setFrom(fromTagData);
-
-        // Verify that the "from" property of the Caption object is set correctly
-        assertEquals(fromTagData, caption.getFrom());
-    }
-
-    @Test
     public void testSetText() {
-        // Create a new instance of Caption
         Caption caption = new Caption();
-
-        // Set the text using the setText method
-        String expectedText = "Hello, world!";
-        caption.setText(expectedText);
-
-        // Verify that the text has been set correctly
-        String actualText = caption.getText();
-        assertEquals(expectedText, actualText);
+        String newText = "New Caption Text";
+        
+        caption.setText(newText);
+        
+        assertEquals(newText, caption.getText());
     }
 
     @Test
     public void testGetId() {
-        // Create a Caption object
         Caption caption = new Caption();
-        
-        // Set the id attribute
-        String expectedId = "123";
+        String expectedId = "12345";
         caption.setId(expectedId);
-        
-        // Call the getId() method and assert the returned value
+
         String actualId = caption.getId();
+
         assertEquals(expectedId, actualId);
     }
 

@@ -5,8 +5,8 @@
  */
 package technology.tabula;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -18,14 +18,18 @@ import technology.tabula.Pair;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class Pair_ESTest extends Pair_ESTest_scaffolding {
 
-@Test
-public void testGetRight() {
-    Integer expectedRight = 10;
+    @Test
+    public void testGetRight() {
+        // Given
+        Integer leftValue = 10;
+        Integer rightValue = 20;
+        Pair<Integer, Integer> pair = new Pair<>(leftValue, rightValue);
 
-    Pair<Integer, Integer> pair = new Pair<>(null, expectedRight);
+        // When
+        Integer retrievedRightValue = pair.getRight();
 
-    Integer actualRight = pair.getRight();
-    assertEquals(expectedRight, actualRight);
-}
+        // Then
+        assertEquals(rightValue, retrievedRightValue);
+    }
 
 }

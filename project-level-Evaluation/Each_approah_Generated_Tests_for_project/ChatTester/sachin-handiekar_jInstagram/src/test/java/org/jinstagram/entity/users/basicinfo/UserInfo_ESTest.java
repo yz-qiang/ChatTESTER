@@ -5,20 +5,8 @@
  */
 package org.jinstagram.entity.users.basicinfo;
 
-import org.jinstagram.entity.common.Meta;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
-import org.jinstagram.entity.common.Meta;
-import org.jinstagram.entity.users.basicinfo.UserInfo;
-import org.jinstagram.entity.users.basicinfo.UserInfoData;
-import org.junit.runner.RunWith;
-
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -28,6 +16,8 @@ import org.jinstagram.entity.users.basicinfo.UserInfo;
 import org.jinstagram.entity.users.basicinfo.UserInfoData;
 import org.junit.runner.RunWith;
 
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -43,86 +33,55 @@ public class UserInfo_ESTest extends UserInfo_ESTest_scaffolding {
 
     @Test
     public void testSetData() {
-        // Create a new instance of UserInfo
+        // Given
         UserInfo userInfo = new UserInfo();
-
-        // Create a new instance of UserInfoData
-        UserInfoData data = new UserInfoData();
-
-        // Set the data field in UserInfo using the setData method
-        userInfo.setData(data);
-
-        // Verify that the data field in UserInfo is set to the provided UserInfoData object
-        assertEquals(data, userInfo.getData());
+        UserInfoData testData = new UserInfoData();
+        
+        // When
+        userInfo.setData(testData);
+        
+        // Then
+        assertEquals(testData, userInfo.getData());
     }
-
-@Test
-public void testToString() {
-    // Create a UserInfo object
-    UserInfo userInfo = new UserInfo();
-    
-    // Create a UserInfoData object
-    UserInfoData data = new UserInfoData();
-    userInfo.setData(data);
-    
-    // Set the expected string representation
-    String expected = "UserInfo [data=" + data + "]";
-    
-    // Call the toString() method
-    String actual = userInfo.toString();
-    
-    // Assert that the actual string representation matches the expected value
-    assertEquals(expected, actual);
-}
 
     @Test
     public void testGetMeta() {
-        // Create a new instance of UserInfo
+        // Given
         UserInfo userInfo = new UserInfo();
-
-        // Create a new instance of Meta
         Meta expectedMeta = new Meta();
-
-        // Set the expected Meta object in the UserInfo instance
         userInfo.setMeta(expectedMeta);
 
-        // Call the getMeta() method
+        // When
         Meta actualMeta = userInfo.getMeta();
 
-        // Assert that the returned Meta object is equal to the expected Meta object
+        // Then
+        assertNotNull(actualMeta);
         assertEquals(expectedMeta, actualMeta);
     }
 
     @Test
     public void testGetData() {
-        // Create a new UserInfo object
         UserInfo userInfo = new UserInfo();
-
-        // Create a new UserInfoData object
-        UserInfoData expectedData = new UserInfoData();
-
-        // Set the expected data in the UserInfo object
-        userInfo.setData(expectedData);
-
-        // Call the getData() method
-        UserInfoData actualData = userInfo.getData();
-
-        // Assert that the actual data is equal to the expected data
-        assertEquals(expectedData, actualData);
+        UserInfoData userInfoData = new UserInfoData();
+        
+        // Set up the UserInfo object with UserInfoData
+        userInfo.setData(userInfoData);
+        
+        // Call the getData() method and assert that it returns the expected UserInfoData object
+        UserInfoData retrievedData = userInfo.getData();
+        assertNotNull(retrievedData);
     }
 
     @Test
     public void testSetMeta() {
-        // Create a new instance of UserInfo
+        // Given
         UserInfo userInfo = new UserInfo();
-
-        // Create a new instance of Meta
         Meta meta = new Meta();
-
-        // Set the Meta object using the setMeta method
+        
+        // When
         userInfo.setMeta(meta);
-
-        // Verify that the Meta object is correctly assigned to the instance variable 'meta'
+        
+        // Then
         assertEquals(meta, userInfo.getMeta());
     }
 

@@ -6,7 +6,7 @@
 package org.jinstagram.entity.common;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -14,6 +14,8 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jinstagram.entity.common.Meta;
 import org.junit.runner.RunWith;
 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.evosuite.runtime.EvoRunner;
@@ -27,103 +29,75 @@ public class Meta_ESTest extends Meta_ESTest_scaffolding {
 
     @Test
     public void testGetErrorType() {
-        // Create an instance of Meta
         Meta meta = new Meta();
-
-        // Set the error type
-        String errorType = "Runtime Error";
-        meta.setErrorType(errorType);
-
-        // Retrieve the error type using the getErrorType() method
-        String retrievedErrorType = meta.getErrorType();
-
-        // Assert that the retrieved error type matches the expected error type
-        assertEquals(errorType, retrievedErrorType);
+        meta.setErrorType("Test Error Type");
+        
+        String errorType = meta.getErrorType();
+        
+        assertEquals("Test Error Type", errorType);
     }
 
-@Test
-public void testToString() {
-    // Create a Meta object with sample values
-    Meta meta = new Meta();
-    meta.setCode(200);
-    meta.setErrorMessage("Success");
-    meta.setErrorType("Info");
+    @Test
+    public void testToString() {
+        Meta meta = new Meta();
+        meta.setCode(200);
+        meta.setErrorMessage("Not Found");
+        meta.setErrorType("API Error");
 
-    // Call the toString() method
-    String result = meta.toString();
+        String expected = "Meta [code=200, errorMessage=Not Found, errorType=API Error]";
+        String actual = meta.toString();
 
-    // Verify the generated string representation
-    String expected = "Meta [code=200, errorMessage=Success, errorType=Info]";
-    assertEquals(expected, result);
-}
+        assertEquals(expected, actual);
+    }
 
     @Test
     public void testGetErrorMessage() {
-        // Create an instance of Meta
         Meta meta = new Meta();
-
-        // Set the error message
-        String errorMessage = "This is an error message";
-        meta.setErrorMessage(errorMessage);
-
-        // Retrieve the error message using the getErrorMessage() method
-        String retrievedErrorMessage = meta.getErrorMessage();
-
-        // Assert that the retrieved error message is equal to the set error message
-        assertEquals(errorMessage, retrievedErrorMessage);
+        meta.setErrorMessage("Test Error Message");
+        
+        String errorMessage = meta.getErrorMessage();
+        
+        assertEquals("Test Error Message", errorMessage);
     }
 
     @Test
     public void testSetErrorType() {
-        // Create an instance of Meta
         Meta meta = new Meta();
-
-        // Set the error type using the setErrorType method
-        String errorType = "Runtime Error";
+        String errorType = "custom_error";
         meta.setErrorType(errorType);
-
-        // Verify that the error type is set correctly
+        
         assertEquals(errorType, meta.getErrorType());
     }
 
     @Test
     public void testSetErrorMessage() {
-        // Create an instance of Meta
         Meta meta = new Meta();
-
-        // Set the error message
-        String errorMessage = "This is an error message";
+        String errorMessage = "Sample error message";
         meta.setErrorMessage(errorMessage);
-
-        // Verify that the error message is set correctly
+        
         assertEquals(errorMessage, meta.getErrorMessage());
     }
 
     @Test
     public void testSetCode() {
-        // Create an instance of Meta
         Meta meta = new Meta();
-
-        // Set the code using the setCode method
-        meta.setCode(123);
-
-        // Verify that the code has been set correctly
-        assertEquals(123, meta.getCode());
+        int newCode = 200;
+        meta.setCode(newCode);
+        
+        assertEquals(newCode, meta.getCode());
     }
 
     @Test
     public void testGetCode() {
-        // Create an instance of Meta
+        // Given
         Meta meta = new Meta();
-        
-        // Set the code value
-        meta.setCode(123);
-        
-        // Retrieve the code value using getCode() method
+        meta.setCode(200);
+
+        // When
         int code = meta.getCode();
-        
-        // Assert that the retrieved code value is equal to the expected value
-        assertEquals(123, code);
+
+        // Then
+        assertEquals(200, code);
     }
 
 }

@@ -5,8 +5,19 @@
  */
 package com.zappos.json.util;
 
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.List;
+import java.util.Collection;
+import java.util.ArrayList;
+import java.lang.reflect.Modifier;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -19,14 +30,38 @@ import org.junit.runner.RunWith;
 @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false)
 public class TypeImpl_ESTest extends TypeImpl_ESTest_scaffolding {
 
-@Test
-public void testGetInfClass() {
-    Class<?> infClass = String.class;
+    @Test
+    public void testGetIterableImpl() {
+        // Test for List class
+        TypeImpl listTypeImpl = TypeImpl.getIterableImpl(List.class);
+        assertEquals(List.class, listTypeImpl.getInfClass());
+        assertEquals(ArrayList.class, listTypeImpl.getImplClass());
 
-    TypeImpl typeImpl = TypeImpl.getIterableImpl(infClass);
+        // Test for Collection class
+        TypeImpl collectionTypeImpl = TypeImpl.getIterableImpl(Collection.class);
+        assertEquals(Collection.class, collectionTypeImpl.getInfClass());
+        assertEquals(ArrayList.class, collectionTypeImpl.getImplClass());
 
-    Class<?> returnedInfClass = typeImpl.getInfClass();
-    assertEquals(infClass, returnedInfClass);
-}
+        // Test for Iterable class
+        TypeImpl iterableTypeImpl = TypeImpl.getIterableImpl(Iterable.class);
+        assertEquals(Iterable.class, iterableTypeImpl.getInfClass());
+        assertEquals(ArrayList.class, iterableTypeImpl.getImplClass());
+
+        // Test for abstract class (should throw RuntimeException)
+        try {
+            TypeImpl.getIterableImpl(AbstractList.class);
+            fail("Expected RuntimeException was not thrown");
+        } catch (RuntimeException e) {
+            assertEquals("Cannot find appropriate implementation of collection type: java.util.AbstractList", e.getMessage());
+        }
+
+        // Test for interface class (should throw RuntimeException)
+        try {
+            TypeImpl.getIterableImpl(Iterator.class);
+            fail("Expected RuntimeException was not thrown");
+        } catch (RuntimeException e) {
+            assertEquals("Cannot find appropriate implementation of collection type: java.util.Iterator", e.getMessage());
+        }
+    }
 
 }
